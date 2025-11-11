@@ -1,0 +1,682 @@
+{
+  "company": {
+    "name": "GEOLUX SRL",
+    "fullName": "GEOLUX S.R.L.",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "04315780165",
+    "taxCode": "04315780165",
+    "foundedDate": "19/07/2018",
+    "registrationDate": "30/07/2018",
+    "ateco": {
+      "code": "2553",
+      "description": "Machining of metals"
+    },
+    "address": {
+      "street": "VIA ANTONIO GRAMSCI, SNC",
+      "city": "CISERANO",
+      "province": "BG",
+      "zip": "24040",
+      "region": "LOMBARDY"
+    },
+    "contacts": {
+      "email": "",
+      "pec": "GEOLUXSRL@PEC.IT",
+      "phone": null,
+      "fax": "",
+      "website": "www.geolux.it"
+    },
+    "social": {
+      "hasSocial": true,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/geolux.it/"
+    }
+  },
+  "reportInfo": {
+    "date": "11 Novembre 2025",
+    "reportType": "Analisi Creditizia Completa",
+    "version": "1.0",
+    "lastUpdate": "31/12/2024",
+    "dataSource": "Bilancio 2024"
+  },
+  "riskAssessment": {
+    "score": 82,
+    "maxScore": 100,
+    "level": "BASSO",
+    "description": "Rischio creditizio basso con buone prospettive",
+    "colorClass": "light-green",
+    "trend": "stabile",
+    "recommendation": "Affidabile per operazioni commerciali standard"
+  },
+  "keyMetrics": [
+    {
+      "id": "fatturato",
+      "title": "Fatturato",
+      "value": "€ 929.798",
+      "trend": "+13,11%",
+      "colorClass": "light-green",
+      "direction": "up",
+      "icon": "ri-funds-box-line"
+    },
+    {
+      "id": "ebitda",
+      "title": "EBITDA",
+      "value": "€ 154.253",
+      "trend": "-0,31%",
+      "colorClass": "yellow",
+      "direction": "neutral",
+      "icon": "ri-line-chart-line"
+    },
+    {
+      "id": "ebitda_margin",
+      "title": "EBITDA Margin",
+      "value": "16,58%",
+      "trend": "",
+      "colorClass": "green",
+      "direction": "up",
+      "icon": "ri-percent-line"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "10,07%",
+      "trend": "",
+      "colorClass": "light-green",
+      "direction": "up",
+      "icon": "ri-money-dollar-circle-line"
+    },
+    {
+      "id": "current_ratio",
+      "title": "Current Ratio",
+      "value": "3,06x",
+      "trend": "",
+      "colorClass": "green",
+      "direction": "up",
+      "icon": "ri-water-flash-line"
+    },
+    {
+      "id": "leverage",
+      "title": "Leverage",
+      "value": "2,12x",
+      "trend": "",
+      "colorClass": "yellow",
+      "direction": "neutral",
+      "icon": "ri-scales-3-line"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "1,95x",
+      "trend": "",
+      "colorClass": "green",
+      "direction": "up",
+      "icon": "ri-shield-check-line"
+    },
+    {
+      "id": "pfn_ebitda",
+      "title": "PFN/EBITDA",
+      "value": "-0,43x",
+      "trend": "",
+      "colorClass": "green",
+      "direction": "up",
+      "icon": "ri-bank-card-line"
+    },
+    {
+      "id": "dso",
+      "title": "DSO",
+      "value": "198 gg",
+      "trend": "",
+      "colorClass": "red",
+      "direction": "down",
+      "icon": "ri-calendar-check-line"
+    },
+    {
+      "id": "employees",
+      "title": "Dipendenti",
+      "value": "5",
+      "trend": "0,00%",
+      "colorClass": "yellow",
+      "direction": "neutral",
+      "icon": "ri-shield-line"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Eccellente liquidità con current ratio di 3,06x",
+      "EBITDA margin superiore al benchmark settoriale (16,58% vs 8-10%)",
+      "Posizione finanziaria netta negativa (-65.891€) indica surplus di liquidità",
+      "Crescita del fatturato del 13,11% anno su anno",
+      "Rating creditizio stabile B1 con rischio verde"
+    ],
+    "weaknesses": [
+      "Tempi di incasso molto elevati (DSO 198 giorni vs benchmark 89)",
+      "Lieve calo della redditività operativa (-0,31% EBITDA)",
+      "Oneri finanziari elevati rispetto all'EBITDA (15,24%)",
+      "Sostenibilità del debito con aspetti di criticità (profilo 2/5)",
+      "Variazione negativa del risultato d'esercizio (-27,94%)"
+    ]
+  },
+  "charts": [
+    {
+      "id": "fatturato_trend",
+      "title": "Evoluzione Fatturato",
+      "type": "line",
+      "data": [
+        {
+          "period": "2023",
+          "value": 822026,
+          "label": "€ 822.026"
+        },
+        {
+          "period": "2024",
+          "value": 929798,
+          "label": "€ 929.798"
+        }
+      ],
+      "config": {
+        "yAxisLabel": "Euro",
+        "color": "#10B981"
+      }
+    },
+    {
+      "id": "profitability",
+      "title": "Indicatori di Redditività",
+      "type": "bar",
+      "data": [
+        {
+          "metric": "ROE",
+          "value": 10.07,
+          "label": "10,07%"
+        },
+        {
+          "metric": "ROI",
+          "value": 9.95,
+          "label": "9,95%"
+        },
+        {
+          "metric": "ROS",
+          "value": 12.02,
+          "label": "12,02%"
+        }
+      ],
+      "config": {
+        "yAxisLabel": "Percentuale",
+        "color": "#3B82F6"
+      }
+    },
+    {
+      "id": "liquidity",
+      "title": "Indicatori di Liquidità",
+      "type": "bar",
+      "data": [
+        {
+          "metric": "Current Ratio",
+          "value": 3.06,
+          "label": "3,06x"
+        },
+        {
+          "metric": "Acid Test",
+          "value": 3.06,
+          "label": "3,06x"
+        }
+      ],
+      "config": {
+        "yAxisLabel": "Ratio",
+        "color": "#06B6D4"
+      }
+    },
+    {
+      "id": "leverage_analysis",
+      "title": "Analisi Indebitamento",
+      "type": "doughnut",
+      "data": [
+        {
+          "label": "Patrimonio Netto",
+          "value": 540648,
+          "percentage": 47.1
+        },
+        {
+          "label": "Debiti",
+          "value": 593331,
+          "percentage": 51.7
+        },
+        {
+          "label": "Altri",
+          "value": 13389,
+          "percentage": 1.2
+        }
+      ],
+      "config": {
+        "colors": [
+          "#10B981",
+          "#F59E0B",
+          "#EF4444"
+        ]
+      }
+    },
+    {
+      "id": "risk_score_history",
+      "title": "Storico Risk Score",
+      "type": "line",
+      "data": [
+        {
+          "period": "Dic 2024",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Gen 2025",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Feb 2025",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Mar 2025",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Apr 2025",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Mag 2025",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Giu 2025",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Lug 2025",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Ago 2025",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Set 2025",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Ott 2025",
+          "value": "VERDE",
+          "score": 85
+        },
+        {
+          "period": "Nov 2025",
+          "value": "VERDE",
+          "score": 85
+        }
+      ],
+      "config": {
+        "yAxisLabel": "Score",
+        "color": "#10B981"
+      }
+    },
+    {
+      "id": "stress_test",
+      "title": "Stress Test DSCR",
+      "type": "bar",
+      "data": [
+        {
+          "scenario": "Base",
+          "dscr": 1.95,
+          "label": "1,95x"
+        },
+        {
+          "scenario": "-5%",
+          "dscr": 1.85,
+          "label": "1,85x"
+        },
+        {
+          "scenario": "-10%",
+          "dscr": 1.75,
+          "label": "1,75x"
+        },
+        {
+          "scenario": "-15%",
+          "dscr": 1.66,
+          "label": "1,66x"
+        }
+      ],
+      "config": {
+        "yAxisLabel": "DSCR",
+        "colors": [
+          "#10B981",
+          "#F59E0B",
+          "#F59E0B",
+          "#EF4444"
+        ]
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Equilibrio Patrimoniale",
+      "score": 4,
+      "maxScore": 5,
+      "percentage": 80,
+      "color": "light-green",
+      "trend": "stabile",
+      "description": "Situazione patrimoniale positiva con buona capitalizzazione",
+      "details": "Indice di capitalizzazione al 47,12% e copertura delle immobilizzazioni adeguata"
+    },
+    {
+      "name": "Equilibrio Finanziario",
+      "score": 5,
+      "maxScore": 5,
+      "percentage": 100,
+      "color": "green",
+      "trend": "in miglioramento",
+      "description": "Eccellente situazione finanziaria",
+      "details": "Liquidità corrente e secca ottimali (3,07x), ampia disponibilità di cassa"
+    },
+    {
+      "name": "Equilibrio Economico",
+      "score": 4,
+      "maxScore": 5,
+      "percentage": 80,
+      "color": "light-green",
+      "trend": "stabile",
+      "description": "Buona redditività operativa",
+      "details": "ROI al 9,95% e ROS al 12,02%, margini superiori alla media settoriale"
+    },
+    {
+      "name": "Sostenibilità del debito",
+      "score": 2,
+      "maxScore": 5,
+      "percentage": 40,
+      "color": "orange",
+      "trend": "in lieve peggioramento",
+      "description": "Aspetti di criticità nella gestione del debito",
+      "details": "Oneri finanziari elevati (15,24% dell'EBITDA) e rapporto debiti/EBITDA a 3,85x"
+    },
+    {
+      "name": "Sviluppo - Trend",
+      "score": 3,
+      "maxScore": 5,
+      "percentage": 60,
+      "color": "yellow",
+      "trend": "in lieve miglioramento",
+      "description": "Crescita del fatturato ma calo della redditività",
+      "details": "Fatturato +13,11% ma risultato d'esercizio -27,94%, margini in compressione"
+    }
+  ],
+  "management": [
+    {
+      "name": "RENALDA BEGAJ",
+      "firstName": "RENALDA",
+      "lastName": "BEGAJ",
+      "taxCode": "BGJRLD91B52Z100F",
+      "birthDate": "12/02/1991",
+      "birthPlace": "ALBANIA (E)",
+      "age": 34,
+      "gender": "F",
+      "role": "Managing director",
+      "roleCode": "AUN",
+      "roleStartDate": "27/10/2023",
+      "isLegalRepresentative": true
+    },
+    {
+      "name": "EGLANTIN ZHEGU",
+      "firstName": "EGLANTIN",
+      "lastName": "ZHEGU",
+      "taxCode": "ZHGGNT86S27Z100Q",
+      "birthDate": "27/11/1986",
+      "birthPlace": "ALBANIA (E)",
+      "age": 38,
+      "gender": "M",
+      "role": "Sole owner",
+      "roleCode": "SOU",
+      "roleStartDate": "21/07/2023",
+      "isLegalRepresentative": false
+    }
+  ],
+  "shareholdings": [],
+  "financialData": {
+    "balanceSheetDate": "31/12/2024",
+    "year": 2024,
+    "currency": "EUR",
+    "turnover": 929798,
+    "shareCapital": 10000,
+    "netWorth": 540648,
+    "ebitda": 154253,
+    "ebit": 114192,
+    "netIncome": 53279,
+    "cashFlow": 94486,
+    "employees": 5,
+    "assets": {
+      "total": 1147368,
+      "immobilizzazioni": 518540,
+      "circolante": 615959,
+      "disponibilitaLiquide": 344422,
+      "crediti": 505557
+    },
+    "liabilities": {
+      "total": 1147368,
+      "patrimonioNetto": 540648,
+      "debiti": 593331,
+      "debitiBreve": 393176,
+      "debitiMLTermine": 200155
+    },
+    "ratios": {
+      "roe": 10.07,
+      "roi": 9.95,
+      "ros": 12.02,
+      "currentRatio": 3.06,
+      "leverage": 2.12,
+      "debtRatio": 1.1
+    }
+  },
+  "companyProfile": {
+    "sector": "Prodotti in metallo, escluse macchine e attrezzature",
+    "sectorCode": "2553",
+    "description": "GEOLUX S.R.L. opera nel settore della lavorazione dei metalli, specializzandosi in machining di precisione. L'azienda, fondata nel 2018, ha sede a Ciserano (BG) e serve clienti nel settore manifatturiero.",
+    "businessModel": "Azienda manifatturiera specializzata nella lavorazione meccanica di precisione",
+    "keyActivities": [
+      "Lavorazione meccanica di metalli",
+      "Machining di precisione",
+      "Servizi di subfornitura industriale"
+    ],
+    "marketPosition": "Operatore di nicchia nel mercato lombardo della meccanica di precisione",
+    "competitiveAdvantages": [
+      "Specializzazione tecnica",
+      "Posizione geografica strategica",
+      "Flessibilità operativa"
+    ],
+    "riskFactors": [
+      "Dipendenza da pochi clienti principali",
+      "Settore ciclico",
+      "Pressione sui margini"
+    ]
+  },
+  "outlook": {
+    "rating": "STABILE",
+    "horizon": "12 mesi",
+    "keyFactors": [
+      "Mantenimento della crescita del fatturato",
+      "Miglioramento dei tempi di incasso",
+      "Controllo degli oneri finanziari"
+    ],
+    "opportunities": [
+      "Espansione della base clienti",
+      "Investimenti in tecnologie avanzate",
+      "Diversificazione settoriale"
+    ],
+    "threats": [
+      "Aumento dei costi delle materie prime",
+      "Concorrenza internazionale",
+      "Rallentamento economico"
+    ],
+    "recommendations": [
+      "Implementare sistema di credit management per ridurre DSO",
+      "Rinegoziare condizioni finanziarie per ridurre oneri",
+      "Diversificare il portafoglio clienti",
+      "Monitorare attentamente il cash flow operativo"
+    ]
+  },
+  "codiceCrisi": [
+    {
+      "id": "patrimonio",
+      "name": "Patrimonio Netto",
+      "value": "€ 540.648",
+      "soglia": "> Capitale Sociale",
+      "status": "OK",
+      "description": "Patrimonio netto superiore al capitale sociale"
+    },
+    {
+      "id": "dscr",
+      "name": "DSCR Previsionale 6 Mesi",
+      "value": "1,95x",
+      "soglia": "≥ 1,0",
+      "status": "PARZIALE",
+      "description": "Valore storico positivo, necessario calcolo previsionale"
+    },
+    {
+      "id": "oneri",
+      "name": "Sostenibilità Oneri Finanziari",
+      "value": "2,73%",
+      "soglia": "≤ 3,8%",
+      "status": "OK",
+      "description": "Oneri finanziari sostenibili rispetto al fatturato"
+    },
+    {
+      "id": "patrimoniale",
+      "name": "Adeguatezza Patrimoniale",
+      "value": "91,13%",
+      "soglia": "≥ 2,3% - 9,4%",
+      "status": "OK",
+      "description": "Eccellente adeguatezza patrimoniale"
+    },
+    {
+      "id": "ritorno",
+      "name": "Ritorno Liquido dell'Attivo",
+      "value": "8,24%",
+      "soglia": "≥ 0,3% - 1,9%",
+      "status": "OK",
+      "description": "Ottimo ritorno liquido degli investimenti"
+    },
+    {
+      "id": "liquidita",
+      "name": "Indice di Liquidità",
+      "value": "156,67%",
+      "soglia": "≥ 69,8% - 108%",
+      "status": "OK",
+      "description": "Liquidità abbondante"
+    },
+    {
+      "id": "indebitamento",
+      "name": "Indebitamento Prev./Tributario",
+      "value": "N.D.",
+      "soglia": "≤ 2,9% - 14,6%",
+      "status": "MANCANTE",
+      "description": "Dato non disponibile nel bilancio"
+    }
+  ],
+  "noteTecniche": {
+    "irpScore": {
+      "description": "L'IRP Score è calcolato combinando il rating creditizio base (82 punti) con un aggiustamento basato sui profili di valutazione (media 3,60/5 = +0,72 punti)",
+      "formula": "IRP Score = Rating Base + (Media Profili × 0,2)",
+      "components": [
+        "Rating creditizio B1 = 82 punti base",
+        "Media profili = 3,60/5",
+        "Aggiustamento = +0,18 punti",
+        "Score finale = 82,18/100"
+      ]
+    },
+    "dscr": {
+      "description": "Debt Service Coverage Ratio misura la capacità di servire il debito",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari + Quota Capitale)",
+      "assumptions": [
+        "20% debiti breve termine considerati finanziari",
+        "Ammortamento debiti ML termine su 5 anni",
+        "Quota capitale annuale stimata"
+      ]
+    },
+    "pfn": {
+      "description": "Posizione Finanziaria Netta",
+      "formula": "PFN = Debiti Finanziari - Disponibilità Liquide",
+      "note": "Valore negativo indica surplus di liquidità"
+    },
+    "benchmarkSettoriale": {
+      "source": "Database settoriale Prodotti in metallo",
+      "reference": "Quintili di settore 2024",
+      "note": "Confronto con aziende similari per dimensione e attività"
+    }
+  },
+  "profiloAziendale": {
+    "anagrafica": {
+      "denominazione": "GEOLUX S.R.L.",
+      "formaGiuridica": "Società a responsabilità limitata",
+      "partitaIva": "04315780165",
+      "codiceFiscale": "04315780165",
+      "dataCostituzione": "19/07/2018",
+      "dataIscrizione": "30/07/2018"
+    },
+    "sede": {
+      "indirizzo": "VIA ANTONIO GRAMSCI, SNC",
+      "comune": "CISERANO",
+      "provincia": "BG",
+      "cap": "24040",
+      "regione": "LOMBARDIA"
+    },
+    "attivita": {
+      "codiceAteco": "2553",
+      "descrizioneAteco": "Machining of metals",
+      "settore": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    "contatti": {
+      "pec": "GEOLUXSRL@PEC.IT",
+      "sito": "www.geolux.it",
+      "linkedin": "https://www.linkedin.com/company/geolux.it/"
+    },
+    "governance": {
+      "amministratoreDelegato": "RENALDA BEGAJ",
+      "socioUnico": "EGLANTIN ZHEGU",
+      "dataUltimaModifica": "27/10/2023"
+    }
+  },
+  "datiFinanziari": {
+    "anno": 2024,
+    "dataChiusuraBilancio": "31/12/2024",
+    "valori": {
+      "fatturatoK": "929,8K",
+      "ebitdaK": "154,3K",
+      "utileNettoK": "53,3K",
+      "patrimonioNettoK": "540,6K",
+      "debitiTotaliK": "593,3K",
+      "disponibilitaK": "344,4K"
+    },
+    "variazioni": {
+      "fatturato": "+13,11%",
+      "ebitda": "-0,31%",
+      "dipendenti": "0,00%"
+    },
+    "indicatori": {
+      "roe": "10,07%",
+      "roi": "9,95%",
+      "ros": "12,02%",
+      "currentRatio": "3,06x",
+      "leverage": "2,12x"
+    },
+    "rating": {
+      "classe": "B1",
+      "rischio": "VERDE",
+      "limiteOperativo": "€ 32.000"
+    }
+  },
+  "partecipazioni": []
+}
