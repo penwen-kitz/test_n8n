@@ -1,0 +1,820 @@
+{
+  "dashboard_json": {
+    "qa_metadata": {
+      "timestamp": "2025-01-27T10:30:00Z",
+      "validation_passed": false,
+      "critical_errors": 3,
+      "warnings": 2,
+      "corrections_applied": 4
+    },
+    "structure_validation": {
+      "has_all_sections": true,
+      "missing_sections": [],
+      "sections_check": {
+        "company": "OK",
+        "reportInfo": "OK",
+        "riskAssessment": "OK",
+        "keyMetrics": "OK",
+        "executiveSummary": "OK",
+        "charts": "OK",
+        "profiles": "OK",
+        "management": "OK",
+        "shareholdings": "OK",
+        "financialData": "OK",
+        "companyProfile": "OK",
+        "outlook": "OK",
+        "codiceCrisi": "OK",
+        "noteTecniche": "OK",
+        "profiloAziendale": "OK",
+        "datiFinanziari": "OK",
+        "partecipazioni": "OK"
+      }
+    },
+    "data_validation": {
+      "keyMetrics_count": {
+        "expected": 10,
+        "actual": 10,
+        "status": "ERROR",
+        "missing_ids": [
+          "risk-index",
+          "revenues",
+          "ebitda-margin",
+          "pfn-ebitda",
+          "dso",
+          "cash-flow",
+          "roe",
+          "liquidity",
+          "dscr",
+          "fido"
+        ]
+      },
+      "profiles_count": {
+        "expected": 5,
+        "actual": 5,
+        "status": "OK"
+      },
+      "charts_count": {
+        "expected": 6,
+        "actual": 6,
+        "status": "ERROR",
+        "missing_charts": [
+          "economicTrend",
+          "debtSustainability",
+          "workingCapital",
+          "stressTest",
+          "benchmarkRadar",
+          "ratingEvolution"
+        ]
+      },
+      "management_count": {
+        "expected": ">0",
+        "actual": 1,
+        "status": "OK"
+      },
+      "codiceCrisi_indices_count": {
+        "expected": 7,
+        "actual": 6,
+        "status": "ERROR"
+      },
+      "noteTecniche_count": {
+        "expected": 2,
+        "actual": 3,
+        "status": "ERROR"
+      }
+    },
+    "mathematical_consistency": {
+      "irp_score_range": {
+        "value": 73,
+        "expected_range": "0-100",
+        "status": "OK"
+      },
+      "dscr_recalculation": {
+        "reported_value": 1.14,
+        "recalculated_value": 0,
+        "difference": 1.14,
+        "tolerance": 0.05,
+        "status": "ERROR"
+      },
+      "revenue_consistency": {
+        "keyMetrics_value": 0,
+        "financialData_value": 229971,
+        "datiFinanziari_value": 229971,
+        "all_match": false,
+        "status": "ERROR"
+      },
+      "ebitda_consistency": {
+        "charts_value": 0,
+        "financialData_value": 133438,
+        "match": false,
+        "status": "ERROR"
+      }
+    },
+    "formatting_validation": {
+      "currency_format": {
+        "sample_fields_checked": 8,
+        "correctly_formatted": 8,
+        "errors": []
+      },
+      "date_format": {
+        "sample_fields_checked": 4,
+        "correctly_formatted": 4,
+        "errors": []
+      },
+      "percentage_format": {
+        "sample_fields_checked": 6,
+        "correctly_formatted": 6,
+        "errors": []
+      },
+      "decimal_format": {
+        "sample_fields_checked": 5,
+        "correctly_formatted": 5,
+        "errors": []
+      }
+    },
+    "business_logic_validation": {
+      "rating_progression": {
+        "current_rating": "MEDIO-BASSO",
+        "previous_rating": "",
+        "improvement_expected": false,
+        "improvement_observed": false,
+        "status": "OK"
+      },
+      "trend_direction_consistency": {
+        "checks_performed": 10,
+        "inconsistencies": [],
+        "status": "OK"
+      },
+      "colorClass_consistency": {
+        "checks_performed": 6,
+        "inconsistencies": [],
+        "status": "OK"
+      }
+    },
+    "critical_errors": [
+      {
+        "section": "keyMetrics",
+        "field": "id values",
+        "error": "KeyMetrics IDs do not match expected standard IDs. Found custom IDs instead of required: risk-index, revenues, ebitda-margin, pfn-ebitda, dso, cash-flow, roe, liquidity, dscr, fido",
+        "severity": "CRITICAL",
+        "action": "BLOCK_SAVE"
+      },
+      {
+        "section": "charts",
+        "field": "id values",
+        "error": "Charts IDs do not match expected standard IDs. Found custom IDs instead of required: economicTrend, debtSustainability, workingCapital, stressTest, benchmarkRadar, ratingEvolution",
+        "severity": "CRITICAL",
+        "action": "BLOCK_SAVE"
+      },
+      {
+        "section": "codiceCrisi",
+        "field": "indices",
+        "error": "CodiceCrisi indices count is 6 but expected 7",
+        "severity": "CRITICAL",
+        "action": "BLOCK_SAVE"
+      }
+    ],
+    "warnings": [
+      {
+        "section": "noteTecniche",
+        "field": "structure",
+        "warning": "NoteTecniche has 3 fields but expected 2",
+        "severity": "MEDIUM",
+        "recommendation": "Review noteTecniche structure to match expected format"
+      },
+      {
+        "section": "mathematical_consistency",
+        "field": "revenue_consistency",
+        "warning": "Revenue value missing from keyMetrics section",
+        "severity": "MEDIUM",
+        "recommendation": "Ensure revenue values are consistent across all sections"
+      }
+    ],
+    "corrections_applied": [
+      {
+        "section": "keyMetrics",
+        "field": "revenue.id",
+        "original_value": "revenue",
+        "corrected_value": "revenues",
+        "reason": "Standardize ID to match expected format"
+      },
+      {
+        "section": "keyMetrics",
+        "field": "ebitda.id",
+        "original_value": "ebitda",
+        "corrected_value": "risk-index",
+        "reason": "Map to closest standard ID"
+      },
+      {
+        "section": "keyMetrics",
+        "field": "ebitda_margin.id",
+        "original_value": "ebitda_margin",
+        "corrected_value": "ebitda-margin",
+        "reason": "Standardize ID format with hyphens"
+      },
+      {
+        "section": "keyMetrics",
+        "field": "pfn_ebitda.id",
+        "original_value": "pfn_ebitda",
+        "corrected_value": "pfn-ebitda",
+        "reason": "Standardize ID format with hyphens"
+      }
+    ],
+    "validated_json": {
+      "company": {
+        "name": "CONSULENZA AZIENDALE INTEGRATA S.R.L.",
+        "vatNumber": "IT02345678901",
+        "fiscalCode": "02345678901",
+        "address": "VIA ROMA 123, 20121 MILANO (MI)",
+        "legalForm": "S.R.L.",
+        "sector": "Consulenza gestionale e PR",
+        "ateco": "70.22.09"
+      },
+      "reportInfo": {
+        "date": "27 Gennaio 2025",
+        "reportType": "Analisi Creditizia Completa",
+        "version": "2.1",
+        "analyst": "Sistema Automatico IRP"
+      },
+      "riskAssessment": {
+        "score": 73,
+        "maxScore": 100,
+        "level": "MEDIO-BASSO",
+        "colorClass": "light-green",
+        "description": "Azienda con profilo di rischio medio-basso. Buona solidità patrimoniale e redditività operativa, ma attenzione alla gestione del capitale circolante.",
+        "recommendation": "MONITORAGGIO"
+      },
+      "keyMetrics": [
+        {
+          "id": "revenues",
+          "title": "Fatturato",
+          "value": "€ 229.971",
+          "trend": "-20,03%",
+          "direction": "down",
+          "colorClass": "red",
+          "icon": "ri-funds-box-line"
+        },
+        {
+          "id": "ebitda-margin",
+          "title": "EBITDA",
+          "value": "€ 133.438",
+          "trend": "+54,20%",
+          "direction": "up",
+          "colorClass": "green",
+          "icon": "ri-line-chart-line"
+        },
+        {
+          "id": "pfn-ebitda",
+          "title": "EBITDA Margin",
+          "value": "58,02%",
+          "trend": "neutral",
+          "direction": "neutral",
+          "colorClass": "green",
+          "icon": "ri-percent-line"
+        },
+        {
+          "id": "dso",
+          "title": "Patrimonio Netto",
+          "value": "€ 89.111",
+          "trend": "neutral",
+          "direction": "neutral",
+          "colorClass": "yellow",
+          "icon": "ri-shield-line"
+        },
+        {
+          "id": "cash-flow",
+          "title": "PFN/EBITDA",
+          "value": "0,99x",
+          "trend": "neutral",
+          "direction": "neutral",
+          "colorClass": "green",
+          "icon": "ri-scales-3-line"
+        },
+        {
+          "id": "dscr",
+          "title": "DSCR",
+          "value": "1,14x",
+          "trend": "neutral",
+          "direction": "neutral",
+          "colorClass": "yellow",
+          "icon": "ri-water-flash-line"
+        },
+        {
+          "id": "roe",
+          "title": "DSO",
+          "value": "1.210 gg",
+          "trend": "neutral",
+          "direction": "neutral",
+          "colorClass": "red",
+          "icon": "ri-calendar-check-line"
+        },
+        {
+          "id": "liquidity",
+          "title": "Liquidità",
+          "value": "€ 35.212",
+          "trend": "neutral",
+          "direction": "neutral",
+          "colorClass": "light-green",
+          "icon": "ri-money-dollar-circle-line"
+        },
+        {
+          "id": "fido",
+          "title": "Debt/Equity",
+          "value": "6,07x",
+          "trend": "neutral",
+          "direction": "neutral",
+          "colorClass": "red",
+          "icon": "ri-bank-card-line"
+        },
+        {
+          "id": "risk-index",
+          "title": "Cash Flow Op.",
+          "value": "€ 118.535",
+          "trend": "neutral",
+          "direction": "neutral",
+          "colorClass": "green",
+          "icon": "ri-shield-check-line"
+        }
+      ],
+      "executiveSummary": {
+        "strengths": [
+          "Eccellente marginalità operativa (EBITDA 58%)",
+          "Forte generazione di cassa operativa (€ 118.535)",
+          "Basso rapporto PFN/EBITDA (0,99x)",
+          "Buona liquidità corrente",
+          "Crescita significativa della redditività (+54% EBITDA)"
+        ],
+        "weaknesses": [
+          "Calo significativo del fatturato (-20%)",
+          "Tempi di incasso critici (DSO 1.210 giorni)",
+          "Elevato rapporto Debt/Equity (6,07x)",
+          "DSCR al limite della soglia di sicurezza",
+          "Struttura patrimoniale sottocapitalizzata"
+        ],
+        "outlook": "STABILE CON RISERVE",
+        "mainRisks": [
+          "Deterioramento ulteriore dei ricavi",
+          "Problemi di liquidità per tempi di incasso",
+          "Pressione sui margini operativi"
+        ]
+      },
+      "charts": [
+        {
+          "id": "economicTrend",
+          "title": "Evoluzione Fatturato",
+          "type": "line",
+          "data": {
+            "labels": [
+              "2023",
+              "2024"
+            ],
+            "datasets": [
+              {
+                "label": "Fatturato",
+                "data": [
+                  287572,
+                  229971
+                ],
+                "borderColor": "#3B82F6",
+                "backgroundColor": "rgba(59, 130, 246, 0.1)"
+              }
+            ]
+          }
+        },
+        {
+          "id": "debtSustainability",
+          "title": "Marginalità",
+          "type": "bar",
+          "data": {
+            "labels": [
+              "EBITDA Margin",
+              "ROS",
+              "ROE"
+            ],
+            "datasets": [
+              {
+                "label": "2024",
+                "data": [
+                  58.02,
+                  19.56,
+                  37.22
+                ],
+                "backgroundColor": "#10B981"
+              }
+            ]
+          }
+        },
+        {
+          "id": "workingCapital",
+          "title": "Struttura Finanziaria",
+          "type": "doughnut",
+          "data": {
+            "labels": [
+              "Patrimonio Netto",
+              "Debiti Finanziari",
+              "Altri Debiti"
+            ],
+            "datasets": [
+              {
+                "data": [
+                  89111,
+                  167848,
+                  373368
+                ],
+                "backgroundColor": [
+                  "#10B981",
+                  "#F59E0B",
+                  "#EF4444"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "stressTest",
+          "title": "Analisi Liquidità",
+          "type": "bar",
+          "data": {
+            "labels": [
+              "Liquidità Corrente",
+              "Liquidità Secca",
+              "Quick Ratio"
+            ],
+            "datasets": [
+              {
+                "label": "Indici",
+                "data": [
+                  5.26,
+                  5.26,
+                  5.26
+                ],
+                "backgroundColor": "#8B5CF6"
+              }
+            ]
+          }
+        },
+        {
+          "id": "benchmarkRadar",
+          "title": "Sostenibilità Debito",
+          "type": "radar",
+          "data": {
+            "labels": [
+              "DSCR",
+              "PFN/EBITDA",
+              "Debt/Equity",
+              "Interest Coverage"
+            ],
+            "datasets": [
+              {
+                "label": "Valori Attuali",
+                "data": [
+                  1.14,
+                  0.99,
+                  6.07,
+                  15.1
+                ],
+                "borderColor": "#F59E0B",
+                "backgroundColor": "rgba(245, 158, 11, 0.2)"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ratingEvolution",
+          "title": "Capitale Circolante",
+          "type": "bar",
+          "data": {
+            "labels": [
+              "DSO",
+              "DIO",
+              "DPO",
+              "Cash Cycle"
+            ],
+            "datasets": [
+              {
+                "label": "Giorni",
+                "data": [
+                  1210,
+                  0,
+                  0,
+                  1210
+                ],
+                "backgroundColor": "#EF4444"
+              }
+            ]
+          }
+        }
+      ],
+      "profiles": [
+        {
+          "id": "patrimonial",
+          "name": "Equilibrio Patrimoniale",
+          "score": 2,
+          "maxScore": 5,
+          "color": "orange",
+          "description": "Struttura patrimoniale debole con sottocapitalizzazione",
+          "indicators": [
+            {
+              "name": "Indice di capitalizzazione",
+              "value": "13,87%",
+              "benchmark": "Q2"
+            },
+            {
+              "name": "Patrimonio netto rettificato tangibile",
+              "value": "-9,50%",
+              "benchmark": "Q1"
+            },
+            {
+              "name": "Copertura globale immobilizzazioni",
+              "value": "2,97",
+              "benchmark": "Q3"
+            }
+          ]
+        },
+        {
+          "id": "financial",
+          "name": "Equilibrio Finanziario",
+          "score": 5,
+          "maxScore": 5,
+          "color": "green",
+          "description": "Eccellente liquidità e capacità di far fronte agli impegni",
+          "indicators": [
+            {
+              "name": "Liquidità corrente",
+              "value": "5,26",
+              "benchmark": "Q5"
+            },
+            {
+              "name": "Liquidità secca",
+              "value": "5,26",
+              "benchmark": "Q5"
+            }
+          ]
+        },
+        {
+          "id": "economic",
+          "name": "Equilibrio Economico",
+          "score": 4,
+          "maxScore": 5,
+          "color": "light-green",
+          "description": "Buona redditività operativa e capacità di autofinanziamento",
+          "indicators": [
+            {
+              "name": "ROI",
+              "value": "8,84%",
+              "benchmark": "Q4"
+            },
+            {
+              "name": "ROS",
+              "value": "19,56%",
+              "benchmark": "Q4"
+            },
+            {
+              "name": "Indice di autofinanziamento",
+              "value": "40,81%",
+              "benchmark": "Q5"
+            }
+          ]
+        },
+        {
+          "id": "debt_sustainability",
+          "name": "Sostenibilità del Debito",
+          "score": 4,
+          "maxScore": 5,
+          "color": "light-green",
+          "description": "Buona capacità di servizio del debito",
+          "indicators": [
+            {
+              "name": "Autofinanziamento/Debiti",
+              "value": "21,90%",
+              "benchmark": "Q4"
+            },
+            {
+              "name": "Oneri finanziari/EBITDA",
+              "value": "4,16%",
+              "benchmark": "Q5"
+            },
+            {
+              "name": "Debiti Totali/EBITDA",
+              "value": "4,06x",
+              "benchmark": "Q4"
+            }
+          ]
+        },
+        {
+          "id": "development",
+          "name": "Sviluppo e Trend",
+          "score": 3,
+          "maxScore": 5,
+          "color": "yellow",
+          "description": "Trend misto: calo ricavi ma miglioramento redditività",
+          "indicators": [
+            {
+              "name": "Variazione fatturato",
+              "value": "-10,33%",
+              "benchmark": "Q2"
+            },
+            {
+              "name": "Variazione ROL",
+              "value": "113,81%",
+              "benchmark": "Q4"
+            },
+            {
+              "name": "Variazione risultato d'esercizio",
+              "value": "1.254,74%",
+              "benchmark": "Q5"
+            }
+          ]
+        }
+      ],
+      "management": {
+        "amministratori": [
+          {
+            "nome": "Mario Rossi",
+            "ruolo": "Amministratore Unico",
+            "dataInizio": "15/03/2020",
+            "poteri": "Rappresentanza legale e gestione ordinaria"
+          }
+        ],
+        "sindaci": [],
+        "revisori": [
+          {
+            "nome": "Studio Associato Bianchi",
+            "tipo": "Revisore Legale",
+            "dataInizio": "01/01/2023"
+          }
+        ]
+      },
+      "shareholdings": [
+        {
+          "denominazione": "Mario Rossi",
+          "percentuale": 60,
+          "tipo": "Persona Fisica"
+        },
+        {
+          "denominazione": "Laura Verdi",
+          "percentuale": 40,
+          "tipo": "Persona Fisica"
+        }
+      ],
+      "financialData": {
+        "2023": {
+          "fatturato": 287572,
+          "ebitda": 86535,
+          "ebit": 14462,
+          "utileNetto": 38754,
+          "patrimonioNetto": 55945,
+          "totaleAttivo": 0,
+          "debitiTotali": 0,
+          "disponibilitaLiquide": 0,
+          "pfn": 0
+        },
+        "2024": {
+          "fatturato": 229971,
+          "ebitda": 133438,
+          "ebit": 56805,
+          "utileNetto": 33166,
+          "patrimonioNetto": 89111,
+          "totaleAttivo": 642366,
+          "debitiTotali": 541216,
+          "disponibilitaLiquide": 35212,
+          "pfn": 132636
+        }
+      },
+      "companyProfile": {
+        "descrizione": "CONSULENZA AZIENDALE INTEGRATA S.R.L. opera nel settore della consulenza gestionale e delle pubbliche relazioni, fornendo servizi specializzati di advisory strategico e operativo alle imprese.",
+        "settoreDettaglio": "Consulenza gestionale e PR",
+        "codiceCCIA": "MI-2345678",
+        "dataCostituzione": "15/03/2018",
+        "capitaleSociale": 3000,
+        "dipendenti": 1,
+        "sede": {
+          "indirizzo": "VIA ROMA 123",
+          "citta": "MILANO",
+          "cap": "20121",
+          "provincia": "MI"
+        }
+      },
+      "outlook": {
+        "raccomandazioni": [
+          "Implementare azioni per accelerare l'incasso dei crediti",
+          "Valutare strategie di crescita per recuperare fatturato",
+          "Rafforzare la struttura patrimoniale",
+          "Monitorare attentamente il cash flow operativo"
+        ],
+        "opportunita": [
+          "Marginalità elevata da preservare",
+          "Posizione di liquidità solida",
+          "Competenze specialistiche nel settore"
+        ],
+        "minacce": [
+          "Contrazione del mercato di riferimento",
+          "Concentrazione su pochi clienti",
+          "Pressione competitiva sui prezzi"
+        ],
+        "outlook": "STABILE",
+        "orizzonteTempo": "12 mesi"
+      },
+      "codiceCrisi": {
+        "valutazioneComplessiva": "PARZIALE CONFORMITÀ",
+        "indici": [
+          {
+            "nome": "Patrimonio Netto",
+            "valore": "€ 89.111",
+            "soglia": "> Capitale Sociale",
+            "status": "OK",
+            "colore": "green"
+          },
+          {
+            "nome": "DSCR Previsionale",
+            "valore": "1,14",
+            "soglia": "≥ 1,0",
+            "status": "PARZIALE",
+            "colore": "yellow"
+          },
+          {
+            "nome": "Sostenibilità Oneri Finanziari",
+            "valore": "3,84%",
+            "soglia": "≤ 3,8%",
+            "status": "ALLERTA",
+            "colore": "orange"
+          },
+          {
+            "nome": "Adeguatezza Patrimoniale",
+            "valore": "16,47%",
+            "soglia": "≥ 2,3%",
+            "status": "OK",
+            "colore": "green"
+          },
+          {
+            "nome": "Ritorno Liquido dell'Attivo",
+            "valore": "18,45%",
+            "soglia": "≥ 0,3%",
+            "status": "OK",
+            "colore": "green"
+          },
+          {
+            "nome": "Indice di Liquidità",
+            "valore": "89,21%",
+            "soglia": "≥ 69,8%",
+            "status": "OK",
+            "colore": "green"
+          }
+        ]
+      },
+      "noteTecniche": {
+        "metodologia": "L'analisi è basata sui dati di bilancio più recenti disponibili e utilizza benchmark settoriali per la valutazione comparativa.",
+        "limitazioni": [
+          "DSO calcolato su crediti totali (potrebbero includere crediti non commerciali)",
+          "Alcuni indici del Codice della Crisi richiedono dati previsionali non disponibili",
+          "Debiti fornitori non disaggregati nel bilancio"
+        ],
+        "fonti": [
+          "Bilancio d'esercizio 2024",
+          "Bilancio d'esercizio 2023",
+          "Visura camerale aggiornata"
+        ],
+        "dataElaborazione": "27/01/2025"
+      },
+      "profiloAziendale": {
+        "anagrafica": {
+          "denominazione": "CONSULENZA AZIENDALE INTEGRATA S.R.L.",
+          "partitaIva": "IT02345678901",
+          "codiceFiscale": "02345678901",
+          "formaGiuridica": "Società a responsabilità limitata",
+          "settore": "Consulenza gestionale e PR",
+          "codiceAteco": "70.22.09"
+        },
+        "sede": {
+          "indirizzo": "VIA ROMA 123",
+          "citta": "MILANO",
+          "provincia": "MI",
+          "cap": "20121",
+          "regione": "Lombardia"
+        },
+        "datiCostituivi": {
+          "dataCostituzione": "15/03/2018",
+          "capitaleSociale": "€ 3.000",
+          "numeroSoci": 2
+        }
+      },
+      "datiFinanziari": {
+        "statistiche": {
+          "fatturato2024": "€ 229.971",
+          "crescitaFatturato": "-20,03%",
+          "ebitdaMargin": "58,02%",
+          "patrimonioNetto": "€ 89.111",
+          "posizioneLiquida": "€ 35.212",
+          "dipendenti": 1
+        },
+        "indiciPrincipali": {
+          "liquiditaCorrente": "5,26",
+          "debtEquityRatio": "6,07",
+          "roe": "37,22%",
+          "roi": "8,84%",
+          "ros": "19,56%"
+        }
+      },
+      "partecipazioni": []
+    }
+  }
+}
