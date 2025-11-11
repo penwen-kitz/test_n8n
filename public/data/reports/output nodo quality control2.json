@@ -1,0 +1,455 @@
+{
+  "dashboard_json": {
+    "company": {
+      "name": "METAL TECH S.R.L.",
+      "vatNumber": "IT01234567890",
+      "fiscalCode": "01234567890",
+      "address": "Via Industriale 123, 20100 Milano (MI)",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature",
+      "legalForm": "Società a Responsabilità Limitata",
+      "employees": 5
+    },
+    "reportInfo": {
+      "date": "11 Gennaio 2025",
+      "reportType": "Analisi Creditizia Completa",
+      "version": "1.0",
+      "lastUpdate": "11/01/2025"
+    },
+    "riskAssessment": {
+      "score": 82,
+      "maxScore": 100,
+      "level": "BASSO",
+      "colorClass": "light-green",
+      "description": "Azienda con profilo di rischio basso. Buona solidità patrimoniale e finanziaria con margini di miglioramento nella gestione operativa."
+    },
+    "keyMetrics": [
+      {
+        "id": "fatturato",
+        "title": "Fatturato",
+        "value": "€ 929.798",
+        "trend": "+13,11%",
+        "icon": "ri-funds-box-line",
+        "colorClass": "green",
+        "direction": "up"
+      },
+      {
+        "id": "ebitda",
+        "title": "EBITDA",
+        "value": "€ 154.253",
+        "trend": "-0,31%",
+        "icon": "ri-line-chart-line",
+        "colorClass": "yellow",
+        "direction": "neutral"
+      },
+      {
+        "id": "ebitda_margin",
+        "title": "EBITDA Margin",
+        "value": "16,58%",
+        "trend": "vs 8-10%",
+        "icon": "ri-percent-line",
+        "colorClass": "green",
+        "direction": "up"
+      },
+      {
+        "id": "utile_netto",
+        "title": "Utile Netto",
+        "value": "€ 53.279",
+        "trend": "n.d.",
+        "icon": "ri-money-dollar-circle-line",
+        "colorClass": "green",
+        "direction": "up"
+      },
+      {
+        "id": "patrimonio_netto",
+        "title": "Patrimonio Netto",
+        "value": "€ 540.648",
+        "trend": "47,12%",
+        "icon": "ri-shield-check-line",
+        "colorClass": "light-green",
+        "direction": "up"
+      },
+      {
+        "id": "pfn",
+        "title": "Posizione Finanziaria Netta",
+        "value": "€ -65.891",
+        "trend": "-0,43x",
+        "icon": "ri-bank-card-line",
+        "colorClass": "green",
+        "direction": "up"
+      },
+      {
+        "id": "dscr",
+        "title": "DSCR",
+        "value": "1,95x",
+        "trend": "vs 1,0x",
+        "icon": "ri-scales-3-line",
+        "colorClass": "green",
+        "direction": "up"
+      },
+      {
+        "id": "liquidita",
+        "title": "Liquidità Corrente",
+        "value": "3,07x",
+        "trend": "Eccellente",
+        "icon": "ri-water-flash-line",
+        "colorClass": "green",
+        "direction": "up"
+      },
+      {
+        "id": "dso",
+        "title": "DSO",
+        "value": "198 gg",
+        "trend": "vs 89 gg",
+        "icon": "ri-calendar-check-line",
+        "colorClass": "red",
+        "direction": "down"
+      },
+      {
+        "id": "debt_equity",
+        "title": "Debt/Equity",
+        "value": "1,10x",
+        "trend": "Equilibrato",
+        "icon": "ri-scales-3-line",
+        "colorClass": "light-green",
+        "direction": "neutral"
+      }
+    ],
+    "executiveSummary": {
+      "strengths": [
+        "Crescita del fatturato del 13,11% anno su anno",
+        "EBITDA margin eccellente al 16,58% vs benchmark 8-10%",
+        "Posizione finanziaria netta negativa (-65.891€) indica liquidità superiore ai debiti",
+        "DSCR ottimo a 1,95x con ampio margine di copertura del servizio debito",
+        "Liquidità corrente eccellente a 3,07x",
+        "Patrimonio netto solido rappresenta il 47% del totale attivo"
+      ],
+      "weaknesses": [
+        "DSO critico a 198 giorni vs benchmark di 89 giorni",
+        "EBITDA in leggera flessione (-0,31%) nonostante crescita ricavi",
+        "Variazione del risultato d'esercizio sotto la media settoriale",
+        "Margini operativi in compressione rispetto al fatturato",
+        "Gestione del capitale circolante da ottimizzare"
+      ]
+    },
+    "charts": [
+      {
+        "id": "revenue-trend",
+        "title": "Evoluzione Fatturato",
+        "type": "line",
+        "data": [
+          {
+            "year": "2023",
+            "value": 822026
+          },
+          {
+            "year": "2024",
+            "value": 929798
+          }
+        ]
+      },
+      {
+        "id": "profitability",
+        "title": "Margini di Redditività",
+        "type": "bar",
+        "data": [
+          {
+            "metric": "EBITDA Margin",
+            "value": 16.58
+          },
+          {
+            "metric": "EBIT Margin",
+            "value": 12.28
+          },
+          {
+            "metric": "Net Margin",
+            "value": 5.73
+          }
+        ]
+      },
+      {
+        "id": "financial-structure",
+        "title": "Struttura Patrimoniale",
+        "type": "pie",
+        "data": [
+          {
+            "category": "Patrimonio Netto",
+            "value": 540648
+          },
+          {
+            "category": "Debiti Totali",
+            "value": 593331
+          }
+        ]
+      },
+      {
+        "id": "liquidity-analysis",
+        "title": "Analisi Liquidità",
+        "type": "bar",
+        "data": [
+          {
+            "metric": "Liquidità Corrente",
+            "value": 3.07
+          },
+          {
+            "metric": "Liquidità Secca",
+            "value": 3.07
+          }
+        ]
+      },
+      {
+        "id": "debt-coverage",
+        "title": "Copertura del Debito",
+        "type": "line",
+        "data": [
+          {
+            "metric": "DSCR",
+            "value": 1.95
+          },
+          {
+            "metric": "Soglia Minima",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "id": "working-capital",
+        "title": "Gestione Capitale Circolante",
+        "type": "bar",
+        "data": [
+          {
+            "metric": "DSO",
+            "value": 198
+          },
+          {
+            "metric": "Benchmark",
+            "value": 89
+          }
+        ]
+      }
+    ],
+    "profiles": [
+      {
+        "id": "patrimoniale",
+        "name": "Equilibrio Patrimoniale",
+        "score": 4,
+        "maxScore": 5,
+        "color": "light-green",
+        "description": "Buona struttura patrimoniale con patrimonio netto solido"
+      },
+      {
+        "id": "finanziario",
+        "name": "Equilibrio Finanziario",
+        "score": 5,
+        "maxScore": 5,
+        "color": "green",
+        "description": "Eccellente liquidità e gestione finanziaria"
+      },
+      {
+        "id": "economico",
+        "name": "Equilibrio Economico",
+        "score": 4,
+        "maxScore": 5,
+        "color": "light-green",
+        "description": "Buona redditività con margini sopra la media"
+      },
+      {
+        "id": "debito",
+        "name": "Sostenibilità del Debito",
+        "score": 4,
+        "maxScore": 5,
+        "color": "light-green",
+        "description": "Debito sostenibile con buona capacità di copertura"
+      },
+      {
+        "id": "sviluppo",
+        "name": "Sviluppo - Trend",
+        "score": 3,
+        "maxScore": 5,
+        "color": "yellow",
+        "description": "Crescita ricavi positiva ma margini in compressione"
+      }
+    ],
+    "management": {
+      "amministratori": [
+        {
+          "nome": "Mario Rossi",
+          "ruolo": "Amministratore Delegato",
+          "dataInizio": "01/01/2020"
+        }
+      ],
+      "sindaci": [],
+      "revisori": []
+    },
+    "shareholdings": {
+      "partecipazioni": [],
+      "partecipanti": [
+        {
+          "denominazione": "Mario Rossi",
+          "percentuale": 60,
+          "tipo": "Persona Fisica"
+        },
+        {
+          "denominazione": "Luigi Bianchi",
+          "percentuale": 40,
+          "tipo": "Persona Fisica"
+        }
+      ]
+    },
+    "financialData": {
+      "2023": {
+        "fatturato": 822026,
+        "ebitda": 154728,
+        "ebit": 121348,
+        "utileNetto": 0,
+        "patrimonioNetto": 0,
+        "totaleAttivo": 0,
+        "debitiTotali": 0,
+        "disponibilitaLiquide": 0,
+        "crediti": 0
+      },
+      "2024": {
+        "fatturato": 929798,
+        "ebitda": 154253,
+        "ebit": 114192,
+        "utileNetto": 53279,
+        "patrimonioNetto": 540648,
+        "totaleAttivo": 1147368,
+        "debitiTotali": 593331,
+        "disponibilitaLiquide": 344422,
+        "crediti": 505557
+      }
+    },
+    "companyProfile": {
+      "settoreAttivita": "Prodotti in metallo, escluse macchine e attrezzature",
+      "descrizioneAttivita": "Lavorazione e commercializzazione di prodotti metallici per l'industria",
+      "mercatiRiferimento": [
+        "Italia",
+        "Europa"
+      ],
+      "principaliClienti": "Aziende manifatturiere e industriali",
+      "fornitori": "Fornitori di materie prime metalliche",
+      "competitivita": "Posizione consolidata nel mercato di riferimento con focus su qualità e servizio"
+    },
+    "outlook": {
+      "raccomandazioni": [
+        "Ottimizzare la gestione del credito per ridurre i tempi di incasso",
+        "Monitorare l'evoluzione dei margini operativi",
+        "Valutare investimenti per efficientamento processi",
+        "Mantenere l'attuale solidità finanziaria"
+      ],
+      "opportunita": [
+        "Crescita del fatturato in atto da consolidare",
+        "Liquidità disponibile per investimenti strategici",
+        "Margini superiori alla media settoriale"
+      ],
+      "rischi": [
+        "Tempi di incasso elevati impattano sul cash flow",
+        "Pressione sui margini operativi",
+        "Dipendenza dal settore manifatturiero"
+      ]
+    },
+    "codiceCrisi": {
+      "indices": [
+        {
+          "name": "Patrimonio Netto",
+          "value": "€ 540.648",
+          "threshold": "> Capitale Sociale",
+          "status": "OK",
+          "color": "green"
+        },
+        {
+          "name": "DSCR Previsionale 6 Mesi",
+          "value": "1,95",
+          "threshold": "≥ 1,0",
+          "status": "PARZIALE",
+          "color": "yellow"
+        },
+        {
+          "name": "Sostenibilità Oneri Finanziari",
+          "value": "2,73%",
+          "threshold": "≤ 3,8%",
+          "status": "OK",
+          "color": "green"
+        },
+        {
+          "name": "Adeguatezza Patrimoniale",
+          "value": "91,13%",
+          "threshold": "≥ 2,3% - 9,4%",
+          "status": "OK",
+          "color": "green"
+        },
+        {
+          "name": "Ritorno Liquido dell'Attivo",
+          "value": "8,24%",
+          "threshold": "≥ 0,3% - 1,9%",
+          "status": "OK",
+          "color": "green"
+        },
+        {
+          "name": "Indice di Liquidità",
+          "value": "156,67%",
+          "threshold": "≥ 69,8% - 108%",
+          "status": "OK",
+          "color": "green"
+        },
+        {
+          "name": "Indebitamento Prev./Tributario",
+          "value": "n.d.",
+          "threshold": "≤ 2,9% - 14,6%",
+          "status": "MANCANTE",
+          "color": "gray"
+        }
+      ],
+      "overallStatus": "POSITIVO",
+      "summary": "La società rispetta la maggior parte degli indicatori del Codice della Crisi d'Impresa"
+    },
+    "noteTecniche": {
+      "metodologie": [
+        "IRP Score calcolato su base rating + profili di valutazione",
+        "Benchmark settoriali da database AIDA/Cerved",
+        "DSCR calcolato con assunzioni standard di mercato",
+        "Analisi trend su base annuale",
+        "Indicatori Codice Crisi secondo normativa vigente"
+      ],
+      "limitazioni": [
+        "Dati 2023 parzialmente stimati",
+        "DSCR previsionale non disponibile",
+        "Debiti fornitori non disaggregati",
+        "Indebitamento previdenziale/tributario non dettagliato"
+      ]
+    },
+    "profiloAziendale": {
+      "ragioneSociale": "METAL TECH S.R.L.",
+      "partitaIva": "IT01234567890",
+      "codiceFiscale": "01234567890",
+      "sede": "Via Industriale 123, 20100 Milano (MI)",
+      "settore": "Prodotti in metallo, escluse macchine e attrezzature",
+      "formaGiuridica": "S.R.L.",
+      "dipendenti": 5,
+      "dataCostituzione": "01/01/2010"
+    },
+    "datiFinanziari": {
+      "crescitaFatturato": "+13,11%",
+      "margineEbitda": "16,58%",
+      "patrimonializzazione": "47,12%",
+      "liquiditaCorrente": "3,07x",
+      "posizioneFinanziariaNetta": "€ -65.891",
+      "coperturadelDebito": "1,95x"
+    },
+    "partecipazioni": {
+      "partecipate": [],
+      "partecipanti": [
+        {
+          "soggetto": "Mario Rossi",
+          "quota": "60,0%",
+          "tipo": "Persona Fisica"
+        },
+        {
+          "soggetto": "Luigi Bianchi",
+          "quota": "40,0%",
+          "tipo": "Persona Fisica"
+        }
+      ]
+    }
+  }
+}
