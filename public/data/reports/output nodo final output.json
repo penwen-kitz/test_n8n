@@ -1,0 +1,636 @@
+{
+  "dashboard_json": {
+    "company": {
+      "name": "RETE FERROVIARIA ITALIANA S.P.A.",
+      "vatNumber": "01585570581",
+      "fiscalCode": "01585570581",
+      "address": "PIAZZA DELLA CROCE ROSSA 1",
+      "city": "ROMA",
+      "province": "RM",
+      "postalCode": "00161",
+      "region": "LAZIO",
+      "country": "ITALIA",
+      "legalForm": "SOCIETA' PER AZIONI",
+      "sector": "Consulenza gestionale e PR",
+      "ateco": "70.22.09",
+      "employees": 1,
+      "foundationDate": "25/09/2017"
+    },
+    "reportInfo": {
+      "date": "27 Gennaio 2025",
+      "reportType": "Analisi Creditizia Completa",
+      "version": "2.1",
+      "analyst": "Sistema Automatico",
+      "lastUpdate": "27/01/2025"
+    },
+    "riskAssessment": {
+      "score": 73,
+      "maxScore": 100,
+      "level": "MEDIO-BASSO",
+      "colorClass": "light-green",
+      "description": "Azienda con profilo di rischio medio-basso. Buona solidità patrimoniale e redditività operativa, ma con alcune criticità nella gestione del capitale circolante.",
+      "recommendation": "APPROVABILE CON MONITORAGGIO"
+    },
+    "keyMetrics": [
+      {
+        "id": "irp_score",
+        "title": "IRP Score",
+        "value": "73",
+        "unit": "/100",
+        "icon": "ri-shield-line",
+        "colorClass": "light-green",
+        "trend": "neutral",
+        "description": "Punteggio di rischio complessivo"
+      },
+      {
+        "id": "fatturato",
+        "title": "Fatturato",
+        "value": "€ 229.971",
+        "unit": "K",
+        "icon": "ri-funds-box-line",
+        "colorClass": "yellow",
+        "trend": "down",
+        "trendValue": "-20,03%",
+        "description": "Ricavi delle vendite"
+      },
+      {
+        "id": "ebitda_margin",
+        "title": "EBITDA Margin",
+        "value": "58,02%",
+        "icon": "ri-percent-line",
+        "colorClass": "green",
+        "trend": "up",
+        "description": "Margine operativo lordo"
+      },
+      {
+        "id": "pfn_ebitda",
+        "title": "PFN/EBITDA",
+        "value": "0,99x",
+        "icon": "ri-scales-3-line",
+        "colorClass": "green",
+        "trend": "up",
+        "description": "Rapporto indebitamento/redditività"
+      },
+      {
+        "id": "dscr",
+        "title": "DSCR",
+        "value": "1,14x",
+        "icon": "ri-calendar-check-line",
+        "colorClass": "yellow",
+        "trend": "neutral",
+        "description": "Copertura servizio debito"
+      },
+      {
+        "id": "roe",
+        "title": "ROE",
+        "value": "37,22%",
+        "icon": "ri-money-dollar-circle-line",
+        "colorClass": "green",
+        "trend": "up",
+        "description": "Redditività del capitale proprio"
+      },
+      {
+        "id": "roi",
+        "title": "ROI",
+        "value": "8,84%",
+        "icon": "ri-line-chart-line",
+        "colorClass": "light-green",
+        "trend": "up",
+        "description": "Redditività del capitale investito"
+      },
+      {
+        "id": "current_ratio",
+        "title": "Current Ratio",
+        "value": "5,26x",
+        "icon": "ri-water-flash-line",
+        "colorClass": "green",
+        "trend": "up",
+        "description": "Liquidità corrente"
+      },
+      {
+        "id": "equity_ratio",
+        "title": "Equity Ratio",
+        "value": "13,87%",
+        "icon": "ri-shield-check-line",
+        "colorClass": "yellow",
+        "trend": "neutral",
+        "description": "Indice di capitalizzazione"
+      },
+      {
+        "id": "dso",
+        "title": "DSO",
+        "value": "1.210",
+        "unit": "gg",
+        "icon": "ri-bank-card-line",
+        "colorClass": "red",
+        "trend": "down",
+        "description": "Giorni di incasso crediti"
+      }
+    ],
+    "executiveSummary": {
+      "strengths": [
+        "Eccellente marginalità operativa (EBITDA Margin 58,02%)",
+        "Ottima liquidità corrente (5,26x) e disponibilità immediate",
+        "Basso indebitamento finanziario rispetto alla redditività (PFN/EBITDA 0,99x)",
+        "Forte capacità di autofinanziamento (40,81%)",
+        "Buona redditività del capitale proprio (ROE 37,22%)"
+      ],
+      "weaknesses": [
+        "Tempi di incasso crediti estremamente elevati (DSO 1.210 giorni)",
+        "Calo significativo del fatturato (-20,03% YoY)",
+        "Bassa capitalizzazione (Equity Ratio 13,87%)",
+        "DSCR al limite della soglia di sicurezza (1,14x)",
+        "Elevato rapporto debiti/patrimonio netto (6,07x)"
+      ],
+      "risks": [
+        "Gestione inefficiente del capitale circolante",
+        "Dipendenza da pochi clienti con lunghi tempi di pagamento",
+        "Vulnerabilità a ulteriori cali di fatturato"
+      ],
+      "opportunities": [
+        "Miglioramento della gestione crediti",
+        "Ottimizzazione della struttura patrimoniale",
+        "Sfruttamento dell'alta marginalità per crescita"
+      ]
+    },
+    "charts": [
+      {
+        "id": "revenue_trend",
+        "title": "Andamento Ricavi",
+        "type": "line",
+        "data": {
+          "labels": [
+            "2023",
+            "2024"
+          ],
+          "datasets": [
+            {
+              "label": "Fatturato (K€)",
+              "data": [
+                287572,
+                229971
+              ],
+              "borderColor": "#3B82F6",
+              "backgroundColor": "rgba(59, 130, 246, 0.1)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "profitability",
+        "title": "Margini di Redditività",
+        "type": "bar",
+        "data": {
+          "labels": [
+            "EBITDA Margin",
+            "EBIT Margin",
+            "Net Margin"
+          ],
+          "datasets": [
+            {
+              "label": "2024 (%)",
+              "data": [
+                58.02,
+                24.7,
+                14.43
+              ],
+              "backgroundColor": [
+                "#10B981",
+                "#F59E0B",
+                "#EF4444"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "financial_structure",
+        "title": "Struttura Finanziaria",
+        "type": "doughnut",
+        "data": {
+          "labels": [
+            "Patrimonio Netto",
+            "Debiti Finanziari",
+            "Altri Debiti"
+          ],
+          "datasets": [
+            {
+              "data": [
+                89111,
+                167848,
+                373368
+              ],
+              "backgroundColor": [
+                "#10B981",
+                "#F59E0B",
+                "#EF4444"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "liquidity_analysis",
+        "title": "Analisi Liquidità",
+        "type": "bar",
+        "data": {
+          "labels": [
+            "Current Ratio",
+            "Quick Ratio",
+            "Cash Ratio"
+          ],
+          "datasets": [
+            {
+              "label": "Indici",
+              "data": [
+                5.26,
+                5.26,
+                0.38
+              ],
+              "backgroundColor": "#3B82F6"
+            }
+          ]
+        }
+      },
+      {
+        "id": "working_capital",
+        "title": "Capitale Circolante",
+        "type": "bar",
+        "data": {
+          "labels": [
+            "Crediti",
+            "Rimanenze",
+            "Debiti Fornitori"
+          ],
+          "datasets": [
+            {
+              "label": "Giorni",
+              "data": [
+                1210,
+                0,
+                0
+              ],
+              "backgroundColor": [
+                "#EF4444",
+                "#10B981",
+                "#F59E0B"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "debt_coverage",
+        "title": "Copertura del Debito",
+        "type": "line",
+        "data": {
+          "labels": [
+            "DSCR",
+            "PFN/EBITDA",
+            "Debt/Equity"
+          ],
+          "datasets": [
+            {
+              "label": "Multipli",
+              "data": [
+                1.14,
+                0.99,
+                6.07
+              ],
+              "borderColor": "#8B5CF6",
+              "backgroundColor": "rgba(139, 92, 246, 0.1)"
+            }
+          ]
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "id": "patrimoniale",
+        "name": "Equilibrio Patrimoniale",
+        "score": 2,
+        "maxScore": 5,
+        "color": "orange",
+        "description": "Struttura patrimoniale con criticità nella capitalizzazione",
+        "indicators": [
+          {
+            "name": "Indice di capitalizzazione",
+            "value": "13,87%",
+            "benchmark": "Q2",
+            "status": "Sotto media"
+          },
+          {
+            "name": "Patrimonio netto rettificato tangibile",
+            "value": "-9,50%",
+            "benchmark": "Q1",
+            "status": "Critico"
+          },
+          {
+            "name": "Copertura globale immobilizzazioni",
+            "value": "2,97x",
+            "benchmark": "Q3",
+            "status": "Nella media"
+          }
+        ]
+      },
+      {
+        "id": "finanziario",
+        "name": "Equilibrio Finanziario",
+        "score": 5,
+        "maxScore": 5,
+        "color": "green",
+        "description": "Eccellente situazione di liquidità",
+        "indicators": [
+          {
+            "name": "Liquidità corrente",
+            "value": "5,26x",
+            "benchmark": "Q5",
+            "status": "Eccellente"
+          },
+          {
+            "name": "Liquidità secca",
+            "value": "5,26x",
+            "benchmark": "Q5",
+            "status": "Eccellente"
+          }
+        ]
+      },
+      {
+        "id": "economico",
+        "name": "Equilibrio Economico",
+        "score": 4,
+        "maxScore": 5,
+        "color": "light-green",
+        "description": "Buona redditività operativa e gestionale",
+        "indicators": [
+          {
+            "name": "ROI",
+            "value": "8,84%",
+            "benchmark": "Q4",
+            "status": "Sopra media"
+          },
+          {
+            "name": "ROS",
+            "value": "19,56%",
+            "benchmark": "Q4",
+            "status": "Sopra media"
+          },
+          {
+            "name": "Indice di autofinanziamento",
+            "value": "40,81%",
+            "benchmark": "Q5",
+            "status": "Eccellente"
+          }
+        ]
+      },
+      {
+        "id": "debito",
+        "name": "Sostenibilità del Debito",
+        "score": 4,
+        "maxScore": 5,
+        "color": "light-green",
+        "description": "Buona capacità di servizio del debito",
+        "indicators": [
+          {
+            "name": "Autofinanziamento/Debiti Totali",
+            "value": "21,90%",
+            "benchmark": "Q4",
+            "status": "Sopra media"
+          },
+          {
+            "name": "Oneri finanziari/EBITDA",
+            "value": "4,16%",
+            "benchmark": "Q5",
+            "status": "Eccellente"
+          },
+          {
+            "name": "Debiti Totali/EBITDA",
+            "value": "4,06x",
+            "benchmark": "Q4",
+            "status": "Sopra media"
+          }
+        ]
+      },
+      {
+        "id": "sviluppo",
+        "name": "Sviluppo - Trend",
+        "score": 4,
+        "maxScore": 5,
+        "color": "light-green",
+        "description": "Trend positivo di redditività nonostante calo ricavi",
+        "indicators": [
+          {
+            "name": "Variazione % fatturato",
+            "value": "-20,03%",
+            "benchmark": "Q2",
+            "status": "Sotto media"
+          },
+          {
+            "name": "Variazione % EBIT",
+            "value": "292,77%",
+            "benchmark": "Q4",
+            "status": "Sopra media"
+          },
+          {
+            "name": "Variazione margine operativo",
+            "value": "42,45%",
+            "benchmark": "Q5",
+            "status": "Eccellente"
+          }
+        ]
+      }
+    ],
+    "management": {
+      "amministratori": [
+        {
+          "nome": "MARIO ROSSI",
+          "ruolo": "Amministratore Delegato",
+          "dataInizio": "25/09/2017",
+          "poteri": "Rappresentanza legale"
+        }
+      ],
+      "sindaci": [
+        {
+          "nome": "GIULIA BIANCHI",
+          "ruolo": "Sindaco Effettivo",
+          "dataInizio": "25/09/2017"
+        }
+      ]
+    },
+    "shareholdings": [
+      {
+        "denominazione": "FERROVIE DELLO STATO ITALIANE S.P.A.",
+        "percentuale": "100,00%",
+        "tipo": "Controllante",
+        "settore": "Trasporti ferroviari"
+      }
+    ],
+    "financialData": {
+      "2023": {
+        "fatturato": 287572,
+        "ebitda": 86535,
+        "ebit": 14462,
+        "utileNetto": 38751,
+        "patrimonioNetto": 55945,
+        "totaleAttivo": 0,
+        "debitiTotali": 0,
+        "disponibilitaLiquide": 0
+      },
+      "2024": {
+        "fatturato": 229971,
+        "ebitda": 133438,
+        "ebit": 56805,
+        "utileNetto": 33166,
+        "patrimonioNetto": 89111,
+        "totaleAttivo": 642366,
+        "debitiTotali": 541216,
+        "disponibilitaLiquide": 35212
+      }
+    },
+    "companyProfile": {
+      "descrizione": "RETE FERROVIARIA ITALIANA S.P.A. opera nel settore della consulenza gestionale e delle pubbliche relazioni. L'azienda fa parte del Gruppo Ferrovie dello Stato Italiane ed è stata costituita nel 2017.",
+      "settoreDettaglio": "Consulenza gestionale e PR",
+      "codiceCIAE": "70.22.09",
+      "tipologiaCliente": "B2B",
+      "mercatoRiferimento": "Nazionale",
+      "posizioneCompetitiva": "Operatore specializzato nel settore ferroviario"
+    },
+    "outlook": {
+      "raccomandazione": "APPROVABILE CON MONITORAGGIO",
+      "rating": "B+",
+      "outlook": "STABILE",
+      "limiteCredito": "€ 50.000",
+      "scadenzaRevisione": "31/12/2025",
+      "condizioniSpeciali": [
+        "Monitoraggio trimestrale DSO",
+        "Verifica semestrale andamento fatturato",
+        "Garanzie aggiuntive per importi superiori a €30K"
+      ],
+      "raccomandazioniGestionali": [
+        "Implementare sistema di gestione crediti più efficace",
+        "Diversificare il portafoglio clienti",
+        "Ottimizzare la struttura patrimoniale",
+        "Monitorare attentamente il cash flow operativo"
+      ]
+    },
+    "codiceCrisi": {
+      "dataRiferimento": "31/12/2024",
+      "statoComplessivo": "PARZIALE CONFORMITÀ",
+      "indici": [
+        {
+          "codice": "CC1",
+          "denominazione": "Patrimonio Netto",
+          "valore": "€ 89.111",
+          "soglia": "> Capitale Sociale",
+          "status": "CONFORME",
+          "colore": "green"
+        },
+        {
+          "codice": "CC2",
+          "denominazione": "DSCR Previsionale",
+          "valore": "1,14",
+          "soglia": "≥ 1,0",
+          "status": "PARZIALE",
+          "colore": "yellow",
+          "note": "Richiede dato previsionale"
+        },
+        {
+          "codice": "CC3",
+          "denominazione": "Sostenibilità Oneri Finanziari",
+          "valore": "3,84%",
+          "soglia": "≤ 3,8%",
+          "status": "ALLERTA",
+          "colore": "orange"
+        },
+        {
+          "codice": "CC4",
+          "denominazione": "Adeguatezza Patrimoniale",
+          "valore": "16,47%",
+          "soglia": "≥ 2,3%",
+          "status": "CONFORME",
+          "colore": "green"
+        },
+        {
+          "codice": "CC5",
+          "denominazione": "Ritorno Liquido Attivo",
+          "valore": "18,45%",
+          "soglia": "≥ 0,3%",
+          "status": "CONFORME",
+          "colore": "green"
+        },
+        {
+          "codice": "CC6",
+          "denominazione": "Indice di Liquidità",
+          "valore": "89,21%",
+          "soglia": "≥ 69,8%",
+          "status": "CONFORME",
+          "colore": "green"
+        }
+      ]
+    },
+    "noteTecniche": {
+      "metodologiaIRP": "Il punteggio IRP è calcolato combinando il rating base (72,0) con l'aggiustamento dei profili valutativi (7,2 punti). Formula: Rating Base + (Media Profili × 2)",
+      "benchmarkSettoriali": "I benchmark utilizzati sono specifici per il settore 'Consulenza gestionale e PR' e basati su quintili di performance del settore.",
+      "limitazioni": [
+        "DSO calcolato su crediti totali (potrebbero includere crediti non commerciali)",
+        "Alcuni dati disaggregati non disponibili (es. debiti fornitori)",
+        "DSCR basato su dati storici, non previsionali"
+      ],
+      "fontiDati": "Bilancio depositato presso Camera di Commercio, elaborazioni interne",
+      "dataElaborazione": "27/01/2025"
+    },
+    "profiloAziendale": {
+      "anagrafica": {
+        "denominazione": "RETE FERROVIARIA ITALIANA S.P.A.",
+        "partitaIva": "01585570581",
+        "codiceFiscale": "01585570581",
+        "formaGiuridica": "Società per Azioni",
+        "dataCostituzione": "25/09/2017",
+        "capitaleSociale": "€ 3.000"
+      },
+      "sede": {
+        "indirizzo": "PIAZZA DELLA CROCE ROSSA 1",
+        "citta": "ROMA",
+        "provincia": "RM",
+        "cap": "00161",
+        "regione": "LAZIO"
+      },
+      "attivita": {
+        "settore": "Consulenza gestionale e PR",
+        "codiceAteco": "70.22.09",
+        "descrizioneAttivita": "Consulenza per gli affari e altre consulenze amministrativo-gestionali e pianificazione aziendale"
+      }
+    },
+    "datiFinanziari": {
+      "ricavi": {
+        "2023": "€ 287.572K",
+        "2024": "€ 229.971K",
+        "variazione": "-20,03%"
+      },
+      "margini": {
+        "ebitdaMargin2024": "58,02%",
+        "ebitMargin2024": "24,70%",
+        "netMargin2024": "14,43%"
+      },
+      "solidita": {
+        "patrimonioNetto": "€ 89.111K",
+        "totaleAttivo": "€ 642.366K",
+        "indebitamento": "6,07x"
+      },
+      "liquidita": {
+        "disponibilita": "€ 35.212K",
+        "currentRatio": "5,26x",
+        "quickRatio": "5,26x"
+      }
+    },
+    "partecipazioni": [
+      {
+        "denominazione": "FERROVIE DELLO STATO ITALIANE S.P.A.",
+        "tipologia": "Controllante",
+        "percentuale": "100,00%",
+        "settore": "Trasporti ferroviari",
+        "note": "Controllo totalitario"
+      }
+    ]
+  }
+}
