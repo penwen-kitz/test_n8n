@@ -1,0 +1,519 @@
+[
+  {
+    "company": {
+      "name": "BFLOWS SRL",
+      "fullName": "BFLOWS S.R.L.",
+      "legalForm": "Limited liability company/ limited company",
+      "piva": "03734540929",
+      "taxCode": "03734540929",
+      "foundedDate": "16/06/2017",
+      "registrationDate": "29/06/2017",
+      "ateco": {
+        "code": "621",
+        "description": "Computer programming activities"
+      },
+      "address": {
+        "street": "VIA GIOVANNI MARIA ANGIOY, 34",
+        "city": "CAGLIARI",
+        "province": "CA",
+        "zip": "09124",
+        "region": "SARDEGNA"
+      },
+      "contacts": {
+        "email": "info@bflows.net",
+        "pec": "BFLOWS@PEC.IT",
+        "phone": null,
+        "fax": "",
+        "website": "www.bflows.net"
+      },
+      "social": {
+        "hasSocial": true,
+        "facebook": null,
+        "twitter": null,
+        "instagram": null,
+        "linkedin": "https://it.linkedin.com/company/bflows"
+      }
+    },
+    "reportInfo": {
+      "date": "27 Gennaio 2025",
+      "reportType": "Analisi Creditizia Completa",
+      "version": "1.0",
+      "analyst": "Sistema Automatico",
+      "lastUpdate": "27/01/2025"
+    },
+    "riskAssessment": {
+      "score": 64.62,
+      "maxScore": 100,
+      "rating": "C1",
+      "previousRating": "C1",
+      "riskLevel": "MEDIO-ALTO",
+      "colorClass": "yellow",
+      "description": "Rischio superiore alla media con elementi di criticità economica ma segnali di crescita"
+    },
+    "keyMetrics": [
+      {
+        "title": "Fatturato",
+        "value": "€ 197.250",
+        "trend": "+839,17%",
+        "direction": "up",
+        "colorClass": "green",
+        "icon": "ri-funds-box-line"
+      },
+      {
+        "title": "EBITDA",
+        "value": "€ -98.912",
+        "trend": "+50,63%",
+        "direction": "up",
+        "colorClass": "red",
+        "icon": "ri-line-chart-line"
+      },
+      {
+        "title": "Patrimonio Netto",
+        "value": "€ 952.710",
+        "trend": "n.d.",
+        "direction": "neutral",
+        "colorClass": "light-green",
+        "icon": "ri-shield-line"
+      },
+      {
+        "title": "Posizione Finanziaria Netta",
+        "value": "€ 624.704",
+        "trend": "n.d.",
+        "direction": "neutral",
+        "colorClass": "red",
+        "icon": "ri-money-dollar-circle-line"
+      },
+      {
+        "title": "ROE",
+        "value": "-9,73%",
+        "trend": "n.d.",
+        "direction": "down",
+        "colorClass": "red",
+        "icon": "ri-percent-line"
+      },
+      {
+        "title": "ROI",
+        "value": "-5,64%",
+        "trend": "n.d.",
+        "direction": "down",
+        "colorClass": "red",
+        "icon": "ri-scales-3-line"
+      },
+      {
+        "title": "Current Ratio",
+        "value": "0,80x",
+        "trend": "n.d.",
+        "direction": "neutral",
+        "colorClass": "yellow",
+        "icon": "ri-water-flash-line"
+      },
+      {
+        "title": "Leverage",
+        "value": "2,04x",
+        "trend": "n.d.",
+        "direction": "neutral",
+        "colorClass": "red",
+        "icon": "ri-scales-3-line"
+      },
+      {
+        "title": "DSO",
+        "value": "1.068 gg",
+        "trend": "n.d.",
+        "direction": "down",
+        "colorClass": "red",
+        "icon": "ri-calendar-check-line"
+      },
+      {
+        "title": "Dipendenti",
+        "value": "7",
+        "trend": "0,00%",
+        "direction": "neutral",
+        "colorClass": "light-green",
+        "icon": "ri-shield-check-line"
+      }
+    ],
+    "executiveSummary": {
+      "strengths": [
+        "Crescita eccezionale del fatturato (+839%) che dimostra forte capacità commerciale",
+        "Miglioramento significativo delle perdite operative (EBITDA da -200K a -99K)",
+        "Patrimonio netto solido di € 953K che fornisce cushion finanziario",
+        "Settore IT in crescita con buone prospettive di mercato",
+        "Presenza digitale consolidata con sito web e LinkedIn attivi"
+      ],
+      "weaknesses": [
+        "EBITDA ancora negativo (-50% del fatturato) indica inefficienze operative",
+        "Posizione finanziaria netta elevata (€ 625K) con alta dipendenza dal debito",
+        "Tempi di incasso critici (DSO 1.068 giorni) che impattano la liquidità",
+        "Rating creditizio C1 con rischio superiore alla media",
+        "Assenza di flussi di cassa positivi che limita la sostenibilità"
+      ]
+    },
+    "charts": [
+      {
+        "id": "revenue-trend",
+        "title": "Evoluzione Fatturato",
+        "type": "line",
+        "data": [
+          {
+            "period": "2023",
+            "value": 21005,
+            "label": "€ 21K"
+          },
+          {
+            "period": "2024",
+            "value": 197250,
+            "label": "€ 197K"
+          }
+        ]
+      },
+      {
+        "id": "profitability",
+        "title": "Marginalità Operativa",
+        "type": "bar",
+        "data": [
+          {
+            "metric": "EBITDA 2023",
+            "value": -200336,
+            "label": "-€ 200K"
+          },
+          {
+            "metric": "EBITDA 2024",
+            "value": -98912,
+            "label": "-€ 99K"
+          }
+        ]
+      },
+      {
+        "id": "financial-structure",
+        "title": "Struttura Finanziaria",
+        "type": "pie",
+        "data": [
+          {
+            "category": "Patrimonio Netto",
+            "value": 952710,
+            "percentage": 48.96,
+            "label": "€ 953K"
+          },
+          {
+            "category": "Debiti",
+            "value": 728709,
+            "percentage": 37.45,
+            "label": "€ 729K"
+          },
+          {
+            "category": "Altro",
+            "value": 264478,
+            "percentage": 13.59,
+            "label": "€ 264K"
+          }
+        ]
+      },
+      {
+        "id": "liquidity-analysis",
+        "title": "Analisi Liquidità",
+        "type": "bar",
+        "data": [
+          {
+            "metric": "Disponibilità Liquide",
+            "value": 154937,
+            "label": "€ 155K"
+          },
+          {
+            "metric": "Crediti",
+            "value": 577163,
+            "label": "€ 577K"
+          },
+          {
+            "metric": "Debiti Breve",
+            "value": 311335,
+            "label": "€ 311K"
+          }
+        ]
+      },
+      {
+        "id": "risk-profile",
+        "title": "Profilo di Rischio",
+        "type": "radar",
+        "data": [
+          {
+            "dimension": "Equilibrio Patrimoniale",
+            "score": 2,
+            "maxScore": 5
+          },
+          {
+            "dimension": "Equilibrio Finanziario",
+            "score": 2,
+            "maxScore": 5
+          },
+          {
+            "dimension": "Equilibrio Economico",
+            "score": 1,
+            "maxScore": 5
+          },
+          {
+            "dimension": "Sostenibilità Debito",
+            "score": 1,
+            "maxScore": 5
+          },
+          {
+            "dimension": "Sviluppo-Trend",
+            "score": 4,
+            "maxScore": 5
+          }
+        ]
+      },
+      {
+        "id": "sector-comparison",
+        "title": "Confronto Settoriale",
+        "type": "bar",
+        "data": [
+          {
+            "metric": "ROI Settore",
+            "value": 8.5,
+            "label": "8,5%"
+          },
+          {
+            "metric": "ROI Azienda",
+            "value": -5.64,
+            "label": "-5,6%"
+          },
+          {
+            "metric": "EBITDA Margin Settore",
+            "value": 12,
+            "label": "12,0%"
+          },
+          {
+            "metric": "EBITDA Margin Azienda",
+            "value": -50.15,
+            "label": "-50,2%"
+          }
+        ]
+      }
+    ],
+    "profiles": [
+      {
+        "name": "Equilibrio Patrimoniale",
+        "score": 2,
+        "maxScore": 5,
+        "color": "orange",
+        "trend": "in lieve miglioramento",
+        "description": "Aspetti di criticità nella struttura patrimoniale con patrimonio netto tangibile negativo"
+      },
+      {
+        "name": "Equilibrio Finanziario",
+        "score": 2,
+        "maxScore": 5,
+        "color": "orange",
+        "trend": "in lieve miglioramento",
+        "description": "Liquidità corrente sotto la soglia ottimale ma in miglioramento rispetto all'anno precedente"
+      },
+      {
+        "name": "Equilibrio Economico",
+        "score": 1,
+        "maxScore": 5,
+        "color": "red",
+        "trend": "stabile",
+        "description": "Situazione negativa con marginalità operativa e redditività sotto le soglie critiche"
+      },
+      {
+        "name": "Sostenibilità del debito",
+        "score": 1,
+        "maxScore": 5,
+        "color": "red",
+        "trend": "stabile",
+        "description": "Capacità di servizio del debito compromessa dall'autofinanziamento negativo"
+      },
+      {
+        "name": "Sviluppo - Trend",
+        "score": 4,
+        "maxScore": 5,
+        "color": "light-green",
+        "trend": "stabile",
+        "description": "Trend di crescita positivo con variazione fatturato eccellente"
+      }
+    ],
+    "management": [
+      {
+        "name": "ROBERTO SPANO",
+        "role": "Chairman of board of directors",
+        "age": 63,
+        "startDate": "09/06/2023",
+        "isLegalRepresentative": true
+      },
+      {
+        "name": "FEDERICO DEMICHELI",
+        "role": "Director",
+        "age": 55,
+        "startDate": "09/06/2023",
+        "isLegalRepresentative": false
+      },
+      {
+        "name": "NICOLA PIRINA",
+        "role": "Director",
+        "age": 50,
+        "startDate": "09/06/2023",
+        "isLegalRepresentative": false
+      }
+    ],
+    "shareholdings": [
+      {
+        "companyName": "BE SMARTERS",
+        "taxCode": "04458210988",
+        "percentShare": "n.d."
+      }
+    ],
+    "financialData": {
+      "year": 2024,
+      "revenue": "€ 197.250",
+      "ebitda": "€ -98.912",
+      "ebit": "€ -109.705",
+      "netIncome": "€ -92.069",
+      "totalAssets": "€ 1.945.897",
+      "netWorth": "€ 952.710",
+      "totalDebt": "€ 728.709",
+      "cashFlow": "€ -81.931",
+      "employees": 7
+    },
+    "companyProfile": {
+      "sector": "Informatica: software, consulenza e servizi",
+      "foundedYear": "2017",
+      "legalForm": "S.R.L.",
+      "headquarters": "Cagliari (CA)",
+      "businessDescription": "Società operante nel settore della programmazione informatica e sviluppo software",
+      "keyActivities": [
+        "Sviluppo software",
+        "Consulenza informatica",
+        "Servizi digitali"
+      ],
+      "marketPosition": "Azienda in fase di crescita nel mercato IT sardo"
+    },
+    "outlook": {
+      "rating": "NEUTRALE",
+      "recommendations": [
+        "Migliorare l'efficienza operativa per raggiungere il break-even",
+        "Ottimizzare i tempi di incasso per migliorare il cash flow",
+        "Valutare strategie di contenimento costi per aumentare la marginalità",
+        "Monitorare attentamente la posizione finanziaria netta",
+        "Sfruttare il trend di crescita per consolidare la posizione di mercato"
+      ],
+      "riskFactors": [
+        "Persistenza di marginalità negative",
+        "Elevata posizione finanziaria netta",
+        "Tempi di incasso molto lunghi",
+        "Dipendenza dalla crescita per la sostenibilità"
+      ],
+      "opportunities": [
+        "Mercato IT in espansione",
+        "Digitalizzazione crescente",
+        "Competenze specialistiche richieste"
+      ]
+    },
+    "codiceCrisi": [
+      {
+        "name": "Patrimonio Netto",
+        "value": "€ 952.710",
+        "threshold": "> Capitale Sociale",
+        "status": "OK",
+        "description": "Patrimonio netto superiore al capitale sociale"
+      },
+      {
+        "name": "DSCR Previsionale",
+        "value": "n.c.",
+        "threshold": "≥ 1,0",
+        "status": "CRITICO",
+        "description": "Non calcolabile per EBITDA negativo"
+      },
+      {
+        "name": "Sostenibilità Oneri Finanziari",
+        "value": "4,87%",
+        "threshold": "≤ 3,8%",
+        "status": "ALLERTA",
+        "description": "Oneri finanziari superiori alla soglia"
+      },
+      {
+        "name": "Adeguatezza Patrimoniale",
+        "value": "130,74%",
+        "threshold": "≥ 2,3%",
+        "status": "OK",
+        "description": "Rapporto patrimonio/debiti adeguato"
+      },
+      {
+        "name": "Ritorno Liquido Attivo",
+        "value": "-4,21%",
+        "threshold": "≥ 0,3%",
+        "status": "ALLERTA",
+        "description": "Cash flow negativo rispetto all'attivo"
+      },
+      {
+        "name": "Indice di Liquidità",
+        "value": "235,17%",
+        "threshold": "≥ 69,8%",
+        "status": "OK",
+        "description": "Liquidità superiore alla soglia minima"
+      }
+    ],
+    "noteTecniche": {
+      "metodologie": [
+        "IRP Score calcolato su base rating e profili di valutazione",
+        "Analisi trend su base annuale 2023-2024",
+        "Benchmark settoriali da database Cerved",
+        "Indicatori Codice Crisi secondo normativa vigente"
+      ],
+      "fontiDati": [
+        "Bilancio depositato 2023",
+        "Visure camerali aggiornate",
+        "Database rating creditizi",
+        "Informazioni pubbliche disponibili"
+      ],
+      "limitazioni": [
+        "Dati 2024 stimati da bilancio 2023",
+        "Alcuni indicatori non calcolabili per valori negativi",
+        "Benchmark settoriali indicativi",
+        "Analisi basata su dati storici"
+      ]
+    },
+    "profiloAziendale": {
+      "ragioneSociale": "BFLOWS S.R.L.",
+      "partitaIva": "03734540929",
+      "codiceFiscale": "03734540929",
+      "formaGiuridica": "Società a responsabilità limitata",
+      "dataCostituzione": "16/06/2017",
+      "settoreAttivita": "Programmazione informatica",
+      "codiceAteco": "621",
+      "sede": {
+        "indirizzo": "VIA GIOVANNI MARIA ANGIOY, 34",
+        "citta": "CAGLIARI",
+        "provincia": "CA",
+        "cap": "09124",
+        "regione": "SARDEGNA"
+      },
+      "contatti": {
+        "email": "info@bflows.net",
+        "pec": "BFLOWS@PEC.IT",
+        "sito": "www.bflows.net"
+      }
+    },
+    "datiFinanziari": {
+      "annoRiferimento": 2024,
+      "ricavi": "€ 197.250",
+      "margineOperativo": "€ -98.912",
+      "risultatoNetto": "€ -92.069",
+      "attivitaTotali": "€ 1.945.897",
+      "patrimonioNetto": "€ 952.710",
+      "posizioneFin": "€ 624.704",
+      "dipendenti": 7,
+      "crescitaRicavi": "+839,17%",
+      "margineEbitda": "-50,15%",
+      "roe": "-9,73%",
+      "roi": "-5,64%"
+    },
+    "partecipazioni": [
+      {
+        "denominazione": "BE SMARTERS",
+        "codiceFiscale": "04458210988",
+        "percentuale": "n.d.",
+        "tipologia": "Partecipazione"
+      }
+    ]
+  }
+]
