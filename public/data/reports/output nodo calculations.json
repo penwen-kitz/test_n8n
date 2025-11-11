@@ -1,0 +1,418 @@
+{
+  "dashboard_json": {
+    "calculation_metadata": {
+      "timestamp": "2025-01-27T10:30:00Z",
+      "calculation_success": true,
+      "warnings": [
+        {
+          "indicator": "DSO",
+          "issue": "Crediti totali utilizzati per DSO potrebbero includere crediti non commerciali",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    "irp_score": {
+      "value": 72.72,
+      "maxValue": 100,
+      "calculation": {
+        "ratingBaseScore": 72,
+        "profilesAverage": 3.6,
+        "profilesAdjustment": 7.2,
+        "formula": "RatingBaseScore + (ProfilesAdjustment * 0.1)"
+      }
+    },
+    "key_indicators": {
+      "dscr": {
+        "value": 1.14,
+        "calculation": {
+          "ebitda": 133438,
+          "oneriFinanziariNetti": 8838,
+          "quotaCapitaleAnnuale": 108243,
+          "assumptions": {
+            "percentDebitiBreveFinanziari": 0.2,
+            "anniAmmortamentoMLTermine": 5
+          },
+          "breakdown": {
+            "debitiBreveFinanziari": 93342,
+            "quotaCapitaleMLTermine": 14901,
+            "totalQuotaCapitale": 108243,
+            "totalServizioDebito": 117081
+          },
+          "formula": "EBITDA / (Oneri Finanziari + Quota Capitale Annuale)"
+        },
+        "status": "ALLERTA",
+        "threshold": 1,
+        "interpretation": "DSCR accettabile, margine minimo di sicurezza"
+      },
+      "pfn": {
+        "value": 132636,
+        "calculation": {
+          "debitiFinanziariBreve": 93342,
+          "debitiFinanziariMLTermine": 74506,
+          "disponibilitaLiquide": 35212,
+          "formula": "(Debiti Finanziari Breve + Debiti ML Termine) - Disponibilità Liquide"
+        }
+      },
+      "pfn_ebitda": {
+        "value": 0.99,
+        "calculation": {
+          "pfn": 132636,
+          "ebitda": 133438,
+          "formula": "PFN / EBITDA"
+        },
+        "status": "OK",
+        "threshold": 3,
+        "interpretation": "Eccellente, bassa esposizione debitoria"
+      },
+      "debt_equity_ratio": {
+        "value": 6.07,
+        "calculation": {
+          "debiti": 541216,
+          "patrimonioNetto": 89111,
+          "formula": "Debiti Totali / Patrimonio Netto"
+        }
+      },
+      "dso": {
+        "value": 1210,
+        "calculation": {
+          "crediti": 762228,
+          "fatturato": 229971,
+          "formula": "(Crediti / Fatturato) * 365"
+        },
+        "benchmark": 89,
+        "status": "CRITICO"
+      },
+      "dio": {
+        "value": 0,
+        "calculation": {
+          "rimanenze": 0,
+          "costoVenduto": 96533,
+          "formula": "(Rimanenze / Costo del Venduto) * 365"
+        },
+        "note": "Spesso 0 per aziende di servizi"
+      },
+      "dpo": {
+        "value": 0,
+        "calculation": {
+          "debitiFornitori": 0,
+          "costoVenduto": 96533,
+          "formula": "(Debiti Fornitori / Costo del Venduto) * 365"
+        },
+        "note": "Valore 0 - debiti fornitori non disaggregati"
+      },
+      "ebitda_margin": {
+        "value": 58.02,
+        "calculation": {
+          "ebitda": 133438,
+          "fatturato": 229971,
+          "formula": "(EBITDA / Fatturato) * 100"
+        },
+        "benchmark": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "cash_flow_operating": {
+        "value": 118535,
+        "percentRevenue": 51.55,
+        "calculation": {
+          "cashFlow": 118535,
+          "fatturato": 229971,
+          "formula": "(Cash Flow / Fatturato) * 100"
+        },
+        "benchmark": 5
+      }
+    },
+    "trends_yoy": {
+      "fatturato": {
+        "2023": 287572,
+        "2024": 229971,
+        "variation_percent": -20.03,
+        "variation_absolute": -57601
+      },
+      "ebitda": {
+        "2023": 86535,
+        "2024": 133438,
+        "variation_percent": 54.2,
+        "variation_absolute": 46903
+      },
+      "ebit": {
+        "2023": 14462,
+        "2024": 56805,
+        "variation_percent": 292.77,
+        "variation_absolute": 42343
+      },
+      "utileNetto": {
+        "2023": 38751,
+        "2024": 33166,
+        "variation_percent": -14.42,
+        "variation_absolute": -5585,
+        "note": "Utile 2024 da netWorth - utile 2023 calcolato al reverse"
+      },
+      "employees": {
+        "2023": 5,
+        "2024": 1,
+        "variation_percent": -80
+      },
+      "totalAssets": {
+        "2023": 0,
+        "2024": 642366,
+        "variation_percent": 0
+      }
+    },
+    "benchmark_mapping": [
+      {
+        "indicator": "Indice di capitalizzazione",
+        "profile": "Equilibrio Patrimoniale",
+        "value": 13.872,
+        "quintile": "Q2",
+        "quintile_value": 2,
+        "interpretation": "Sotto media",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Patrimonio netto rettificato tangibile / Capitale investito",
+        "profile": "Equilibrio Patrimoniale",
+        "value": -9.502,
+        "quintile": "Q1",
+        "quintile_value": 1,
+        "interpretation": "Sotto media / Critico",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Copertura globale delle immobilizzazioni",
+        "profile": "Equilibrio Patrimoniale",
+        "value": 2.972,
+        "quintile": "Q3",
+        "quintile_value": 3,
+        "interpretation": "Nella media",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Autocopertura delle immobilizzazioni",
+        "profile": "Equilibrio Patrimoniale",
+        "value": 0.476,
+        "quintile": "Q1",
+        "quintile_value": 1,
+        "interpretation": "Sotto media / Critico",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Liquidità corrente",
+        "profile": "Equilibrio Finanziario",
+        "value": 5.261,
+        "quintile": "Q5",
+        "quintile_value": 5,
+        "interpretation": "Eccellente",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Liquidità secca",
+        "profile": "Equilibrio Finanziario",
+        "value": 5.261,
+        "quintile": "Q5",
+        "quintile_value": 5,
+        "interpretation": "Eccellente",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Redditività del capitale investito (ROI)",
+        "profile": "Equilibrio Economico",
+        "value": 8.843,
+        "quintile": "Q4",
+        "quintile_value": 4,
+        "interpretation": "Sopra media",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Redditività operativa delle vendite (ROS)",
+        "profile": "Equilibrio Economico",
+        "value": 19.557,
+        "quintile": "Q4",
+        "quintile_value": 4,
+        "interpretation": "Sopra media",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Redditività netta delle vendite",
+        "profile": "Equilibrio Economico",
+        "value": 14.426,
+        "quintile": "Q4",
+        "quintile_value": 4,
+        "interpretation": "Sopra media",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Indice di autofinanziamento",
+        "profile": "Equilibrio Economico",
+        "value": 40.81,
+        "quintile": "Q5",
+        "quintile_value": 5,
+        "interpretation": "Eccellente",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Autofinanziamento / Debiti Totali",
+        "profile": "Sostenibilità del debito",
+        "value": 21.902,
+        "quintile": "Q4",
+        "quintile_value": 4,
+        "interpretation": "Sopra media",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Oneri finanziari netti / Risultato Operativo Lordo",
+        "profile": "Sostenibilità del debito",
+        "value": 4.162,
+        "quintile": "Q5",
+        "quintile_value": 5,
+        "interpretation": "Eccellente",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Debiti Totali/EBITDA",
+        "profile": "Sostenibilità del debito",
+        "value": 4.056,
+        "quintile": "Q4",
+        "quintile_value": 4,
+        "interpretation": "Sopra media",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Variazione % fatturato",
+        "profile": "Sviluppo - Trend",
+        "value": -10.333,
+        "quintile": "Q2",
+        "quintile_value": 2,
+        "interpretation": "Sotto media",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Variazione % ROL",
+        "profile": "Sviluppo - Trend",
+        "value": 113.81,
+        "quintile": "Q4",
+        "quintile_value": 4,
+        "interpretation": "Sopra media",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Variazione % Risultato d'esercizio",
+        "profile": "Sviluppo - Trend",
+        "value": 1254.737,
+        "quintile": "Q5",
+        "quintile_value": 5,
+        "interpretation": "Eccellente",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Variazione ROL / Fatturato",
+        "profile": "Sviluppo - Trend",
+        "value": 42.451,
+        "quintile": "Q5",
+        "quintile_value": 5,
+        "interpretation": "Eccellente",
+        "sector": "Consulenza gestionale e PR"
+      },
+      {
+        "indicator": "Variazione RN / Fatturato",
+        "profile": "Sviluppo - Trend",
+        "value": 13.471,
+        "quintile": "Q5",
+        "quintile_value": 5,
+        "interpretation": "Eccellente",
+        "sector": "Consulenza gestionale e PR"
+      }
+    ],
+    "stress_test": {
+      "scenarios": [
+        {
+          "name": "Base",
+          "revenue_change_percent": 0,
+          "new_revenue": 229971,
+          "new_ebitda": 133438,
+          "new_dscr": 1.14
+        },
+        {
+          "name": "Scenario -5%",
+          "revenue_change_percent": -5,
+          "new_revenue": 218472,
+          "new_ebitda": 126766,
+          "new_dscr": 1.08
+        },
+        {
+          "name": "Scenario -10%",
+          "revenue_change_percent": -10,
+          "new_revenue": 206974,
+          "new_ebitda": 120094,
+          "new_dscr": 1.03
+        },
+        {
+          "name": "Scenario -15%",
+          "revenue_change_percent": -15,
+          "new_revenue": 195475,
+          "new_ebitda": 113422,
+          "new_dscr": 0.97
+        }
+      ]
+    },
+    "codice_crisi_indices": [
+      {
+        "id": "patrimonio",
+        "name": "Patrimonio Netto",
+        "value": 89111,
+        "soglia": "> Capitale Sociale",
+        "status": "OK",
+        "calculation": "Patrimonio Netto (89111) vs Capitale Sociale (3000)"
+      },
+      {
+        "id": "dscr",
+        "name": "DSCR Previsionale 6 Mesi",
+        "value": 1.14,
+        "soglia": "≥ 1.0",
+        "status": "PARZIALE",
+        "note": "Valore storico, serve previsionale"
+      },
+      {
+        "id": "oneri",
+        "name": "Sostenibilità Oneri Finanziari",
+        "value": 3.84,
+        "soglia": "≤ 3.8%",
+        "status": "ALLERTA",
+        "calculation": "(Oneri Finanziari / Fatturato) * 100"
+      },
+      {
+        "id": "patrimoniale",
+        "name": "Adeguatezza Patrimoniale",
+        "value": 16.47,
+        "soglia": "≥ 2.3% - 9.4%",
+        "status": "OK",
+        "calculation": "(Patrimonio Netto / Debiti Totali) * 100"
+      },
+      {
+        "id": "ritorno",
+        "name": "Ritorno Liquido dell'Attivo",
+        "value": 18.45,
+        "soglia": "≥ 0.3% - 1.9%",
+        "status": "OK",
+        "calculation": "(Cash Flow / Totale Attivo) * 100"
+      },
+      {
+        "id": "liquidita",
+        "name": "Indice di Liquidità",
+        "value": 89.21,
+        "soglia": "≥ 69.8% - 108%",
+        "status": "OK",
+        "calculation": "(Attività Breve / Passività Breve) * 100"
+      },
+      {
+        "id": "indebitamento",
+        "name": "Indebitamento Prev./Tributario",
+        "value": null,
+        "soglia": "≤ 2.9% - 14.6%",
+        "status": "MANCANTE",
+        "note": "Dato non disaggregato"
+      }
+    ]
+  }
+}
