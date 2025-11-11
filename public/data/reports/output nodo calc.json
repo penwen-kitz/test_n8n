@@ -1,0 +1,410 @@
+{
+  "calculation_metadata": {
+    "timestamp": "2025-01-11T13:24:14Z",
+    "calculation_success": true,
+    "warnings": []
+  },
+  "irp_score": {
+    "value": 82.18,
+    "maxValue": 100,
+    "calculation": {
+      "ratingBaseScore": 82,
+      "profilesAverage": 3.6,
+      "profilesAdjustment": 7.2,
+      "formula": "RatingBaseScore + (ProfilesAdjustment * 0.1)"
+    }
+  },
+  "key_indicators": {
+    "dscr": {
+      "value": 1.95,
+      "calculation": {
+        "ebitda": 154253,
+        "oneriFinanziariNetti": 25367,
+        "quotaCapitaleAnnuale": 54666,
+        "assumptions": {
+          "percentDebitiBreveFinanziari": 0.2,
+          "anniAmmortamentoMLTermine": 5
+        },
+        "breakdown": {
+          "debitiBreveFinanziari": 78635,
+          "quotaCapitaleMLTermine": 40031,
+          "totalQuotaCapitale": 118666,
+          "totalServizioDebito": 79698
+        },
+        "formula": "EBITDA / (Oneri Finanziari + Quota Capitale Annuale)"
+      },
+      "status": "OK",
+      "threshold": 1,
+      "interpretation": "DSCR ottimo, ampio margine di copertura del servizio debito"
+    },
+    "pfn": {
+      "value": -65891,
+      "calculation": {
+        "debitiFinanziariBreve": 78635,
+        "debitiFinanziariMLTermine": 200155,
+        "disponibilitaLiquide": 344422,
+        "formula": "(Debiti Finanziari Breve + Debiti ML Termine) - Disponibilità Liquide"
+      }
+    },
+    "pfn_ebitda": {
+      "value": -0.43,
+      "calculation": {
+        "pfn": -65891,
+        "ebitda": 154253,
+        "formula": "PFN / EBITDA"
+      },
+      "status": "OK",
+      "threshold": 3,
+      "interpretation": "Eccellente, posizione finanziaria netta negativa indica liquidità superiore ai debiti finanziari"
+    },
+    "debt_equity_ratio": {
+      "value": 1.1,
+      "calculation": {
+        "debiti": 593331,
+        "patrimonioNetto": 540648,
+        "formula": "Debiti Totali / Patrimonio Netto"
+      }
+    },
+    "dso": {
+      "value": 198,
+      "calculation": {
+        "crediti": 505557,
+        "fatturato": 929798,
+        "formula": "(Crediti / Fatturato) * 365"
+      },
+      "benchmark": 89,
+      "status": "CRITICO"
+    },
+    "dio": {
+      "value": 0,
+      "calculation": {
+        "rimanenze": 0,
+        "costoVenduto": 775545,
+        "formula": "(Rimanenze / Costo del Venduto) * 365"
+      },
+      "note": "Spesso 0 per aziende di servizi"
+    },
+    "dpo": {
+      "value": 0,
+      "calculation": {
+        "debitiFornitori": 0,
+        "costoVenduto": 775545,
+        "formula": "(Debiti Fornitori / Costo del Venduto) * 365"
+      },
+      "note": "Valore 0 - debiti fornitori non disaggregati"
+    },
+    "ebitda_margin": {
+      "value": 16.58,
+      "calculation": {
+        "ebitda": 154253,
+        "fatturato": 929798,
+        "formula": "(EBITDA / Fatturato) * 100"
+      },
+      "benchmark": {
+        "min": 8,
+        "max": 10
+      }
+    },
+    "cash_flow_operating": {
+      "value": 94486,
+      "percentRevenue": 10.16,
+      "calculation": {
+        "cashFlow": 94486,
+        "fatturato": 929798,
+        "formula": "(Cash Flow / Fatturato) * 100"
+      },
+      "benchmark": 5
+    }
+  },
+  "trends_yoy": {
+    "fatturato": {
+      "2023": 822026,
+      "2024": 929798,
+      "variation_percent": 13.11,
+      "variation_absolute": 107772
+    },
+    "ebitda": {
+      "2023": 154728,
+      "2024": 154253,
+      "variation_percent": -0.31,
+      "variation_absolute": -475
+    },
+    "ebit": {
+      "2023": 121348,
+      "2024": 114192,
+      "variation_percent": -5.9,
+      "variation_absolute": -7156
+    },
+    "utileNetto": {
+      "2023": 0,
+      "2024": 53279,
+      "variation_percent": 0,
+      "variation_absolute": 53279,
+      "note": "Utile 2024 da netWorth - utile 2023 calcolato al reverse"
+    },
+    "employees": {
+      "2023": 5,
+      "2024": 5,
+      "variation_percent": 0
+    },
+    "totalAssets": {
+      "2023": 0,
+      "2024": 1147368,
+      "variation_percent": 0
+    }
+  },
+  "benchmark_mapping": [
+    {
+      "indicator": "Indice di capitalizzazione",
+      "profile": "Equilibrio Patrimoniale",
+      "value": 47.121,
+      "quintile": "Q4",
+      "quintile_value": 4,
+      "interpretation": "Sopra media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Patrimonio netto rettificato tangibile / Capitale investito",
+      "profile": "Equilibrio Patrimoniale",
+      "value": 42.277,
+      "quintile": "Q4",
+      "quintile_value": 4,
+      "interpretation": "Sopra media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Copertura globale delle immobilizzazioni",
+      "profile": "Equilibrio Patrimoniale",
+      "value": 1.817,
+      "quintile": "Q3",
+      "quintile_value": 3,
+      "interpretation": "Nella media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Autocopertura delle immobilizzazioni",
+      "profile": "Equilibrio Patrimoniale",
+      "value": 1.043,
+      "quintile": "Q3",
+      "quintile_value": 3,
+      "interpretation": "Nella media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Liquidità corrente",
+      "profile": "Equilibrio Finanziario",
+      "value": 3.068,
+      "quintile": "Q5",
+      "quintile_value": 5,
+      "interpretation": "Eccellente",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Liquidità secca",
+      "profile": "Equilibrio Finanziario",
+      "value": 3.068,
+      "quintile": "Q5",
+      "quintile_value": 5,
+      "interpretation": "Eccellente",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Redditività del capitale investito (ROI)",
+      "profile": "Equilibrio Economico",
+      "value": 9.953,
+      "quintile": "Q4",
+      "quintile_value": 4,
+      "interpretation": "Sopra media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Redditività operativa delle vendite (ROS)",
+      "profile": "Equilibrio Economico",
+      "value": 12.023,
+      "quintile": "Q4",
+      "quintile_value": 4,
+      "interpretation": "Sopra media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Redditività netta delle vendite",
+      "profile": "Equilibrio Economico",
+      "value": 5.73,
+      "quintile": "Q4",
+      "quintile_value": 4,
+      "interpretation": "Sopra media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Indice di autofinanziamento",
+      "profile": "Equilibrio Economico",
+      "value": 9.948,
+      "quintile": "Q3",
+      "quintile_value": 3,
+      "interpretation": "Nella media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Autofinanziamento / Debiti Totali",
+      "profile": "Sostenibilità del debito",
+      "value": 15.925,
+      "quintile": "Q3",
+      "quintile_value": 3,
+      "interpretation": "Nella media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Oneri finanziari netti / Risultato Operativo Lordo",
+      "profile": "Sostenibilità del debito",
+      "value": 15.244,
+      "quintile": "Q5",
+      "quintile_value": 5,
+      "interpretation": "Eccellente",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Debiti Totali/EBITDA",
+      "profile": "Sostenibilità del debito",
+      "value": 3.846,
+      "quintile": "Q3",
+      "quintile_value": 3,
+      "interpretation": "Nella media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Variazione % fatturato",
+      "profile": "Sviluppo - Trend",
+      "value": 14.246,
+      "quintile": "Q4",
+      "quintile_value": 4,
+      "interpretation": "Sopra media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Variazione % ROL",
+      "profile": "Sviluppo - Trend",
+      "value": -0.371,
+      "quintile": "Q3",
+      "quintile_value": 3,
+      "interpretation": "Nella media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Variazione % Risultato d'esercizio",
+      "profile": "Sviluppo - Trend",
+      "value": -27.944,
+      "quintile": "Q2",
+      "quintile_value": 2,
+      "interpretation": "Sotto media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Variazione ROL / Fatturato",
+      "profile": "Sviluppo - Trend",
+      "value": -2.571,
+      "quintile": "Q2",
+      "quintile_value": 2,
+      "interpretation": "Sotto media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    },
+    {
+      "indicator": "Variazione RN / Fatturato",
+      "profile": "Sviluppo - Trend",
+      "value": -3.356,
+      "quintile": "Q2",
+      "quintile_value": 2,
+      "interpretation": "Sotto media",
+      "sector": "Prodotti in metallo, escluse macchine e attrezzature"
+    }
+  ],
+  "stress_test": {
+    "scenarios": [
+      {
+        "name": "Base",
+        "revenue_change_percent": 0,
+        "new_revenue": 929798,
+        "new_ebitda": 154253,
+        "new_dscr": 1.95
+      },
+      {
+        "name": "Scenario -5%",
+        "revenue_change_percent": -5,
+        "new_revenue": 883308,
+        "new_ebitda": 146540,
+        "new_dscr": 1.85
+      },
+      {
+        "name": "Scenario -10%",
+        "revenue_change_percent": -10,
+        "new_revenue": 836818,
+        "new_ebitda": 138828,
+        "new_dscr": 1.75
+      },
+      {
+        "name": "Scenario -15%",
+        "revenue_change_percent": -15,
+        "new_revenue": 790328,
+        "new_ebitda": 131115,
+        "new_dscr": 1.66
+      }
+    ]
+  },
+  "codice_crisi_indices": [
+    {
+      "id": "patrimonio",
+      "name": "Patrimonio Netto",
+      "value": 540648,
+      "soglia": "> Capitale Sociale",
+      "status": "OK",
+      "calculation": "Patrimonio Netto vs Capitale Sociale"
+    },
+    {
+      "id": "dscr",
+      "name": "DSCR Previsionale 6 Mesi",
+      "value": 1.95,
+      "soglia": "≥ 1.0",
+      "status": "PARZIALE",
+      "note": "Valore storico, serve previsionale"
+    },
+    {
+      "id": "oneri",
+      "name": "Sostenibilità Oneri Finanziari",
+      "value": 2.73,
+      "soglia": "≤ 3.8%",
+      "status": "OK",
+      "calculation": "(Oneri Finanziari / Fatturato) * 100"
+    },
+    {
+      "id": "patrimoniale",
+      "name": "Adeguatezza Patrimoniale",
+      "value": 91.13,
+      "soglia": "≥ 2.3% - 9.4%",
+      "status": "OK",
+      "calculation": "(Patrimonio Netto / Debiti Totali) * 100"
+    },
+    {
+      "id": "ritorno",
+      "name": "Ritorno Liquido dell'Attivo",
+      "value": 8.24,
+      "soglia": "≥ 0.3% - 1.9%",
+      "status": "OK",
+      "calculation": "(Cash Flow / Totale Attivo) * 100"
+    },
+    {
+      "id": "liquidita",
+      "name": "Indice di Liquidità",
+      "value": 156.67,
+      "soglia": "≥ 69.8% - 108%",
+      "status": "OK",
+      "calculation": "(Attività Breve / Passività Breve) * 100"
+    },
+    {
+      "id": "indebitamento",
+      "name": "Indebitamento Prev./Tributario",
+      "value": null,
+      "soglia": "≤ 2.9% - 14.6%",
+      "status": "MANCANTE",
+      "note": "Dato non disaggregato"
+    }
+  ]
+}
