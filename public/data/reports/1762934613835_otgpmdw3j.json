@@ -1,0 +1,1163 @@
+{
+  "company": {
+    "name": "KITZANOS SOC COOP",
+    "fullName": "KITZANOS SOCIETA COOPERATIVA",
+    "legalForm": "Società Cooperativa",
+    "piva": "03748590928",
+    "foundedDate": "N/D",
+    "ateco": "Consulenza gestionale e PR",
+    "address": {
+      "street": "N/D",
+      "city": "N/D",
+      "province": "N/D",
+      "zip": "N/D"
+    },
+    "contacts": {
+      "email": "N/D",
+      "pec": "N/D",
+      "phone": "N/D",
+      "website": "N/D"
+    },
+    "social": [],
+    "capitaleSociale": 0,
+    "employees": {
+      "current": 0,
+      "previous": 0,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "10 Novembre 2025",
+    "generatedDate": "10/11/2025"
+  },
+  "riskAssessment": {
+    "score": 72.72,
+    "maxScore": 100,
+    "category": "B",
+    "categoryLabel": "Rischio moderato - Categoria B",
+    "rating": "B3",
+    "previousRating": "C1",
+    "description": "L'IRP Kitzanos (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating B3 (migliorato da C1) indica un miglioramento del profilo di rischio, supportato da ottimi equilibri economici e finanziari.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "72,72",
+      "icon": "ri-shield-line",
+      "colorClass": "light-green",
+      "category": {
+        "label": "CATEGORIA B",
+        "class": "b"
+      },
+      "benchmark": "Rischio moderato"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "0,00%",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "0,00x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "0 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 0",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "0,00%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "5,26",
+      "icon": "ri-water-flash-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 0.77,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Eccellente (Q5)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "0,00x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "CRITICO",
+        "class": "critical"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 5.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Invariato"
+      },
+      "benchmark": "Limite operativo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Ottimo equilibrio finanziario (score 5/5)",
+      "Ottimo equilibrio economico (score 5/5)",
+      "Ottime prospettive di sviluppo (score 5/5)",
+      "Liquidità corrente eccellente (5,26)",
+      "Liquidità secca eccellente (5,26)",
+      "ROI sopra media settoriale (8,84%)",
+      "ROS sopra media settoriale (19,56%)",
+      "Miglioramento rating da C1 a B3"
+    ],
+    "weaknesses": [
+      "Equilibrio patrimoniale negativo (score 1/5)",
+      "Sostenibilità del debito critica (score 2/5)",
+      "Patrimonio netto rettificato negativo (-9,50%)",
+      "Bassa autocopertura immobilizzazioni (0,48)",
+      "Variazione fatturato negativa (-10,33%)",
+      "Dati finanziari principali non disponibili",
+      "Impossibile calcolare DSCR per mancanza dati"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            75
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "Autofinanziamento"
+      ],
+      "datasets": [
+        {
+          "label": "Kitzanos",
+          "data": [
+            1,
+            5,
+            4,
+            4,
+            2,
+            5
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Consulenza gestionale e PR)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "6": "B3",
+        "7": "C1"
+      },
+      "scoreMap": {
+        "2": "VERDE CHIARO",
+        "3": "GIALLO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 5,
+      "maxScore": 5,
+      "evaluation": "Ottima",
+      "trend": {
+        "label": "in forte miglioramento",
+        "type": "strong-positive"
+      },
+      "color": "green"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 5,
+      "maxScore": 5,
+      "evaluation": "Ottima",
+      "trend": {
+        "label": "in miglioramento",
+        "type": "positive"
+      },
+      "color": "green"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 5,
+      "maxScore": 5,
+      "evaluation": "Ottima",
+      "trend": {
+        "label": "in miglioramento",
+        "type": "positive"
+      },
+      "color": "green"
+    }
+  ],
+  "management": [],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": "vs 2023"
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": "vs 2023"
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": "vs 2023"
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Impossibile calcolare",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "8,84%",
+        "trend": {
+          "direction": "up",
+          "value": "Sopra media",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "19,56%",
+        "trend": {
+          "direction": "up",
+          "value": "Sopra media",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Impossibile calcolare",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "13,87%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Sotto media (Q2)",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "0,00x",
+        "trend": {
+          "direction": "neutral",
+          "value": "Impossibile calcolare",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "5,26",
+        "trend": {
+          "direction": "up",
+          "value": "Eccellente (Q5)",
+          "label": ""
+        },
+        "colorClass": "positive"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "KITZANOS SOCIETA COOPERATIVA"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Società Cooperativa"
+          },
+          {
+            "label": "P.IVA",
+            "value": "03748590928"
+          },
+          {
+            "label": "Settore",
+            "value": "Consulenza gestionale e PR"
+          },
+          {
+            "label": "Rating Attuale",
+            "value": "B3 (migliorato da C1)"
+          },
+          {
+            "label": "Risk Score",
+            "value": "VERDE CHIARO - nella media"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Fido Operativo",
+            "value": "€ 5.000"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "N/D"
+          },
+          {
+            "label": "Liquidità Corrente",
+            "value": "5,26 (Eccellente)"
+          },
+          {
+            "label": "ROI",
+            "value": "8,84% (Sopra media)"
+          },
+          {
+            "label": "ROS",
+            "value": "19,56% (Sopra media)"
+          },
+          {
+            "label": "Autofinanziamento",
+            "value": "40,81% (Eccellente)"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio attento dell'equilibrio patrimoniale (score 1/5)",
+      "Valutazione opportunità di rafforzamento patrimoniale",
+      "Attenzione alla sostenibilità del debito (score 2/5)",
+      "Mantenimento degli ottimi livelli di liquidità",
+      "Consolidamento dei buoni risultati economici",
+      "Fido consigliato: € 5.000 (invariato negli ultimi 12 mesi)"
+    ],
+    "outlook": "L'azienda presenta un profilo misto con eccellenti performance in ambito finanziario ed economico ma criticità nell'equilibrio patrimoniale. Il miglioramento del rating da C1 a B3 segnala un trend positivo, supportato da ottimi indici di liquidità e redditività operativa. Tuttavia, la struttura patrimoniale debole e alcuni aspetti di criticità nella sostenibilità del debito richiedono monitoraggio attento. Si raccomanda un approccio prudente nell'erogazione di credito, mantenendo il limite operativo attuale."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "DATI INSUFFICIENTI",
+      "colorClass": "warning",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Dato non disponibile",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "0,00x",
+        "detail": "Impossibile calcolare",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "0,00%",
+        "detail": "Dati non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore consulenza",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "0,00%",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "0,00%",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "0,00%",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dati-mancanti",
+        "title": "Dati Finanziari Insufficienti",
+        "icon": "ri-alert-line",
+        "colorClass": "warning",
+        "text": "La maggior parte dei dati economico-finanziari necessari per il calcolo degli indici del Codice della Crisi non sono disponibili. È necessario acquisire il bilancio completo per una valutazione accurata."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-7) fuori soglia contemporaneamente. La mancanza di dati non consente una valutazione completa secondo D.Lgs. 14/2019."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) acquisire bilancio completo 2024, (2) implementare budget di tesoreria semestrale per DSCR prospettico, (3) verificare disaggregazione debiti tributari/previdenziali."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per settore consulenza gestionale",
+        "colorClass": "secondary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Impossibile calcolare per mancanza dati",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "N/D",
+          "color": "red"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "N/D",
+          "color": "red"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "N/D",
+          "color": "red"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "N/D",
+          "color": "red"
+        }
+      ],
+      "assumptions": [
+        "I dati economico-finanziari necessari per il calcolo del DSCR non sono disponibili",
+        "È necessario acquisire il bilancio completo per procedere con il calcolo",
+        "Il DSCR è un indicatore fondamentale per valutare la capacità di servizio del debito",
+        "Soglia minima accettabile: ≥ 1.0x, valore ottimale: ≥ 1.3x"
+      ],
+      "result": {
+        "calculation": "Impossibile calcolare per mancanza dati",
+        "value": "0,00x",
+        "interpretation": "Il DSCR non può essere calcolato a causa della mancanza dei dati economico-finanziari fondamentali (EBITDA, oneri finanziari, struttura del debito). Questo indicatore è cruciale per valutare la capacità dell'azienda di onorare i propri impegni finanziari."
+      }
+    },
+    {
+      "id": "profili",
+      "icon": "ri-bar-chart-line",
+      "title": "Analisi Profili di Valutazione",
+      "subtitle": "Dettaglio dei 5 profili con indicatori specifici",
+      "profiles": [
+        {
+          "name": "Equilibrio Patrimoniale",
+          "score": 1,
+          "color": "red",
+          "indicators": [
+            {
+              "name": "Indice di capitalizzazione",
+              "value": "13,87%",
+              "quintile": "Q2"
+            },
+            {
+              "name": "Patrimonio netto rettificato / Capitale investito",
+              "value": "-9,50%",
+              "quintile": "Q1"
+            },
+            {
+              "name": "Copertura globale immobilizzazioni",
+              "value": "2,97",
+              "quintile": "Q3"
+            },
+            {
+              "name": "Autocopertura immobilizzazioni",
+              "value": "0,48",
+              "quintile": "Q1"
+            }
+          ]
+        },
+        {
+          "name": "Equilibrio Finanziario",
+          "score": 5,
+          "color": "green",
+          "indicators": [
+            {
+              "name": "Liquidità corrente",
+              "value": "5,26",
+              "quintile": "Q5"
+            },
+            {
+              "name": "Liquidità secca",
+              "value": "5,26",
+              "quintile": "Q5"
+            }
+          ]
+        },
+        {
+          "name": "Equilibrio Economico",
+          "score": 5,
+          "color": "green",
+          "indicators": [
+            {
+              "name": "ROI",
+              "value": "8,84%",
+              "quintile": "Q4"
+            },
+            {
+              "name": "ROS",
+              "value": "19,56%",
+              "quintile": "Q4"
+            },
+            {
+              "name": "Redditività netta delle vendite",
+              "value": "14,43%",
+              "quintile": "Q4"
+            },
+            {
+              "name": "Indice di autofinanziamento",
+              "value": "40,81%",
+              "quintile": "Q5"
+            }
+          ]
+        },
+        {
+          "name": "Sostenibilità del debito",
+          "score": 2,
+          "color": "orange",
+          "indicators": [
+            {
+              "name": "Autofinanziamento / Debiti Totali",
+              "value": "21,90%",
+              "quintile": "Q4"
+            },
+            {
+              "name": "Oneri finanziari / ROL",
+              "value": "4,16%",
+              "quintile": "Q5"
+            },
+            {
+              "name": "Debiti Totali/EBITDA",
+              "value": "4,06",
+              "quintile": "Q4"
+            }
+          ]
+        },
+        {
+          "name": "Sviluppo - Trend",
+          "score": 5,
+          "color": "green",
+          "indicators": [
+            {
+              "name": "Variazione % fatturato",
+              "value": "-10,33%",
+              "quintile": "Q2"
+            },
+            {
+              "name": "Variazione % ROL",
+              "value": "113,81%",
+              "quintile": "Q4"
+            },
+            {
+              "name": "Variazione % Risultato d'esercizio",
+              "value": "1.254,74%",
+              "quintile": "Q5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "KITZANOS SOCIETA COOPERATIVA"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Società Cooperativa"
+      },
+      {
+        "label": "P.IVA",
+        "value": "03748590928"
+      },
+      {
+        "label": "Settore",
+        "value": "Consulenza gestionale e PR"
+      },
+      {
+        "label": "Rating",
+        "value": "B3 (migliorato da C1)"
+      },
+      {
+        "label": "Risk Score",
+        "value": "VERDE CHIARO - nella media"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Fido Operativo",
+        "value": "€ 5.000"
+      },
+      {
+        "label": "IRP Score",
+        "value": "72,72/100"
+      },
+      {
+        "label": "Liquidità Corrente",
+        "value": "5,26 (Q5 - Eccellente)"
+      },
+      {
+        "label": "ROI",
+        "value": "8,84% (Q4 - Sopra media)"
+      },
+      {
+        "label": "ROS",
+        "value": "19,56% (Q4 - Sopra media)"
+      },
+      {
+        "label": "Autofinanziamento",
+        "value": "40,81% (Q5 - Eccellente)"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "EBITDA",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "ROE",
+      "value": "N/D",
+      "status": "Impossibile calcolare"
+    },
+    {
+      "label": "ROI",
+      "value": "8,84%",
+      "status": "Sopra media (Q4)"
+    },
+    {
+      "label": "ROS",
+      "value": "19,56%",
+      "status": "Sopra media (Q4)"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "N/D",
+      "status": "Impossibile calcolare"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "13,87%",
+      "status": "Sotto media (Q2)"
+    },
+    {
+      "label": "DSCR",
+      "value": "0,00x",
+      "status": "Impossibile calcolare"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "5,26",
+      "status": "Eccellente (Q5)"
+    }
+  ],
+  "partecipazioni": []
+}
