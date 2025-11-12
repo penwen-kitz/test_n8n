@@ -1,0 +1,1231 @@
+{
+  "company": {
+    "name": "ECOCONCEPT SRL",
+    "fullName": "ECOCONCEPT S.R.L.",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "09275810969",
+    "foundedDate": "16/11/2015",
+    "ateco": "749921 - Consulting in the area of occupational safety and health at the workplace",
+    "address": {
+      "street": "VIA FELICE CAVALLOTTI, 105",
+      "city": "MONZA",
+      "province": "MB",
+      "zip": "20900"
+    },
+    "contacts": {
+      "email": "segreteria@eco-concept.it",
+      "pec": "ECOCONCEPT@PEC.IT",
+      "phone": null,
+      "website": "www.eco-concept.it"
+    },
+    "social": [
+      "Facebook",
+      "Instagram",
+      "LinkedIn"
+    ],
+    "capitaleSociale": 10000,
+    "employees": {
+      "current": 1,
+      "previous": 1,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "12 Gennaio 2025",
+    "generatedDate": "12/01/2025"
+  },
+  "riskAssessment": {
+    "score": 72.26,
+    "maxScore": 100,
+    "category": "B",
+    "categoryLabel": "Rischio moderato - Categoria B",
+    "rating": "B3",
+    "previousRating": "B3",
+    "description": "L'IRP Ecoconcept (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating B3 (invariato) e la buona solidità finanziaria indicano attualmente un rischio moderato.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "72,26",
+      "icon": "ri-shield-line",
+      "colorClass": "blue",
+      "category": {
+        "label": "CATEGORIA B",
+        "class": "b"
+      },
+      "benchmark": "Buona solidità finanziaria"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 137.142",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -42.93,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "In decrescita significativa"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "15,34%",
+      "icon": "ri-percent-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 8.67,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Ottimo (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "6,03x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 6.03,
+        "label": "vs 2023",
+        "direction": "up",
+        "unit": "x"
+      },
+      "benchmark": "Critico (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "788 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 788,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Critico (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 10.486",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 7.65,
+        "label": "dei Ricavi",
+        "direction": "up",
+        "unit": "%"
+      },
+      "benchmark": "Buono (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "12,81%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 12.81,
+        "label": "vs 2023",
+        "direction": "up",
+        "unit": "pp"
+      },
+      "benchmark": "Accettabile (benchmark >15%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,42",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 1.42,
+        "label": "vs benchmark",
+        "direction": "down"
+      },
+      "benchmark": "Accettabile (benchmark >2.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "1,73x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "green",
+      "badge": {
+        "label": "OTTIMO",
+        "class": "good"
+      },
+      "benchmark": "Ottimo (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 5.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Invariato"
+      },
+      "benchmark": "Consigliato - Monitoraggio attivo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Equilibrio economico positivo (score 4/5)",
+      "DSCR ottimo (1,73x, ampio margine di copertura)",
+      "EBITDA margin eccellente (15,34%)",
+      "Cash flow operativo buono (7,65% dei ricavi)",
+      "ROI sopra media (7,85%)",
+      "Miglioramento significativo della redditività operativa"
+    ],
+    "weaknesses": [
+      "Sostenibilità del debito critica (score 1/5)",
+      "Sviluppo-Trend problematico (score 2/5)",
+      "Fatturato in forte calo (-42,93%)",
+      "PFN/EBITDA critico (6,03x)",
+      "DSO molto elevato (788 giorni)",
+      "Leverage elevato (5,08x)"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2023-2024)",
+      "labels": [
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (K€)",
+          "data": [
+            240.24,
+            137.14
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (K€)",
+          "data": [
+            16.03,
+            21.03
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            6.67,
+            15.34
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            6.03,
+            4.08,
+            1.73
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            788,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#f9b115"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            75
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            1.73,
+            1.64,
+            1.56,
+            1.47
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Ecoconcept",
+          "data": [
+            2,
+            3,
+            4,
+            3,
+            1,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Consulenza sicurezza)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "yellow"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "in lieve miglioramento",
+        "type": "positive"
+      },
+      "color": "yellow"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "in lieve miglioramento",
+        "type": "positive"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "in lieve peggioramento",
+        "type": "negative"
+      },
+      "color": "orange"
+    }
+  ],
+  "management": [
+    {
+      "name": "MARIARAFFAELLA NAPOLITANO",
+      "role": "Managing director",
+      "initials": "MN",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "25/09/2017"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 137.142",
+        "trend": {
+          "direction": "down",
+          "value": "-42,93%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 21.034",
+        "trend": {
+          "direction": "up",
+          "value": "+31,26%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ 4.870",
+        "trend": {
+          "direction": "down",
+          "value": "-15,45%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 38.996",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 10.000",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "12,81%",
+        "trend": {
+          "direction": "up",
+          "value": "Redditività accettabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "7,85%",
+        "trend": {
+          "direction": "up",
+          "value": "Sopra media",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "11,05%",
+        "trend": {
+          "direction": "up",
+          "value": "Marginalità buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "5,08",
+        "trend": {
+          "direction": "neutral",
+          "value": "Elevato - da monitorare",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "0,20",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bassa - attenzione",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "1,73x",
+        "trend": {
+          "direction": "up",
+          "value": "Ottimo",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,42",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "ECOCONCEPT S.R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "16/11/2015"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "749921 - Consulting in the area of occupational safety and health at the workplace"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA FELICE CAVALLOTTI, 105<br>20900 MONZA (MB)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "segreteria@eco-concept.it<br>ECOCONCEPT@PEC.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 10.000"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "1 (invariato vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "N/D"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.eco-concept.it"
+          },
+          {
+            "label": "Social",
+            "value": "Facebook, Instagram, LinkedIn"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio dell'evoluzione del fatturato nei prossimi mesi",
+      "Valutazione dell'opportunità di rafforzare la struttura patrimoniale",
+      "Analisi dell'elevata esposizione debitoria (PFN/EBITDA 6,03x)",
+      "Ottimizzazione dei tempi di incasso crediti (DSO 788 giorni)",
+      "Fido consigliato: € 5.000 (invariato negli ultimi 12 mesi)"
+    ],
+    "outlook": "L'azienda mostra segnali contrastanti: da un lato un miglioramento significativo della redditività operativa (EBITDA margin 15,34%) e un DSCR ottimo (1,73x), dall'altro una forte contrazione del fatturato (-42,93%) e un'elevata esposizione debitoria. Il rating B3 invariato riflette questa situazione mista. Si raccomanda un approccio prudente nell'erogazione di credito, mantenendo il limite operativo invariato e monitorando attentamente l'evoluzione del business nei prossimi trimestri."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ATTENZIONE",
+      "colorClass": "warning",
+      "indiciOk": 5,
+      "indiciAllerta": 1,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 38.996",
+        "detail": "Capitale sociale: € 10.000",
+        "soglia": "> € 10.000",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "1,73x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "PARZIALE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "1,14%",
+        "detail": "€ 1.563 / € 137.142",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore consulenza",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "24,52%",
+        "detail": "€ 38.996 / € 159.018",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "5,30%",
+        "detail": "€ 10.486 / € 198.022",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "335,19%",
+        "detail": "€ 185.570 / € 55.366",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Previsionale",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "Il DSCR richiesto dal Codice della Crisi deve essere previsionale su base 6 mesi (budget di tesoreria). Il valore storico 1,73x è ottimo ma non sostituisce l'analisi prospettica richiesta dalla normativa."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-7) fuori soglia contemporaneamente. Un solo indice in allerta non costituisce crisi secondo D.Lgs. 14/2019."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) implementare budget di tesoreria semestrale per DSCR prospettico, (2) verificare disaggregazione debiti tributari/previdenziali, (3) mantenere monitoraggio costante degli indici."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 749921 (Consulenza sicurezza)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 21.034",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 1.563",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 55.366",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 103.652",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 55.366 × 0.20 = <strong>€ 11.073</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 103.652</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 103.652 / 5 = <strong>€ 20.730</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 11.073 + € 20.730 = <strong style='color: var(--primary);'>€ 31.803</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 21.034 / (€ 1.563 + € 31.803) = € 21.034 / € 33.366",
+        "value": "1,73x",
+        "interpretation": "Un DSCR di 1,73 indica che l'azienda genera un EBITDA sufficiente a coprire il servizio del debito (oneri finanziari + quota capitale) con un margine di sicurezza del 73%. La soglia minima accettabile è generalmente 1.0, mentre un valore ottimale è considerato ≥ 1.3."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ N/D",
+              "2024": "€ 4.000",
+              "voce": "Immateriali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ N/D",
+              "2024": "€ 3.652",
+              "voce": "Materiali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ N/D",
+              "2024": "€ 4.800",
+              "voce": "Finanziarie",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ N/D",
+            "2024": "€ 12.452",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "circolante": [
+            {
+              "2023": "€ N/D",
+              "2024": "€ 360.828",
+              "voce": "Crediti",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ N/D",
+              "2024": "€ 4.930",
+              "voce": "Disponibilità liquide",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ N/D",
+            "2024": "€ 185.570",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "totaleAttivo": {
+            "2023": "€ N/D",
+            "2024": "€ 198.022",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 10.000",
+              "2024": "€ 10.000",
+              "voce": "Capitale sociale",
+              "trend": "0.0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ N/D",
+              "2024": "€ 38.996",
+              "voce": "Patrimonio netto",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ N/D",
+            "2024": "€ 38.996",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "debiti": [
+            {
+              "2023": "€ N/D",
+              "2024": "€ 55.366",
+              "voce": "Debiti a breve termine",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ N/D",
+              "2024": "€ 103.652",
+              "voce": "Debiti a M/L termine",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ N/D",
+            "2024": "€ 159.018",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "totalePassivo": {
+            "2023": "€ N/D",
+            "2024": "€ 198.022",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 240.240",
+          "2024": "€ 137.142",
+          "voce": "Ricavi delle vendite",
+          "trend": "-42,9%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 16.025",
+          "2024": "€ 21.034",
+          "voce": "EBITDA",
+          "trend": "+31,3%",
+          "trendColor": "green",
+          "highlight": true
+        },
+        {
+          "2023": "€ 10.855",
+          "2024": "€ 15.544",
+          "voce": "Risultato operativo",
+          "trend": "+43,2%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 5.760",
+          "2024": "€ 4.870",
+          "voce": "Utile netto",
+          "trend": "-15,5%",
+          "trendColor": "red",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "ECOCONCEPT S.R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "16/11/2015"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "749921 - Consulting in the area of occupational safety and health at the workplace"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA FELICE CAVALLOTTI, 105<br>20900 MONZA (MB)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "segreteria@eco-concept.it<br>ECOCONCEPT@PEC.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 10.000"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "1 (invariato vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "N/D"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.eco-concept.it"
+      },
+      {
+        "label": "Social",
+        "value": "Facebook, Instagram, LinkedIn"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 137.142",
+      "trend": "-42,93% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 21.034",
+      "trend": "+31,26% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 4.870",
+      "trend": "-15,45% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 38.996",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 10.000",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "12,81%",
+      "status": "Redditività accettabile"
+    },
+    {
+      "label": "ROI",
+      "value": "7,85%",
+      "status": "Sopra media"
+    },
+    {
+      "label": "ROS",
+      "value": "11,05%",
+      "status": "Marginalità buona"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "5,08",
+      "status": "Elevato - da monitorare"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "0,20",
+      "status": "Bassa - attenzione"
+    },
+    {
+      "label": "DSCR",
+      "value": "1,73x",
+      "status": "Ottimo"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,42",
+      "status": "Accettabile"
+    }
+  ],
+  "partecipazioni": []
+}
