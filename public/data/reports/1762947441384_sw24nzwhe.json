@@ -1,0 +1,1377 @@
+{
+  "company": {
+    "name": "HEALTH ITALIA SPA",
+    "fullName": "HEALTH ITALIA S.P.A.",
+    "legalForm": "Limited company",
+    "piva": "08424020967",
+    "foundedDate": "07/11/2013",
+    "ateco": "6421 - Activities of holding companies",
+    "address": {
+      "street": "VIA SANTA CORNELIA, 9",
+      "city": "FORMELLO",
+      "province": "RM",
+      "zip": "00060"
+    },
+    "contacts": {
+      "email": "info@healthitalia.com",
+      "pec": "HEALTHITALIA@LEGALMAIL.IT",
+      "phone": "0661566722",
+      "website": "www.healthitalia.it"
+    },
+    "social": [
+      "Facebook",
+      "Twitter",
+      "LinkedIn"
+    ],
+    "capitaleSociale": 18948075,
+    "employees": {
+      "current": 53,
+      "previous": 46,
+      "trend": 15.22
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "12 Novembre 2025",
+    "generatedDate": "12/11/2025"
+  },
+  "riskAssessment": {
+    "score": 97.67,
+    "maxScore": 100,
+    "category": "A",
+    "categoryLabel": "Rischio minimo - Categoria A",
+    "rating": "A1",
+    "previousRating": "A1",
+    "description": "L'IRP Health Italia (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating A1 (confermato) e l'eccellente solidità finanziaria indicano un rischio minimo con ottime prospettive.",
+    "colorClass": "green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "97,67",
+      "icon": "ri-shield-line",
+      "colorClass": "green",
+      "category": {
+        "label": "CATEGORIA A",
+        "class": "a"
+      },
+      "benchmark": "Eccellente solidità finanziaria"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 32.596.454",
+      "icon": "ri-funds-box-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 26.85,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Crescita significativa"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "18,50%",
+      "icon": "ri-percent-line",
+      "colorClass": "green",
+      "trend": {
+        "value": -6.5,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Ottimo (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "2,35x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": 0.12,
+        "label": "vs soglia",
+        "direction": "neutral",
+        "unit": "x"
+      },
+      "benchmark": "Buono (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "910 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 821,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Critico (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 4.185.197",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 12.84,
+        "label": "dei Ricavi",
+        "direction": "up",
+        "unit": "%"
+      },
+      "benchmark": "Eccellente (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "7,38%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": 0.25,
+        "label": "vs 2023",
+        "direction": "neutral",
+        "unit": "pp"
+      },
+      "benchmark": "Buono (benchmark >6%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,83",
+      "icon": "ri-water-flash-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": 0.48,
+        "label": "vs soglia",
+        "direction": "up"
+      },
+      "benchmark": "Buono (benchmark >1.5)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "4,48x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "green",
+      "badge": {
+        "label": "ECCELLENTE",
+        "class": "excellent"
+      },
+      "benchmark": "Ampio margine (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 1.410.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 33.02,
+        "label": "vs giugno",
+        "direction": "up",
+        "text": "Incrementato"
+      },
+      "benchmark": "Elevato - Ottima affidabilità"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Rating A1 confermato con rischio minimo",
+      "Ottimo equilibrio patrimoniale (score 4/5)",
+      "Ottimo equilibrio economico (score 4/5)",
+      "Ottime prospettive di sviluppo (score 4/5)",
+      "ROI eccellente (7,48%)",
+      "Crescita fatturato significativa (+26,85%)",
+      "DSCR eccellente (4,48x)",
+      "Cash flow operativo robusto (12,84% dei ricavi)",
+      "Fido operativo elevato (€ 1.410.000)"
+    ],
+    "weaknesses": [
+      "Equilibrio finanziario nella media (score 3/5)",
+      "Sostenibilità del debito con criticità (score 2/5)",
+      "DSO molto elevato (910 giorni vs 89 benchmark)",
+      "Leverage moderato (1,68)",
+      "EBITDA margin in calo (-6,50%)",
+      "Oneri finanziari in crescita"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            28.5,
+            25.7,
+            32.6
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            5.8,
+            6.4,
+            6
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            20.4,
+            25.1,
+            18.5
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            2.35,
+            0.65,
+            4.48
+          ],
+          "backgroundColor": [
+            "#24b47e",
+            "#24b47e",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            2,
+            1
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            910,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#f9b115"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            30
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            4.48,
+            4.26,
+            4.03,
+            3.81
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Health Italia",
+          "data": [
+            4,
+            3,
+            5,
+            4,
+            3,
+            4
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Servizi finanziari)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE SCURO",
+        "2": "VERDE",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "yellow"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "in miglioramento",
+        "type": "positive"
+      },
+      "color": "light-green"
+    }
+  ],
+  "management": [
+    {
+      "name": "ROBERTO EMILIO ANZANELLO",
+      "role": "Chairman of board of directors",
+      "initials": "REA",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "17/04/2025"
+    },
+    {
+      "name": "LIVIA FOGLIA",
+      "role": "Managing director",
+      "initials": "LF",
+      "colorClass": "teal",
+      "appointmentDate": "22/04/2025"
+    },
+    {
+      "name": "ANDREA DI DIO",
+      "role": "Director",
+      "initials": "ADD",
+      "colorClass": "yellow",
+      "appointmentDate": "17/04/2025"
+    },
+    {
+      "name": "MASSIMILIANO ALFIERI",
+      "role": "Director",
+      "initials": "MA",
+      "colorClass": "green",
+      "appointmentDate": "17/04/2025"
+    },
+    {
+      "name": "OSCAR PISCHEDDU",
+      "role": "Director",
+      "initials": "OP",
+      "colorClass": "purple",
+      "appointmentDate": "17/04/2025"
+    },
+    {
+      "name": "MASSIMO D'AGOSTINO",
+      "role": "Chairman of board of auditors",
+      "initials": "MDA",
+      "colorClass": "orange",
+      "appointmentDate": "28/04/2023"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "id": "onlife",
+        "name": "ON LIFE SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "green",
+        "quota": "50%",
+        "type": "Partecipazione Maggioritaria"
+      },
+      {
+        "id": "healthitalia",
+        "name": "HEALTH ITALIA SPA",
+        "icon": "ri-building-4-line",
+        "colorClass": "blue",
+        "quota": "44,15%",
+        "type": "Autopartecipazione"
+      },
+      {
+        "id": "ethicoin",
+        "name": "ETHICOIN SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "yellow",
+        "quota": "40%",
+        "type": "Partecipazione Strategica"
+      },
+      {
+        "id": "primainsalute",
+        "name": "PRIMA IN SALUTE SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "teal",
+        "quota": "30%",
+        "type": "Partecipazione Strategica"
+      },
+      {
+        "id": "behealth",
+        "name": "BE HEALTH SPA",
+        "icon": "ri-building-4-line",
+        "colorClass": "purple",
+        "quota": "21,79%",
+        "type": "Partecipazione Significativa"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 32.596.454",
+        "trend": {
+          "direction": "up",
+          "value": "+26,85%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 6.030.221",
+        "trend": {
+          "direction": "down",
+          "value": "-6,50%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ 2.513.347",
+        "trend": {
+          "direction": "up",
+          "value": "+107,77%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 35.323.347",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 18.948.075",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "7,38%",
+        "trend": {
+          "direction": "up",
+          "value": "Redditività buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "7,48%",
+        "trend": {
+          "direction": "up",
+          "value": "Eccellente",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "13,18%",
+        "trend": {
+          "direction": "up",
+          "value": "Marginalità ottima",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "1,68",
+        "trend": {
+          "direction": "neutral",
+          "value": "Moderato",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "0,59",
+        "trend": {
+          "direction": "neutral",
+          "value": "Buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "4,48x",
+        "trend": {
+          "direction": "up",
+          "value": "Eccellente",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,83",
+        "trend": {
+          "direction": "up",
+          "value": "Buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "HEALTH ITALIA S.P.A."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "07/11/2013"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "6421 - Activities of holding companies"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA SANTA CORNELIA, 9<br>00060 FORMELLO (RM)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@healthitalia.com<br>HEALTHITALIA@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 18.948.075"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "53 (+15,22% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "0661566722"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.healthitalia.it"
+          },
+          {
+            "label": "Social",
+            "value": "Facebook, Twitter, LinkedIn"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Mantenimento dell'eccellente rating A1 attraverso il monitoraggio continuo degli indicatori chiave",
+      "Ottimizzazione dei tempi di incasso crediti per ridurre il DSO critico (910 giorni)",
+      "Valutazione dell'opportunità di diversificare il portafoglio partecipazioni",
+      "Monitoraggio dell'evoluzione degli oneri finanziari in relazione alla crescita",
+      "Fido operativo elevato confermato: € 1.410.000 (incrementato del 33% da giugno 2025)"
+    ],
+    "outlook": "Health Italia presenta un profilo di rischio eccellente con rating A1 confermato e rischio minimo. La società holding mostra una solida struttura finanziaria supportata da un portafoglio diversificato di partecipazioni strategiche nel settore sanitario. La crescita del fatturato (+26,85%) e l'ottima generazione di cash flow operativo (12,84% dei ricavi) confermano la solidità del modello di business. Il DSCR eccellente (4,48x) garantisce ampia copertura del servizio debito. L'unica area di attenzione riguarda l'elevato DSO che richiede ottimizzazione dei processi di incasso. Si raccomanda il mantenimento del fido operativo elevato con monitoraggio trimestrale dell'evoluzione del portafoglio partecipazioni."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "CONFORME",
+      "colorClass": "positive",
+      "indiciOk": 5,
+      "indiciAllerta": 1,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 35.323.347",
+        "detail": "Capitale sociale: € 18.948.075",
+        "soglia": "> € 18.948.075",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "4,48x",
+        "detail": "Valore storico eccellente",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "PARZIALE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "2,79%",
+        "detail": "€ 908.754 / € 32.596.454",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore servizi finanziari",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "153,50%",
+        "detail": "€ 35.323.347 / € 23.014.334",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "7,03%",
+        "detail": "€ 4.185.197 / € 59.505.515",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "584,73%",
+        "detail": "€ 46.613.289 / € 7.973.670",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Previsionale",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "Il DSCR richiesto dal Codice della Crisi deve essere previsionale su base 6 mesi (budget di tesoreria). Il valore storico 4,48x è eccellente ma non sostituisce l'analisi prospettica richiesta dalla normativa."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-7) fuori soglia contemporaneamente. La società presenta un profilo molto solido con tutti gli indici disponibili ampiamente conformi."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) implementare budget di tesoreria semestrale per DSCR prospettico, (2) verificare disaggregazione debiti tributari/previdenziali per completezza informativa, (3) mantenere il monitoraggio trimestrale degli indicatori."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 6421 (Servizi finanziari)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 6.030.221",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 908.754",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 7.973.670",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 15.040.664",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 7.973.670 × 0.20 = <strong>€ 1.594.734</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 15.040.664</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 15.040.664 / 5 = <strong>€ 3.008.133</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 1.594.734 + € 3.008.133 = <strong style='color: var(--primary);'>€ 4.602.867</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 6.030.221 / (€ 908.754 + € 4.602.867) = € 6.030.221 / € 5.511.621",
+        "value": "4,48x",
+        "interpretation": "Un DSCR di 4,48 indica che l'azienda genera un EBITDA ampiamente sufficiente a coprire il servizio del debito (oneri finanziari + quota capitale) con un margine di sicurezza del 348%. Questo valore è considerato eccellente e indica una solida capacità di servizio del debito."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ 3.200.000",
+              "2024": "€ 3.626.959",
+              "voce": "Immateriali",
+              "trend": "+13,3%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 2.100.000",
+              "2024": "€ 2.335.867",
+              "voce": "Materiali",
+              "trend": "+11,2%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 6.200.000",
+              "2024": "€ 6.691.457",
+              "voce": "Finanziarie",
+              "trend": "+7,9%",
+              "trendColor": "green"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ 11.500.000",
+            "2024": "€ 12.654.283",
+            "trend": "+10,0%",
+            "trendColor": "green"
+          },
+          "circolante": [
+            {
+              "2023": "€ 75.800.000",
+              "2024": "€ 81.166.304",
+              "voce": "Crediti",
+              "trend": "+7,1%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 1.200.000",
+              "2024": "€ 856.889",
+              "voce": "Disponibilità liquide",
+              "trend": "-28,6%",
+              "trendColor": "red"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ 77.000.000",
+            "2024": "€ 46.613.289",
+            "trend": "-39,5%",
+            "trendColor": "red"
+          },
+          "totaleAttivo": {
+            "2023": "€ 88.500.000",
+            "2024": "€ 59.505.515",
+            "trend": "-32,8%",
+            "trendColor": "red"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 18.948.075",
+              "2024": "€ 18.948.075",
+              "voce": "Capitale sociale",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 14.165.546",
+              "2024": "€ 13.862.625",
+              "voce": "Riserve",
+              "trend": "-2,1%",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 1.209.726",
+              "2024": "€ 2.513.347",
+              "voce": "Utile d'esercizio",
+              "trend": "+107,8%",
+              "trendColor": "green"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ 34.323.347",
+            "2024": "€ 35.323.347",
+            "trend": "+2,9%",
+            "trendColor": "green"
+          },
+          "debiti": [
+            {
+              "2023": "€ 9.136.653",
+              "2024": "€ 7.973.670",
+              "voce": "Debiti a breve termine",
+              "trend": "-12,7%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 45.040.000",
+              "2024": "€ 15.040.664",
+              "voce": "Debiti a M/L termine",
+              "trend": "-66,6%",
+              "trendColor": "green"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ 54.176.653",
+            "2024": "€ 23.014.334",
+            "trend": "-57,5%",
+            "trendColor": "green"
+          },
+          "totalePassivo": {
+            "2023": "€ 88.500.000",
+            "2024": "€ 59.505.515",
+            "trend": "-32,8%",
+            "trendColor": "red"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 25.697.000",
+          "2024": "€ 32.596.454",
+          "voce": "Ricavi delle vendite",
+          "trend": "+26,9%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 6.449.326",
+          "2024": "€ 6.030.221",
+          "voce": "EBITDA",
+          "trend": "-6,5%",
+          "trendColor": "red",
+          "highlight": true
+        },
+        {
+          "2023": "€ 5.592.840",
+          "2024": "€ 4.451.027",
+          "voce": "Risultato operativo",
+          "trend": "-20,4%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 1.209.726",
+          "2024": "€ 2.513.347",
+          "voce": "Utile netto",
+          "trend": "+107,8%",
+          "trendColor": "green",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "HEALTH ITALIA S.P.A."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "07/11/2013"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "6421 - Activities of holding companies"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA SANTA CORNELIA, 9<br>00060 FORMELLO (RM)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@healthitalia.com<br>HEALTHITALIA@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 18.948.075"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "53 (+15,22% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "0661566722"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.healthitalia.it"
+      },
+      {
+        "label": "Social",
+        "value": "Facebook, Twitter, LinkedIn"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 32.596.454",
+      "trend": "+26,85% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 6.030.221",
+      "trend": "-6,50% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 2.513.347",
+      "trend": "+107,77% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 35.323.347",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 18.948.075",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "7,38%",
+      "status": "Redditività buona"
+    },
+    {
+      "label": "ROI",
+      "value": "7,48%",
+      "status": "Eccellente"
+    },
+    {
+      "label": "ROS",
+      "value": "13,18%",
+      "status": "Marginalità ottima"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "1,68",
+      "status": "Moderato"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "0,59",
+      "status": "Buona"
+    },
+    {
+      "label": "DSCR",
+      "value": "4,48x",
+      "status": "Eccellente"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,83",
+      "status": "Buona"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "companyName": "ON LIFE SRL",
+      "quota": "50%",
+      "tipo": "Partecipazione Maggioritaria"
+    },
+    {
+      "companyName": "HEALTH ITALIA SPA",
+      "quota": "44,15%",
+      "tipo": "Autopartecipazione"
+    },
+    {
+      "companyName": "ETHICOIN SRL",
+      "quota": "40%",
+      "tipo": "Partecipazione Strategica"
+    },
+    {
+      "companyName": "PRIMA IN SALUTE SRL",
+      "quota": "30%",
+      "tipo": "Partecipazione Strategica"
+    },
+    {
+      "companyName": "IMPRESA PLUS SERVIZI SRL",
+      "quota": "22%",
+      "tipo": "Partecipazione Significativa"
+    },
+    {
+      "companyName": "BE HEALTH SPA",
+      "quota": "21,79%",
+      "tipo": "Partecipazione Significativa"
+    },
+    {
+      "companyName": "STEMWAY LIMITED",
+      "quota": "19%",
+      "tipo": "Partecipazione Significativa"
+    },
+    {
+      "companyName": "JANUA BROKER SPA",
+      "quota": "17,24%",
+      "tipo": "Partecipazione Significativa"
+    },
+    {
+      "companyName": "REBIRTH SPA",
+      "quota": "16,48%",
+      "tipo": "Partecipazione Significativa"
+    },
+    {
+      "companyName": "BANCA DEL FUCINO SPA",
+      "quota": "0,92%",
+      "tipo": "Partecipazione Minore"
+    },
+    {
+      "companyName": "ITAL BROKERS HOLDING SRL",
+      "quota": "0,91%",
+      "tipo": "Partecipazione Minore"
+    }
+  ]
+}
