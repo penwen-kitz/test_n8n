@@ -1,0 +1,1085 @@
+{
+  "company": {
+    "name": "CEREDA ANITO SRL",
+    "fullName": "CEREDA ANITO S.R.L.",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "02184030167",
+    "foundedDate": "08/09/1992",
+    "ateco": "292 - Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers",
+    "address": {
+      "street": "VIA STEZZANO, 24",
+      "city": "ZANICA",
+      "province": "BG",
+      "zip": "24050"
+    },
+    "contacts": {
+      "email": "info@ceredasrl.it",
+      "pec": "CEREDASRL@PEC.IT",
+      "phone": "035671279",
+      "website": "www.ceredasrl.it"
+    },
+    "social": [
+      "Facebook",
+      "LinkedIn"
+    ],
+    "capitaleSociale": 10400,
+    "employees": {
+      "current": 12,
+      "previous": 13,
+      "trend": -7.69
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "12 Gennaio 2025",
+    "generatedDate": "12/01/2025"
+  },
+  "riskAssessment": {
+    "score": 64.6,
+    "maxScore": 100,
+    "category": "C",
+    "categoryLabel": "Rischio elevato - Categoria C",
+    "rating": "C1",
+    "previousRating": "C1",
+    "description": "L'IRP Cereda Anito (scala 0-100) evidenzia criticità strutturali nell'equilibrio patrimoniale e finanziario. Il rating C1 stabile e lo score 64,60 indicano un profilo di rischio elevato che richiede monitoraggio attento.",
+    "colorClass": "yellow"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "64,60",
+      "icon": "ri-shield-line",
+      "colorClass": "yellow",
+      "category": {
+        "label": "CATEGORIA C",
+        "class": "c"
+      },
+      "benchmark": "Rischio elevato - monitoraggio"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 1.799.360",
+      "icon": "ri-funds-box-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 13.94,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Crescita positiva"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "9,72%",
+      "icon": "ri-percent-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": 1.78,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Buono (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "6,51x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 2.49,
+        "label": "vs 2023",
+        "direction": "up",
+        "unit": "x"
+      },
+      "benchmark": "Critico (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "244 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 155,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Critico (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 97.366",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": 5.41,
+        "label": "dei Ricavi",
+        "direction": "up",
+        "unit": "%"
+      },
+      "benchmark": "Buono (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "31,49%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 13.07,
+        "label": "vs 2023",
+        "direction": "up",
+        "unit": "pp"
+      },
+      "benchmark": "Eccellente (benchmark >15%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,14",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 1.19,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Accettabile (benchmark >2.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "1,01x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "yellow",
+      "badge": {
+        "label": "ALLERTA",
+        "class": "warning"
+      },
+      "benchmark": "Margine minimo (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 9.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 50,
+        "label": "12 mesi",
+        "direction": "up",
+        "text": "Aumentato"
+      },
+      "benchmark": "Monitoraggio attivo richiesto"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Crescita del fatturato (+13,94%)",
+      "Forte miglioramento EBITDA (+39,42%)",
+      "ROE elevato (31,49%)",
+      "Cash flow operativo positivo (5,41% dei ricavi)",
+      "Trend di sviluppo positivo (score 4/5)",
+      "Miglioramento significativo dell'utile netto (+128,25%)"
+    ],
+    "weaknesses": [
+      "Equilibrio patrimoniale critico (score 1/5)",
+      "Equilibrio finanziario insufficiente (score 1/5)",
+      "Sostenibilità del debito problematica (score 1/5)",
+      "Leverage molto elevato (25,90)",
+      "PFN/EBITDA critico (6,51x)",
+      "Tempi di incasso clienti eccessivi (244 giorni)",
+      "DSCR al limite della soglia minima (1,01x)"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            1.4,
+            1.58,
+            1.8
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            0.08,
+            0.13,
+            0.17
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            5.7,
+            7.94,
+            9.72
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            6.51,
+            21.84,
+            1.01
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f9b115"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            5,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            244,
+            0,
+            -69
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            30,
+            -60
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            1.01,
+            0.96,
+            0.91,
+            0.86
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f5365c",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Cereda Anito",
+          "data": [
+            1,
+            2,
+            3,
+            3,
+            4,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Fabbricazione autoveicoli)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "yellow"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    }
+  ],
+  "management": [
+    {
+      "name": "MARIA LUISA ALINI",
+      "role": "Managing director",
+      "initials": "MA",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "04/04/2022"
+    },
+    {
+      "name": "ANITO CEREDA",
+      "role": "Special representative/agent",
+      "initials": "AC",
+      "colorClass": "teal",
+      "appointmentDate": "14/06/2022"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 1.799.360",
+        "trend": {
+          "direction": "up",
+          "value": "+13,94%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 174.885",
+        "trend": {
+          "direction": "up",
+          "value": "+39,42%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ 19.470",
+        "trend": {
+          "direction": "up",
+          "value": "+128,25%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 64.224",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 10.400",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "31,49%",
+        "trend": {
+          "direction": "up",
+          "value": "Redditività eccellente",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "5,88%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Nella media",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "5,23%",
+        "trend": {
+          "direction": "up",
+          "value": "Marginalità accettabile",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "25,90",
+        "trend": {
+          "direction": "neutral",
+          "value": "Molto alto - critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "3,86%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Molto bassa - critica",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "1,01x",
+        "trend": {
+          "direction": "up",
+          "value": "Al limite minimo",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,14",
+        "trend": {
+          "direction": "up",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "CEREDA ANITO S.R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "08/09/1992"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "292 - Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA STEZZANO, 24<br>24050 ZANICA (BG)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@ceredasrl.it<br>CEREDASRL@PEC.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 10.400"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "12 (-7,69% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "035671279"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.ceredasrl.it"
+          },
+          {
+            "label": "Social",
+            "value": "Facebook, LinkedIn"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Urgente rafforzamento della struttura patrimoniale attraverso aumento di capitale",
+      "Implementazione di strategie per ridurre i tempi di incasso clienti (attualmente 244 giorni)",
+      "Monitoraggio costante del DSCR per evitare scendere sotto la soglia minima",
+      "Valutazione di piani di rientro del debito per migliorare il rapporto PFN/EBITDA",
+      "Fido consigliato: € 9.000 con monitoraggio mensile della situazione finanziaria"
+    ],
+    "outlook": "L'azienda presenta un quadro misto con segnali positivi sul fronte operativo (crescita fatturato e marginalità) ma criticità strutturali significative. Il leverage molto elevato (25,90) e il basso grado di capitalizzazione (3,86%) rappresentano i principali fattori di rischio. Il DSCR al limite minimo (1,01x) indica una situazione di equilibrio precario nel servizio del debito. Nonostante i miglioramenti operativi, la struttura finanziaria richiede interventi urgenti per garantire la sostenibilità a medio termine."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ALLERTA",
+      "colorClass": "warning",
+      "indiciOk": 4,
+      "indiciAllerta": 2,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 64.224",
+        "detail": "Capitale sociale: € 10.400",
+        "soglia": "> € 10.400",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "1,01x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "PARZIALE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "3,74%",
+        "detail": "€ 67.218 / € 1.799.360",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore manifatturiero",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "4,58%",
+        "detail": "€ 64.224 / € 1.402.784",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "5,85%",
+        "detail": "€ 97.366 / € 1.663.488",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "114,09%",
+        "detail": "€ 1.268.292 / € 306.996",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Previsionale",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "Il DSCR richiesto dal Codice della Crisi deve essere previsionale su base 6 mesi. Il valore storico 1,01x è al limite minimo e richiede analisi prospettica per valutare la sostenibilità futura del servizio del debito."
+      },
+      {
+        "id": "liquidita-note",
+        "title": "Indice di Liquidità",
+        "icon": "ri-drop-line",
+        "colorClass": "warning",
+        "text": "L'indice di liquidità (114,09%) supera leggermente la soglia massima del range settoriale (108%), indicando una possibile inefficienza nella gestione delle risorse liquide."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) implementare budget di tesoreria semestrale per DSCR prospettico, (2) ottimizzare la gestione della liquidità, (3) verificare disaggregazione debiti tributari/previdenziali."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 292 (Fabbricazione autoveicoli)",
+        "colorClass": "secondary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 174.885",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 67.218",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 306.996",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 1.095.788",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 306.996 × 0.20 = <strong>€ 61.399</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 1.095.788</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 1.095.788 / 5 = <strong>€ 219.158</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 61.399 + € 219.158 = <strong style='color: var(--primary);'>€ 280.557</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 174.885 / (€ 67.218 + € 280.557) = € 174.885 / € 347.775",
+        "value": "1,01x",
+        "interpretation": "Un DSCR di 1,01 indica che l'azienda genera un EBITDA appena sufficiente a coprire il servizio del debito con un margine di sicurezza minimo dell'1%. La soglia minima accettabile è 1.0, mentre un valore ottimale è considerato ≥ 1.3. La situazione richiede monitoraggio attento."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "CEREDA ANITO S.R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "08/09/1992"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "292 - Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA STEZZANO, 24<br>24050 ZANICA (BG)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@ceredasrl.it<br>CEREDASRL@PEC.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 10.400"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "12 (-7,69% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "035671279"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.ceredasrl.it"
+      },
+      {
+        "label": "Social",
+        "value": "Facebook, LinkedIn"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 1.799.360",
+      "trend": "+13,94% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 174.885",
+      "trend": "+39,42% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 19.470",
+      "trend": "+128,25% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 64.224",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 10.400",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "31,49%",
+      "status": "Redditività eccellente"
+    },
+    {
+      "label": "ROI",
+      "value": "5,88%",
+      "status": "Nella media"
+    },
+    {
+      "label": "ROS",
+      "value": "5,23%",
+      "status": "Marginalità accettabile"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "25,90",
+      "status": "Molto alto - critico"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "3,86%",
+      "status": "Molto bassa - critica"
+    },
+    {
+      "label": "DSCR",
+      "value": "1,01x",
+      "status": "Al limite minimo"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,14",
+      "status": "Accettabile"
+    }
+  ],
+  "partecipazioni": []
+}
