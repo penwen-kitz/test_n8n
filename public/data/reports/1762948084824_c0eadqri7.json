@@ -1,0 +1,1305 @@
+{
+  "company": {
+    "name": "MUTUA MBA SOC COOP",
+    "fullName": "MUTUA MBA SOCIETA' DI MUTUO SOCCORSO SOCIETA' COOPERATIVA PER AZIONI",
+    "legalForm": "Mutual company limited by shares",
+    "piva": "16237121005",
+    "foundedDate": "18/01/2008",
+    "ateco": "8899 - Other social work activities without accommodation n.e.c.",
+    "address": {
+      "street": "VIA SANTA CORNELIA, 9",
+      "city": "FORMELLO",
+      "province": "RM",
+      "zip": "00060"
+    },
+    "contacts": {
+      "email": "info@mbamutua.org",
+      "pec": "MBAMUTUA@LEGALMAIL.IT",
+      "phone": "0690198060",
+      "website": "www.mbamutua.org"
+    },
+    "social": [
+      "Facebook",
+      "Twitter"
+    ],
+    "capitaleSociale": 1794450,
+    "employees": {
+      "current": 31,
+      "previous": 28,
+      "trend": 10.71
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "12 Gennaio 2025",
+    "generatedDate": "12/01/2025"
+  },
+  "riskAssessment": {
+    "score": 72.16,
+    "maxScore": 100,
+    "category": "B",
+    "categoryLabel": "Rischio moderato - Categoria B",
+    "rating": "B3",
+    "previousRating": "B3",
+    "description": "L'IRP MBA (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating B3 stabile e la buona solidità finanziaria indicano attualmente un rischio moderato con margini di miglioramento.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "72,16",
+      "icon": "ri-shield-line",
+      "colorClass": "blue",
+      "category": {
+        "label": "CATEGORIA B",
+        "class": "b"
+      },
+      "benchmark": "Buona solidità finanziaria"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 72.270.997",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -9.02,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "In decrescita significativa"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "23,02%",
+      "icon": "ri-percent-line",
+      "colorClass": "green",
+      "trend": {
+        "value": -44.48,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Ottimo (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "0,40x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 0.4,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "x"
+      },
+      "benchmark": "Eccellente (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "91 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 2,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Nella media (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 18.925.371",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 26.18,
+        "label": "dei Ricavi",
+        "direction": "up",
+        "unit": "%"
+      },
+      "benchmark": "Eccellente (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "0,28%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0.28,
+        "label": "vs 2023",
+        "direction": "neutral",
+        "unit": "pp"
+      },
+      "benchmark": "Insufficiente (benchmark >15%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,18",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 1.18,
+        "label": "vs benchmark",
+        "direction": "neutral"
+      },
+      "benchmark": "Accettabile (benchmark >2.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "2,47x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "green",
+      "badge": {
+        "label": "OTTIMO",
+        "class": "excellent"
+      },
+      "benchmark": "Ampio margine (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 250.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": -82.39,
+        "label": "12 mesi",
+        "direction": "down",
+        "text": "Ridotto"
+      },
+      "benchmark": "Consigliato - Monitoraggio attivo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "DSCR eccellente (2,47x) con ampio margine di copertura del servizio debito",
+      "Cash flow operativo molto forte (26,18% dei ricavi)",
+      "Bassa esposizione debitoria (PFN/EBITDA 0,40x)",
+      "EBITDA margin elevato (23,02%) sopra benchmark settoriale",
+      "Crescita organico (+10,71% dipendenti)",
+      "Settore assistenza sociale con stabilità strutturale",
+      "Rating B3 stabile negli ultimi 12 mesi"
+    ],
+    "weaknesses": [
+      "Equilibrio economico critico (score 1/5) con EBIT negativo",
+      "Equilibrio patrimoniale problematico (score 2/5)",
+      "Sviluppo-Trend negativo (score 1/5) con forte calo ricavi",
+      "ROI negativo (-2,39%) e ROS negativo (-2,90%)",
+      "Fatturato in calo (-9,02%) rispetto al 2023",
+      "Leverage elevato (10,50) indica alta esposizione debitoria",
+      "Basso grado di capitalizzazione (9,52%)"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            0,
+            79.4,
+            72.3
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            0,
+            30,
+            16.6
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            37.7,
+            23.02
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            0.4,
+            4.46,
+            2.47
+          ],
+          "backgroundColor": [
+            "#24b47e",
+            "#f5365c",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            91,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f9b115",
+            "#24b47e",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            30
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            2.47,
+            2.34,
+            2.22,
+            2.09
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "MBA Mutua",
+          "data": [
+            2,
+            2,
+            1,
+            1,
+            1,
+            5
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Assistenza sociale)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in grave peggioramento",
+        "type": "strong-negative"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [
+    {
+      "name": "LUCIANO DRAGONETTI",
+      "role": "Chairman of board of directors",
+      "initials": "LD",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "29/06/2023"
+    },
+    {
+      "name": "ANDREA MAZZOLA",
+      "role": "Managing director",
+      "initials": "AM",
+      "colorClass": "teal",
+      "appointmentDate": "29/06/2023"
+    },
+    {
+      "name": "ENZO GIANNINI",
+      "role": "Vice chairman board of directors",
+      "initials": "EG",
+      "colorClass": "yellow",
+      "appointmentDate": "29/06/2023"
+    },
+    {
+      "name": "FABRIZIO SPREGA",
+      "role": "Director",
+      "initials": "FS",
+      "colorClass": "secondary",
+      "appointmentDate": "29/06/2023"
+    },
+    {
+      "name": "FLAVIO TANZILLI",
+      "role": "Director",
+      "initials": "FT",
+      "colorClass": "primary",
+      "appointmentDate": "01/07/2024"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "id": "health-italia",
+        "name": "HEALTH ITALIA SPA",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "13,58%",
+        "type": "Partecipazione Strategica"
+      },
+      {
+        "id": "sputa-rospo",
+        "name": "SPUTA IL ROSPO SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "yellow",
+        "quota": "9%",
+        "type": "Partecipazione Significativa"
+      },
+      {
+        "id": "be-health",
+        "name": "BE HEALTH SPA",
+        "icon": "ri-building-4-line",
+        "colorClass": "secondary",
+        "quota": "0,81%",
+        "type": "Partecipazione Minore"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 72.270.997",
+        "trend": {
+          "direction": "down",
+          "value": "-9,02%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 16.633.520",
+        "trend": {
+          "direction": "down",
+          "value": "-44,48%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebit",
+        "label": "EBIT",
+        "value": "€ -2.266.859",
+        "trend": {
+          "direction": "down",
+          "value": "-727,87%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 9.033.166",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 1.794.450",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "0,28%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Molto basso",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "-2,39%",
+        "trend": {
+          "direction": "down",
+          "value": "Negativo",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "-2,90%",
+        "trend": {
+          "direction": "down",
+          "value": "Negativo",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "10,50",
+        "trend": {
+          "direction": "up",
+          "value": "Molto alto",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "9,52%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bassa",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "2,47x",
+        "trend": {
+          "direction": "up",
+          "value": "Ottimo",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,18",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "MUTUA MBA SOCIETA' DI MUTUO SOCCORSO SOC COOP PER AZIONI"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Mutual company limited by shares"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "18/01/2008"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "8899 - Other social work activities without accommodation n.e.c."
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA SANTA CORNELIA, 9<br>00060 FORMELLO (RM)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@mbamutua.org<br>MBAMUTUA@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 1.794.450"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "31 (+10,71% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "0690198060"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.mbamutua.org"
+          },
+          {
+            "label": "Social",
+            "value": "Facebook, Twitter"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio attento dell'evoluzione dell'equilibrio economico e del trend negativo dell'EBIT",
+      "Valutazione dell'opportunità di rafforzare la struttura patrimoniale per migliorare la capitalizzazione",
+      "Analisi delle cause del calo del fatturato (-9,02%) e implementazione di strategie di rilancio",
+      "Attenzione al leverage elevato (10,50) nonostante l'ottimo DSCR",
+      "Fido consigliato: € 250.000 (ridotto da € 1.420.000 nei primi mesi 2025)"
+    ],
+    "outlook": "L'azienda presenta un profilo misto con elementi positivi e criticità significative. Da un lato, il DSCR eccellente (2,47x) e il forte cash flow operativo (26,18% dei ricavi) indicano una buona capacità di servizio del debito. Dall'altro, l'EBIT negativo, il calo del fatturato e i profili di equilibrio economico e patrimoniale critici richiedono attenzione. Il settore dell'assistenza sociale offre stabilità strutturale, ma l'azienda deve affrontare le sfide operative per tornare alla profittabilità operativa. Si raccomanda un approccio prudente con monitoraggio trimestrale degli indicatori chiave."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ATTENZIONE",
+      "colorClass": "warning",
+      "indiciOk": 5,
+      "indiciAllerta": 1,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 9.033.166",
+        "detail": "Capitale sociale: € 1.794.450",
+        "soglia": "> € 1.794.450",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "2,47x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "PARZIALE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "0,57%",
+        "detail": "€ 412.293 / € 72.270.997",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore assistenza sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "22,43%",
+        "detail": "€ 9.033.166 / € 40.289.579",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "19,95%",
+        "detail": "€ 18.925.371 / € 94.888.055",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "118,05%",
+        "detail": "€ 62.066.202 / € 2.083.996",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Previsionale",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "Il DSCR richiesto dal Codice della Crisi deve essere previsionale su base 6 mesi (budget di tesoreria). Il valore storico 2,47x è ottimo ma non sostituisce l'analisi prospettica richiesta dalla normativa."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-7) fuori soglia contemporaneamente. Un solo indice in allerta non costituisce crisi secondo D.Lgs. 14/2019."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) implementare budget di tesoreria semestrale per DSCR prospettico, (2) verificare disaggregazione debiti tributari/previdenziali, (3) monitorare l'evoluzione dell'equilibrio economico."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 8899 (Assistenza sociale)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 16.633.520",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 412.293",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 2.083.996",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 38.205.583",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 2.083.996 × 0.20 = <strong>€ 416.799</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 38.205.583</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 38.205.583 / 5 = <strong>€ 7.641.117</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 416.799 + € 7.641.117 = <strong style='color: var(--primary);'>€ 8.057.916</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 16.633.520 / (€ 412.293 + € 6.357.915) = € 16.633.520 / € 6.770.208",
+        "value": "2,47x",
+        "interpretation": "Un DSCR di 2,47 indica che l'azienda genera un EBITDA più che sufficiente a coprire il servizio del debito (oneri finanziari + quota capitale) con un ampio margine di sicurezza del 147%. La soglia minima accettabile è generalmente 1.0, mentre un valore ottimale è considerato ≥ 1.3."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 4.703.178",
+              "voce": "Immateriali",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 147.127",
+              "voce": "Materiali",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 15.163.305",
+              "voce": "Finanziarie",
+              "trend": "N/A",
+              "trendColor": "green"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ 0",
+            "2024": "€ 20.013.610",
+            "trend": "N/A",
+            "trendColor": "green"
+          },
+          "circolante": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 60.219.344",
+              "voce": "Crediti",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 1.846.858",
+              "voce": "Disponibilità liquide",
+              "trend": "N/A",
+              "trendColor": "green"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ 0",
+            "2024": "€ 62.066.202",
+            "trend": "N/A",
+            "trendColor": "green"
+          },
+          "totaleAttivo": {
+            "2023": "€ 0",
+            "2024": "€ 94.888.055",
+            "trend": "N/A",
+            "trendColor": "green"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 1.794.450",
+              "voce": "Capitale sociale",
+              "trend": "N/A",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 7.238.716",
+              "voce": "Riserve",
+              "trend": "N/A",
+              "trendColor": "green"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ 0",
+            "2024": "€ 9.033.166",
+            "trend": "N/A",
+            "trendColor": "green"
+          },
+          "debiti": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 2.083.996",
+              "voce": "Debiti a breve termine",
+              "trend": "N/A",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 38.205.583",
+              "voce": "Debiti a M/L termine",
+              "trend": "N/A",
+              "trendColor": "red"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ 0",
+            "2024": "€ 40.289.579",
+            "trend": "N/A",
+            "trendColor": "red"
+          },
+          "totalePassivo": {
+            "2023": "€ 0",
+            "2024": "€ 94.888.055",
+            "trend": "N/A",
+            "trendColor": "green"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 79.434.767",
+          "2024": "€ 72.270.997",
+          "voce": "Ricavi delle vendite",
+          "trend": "-9,02%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 29.956.158",
+          "2024": "€ 16.633.520",
+          "voce": "EBITDA",
+          "trend": "-44,48%",
+          "trendColor": "red",
+          "highlight": true
+        },
+        {
+          "2023": "€ 361.094",
+          "2024": "€ -2.266.859",
+          "voce": "Risultato operativo (EBIT)",
+          "trend": "-727,87%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 29.634.394",
+          "2024": "€ 18.925.371",
+          "voce": "Cash Flow",
+          "trend": "-36,14%",
+          "trendColor": "red",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "MUTUA MBA SOCIETA' DI MUTUO SOCCORSO SOC COOP PER AZIONI"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Mutual company limited by shares"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "18/01/2008"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "8899 - Other social work activities without accommodation n.e.c."
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA SANTA CORNELIA, 9<br>00060 FORMELLO (RM)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@mbamutua.org<br>MBAMUTUA@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 1.794.450"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "31 (+10,71% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "0690198060"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.mbamutua.org"
+      },
+      {
+        "label": "Social",
+        "value": "Facebook, Twitter"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 72.270.997",
+      "trend": "-9,02% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 16.633.520",
+      "trend": "-44,48% vs 2023"
+    },
+    {
+      "label": "EBIT",
+      "value": "€ -2.266.859",
+      "trend": "-727,87% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 9.033.166",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 1.794.450",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "0,28%",
+      "status": "Molto basso"
+    },
+    {
+      "label": "ROI",
+      "value": "-2,39%",
+      "status": "Negativo"
+    },
+    {
+      "label": "ROS",
+      "value": "-2,90%",
+      "status": "Negativo"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "10,50",
+      "status": "Molto alto"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "9,52%",
+      "status": "Bassa"
+    },
+    {
+      "label": "DSCR",
+      "value": "2,47x",
+      "status": "Ottimo"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,18",
+      "status": "Accettabile"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "companyName": "HEALTH ITALIA SPA",
+      "quota": "13,58%",
+      "tipo": "Partecipazione Strategica"
+    },
+    {
+      "companyName": "SPUTA IL ROSPO SRL",
+      "quota": "9%",
+      "tipo": "Partecipazione Significativa"
+    },
+    {
+      "companyName": "BE HEALTH SPA",
+      "quota": "0,81%",
+      "tipo": "Partecipazione Minore"
+    }
+  ]
+}
