@@ -1,0 +1,677 @@
+{
+  "company": {
+    "name": "AZIENDA NON DISPONIBILE",
+    "fullName": "DATI IN ELABORAZIONE",
+    "legalForm": "N/D",
+    "piva": "07667600964",
+    "foundedDate": "N/D",
+    "ateco": "N/D - Settore non disponibile",
+    "address": {
+      "street": "N/D",
+      "city": "N/D",
+      "province": "N/D",
+      "zip": "N/D"
+    },
+    "contacts": {
+      "email": "N/D",
+      "pec": "N/D",
+      "phone": "N/D",
+      "website": "N/D"
+    },
+    "social": [],
+    "capitaleSociale": 0,
+    "employees": {
+      "current": 0,
+      "previous": 0,
+      "trend": 0
+    },
+    "locations": 0
+  },
+  "reportInfo": {
+    "date": "11 Gennaio 2025",
+    "generatedDate": "11/01/2025"
+  },
+  "riskAssessment": {
+    "score": 0,
+    "maxScore": 100,
+    "category": "N/D",
+    "categoryLabel": "Dati non disponibili - Valutazione impossibile",
+    "rating": "N/D",
+    "previousRating": "N/D",
+    "description": "Impossibile effettuare la valutazione del rischio. Tutti i dati API sono in stato PENDING. Si prega di ripetere l'analisi quando i dati saranno disponibili.",
+    "colorClass": "red"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "N/D",
+      "icon": "ri-shield-line",
+      "colorClass": "red",
+      "category": {
+        "label": "DATI NON DISPONIBILI",
+        "class": "error"
+      },
+      "benchmark": "Valutazione impossibile"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/D",
+      "icon": "ri-water-flash-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "NON DISPONIBILE",
+        "class": "error"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "N/D",
+      "icon": "ri-bank-card-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Non disponibile"
+      },
+      "benchmark": "Valutazione impossibile"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Nessun dato disponibile per identificare punti di forza"
+    ],
+    "weaknesses": [
+      "Tutti i dati API sono in stato PENDING",
+      "Impossibile effettuare valutazioni finanziarie",
+      "Rating e score di credito non disponibili",
+      "Dati anagrafici aziendali mancanti",
+      "Informazioni su management e partecipazioni non accessibili"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico - Dati Non Disponibili",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito - Dati Non Disponibili",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante - Dati Non Disponibili",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Dati Non Disponibili",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale - Dati Non Disponibili",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Azienda",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.2)"
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating - Dati Non Disponibili",
+      "labels": [
+        "Nov 2024",
+        "Dic 2024",
+        "Gen 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non disponibile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unavailable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non disponibile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unavailable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non disponibile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unavailable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non disponibile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unavailable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non disponibile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unavailable"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "DATI IN ELABORAZIONE"
+          },
+          {
+            "label": "P.IVA",
+            "value": "07667600964"
+          },
+          {
+            "label": "Stato",
+            "value": "API in stato PENDING - Riprovare più tardi"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Ripetere l'analisi quando i dati API saranno disponibili",
+      "Verificare lo stato di elaborazione dei dati aziendali",
+      "Contattare il supporto tecnico se il problema persiste",
+      "Non procedere con valutazioni creditizie fino alla disponibilità dei dati"
+    ],
+    "outlook": "Impossibile fornire un outlook affidabile senza dati finanziari e anagrafici. Tutti gli endpoint API risultano in stato PENDING, indicando che l'elaborazione dei dati è ancora in corso. Si raccomanda di ripetere l'analisi una volta completata l'acquisizione dei dati."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON DISPONIBILE",
+      "colorClass": "red",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore generico",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      }
+    ],
+    "notes": [
+      {
+        "id": "api-pending",
+        "title": "Stato API",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "Tutti i dati necessari per il calcolo degli indici del Codice della Crisi sono attualmente in stato PENDING. L'elaborazione è in corso e sarà necessario ripetere l'analisi una volta completata."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "api-status",
+      "icon": "ri-error-warning-line",
+      "title": "Stato Elaborazione Dati",
+      "subtitle": "Informazioni tecniche sullo stato dell'analisi",
+      "formula": "API Status: PENDING",
+      "values": [
+        {
+          "label": "Company Data",
+          "value": "PENDING",
+          "color": "red"
+        },
+        {
+          "label": "Credit Score",
+          "value": "EMPTY",
+          "color": "red"
+        },
+        {
+          "label": "Negative Events",
+          "value": "PENDING",
+          "color": "red"
+        },
+        {
+          "label": "P.IVA Identificata",
+          "value": "07667600964",
+          "color": "green"
+        }
+      ],
+      "assumptions": [
+        "Tutti gli endpoint API risultano in stato <strong>PENDING</strong>",
+        "L'elaborazione dei dati è ancora in corso",
+        "Nessun dato finanziario disponibile per i calcoli",
+        "Rating e score di credito non accessibili"
+      ],
+      "result": {
+        "calculation": "Impossibile effettuare calcoli senza dati di input",
+        "value": "N/D",
+        "interpretation": "Si raccomanda di ripetere l'analisi una volta completata l'elaborazione dei dati API. Il sistema ha identificato correttamente la P.IVA 07667600964 ma tutti gli altri dati risultano non disponibili."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "P.IVA",
+        "value": "07667600964"
+      },
+      {
+        "label": "Stato Elaborazione",
+        "value": "PENDING - Dati in corso di acquisizione"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Disponibilità Dati",
+        "value": "Non disponibile - API in elaborazione"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "STATO API",
+      "value": "PENDING",
+      "trend": "Elaborazione in corso"
+    },
+    {
+      "label": "DATI DISPONIBILI",
+      "value": "0%",
+      "trend": "Nessun dato finanziario accessibile"
+    }
+  ],
+  "partecipazioni": []
+}
