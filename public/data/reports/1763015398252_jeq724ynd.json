@@ -1,0 +1,1243 @@
+{
+  "company": {
+    "name": "STUDIO INFORMATICA SRL",
+    "fullName": "STUDIO INFORMATICA S.R.L.",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "01776680926",
+    "foundedDate": "18/01/1988",
+    "ateco": "621 - Computer programming activities",
+    "address": {
+      "street": "VIA FLUMENDOSA, 13/15 A",
+      "city": "CAGLIARI",
+      "province": "CA",
+      "zip": "09122"
+    },
+    "contacts": {
+      "email": "info@studio-informatica.com,info@studioinformatica.com",
+      "pec": "AMMINISTRAZIONE@PEC.STUDIO-INFORMATICA.COM",
+      "phone": "070274669",
+      "website": "www.studio-informatica.com"
+    },
+    "social": [
+      "Facebook"
+    ],
+    "capitaleSociale": 10200,
+    "employees": {
+      "current": 4,
+      "previous": 4,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "13 Gennaio 2025",
+    "generatedDate": "13/01/2025"
+  },
+  "riskAssessment": {
+    "score": 64.58,
+    "maxScore": 100,
+    "category": "C",
+    "categoryLabel": "Rischio elevato - Categoria C",
+    "rating": "C1",
+    "previousRating": "B3",
+    "description": "L'IRP Studio Informatica (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating C1 (peggiorato da B3) e le criticità patrimoniali e finanziarie indicano attualmente un rischio elevato.",
+    "colorClass": "yellow"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "64,58",
+      "icon": "ri-shield-line",
+      "colorClass": "yellow",
+      "category": {
+        "label": "CATEGORIA C",
+        "class": "c"
+      },
+      "benchmark": "Rischio superiore alla media"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 451.619",
+      "icon": "ri-funds-box-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": 0.64,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Crescita modesta ma positiva"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "6,33%",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -5.21,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Sotto benchmark (8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "5,39x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 1.77,
+        "label": "vs 2023",
+        "direction": "up",
+        "unit": "x"
+      },
+      "benchmark": "Critico (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "225 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 136,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Critico (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 22.562",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 5,
+        "label": "dei Ricavi",
+        "direction": "neutral",
+        "unit": "%"
+      },
+      "benchmark": "In linea con benchmark (5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "54,03%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 54.03,
+        "label": "vs 2023",
+        "direction": "up",
+        "unit": "pp"
+      },
+      "benchmark": "Eccellente (benchmark >15%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "0,68",
+      "icon": "ri-water-flash-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -0.73,
+        "label": "vs benchmark",
+        "direction": "down"
+      },
+      "benchmark": "Critico (benchmark >1.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "4,30x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "green",
+      "badge": {
+        "label": "OTTIMO",
+        "class": "excellent"
+      },
+      "benchmark": "Ampio margine (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 5.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": -50,
+        "label": "12 mesi",
+        "direction": "down",
+        "text": "Ridotto"
+      },
+      "benchmark": "Monitoraggio attivo richiesto"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "DSCR ottimo (4.30x) con ampio margine di copertura",
+      "ROE eccellente (54.03%) indica alta redditività",
+      "Equilibrio economico nella media (score 3/5)",
+      "Crescita fatturato positiva (+0.64%)",
+      "Cash flow operativo in linea con benchmark (5%)",
+      "Settore informatica in crescita"
+    ],
+    "weaknesses": [
+      "Equilibrio patrimoniale critico (score 1/5)",
+      "Equilibrio finanziario critico (score 1/5)",
+      "Liquidità corrente insufficiente (0.68)",
+      "PFN/EBITDA elevato (5.39x vs benchmark 3.0)",
+      "DSO molto alto (225 gg vs benchmark 89 gg)",
+      "Rating peggiorato da B3 a C1",
+      "Leverage molto elevato (13.84)"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (K€)",
+          "data": [
+            400,
+            449,
+            452
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (K€)",
+          "data": [
+            45,
+            52,
+            29
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            11.25,
+            11.54,
+            6.33
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            5.39,
+            6.79,
+            4.3
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            225,
+            0,
+            172
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#f9b115"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            90
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            4.3,
+            4.08,
+            3.86,
+            3.65
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Studio Informatica",
+          "data": [
+            1,
+            1,
+            3,
+            3,
+            2,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Informatica: software, consulenza)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "in lieve peggioramento",
+        "type": "slight-negative"
+      },
+      "color": "yellow"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in grave peggioramento",
+        "type": "strong-negative"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [
+    {
+      "name": "GIORGIO CASULA",
+      "role": "Director",
+      "initials": "GC",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "25/02/2005"
+    },
+    {
+      "name": "SALVATORE SETZU",
+      "role": "Director",
+      "initials": "SS",
+      "colorClass": "teal",
+      "appointmentDate": "25/02/2005"
+    },
+    {
+      "name": "PIER MAURO SPIGA",
+      "role": "Director",
+      "initials": "PS",
+      "colorClass": "yellow",
+      "appointmentDate": "25/02/2005"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 451.619",
+        "trend": {
+          "direction": "up",
+          "value": "+0,64%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 28.599",
+        "trend": {
+          "direction": "down",
+          "value": "-44,78%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ 15.877",
+        "trend": {
+          "direction": "down",
+          "value": "-57,23%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 29.394",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 10.200",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "54,03%",
+        "trend": {
+          "direction": "up",
+          "value": "Redditività eccellente",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "5,39%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Nella media",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "4,85%",
+        "trend": {
+          "direction": "down",
+          "value": "Sotto benchmark",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "13,84",
+        "trend": {
+          "direction": "neutral",
+          "value": "Molto elevato - critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "0,07",
+        "trend": {
+          "direction": "neutral",
+          "value": "Molto bassa - critica",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "4,30x",
+        "trend": {
+          "direction": "up",
+          "value": "Ottimo",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "0,68",
+        "trend": {
+          "direction": "down",
+          "value": "Insufficiente",
+          "label": ""
+        },
+        "colorClass": "negative"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "STUDIO INFORMATICA S.R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "18/01/1988"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "621 - Computer programming activities"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA FLUMENDOSA, 13/15 A<br>09122 CAGLIARI (CA)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@studio-informatica.com<br>AMMINISTRAZIONE@PEC.STUDIO-INFORMATICA.COM"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 10.200"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "4 (invariato vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "070274669"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.studio-informatica.com"
+          },
+          {
+            "label": "Social",
+            "value": "Facebook"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Urgente miglioramento della struttura patrimoniale e finanziaria",
+      "Riduzione del leverage attraverso aumento capitale o riduzione debiti",
+      "Miglioramento della gestione del capitale circolante (DSO critico)",
+      "Monitoraggio attento della liquidità corrente",
+      "Analisi delle cause del peggioramento dell'EBITDA margin",
+      "Fido consigliato ridotto: € 5.000 (da € 10.000)"
+    ],
+    "outlook": "L'azienda presenta un quadro misto con segnali di preoccupazione. Nonostante la crescita del fatturato e l'eccellente ROE, il peggioramento del rating da B3 a C1 riflette criticità strutturali significative. Gli equilibri patrimoniale e finanziario sono entrambi negativi, con liquidità corrente insufficiente e leverage molto elevato. Il DSCR ottimo (4.30x) rappresenta l'unico elemento positivo nella sostenibilità del debito. Si raccomanda un approccio molto prudente nell'erogazione di credito, con fido ridotto e monitoraggio continuo dell'evoluzione degli indicatori di liquidità e patrimoniali."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ALLERTA",
+      "colorClass": "warning",
+      "indiciOk": 4,
+      "indiciAllerta": 1,
+      "indiciMancanti": 1,
+      "totale": 6
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 29.394",
+        "detail": "Capitale sociale: € 10.200",
+        "soglia": "> € 10.200",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "4,30x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "PARZIALE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "0,42%",
+        "detail": "€ 1.909 / € 451.619",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore informatica",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "14,73%",
+        "detail": "€ 29.394 / € 199.534",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "5,55%",
+        "detail": "€ 22.562 / € 406.805",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "68,48%",
+        "detail": "€ 167.384 / € 244.483",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Previsionale",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "Il DSCR richiesto dal Codice della Crisi deve essere previsionale su base 6 mesi (budget di tesoreria). Il valore storico 4.30x è ottimo ma non sostituisce l'analisi prospettica richiesta dalla normativa."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-6) fuori soglia contemporaneamente. Un solo indice in allerta non costituisce crisi secondo D.Lgs. 14/2019."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) implementare budget di tesoreria semestrale per DSCR prospettico, (2) migliorare l'indice di liquidità per rientrare sopra soglia 69.8%, (3) monitorare l'evoluzione degli altri indicatori."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 621 (Computer programming activities)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 28.599",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 1.909",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 20.749",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 178.785",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 20.749 × 0.20 = <strong>€ 4.150</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 178.785</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 178.785 / 5 = <strong>€ 35.757</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 4.150 + € 35.757 = <strong style='color: var(--primary);'>€ 39.907</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 28.599 / (€ 1.909 + € 39.907) = € 28.599 / € 41.816",
+        "value": "0,68x",
+        "interpretation": "Un DSCR di 0.68 indica che l'azienda non genera un EBITDA sufficiente a coprire il servizio del debito. Tuttavia, considerando che gran parte dei 'debiti a breve' potrebbero essere commerciali e non finanziari, il DSCR reale potrebbe essere migliore. La soglia minima accettabile è 1.0."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 0",
+              "voce": "Immateriali",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 165.000",
+              "2024": "€ 165.469",
+              "voce": "Materiali",
+              "trend": "+0,3%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 1.000",
+              "2024": "€ 1.005",
+              "voce": "Finanziarie",
+              "trend": "+0,5%",
+              "trendColor": "green"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ 166.000",
+            "2024": "€ 166.474",
+            "trend": "+0,3%",
+            "trendColor": "green"
+          },
+          "circolante": [
+            {
+              "2023": "€ 270.000",
+              "2024": "€ 278.068",
+              "voce": "Crediti",
+              "trend": "+3,0%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 25.000",
+              "2024": "€ 24.667",
+              "voce": "Disponibilità liquide",
+              "trend": "-1,3%",
+              "trendColor": "red"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ 295.000",
+            "2024": "€ 167.384",
+            "trend": "-43,3%",
+            "trendColor": "red"
+          },
+          "totaleAttivo": {
+            "2023": "€ 461.000",
+            "2024": "€ 406.805",
+            "trend": "-11,8%",
+            "trendColor": "red"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 10.200",
+              "2024": "€ 10.200",
+              "voce": "Capitale sociale",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 8.000",
+              "2024": "€ 3.517",
+              "voce": "Riserve",
+              "trend": "-56,0%",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 37.117",
+              "2024": "€ 15.877",
+              "voce": "Utile d'esercizio",
+              "trend": "-57,2%",
+              "trendColor": "red"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ 55.317",
+            "2024": "€ 29.394",
+            "trend": "-46,9%",
+            "trendColor": "red"
+          },
+          "debiti": [
+            {
+              "2023": "€ 20.000",
+              "2024": "€ 20.749",
+              "voce": "Debiti a breve termine",
+              "trend": "+3,7%",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 180.000",
+              "2024": "€ 178.785",
+              "voce": "Debiti a M/L termine",
+              "trend": "-0,7%",
+              "trendColor": "green"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ 200.000",
+            "2024": "€ 199.534",
+            "trend": "-0,2%",
+            "trendColor": "green"
+          },
+          "totalePassivo": {
+            "2023": "€ 461.000",
+            "2024": "€ 406.805",
+            "trend": "-11,8%",
+            "trendColor": "red"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 448.766",
+          "2024": "€ 451.619",
+          "voce": "Ricavi delle vendite",
+          "trend": "+0,6%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 51.779",
+          "2024": "€ 28.599",
+          "voce": "EBITDA",
+          "trend": "-44,8%",
+          "trendColor": "red",
+          "highlight": true
+        },
+        {
+          "2023": "€ 43.615",
+          "2024": "€ 21.918",
+          "voce": "Risultato operativo",
+          "trend": "-49,8%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 37.117",
+          "2024": "€ 15.877",
+          "voce": "Utile netto",
+          "trend": "-57,2%",
+          "trendColor": "red",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "STUDIO INFORMATICA S.R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "18/01/1988"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "621 - Computer programming activities"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA FLUMENDOSA, 13/15 A<br>09122 CAGLIARI (CA)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@studio-informatica.com<br>AMMINISTRAZIONE@PEC.STUDIO-INFORMATICA.COM"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 10.200"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "4 (invariato vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "070274669"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.studio-informatica.com"
+      },
+      {
+        "label": "Social",
+        "value": "Facebook"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 451.619",
+      "trend": "+0,64% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 28.599",
+      "trend": "-44,78% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 15.877",
+      "trend": "-57,23% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 29.394",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 10.200",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "54,03%",
+      "status": "Redditività eccellente"
+    },
+    {
+      "label": "ROI",
+      "value": "5,39%",
+      "status": "Nella media"
+    },
+    {
+      "label": "ROS",
+      "value": "4,85%",
+      "status": "Sotto benchmark"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "13,84",
+      "status": "Molto elevato - critico"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "0,07",
+      "status": "Molto bassa - critica"
+    },
+    {
+      "label": "DSCR",
+      "value": "4,30x",
+      "status": "Ottimo"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "0,68",
+      "status": "Insufficiente"
+    }
+  ],
+  "partecipazioni": []
+}
