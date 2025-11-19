@@ -1,0 +1,1272 @@
+{
+  "company": {
+    "name": "ACENTRO SRL",
+    "fullName": "ACENTRO S.R.L.",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "00641340922",
+    "foundedDate": "21/12/1981",
+    "ateco": "47811 - Retail sale of cars and light motor vehicles",
+    "address": {
+      "street": "VIA CALAMATTIA, 2",
+      "city": "CAGLIARI",
+      "province": "CA",
+      "zip": "09134"
+    },
+    "contacts": {
+      "email": "privacy@gruppoacentro.it",
+      "pec": "AMMINISTRAZIONE@PEC.GRUPPOACENTRO.IT",
+      "phone": "07055051",
+      "website": "gruppoacentro.it"
+    },
+    "social": [
+      "Facebook",
+      "Instagram"
+    ],
+    "capitaleSociale": 7350000,
+    "employees": {
+      "current": 90,
+      "previous": 83,
+      "trend": 8.43
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "19 Gennaio 2025",
+    "generatedDate": "19/01/2025"
+  },
+  "riskAssessment": {
+    "score": 77.18,
+    "maxScore": 100,
+    "category": "B",
+    "categoryLabel": "Rischio moderato - Categoria B",
+    "rating": "B2",
+    "previousRating": "B2",
+    "description": "L'IRP ACENTRO (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating B2 (invariato) e la situazione finanziaria critica indicano attualmente un rischio moderato con elementi di attenzione.",
+    "colorClass": "yellow"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "77,18",
+      "icon": "ri-shield-line",
+      "colorClass": "blue",
+      "category": {
+        "label": "CATEGORIA B",
+        "class": "b"
+      },
+      "benchmark": "Rischio moderato"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 74.568.655",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -20.16,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "In forte decrescita"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "0,95%",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -66.89,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Critico (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "10,59x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 10.59,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "x"
+      },
+      "benchmark": "Critico (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "85 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": -4,
+        "label": "vs benchmark",
+        "direction": "down",
+        "unit": "gg"
+      },
+      "benchmark": "Buono (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ -100.217",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -0.13,
+        "label": "dei Ricavi",
+        "direction": "down",
+        "unit": "%"
+      },
+      "benchmark": "Critico (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "-7,40%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -7.4,
+        "label": "vs 2024",
+        "direction": "down",
+        "unit": "%"
+      },
+      "benchmark": "Negativo (benchmark >15%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,21",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 1.21,
+        "label": "vs benchmark",
+        "direction": "neutral"
+      },
+      "benchmark": "Accettabile (benchmark >2.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "0,10x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "CRITICO",
+        "class": "critical"
+      },
+      "benchmark": "Critico (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 340.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": -31.31,
+        "label": "12 mesi",
+        "direction": "down",
+        "text": "In riduzione"
+      },
+      "benchmark": "Limite operativo attuale"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Equilibrio patrimoniale positivo (score 4/5)",
+      "Giorni incasso clienti nella media settoriale (85 gg vs 89 gg benchmark)",
+      "Presenza consolidata nel settore automotive in Sardegna",
+      "Struttura organizzativa ben definita con management esperto",
+      "Partecipazione strategica in ACENTRO SERVICE SRL (45%)"
+    ],
+    "weaknesses": [
+      "Equilibrio economico critico (score 1/5) - perdita netta",
+      "Sostenibilità del debito critica (score 1/5)",
+      "Sviluppo-Trend negativo (score 1/5) - fatturato in calo -20,16%",
+      "DSCR critico (0,10x) - insufficiente copertura servizio debito",
+      "EBITDA margin molto basso (0,95% vs benchmark 8-10%)",
+      "Cash flow operativo negativo (-€ 100.217)",
+      "Leverage elevato (5,79x) con alta esposizione debitoria"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            0,
+            93.4,
+            74.6
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            0,
+            2.14,
+            0.71
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            2.29,
+            0.95
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            10.59,
+            4.62,
+            0.1
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            85,
+            0,
+            177
+          ],
+          "backgroundColor": [
+            "#24b47e",
+            "#f9b115",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            75
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0.1,
+            0.09,
+            0.08,
+            0.07
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "ACENTRO",
+          "data": [
+            4,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Commercio al dettaglio)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in grave peggioramento",
+        "type": "strong-negative"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [
+    {
+      "name": "ENRICO FODDE",
+      "role": "Managing director",
+      "initials": "EF",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "15/01/2018"
+    },
+    {
+      "name": "PAOLO ZADDA",
+      "role": "Managing director",
+      "initials": "PZ",
+      "colorClass": "teal",
+      "appointmentDate": "12/04/2024"
+    },
+    {
+      "name": "FIORENZO COGHE",
+      "role": "Person responsible for branch",
+      "initials": "FC",
+      "colorClass": "yellow",
+      "appointmentDate": "11/04/2013"
+    },
+    {
+      "name": "ALESSANDRA PIRRI",
+      "role": "Chairman of board of auditors",
+      "initials": "AP",
+      "colorClass": "secondary",
+      "appointmentDate": "16/06/2023"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "id": "acentro-service",
+        "name": "ACENTRO SERVICE SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "45%",
+        "type": "Partecipazione Strategica"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 74.568.655",
+        "trend": {
+          "direction": "down",
+          "value": "-20,16%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 708.469",
+        "trend": {
+          "direction": "down",
+          "value": "-66,89%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ -573.916",
+        "trend": {
+          "direction": "down",
+          "value": "Perdita",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 7.757.084",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 7.350.000",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "-7,40%",
+        "trend": {
+          "direction": "down",
+          "value": "Negativo",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "0,52%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Molto basso",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "0,31%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Marginalità critica",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "5,79",
+        "trend": {
+          "direction": "up",
+          "value": "Elevato - critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "0,17",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bassa",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "0,10x",
+        "trend": {
+          "direction": "down",
+          "value": "Critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,21",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "ACENTRO S.R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "21/12/1981"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "47811 - Retail sale of cars and light motor vehicles"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA CALAMATTIA, 2<br>09134 CAGLIARI (CA)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "privacy@gruppoacentro.it<br>AMMINISTRAZIONE@PEC.GRUPPOACENTRO.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 7.350.000"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "90 (+8,43% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "07055051"
+          },
+          {
+            "label": "Sito Web",
+            "value": "gruppoacentro.it"
+          },
+          {
+            "label": "Social",
+            "value": "Facebook, Instagram"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio urgente della situazione di liquidità e cash flow operativo negativo",
+      "Valutazione di strategie per il miglioramento della marginalità operativa",
+      "Analisi delle cause del calo del fatturato (-20,16%) e piano di rilancio commerciale",
+      "Ristrutturazione del debito per migliorare la sostenibilità finanziaria",
+      "Implementazione di controlli di gestione più stringenti per il monitoraggio dei KPI",
+      "Fido consigliato: € 340.000 (in riduzione da € 660.000 a inizio 2025)"
+    ],
+    "outlook": "L'azienda attraversa una fase di significativa difficoltà operativa e finanziaria. Il forte calo del fatturato (-20,16%), la marginalità operativa critica (EBITDA margin 0,95%) e il cash flow negativo evidenziano problematiche strutturali che richiedono interventi immediati. Nonostante il rating B2 sia rimasto invariato, la situazione economico-finanziaria presenta elementi di forte criticità, in particolare per la sostenibilità del debito (DSCR 0,10x). Si raccomanda un approccio molto prudente nell'erogazione di credito e un monitoraggio continuo dell'evoluzione della situazione aziendale."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ALLERTA",
+      "colorClass": "warning",
+      "indiciOk": 4,
+      "indiciAllerta": 2,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 7.757.084",
+        "detail": "Capitale sociale: € 7.350.000",
+        "soglia": "> € 7.350.000",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "0,10x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "1,54%",
+        "detail": "€ 1.144.679 / € 74.568.655",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore commercio auto",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "21,65%",
+        "detail": "€ 7.757.084 / € 35.830.194",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "-0,22%",
+        "detail": "€ -100.217 / € 44.888.467",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "123,84%",
+        "detail": "€ 42.977.911 / € 34.705.194",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Critico",
+        "icon": "ri-alert-line",
+        "colorClass": "negative",
+        "text": "Il DSCR di 0,10x è significativamente sotto la soglia minima di 1,0x, indicando una grave difficoltà nel servizio del debito. L'azienda non genera sufficiente EBITDA per coprire oneri finanziari e quote capitale."
+      },
+      {
+        "id": "cash-flow-note",
+        "title": "Cash Flow Negativo",
+        "icon": "ri-funds-line",
+        "colorClass": "negative",
+        "text": "Il ritorno liquido dell'attivo negativo (-0,22%) evidenzia problematiche nella generazione di cassa operativa, elemento critico per la continuità aziendale."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "warning",
+        "text": "Si raccomanda: (1) piano di ristrutturazione del debito urgente, (2) analisi delle cause del deterioramento operativo, (3) implementazione di budget di tesoreria per monitoraggio DSCR prospettico."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 47811 (Commercio auto)",
+        "colorClass": "secondary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 708.469",
+          "color": "yellow"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 1.144.679",
+          "color": "red"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 34.705.194",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 1.125.000",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 34.705.194 × 0.20 = <strong>€ 6.941.039</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 1.125.000</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 1.125.000 / 5 = <strong>€ 225.000</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 6.941.039 + € 225.000 = <strong style='color: var(--primary);'>€ 7.166.039</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 708.469 / (€ 1.144.679 + € 7.166.039) = € 708.469 / € 8.310.718",
+        "value": "0,10x",
+        "interpretation": "Un DSCR di 0,10 indica che l'azienda genera un EBITDA insufficiente a coprire il servizio del debito. Con solo il 10% di copertura, la situazione è critica e richiede interventi immediati di ristrutturazione finanziaria."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "N/D",
+              "2024": "€ 848.214",
+              "voce": "Immateriali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 537.563",
+              "voce": "Materiali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 416.394",
+              "voce": "Finanziarie",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "N/D",
+            "2024": "€ 1.802.171",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "circolante": [
+            {
+              "2023": "N/D",
+              "2024": "€ 17.293.579",
+              "voce": "Crediti",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 567.911",
+              "voce": "Disponibilità liquide",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "N/D",
+            "2024": "€ 42.977.911",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "totaleAttivo": {
+            "2023": "N/D",
+            "2024": "€ 44.888.467",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 7.350.000",
+              "2024": "€ 7.350.000",
+              "voce": "Capitale sociale",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "N/D",
+              "voce": "Riserve",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 824.998",
+              "2024": "€ -573.916",
+              "voce": "Utile d'esercizio",
+              "trend": "-169,6%",
+              "trendColor": "red"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "N/D",
+            "2024": "€ 7.757.084",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "debiti": [
+            {
+              "2023": "N/D",
+              "2024": "€ 34.705.194",
+              "voce": "Debiti a breve termine",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 1.125.000",
+              "voce": "Debiti a M/L termine",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "N/D",
+            "2024": "€ 35.830.194",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "totalePassivo": {
+            "2023": "N/D",
+            "2024": "€ 44.888.467",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 93.398.000",
+          "2024": "€ 74.568.655",
+          "voce": "Ricavi delle vendite",
+          "trend": "-20,2%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 2.139.712",
+          "2024": "€ 708.469",
+          "voce": "EBITDA",
+          "trend": "-66,9%",
+          "trendColor": "red",
+          "highlight": true
+        },
+        {
+          "2023": "€ 1.420.032",
+          "2024": "€ 234.416",
+          "voce": "Risultato operativo",
+          "trend": "-83,5%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 824.998",
+          "2024": "€ -573.916",
+          "voce": "Utile netto",
+          "trend": "-169,6%",
+          "trendColor": "red",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "ACENTRO S.R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "21/12/1981"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "47811 - Retail sale of cars and light motor vehicles"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA CALAMATTIA, 2<br>09134 CAGLIARI (CA)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "privacy@gruppoacentro.it<br>AMMINISTRAZIONE@PEC.GRUPPOACENTRO.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 7.350.000"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "90 (+8,43% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "07055051"
+      },
+      {
+        "label": "Sito Web",
+        "value": "gruppoacentro.it"
+      },
+      {
+        "label": "Social",
+        "value": "Facebook, Instagram"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 74.568.655",
+      "trend": "-20,16% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 708.469",
+      "trend": "-66,89% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ -573.916",
+      "trend": "Perdita vs utile 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 7.757.084",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 7.350.000",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "-7,40%",
+      "status": "Negativo"
+    },
+    {
+      "label": "ROI",
+      "value": "0,52%",
+      "status": "Molto basso"
+    },
+    {
+      "label": "ROS",
+      "value": "0,31%",
+      "status": "Marginalità critica"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "5,79",
+      "status": "Elevato - critico"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "0,17",
+      "status": "Bassa"
+    },
+    {
+      "label": "DSCR",
+      "value": "0,10x",
+      "status": "Critico"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,21",
+      "status": "Accettabile"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "companyName": "ACENTRO SERVICE SRL",
+      "quota": "45%",
+      "tipo": "Partecipazione Strategica"
+    }
+  ]
+}
