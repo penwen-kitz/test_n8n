@@ -1,0 +1,1236 @@
+{
+  "company": {
+    "name": "OPEN HOLDING SRL",
+    "fullName": "OPEN HOLDING S.R.L.",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "16935371001",
+    "foundedDate": "23/11/2022",
+    "ateco": "6421 - Activities of holding companies",
+    "address": {
+      "street": "VIALE FILIPPO TOMMASO MARINETTI, 221",
+      "city": "ROMA",
+      "province": "RM",
+      "zip": "00143"
+    },
+    "contacts": {
+      "email": "info@openapi.it",
+      "pec": "OPENHOLDING@LEGALMAIL.IT",
+      "phone": "N/D",
+      "website": "openapi.it"
+    },
+    "social": [
+      "LinkedIn"
+    ],
+    "capitaleSociale": 10000,
+    "employees": {
+      "current": 1,
+      "previous": null,
+      "trend": null
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 64.5,
+    "maxScore": 100,
+    "category": "C",
+    "categoryLabel": "Rischio moderato-alto - Categoria C",
+    "rating": "C1",
+    "previousRating": "C1",
+    "description": "L'IRP Open Holding (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating C1 (invariato) e la situazione finanziaria mista indicano attualmente un rischio moderato-alto da monitorare.",
+    "colorClass": "yellow"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "64,50",
+      "icon": "ri-shield-line",
+      "colorClass": "blue",
+      "category": {
+        "label": "CATEGORIA C",
+        "class": "c"
+      },
+      "benchmark": "Rischio moderato-alto"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 0",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": null,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Assenti - holding finanziaria"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": null,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Non calcolabile (ricavi zero)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": null,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Non calcolabile (EBITDA negativo)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": null,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Non calcolabile (ricavi zero)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ -6.929",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": null,
+        "label": "dei Ricavi",
+        "direction": "down"
+      },
+      "benchmark": "Negativo - critico"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "-2,39%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": null,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Negativo - sotto benchmark"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "35,57",
+      "icon": "ri-water-flash-line",
+      "colorClass": "green",
+      "trend": {
+        "value": null,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Eccellente (benchmark >2.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "CRITICO",
+        "class": "critical"
+      },
+      "benchmark": "Non calcolabile (EBITDA negativo)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 0",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Invariato"
+      },
+      "benchmark": "Sconsigliato - Monitoraggio intensivo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Ottimo equilibrio patrimoniale (score 5/5)",
+      "Buon equilibrio finanziario (score 4/5)",
+      "Eccellente liquidità corrente (35,57)",
+      "Posizione finanziaria netta negativa (€ -289.120)",
+      "Elevate disponibilità liquide (€ 290.779)",
+      "Basso indebitamento complessivo (2,66%)",
+      "Partecipazione strategica in OPENAPI SPA (100%)"
+    ],
+    "weaknesses": [
+      "Assenza di ricavi operativi",
+      "EBITDA negativo (-€ 9.288)",
+      "Cash flow operativo negativo (-€ 6.929)",
+      "ROE negativo (-2,39%)",
+      "Sostenibilità del debito critica (score 1/5)",
+      "DSCR non calcolabile per EBITDA negativo",
+      "Azienda molto giovane (costituita nel 2022)"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2023-2024)",
+      "labels": [
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (€)",
+          "data": [
+            -6574,
+            -9288
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Cash Flow (€)",
+          "data": [
+            390331,
+            -6929
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            null,
+            0.03,
+            null
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            null,
+            0,
+            null
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            75
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su EBITDA",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "EBITDA",
+          "data": [
+            -9288,
+            -9753,
+            -10217,
+            -10682
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Pareggio",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Open Holding",
+          "data": [
+            5,
+            5,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Servizi finanziari)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 5,
+      "maxScore": 5,
+      "evaluation": "Ottima",
+      "trend": {
+        "label": "in miglioramento",
+        "type": "positive"
+      },
+      "color": "green"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "N/D",
+      "trend": {
+        "label": "N/D",
+        "type": "neutral"
+      },
+      "color": "yellow"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "N/D",
+      "trend": {
+        "label": "N/D",
+        "type": "neutral"
+      },
+      "color": "yellow"
+    }
+  ],
+  "management": [
+    {
+      "name": "LUCA SCURIATTI",
+      "role": "Managing director",
+      "initials": "LS",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "23/11/2022"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "id": "openapi",
+        "name": "OPENAPI SPA",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "100%",
+        "type": "Partecipazione Totalitaria"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 0",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ -9.288",
+        "trend": {
+          "direction": "down",
+          "value": "-41,28%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ -7.676",
+        "trend": {
+          "direction": "down",
+          "value": "Negativo",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 312.324",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 10.000",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "-2,39%",
+        "trend": {
+          "direction": "down",
+          "value": "Negativo",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "-3,07%",
+        "trend": {
+          "direction": "down",
+          "value": "Negativo",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "1,03",
+        "trend": {
+          "direction": "neutral",
+          "value": "Basso",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "97,41%",
+        "trend": {
+          "direction": "up",
+          "value": "Eccellente",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "N/D",
+        "trend": {
+          "direction": "down",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "35,57",
+        "trend": {
+          "direction": "up",
+          "value": "Eccellente",
+          "label": ""
+        },
+        "colorClass": "positive"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "OPEN HOLDING S.R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "23/11/2022"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "6421 - Activities of holding companies"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIALE FILIPPO TOMMASO MARINETTI, 221<br>00143 ROMA (RM)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@openapi.it<br>OPENHOLDING@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 10.000"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "1"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "N/D"
+          },
+          {
+            "label": "Sito Web",
+            "value": "openapi.it"
+          },
+          {
+            "label": "Social",
+            "value": "LinkedIn"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio intensivo della generazione di ricavi operativi",
+      "Valutazione strategica del modello di business della holding",
+      "Analisi dell'efficacia della gestione delle partecipazioni",
+      "Controllo rigoroso dei costi operativi per migliorare l'EBITDA",
+      "Fido sconsigliato fino a miglioramento dei fondamentali economici"
+    ],
+    "outlook": "Open Holding presenta una situazione finanziaria mista: da un lato eccellente solidità patrimoniale e liquidità, dall'altro criticità operative evidenti. L'assenza di ricavi e l'EBITDA negativo sono tipici di una holding di recente costituzione, ma richiedono attento monitoraggio. La partecipazione totalitaria in OPENAPI SPA rappresenta l'asset strategico principale. Si raccomanda un approccio molto prudente nell'erogazione di credito, con focus sul monitoraggio dell'evoluzione operativa e della capacità di generare flussi positivi dalle partecipazioni."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ATTENZIONE",
+      "colorClass": "warning",
+      "indiciOk": 4,
+      "indiciAllerta": 1,
+      "indiciMancanti": 2,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 312.324",
+        "detail": "Capitale sociale: € 10.000",
+        "soglia": "> € 10.000",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "EBITDA negativo",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Fatturato zero",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore servizi finanziari",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "3.765,85%",
+        "detail": "€ 312.324 / € 8.294",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "-2,16%",
+        "detail": "€ -6.929 / € 320.618",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "3.585,74%",
+        "detail": "€ 297.408 / € 8.294",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "holding-note",
+        "title": "Specificità Holding",
+        "icon": "ri-building-line",
+        "colorClass": "primary",
+        "text": "Open Holding è una società di partecipazioni di recente costituzione. L'assenza di ricavi operativi e l'EBITDA negativo sono tipici di questa tipologia societaria, che genera valore attraverso le partecipazioni controllate."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-7) fuori soglia contemporaneamente. Un solo indice in allerta non costituisce crisi secondo D.Lgs. 14/2019."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) implementare budget di tesoreria per DSCR prospettico, (2) monitorare i flussi dalle partecipazioni, (3) verificare disaggregazione debiti tributari/previdenziali."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 6421 (Servizi finanziari)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "holding-analysis",
+      "icon": "ri-building-line",
+      "title": "Analisi Holding Finanziaria",
+      "subtitle": "Specificità valutative per società di partecipazioni",
+      "formula": "Valore = Σ(Partecipazioni × Quote) - Debiti Netti",
+      "values": [
+        {
+          "label": "OPENAPI SPA",
+          "value": "100%",
+          "color": "green"
+        },
+        {
+          "label": "Patrimonio Netto",
+          "value": "€ 312.324",
+          "color": "green"
+        },
+        {
+          "label": "Disponibilità Liquide",
+          "value": "€ 290.779",
+          "color": "green"
+        },
+        {
+          "label": "Debiti Totali",
+          "value": "€ 8.294",
+          "color": "yellow"
+        }
+      ],
+      "assumptions": [
+        "La <strong>holding</strong> genera valore attraverso le partecipazioni controllate",
+        "L'<strong>assenza di ricavi</strong> è normale per questo tipo di società",
+        "L'<strong>EBITDA negativo</strong> riflette i costi di struttura non compensati da ricavi operativi",
+        "La <strong>liquidità elevata</strong> (€ 290.779) fornisce flessibilità finanziaria",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Valutazione:</strong> Focus su solidità patrimoniale e performance delle partecipazioni</span>"
+      ],
+      "result": {
+        "calculation": "Patrimonio Netto € 312.324 - Debiti € 8.294 = € 304.030",
+        "value": "Valore Netto Positivo",
+        "interpretation": "La holding presenta una situazione patrimoniale solida con elevata liquidità. Il valore dipende principalmente dalla performance di OPENAPI SPA (partecipata al 100%). Si raccomanda il monitoraggio dei risultati della controllata per valutare la sostenibilità del modello di business."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con analisi",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "N/D",
+              "2024": "€ 1.770",
+              "voce": "Immateriali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 0",
+              "voce": "Materiali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 21.440",
+              "voce": "Finanziarie",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "N/D",
+            "2024": "€ 23.210",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "circolante": [
+            {
+              "2023": "N/D",
+              "2024": "€ 6.629",
+              "voce": "Crediti",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 290.779",
+              "voce": "Disponibilità liquide",
+              "trend": "N/D",
+              "trendColor": "green"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "N/D",
+            "2024": "€ 297.408",
+            "trend": "N/D",
+            "trendColor": "green"
+          },
+          "totaleAttivo": {
+            "2023": "N/D",
+            "2024": "€ 320.618",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "N/D",
+              "2024": "€ 10.000",
+              "voce": "Capitale sociale",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 310.000",
+              "voce": "Riserve",
+              "trend": "N/D",
+              "trendColor": "green"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ -7.676",
+              "voce": "Utile d'esercizio",
+              "trend": "N/D",
+              "trendColor": "red"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "N/D",
+            "2024": "€ 312.324",
+            "trend": "N/D",
+            "trendColor": "green"
+          },
+          "debiti": [
+            {
+              "2023": "N/D",
+              "2024": "€ 8.294",
+              "voce": "Debiti a breve termine",
+              "trend": "N/D",
+              "trendColor": "green"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 0",
+              "voce": "Debiti a M/L termine",
+              "trend": "N/D",
+              "trendColor": "green"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "N/D",
+            "2024": "€ 8.294",
+            "trend": "N/D",
+            "trendColor": "green"
+          },
+          "totalePassivo": {
+            "2023": "N/D",
+            "2024": "€ 320.618",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 0",
+          "2024": "€ 0",
+          "voce": "Ricavi delle vendite",
+          "trend": "0,0%",
+          "trendColor": "gray"
+        },
+        {
+          "2023": "€ -6.574",
+          "2024": "€ -9.288",
+          "voce": "EBITDA",
+          "trend": "-41,3%",
+          "trendColor": "red",
+          "highlight": true
+        },
+        {
+          "2023": "€ -7.113",
+          "2024": "€ -9.827",
+          "voce": "Risultato operativo",
+          "trend": "-38,2%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "N/D",
+          "2024": "€ -7.676",
+          "voce": "Utile netto",
+          "trend": "N/D",
+          "trendColor": "red",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "OPEN HOLDING S.R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "23/11/2022"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "6421 - Activities of holding companies"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIALE FILIPPO TOMMASO MARINETTI, 221<br>00143 ROMA (RM)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@openapi.it<br>OPENHOLDING@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 10.000"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "1"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "N/D"
+      },
+      {
+        "label": "Sito Web",
+        "value": "openapi.it"
+      },
+      {
+        "label": "Social",
+        "value": "LinkedIn"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 0",
+      "trend": "N/D vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ -9.288",
+      "trend": "-41,28% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ -7.676",
+      "trend": "Negativo"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 312.324",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 10.000",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "-2,39%",
+      "status": "Negativo"
+    },
+    {
+      "label": "ROI",
+      "value": "-3,07%",
+      "status": "Negativo"
+    },
+    {
+      "label": "ROS",
+      "value": "N/D",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "1,03",
+      "status": "Basso"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "97,41%",
+      "status": "Eccellente"
+    },
+    {
+      "label": "DSCR",
+      "value": "N/D",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "35,57",
+      "status": "Eccellente"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "companyName": "OPENAPI SPA",
+      "quota": "100%",
+      "tipo": "Partecipazione Totalitaria"
+    }
+  ]
+}
