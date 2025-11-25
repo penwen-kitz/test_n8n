@@ -1,0 +1,1188 @@
+{
+  "company": {
+    "name": "DATLAS SRL",
+    "fullName": "DATLAS S.R.L.",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "09854240968",
+    "foundedDate": "13/03/2017",
+    "ateco": "631029 - Other data processing",
+    "address": {
+      "street": "PIAZZA DELLA CONCILIAZIONE, 2",
+      "city": "MILANO",
+      "province": "MI",
+      "zip": "20123"
+    },
+    "contacts": {
+      "email": "info@datlas.it",
+      "pec": "DATLAS@LEGALMAIL.IT",
+      "phone": "02382532",
+      "website": "datlas.it"
+    },
+    "social": [],
+    "capitaleSociale": 85740,
+    "employees": {
+      "current": 158,
+      "previous": 203,
+      "trend": -22.17
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 44.5,
+    "maxScore": 100,
+    "category": "D",
+    "categoryLabel": "Rischio massimo - Categoria D",
+    "rating": "ND",
+    "previousRating": "C3",
+    "description": "L'IRP DATLAS (scala 0-100) indica una situazione di massimo rischio. Il rating ND (azienda cancellata) e il patrimonio netto negativo segnalano una crisi aziendale conclamata.",
+    "colorClass": "red"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "44,50",
+      "icon": "ri-shield-line",
+      "colorClass": "red",
+      "category": {
+        "label": "CATEGORIA D",
+        "class": "d"
+      },
+      "benchmark": "Azienda cancellata - Rischio massimo"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 14.356.237",
+      "icon": "ri-funds-box-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 2.47,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Crescita modesta nonostante la crisi"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "-12,47%",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -189.66,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Critico (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "NON CALC.",
+        "class": "critical"
+      },
+      "benchmark": "Non calcolabile per EBITDA negativo"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "138 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "benchmark": "Critico (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ -1.962.578",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -13.67,
+        "label": "dei Ricavi",
+        "direction": "down",
+        "unit": "%"
+      },
+      "benchmark": "Critico - Flusso negativo"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "benchmark": "Non calcolabile per patrimonio negativo"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "0,65",
+      "icon": "ri-water-flash-line",
+      "colorClass": "red",
+      "benchmark": "Critico (benchmark >1.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "CRITICO",
+        "class": "critical"
+      },
+      "benchmark": "Non calcolabile per EBITDA negativo"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 0",
+      "icon": "ri-bank-card-line",
+      "colorClass": "red",
+      "benchmark": "Sconsigliato - Azienda cancellata"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Fatturato ancora significativo (€ 14,4M)",
+      "Crescita ricavi del 2,47% vs 2023",
+      "Presenza di asset immateriali (€ 3M)",
+      "Settore tecnologico con potenziale"
+    ],
+    "weaknesses": [
+      "Azienda cancellata dal registro imprese",
+      "Patrimonio netto fortemente negativo (-€ 3,1M)",
+      "EBITDA negativo (-€ 1,8M)",
+      "Perdita netta di € 3,8M",
+      "Tutti i profili di valutazione critici (score 1/5)",
+      "Liquidità insufficiente (0,65)",
+      "Forte riduzione dipendenti (-22%)",
+      "Rating degradato da C3 a ND"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            0,
+            14.01,
+            14.36
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            0,
+            2,
+            -1.79
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            14.3,
+            -12.47
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            138,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            0
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su EBITDA",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            -1.79,
+            -1.7,
+            -1.61,
+            -1.52
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "Sostenibilità"
+      ],
+      "datasets": [
+        {
+          "label": "DATLAS",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            3,
+            1
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.2)"
+        },
+        {
+          "label": "Settore (Servizi informazione)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            9,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            5,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "ND"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO",
+        "6": "GRIGIO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in grave peggioramento",
+        "type": "critical"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [
+    {
+      "name": "GIANLUCA LOSI",
+      "role": "Chairman of board of directors",
+      "initials": "GL",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "04/07/2024"
+    },
+    {
+      "name": "FABRIZIO SORU",
+      "role": "Managing director",
+      "initials": "FS",
+      "colorClass": "teal",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "31/07/2024"
+    },
+    {
+      "name": "FABIO RISETTI",
+      "role": "Director",
+      "initials": "FR",
+      "colorClass": "yellow",
+      "appointmentDate": "04/07/2024"
+    },
+    {
+      "name": "LUCIANO HASSAN",
+      "role": "Director",
+      "initials": "LH",
+      "colorClass": "secondary",
+      "appointmentDate": "04/07/2024"
+    },
+    {
+      "name": "CARLO PRIVITERA",
+      "role": "Director",
+      "initials": "CP",
+      "colorClass": "primary",
+      "appointmentDate": "04/07/2024"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "id": "walle",
+        "name": "WALLE SPA",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "100%",
+        "type": "Controllo Totale"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 14.356.237",
+        "trend": {
+          "direction": "up",
+          "value": "+2,47%",
+          "label": "vs 2023"
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ -1.790.922",
+        "trend": {
+          "direction": "down",
+          "value": "-189,66%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ -3.802.578",
+        "trend": {
+          "direction": "down",
+          "value": "Perdita significativa",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ -3.065.055",
+        "trend": {
+          "direction": "down",
+          "value": "Patrimonio negativo",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 85.740",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "N/D",
+        "trend": {
+          "direction": "down",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "-38,09%",
+        "trend": {
+          "direction": "down",
+          "value": "Fortemente negativo",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "-24,32%",
+        "trend": {
+          "direction": "down",
+          "value": "Marginalità negativa",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "-3,26",
+        "trend": {
+          "direction": "down",
+          "value": "Critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "0,65",
+        "trend": {
+          "direction": "down",
+          "value": "Insufficiente",
+          "label": ""
+        },
+        "colorClass": "negative"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "DATLAS S.R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "13/03/2017"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "631029 - Other data processing"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "PIAZZA DELLA CONCILIAZIONE, 2<br>20123 MILANO (MI)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@datlas.it<br>DATLAS@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 85.740"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "158 (-22% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "02382532"
+          },
+          {
+            "label": "Sito Web",
+            "value": "datlas.it"
+          },
+          {
+            "label": "Status",
+            "value": "AZIENDA CANCELLATA"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "SCONSIGLIATA qualsiasi forma di affidamento creditizio",
+      "Azienda risulta cancellata dal registro delle imprese",
+      "Patrimonio netto fortemente negativo (-€ 3,1M)",
+      "EBITDA negativo e perdite operative significative",
+      "Tutti gli indicatori di equilibrio in area critica",
+      "Necessaria verifica dello stato legale dell'azienda"
+    ],
+    "outlook": "DATLAS SRL presenta una situazione di crisi conclamata con azienda cancellata dal registro imprese e patrimonio netto fortemente negativo. Nonostante il mantenimento di un fatturato significativo, la generazione di perdite operative e la situazione patrimoniale compromessa rendono l'azienda non affidabile dal punto di vista creditizio. Il rating ND (non determinato) conferma lo stato di cancellazione. Si sconsiglia vivamente qualsiasi forma di rapporto commerciale o creditizio."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "CRISI CONCLAMATA",
+      "colorClass": "critical",
+      "indiciOk": 1,
+      "indiciAllerta": 5,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ -3.065.055",
+        "detail": "Capitale sociale: € 85.740",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "EBITDA negativo",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "2,24%",
+        "detail": "€ 322.070 / € 14.356.237",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore servizi informazione",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Patrimonio netto negativo",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "-19,62%",
+        "detail": "€ -1.962.578 / € 10.004.458",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "64,98%",
+        "detail": "€ 6.652.019 / € 10.240.084",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "crisi-note",
+        "title": "Situazione di Crisi Conclamata",
+        "icon": "ri-alert-line",
+        "colorClass": "critical",
+        "text": "L'azienda presenta una situazione di crisi conclamata con patrimonio netto negativo, EBITDA negativo e azienda cancellata dal registro imprese. Tutti gli indicatori segnalano una situazione di insolvenza."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "La presenza di patrimonio netto negativo e la cancellazione dell'azienda configurano una situazione che va oltre la semplice allerta prevista dal Codice della Crisi, indicando uno stato di insolvenza conclamata."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "irp-score",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo IRP Score",
+      "subtitle": "Indice di Rischio Personalizzato - Formula e componenti",
+      "formula": "IRP = Rating Base Score + (Profiles Adjustment × 0.1)",
+      "values": [
+        {
+          "label": "Rating Base Score (C3)",
+          "value": "44,50",
+          "color": "red"
+        },
+        {
+          "label": "Profiles Average",
+          "value": "1,00",
+          "color": "red"
+        },
+        {
+          "label": "Profiles Adjustment",
+          "value": "2,00",
+          "color": "red"
+        }
+      ],
+      "assumptions": [
+        "Rating ND convertito in C3 per il calcolo (44,5 punti base)",
+        "Media profili: (1+1+1+1+1)/5 = 1,00",
+        "Adjustment: (1,00 - 3,00) × -1 = 2,00",
+        "IRP finale: 44,50 + (2,00 × 0,1) = 44,70 ≈ 44,50"
+      ],
+      "result": {
+        "calculation": "44,50 + (2,00 × 0,1) = 44,50",
+        "value": "44,50",
+        "interpretation": "Un IRP di 44,50 indica rischio massimo (Categoria D). Il punteggio riflette la situazione di crisi conclamata con azienda cancellata e patrimonio netto negativo."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Riclassificato",
+      "subtitle": "Stato Patrimoniale e Conto Economico 2024",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "N/D",
+              "2024": "€ 3.000.125",
+              "voce": "Immateriali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 171.168",
+              "voce": "Materiali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 23.766",
+              "voce": "Finanziarie",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "N/D",
+            "2024": "€ 3.195.059",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "circolante": [
+            {
+              "2023": "N/D",
+              "2024": "€ 5.425.314",
+              "voce": "Crediti",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 1.226.705",
+              "voce": "Disponibilità liquide",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "N/D",
+            "2024": "€ 6.652.019",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "totaleAttivo": {
+            "2023": "N/D",
+            "2024": "€ 10.004.458",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 85.740",
+              "2024": "€ 85.740",
+              "voce": "Capitale sociale",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ -3.150.795",
+              "voce": "Perdite accumulate",
+              "trend": "N/D",
+              "trendColor": "red"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "N/D",
+            "2024": "€ -3.065.055",
+            "trend": "N/D",
+            "trendColor": "red"
+          },
+          "debiti": [
+            {
+              "2023": "N/D",
+              "2024": "€ 10.240.084",
+              "voce": "Debiti a breve termine",
+              "trend": "N/D",
+              "trendColor": "red"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 912.904",
+              "voce": "Debiti a M/L termine",
+              "trend": "N/D",
+              "trendColor": "red"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "N/D",
+            "2024": "€ 11.152.988",
+            "trend": "N/D",
+            "trendColor": "red"
+          },
+          "totalePassivo": {
+            "2023": "N/D",
+            "2024": "€ 10.004.458",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 14.010.085",
+          "2024": "€ 14.356.237",
+          "voce": "Ricavi delle vendite",
+          "trend": "+2,5%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 1.998.137",
+          "2024": "€ -1.790.922",
+          "voce": "EBITDA",
+          "trend": "-189,7%",
+          "trendColor": "red",
+          "highlight": true
+        },
+        {
+          "2023": "€ -35.687",
+          "2024": "€ -3.810.972",
+          "voce": "Risultato operativo",
+          "trend": "+10.577%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ -3.510.513",
+          "2024": "€ -3.802.578",
+          "voce": "Perdita netta",
+          "trend": "+8,3%",
+          "trendColor": "red",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "DATLAS S.R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "13/03/2017"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "631029 - Other data processing"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "PIAZZA DELLA CONCILIAZIONE, 2<br>20123 MILANO (MI)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@datlas.it<br>DATLAS@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 85.740"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "158 (-22% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "02382532"
+      },
+      {
+        "label": "Sito Web",
+        "value": "datlas.it"
+      },
+      {
+        "label": "Status",
+        "value": "AZIENDA CANCELLATA"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 14.356.237",
+      "trend": "+2,47% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ -1.790.922",
+      "trend": "-189,66% vs 2023"
+    },
+    {
+      "label": "PERDITA NETTA",
+      "value": "€ -3.802.578",
+      "trend": "Perdita significativa"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ -3.065.055",
+      "trend": "Patrimonio negativo"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 85.740",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "N/D",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "ROI",
+      "value": "-38,09%",
+      "status": "Fortemente negativo"
+    },
+    {
+      "label": "ROS",
+      "value": "-24,32%",
+      "status": "Marginalità negativa"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "-3,26",
+      "status": "Critico"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "0,65",
+      "status": "Insufficiente"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "companyName": "WALLE SPA",
+      "quota": "100%",
+      "tipo": "Controllo Totale"
+    }
+  ]
+}
