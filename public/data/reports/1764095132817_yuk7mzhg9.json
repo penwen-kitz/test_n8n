@@ -1,0 +1,1301 @@
+{
+  "company": {
+    "name": "CALCIDRATA SPA",
+    "fullName": "CALCIDRATA SPA",
+    "legalForm": "Limited company",
+    "piva": "00144390929",
+    "foundedDate": "14/01/1965",
+    "ateco": "23521 - Manufacture of lime",
+    "address": {
+      "street": "VIA VALSUGANA, 6",
+      "city": "CAGLIARI",
+      "province": "CA",
+      "zip": "09123"
+    },
+    "contacts": {
+      "email": "ACQUISTI@CALCIDRATA.COM,calcidrata@tiscali.it",
+      "pec": "CALCIDRATA@PEC.IT",
+      "phone": "070272009",
+      "website": "www.calcidrata.com"
+    },
+    "social": [],
+    "capitaleSociale": 774000,
+    "employees": {
+      "current": 24,
+      "previous": 24,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "25 Novembre 2025",
+    "generatedDate": "25/11/2025"
+  },
+  "riskAssessment": {
+    "score": 87.34,
+    "maxScore": 100,
+    "category": "A",
+    "categoryLabel": "Rischio basso - Categoria A",
+    "rating": "A3",
+    "previousRating": "A3",
+    "description": "L'IRP Calcidrata (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating A3 (confermato) e l'eccellente solidità finanziaria indicano attualmente un rischio basso.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "87,34",
+      "icon": "ri-shield-line",
+      "colorClass": "blue",
+      "category": {
+        "label": "CATEGORIA A",
+        "class": "a"
+      },
+      "benchmark": "Eccellente solidità finanziaria"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 13.405.793",
+      "icon": "ri-funds-box-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": -1.03,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Lieve flessione"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "18,22%",
+      "icon": "ri-percent-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 1.48,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Eccellente (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "0,51x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "green",
+      "trend": {
+        "value": -0.15,
+        "label": "vs 2023",
+        "direction": "down",
+        "unit": "x"
+      },
+      "benchmark": "Eccellente (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "80 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "green",
+      "trend": {
+        "value": -9,
+        "label": "vs benchmark",
+        "direction": "down",
+        "unit": "gg"
+      },
+      "benchmark": "Buono (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 1.952.845",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 14.57,
+        "label": "dei Ricavi",
+        "direction": "up",
+        "unit": "%"
+      },
+      "benchmark": "Eccellente (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "12,23%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 0.44,
+        "label": "vs 2023",
+        "direction": "up",
+        "unit": "pp"
+      },
+      "benchmark": "Buono (benchmark >10%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,29",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": -0.05,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Accettabile (benchmark >1.2)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "2,15x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "green",
+      "badge": {
+        "label": "OTTIMO",
+        "class": "excellent"
+      },
+      "benchmark": "Eccellente (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 550.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 3.77,
+        "label": "12 mesi",
+        "direction": "up",
+        "text": "Aumentato"
+      },
+      "benchmark": "Limite operativo attuale"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Ottimo equilibrio patrimoniale (score 4/5)",
+      "Ottimo equilibrio economico (score 4/5)",
+      "Ottima sostenibilità del debito (score 4/5)",
+      "EBITDA margin eccellente (18,22%)",
+      "DSCR ottimo (2,15x)",
+      "PFN/EBITDA eccellente (0,51x)",
+      "ROI e ROS sopra media settoriale",
+      "Cash flow operativo molto forte (14,57% ricavi)"
+    ],
+    "weaknesses": [
+      "Equilibrio finanziario con criticità (score 2/5)",
+      "Liquidità corrente sotto benchmark (1,29)",
+      "Fatturato in lieve calo (-1,03%)",
+      "Indici di liquidità da monitorare",
+      "Copertura immobilizzazioni migliorabile"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            12.5,
+            13.5,
+            13.4
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            2.2,
+            2.4,
+            2.4
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            17.6,
+            17.8,
+            18.22
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            0.51,
+            0.52,
+            2.15
+          ],
+          "backgroundColor": [
+            "#24b47e",
+            "#24b47e",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            80,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#24b47e",
+            "#f5365c",
+            "#f9b115"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            0
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            2.15,
+            2.04,
+            1.93,
+            1.82
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Calcidrata",
+          "data": [
+            4,
+            2,
+            4,
+            4,
+            3,
+            5
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Lavorazione minerali non metalliferi)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE SCURO",
+        "2": "VERDE",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "in lieve peggioramento",
+        "type": "slight-negative"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "in lieve miglioramento",
+        "type": "slight-positive"
+      },
+      "color": "yellow"
+    }
+  ],
+  "management": [
+    {
+      "name": "GUIDO MULAS",
+      "role": "Chairman of Board of Directors",
+      "initials": "GM",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "24/05/2024"
+    },
+    {
+      "name": "ALDO MULAS",
+      "role": "Managing Director",
+      "initials": "AM",
+      "colorClass": "teal",
+      "appointmentDate": "30/05/2024"
+    },
+    {
+      "name": "GUIDO MULAS",
+      "role": "Director",
+      "initials": "GM",
+      "colorClass": "yellow",
+      "appointmentDate": "24/05/2024"
+    },
+    {
+      "name": "DAVIDE MARINI",
+      "role": "Chairman of Board of Auditors",
+      "initials": "DM",
+      "colorClass": "green",
+      "appointmentDate": "28/05/2025"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "id": "calservice",
+        "name": "CALSERVICE SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "100%",
+        "type": "Controllo Totale"
+      },
+      {
+        "id": "premix",
+        "name": "PREMIX SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "100%",
+        "type": "Controllo Totale"
+      },
+      {
+        "id": "fragoleto",
+        "name": "IL FRAGOLETO SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "yellow",
+        "quota": "61,97%",
+        "type": "Controllo Maggioritario"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 13.405.793",
+        "trend": {
+          "direction": "down",
+          "value": "-1,03%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 2.442.749",
+        "trend": {
+          "direction": "up",
+          "value": "+1,48%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ 1.106.456",
+        "trend": {
+          "direction": "down",
+          "value": "-8,29%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 9.163.712",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 774.000",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "12,23%",
+        "trend": {
+          "direction": "up",
+          "value": "Redditività buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "10,82%",
+        "trend": {
+          "direction": "up",
+          "value": "Sopra media",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "11,86%",
+        "trend": {
+          "direction": "up",
+          "value": "Marginalità buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "1,62",
+        "trend": {
+          "direction": "neutral",
+          "value": "Sotto controllo",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "61,58%",
+        "trend": {
+          "direction": "up",
+          "value": "Eccellente",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "2,15x",
+        "trend": {
+          "direction": "up",
+          "value": "Ottimo",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,29",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "CALCIDRATA SPA"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "14/01/1965"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "23521 - Manufacture of lime"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA VALSUGANA, 6<br>09123 CAGLIARI (CA)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "ACQUISTI@CALCIDRATA.COM<br>CALCIDRATA@PEC.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 774.000"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "24 (invariato vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "070272009"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.calcidrata.com"
+          },
+          {
+            "label": "Social",
+            "value": "Non presenti"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio dell'evoluzione del fatturato per confermare la stabilità",
+      "Attenzione agli indici di liquidità corrente da migliorare",
+      "Valutazione dell'opportunità di ottimizzare la gestione del capitale circolante",
+      "Mantenimento dell'eccellente marginalità operativa",
+      "Fido consigliato: € 550.000 (aumentato negli ultimi 12 mesi)"
+    ],
+    "outlook": "L'azienda presenta un profilo di rischio molto positivo con rating A3 confermato e score IRP di 87,34. La solidità patrimoniale ed economica è eccellente, supportata da ottimi margini operativi e sostenibilità del debito. Il lieve calo del fatturato (-1,03%) è compensato dal miglioramento della marginalità. Gli aspetti di criticità nell'equilibrio finanziario richiedono attenzione ma non compromettono il giudizio complessivamente positivo. Si raccomanda un approccio favorevole nell'erogazione di credito, con possibilità di incremento del limite operativo."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "POSITIVO",
+      "colorClass": "positive",
+      "indiciOk": 5,
+      "indiciAllerta": 1,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 9.163.712",
+        "detail": "Capitale sociale: € 774.000",
+        "soglia": "> € 774.000",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "2,15x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "PARZIALE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "0,63%",
+        "detail": "€ 85.009 / € 13.405.793",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore manifatturiero",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "191,64%",
+        "detail": "€ 9.163.712 / € 4.781.967",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "13,12%",
+        "detail": "€ 1.952.845 / € 14.880.443",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "133,60%",
+        "detail": "€ 4.872.625 / € 3.647.073",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Previsionale",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "Il DSCR richiesto dal Codice della Crisi deve essere previsionale su base 6 mesi (budget di tesoreria). Il valore storico 2,15x è eccellente ma non sostituisce l'analisi prospettica richiesta dalla normativa."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-7) fuori soglia contemporaneamente. Un solo indice mancante non costituisce crisi secondo D.Lgs. 14/2019."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) implementare budget di tesoreria semestrale per DSCR prospettico, (2) verificare disaggregazione debiti tributari/previdenziali per completezza analisi."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 23521 (Lavorazione minerali non metalliferi)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 2.442.749",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 85.009",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 3.647.073",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 1.134.894",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 3.647.073 × 0.20 = <strong>€ 729.415</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 1.134.894</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 1.134.894 / 5 = <strong>€ 226.979</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 729.415 + € 226.979 = <strong style='color: var(--primary);'>€ 956.394</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 2.442.749 / (€ 85.009 + € 956.394) = € 2.442.749 / € 1.041.403",
+        "value": "2,15x",
+        "interpretation": "Un DSCR di 2,15 indica che l'azienda genera un EBITDA più che sufficiente a coprire il servizio del debito (oneri finanziari + quota capitale) con un ampio margine di sicurezza del 115%. La soglia minima accettabile è generalmente 1.0, mentre un valore ottimale è considerato ≥ 1.3."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ 15.000",
+              "2024": "€ 15.593",
+              "voce": "Immateriali",
+              "trend": "+4.0%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 5.200.000",
+              "2024": "€ 5.489.986",
+              "voce": "Materiali",
+              "trend": "+5.6%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 4.300.000",
+              "2024": "€ 4.451.671",
+              "voce": "Finanziarie",
+              "trend": "+3.5%",
+              "trendColor": "green"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ 9.515.000",
+            "2024": "€ 9.957.250",
+            "trend": "+4.6%",
+            "trendColor": "green"
+          },
+          "circolante": [
+            {
+              "2023": "€ 2.800.000",
+              "2024": "€ 2.955.980",
+              "voce": "Crediti",
+              "trend": "+5.6%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 580.000",
+              "2024": "€ 619.281",
+              "voce": "Disponibilità liquide",
+              "trend": "+6.8%",
+              "trendColor": "green"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ 4.650.000",
+            "2024": "€ 4.872.625",
+            "trend": "+4.8%",
+            "trendColor": "green"
+          },
+          "totaleAttivo": {
+            "2023": "€ 14.165.000",
+            "2024": "€ 14.880.443",
+            "trend": "+5.1%",
+            "trendColor": "green"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 774.000",
+              "2024": "€ 774.000",
+              "voce": "Capitale sociale",
+              "trend": "0.0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 7.200.000",
+              "2024": "€ 7.283.256",
+              "voce": "Riserve",
+              "trend": "+1.2%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 1.206.456",
+              "2024": "€ 1.106.456",
+              "voce": "Utile d'esercizio",
+              "trend": "-8.3%",
+              "trendColor": "red"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ 9.180.456",
+            "2024": "€ 9.163.712",
+            "trend": "-0.2%",
+            "trendColor": "red"
+          },
+          "debiti": [
+            {
+              "2023": "€ 3.850.000",
+              "2024": "€ 3.647.073",
+              "voce": "Debiti a breve termine",
+              "trend": "-5.3%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 1.134.544",
+              "2024": "€ 1.134.894",
+              "voce": "Debiti a M/L termine",
+              "trend": "+0.03%",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ 4.984.544",
+            "2024": "€ 4.781.967",
+            "trend": "-4.1%",
+            "trendColor": "green"
+          },
+          "totalePassivo": {
+            "2023": "€ 14.165.000",
+            "2024": "€ 14.880.443",
+            "trend": "+5.1%",
+            "trendColor": "green"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 13.546.033",
+          "2024": "€ 13.405.793",
+          "voce": "Ricavi delle vendite",
+          "trend": "-1.0%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 2.407.051",
+          "2024": "€ 2.442.749",
+          "voce": "EBITDA",
+          "trend": "+1.5%",
+          "trendColor": "green",
+          "highlight": true
+        },
+        {
+          "2023": "€ 1.492.812",
+          "2024": "€ 1.610.701",
+          "voce": "Risultato operativo",
+          "trend": "+7.9%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 1.206.456",
+          "2024": "€ 1.106.456",
+          "voce": "Utile netto",
+          "trend": "-8.3%",
+          "trendColor": "red",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "CALCIDRATA SPA"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "14/01/1965"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "23521 - Manufacture of lime"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA VALSUGANA, 6<br>09123 CAGLIARI (CA)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "ACQUISTI@CALCIDRATA.COM<br>CALCIDRATA@PEC.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 774.000"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "24 (invariato vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "070272009"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.calcidrata.com"
+      },
+      {
+        "label": "Social",
+        "value": "Non presenti"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 13.405.793",
+      "trend": "-1,03% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 2.442.749",
+      "trend": "+1,48% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 1.106.456",
+      "trend": "-8,29% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 9.163.712",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 774.000",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "12,23%",
+      "status": "Redditività buona"
+    },
+    {
+      "label": "ROI",
+      "value": "10,82%",
+      "status": "Sopra media"
+    },
+    {
+      "label": "ROS",
+      "value": "11,86%",
+      "status": "Marginalità buona"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "1,62",
+      "status": "Sotto controllo"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "61,58%",
+      "status": "Eccellente"
+    },
+    {
+      "label": "DSCR",
+      "value": "2,15x",
+      "status": "Ottimo"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,29",
+      "status": "Accettabile"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "companyName": "CALSERVICE SRL",
+      "quota": "100%",
+      "tipo": "Controllo Totale"
+    },
+    {
+      "companyName": "PREMIX SRL",
+      "quota": "100%",
+      "tipo": "Controllo Totale"
+    },
+    {
+      "companyName": "IL FRAGOLETO SRL",
+      "quota": "61,97%",
+      "tipo": "Controllo Maggioritario"
+    }
+  ]
+}
