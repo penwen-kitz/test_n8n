@@ -1,0 +1,1298 @@
+{
+  "company": {
+    "name": "GMR SRL SOCIETA' BENEFIT",
+    "fullName": "GMR SRL SOCIETA BENEFIT",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "02113610303",
+    "foundedDate": "22/09/1999",
+    "ateco": "4322 - Plumbing, heat and air-conditioning installation",
+    "address": {
+      "street": "VIA LUIGI GALVANI, 18",
+      "city": "MONFALCONE",
+      "province": "GO",
+      "zip": "34074"
+    },
+    "contacts": {
+      "email": "info@gmrsrl.com",
+      "pec": "GMRSRL2018@PEC.IT",
+      "phone": "04811988050",
+      "website": "gmrimpresacostruzioni.it"
+    },
+    "social": [
+      "Instagram",
+      "LinkedIn"
+    ],
+    "capitaleSociale": 500000,
+    "employees": {
+      "current": 20,
+      "previous": 13,
+      "trend": 53.85
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "25 Novembre 2025",
+    "generatedDate": "25/11/2025"
+  },
+  "riskAssessment": {
+    "score": 82.2,
+    "maxScore": 100,
+    "category": "B",
+    "categoryLabel": "Rischio moderato - Categoria B",
+    "rating": "B1",
+    "previousRating": "B1",
+    "description": "L'IRP GMR (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating B1 (invariato) e la buona solidità finanziaria indicano attualmente un rischio moderato.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "82,20",
+      "icon": "ri-shield-line",
+      "colorClass": "blue",
+      "category": {
+        "label": "CATEGORIA B",
+        "class": "b"
+      },
+      "benchmark": "Buona solidità finanziaria"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 6.075.888",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -39.33,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "In forte decrescita"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "4,22%",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -93.59,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Critico (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "6,18x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 6.18,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "x"
+      },
+      "benchmark": "Critico (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "269 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 269,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Critico (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 49.969",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0.82,
+        "label": "dei Ricavi",
+        "direction": "neutral",
+        "unit": "%"
+      },
+      "benchmark": "Insufficiente (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "0,92%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0.92,
+        "label": "vs benchmark",
+        "direction": "down",
+        "unit": "pp"
+      },
+      "benchmark": "Insufficiente (benchmark >15%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,38",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 1.38,
+        "label": "vs benchmark",
+        "direction": "neutral"
+      },
+      "benchmark": "Accettabile (benchmark >2.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "0,81x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "CRITICO",
+        "class": "critical"
+      },
+      "benchmark": "Sotto soglia minima (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 84.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": -72,
+        "label": "12 mesi",
+        "direction": "down",
+        "text": "Ridotto"
+      },
+      "benchmark": "Ridotto - Monitoraggio attivo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Equilibrio patrimoniale positivo (score 4/5)",
+      "Incremento dipendenti (+53.85%)",
+      "Presenza sociale benefit",
+      "Settore costruzioni specializzate in crescita",
+      "Patrimonio netto solido (€ 2.551.218)",
+      "Presenza digitale attiva"
+    ],
+    "weaknesses": [
+      "Equilibrio finanziario critico (score 2/5)",
+      "Equilibrio economico critico (score 2/5)",
+      "Sostenibilità del debito negativa (score 1/5)",
+      "Sviluppo-trend negativo (score 1/5)",
+      "Fatturato in forte calo (-39.33%)",
+      "EBITDA crollato (-93.59%)",
+      "DSCR sotto soglia minima (0.81x)",
+      "Tempi di incasso critici (269 giorni)"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            0,
+            10.01,
+            6.08
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            0,
+            4,
+            0.26
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            40,
+            4.22
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            6.18,
+            1.77,
+            0.81
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f9b115",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            269,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            0
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0.81,
+            0.77,
+            0.73,
+            0.69
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "GMR SRL",
+          "data": [
+            4,
+            3,
+            2,
+            2,
+            1,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Costruzioni specializzate)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "in lieve peggioramento",
+        "type": "negative"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "in grave peggioramento",
+        "type": "strong-negative"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [
+    {
+      "name": "MICHELA ANTONIAZZI",
+      "role": "Managing director",
+      "initials": "MA",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "27/05/2022"
+    },
+    {
+      "name": "MAURO CECCHIA",
+      "role": "Responsible for technical management",
+      "initials": "MC",
+      "colorClass": "teal",
+      "appointmentDate": "03/01/2024"
+    },
+    {
+      "name": "FAUSTO ZAMBERLAN",
+      "role": "Auditor",
+      "initials": "FZ",
+      "colorClass": "yellow",
+      "appointmentDate": "01/06/2024"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "id": "dpea",
+        "name": "DPEA SRL SOCIETA' BENEFIT",
+        "icon": "ri-building-4-line",
+        "colorClass": "green",
+        "quota": "100%",
+        "type": "Controllo Totale"
+      },
+      {
+        "id": "gmr-immobiliare",
+        "name": "GMR IMMOBILIARE SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "yellow",
+        "quota": "90%",
+        "type": "Controllo Maggioritario"
+      },
+      {
+        "id": "building",
+        "name": "BUILDING SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "secondary",
+        "quota": "55%",
+        "type": "Controllo Maggioritario"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 6.075.888",
+        "trend": {
+          "direction": "down",
+          "value": "-39,33%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 256.555",
+        "trend": {
+          "direction": "down",
+          "value": "-93,59%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ 23.351",
+        "trend": {
+          "direction": "down",
+          "value": "-97,81%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 2.551.218",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 500.000",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "0,92%",
+        "trend": {
+          "direction": "down",
+          "value": "Redditività insufficiente",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "3,08%",
+        "trend": {
+          "direction": "down",
+          "value": "Da migliorare",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "3,75%",
+        "trend": {
+          "direction": "down",
+          "value": "Marginalità bassa",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "2,93",
+        "trend": {
+          "direction": "neutral",
+          "value": "Elevato - da monitorare",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "34,18%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "0,81x",
+        "trend": {
+          "direction": "down",
+          "value": "Critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,38",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "GMR SRL SOCIETA BENEFIT"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "22/09/1999"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "4322 - Plumbing, heat and air-conditioning installation"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA LUIGI GALVANI, 18<br>34074 MONFALCONE (GO)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@gmrsrl.com<br>GMRSRL2018@PEC.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 500.000"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "20 (+53,85% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "04811988050"
+          },
+          {
+            "label": "Sito Web",
+            "value": "gmrimpresacostruzioni.it"
+          },
+          {
+            "label": "Social",
+            "value": "Instagram, LinkedIn"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio urgente dell'evoluzione del fatturato e delle margini operative",
+      "Valutazione dell'opportunità di ristrutturazione del debito per migliorare il DSCR",
+      "Analisi dell'impatto dell'incremento del personale sui costi fissi",
+      "Attenzione critica all'elevata esposizione debitoria e ai tempi di incasso",
+      "Fido consigliato ridotto: € 84.000 (da € 300.000 precedenti)"
+    ],
+    "outlook": "L'azienda attraversa una fase di significativa difficoltà operativa, con un crollo del fatturato (-39%) e dell'EBITDA (-94%) che ha compromesso gravemente la capacità di servizio del debito (DSCR 0.81). Nonostante il mantenimento del rating B1, la situazione richiede interventi urgenti per il ripristino dell'equilibrio economico-finanziario. Il forte incremento del personale (+54%) in controtendenza rispetto ai ricavi suggerisce una strategia di investimento che necessita di essere validata dai risultati futuri. Si raccomanda un approccio molto prudente nell'erogazione di credito."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ALLERTA",
+      "colorClass": "warning",
+      "indiciOk": 4,
+      "indiciAllerta": 2,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 2.551.218",
+        "detail": "Capitale sociale: € 500.000",
+        "soglia": "> € 500.000",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "0,81x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "0,96%",
+        "detail": "€ 58.286 / € 6.075.888",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore costruzioni",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "56,52%",
+        "detail": "€ 2.551.218 / € 4.514.336",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "0,67%",
+        "detail": "€ 49.969 / € 7.464.860",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "175,35%",
+        "detail": "€ 6.787.091 / € 3.870.893",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Critico",
+        "icon": "ri-alert-line",
+        "colorClass": "negative",
+        "text": "Il DSCR di 0.81x è sotto la soglia minima di 1.0, indicando insufficiente capacità di servizio del debito. Richiede analisi previsionale urgente e possibile ristrutturazione."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Due indici in allerta (DSCR e Liquidità) non costituiscono presunzione di crisi secondo D.Lgs. 14/2019, ma richiedono monitoraggio attivo."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "warning",
+        "text": "Si consiglia di: (1) implementare piano di risanamento per DSCR, (2) ottimizzare gestione liquidità, (3) verificare disaggregazione debiti tributari/previdenziali."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 4322 (Costruzioni specializzate)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 256.555",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 58.286",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 3.870.893",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 643.443",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 3.870.893 × 0.20 = <strong>€ 774.179</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 643.443</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 643.443 / 5 = <strong>€ 128.689</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 774.179 + € 128.689 = <strong style='color: var(--primary);'>€ 902.868</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 256.555 / (€ 58.286 + € 902.868) = € 256.555 / € 961.154",
+        "value": "0,81x",
+        "interpretation": "Un DSCR di 0.81 indica che l'azienda NON genera sufficiente EBITDA per coprire il servizio del debito, con un deficit del 19%. La soglia minima accettabile è 1.0, mentre un valore ottimale è considerato ≥ 1.3. Situazione critica che richiede interventi urgenti."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "N/D",
+              "2024": "€ 339.623",
+              "voce": "Immateriali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 284.690",
+              "voce": "Materiali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 0",
+              "voce": "Finanziarie",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "N/D",
+            "2024": "€ 624.313",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "circolante": [
+            {
+              "2023": "N/D",
+              "2024": "€ 4.480.209",
+              "voce": "Crediti",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 33.935",
+              "voce": "Disponibilità liquide",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "N/D",
+            "2024": "€ 6.787.091",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "totaleAttivo": {
+            "2023": "N/D",
+            "2024": "€ 7.464.860",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "N/D",
+              "2024": "€ 500.000",
+              "voce": "Capitale sociale",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 2.027.867",
+              "voce": "Riserve",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 23.351",
+              "voce": "Utile d'esercizio",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "N/D",
+            "2024": "€ 2.551.218",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "debiti": [
+            {
+              "2023": "N/D",
+              "2024": "€ 3.870.893",
+              "voce": "Debiti a breve termine",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "N/D",
+              "2024": "€ 643.443",
+              "voce": "Debiti a M/L termine",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "N/D",
+            "2024": "€ 4.514.336",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "totalePassivo": {
+            "2023": "N/D",
+            "2024": "€ 7.464.860",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 10.014.572",
+          "2024": "€ 6.075.888",
+          "voce": "Ricavi delle vendite",
+          "trend": "-39,33%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 4.004.667",
+          "2024": "€ 256.555",
+          "voce": "EBITDA",
+          "trend": "-93,59%",
+          "trendColor": "red",
+          "highlight": true
+        },
+        {
+          "2023": "€ 3.986.270",
+          "2024": "€ 229.990",
+          "voce": "Risultato operativo",
+          "trend": "-94,23%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 1.068.000",
+          "2024": "€ 23.351",
+          "voce": "Utile netto",
+          "trend": "-97,81%",
+          "trendColor": "red",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "GMR SRL SOCIETA BENEFIT"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "22/09/1999"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "4322 - Plumbing, heat and air-conditioning installation"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA LUIGI GALVANI, 18<br>34074 MONFALCONE (GO)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@gmrsrl.com<br>GMRSRL2018@PEC.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 500.000"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "20 (+53,85% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "04811988050"
+      },
+      {
+        "label": "Sito Web",
+        "value": "gmrimpresacostruzioni.it"
+      },
+      {
+        "label": "Social",
+        "value": "Instagram, LinkedIn"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 6.075.888",
+      "trend": "-39,33% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 256.555",
+      "trend": "-93,59% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 23.351",
+      "trend": "-97,81% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 2.551.218",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 500.000",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "0,92%",
+      "status": "Redditività insufficiente"
+    },
+    {
+      "label": "ROI",
+      "value": "3,08%",
+      "status": "Da migliorare"
+    },
+    {
+      "label": "ROS",
+      "value": "3,75%",
+      "status": "Marginalità bassa"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "2,93",
+      "status": "Elevato - da monitorare"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "34,18%",
+      "status": "Accettabile"
+    },
+    {
+      "label": "DSCR",
+      "value": "0,81x",
+      "status": "Critico"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,38",
+      "status": "Accettabile"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "companyName": "DPEA SRL SOCIETA' BENEFIT",
+      "quota": "100%",
+      "tipo": "Controllo Totale"
+    },
+    {
+      "companyName": "GMR IMMOBILIARE SRL",
+      "quota": "90%",
+      "tipo": "Controllo Maggioritario"
+    },
+    {
+      "companyName": "BUILDING SRL",
+      "quota": "55%",
+      "tipo": "Controllo Maggioritario"
+    }
+  ]
+}
