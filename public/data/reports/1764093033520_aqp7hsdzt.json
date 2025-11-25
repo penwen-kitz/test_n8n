@@ -1,0 +1,1260 @@
+{
+  "company": {
+    "name": "VAROLI GUIDO E FIGLIO SRL",
+    "fullName": "VAROLI GUIDO E FIGLIO S.R.L.",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "01576790925",
+    "foundedDate": "27/09/1985",
+    "ateco": "46831 - Wholesale of wood",
+    "address": {
+      "street": "SS.131 KM.15,450",
+      "city": "SAN SPERATE",
+      "province": "SU",
+      "zip": "09026"
+    },
+    "contacts": {
+      "email": "info@varolilegnami.it",
+      "pec": "VAROLILEGNAMI@LEGALMAIL.IT",
+      "phone": "0709165031",
+      "website": "www.varolilegnami.it"
+    },
+    "social": [],
+    "capitaleSociale": 247539,
+    "employees": {
+      "current": 9,
+      "previous": 9,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "25 Novembre 2025",
+    "generatedDate": "25/11/2025"
+  },
+  "riskAssessment": {
+    "score": 64.56,
+    "maxScore": 100,
+    "category": "C",
+    "categoryLabel": "Rischio elevato - Categoria C",
+    "rating": "C1",
+    "previousRating": "B1",
+    "description": "L'IRP Varoli (scala 0-100) evidenzia un deterioramento significativo dell'affidabilità. Il rating C1 (peggiorato da B1) e le criticità economico-finanziarie indicano attualmente un rischio elevato.",
+    "colorClass": "red"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "64,56",
+      "icon": "ri-shield-line",
+      "colorClass": "yellow",
+      "category": {
+        "label": "CATEGORIA C",
+        "class": "c"
+      },
+      "benchmark": "Rischio superiore alla media"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 2.849.913",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -14.28,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "In decrescita significativa"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "-1,00%",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -111.75,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Critico (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "-44,33x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral",
+        "unit": "x"
+      },
+      "benchmark": "Critico per EBITDA negativo"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "46 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral",
+        "unit": "gg"
+      },
+      "benchmark": "Buono (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ -99.730",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -3.5,
+        "label": "dei Ricavi",
+        "direction": "down",
+        "unit": "%"
+      },
+      "benchmark": "Critico (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "-31,10%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "down",
+        "unit": "pp"
+      },
+      "benchmark": "Critico (benchmark >15%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,27",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Sotto media (benchmark >2.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "-0,21x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "CRITICO",
+        "class": "critical"
+      },
+      "benchmark": "Sotto soglia minima (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 14.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -82.3,
+        "label": "12 mesi",
+        "direction": "down",
+        "text": "Ridotto"
+      },
+      "benchmark": "Ridotto - Monitoraggio intensivo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Settore commercio legname con buone prospettive",
+      "Giorni incasso clienti contenuti (46 gg vs benchmark 89 gg)",
+      "Presenza consolidata nel mercato sardo",
+      "Struttura familiare con continuità gestionale"
+    ],
+    "weaknesses": [
+      "EBITDA negativo (-28.507 €) per la prima volta",
+      "Forte calo del fatturato (-14,28% vs 2023)",
+      "DSCR negativo (-0,21x) - incapacità di servire il debito",
+      "Tutti i profili di valutazione in territorio critico",
+      "Leverage molto elevato (5,87x)",
+      "Cash flow operativo negativo (-99.730 €)",
+      "Rating degradato da B1 a C1"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            3.5,
+            3.32,
+            2.85
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            0.3,
+            0.24,
+            -0.028507
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            8.5,
+            7.3,
+            -1
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            -44.33,
+            4.48,
+            -0.21
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            46,
+            203,
+            0
+          ],
+          "backgroundColor": [
+            "#24b47e",
+            "#f9b115",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            180,
+            60
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            -0.21,
+            -0.2,
+            -0.19,
+            -0.18
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Varoli",
+          "data": [
+            2,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Commercio all'ingrosso)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in grave peggioramento",
+        "type": "strong-negative"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [
+    {
+      "name": "MAURO FRANCESCO VAROLI",
+      "role": "Chairman of board of directors",
+      "initials": "MV",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "11/11/2021"
+    },
+    {
+      "name": "MARCO VAROLI",
+      "role": "Managing director",
+      "initials": "MV",
+      "colorClass": "teal",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "11/11/2021"
+    },
+    {
+      "name": "PAOLA SPANEDDA",
+      "role": "Director",
+      "initials": "PS",
+      "colorClass": "yellow",
+      "appointmentDate": "11/11/2021"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 2.849.913",
+        "trend": {
+          "direction": "down",
+          "value": "-14,28%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ -28.507",
+        "trend": {
+          "direction": "down",
+          "value": "-111,75%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ -146.696",
+        "trend": {
+          "direction": "down",
+          "value": "-194,65%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 479.666",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 247.539",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "-31,10%",
+        "trend": {
+          "direction": "down",
+          "value": "Redditività critica",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "-2,77%",
+        "trend": {
+          "direction": "down",
+          "value": "Critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "-2,69%",
+        "trend": {
+          "direction": "down",
+          "value": "Marginalità negativa",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "5,87",
+        "trend": {
+          "direction": "up",
+          "value": "Molto elevato",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "0,17",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bassa",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "-0,21x",
+        "trend": {
+          "direction": "down",
+          "value": "Critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,27",
+        "trend": {
+          "direction": "neutral",
+          "value": "Sotto media",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "VAROLI GUIDO E FIGLIO S.R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "27/09/1985"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "46831 - Wholesale of wood"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "SS.131 KM.15,450<br>09026 SAN SPERATE (SU)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@varolilegnami.it<br>VAROLILEGNAMI@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 247.539"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "9 (invariato vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "0709165031"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.varolilegnami.it"
+          },
+          {
+            "label": "Social",
+            "value": "Non presenti"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Urgente piano di ristrutturazione finanziaria per ripristinare equilibri",
+      "Analisi approfondita delle cause del deterioramento dell'EBITDA",
+      "Valutazione di cessione di asset non strategici per ridurre l'indebitamento",
+      "Negoziazione con istituti di credito per riscadenzamento debiti",
+      "Implementazione di controllo di gestione per monitoraggio mensile",
+      "Fido consigliato ridotto a € 14.000 con garanzie aggiuntive"
+    ],
+    "outlook": "L'azienda attraversa una fase critica caratterizzata dal primo EBITDA negativo della sua storia e da un significativo deterioramento di tutti gli indicatori economico-finanziari. Il downgrade del rating da B1 a C1 riflette l'aggravarsi del profilo di rischio. La situazione richiede interventi immediati di ristrutturazione per evitare l'insolvenza. Si raccomanda massima prudenza nell'erogazione di credito e monitoraggio intensivo dell'evoluzione aziendale."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ALLERTA",
+      "colorClass": "red",
+      "indiciOk": 4,
+      "indiciAllerta": 1,
+      "indiciMancanti": 1,
+      "totale": 6
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 479.666",
+        "detail": "Capitale sociale: € 247.539",
+        "soglia": "> € 247.539",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "-0,21x",
+        "detail": "Valore storico negativo",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "2,36%",
+        "detail": "€ 67.136 / € 2.849.913",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore commercio",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "22,32%",
+        "detail": "€ 479.666 / € 2.149.774",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "-3,54%",
+        "detail": "€ -99.730 / € 2.814.032",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "126,52%",
+        "detail": "€ 1.940.230 / € 1.533.413",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Critico",
+        "icon": "ri-alert-line",
+        "colorClass": "red",
+        "text": "Il DSCR negativo (-0,21x) indica l'incapacità dell'azienda di generare flussi sufficienti per il servizio del debito. Situazione di grave allerta che richiede interventi immediati."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Due indici in allerta (DSCR e Ritorno Liquido) su 6 disponibili non costituiscono presunzione formale di crisi, ma segnalano criticità significative da monitorare."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione Urgente",
+        "icon": "ri-shield-cross-line",
+        "colorClass": "red",
+        "text": "Si raccomanda: (1) piano di risanamento immediato, (2) rinegoziazione debiti, (3) analisi cause deterioramento EBITDA, (4) valutazione cessione asset non strategici."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 46831 (Commercio all'ingrosso legname)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ -28.507",
+          "color": "red"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 67.136",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 1.533.413",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 616.361",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 1.533.413 × 0.20 = <strong>€ 306.683</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 616.361</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 616.361 / 5 = <strong>€ 123.272</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 306.683 + € 123.272 = <strong style='color: var(--primary);'>€ 429.955</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ -28.507 / (€ 67.136 + € 429.955) = € -28.507 / € 497.091",
+        "value": "-0,21x",
+        "interpretation": "Un DSCR negativo indica che l'azienda non genera EBITDA sufficiente per coprire nemmeno gli oneri finanziari, figuriamoci il servizio completo del debito. Situazione critica che richiede interventi immediati di ristrutturazione."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 0",
+              "voce": "Immateriali",
+              "trend": "0.0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 900.000",
+              "2024": "€ 854.464",
+              "voce": "Materiali",
+              "trend": "-5.1%",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 25",
+              "2024": "€ 21",
+              "voce": "Finanziarie",
+              "trend": "-16.0%",
+              "trendColor": "red"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ 900.025",
+            "2024": "€ 854.485",
+            "trend": "-5.1%",
+            "trendColor": "red"
+          },
+          "circolante": [
+            {
+              "2023": "€ 380.000",
+              "2024": "€ 361.019",
+              "voce": "Crediti",
+              "trend": "-5.0%",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 1.100.000",
+              "2024": "€ 1.223.768",
+              "voce": "Rimanenze",
+              "trend": "+11.3%",
+              "trendColor": "yellow"
+            },
+            {
+              "2023": "€ 400.000",
+              "2024": "€ 355.443",
+              "voce": "Disponibilità liquide",
+              "trend": "-11.1%",
+              "trendColor": "red"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ 1.880.000",
+            "2024": "€ 1.940.230",
+            "trend": "+3.2%",
+            "trendColor": "green"
+          },
+          "totaleAttivo": {
+            "2023": "€ 2.780.025",
+            "2024": "€ 2.814.032",
+            "trend": "+1.2%",
+            "trendColor": "green"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 247.539",
+              "2024": "€ 247.539",
+              "voce": "Capitale sociale",
+              "trend": "0.0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 378.204",
+              "2024": "€ 378.823",
+              "voce": "Riserve",
+              "trend": "+0.2%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 155.023",
+              "2024": "€ -146.696",
+              "voce": "Utile d'esercizio",
+              "trend": "-194.7%",
+              "trendColor": "red"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ 780.766",
+            "2024": "€ 479.666",
+            "trend": "-38.6%",
+            "trendColor": "red"
+          },
+          "debiti": [
+            {
+              "2023": "€ 1.400.000",
+              "2024": "€ 1.533.413",
+              "voce": "Debiti a breve termine",
+              "trend": "+9.5%",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 599.259",
+              "2024": "€ 616.361",
+              "voce": "Debiti a M/L termine",
+              "trend": "+2.9%",
+              "trendColor": "red"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ 1.999.259",
+            "2024": "€ 2.149.774",
+            "trend": "+7.5%",
+            "trendColor": "red"
+          },
+          "totalePassivo": {
+            "2023": "€ 2.780.025",
+            "2024": "€ 2.814.032",
+            "trend": "+1.2%",
+            "trendColor": "green"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 3.324.618",
+          "2024": "€ 2.849.913",
+          "voce": "Ricavi delle vendite",
+          "trend": "-14.3%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 242.569",
+          "2024": "€ -28.507",
+          "voce": "EBITDA",
+          "trend": "-111.8%",
+          "trendColor": "red",
+          "highlight": true
+        },
+        {
+          "2023": "€ 202.098",
+          "2024": "€ -77.954",
+          "voce": "Risultato operativo",
+          "trend": "-138.6%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 155.023",
+          "2024": "€ -146.696",
+          "voce": "Utile netto",
+          "trend": "-194.7%",
+          "trendColor": "red",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "VAROLI GUIDO E FIGLIO S.R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "27/09/1985"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "46831 - Wholesale of wood"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "SS.131 KM.15,450<br>09026 SAN SPERATE (SU)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@varolilegnami.it<br>VAROLILEGNAMI@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 247.539"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "9 (invariato vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "0709165031"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.varolilegnami.it"
+      },
+      {
+        "label": "Social",
+        "value": "Non presenti"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 2.849.913",
+      "trend": "-14,28% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ -28.507",
+      "trend": "-111,75% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ -146.696",
+      "trend": "-194,65% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 479.666",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 247.539",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "-31,10%",
+      "status": "Redditività critica"
+    },
+    {
+      "label": "ROI",
+      "value": "-2,77%",
+      "status": "Critico"
+    },
+    {
+      "label": "ROS",
+      "value": "-2,69%",
+      "status": "Marginalità negativa"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "5,87",
+      "status": "Molto elevato"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "0,17",
+      "status": "Bassa"
+    },
+    {
+      "label": "DSCR",
+      "value": "-0,21x",
+      "status": "Critico"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,27",
+      "status": "Sotto media"
+    }
+  ],
+  "partecipazioni": []
+}
