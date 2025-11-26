@@ -1,0 +1,801 @@
+{
+  "company": {
+    "name": "T&S SAS DI TOSCANO SIMONA",
+    "fullName": "T&S S.A.S. DI TOSCANO SIMONA",
+    "legalForm": "Simple limited partnership",
+    "piva": "11724380016",
+    "foundedDate": "09/05/2017",
+    "ateco": "563 - Beverage serving activities",
+    "address": {
+      "street": "VIA CARLO ALBERTO, 28",
+      "city": "LEINI",
+      "province": "TO",
+      "zip": "10040"
+    },
+    "contacts": {
+      "email": "",
+      "pec": "T_MSNC@PEC.IT",
+      "phone": "",
+      "website": ""
+    },
+    "social": [],
+    "capitaleSociale": null,
+    "employees": {
+      "current": 2,
+      "previous": 2,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 0,
+    "maxScore": 100,
+    "category": "N/A",
+    "categoryLabel": "Dati insufficienti per valutazione",
+    "rating": null,
+    "previousRating": null,
+    "description": "Impossibile calcolare l'IRP score a causa della mancanza di dati finanziari e rating. L'azienda presenta un risk score GIALLO con limite operativo di credito di € 2.500.",
+    "colorClass": "red"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "N/A",
+      "icon": "ri-shield-line",
+      "colorClass": "red",
+      "category": {
+        "label": "DATI MANCANTI",
+        "class": "red"
+      },
+      "benchmark": "Valutazione impossibile"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati finanziari non disponibili"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati mancanti"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/D",
+      "icon": "ri-water-flash-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati mancanti"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "MANCANTE",
+        "class": "critical"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 2.500",
+      "icon": "ri-bank-card-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Invariato"
+      },
+      "benchmark": "Limite operativo attuale"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Azienda operativa dal 2017 nel settore beverage",
+      "Struttura societaria semplice (S.a.s.)",
+      "Risk score GIALLO stabile negli ultimi 12 mesi",
+      "Assenza di eventi negativi (protesti, procedure, pregiudizievoli)",
+      "Management identificato con ruoli definiti"
+    ],
+    "weaknesses": [
+      "Completa assenza di dati finanziari per valutazione",
+      "Impossibilità di calcolare indicatori di performance",
+      "Rating non disponibile",
+      "Profili di valutazione vuoti",
+      "Limite di credito operativo molto basso (€ 2.500)",
+      "Mancanza di informazioni su fatturato e redditività"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico - Dati Non Disponibili",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito - Analisi Impossibile",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Dati Mancanti",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante - Dati Non Disponibili",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Dati Mancanti",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impossibile Senza Dati",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR Non Calcolabile",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)"
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale - Valutazione Impossibile",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "T&S SAS",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.2)"
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Risk Score",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Limite Credito (K€)",
+          "data": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [],
+  "management": [
+    {
+      "name": "SIMONA TOSCANO",
+      "role": "General partner",
+      "initials": "ST",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "30/09/2020"
+    },
+    {
+      "name": "ROBERTO TODARO",
+      "role": "Limited / sleeping partner/shareholder",
+      "initials": "RT",
+      "colorClass": "teal",
+      "appointmentDate": "30/09/2020"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "dipendenti",
+        "label": "Dipendenti",
+        "value": "2",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato vs 2023",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "limite-credito",
+        "label": "Limite Credito Operativo",
+        "value": "€ 2.500",
+        "trend": {
+          "direction": "neutral",
+          "value": "Stabile 12 mesi",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "risk-score",
+        "label": "Risk Score",
+        "value": "GIALLO",
+        "trend": {
+          "direction": "neutral",
+          "value": "Superiore alla media",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "T&S S.A.S. DI TOSCANO SIMONA"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Simple limited partnership"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "09/05/2017"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "563 - Beverage serving activities"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA CARLO ALBERTO, 28<br>10040 LEINI (TO)"
+          },
+          {
+            "label": "PEC",
+            "value": "T_MSNC@PEC.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Dipendenti",
+            "value": "2"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Risk Score",
+            "value": "GIALLO - superiore alla media"
+          },
+          {
+            "label": "Limite Credito",
+            "value": "€ 2.500"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Richiesta di bilanci e dati finanziari per valutazione completa",
+      "Monitoraggio dell'evoluzione del risk score nei prossimi mesi",
+      "Valutazione della possibilità di incremento del limite di credito solo dopo acquisizione dati finanziari",
+      "Verifica della situazione operativa e del fatturato dell'azienda",
+      "Mantenimento del limite operativo attuale fino a nuove informazioni"
+    ],
+    "outlook": "L'azienda T&S S.a.s. presenta una situazione di valutazione incompleta a causa della totale mancanza di dati finanziari. Il risk score GIALLO stabile negli ultimi 12 mesi e l'assenza di eventi negativi rappresentano elementi positivi, ma non sufficienti per una valutazione creditizia approfondita. Il limite operativo di € 2.500 appare prudente data la carenza informativa. Si raccomanda di richiedere documentazione finanziaria aggiornata prima di considerare variazioni del limite di credito."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON VALUTABILE",
+      "colorClass": "red",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Dato non disponibile",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "Impossibile calcolare",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Dati finanziari mancanti",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore beverage",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Bilancio non disponibile",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/D",
+        "detail": "Cash flow non disponibile",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/D",
+        "detail": "Stato patrimoniale mancante",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dati-mancanti",
+        "title": "Dati Finanziari Mancanti",
+        "icon": "ri-error-warning-line",
+        "colorClass": "negative",
+        "text": "L'analisi degli indici del Codice della Crisi è completamente impossibile a causa della totale assenza di dati finanziari (bilancio, conto economico, cash flow). È necessario acquisire la documentazione contabile per procedere con la valutazione."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione Urgente",
+        "icon": "ri-alert-line",
+        "colorClass": "warning",
+        "text": "Si raccomanda di richiedere immediatamente: (1) Bilancio 2024 e 2023, (2) Conto economico degli ultimi 2 esercizi, (3) Rendiconto finanziario, (4) Situazione contabile infrannuale aggiornata."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "settore",
+        "title": "Settore ATECO 563 - Beverage serving activities",
+        "description": "Soglie settoriali specifiche per attività di somministrazione bevande",
+        "colorClass": "secondary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dati-mancanti",
+      "icon": "ri-error-warning-line",
+      "title": "Limitazioni dell'Analisi",
+      "subtitle": "Dati finanziari non disponibili - Valutazione incompleta",
+      "formula": "Impossibile calcolare indicatori senza dati di bilancio",
+      "values": [
+        {
+          "label": "Fatturato",
+          "value": "N/D",
+          "color": "red"
+        },
+        {
+          "label": "EBITDA",
+          "value": "N/D",
+          "color": "red"
+        },
+        {
+          "label": "Patrimonio Netto",
+          "value": "N/D",
+          "color": "red"
+        },
+        {
+          "label": "Debiti Totali",
+          "value": "N/D",
+          "color": "red"
+        }
+      ],
+      "assumptions": [
+        "L'azienda <strong>T&S S.a.s.</strong> non ha fornito dati finanziari",
+        "Il <strong>risk score GIALLO</strong> è stabile da 12 mesi",
+        "Il <strong>limite operativo di € 2.500</strong> è prudenziale",
+        "Assenza di <strong>eventi negativi</strong> (protesti, procedure)"
+      ],
+      "result": {
+        "calculation": "Valutazione creditizia limitata ai soli dati anagrafici e risk score",
+        "value": "INCOMPLETA",
+        "interpretation": "Senza dati finanziari è impossibile valutare la reale capacità di rimborso dell'azienda. Il risk score GIALLO indica un profilo superiore alla media ma non sostituisce l'analisi economico-finanziaria. Si raccomanda di acquisire bilanci prima di qualsiasi decisione creditizia."
+      }
+    },
+    {
+      "id": "metodologia-valutazione",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Valutazione",
+      "subtitle": "Approccio prudenziale per aziende senza dati finanziari",
+      "formula": "Risk Score + Analisi Qualitativa + Limite Operativo Minimo",
+      "values": [
+        {
+          "label": "Risk Score",
+          "value": "GIALLO",
+          "color": "yellow"
+        },
+        {
+          "label": "Limite Operativo",
+          "value": "€ 2.500",
+          "color": "yellow"
+        },
+        {
+          "label": "Valutazione Qualitativa",
+          "value": "LIMITATA",
+          "color": "red"
+        },
+        {
+          "label": "Raccomandazione",
+          "value": "PRUDENZIALE",
+          "color": "orange"
+        }
+      ],
+      "assumptions": [
+        "Applicazione di <strong>approccio conservativo</strong> in assenza di dati",
+        "Utilizzo del <strong>risk score esterno</strong> come indicatore principale",
+        "Mantenimento di <strong>limite operativo minimo</strong> fino a nuove informazioni",
+        "Monitoraggio <strong>continuo dell'evoluzione</strong> del profilo di rischio"
+      ],
+      "result": {
+        "calculation": "Limite di credito basato esclusivamente su risk score e valutazione qualitativa",
+        "value": "€ 2.500",
+        "interpretation": "Il limite operativo di € 2.500 rappresenta un approccio prudenziale giustificato dalla mancanza di informazioni finanziarie. Questo limite potrà essere rivisto al rialzo solo dopo l'acquisizione e l'analisi di dati economico-finanziari completi e aggiornati."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "T&S S.A.S. DI TOSCANO SIMONA"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Simple limited partnership"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "09/05/2017"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "563 - Beverage serving activities"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA CARLO ALBERTO, 28<br>10040 LEINI (TO)"
+      },
+      {
+        "label": "PEC",
+        "value": "T_MSNC@PEC.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Dipendenti",
+        "value": "2"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Risk Score",
+        "value": "GIALLO - superiore alla media"
+      },
+      {
+        "label": "Limite Credito",
+        "value": "€ 2.500"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "DIPENDENTI",
+      "value": "2",
+      "trend": "Invariato vs 2023"
+    },
+    {
+      "label": "LIMITE CREDITO",
+      "value": "€ 2.500",
+      "status": "Stabile 12 mesi"
+    },
+    {
+      "label": "RISK SCORE",
+      "value": "GIALLO",
+      "status": "Superiore alla media"
+    }
+  ],
+  "partecipazioni": []
+}
