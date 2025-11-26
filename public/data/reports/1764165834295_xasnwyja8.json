@@ -1,0 +1,1247 @@
+{
+  "company": {
+    "name": "SINGH SAHIB SRL SEMPLIFICATA",
+    "fullName": "SINGH SAHIB SOCIETA A RESPONSABILITA LIMITATA SEMPLIFICATA",
+    "legalForm": "Simplified limited liability company",
+    "piva": "02564190227",
+    "foundedDate": "27/09/2019",
+    "ateco": "561111 - Table-service restaurants, other than ice cream parlours and pastry shops",
+    "address": {
+      "street": "VIA POSTAL, 49",
+      "city": "SAN MICHELE ALL'ADIGE",
+      "province": "TN",
+      "zip": "38098"
+    },
+    "contacts": {
+      "email": "",
+      "pec": "SINGHSAHIB@LEGALMAIL.IT",
+      "phone": null,
+      "website": null
+    },
+    "social": [],
+    "capitaleSociale": 30427,
+    "employees": {
+      "current": 7,
+      "previous": 5,
+      "trend": 40
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 72.34,
+    "maxScore": 100,
+    "category": "B",
+    "categoryLabel": "Rischio moderato - Categoria B",
+    "rating": "B3",
+    "previousRating": "B3",
+    "description": "L'IRP Singh Sahib (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating B3 stabile e la buona solidità finanziaria indicano attualmente un rischio moderato.",
+    "colorClass": "yellow"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "72,34",
+      "icon": "ri-shield-line",
+      "colorClass": "blue",
+      "category": {
+        "label": "CATEGORIA B",
+        "class": "b"
+      },
+      "benchmark": "Buona solidità finanziaria"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 289.060",
+      "icon": "ri-funds-box-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 21.98,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "In crescita significativa"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "23,94%",
+      "icon": "ri-percent-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 15.58,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Eccellente (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "1,10x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 1.1,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "x"
+      },
+      "benchmark": "Ottimo (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "133 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 133,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Critico (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 58.890",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 20.37,
+        "label": "dei Ricavi",
+        "direction": "up",
+        "unit": "%"
+      },
+      "benchmark": "Eccellente (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "39,29%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 39.29,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "pp"
+      },
+      "benchmark": "Eccellente (benchmark >15%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "0,92",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 0.92,
+        "label": "vs benchmark",
+        "direction": "neutral"
+      },
+      "benchmark": "Accettabile (benchmark >1.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "1,07x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "green",
+      "badge": {
+        "label": "OTTIMO",
+        "class": "excellent"
+      },
+      "benchmark": "Ampio margine (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 6.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": -33.33,
+        "label": "12 mesi",
+        "direction": "down",
+        "text": "Ridotto"
+      },
+      "benchmark": "Consigliato - Monitoraggio attivo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Equilibrio economico ottimo (score 5/5)",
+      "Crescita fatturato significativa (+21,98%)",
+      "EBITDA margin eccellente (23,94%)",
+      "ROE molto elevato (39,29%)",
+      "DSCR ottimo (1,07x)",
+      "Cash flow operativo eccellente (20,37% dei ricavi)",
+      "Crescita dipendenti (+40%)",
+      "PFN/EBITDA sotto controllo (1,10x)"
+    ],
+    "weaknesses": [
+      "Equilibrio finanziario critico (score 2/5)",
+      "Liquidità corrente sotto soglia (0,92)",
+      "Giorni incasso clienti elevati (133 gg vs 89 benchmark)",
+      "Leverage elevato (3,35x)",
+      "Capitalizzazione bassa (29,88%)",
+      "Debiti a breve termine elevati"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (K€)",
+          "data": [
+            0,
+            237,
+            289
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (K€)",
+          "data": [
+            0,
+            60,
+            69.202
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            25.3,
+            23.9
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            1.1,
+            2.24,
+            1.07
+          ],
+          "backgroundColor": [
+            "#24b47e",
+            "#f9b115",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            133,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            0
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            1.07,
+            1.02,
+            0.96,
+            0.91
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Singh Sahib",
+          "data": [
+            4,
+            2,
+            4,
+            5,
+            4,
+            5
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Servizi di ristorazione)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "in lieve peggioramento",
+        "type": "slight-negative"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 5,
+      "maxScore": 5,
+      "evaluation": "Ottima",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "green"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "in lieve miglioramento",
+        "type": "slight-positive"
+      },
+      "color": "yellow"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "in lieve peggioramento",
+        "type": "slight-negative"
+      },
+      "color": "yellow"
+    }
+  ],
+  "management": [
+    {
+      "name": "KULDIP SINGH",
+      "role": "Chairman of board of directors",
+      "initials": "KS",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "27/09/2019"
+    },
+    {
+      "name": "KULWINDER KAUR",
+      "role": "Director",
+      "initials": "KK",
+      "colorClass": "teal",
+      "appointmentDate": "27/09/2019"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 289.060",
+        "trend": {
+          "direction": "up",
+          "value": "+21,98%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 69.202",
+        "trend": {
+          "direction": "up",
+          "value": "+15,58%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ 48.720",
+        "trend": {
+          "direction": "up",
+          "value": "+8,71%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 125.184",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 30.427",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "39,29%",
+        "trend": {
+          "direction": "up",
+          "value": "Redditività eccellente",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "14,20%",
+        "trend": {
+          "direction": "up",
+          "value": "Sopra media",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "20,39%",
+        "trend": {
+          "direction": "up",
+          "value": "Marginalità ottima",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "3,35",
+        "trend": {
+          "direction": "neutral",
+          "value": "Elevato - monitorare",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "29,88%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bassa - migliorabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "1,07x",
+        "trend": {
+          "direction": "up",
+          "value": "Ottimo",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "0,92",
+        "trend": {
+          "direction": "neutral",
+          "value": "Sotto soglia",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "SINGH SAHIB SOCIETA A RESPONSABILITA LIMITATA SEMPLIFICATA"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Simplified limited liability company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "27/09/2019"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "561111 - Table-service restaurants, other than ice cream parlours and pastry shops"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA POSTAL, 49<br>38098 SAN MICHELE ALL'ADIGE (TN)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "<br>SINGHSAHIB@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 30.427"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "7 (+40% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "N/D"
+          },
+          {
+            "label": "Sito Web",
+            "value": "N/D"
+          },
+          {
+            "label": "Social",
+            "value": "N/D"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio dell'evoluzione della liquidità corrente",
+      "Valutazione dell'opportunità di migliorare i tempi di incasso clienti",
+      "Analisi dell'impatto della crescita del personale sulla struttura operativa",
+      "Attenzione al mantenimento dei margini operativi elevati",
+      "Fido consigliato: € 6.000 (ridotto da € 9.000 negli ultimi 12 mesi)"
+    ],
+    "outlook": "L'azienda mostra segnali molto positivi di crescita del fatturato e ottima redditività operativa, con un EBITDA margin del 23,94% ben superiore ai benchmark di settore. Il rating B3 stabile riflette un profilo di rischio moderato, supportato dall'eccellente equilibrio economico e dalla buona capitalizzazione. Tuttavia, permangono elementi di attenzione nella gestione finanziaria a breve termine, con liquidità corrente sotto soglia e tempi di incasso clienti elevati. Si raccomanda un approccio prudente ma positivo nell'erogazione di credito, con monitoraggio attivo dell'evoluzione della liquidità."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "POSITIVO",
+      "colorClass": "positive",
+      "indiciOk": 5,
+      "indiciAllerta": 1,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 125.184",
+        "detail": "Capitale sociale: € 30.427",
+        "soglia": "> € 30.427",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "1,07x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "PARZIALE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "3,02%",
+        "detail": "€ 8.725 / € 289.060",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore ristorazione",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "44,65%",
+        "detail": "€ 125.184 / € 280.393",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "14,06%",
+        "detail": "€ 58.890 / € 418.938",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "95,77%",
+        "detail": "€ 177.019 / € 184.880",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Previsionale",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "Il DSCR richiesto dal Codice della Crisi deve essere previsionale su base 6 mesi (budget di tesoreria). Il valore storico 1,07x è ottimo ma non sostituisce l'analisi prospettica richiesta dalla normativa."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-7) fuori soglia contemporaneamente. Un solo indice mancante non costituisce crisi secondo D.Lgs. 14/2019."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) implementare budget di tesoreria semestrale per DSCR prospettico, (2) verificare disaggregazione debiti tributari/previdenziali, (3) mantenere monitoraggio degli oneri finanziari."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 561111 (Servizi di ristorazione)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 69.202",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 8.725",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 184.880",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 95.513",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 184.880 × 0.20 = <strong>€ 36.976</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 95.513</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 95.513 / 5 = <strong>€ 19.103</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 36.976 + € 19.103 = <strong style='color: var(--primary);'>€ 56.079</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 69.202 / (€ 8.725 + € 56.079) = € 69.202 / € 64.804",
+        "value": "1,07x",
+        "interpretation": "Un DSCR di 1,07 indica che l'azienda genera un EBITDA sufficiente a coprire il servizio del debito (oneri finanziari + quota capitale) con un margine di sicurezza del 7%. La soglia minima accettabile è generalmente 1.0, mentre un valore ottimale è considerato ≥ 1.3."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 5.600",
+              "voce": "Immateriali",
+              "trend": "+100%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 236.303",
+              "voce": "Materiali",
+              "trend": "+100%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 0",
+              "voce": "Finanziarie",
+              "trend": "0%",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ 0",
+            "2024": "€ 241.903",
+            "trend": "+100%",
+            "trendColor": "green"
+          },
+          "circolante": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 105.761",
+              "voce": "Crediti",
+              "trend": "+100%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 55.421",
+              "voce": "Disponibilità liquide",
+              "trend": "+100%",
+              "trendColor": "green"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ 0",
+            "2024": "€ 177.019",
+            "trend": "+100%",
+            "trendColor": "green"
+          },
+          "totaleAttivo": {
+            "2023": "€ 0",
+            "2024": "€ 418.938",
+            "trend": "+100%",
+            "trendColor": "green"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 30.427",
+              "2024": "€ 30.427",
+              "voce": "Capitale sociale",
+              "trend": "0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 46.037",
+              "voce": "Riserve",
+              "trend": "+100%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 44.816",
+              "2024": "€ 48.720",
+              "voce": "Utile d'esercizio",
+              "trend": "+8,7%",
+              "trendColor": "green"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ 75.243",
+            "2024": "€ 125.184",
+            "trend": "+66,4%",
+            "trendColor": "green"
+          },
+          "debiti": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 184.880",
+              "voce": "Debiti a breve termine",
+              "trend": "+100%",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 95.513",
+              "voce": "Debiti a M/L termine",
+              "trend": "+100%",
+              "trendColor": "red"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ 0",
+            "2024": "€ 280.393",
+            "trend": "+100%",
+            "trendColor": "red"
+          },
+          "totalePassivo": {
+            "2023": "€ 75.243",
+            "2024": "€ 418.938",
+            "trend": "+456,8%",
+            "trendColor": "red"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 237.000",
+          "2024": "€ 289.060",
+          "voce": "Ricavi delle vendite",
+          "trend": "+22,0%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 59.877",
+          "2024": "€ 69.202",
+          "voce": "EBITDA",
+          "trend": "+15,6%",
+          "trendColor": "green",
+          "highlight": true
+        },
+        {
+          "2023": "€ 52.320",
+          "2024": "€ 59.494",
+          "voce": "Risultato operativo",
+          "trend": "+13,7%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 44.816",
+          "2024": "€ 48.720",
+          "voce": "Utile netto",
+          "trend": "+8,7%",
+          "trendColor": "green",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "SINGH SAHIB SOCIETA A RESPONSABILITA LIMITATA SEMPLIFICATA"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Simplified limited liability company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "27/09/2019"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "561111 - Table-service restaurants, other than ice cream parlours and pastry shops"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA POSTAL, 49<br>38098 SAN MICHELE ALL'ADIGE (TN)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "<br>SINGHSAHIB@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 30.427"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "7 (+40% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "N/D"
+      },
+      {
+        "label": "Sito Web",
+        "value": "N/D"
+      },
+      {
+        "label": "Social",
+        "value": "N/D"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 289.060",
+      "trend": "+21,98% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 69.202",
+      "trend": "+15,58% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 48.720",
+      "trend": "+8,71% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 125.184",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 30.427",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "39,29%",
+      "status": "Redditività eccellente"
+    },
+    {
+      "label": "ROI",
+      "value": "14,20%",
+      "status": "Sopra media"
+    },
+    {
+      "label": "ROS",
+      "value": "20,39%",
+      "status": "Marginalità ottima"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "3,35",
+      "status": "Elevato - monitorare"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "29,88%",
+      "status": "Bassa - migliorabile"
+    },
+    {
+      "label": "DSCR",
+      "value": "1,07x",
+      "status": "Ottimo"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "0,92",
+      "status": "Sotto soglia"
+    }
+  ],
+  "partecipazioni": []
+}
