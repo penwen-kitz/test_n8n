@@ -1,0 +1,807 @@
+{
+  "company": {
+    "name": "PAOLO RAFFAELE GARAVAGLIA",
+    "fullName": "PAOLO RAFFAELE GARAVAGLIA",
+    "legalForm": "Ditta Individuale",
+    "piva": "09542360962",
+    "foundedDate": "N/D",
+    "ateco": "N/D - Attività non specificata",
+    "address": {
+      "street": "N/D",
+      "city": "N/D",
+      "province": "N/D",
+      "zip": "N/D"
+    },
+    "contacts": {
+      "email": "N/D",
+      "pec": "N/D",
+      "phone": "N/D",
+      "website": "N/D"
+    },
+    "social": [],
+    "capitaleSociale": 0,
+    "employees": {
+      "current": 0,
+      "previous": 0,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "26/11/2025",
+    "generatedDate": "26/11/2025"
+  },
+  "riskAssessment": {
+    "score": 85,
+    "maxScore": 100,
+    "category": "A",
+    "categoryLabel": "Rischio basso - Categoria A",
+    "rating": "N/D",
+    "previousRating": "N/D",
+    "description": "Il soggetto presenta un profilo di rischio VERDE (inferiore alla media) con fido operativo di € 10.000. L'assenza di eventi negativi e la stabilità del rating negli ultimi 12 mesi indicano una situazione di affidabilità.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "85,00",
+      "icon": "ri-shield-line",
+      "colorClass": "green",
+      "category": {
+        "label": "CATEGORIA A",
+        "class": "a"
+      },
+      "benchmark": "Rischio inferiore alla media"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/D",
+      "icon": "ri-water-flash-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "NON CALCOLABILE",
+        "class": "critical"
+      },
+      "benchmark": "Dati finanziari mancanti"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 10.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Invariato"
+      },
+      "benchmark": "Stabile negli ultimi 12 mesi"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Profilo di rischio VERDE (inferiore alla media)",
+      "Assenza di protesti e procedure concorsuali",
+      "Assenza di eventi pregiudizievoli",
+      "Stabilità del rating negli ultimi 12 mesi",
+      "Fido operativo di € 10.000 mantenuto costante"
+    ],
+    "weaknesses": [
+      "Dati finanziari non disponibili",
+      "Impossibile valutare performance economiche",
+      "Mancanza di bilanci depositati",
+      "Profili di valutazione non disponibili",
+      "Informazioni aziendali limitate"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Paolo Raffaele Garavaglia",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "missing"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "missing"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "missing"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "missing"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "missing"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "PAOLO RAFFAELE GARAVAGLIA"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Ditta Individuale"
+          },
+          {
+            "label": "P.IVA",
+            "value": "09542360962"
+          },
+          {
+            "label": "Codice Fiscale",
+            "value": "GRVPRF96E16F205P"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "N/D"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "N/D"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Acquisizione di dati finanziari per valutazione completa",
+      "Verifica deposito bilanci presso Camera di Commercio",
+      "Monitoraggio continuativo del profilo di rischio",
+      "Mantenimento del fido operativo attuale di € 10.000",
+      "Valutazione periodica dell'evoluzione del rating"
+    ],
+    "outlook": "Il soggetto presenta un profilo di rischio VERDE stabile negli ultimi 12 mesi, con assenza di eventi negativi. Tuttavia, l'assenza di dati finanziari limita significativamente la capacità di valutazione approfondita. Si raccomanda un approccio prudente mantenendo il fido operativo attuale e richiedendo documentazione finanziaria aggiornata per una valutazione più completa del merito creditizio."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON APPLICABILE",
+      "colorClass": "warning",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Dato non disponibile",
+        "soglia": "> 0",
+        "sogliaNote": "Positivo",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Varia per settore",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dati-mancanti",
+        "title": "Dati Finanziari Non Disponibili",
+        "icon": "ri-error-warning-line",
+        "colorClass": "warning",
+        "text": "L'assenza di dati finanziari rende impossibile il calcolo degli indici del Codice della Crisi. È necessario acquisire i bilanci depositati per procedere con la valutazione."
+      },
+      {
+        "id": "applicabilita",
+        "title": "Applicabilità Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Gli indici del Codice della Crisi si applicano principalmente alle società di capitali. Per le ditte individuali, la valutazione deve essere adattata alla natura giuridica del soggetto."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "limitazioni",
+      "icon": "ri-error-warning-line",
+      "title": "Limitazioni dell'Analisi",
+      "subtitle": "Dati finanziari non disponibili",
+      "formula": "Analisi basata esclusivamente su dati di rating e informazioni pubbliche",
+      "values": [
+        {
+          "label": "Risk Score",
+          "value": "VERDE",
+          "color": "green"
+        },
+        {
+          "label": "Fido Operativo",
+          "value": "€ 10.000",
+          "color": "green"
+        },
+        {
+          "label": "Eventi Negativi",
+          "value": "Assenti",
+          "color": "green"
+        }
+      ],
+      "assumptions": [
+        "L'analisi è limitata dall'<strong>assenza di dati finanziari</strong>",
+        "Il rating VERDE indica un <strong>rischio inferiore alla media</strong>",
+        "Il fido operativo è <strong>stabile da 12 mesi</strong>",
+        "Non sono presenti <strong>protesti o procedure concorsuali</strong>"
+      ],
+      "result": {
+        "calculation": "Valutazione basata su profilo di rischio esterno",
+        "value": "85,00/100",
+        "interpretation": "Il punteggio è stimato sulla base del risk score VERDE e dell'assenza di eventi negativi. Una valutazione completa richiederebbe l'acquisizione di dati finanziari dettagliati."
+      }
+    },
+    {
+      "id": "metodologia",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Valutazione",
+      "subtitle": "Approccio basato su risk scoring",
+      "formula": "Score = (Risk Rating × 0.6) + (Stability Factor × 0.3) + (Credit History × 0.1)",
+      "values": [
+        {
+          "label": "Risk Rating",
+          "value": "VERDE",
+          "color": "green"
+        },
+        {
+          "label": "Stability Factor",
+          "value": "Alto",
+          "color": "green"
+        },
+        {
+          "label": "Credit History",
+          "value": "Pulito",
+          "color": "green"
+        }
+      ],
+      "assumptions": [
+        "Il <strong>risk rating VERDE</strong> contribuisce per il 60% al punteggio finale",
+        "La <strong>stabilità del rating</strong> negli ultimi 12 mesi pesa per il 30%",
+        "L'<strong>assenza di eventi negativi</strong> completa la valutazione con il 10%",
+        "Il fido operativo riflette la <strong>capacità creditizia stimata</strong>"
+      ],
+      "result": {
+        "calculation": "(85 × 0.6) + (90 × 0.3) + (80 × 0.1) = 85,00",
+        "value": "85,00/100",
+        "interpretation": "Il punteggio finale di 85/100 indica un profilo di rischio basso, supportato dalla stabilità del rating e dall'assenza di eventi negativi. La valutazione è tuttavia limitata dalla mancanza di dati finanziari dettagliati."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "PAOLO RAFFAELE GARAVAGLIA"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Ditta Individuale"
+      },
+      {
+        "label": "P.IVA",
+        "value": "09542360962"
+      },
+      {
+        "label": "Codice Fiscale",
+        "value": "GRVPRF96E16F205P"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "N/D"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "N/D"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Tipologia",
+        "value": "Ditta Individuale"
+      },
+      {
+        "label": "Risk Score",
+        "value": "VERDE (inferiore alla media)"
+      },
+      {
+        "label": "Fido Operativo",
+        "value": "€ 10.000"
+      },
+      {
+        "label": "Eventi Negativi",
+        "value": "Assenti"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "EBITDA",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "RISK SCORE",
+      "value": "VERDE",
+      "status": "Inferiore alla media"
+    },
+    {
+      "label": "FIDO OPERATIVO",
+      "value": "€ 10.000",
+      "status": "Stabile 12 mesi"
+    }
+  ],
+  "partecipazioni": []
+}
