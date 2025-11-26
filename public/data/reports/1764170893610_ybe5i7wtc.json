@@ -1,0 +1,1053 @@
+{
+  "company": {
+    "name": "AZIENDA NON IDENTIFICATA",
+    "fullName": "AZIENDA NON IDENTIFICATA",
+    "legalForm": "N/D",
+    "piva": "02957610997",
+    "foundedDate": "N/D",
+    "ateco": "N/D - Attività non specificata",
+    "address": {
+      "street": "N/D",
+      "city": "N/D",
+      "province": "N/D",
+      "zip": "N/D"
+    },
+    "contacts": {
+      "email": "N/D",
+      "pec": "N/D",
+      "phone": "N/D",
+      "website": "N/D"
+    },
+    "social": [],
+    "capitaleSociale": 0,
+    "employees": {
+      "current": 0,
+      "previous": 0,
+      "trend": 0
+    },
+    "locations": 0
+  },
+  "reportInfo": {
+    "date": "26/11/2025",
+    "generatedDate": "26/11/2025"
+  },
+  "riskAssessment": {
+    "score": 0,
+    "maxScore": 100,
+    "category": "N/D",
+    "categoryLabel": "Dati insufficienti per valutazione",
+    "rating": "N/D",
+    "previousRating": "N/D",
+    "description": "Impossibile effettuare una valutazione del rischio a causa della mancanza di dati aziendali e finanziari. È necessario acquisire informazioni complete per procedere con l'analisi.",
+    "colorClass": "red"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "0,00",
+      "icon": "ri-shield-line",
+      "colorClass": "red",
+      "category": {
+        "label": "DATI MANCANTI",
+        "class": "error"
+      },
+      "benchmark": "Valutazione non disponibile"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dato non disponibile"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "0,00%",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dato non disponibile"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "0,00x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral",
+        "unit": "x"
+      },
+      "benchmark": "Dato non disponibile"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "0 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral",
+        "unit": "gg"
+      },
+      "benchmark": "Dato non disponibile"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 0",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral",
+        "unit": "%"
+      },
+      "benchmark": "Dato non disponibile"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "0,00%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral",
+        "unit": "pp"
+      },
+      "benchmark": "Dato non disponibile"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "0,00",
+      "icon": "ri-water-flash-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dato non disponibile"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "0,00x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "NON CALCOLABILE",
+        "class": "error"
+      },
+      "benchmark": "Dato non disponibile"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 0",
+      "icon": "ri-bank-card-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Non determinabile"
+      },
+      "benchmark": "Valutazione sospesa"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Nessun dato disponibile per identificare punti di forza"
+    ],
+    "weaknesses": [
+      "Assenza completa di dati aziendali",
+      "Impossibilità di calcolare indicatori finanziari",
+      "Mancanza di informazioni su rating creditizio",
+      "Assenza di dati sui profili di valutazione",
+      "Informazioni anagrafiche incomplete",
+      "Impossibilità di effettuare analisi di rischio"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            -75
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Azienda",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Media)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Nov 2024",
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unknown"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unknown"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unknown"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unknown"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unknown"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": "vs 2023"
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": "vs 2023"
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": "vs 2023"
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "N/D",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "0,00%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "0,00%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "0,00%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "0,00",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "0,00",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "0,00x",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "0,00",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "N/D"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "N/D"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "N/D"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "N/D"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "N/D"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "N/D"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "N/D"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "N/D"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "N/D"
+          },
+          {
+            "label": "Telefono",
+            "value": "N/D"
+          },
+          {
+            "label": "Sito Web",
+            "value": "N/D"
+          },
+          {
+            "label": "Social",
+            "value": "N/D"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Acquisire dati aziendali completi per procedere con l'analisi",
+      "Verificare la correttezza della P.IVA fornita (02957610997)",
+      "Richiedere bilanci degli ultimi 3 esercizi",
+      "Ottenere informazioni sui rating creditizi esistenti",
+      "Raccogliere dati anagrafici e di contatto aggiornati"
+    ],
+    "outlook": "Impossibile fornire una valutazione di rischio e raccomandazioni specifiche a causa della completa assenza di dati aziendali. È necessario acquisire informazioni complete sull'azienda, inclusi i bilanci degli ultimi esercizi, i dati anagrafici e le informazioni sui rating creditizi esistenti prima di procedere con qualsiasi valutazione creditizia o decisione di affidamento."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON VALUTABILE",
+      "colorClass": "red",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Dato non disponibile",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "0,00x",
+        "detail": "Dati insufficienti",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "0,00%",
+        "detail": "Dati non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore generico",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "0,00%",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "0,00%",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "0,00%",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dati-mancanti",
+        "title": "Dati Insufficienti",
+        "icon": "ri-alert-line",
+        "colorClass": "warning",
+        "text": "Tutti gli indici del Codice della Crisi risultano non calcolabili a causa della mancanza di dati finanziari e bilanci. È necessario acquisire i bilanci degli ultimi esercizi per procedere con la valutazione."
+      },
+      {
+        "id": "normativa",
+        "title": "Riferimento Normativo",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Il D.Lgs. 14/2019 (Codice della Crisi) richiede il monitoraggio di specifici indicatori per l'identificazione precoce della crisi d'impresa. La valutazione non può essere completata senza dati finanziari."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO",
+        "colorClass": "secondary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "limitazioni",
+      "icon": "ri-error-warning-line",
+      "title": "Limitazioni dell'Analisi",
+      "subtitle": "Dati insufficienti per elaborazione completa",
+      "formula": "Analisi non completabile",
+      "values": [
+        {
+          "label": "Dati Aziendali",
+          "value": "Non disponibili",
+          "color": "red"
+        },
+        {
+          "label": "Bilanci",
+          "value": "Non disponibili",
+          "color": "red"
+        },
+        {
+          "label": "Rating Creditizio",
+          "value": "Non disponibile",
+          "color": "red"
+        },
+        {
+          "label": "Profili Valutazione",
+          "value": "Non disponibili",
+          "color": "red"
+        }
+      ],
+      "assumptions": [
+        "L'estrazione dati ha restituito un <strong>array vuoto</strong> per i dati aziendali",
+        "I dati del <strong>credit score</strong> risultano null",
+        "Mancano completamente i <strong>dati finanziari</strong> per il 2024",
+        "Non sono disponibili <strong>informazioni anagrafiche</strong> complete"
+      ],
+      "result": {
+        "calculation": "Impossibile procedere con calcoli",
+        "value": "N/D",
+        "interpretation": "Per completare l'analisi è necessario acquisire: (1) Bilanci degli ultimi 3 esercizi, (2) Dati anagrafici completi, (3) Informazioni sui rating creditizi esistenti, (4) Dettagli su management e partecipazioni."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "N/D"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "N/D"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "N/D"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "N/D"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "N/D"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "N/D"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "N/D"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "N/D"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "N/D"
+      },
+      {
+        "label": "Telefono",
+        "value": "N/D"
+      },
+      {
+        "label": "Sito Web",
+        "value": "N/D"
+      },
+      {
+        "label": "Social",
+        "value": "N/D"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "EBITDA",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "ROE",
+      "value": "0,00%",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "ROI",
+      "value": "0,00%",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "ROS",
+      "value": "0,00%",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "0,00",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "0,00",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "DSCR",
+      "value": "0,00x",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "0,00",
+      "status": "Non calcolabile"
+    }
+  ],
+  "partecipazioni": []
+}
