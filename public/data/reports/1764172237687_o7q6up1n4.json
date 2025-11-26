@@ -1,0 +1,960 @@
+{
+  "company": {
+    "name": "ACCADEMIA DEL BUON GUSTO",
+    "fullName": "ACCADEMIA DEL BUON GUSTO - IMPRESA SOCIALE S.R.L.",
+    "legalForm": "Società a Responsabilità Limitata - Impresa Sociale",
+    "piva": "03984050926",
+    "foundedDate": "N/D",
+    "ateco": "N/D - Istruzione",
+    "address": {
+      "street": "N/D",
+      "city": "N/D",
+      "province": "N/D",
+      "zip": "N/D"
+    },
+    "contacts": {
+      "email": "N/D",
+      "pec": "N/D",
+      "phone": "N/D",
+      "website": "N/D"
+    },
+    "social": [],
+    "capitaleSociale": 0,
+    "employees": {
+      "current": 0,
+      "previous": 0,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 72.26,
+    "maxScore": 100,
+    "category": "B",
+    "categoryLabel": "Rischio moderato - Categoria B",
+    "rating": "B3",
+    "previousRating": "B3",
+    "description": "L'IRP Accademia del Buon Gusto (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating B3 stabile e il punteggio di 72,26 indicano un rischio moderato con elementi di attenzione nella sostenibilità del debito.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "72,26",
+      "icon": "ri-shield-line",
+      "colorClass": "blue",
+      "category": {
+        "label": "CATEGORIA B",
+        "class": "b"
+      },
+      "benchmark": "Rischio moderato - nella media"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,03",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 0.85,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Accettabile (miglioramento)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "CRITICO",
+        "class": "critical"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 5.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Invariato"
+      },
+      "benchmark": "Limite operativo - Monitoraggio"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Equilibrio economico positivo (score 4/5)",
+      "Miglioramento generale dei profili nel tempo",
+      "Liquidità corrente in miglioramento (1,03 vs 0,18)",
+      "Copertura delle immobilizzazioni adeguata (1,29)",
+      "Autofinanziamento in crescita positiva",
+      "Rating stabile B3 negli ultimi 12 mesi"
+    ],
+    "weaknesses": [
+      "Sostenibilità del debito critica (score 1/5)",
+      "Equilibrio finanziario con criticità (score 2/5)",
+      "Rapporto Debiti/EBITDA molto elevato (9,41)",
+      "Oneri finanziari elevati rispetto al ROL (3,75%)",
+      "Dati finanziari 2024 non disponibili",
+      "Impossibile calcolare DSCR per mancanza dati"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            -75
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "Sostenibilità debito"
+      ],
+      "datasets": [
+        {
+          "label": "Accademia del Buon Gusto",
+          "data": [
+            3,
+            2,
+            3,
+            3,
+            2,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore Istruzione",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "in lieve miglioramento",
+        "type": "positive"
+      },
+      "color": "yellow"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "in lieve miglioramento",
+        "type": "positive"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "in lieve miglioramento",
+        "type": "positive"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "yellow"
+    }
+  ],
+  "management": [],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità Corrente",
+        "value": "1,03",
+        "trend": {
+          "direction": "up",
+          "value": "Miglioramento vs 2023",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "ACCADEMIA DEL BUON GUSTO - IMPRESA SOCIALE S.R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Società a Responsabilità Limitata - Impresa Sociale"
+          },
+          {
+            "label": "P.IVA / Codice Fiscale",
+            "value": "03984050926"
+          },
+          {
+            "label": "Settore",
+            "value": "Istruzione"
+          },
+          {
+            "label": "Rating",
+            "value": "B3 (stabile)"
+          },
+          {
+            "label": "Risk Score",
+            "value": "VERDE CHIARO - nella media"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "N/D"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "N/D"
+          },
+          {
+            "label": "Fido Operativo",
+            "value": "€ 5.000"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "Dato non disponibile"
+          },
+          {
+            "label": "Contatti",
+            "value": "Dati non disponibili"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Implementare sistema di monitoraggio continuo dei dati finanziari",
+      "Richiedere bilanci aggiornati per valutazione completa del rischio",
+      "Analizzare in dettaglio la sostenibilità del debito (profilo critico)",
+      "Verificare l'evoluzione della liquidità corrente (attualmente 1,03)",
+      "Mantenere fido operativo a € 5.000 fino a disponibilità dati completi"
+    ],
+    "outlook": "L'analisi è limitata dalla mancanza di dati finanziari 2024 completi. Il rating B3 stabile e il risk score 'Verde Chiaro' indicano una situazione nella media del settore, ma la sostenibilità del debito presenta criticità significative che richiedono attenzione. Si raccomanda un approccio prudente nell'erogazione di credito, mantenendo il limite operativo attuale e richiedendo documentazione finanziaria aggiornata per una valutazione più accurata del profilo di rischio."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "DATI INSUFFICIENTI",
+      "colorClass": "warning",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Dato non disponibile",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "Impossibile calcolare",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore istruzione",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dati-mancanti",
+        "title": "Dati Finanziari Insufficienti",
+        "icon": "ri-alert-line",
+        "colorClass": "warning",
+        "text": "L'analisi degli indici del Codice della Crisi è impossibile per mancanza di dati finanziari 2024 completi. È necessario acquisire bilancio aggiornato per valutazione completa."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "primary",
+        "text": "Si raccomanda di richiedere: (1) Bilancio 2024 completo, (2) Situazione patrimoniale aggiornata, (3) Budget di tesoreria per DSCR prospettico, (4) Dettaglio debiti per disaggregazione tributari/previdenziali."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali per settore Istruzione",
+        "colorClass": "secondary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "limitazioni",
+      "icon": "ri-alert-line",
+      "title": "Limitazioni dell'Analisi",
+      "subtitle": "Dati finanziari incompleti - Valutazione parziale",
+      "formula": "Analisi basata su: Rating B3 + Profili di valutazione + Dati storici limitati",
+      "values": [
+        {
+          "label": "Dati Finanziari 2024",
+          "value": "NON DISPONIBILI",
+          "color": "red"
+        },
+        {
+          "label": "Rating Attuale",
+          "value": "B3 (stabile)",
+          "color": "yellow"
+        },
+        {
+          "label": "Risk Score",
+          "value": "VERDE CHIARO",
+          "color": "green"
+        },
+        {
+          "label": "Fido Operativo",
+          "value": "€ 5.000",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "L'<strong>IRP Score 72,26</strong> è calcolato su rating base B3 (72 punti) + media profili (2,60) con aggiustamento +0,26",
+        "I <strong>profili di valutazione</strong> mostrano criticità nella sostenibilità del debito (score 1/5)",
+        "La <strong>liquidità corrente 1,03</strong> indica miglioramento vs 2023 (0,18) ma rimane sotto soglia ottimale",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Raccomandazione:</strong> Acquisire bilancio 2024 completo per valutazione accurata del rischio creditizio</span>"
+      ],
+      "result": {
+        "calculation": "Rating B3 + Profili misti + Dati limitati",
+        "value": "RISCHIO MODERATO",
+        "interpretation": "La valutazione è limitata dalla mancanza di dati finanziari 2024. Il rating B3 stabile e il risk score 'Verde Chiaro' suggeriscono una situazione nella media, ma la sostenibilità del debito presenta criticità che richiedono monitoraggio attento. Si raccomanda mantenere fido operativo a € 5.000 e richiedere documentazione aggiornata."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "ACCADEMIA DEL BUON GUSTO - IMPRESA SOCIALE S.R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Società a Responsabilità Limitata - Impresa Sociale"
+      },
+      {
+        "label": "P.IVA / Codice Fiscale",
+        "value": "03984050926"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "N/D"
+      },
+      {
+        "label": "Settore",
+        "value": "Istruzione"
+      },
+      {
+        "label": "Rating",
+        "value": "B3 (stabile negli ultimi 12 mesi)"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "N/D"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "N/D"
+      },
+      {
+        "label": "Fido Operativo",
+        "value": "€ 5.000 (invariato)"
+      },
+      {
+        "label": "Risk Score",
+        "value": "VERDE CHIARO - nella media"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "Dato non disponibile"
+      },
+      {
+        "label": "Contatti",
+        "value": "Dati non disponibili"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "EBITDA",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "RATING",
+      "value": "B3",
+      "status": "Stabile negli ultimi 12 mesi"
+    },
+    {
+      "label": "RISK SCORE",
+      "value": "VERDE CHIARO",
+      "status": "Nella media del settore"
+    },
+    {
+      "label": "LIQUIDITÀ CORRENTE",
+      "value": "1,03",
+      "status": "Miglioramento vs 2023 (0,18)"
+    },
+    {
+      "label": "EQUILIBRIO ECONOMICO",
+      "value": "4/5",
+      "status": "Positiva"
+    },
+    {
+      "label": "SOSTENIBILITÀ DEBITO",
+      "value": "1/5",
+      "status": "Negativa - Attenzione"
+    },
+    {
+      "label": "FIDO OPERATIVO",
+      "value": "€ 5.000",
+      "status": "Invariato 12 mesi"
+    }
+  ],
+  "partecipazioni": []
+}
