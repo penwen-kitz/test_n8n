@@ -1,0 +1,1043 @@
+{
+  "company": {
+    "name": "GARDEN UP DI LEONARDO MARAN",
+    "fullName": "GARDEN UP DI LEONARDO MARAN",
+    "legalForm": "Individual business",
+    "piva": "05060250239",
+    "foundedDate": "17/06/2024",
+    "ateco": "813 - Landscape service activities",
+    "address": {
+      "street": "VIA ALFONSO LAMARMORA, 17",
+      "city": "LEGNAGO",
+      "province": "VR",
+      "zip": "37045"
+    },
+    "contacts": {
+      "email": "",
+      "pec": "LEONARDO.MARAN@LEGALMAIL.IT",
+      "phone": "",
+      "website": ""
+    },
+    "social": [],
+    "capitaleSociale": 0,
+    "employees": {
+      "current": 1,
+      "previous": 0,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 0,
+    "maxScore": 100,
+    "category": "N/A",
+    "categoryLabel": "Valutazione non disponibile",
+    "rating": "N/A",
+    "previousRating": "N/A",
+    "description": "Impossibile calcolare l'IRP score per mancanza di dati finanziari. L'azienda è stata costituita di recente (17/06/2024) e non ha ancora depositato bilanci. Il risk score attuale è VERDE CHIARO (nella media) con limite operativo di € 5.000.",
+    "colorClass": "neutral"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "N/A",
+      "icon": "ri-shield-line",
+      "colorClass": "neutral",
+      "category": {
+        "label": "NON DISPONIBILE",
+        "class": "na"
+      },
+      "benchmark": "Dati insufficienti per valutazione"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/A",
+      "icon": "ri-funds-box-line",
+      "colorClass": "neutral",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Bilancio non ancora disponibile"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/A",
+      "icon": "ri-percent-line",
+      "colorClass": "neutral",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/A",
+      "icon": "ri-scales-3-line",
+      "colorClass": "neutral",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/A",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "neutral",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/A",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "neutral",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/A",
+      "icon": "ri-line-chart-line",
+      "colorClass": "neutral",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/A",
+      "icon": "ri-water-flash-line",
+      "colorClass": "neutral",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/A",
+      "icon": "ri-shield-check-line",
+      "colorClass": "neutral",
+      "badge": {
+        "label": "NON CALCOLABILE",
+        "class": "critical"
+      },
+      "benchmark": "Dati finanziari assenti"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 5.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 400,
+        "label": "12 mesi",
+        "direction": "up",
+        "text": "Incrementato"
+      },
+      "benchmark": "Limite operativo attuale"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Azienda di recente costituzione (giugno 2024)",
+      "Settore dei servizi paesaggistici in crescita",
+      "Risk score migliorato da GIALLO a VERDE CHIARO",
+      "Limite operativo incrementato da € 1.000 a € 5.000",
+      "Assenza di eventi negativi (protesti, procedure, pregiudizievoli)",
+      "Titolare giovane (25 anni) con potenziale di sviluppo"
+    ],
+    "weaknesses": [
+      "Nessun dato finanziario disponibile per valutazione",
+      "Azienda troppo recente per analisi storica",
+      "Impossibile calcolare indicatori di performance",
+      "Mancanza di bilanci depositati",
+      "Struttura patrimoniale non valutabile",
+      "Capacità di generazione di cassa non determinabile"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            -75
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Garden Up",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Servizi paesaggistici)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Risk Score",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Limite Operativo (K€)",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            5
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [],
+  "management": [
+    {
+      "name": "LEONARDO MARAN",
+      "role": "Owner with signatory powers",
+      "initials": "LM",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "17/06/2024"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Ditta individuale",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "N/A",
+        "trend": {
+          "direction": "neutral",
+          "value": "Non calcolabile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "GARDEN UP DI LEONARDO MARAN"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Individual business"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "17/06/2024"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "813 - Landscape service activities"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA ALFONSO LAMARMORA, 17<br>37045 LEGNAGO (VR)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "N/A<br>LEONARDO.MARAN@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "N/A (Ditta individuale)"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "1"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "N/A"
+          },
+          {
+            "label": "Sito Web",
+            "value": "N/A"
+          },
+          {
+            "label": "Social",
+            "value": "Nessuno"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio dell'evoluzione dell'attività nei primi mesi operativi",
+      "Valutazione della necessità di implementare sistemi di controllo di gestione",
+      "Analisi dell'opportunità di sviluppare una presenza digitale (sito web, social)",
+      "Considerare l'apertura di un conto corrente dedicato per separare i flussi aziendali",
+      "Pianificare la prima dichiarazione fiscale e gli adempimenti contabili obbligatori"
+    ],
+    "outlook": "L'azienda, costituita di recente (giugno 2024), opera nel settore dei servizi paesaggistici con un titolare giovane (25 anni). Il miglioramento del risk score da GIALLO a VERDE CHIARO e l'incremento del limite operativo da € 1.000 a € 5.000 indicano un trend positivo. Tuttavia, l'assenza di dati finanziari storici rende impossibile una valutazione approfondita del profilo di rischio. Si raccomanda un approccio prudente nell'erogazione di credito, mantenendo il limite operativo attuale e monitorando l'evoluzione dell'attività nei prossimi mesi."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON APPLICABILE",
+      "colorClass": "neutral",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/A",
+        "detail": "Ditta individuale",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "Non applicabile",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "neutral"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/A",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/A",
+        "detail": "Dati non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore servizi paesaggistici",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/A",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/A",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/A",
+        "detail": "Dati non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/A",
+        "detail": "Dati non disponibili",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "ditta-individuale",
+        "title": "Ditta Individuale",
+        "icon": "ri-user-line",
+        "colorClass": "primary",
+        "text": "Per le ditte individuali, gli indici del Codice della Crisi hanno applicabilità limitata in quanto non esiste separazione patrimoniale tra impresa e imprenditore. Il patrimonio personale dell'imprenditore risponde delle obbligazioni aziendali."
+      },
+      {
+        "id": "startup",
+        "title": "Azienda di Recente Costituzione",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "L'azienda è stata costituita il 17/06/2024 e non ha ancora depositato bilanci. Gli indici di allerta precoce potranno essere calcolati solo dopo il primo esercizio completo e il deposito del bilancio."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) implementare un sistema di controllo di gestione fin dall'inizio dell'attività, (2) tenere separati i flussi finanziari aziendali da quelli personali, (3) pianificare gli adempimenti fiscali e contabili obbligatori."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "ditta-ind",
+        "title": "Disciplina Ditte Individuali",
+        "description": "Responsabilità illimitata dell'imprenditore - Art. 2740 c.c.",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "startup",
+      "icon": "ri-information-line",
+      "title": "Azienda di Recente Costituzione",
+      "subtitle": "Limitazioni nell'analisi per mancanza di dati storici",
+      "formula": "N/A - Analisi non applicabile",
+      "values": [
+        {
+          "label": "Data Costituzione",
+          "value": "17/06/2024",
+          "color": "text"
+        },
+        {
+          "label": "Età Azienda",
+          "value": "7 mesi",
+          "color": "text"
+        },
+        {
+          "label": "Bilanci Depositati",
+          "value": "0",
+          "color": "red"
+        },
+        {
+          "label": "Dipendenti",
+          "value": "1",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "L'azienda è stata costituita il <strong>17 giugno 2024</strong> e ha quindi un'età di soli <strong>7 mesi</strong>",
+        "Non sono ancora disponibili <strong>bilanci depositati</strong> per effettuare analisi finanziarie",
+        "Il <strong>primo bilancio</strong> sarà relativo all'esercizio 2024 e dovrà essere depositato entro il 30 giugno 2025",
+        "L'analisi si basa esclusivamente sui <strong>dati anagrafici</strong> e sul <strong>risk score</strong> fornito dalle banche dati"
+      ],
+      "result": {
+        "calculation": "Impossibile effettuare calcoli di performance finanziaria",
+        "value": "N/A",
+        "interpretation": "Per le aziende di recente costituzione, la valutazione del rischio si basa principalmente su: (1) settore di attività, (2) esperienza del management, (3) andamento dei primi mesi operativi, (4) assenza di eventi negativi. Il miglioramento del risk score da GIALLO a VERDE CHIARO indica un trend positivo."
+      }
+    },
+    {
+      "id": "ditta-individuale",
+      "icon": "ri-user-line",
+      "title": "Caratteristiche Ditta Individuale",
+      "subtitle": "Aspetti specifici della forma giuridica",
+      "formula": "Responsabilità illimitata dell'imprenditore",
+      "values": [
+        {
+          "label": "Forma Giuridica",
+          "value": "Individual business",
+          "color": "text"
+        },
+        {
+          "label": "Titolare",
+          "value": "Leonardo Maran",
+          "color": "text"
+        },
+        {
+          "label": "Età Titolare",
+          "value": "25 anni",
+          "color": "green"
+        },
+        {
+          "label": "Responsabilità",
+          "value": "Illimitata",
+          "color": "yellow"
+        }
+      ],
+      "assumptions": [
+        "<strong>Responsabilità illimitata:</strong> il patrimonio personale del titolare risponde delle obbligazioni aziendali",
+        "<strong>Nessuna separazione patrimoniale</strong> tra sfera personale e aziendale",
+        "<strong>Gestione semplificata:</strong> minori adempimenti rispetto alle società di capitali",
+        "<strong>Tassazione per trasparenza:</strong> i redditi concorrono alla formazione del reddito personale"
+      ],
+      "result": {
+        "calculation": "Valutazione basata sul profilo complessivo imprenditore-impresa",
+        "value": "Risk Score: VERDE CHIARO",
+        "interpretation": "Per le ditte individuali, la valutazione del rischio considera sia gli aspetti aziendali che quelli personali dell'imprenditore. L'età giovane del titolare (25 anni) rappresenta un elemento di potenziale sviluppo, ma anche di maggiore incertezza rispetto a imprenditori più esperti."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "GARDEN UP DI LEONARDO MARAN"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Individual business"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "17/06/2024"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "813 - Landscape service activities"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA ALFONSO LAMARMORA, 17<br>37045 LEGNAGO (VR)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "N/A<br>LEONARDO.MARAN@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "N/A (Ditta individuale)"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "1"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "N/A"
+      },
+      {
+        "label": "Sito Web",
+        "value": "N/A"
+      },
+      {
+        "label": "Social",
+        "value": "Nessuno"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/A",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "EBITDA",
+      "value": "N/A",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "N/A",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "N/A",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "N/A",
+      "trend": "Ditta individuale"
+    },
+    {
+      "label": "ROE",
+      "value": "N/A",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "ROI",
+      "value": "N/A",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "ROS",
+      "value": "N/A",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "N/A",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "N/A",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "DSCR",
+      "value": "N/A",
+      "status": "Non calcolabile"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "N/A",
+      "status": "Non calcolabile"
+    }
+  ],
+  "partecipazioni": []
+}
