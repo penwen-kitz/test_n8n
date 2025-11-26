@@ -1,0 +1,883 @@
+{
+  "company": {
+    "name": "PAOLO RAFFAELE GARAVAGLIA",
+    "fullName": "PAOLO RAFFAELE GARAVAGLIA",
+    "legalForm": "Individual business",
+    "piva": "09542360962",
+    "foundedDate": "08/06/2016",
+    "ateco": "4391 - Masonry and bricklaying activities",
+    "address": {
+      "street": "VIA CASCINA DOSSI, 8",
+      "city": "VIGNATE",
+      "province": "MI",
+      "zip": "20052"
+    },
+    "contacts": {
+      "email": "",
+      "pec": "PGHORSESHOES@LEGALMAIL.IT",
+      "phone": null,
+      "website": null
+    },
+    "social": [],
+    "capitaleSociale": null,
+    "employees": {
+      "current": 1,
+      "previous": 1,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 85,
+    "maxScore": 100,
+    "category": "A",
+    "categoryLabel": "Rischio basso - Categoria A",
+    "rating": null,
+    "previousRating": null,
+    "description": "L'impresa individuale presenta un profilo di rischio basso con score VERDE costante negli ultimi 12 mesi. L'assenza di eventi negativi e la stabilità operativa indicano una situazione di affidabilità nel settore edile.",
+    "colorClass": "green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "85,00",
+      "icon": "ri-shield-line",
+      "colorClass": "green",
+      "category": {
+        "label": "CATEGORIA A",
+        "class": "a"
+      },
+      "benchmark": "Rischio inferiore alla media"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili per impresa individuale"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati finanziari non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare senza dati finanziari"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati finanziari non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Impossibile calcolare"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/D",
+      "icon": "ri-water-flash-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "secondary",
+      "badge": {
+        "label": "NON CALCOLABILE",
+        "class": "warning"
+      },
+      "benchmark": "Dati finanziari insufficienti"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 10.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Invariato"
+      },
+      "benchmark": "Limite operativo standard"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Score di rischio VERDE costante negli ultimi 12 mesi",
+      "Assenza di protesti e procedure concorsuali",
+      "Assenza di eventi pregiudizievoli",
+      "Stabilità operativa nel settore edile",
+      "Titolare giovane (29 anni) con esperienza consolidata",
+      "Attività nel settore muratura con domanda stabile"
+    ],
+    "weaknesses": [
+      "Assenza completa di dati finanziari",
+      "Impossibilità di valutare performance economiche",
+      "Mancanza di bilanci depositati",
+      "Struttura di impresa individuale con limitazioni patrimoniali",
+      "Dipendenza totale dal titolare",
+      "Settore edile soggetto a ciclicità economiche"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (€)",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)"
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Paolo Garavaglia",
+          "data": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Muratura)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Risk Score",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)"
+        }
+      ],
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati insufficienti",
+        "type": "neutral"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati insufficienti",
+        "type": "neutral"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati insufficienti",
+        "type": "neutral"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati insufficienti",
+        "type": "neutral"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati insufficienti",
+        "type": "neutral"
+      },
+      "color": "secondary"
+    }
+  ],
+  "management": [
+    {
+      "name": "PAOLO RAFFAELE GARAVAGLIA",
+      "role": "Owner with signatory powers",
+      "initials": "PG",
+      "colorClass": "blue",
+      "badge": "Titolare",
+      "appointmentDate": "08/06/2016"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "secondary"
+      },
+      {
+        "id": "dipendenti",
+        "label": "Dipendenti",
+        "value": "1",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato vs 2023",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "settore",
+        "label": "Settore",
+        "value": "Muratura",
+        "trend": {
+          "direction": "neutral",
+          "value": "ATECO 4391",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "costituzione",
+        "label": "Costituzione",
+        "value": "08/06/2016",
+        "trend": {
+          "direction": "neutral",
+          "value": "9 anni di attività",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "PAOLO RAFFAELE GARAVAGLIA"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Individual business"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "08/06/2016"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "4391 - Masonry and bricklaying activities"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA CASCINA DOSSI, 8<br>20052 VIGNATE (MI)"
+          },
+          {
+            "label": "PEC",
+            "value": "PGHORSESHOES@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Dipendenti",
+            "value": "1"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Codice Fiscale",
+            "value": "GRVPRF96E16F205P"
+          },
+          {
+            "label": "Data Nascita Titolare",
+            "value": "16/05/1996"
+          },
+          {
+            "label": "Luogo Nascita",
+            "value": "MILANO (MI)"
+          },
+          {
+            "label": "Età Titolare",
+            "value": "29 anni"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Richiedere documentazione finanziaria per valutazione più approfondita",
+      "Monitorare l'evoluzione del settore edile e muratura",
+      "Verificare periodicamente l'assenza di eventi negativi",
+      "Mantenere il limite operativo attuale data la stabilità del risk score",
+      "Valutare l'opportunità di richiedere garanzie aggiuntive per importi superiori"
+    ],
+    "outlook": "L'impresa individuale presenta un profilo di rischio basso e stabile, con score VERDE costante negli ultimi 12 mesi. L'assenza di dati finanziari limita la valutazione approfondita, ma l'assenza di eventi negativi e la stabilità operativa nel settore edile suggeriscono una situazione di normale operatività. Si raccomanda di mantenere il limite operativo attuale e richiedere documentazione finanziaria per eventuali aumenti di esposizione."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON APPLICABILE",
+      "colorClass": "secondary",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Impresa individuale",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "Non applicabile",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore costruzioni",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "impresa-individuale",
+        "title": "Impresa Individuale",
+        "icon": "ri-user-line",
+        "colorClass": "primary",
+        "text": "Le imprese individuali non sono soggette agli obblighi del Codice della Crisi d'Impresa in quanto non hanno personalità giuridica distinta dal titolare. Gli indici di allerta si applicano principalmente a società di capitali e cooperative."
+      },
+      {
+        "id": "dati-finanziari",
+        "title": "Assenza Dati Finanziari",
+        "icon": "ri-file-warning-line",
+        "colorClass": "warning",
+        "text": "L'assenza di bilanci depositati e dati finanziari strutturati impedisce il calcolo degli indici previsti dal D.Lgs. 14/2019. Per una valutazione completa sarebbe necessario acquisire documentazione contabile."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "limitazioni",
+      "icon": "ri-information-line",
+      "title": "Limitazioni dell'Analisi",
+      "subtitle": "Impresa individuale senza dati finanziari strutturati",
+      "formula": "Risk Assessment basato su: Score VERDE + Assenza eventi negativi + Stabilità operativa",
+      "values": [
+        {
+          "label": "Risk Score",
+          "value": "VERDE",
+          "color": "green"
+        },
+        {
+          "label": "Protesti",
+          "value": "Assenti",
+          "color": "green"
+        },
+        {
+          "label": "Procedure",
+          "value": "Assenti",
+          "color": "green"
+        },
+        {
+          "label": "Eventi Pregiudizievoli",
+          "value": "Assenti",
+          "color": "green"
+        }
+      ],
+      "assumptions": [
+        "L'<strong>impresa individuale</strong> non deposita bilanci presso il Registro Imprese",
+        "Il <strong>risk score VERDE</strong> è costante negli ultimi 12 mesi",
+        "L'<strong>assenza di eventi negativi</strong> indica normale operatività",
+        "Il <strong>limite operativo</strong> è mantenuto a € 10.000 per prudenza"
+      ],
+      "result": {
+        "calculation": "Score finale: 85/100 (Categoria A - Rischio Basso)",
+        "value": "85,00",
+        "interpretation": "Il punteggio si basa sulla stabilità del risk score e sull'assenza di eventi negativi. L'impossibilità di analizzare dati finanziari limita la valutazione ma non compromette la classificazione di rischio basso per importi contenuti."
+      }
+    },
+    {
+      "id": "metodologia",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Valutazione",
+      "subtitle": "Approccio qualitativo per imprese individuali",
+      "formula": "Valutazione = Risk Score + Eventi Negativi + Stabilità Temporale + Settore di Riferimento",
+      "values": [
+        {
+          "label": "Peso Risk Score",
+          "value": "60%",
+          "color": "blue"
+        },
+        {
+          "label": "Peso Eventi Negativi",
+          "value": "25%",
+          "color": "blue"
+        },
+        {
+          "label": "Peso Stabilità",
+          "value": "10%",
+          "color": "blue"
+        },
+        {
+          "label": "Peso Settore",
+          "value": "5%",
+          "color": "blue"
+        }
+      ],
+      "assumptions": [
+        "La <strong>metodologia qualitativa</strong> compensa l'assenza di dati quantitativi",
+        "Il <strong>settore edile</strong> presenta rischi specifici ma domanda stabile",
+        "La <strong>giovane età del titolare</strong> è considerata un fattore positivo",
+        "Il <strong>limite operativo prudenziale</strong> mitiga i rischi residui"
+      ],
+      "result": {
+        "calculation": "Categoria A confermata su base qualitativa",
+        "value": "A",
+        "interpretation": "La classificazione in Categoria A è supportata dalla stabilità del risk score e dall'assenza di elementi negativi, nonostante le limitazioni informative tipiche delle imprese individuali."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "PAOLO RAFFAELE GARAVAGLIA"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Individual business"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "08/06/2016"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "4391 - Masonry and bricklaying activities"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA CASCINA DOSSI, 8<br>20052 VIGNATE (MI)"
+      },
+      {
+        "label": "PEC",
+        "value": "PGHORSESHOES@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Dipendenti",
+        "value": "1"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Codice Fiscale",
+        "value": "GRVPRF96E16F205P"
+      },
+      {
+        "label": "Data Nascita Titolare",
+        "value": "16/05/1996"
+      },
+      {
+        "label": "Luogo Nascita",
+        "value": "MILANO (MI)"
+      },
+      {
+        "label": "Età Titolare",
+        "value": "29 anni"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "DIPENDENTI",
+      "value": "1",
+      "trend": "Invariato vs 2023"
+    },
+    {
+      "label": "SETTORE",
+      "value": "Muratura",
+      "status": "ATECO 4391"
+    },
+    {
+      "label": "COSTITUZIONE",
+      "value": "08/06/2016",
+      "status": "9 anni di attività"
+    },
+    {
+      "label": "RISK SCORE",
+      "value": "VERDE",
+      "status": "Stabile 12 mesi"
+    },
+    {
+      "label": "EVENTI NEGATIVI",
+      "value": "Assenti",
+      "status": "Nessun protesto o procedura"
+    }
+  ],
+  "partecipazioni": []
+}
