@@ -1,0 +1,937 @@
+{
+  "company": {
+    "name": "FALZOLGHER TULLIO",
+    "fullName": "FALZOLGHER TULLIO",
+    "legalForm": "Individual business",
+    "piva": "01182910479",
+    "foundedDate": "06/11/1992",
+    "ateco": "461813 - Activities of agents involved in the wholesale of perfumery and toilet articles",
+    "address": {
+      "street": "VIA CUSTOZA, 148",
+      "city": "MONSUMMANO TERME",
+      "province": "PT",
+      "zip": "51015"
+    },
+    "contacts": {
+      "email": "",
+      "pec": "TULLIO.FALZOLGHER@PEC.IT",
+      "phone": null,
+      "website": null
+    },
+    "social": [],
+    "capitaleSociale": null,
+    "employees": {
+      "current": 1,
+      "previous": 1,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 85,
+    "maxScore": 100,
+    "category": "A",
+    "categoryLabel": "Rischio basso - Categoria A",
+    "rating": null,
+    "previousRating": null,
+    "description": "L'azienda presenta un profilo di rischio molto basso con score VERDE costante negli ultimi 12 mesi. La natura di impresa individuale e l'assenza di dati finanziari complessi contribuiscono alla valutazione positiva del rischio creditizio.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "85,00",
+      "icon": "ri-shield-line",
+      "colorClass": "green",
+      "category": {
+        "label": "CATEGORIA A",
+        "class": "a"
+      },
+      "benchmark": "Rischio inferiore alla media"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/D",
+      "icon": "ri-water-flash-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "secondary",
+      "badge": {
+        "label": "NON CALCOLABILE",
+        "class": "secondary"
+      },
+      "benchmark": "Dati finanziari non disponibili"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 12.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Invariato"
+      },
+      "benchmark": "Limite operativo stabile"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Score di rischio VERDE costante negli ultimi 12 mesi",
+      "Profilo di rischio inferiore alla media del settore",
+      "Assenza di eventi negativi (protesti, procedure, pregiudizievoli)",
+      "Stabilità del limite operativo di credito (€ 12.000)",
+      "Impresa individuale con struttura semplificata",
+      "Attività nel settore della rappresentanza commerciale"
+    ],
+    "weaknesses": [
+      "Assenza di dati finanziari per valutazione approfondita",
+      "Impossibilità di calcolare indicatori di performance economica",
+      "Rating pubblico non disponibile",
+      "Mancanza di bilanci depositati",
+      "Limitata trasparenza informativa",
+      "Dipendenza da un singolo titolare"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (€)",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Falzolgher Tullio",
+          "data": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Rappresentanza commerciale)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Risk Score",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Limite Operativo (K€)",
+          "data": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "unknown"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "unknown"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "unknown"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "unknown"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "unknown"
+      },
+      "color": "secondary"
+    }
+  ],
+  "management": [
+    {
+      "name": "TULLIO FALZOLGHER",
+      "role": "Owner",
+      "initials": "TF",
+      "colorClass": "blue",
+      "badge": "Titolare",
+      "appointmentDate": "06/11/1992"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "dipendenti",
+        "label": "Dipendenti",
+        "value": "1",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "limite-credito",
+        "label": "Limite Operativo",
+        "value": "€ 12.000",
+        "trend": {
+          "direction": "neutral",
+          "value": "Stabile 12 mesi",
+          "label": ""
+        },
+        "colorClass": "positive"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "FALZOLGHER TULLIO"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Individual business"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "06/11/1992"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "461813 - Activities of agents involved in the wholesale of perfumery and toilet articles"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA CUSTOZA, 148<br>51015 MONSUMMANO TERME (PT)"
+          },
+          {
+            "label": "PEC",
+            "value": "TULLIO.FALZOLGHER@PEC.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Tipologia",
+            "value": "Impresa Individuale"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "1"
+          },
+          {
+            "label": "Data Registrazione",
+            "value": "25/09/1996"
+          },
+          {
+            "label": "Codice Fiscale",
+            "value": "FLZTLL64A21G687T"
+          },
+          {
+            "label": "Partita IVA",
+            "value": "01182910479"
+          },
+          {
+            "label": "Regione",
+            "value": "TUSCANY"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Mantenimento del limite operativo attuale di € 12.000",
+      "Monitoraggio periodico dell'attività commerciale",
+      "Verifica della continuità operativa dell'impresa individuale",
+      "Controllo dell'assenza di eventi negativi",
+      "Valutazione della disponibilità di garanzie aggiuntive se necessario"
+    ],
+    "outlook": "L'impresa individuale FALZOLGHER TULLIO presenta un profilo di rischio molto contenuto, con score VERDE costante negli ultimi 12 mesi e assenza di eventi negativi. La mancanza di dati finanziari dettagliati è tipica per questa tipologia di impresa e non costituisce necessariamente un elemento di criticità. Il limite operativo di € 12.000, stabile da 12 mesi, appare adeguato per l'attività di rappresentanza commerciale nel settore profumeria. Si raccomanda un approccio prudente ma positivo, mantenendo il monitoraggio periodico dell'evoluzione del profilo di rischio."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON APPLICABILE",
+      "colorClass": "secondary",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Impresa individuale",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "Non applicabile",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore rappresentanza",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "secondary"
+      }
+    ],
+    "notes": [
+      {
+        "id": "impresa-individuale",
+        "title": "Impresa Individuale",
+        "icon": "ri-user-line",
+        "colorClass": "primary",
+        "text": "Le imprese individuali non sono soggette agli obblighi di deposito del bilancio e quindi gli indici del Codice della Crisi non sono generalmente applicabili. La valutazione del rischio si basa su altri parametri."
+      },
+      {
+        "id": "normativa",
+        "title": "Riferimento Normativo",
+        "icon": "ri-book-line",
+        "colorClass": "secondary",
+        "text": "Il D.Lgs. 14/2019 (Codice della Crisi) si applica principalmente alle società di capitali e alle imprese soggette a bilancio. Per le imprese individuali la valutazione segue criteri diversi."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "metodologia",
+      "icon": "ri-information-line",
+      "title": "Metodologia di Valutazione",
+      "subtitle": "Criteri per imprese individuali senza bilancio",
+      "formula": "Risk Score = Valutazione qualitativa + Eventi negativi + Stabilità operativa",
+      "values": [
+        {
+          "label": "Score di Rischio",
+          "value": "VERDE",
+          "color": "green"
+        },
+        {
+          "label": "Limite Operativo",
+          "value": "€ 12.000",
+          "color": "blue"
+        },
+        {
+          "label": "Stabilità",
+          "value": "12 mesi",
+          "color": "green"
+        },
+        {
+          "label": "Eventi Negativi",
+          "value": "Assenti",
+          "color": "green"
+        }
+      ],
+      "assumptions": [
+        "La valutazione si basa su <strong>dati qualitativi</strong> in assenza di bilancio depositato",
+        "Il <strong>risk score VERDE</strong> indica rischio inferiore alla media settoriale",
+        "L'<strong>assenza di eventi negativi</strong> (protesti, procedure, pregiudizievoli) è un fattore positivo",
+        "La <strong>stabilità del limite operativo</strong> per 12 mesi conferma la valutazione"
+      ],
+      "result": {
+        "calculation": "Valutazione complessiva basata su criteri qualitativi",
+        "value": "Rischio Basso",
+        "interpretation": "L'impresa individuale presenta un profilo di rischio contenuto, supportato dall'assenza di eventi negativi e dalla stabilità operativa. La mancanza di dati finanziari è compensata dalla valutazione qualitativa positiva."
+      }
+    },
+    {
+      "id": "limitazioni",
+      "icon": "ri-alert-line",
+      "title": "Limitazioni della Valutazione",
+      "subtitle": "Fattori da considerare per imprese individuali",
+      "formula": "Valutazione = Dati disponibili + Analisi qualitativa + Monitoraggio continuo",
+      "values": [
+        {
+          "label": "Bilanci Disponibili",
+          "value": "NO",
+          "color": "red"
+        },
+        {
+          "label": "Dati Finanziari",
+          "value": "LIMITATI",
+          "color": "orange"
+        },
+        {
+          "label": "Eventi Negativi",
+          "value": "MONITORATI",
+          "color": "green"
+        },
+        {
+          "label": "Stabilità Operativa",
+          "value": "VERIFICATA",
+          "color": "green"
+        }
+      ],
+      "assumptions": [
+        "L'<strong>assenza di bilanci depositati</strong> è normale per le imprese individuali",
+        "La <strong>valutazione si basa su fonti alternative</strong> di informazione creditizia",
+        "Il <strong>monitoraggio continuo</strong> è essenziale per questa tipologia di imprese",
+        "I <strong>limiti operativi</strong> sono calibrati sulla tipologia di attività"
+      ],
+      "result": {
+        "calculation": "Approccio prudenziale basato su informazioni disponibili",
+        "value": "Valutazione Qualitativa",
+        "interpretation": "La valutazione tiene conto delle limitazioni informative tipiche delle imprese individuali, utilizzando un approccio prudenziale che privilegia il monitoraggio continuo e la verifica dell'assenza di eventi negativi."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "FALZOLGHER TULLIO"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Individual business"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "06/11/1992"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "461813 - Activities of agents involved in the wholesale of perfumery and toilet articles"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA CUSTOZA, 148<br>51015 MONSUMMANO TERME (PT)"
+      },
+      {
+        "label": "PEC",
+        "value": "TULLIO.FALZOLGHER@PEC.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Tipologia",
+        "value": "Impresa Individuale"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "1"
+      },
+      {
+        "label": "Data Registrazione",
+        "value": "25/09/1996"
+      },
+      {
+        "label": "Codice Fiscale",
+        "value": "FLZTLL64A21G687T"
+      },
+      {
+        "label": "Partita IVA",
+        "value": "01182910479"
+      },
+      {
+        "label": "Regione",
+        "value": "TUSCANY"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "EBITDA",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "DIPENDENTI",
+      "value": "1",
+      "status": "Invariato vs 2023"
+    },
+    {
+      "label": "LIMITE OPERATIVO",
+      "value": "€ 12.000",
+      "status": "Stabile 12 mesi"
+    },
+    {
+      "label": "RISK SCORE",
+      "value": "VERDE",
+      "status": "Rischio inferiore alla media"
+    },
+    {
+      "label": "EVENTI NEGATIVI",
+      "value": "Assenti",
+      "status": "Nessun protesto o procedura"
+    }
+  ],
+  "partecipazioni": []
+}
