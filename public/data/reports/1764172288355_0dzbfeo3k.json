@@ -1,0 +1,773 @@
+{
+  "company": {
+    "name": "CORANT DI LAZARICH MATTEO",
+    "fullName": "CORANT DI LAZARICH MATTEO",
+    "legalForm": "Ditta Individuale",
+    "piva": "02975580990",
+    "foundedDate": "04/10/2024",
+    "ateco": "432203 - Installazione di sistemi antincendio",
+    "address": {
+      "street": "VIA NINO RONCO, 35",
+      "city": "GENOVA",
+      "province": "GE",
+      "zip": "16149"
+    },
+    "contacts": {
+      "email": "",
+      "pec": "CORANT102024@LEGALMAIL.IT",
+      "phone": "",
+      "website": ""
+    },
+    "social": [],
+    "capitaleSociale": null,
+    "employees": {
+      "current": 1,
+      "previous": null,
+      "trend": null
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 65,
+    "maxScore": 100,
+    "category": "C",
+    "categoryLabel": "Rischio moderato-alto - Categoria C",
+    "rating": null,
+    "previousRating": null,
+    "description": "Ditta individuale di recente costituzione (ottobre 2024) nel settore installazione sistemi antincendio. Risk score GIALLO indica un profilo superiore alla media ma con limitazioni dovute alla mancanza di dati finanziari storici.",
+    "colorClass": "yellow"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "RISK SCORE",
+      "value": "GIALLO",
+      "icon": "ri-shield-line",
+      "colorClass": "yellow",
+      "category": {
+        "label": "SUPERIORE MEDIA",
+        "class": "c"
+      },
+      "benchmark": "Profilo di rischio accettabile"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Ditta individuale",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Non applicabile",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Non applicabile",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Non applicabile",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Non applicabile",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Non applicabile",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/D",
+      "icon": "ri-water-flash-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Non applicabile",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "secondary",
+      "badge": {
+        "label": "NON APPLICABILE",
+        "class": "secondary"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 3.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 200,
+        "label": "12 mesi",
+        "direction": "up",
+        "text": "Incrementato"
+      },
+      "benchmark": "Limite operativo attuale"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Ditta individuale di recente costituzione (ottobre 2024)",
+      "Settore specializzato (installazione sistemi antincendio)",
+      "Risk score GIALLO (superiore alla media)",
+      "Incremento del limite operativo da € 1.000 a € 3.000",
+      "Assenza di eventi negativi (protesti, procedure, pregiudizievoli)",
+      "Titolare giovane (41 anni) con esperienza nel settore"
+    ],
+    "weaknesses": [
+      "Mancanza di dati finanziari storici",
+      "Attività molto recente (pochi mesi di operatività)",
+      "Impossibilità di valutare performance economico-finanziarie",
+      "Struttura patrimoniale non valutabile",
+      "Assenza di track record creditizio",
+      "Dipendenza totale dal titolare (ditta individuale)"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico - Dati Non Disponibili",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito - Non Applicabile",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Non Disponibile",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#cccccc",
+            "#cccccc",
+            "#cccccc"
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante - Non Applicabile",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Non Disponibile",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#cccccc",
+            "#cccccc",
+            "#cccccc"
+          ]
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Non Applicabile",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "Non Disponibile",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#cccccc",
+          "backgroundColor": "rgba(204, 204, 204, 0.1)"
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale - Valutazione Non Possibile",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Corant",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Risk Score",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Limite Operativo (K€)",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [],
+  "management": [
+    {
+      "name": "MATTEO LAZARICH",
+      "role": "Titolare con poteri di rappresentanza",
+      "initials": "ML",
+      "colorClass": "blue",
+      "badge": "Titolare",
+      "appointmentDate": "04/10/2024"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Ditta individuale",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "dipendenti",
+        "label": "Dipendenti",
+        "value": "1",
+        "trend": {
+          "direction": "neutral",
+          "value": "Titolare",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "costituzione",
+        "label": "Data Costituzione",
+        "value": "04/10/2024",
+        "trend": {
+          "direction": "neutral",
+          "value": "Recente",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "settore",
+        "label": "Settore",
+        "value": "Antincendio",
+        "trend": {
+          "direction": "neutral",
+          "value": "Specializzato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "CORANT DI LAZARICH MATTEO"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Ditta Individuale"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "04/10/2024"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "432203 - Installazione di sistemi antincendio"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA NINO RONCO, 35<br>16149 GENOVA (GE)"
+          },
+          {
+            "label": "PEC",
+            "value": "CORANT102024@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Titolare",
+            "value": "MATTEO LAZARICH"
+          },
+          {
+            "label": "Età Titolare",
+            "value": "41 anni"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "1 (solo titolare)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Risk Score",
+            "value": "GIALLO (superiore alla media)"
+          },
+          {
+            "label": "Limite Operativo",
+            "value": "€ 3.000"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio dell'avvio dell'attività nei primi mesi operativi",
+      "Valutazione delle performance una volta disponibili i primi dati finanziari",
+      "Attenzione alla dipendenza totale dal titolare (ditta individuale)",
+      "Verifica dell'effettiva operatività e sviluppo del business",
+      "Fido consigliato: € 3.000 (incrementato da € 1.000 negli ultimi mesi)"
+    ],
+    "outlook": "Ditta individuale di recente costituzione nel settore specializzato dell'installazione di sistemi antincendio. Il risk score GIALLO indica un profilo superiore alla media, supportato dall'incremento del limite operativo da € 1.000 a € 3.000. L'assenza di dati finanziari storici è fisiologica data la recente costituzione. Si raccomanda un approccio prudente ma supportivo, monitorando l'evoluzione dell'attività nei prossimi mesi per valutare le effettive performance operative."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON APPLICABILE",
+      "colorClass": "secondary",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Non applicabile per ditta individuale",
+        "value": "N/A",
+        "detail": "Ditta individuale",
+        "soglia": "Non applicabile",
+        "sogliaNote": "",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Dati finanziari non disponibili",
+        "value": "N/A",
+        "detail": "Attività recente",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Dati finanziari non disponibili",
+        "value": "N/A",
+        "detail": "Attività recente",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Dati finanziari non disponibili",
+        "value": "N/A",
+        "detail": "Attività recente",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Dati finanziari non disponibili",
+        "value": "N/A",
+        "detail": "Attività recente",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Dati finanziari non disponibili",
+        "value": "N/A",
+        "detail": "Attività recente",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Dati finanziari non disponibili",
+        "value": "N/A",
+        "detail": "Attività recente",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "ditta-individuale",
+        "title": "Ditta Individuale",
+        "icon": "ri-user-line",
+        "colorClass": "primary",
+        "text": "Per le ditte individuali, gli indici del Codice della Crisi hanno applicabilità limitata in quanto non sono soggette all'obbligo di redazione del bilancio secondo gli schemi civilistici."
+      },
+      {
+        "id": "attivita-recente",
+        "title": "Attività di Recente Costituzione",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "L'attività è stata costituita nell'ottobre 2024, pertanto non sono ancora disponibili dati finanziari storici per il calcolo degli indici di allerta."
+      },
+      {
+        "id": "monitoraggio",
+        "title": "Raccomandazione di Monitoraggio",
+        "icon": "ri-eye-line",
+        "colorClass": "secondary",
+        "text": "Si raccomanda di monitorare l'evoluzione dell'attività nei prossimi mesi per valutare le performance operative e la sostenibilità del business."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "ditta-individuale",
+      "icon": "ri-user-line",
+      "title": "Caratteristiche Ditta Individuale",
+      "subtitle": "Specificità della forma giuridica e limitazioni informative",
+      "formula": "Non applicabile - Ditta Individuale",
+      "values": [
+        {
+          "label": "Forma Giuridica",
+          "value": "Ditta Individuale",
+          "color": "text"
+        },
+        {
+          "label": "Data Costituzione",
+          "value": "04/10/2024",
+          "color": "text"
+        },
+        {
+          "label": "Titolare",
+          "value": "MATTEO LAZARICH",
+          "color": "text"
+        },
+        {
+          "label": "Settore",
+          "value": "Installazione sistemi antincendio",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "Le <strong>ditte individuali</strong> non sono soggette all'obbligo di redazione del bilancio secondo gli schemi civilistici",
+        "I <strong>dati finanziari</strong> (fatturato, EBITDA, patrimonio) non sono disponibili pubblicamente",
+        "La <strong>valutazione del rischio</strong> si basa su elementi anagrafici, settoriali e comportamentali",
+        "Il <strong>risk score GIALLO</strong> indica un profilo superiore alla media per la categoria"
+      ],
+      "result": {
+        "calculation": "Valutazione basata su: anagrafica + settore + comportamento creditizio",
+        "value": "Risk Score: GIALLO",
+        "interpretation": "Il risk score GIALLO per una ditta individuale di recente costituzione indica un profilo di rischio accettabile, superiore alla media della categoria. L'incremento del limite operativo da € 1.000 a € 3.000 conferma una valutazione positiva dell'evoluzione del profilo."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "CORANT DI LAZARICH MATTEO"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Ditta Individuale"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "04/10/2024"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "432203 - Installazione di sistemi antincendio"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA NINO RONCO, 35<br>16149 GENOVA (GE)"
+      },
+      {
+        "label": "PEC",
+        "value": "CORANT102024@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Titolare",
+        "value": "MATTEO LAZARICH"
+      },
+      {
+        "label": "Età Titolare",
+        "value": "41 anni"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "1 (solo titolare)"
+      },
+      {
+        "label": "Risk Score",
+        "value": "GIALLO (superiore alla media)"
+      },
+      {
+        "label": "Limite Operativo",
+        "value": "€ 3.000"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Ditta individuale"
+    },
+    {
+      "label": "DIPENDENTI",
+      "value": "1",
+      "trend": "Solo titolare"
+    },
+    {
+      "label": "DATA COSTITUZIONE",
+      "value": "04/10/2024",
+      "trend": "Attività recente"
+    },
+    {
+      "label": "RISK SCORE",
+      "value": "GIALLO",
+      "status": "Superiore alla media"
+    },
+    {
+      "label": "LIMITE OPERATIVO",
+      "value": "€ 3.000",
+      "status": "Incrementato (+200%)"
+    }
+  ],
+  "partecipazioni": []
+}
