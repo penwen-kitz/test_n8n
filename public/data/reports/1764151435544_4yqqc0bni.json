@@ -1,0 +1,1260 @@
+{
+  "company": {
+    "name": "SA MARIGOSA SOC CONS ARL",
+    "fullName": "SA MARIGOSA SOCIETA CONSORTILE A R.L.",
+    "legalForm": "Consortium limited by shares",
+    "piva": "01119730958",
+    "foundedDate": "31/07/2008",
+    "ateco": "01631 - Post-harvest crop activities",
+    "address": {
+      "street": "VIA GIOVANNI BATTISTA TUVERI 54/B",
+      "city": "RIOLA SARDO",
+      "province": "OR",
+      "zip": "09070"
+    },
+    "contacts": {
+      "email": "info@samarigosa.it",
+      "pec": "OPSAMARIGOSA@PEC.IT",
+      "phone": "0783290945",
+      "website": "www.samarigosa.com"
+    },
+    "social": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "capitaleSociale": 100000,
+    "employees": {
+      "current": 26,
+      "previous": 27,
+      "trend": -3.7
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 64.72,
+    "maxScore": 100,
+    "category": "C",
+    "categoryLabel": "Rischio elevato - Categoria C",
+    "rating": "C1",
+    "previousRating": "C1",
+    "description": "L'IRP Sa Marigosa (scala 0-100) evidenzia criticità nella sostenibilità del debito e nell'equilibrio patrimoniale. Il rating C1 invariato e l'elevata esposizione debitoria indicano un rischio elevato che richiede monitoraggio attento.",
+    "colorClass": "red"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "64,72",
+      "icon": "ri-shield-line",
+      "colorClass": "yellow",
+      "category": {
+        "label": "CATEGORIA C",
+        "class": "c"
+      },
+      "benchmark": "Rischio elevato - monitoraggio"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 4.770.782",
+      "icon": "ri-funds-box-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": 3.9,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Crescita moderata"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "2,85%",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 15.61,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Critico (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "14,33x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 14.33,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "x"
+      },
+      "benchmark": "Critico (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "166 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 77,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Critico (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 9.538",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0.2,
+        "label": "dei Ricavi",
+        "direction": "neutral",
+        "unit": "%"
+      },
+      "benchmark": "Insufficiente (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "1,28%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 1.28,
+        "label": "vs benchmark",
+        "direction": "neutral",
+        "unit": "pp"
+      },
+      "benchmark": "Insufficiente (benchmark >15%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,11",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 0.11,
+        "label": "vs benchmark",
+        "direction": "neutral"
+      },
+      "benchmark": "Accettabile (benchmark >2.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "0,59x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "CRITICO",
+        "class": "critical"
+      },
+      "benchmark": "Sotto soglia minima (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 11.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": -35.3,
+        "label": "12 mesi",
+        "direction": "down",
+        "text": "Ridotto"
+      },
+      "benchmark": "Limitato - monitoraggio intensivo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Crescita del fatturato (+3.90% vs 2023)",
+      "Miglioramento EBITDA (+15.61% vs 2023)",
+      "Settore agricolo con prospettive stabili",
+      "Presenza consolidata nel territorio sardo",
+      "Diversificazione nelle attività post-raccolta"
+    ],
+    "weaknesses": [
+      "DSCR critico (0.59x, sotto soglia minima)",
+      "Elevata esposizione debitoria (PFN/EBITDA 14.33x)",
+      "Marginalità EBITDA molto bassa (2.85%)",
+      "Tempi di incasso clienti elevati (166 giorni)",
+      "Equilibrio patrimoniale e finanziario critici",
+      "Sostenibilità del debito problematica"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            4.2,
+            4.59,
+            4.77
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            0.1,
+            0.12,
+            0.14
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            2.4,
+            2.6,
+            2.85
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            14.33,
+            23.39,
+            0.59
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            166,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            0
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0.59,
+            0.56,
+            0.53,
+            0.5
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Sa Marigosa",
+          "data": [
+            2,
+            3,
+            4,
+            3,
+            3,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Agricoltura e allevamento)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "in lieve miglioramento",
+        "type": "positive"
+      },
+      "color": "light-green"
+    }
+  ],
+  "management": [
+    {
+      "name": "PAOLO MELE",
+      "role": "Chairman of board of directors",
+      "initials": "PM",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "30/10/2024"
+    },
+    {
+      "name": "SALVATORE PALA",
+      "role": "Vice chairman board of directors",
+      "initials": "SP",
+      "colorClass": "teal",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "30/10/2024"
+    },
+    {
+      "name": "ANTONELLO CESTER",
+      "role": "Director",
+      "initials": "AC",
+      "colorClass": "yellow",
+      "appointmentDate": "30/10/2024"
+    },
+    {
+      "name": "ALBERTO FRAU",
+      "role": "Auditor",
+      "initials": "AF",
+      "colorClass": "secondary",
+      "appointmentDate": "30/10/2024"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "id": "unione-nazionale",
+        "name": "UNIONE NAZIONALE ORGANIZZAZIONI PRODUTTORI ORTOFRUTTICOLI AGRUMARI E FRUTTA IN GUSCIO SCRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "1,37%",
+        "type": "Partecipazione Settoriale"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 4.770.782",
+        "trend": {
+          "direction": "up",
+          "value": "+3,90%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 135.951",
+        "trend": {
+          "direction": "up",
+          "value": "+15,61%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ 2.244",
+        "trend": {
+          "direction": "up",
+          "value": "+59,49%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 181.554",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 100.000",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "1,28%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Insufficiente",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "2,46%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Sotto media",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "2,62%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Marginalità bassa",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "28,82",
+        "trend": {
+          "direction": "neutral",
+          "value": "Molto elevato",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "0,03",
+        "trend": {
+          "direction": "neutral",
+          "value": "Molto bassa",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "0,59x",
+        "trend": {
+          "direction": "down",
+          "value": "Critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,11",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "SA MARIGOSA SOCIETA CONSORTILE A R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Consortium limited by shares"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "31/07/2008"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "01631 - Post-harvest crop activities"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA GIOVANNI BATTISTA TUVERI 54/B<br>09070 RIOLA SARDO (OR)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@samarigosa.it<br>OPSAMARIGOSA@PEC.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 100.000"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "26 (-3,7% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "0783290945"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.samarigosa.com"
+          },
+          {
+            "label": "Social",
+            "value": "Facebook, Twitter, Instagram"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Urgente ristrutturazione del debito per migliorare il DSCR",
+      "Implementazione di strategie per ridurre i tempi di incasso clienti",
+      "Valutazione di opportunità per migliorare la marginalità operativa",
+      "Monitoraggio intensivo della situazione finanziaria",
+      "Considerare rafforzamento patrimoniale tramite apporti dei soci",
+      "Fido consigliato ridotto a € 11.000 con monitoraggio mensile"
+    ],
+    "outlook": "L'azienda presenta significative criticità nella sostenibilità del debito e nell'equilibrio finanziario. Nonostante la crescita del fatturato, la bassa marginalità e l'elevata esposizione debitoria richiedono interventi urgenti. Il DSCR sotto soglia minima (0.59x) e il rapporto PFN/EBITDA critico (14.33x) indicano difficoltà nel servizio del debito. Si raccomanda un approccio molto prudente nell'erogazione di credito e un monitoraggio intensivo dell'evoluzione della situazione finanziaria."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ALLERTA",
+      "colorClass": "warning",
+      "indiciOk": 4,
+      "indiciAllerta": 1,
+      "indiciMancanti": 1,
+      "totale": 6
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 181.554",
+        "detail": "Capitale sociale: € 100.000",
+        "soglia": "> € 100.000",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "0,59x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "2,57%",
+        "detail": "€ 122.799 / € 4.770.782",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore agricoltura",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "4,28%",
+        "detail": "€ 181.554 / € 4.245.769",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "0,18%",
+        "detail": "€ 9.538 / € 5.233.026",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "149,00%",
+        "detail": "€ 3.239.755 / € 2.174.568",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Previsionale",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "Il DSCR richiesto dal Codice della Crisi deve essere previsionale su base 6 mesi. Il valore storico 0.59x è critico e richiede immediata attenzione."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Due indici in allerta (DSCR e Ritorno Liquido) su 6 non costituiscono presunzione di crisi, ma richiedono monitoraggio attento."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "warning",
+        "text": "Implementare urgentemente budget di tesoreria semestrale e valutare ristrutturazione del debito per migliorare il DSCR."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 01631 (Agricoltura)",
+        "colorClass": "secondary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 135.951",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 122.799",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 2.174.568",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 2.071.201",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 2.174.568 × 0.20 = <strong>€ 434.914</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 2.071.201</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 2.071.201 / 5 = <strong>€ 414.240</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 434.914 + € 414.240 = <strong style='color: var(--primary);'>€ 849.154</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 135.951 / (€ 122.799 + € 849.154) = € 135.951 / € 971.953",
+        "value": "0,59x",
+        "interpretation": "Un DSCR di 0.59 indica che l'azienda non genera sufficiente EBITDA per coprire il servizio del debito. È necessario un DSCR ≥ 1.0 per considerare sostenibile il debito, mentre un valore ottimale è ≥ 1.3."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 0",
+              "voce": "Immateriali",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 1.800.000",
+              "2024": "€ 1.968.074",
+              "voce": "Materiali",
+              "trend": "+9,3%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 12.000",
+              "2024": "€ 13.976",
+              "voce": "Finanziarie",
+              "trend": "+16,5%",
+              "trendColor": "green"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ 1.812.000",
+            "2024": "€ 1.982.050",
+            "trend": "+9,4%",
+            "trendColor": "green"
+          },
+          "circolante": [
+            {
+              "2023": "€ 2.100.000",
+              "2024": "€ 2.171.694",
+              "voce": "Crediti",
+              "trend": "+3,4%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 85.000",
+              "2024": "€ 97.611",
+              "voce": "Disponibilità liquide",
+              "trend": "+14,8%",
+              "trendColor": "green"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ 2.185.000",
+            "2024": "€ 3.239.755",
+            "trend": "+48,3%",
+            "trendColor": "green"
+          },
+          "totaleAttivo": {
+            "2023": "€ 3.997.000",
+            "2024": "€ 5.233.026",
+            "trend": "+30,9%",
+            "trendColor": "green"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 100.000",
+              "2024": "€ 100.000",
+              "voce": "Capitale sociale",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 78.903",
+              "2024": "€ 79.310",
+              "voce": "Riserve",
+              "trend": "+0,5%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 1.407",
+              "2024": "€ 2.244",
+              "voce": "Utile d'esercizio",
+              "trend": "+59,5%",
+              "trendColor": "green"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ 180.310",
+            "2024": "€ 181.554",
+            "trend": "+0,7%",
+            "trendColor": "green"
+          },
+          "debiti": [
+            {
+              "2023": "€ 2.100.000",
+              "2024": "€ 2.174.568",
+              "voce": "Debiti a breve termine",
+              "trend": "+3,6%",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 1.716.690",
+              "2024": "€ 2.071.201",
+              "voce": "Debiti a M/L termine",
+              "trend": "+20,6%",
+              "trendColor": "red"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ 3.816.690",
+            "2024": "€ 4.245.769",
+            "trend": "+11,2%",
+            "trendColor": "red"
+          },
+          "totalePassivo": {
+            "2023": "€ 3.997.000",
+            "2024": "€ 5.233.026",
+            "trend": "+30,9%",
+            "trendColor": "red"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 4.591.582",
+          "2024": "€ 4.770.782",
+          "voce": "Ricavi delle vendite",
+          "trend": "+3,9%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 117.595",
+          "2024": "€ 135.951",
+          "voce": "EBITDA",
+          "trend": "+15,6%",
+          "trendColor": "green",
+          "highlight": true
+        },
+        {
+          "2023": "€ 117.595",
+          "2024": "€ 128.745",
+          "voce": "Risultato operativo",
+          "trend": "+9,5%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 1.407",
+          "2024": "€ 2.244",
+          "voce": "Utile netto",
+          "trend": "+59,5%",
+          "trendColor": "green",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "SA MARIGOSA SOCIETA CONSORTILE A R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Consortium limited by shares"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "31/07/2008"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "01631 - Post-harvest crop activities"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA GIOVANNI BATTISTA TUVERI 54/B<br>09070 RIOLA SARDO (OR)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@samarigosa.it<br>OPSAMARIGOSA@PEC.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 100.000"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "26 (-3,7% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "0783290945"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.samarigosa.com"
+      },
+      {
+        "label": "Social",
+        "value": "Facebook, Twitter, Instagram"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 4.770.782",
+      "trend": "+3,90% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 135.951",
+      "trend": "+15,61% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 2.244",
+      "trend": "+59,49% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 181.554",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 100.000",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "1,28%",
+      "status": "Insufficiente"
+    },
+    {
+      "label": "ROI",
+      "value": "2,46%",
+      "status": "Sotto media"
+    },
+    {
+      "label": "ROS",
+      "value": "2,62%",
+      "status": "Marginalità bassa"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "28,82",
+      "status": "Molto elevato"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "0,03",
+      "status": "Molto bassa"
+    },
+    {
+      "label": "DSCR",
+      "value": "0,59x",
+      "status": "Critico"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,11",
+      "status": "Accettabile"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "companyName": "UNIONE NAZIONALE ORGANIZZAZIONI PRODUTTORI ORTOFRUTTICOLI AGRUMARI E FRUTTA IN GUSCIO SCRL",
+      "quota": "1,37%",
+      "tipo": "Partecipazione Settoriale"
+    }
+  ]
+}
