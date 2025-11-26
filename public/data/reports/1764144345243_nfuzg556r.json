@@ -1,0 +1,1290 @@
+{
+  "company": {
+    "name": "FATICONI SPA",
+    "fullName": "FATICONI - SOCIETA PER AZIONI",
+    "legalForm": "Limited company",
+    "piva": "01117510923",
+    "foundedDate": "18/11/1981",
+    "ateco": "47552 - Retail sale of other furniture",
+    "address": {
+      "street": "VIA CALAMATTIA, 10",
+      "city": "CAGLIARI",
+      "province": "CA",
+      "zip": "09134"
+    },
+    "contacts": {
+      "email": "info@faticoni.it",
+      "pec": "FATICONI@LEGALMAIL.IT",
+      "phone": "0705292228",
+      "website": "www.faticoni.it"
+    },
+    "social": [
+      "Facebook"
+    ],
+    "capitaleSociale": 247680,
+    "employees": {
+      "current": 43,
+      "previous": 38,
+      "trend": 13.16
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 87.21,
+    "maxScore": 100,
+    "category": "A",
+    "categoryLabel": "Rischio basso - Categoria A",
+    "rating": "A3",
+    "previousRating": "B1",
+    "description": "L'IRP Faticoni (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating A3 (migliorato da B1) e l'eccellente solidità finanziaria indicano attualmente un rischio basso.",
+    "colorClass": "green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "87,21",
+      "icon": "ri-shield-line",
+      "colorClass": "green",
+      "category": {
+        "label": "CATEGORIA A",
+        "class": "a"
+      },
+      "benchmark": "Eccellente solidità finanziaria"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 12.104.543",
+      "icon": "ri-funds-box-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 25.93,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Crescita significativa"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "11,44%",
+      "icon": "ri-percent-line",
+      "colorClass": "green",
+      "trend": {
+        "value": -0.78,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Ottimo (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "-0,51x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "green",
+      "trend": {
+        "value": -0.51,
+        "label": "vs 2023",
+        "direction": "down",
+        "unit": "x"
+      },
+      "benchmark": "Eccellente (posizione netta positiva)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "106 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 17,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Da migliorare (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 1.052.621",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 8.7,
+        "label": "dei Ricavi",
+        "direction": "up",
+        "unit": "%"
+      },
+      "benchmark": "Eccellente (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "18,75%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 18.75,
+        "label": "vs 2023",
+        "direction": "up",
+        "unit": "pp"
+      },
+      "benchmark": "Eccellente (benchmark >15%)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,76",
+      "icon": "ri-water-flash-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 1.76,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Buono (benchmark >1.5)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "1,85x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "green",
+      "badge": {
+        "label": "OTTIMO",
+        "class": "excellent"
+      },
+      "benchmark": "Ampio margine (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 405.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 37.29,
+        "label": "12 mesi",
+        "direction": "up",
+        "text": "Incrementato"
+      },
+      "benchmark": "Limite operativo elevato"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Ottimo equilibrio economico (score 5/5)",
+      "Buon equilibrio patrimoniale (score 4/5)",
+      "Buon equilibrio finanziario (score 4/5)",
+      "Crescita fatturato significativa (+25,93%)",
+      "ROI eccellente (12,41%)",
+      "Posizione finanziaria netta negativa (liquidità superiore ai debiti)",
+      "DSCR ottimo (1,85x)",
+      "Rating migliorato da B1 ad A3"
+    ],
+    "weaknesses": [
+      "Giorni di incasso clienti elevati (106 gg vs benchmark 89 gg)",
+      "Rapporto Debiti/EBITDA da monitorare (2,40x)",
+      "Oneri finanziari in rapporto all'EBITDA (3,77%)",
+      "Necessità di ottimizzare il capitale circolante"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            10.5,
+            9.6,
+            12.1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            1,
+            1.17,
+            1.39
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            9.5,
+            12.2,
+            11.44
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            -0.51,
+            0.92,
+            1.85
+          ],
+          "backgroundColor": [
+            "#24b47e",
+            "#24b47e",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            106,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f9b115",
+            "#24b47e",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            0
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            1.85,
+            1.76,
+            1.67,
+            1.57
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Faticoni",
+          "data": [
+            4,
+            4,
+            5,
+            4,
+            4,
+            5
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Commercio al dettaglio)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2,
+            2,
+            2
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE SCURO",
+        "2": "VERDE",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "in lieve miglioramento",
+        "type": "positive"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 5,
+      "maxScore": 5,
+      "evaluation": "Ottima",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "green"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    }
+  ],
+  "management": [
+    {
+      "name": "VITTORIO FATICONI",
+      "role": "Chairman of board of directors",
+      "initials": "VF",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "19/06/2025"
+    },
+    {
+      "name": "ROBERTO ANTONIO FATICONI",
+      "role": "Managing director",
+      "initials": "RF",
+      "colorClass": "teal",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "19/06/2025"
+    },
+    {
+      "name": "ALESSANDRO FATICONI",
+      "role": "Vice chairman board of directors",
+      "initials": "AF",
+      "colorClass": "yellow",
+      "appointmentDate": "19/06/2025"
+    },
+    {
+      "name": "MICHELE BOI",
+      "role": "Chairman of board of auditors",
+      "initials": "MB",
+      "colorClass": "secondary",
+      "appointmentDate": "27/06/2023"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "id": "faticoni-grafiche",
+        "name": "FATICONI ARTI GRAFICHE SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "100%",
+        "type": "Controllo Totale"
+      },
+      {
+        "id": "arkys",
+        "name": "ARKYS SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "yellow",
+        "quota": "70%",
+        "type": "Partecipazione di Controllo"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 12.104.543",
+        "trend": {
+          "direction": "up",
+          "value": "+25,93%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 1.385.316",
+        "trend": {
+          "direction": "up",
+          "value": "+18,22%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ebit",
+        "label": "EBIT",
+        "value": "€ 1.007.936",
+        "trend": {
+          "direction": "up",
+          "value": "+20,97%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 3.601.293",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 247.680",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "18,75%",
+        "trend": {
+          "direction": "up",
+          "value": "Redditività eccellente",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "12,41%",
+        "trend": {
+          "direction": "up",
+          "value": "Ottimo",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "8,14%",
+        "trend": {
+          "direction": "up",
+          "value": "Marginalità buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "2,25",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "44,36%",
+        "trend": {
+          "direction": "up",
+          "value": "Buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "1,85x",
+        "trend": {
+          "direction": "up",
+          "value": "Ottimo",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,76",
+        "trend": {
+          "direction": "up",
+          "value": "Buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "FATICONI - SOCIETA PER AZIONI"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "18/11/1981"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "47552 - Retail sale of other furniture"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA CALAMATTIA, 10<br>09134 CAGLIARI (CA)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@faticoni.it<br>FATICONI@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 247.680"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "43 (+13,16% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "0705292228"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.faticoni.it"
+          },
+          {
+            "label": "Social",
+            "value": "Facebook"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Continuare il trend di crescita del fatturato mantenendo la marginalità",
+      "Ottimizzare i tempi di incasso clienti per migliorare il capitale circolante",
+      "Valutare investimenti per sostenere la crescita aziendale",
+      "Monitorare l'evoluzione del rapporto debiti/EBITDA",
+      "Fido consigliato: € 405.000 (incrementato del 37,29% negli ultimi 12 mesi)"
+    ],
+    "outlook": "L'azienda presenta un profilo di rischio molto positivo, con un significativo miglioramento del rating da B1 ad A3. La crescita del fatturato (+25,93%) accompagnata da una buona marginalità operativa e da una solida posizione finanziaria netta negativa (liquidità superiore ai debiti finanziari) conferma la solidità dell'azienda. Il DSCR ottimo (1,85x) e gli eccellenti indici di redditività supportano un approccio fiduciario nell'erogazione di credito. Si raccomanda di mantenere il monitoraggio sui tempi di incasso clienti e sulla gestione del capitale circolante."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "OK",
+      "colorClass": "positive",
+      "indiciOk": 6,
+      "indiciAllerta": 0,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 3.601.293",
+        "detail": "Capitale sociale: € 247.680",
+        "soglia": "> € 247.680",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "1,85x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "0,51%",
+        "detail": "€ 61.344 / € 12.104.543",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore commercio",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "108,24%",
+        "detail": "€ 3.601.293 / € 3.327.294",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "12,97%",
+        "detail": "€ 1.052.621 / € 8.119.162",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "175,03%",
+        "detail": "€ 5.512.790 / € 3.149.402",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Eccellente",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Il DSCR di 1,85x indica un'ottima capacità di copertura del servizio del debito, ben superiore alla soglia minima di 1,0x richiesta dal Codice della Crisi."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-7) fuori soglia contemporaneamente. Tutti gli indici disponibili sono ampiamente dentro le soglie."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "L'azienda presenta un profilo di solidità eccellente secondo tutti gli indicatori del Codice della Crisi. Si raccomanda di verificare la disaggregazione dei debiti tributari/previdenziali per completezza."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 47552 (Commercio al dettaglio)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 1.385.316",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 61.344",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 3.149.402",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 177.892",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 3.149.402 × 0.20 = <strong>€ 629.880</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 177.892</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 177.892 / 5 = <strong>€ 35.578</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 629.880 + € 35.578 = <strong style='color: var(--primary);'>€ 665.458</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 1.385.316 / (€ 61.344 + € 665.458) = € 1.385.316 / € 726.802",
+        "value": "1,85x",
+        "interpretation": "Un DSCR di 1,85 indica che l'azienda genera un EBITDA ampiamente sufficiente a coprire il servizio del debito (oneri finanziari + quota capitale) con un margine di sicurezza dell'85%. La soglia minima accettabile è generalmente 1.0, mentre un valore ottimale è considerato ≥ 1.3."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ 1.500",
+              "2024": "€ 1.800",
+              "voce": "Immateriali",
+              "trend": "+20,0%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 2.100.000",
+              "2024": "€ 2.298.687",
+              "voce": "Materiali",
+              "trend": "+9,5%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 90.000",
+              "2024": "€ 90.000",
+              "voce": "Finanziarie",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ 2.191.500",
+            "2024": "€ 2.390.487",
+            "trend": "+9,1%",
+            "trendColor": "green"
+          },
+          "circolante": [
+            {
+              "2023": "€ 3.200.000",
+              "2024": "€ 3.517.768",
+              "voce": "Crediti",
+              "trend": "+9,9%",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 1.200.000",
+              "2024": "€ 1.370.967",
+              "voce": "Disponibilità liquide",
+              "trend": "+14,2%",
+              "trendColor": "green"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ 4.400.000",
+            "2024": "€ 5.512.790",
+            "trend": "+25,3%",
+            "trendColor": "green"
+          },
+          "totaleAttivo": {
+            "2023": "€ 6.591.500",
+            "2024": "€ 8.119.162",
+            "trend": "+23,2%",
+            "trendColor": "green"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 247.680",
+              "2024": "€ 247.680",
+              "voce": "Capitale sociale",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 2.800.000",
+              "2024": "€ 2.678.613",
+              "voce": "Riserve",
+              "trend": "-4,3%",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 585.000",
+              "2024": "€ 675.000",
+              "voce": "Utile d'esercizio",
+              "trend": "+15,4%",
+              "trendColor": "green"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ 3.632.680",
+            "2024": "€ 3.601.293",
+            "trend": "-0,9%",
+            "trendColor": "red"
+          },
+          "debiti": [
+            {
+              "2023": "€ 2.800.000",
+              "2024": "€ 3.149.402",
+              "voce": "Debiti a breve termine",
+              "trend": "+12,5%",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 158.820",
+              "2024": "€ 177.892",
+              "voce": "Debiti a M/L termine",
+              "trend": "+12,0%",
+              "trendColor": "red"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ 2.958.820",
+            "2024": "€ 3.327.294",
+            "trend": "+12,5%",
+            "trendColor": "red"
+          },
+          "totalePassivo": {
+            "2023": "€ 6.591.500",
+            "2024": "€ 8.119.162",
+            "trend": "+23,2%",
+            "trendColor": "green"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 9.612.096",
+          "2024": "€ 12.104.543",
+          "voce": "Ricavi delle vendite",
+          "trend": "+25,9%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 1.171.766",
+          "2024": "€ 1.385.316",
+          "voce": "EBITDA",
+          "trend": "+18,2%",
+          "trendColor": "green",
+          "highlight": true
+        },
+        {
+          "2023": "€ 833.194",
+          "2024": "€ 1.007.936",
+          "voce": "Risultato operativo",
+          "trend": "+21,0%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 585.000",
+          "2024": "€ 675.000",
+          "voce": "Utile netto",
+          "trend": "+15,4%",
+          "trendColor": "green",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "FATICONI - SOCIETA PER AZIONI"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "18/11/1981"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "47552 - Retail sale of other furniture"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA CALAMATTIA, 10<br>09134 CAGLIARI (CA)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@faticoni.it<br>FATICONI@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 247.680"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "43 (+13,16% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "0705292228"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.faticoni.it"
+      },
+      {
+        "label": "Social",
+        "value": "Facebook"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 12.104.543",
+      "trend": "+25,93% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 1.385.316",
+      "trend": "+18,22% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 675.000",
+      "trend": "+15,38% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 3.601.293",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 247.680",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "18,75%",
+      "status": "Redditività eccellente"
+    },
+    {
+      "label": "ROI",
+      "value": "12,41%",
+      "status": "Ottimo"
+    },
+    {
+      "label": "ROS",
+      "value": "8,14%",
+      "status": "Marginalità buona"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "2,25",
+      "status": "Accettabile"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "44,36%",
+      "status": "Buona"
+    },
+    {
+      "label": "DSCR",
+      "value": "1,85x",
+      "status": "Ottimo"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,76",
+      "status": "Buona"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "companyName": "FATICONI ARTI GRAFICHE SRL",
+      "quota": "100%",
+      "tipo": "Controllo Totale"
+    },
+    {
+      "companyName": "ARKYS SRL",
+      "quota": "70%",
+      "tipo": "Partecipazione di Controllo"
+    }
+  ]
+}
