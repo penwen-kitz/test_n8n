@@ -1,0 +1,949 @@
+{
+  "company": {
+    "name": "M.I.R.I.N. MECCANICA IMPIANTI RIPARAZIONI INDUSTRIALI NAVALI DI BONANNO SANTI",
+    "fullName": "M.I.R.I.N. MECCANICA IMPIANTI RIPARAZIONI INDUSTRIALI NAVALI DI BONANNO SANTI",
+    "legalForm": "Ditta Individuale",
+    "piva": "02690790833",
+    "foundedDate": "10/02/2003",
+    "ateco": "284 - Fabbricazione di macchine utensili",
+    "address": {
+      "street": "VIA GIOVANNI VERGA, 7",
+      "city": "PACE DEL MELA",
+      "province": "ME",
+      "zip": "98042"
+    },
+    "contacts": {
+      "email": "info@softairmirin.it",
+      "pec": "bnnsnt73s08g209r@impresa.italia.it",
+      "phone": "0909030127",
+      "website": "www.softairmirin.it"
+    },
+    "social": [
+      "Facebook"
+    ],
+    "capitaleSociale": 0,
+    "employees": {
+      "current": 1,
+      "previous": 0,
+      "trend": 0
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 0,
+    "maxScore": 100,
+    "category": "N/D",
+    "categoryLabel": "Valutazione non disponibile - Dati insufficienti",
+    "rating": null,
+    "previousRating": null,
+    "description": "Impossibile calcolare l'IRP score a causa della mancanza di dati finanziari e rating. L'azienda presenta un risk score VERDE (inferiore alla media) con limite operativo di € 11.000.",
+    "colorClass": "red"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "N/D",
+      "icon": "ri-shield-line",
+      "colorClass": "red",
+      "category": {
+        "label": "DATI MANCANTI",
+        "class": "red"
+      },
+      "benchmark": "Valutazione non disponibile"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati finanziari non disponibili"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati finanziari non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Calcolo non possibile"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Calcolo non possibile"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/D",
+      "icon": "ri-water-flash-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "NON CALCOLABILE",
+        "class": "critical"
+      },
+      "benchmark": "Dati finanziari mancanti"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 11.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": 37.5,
+        "label": "12 mesi",
+        "direction": "up",
+        "text": "In crescita"
+      },
+      "benchmark": "Basato su risk score VERDE"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Risk score VERDE (inferiore alla media)",
+      "Limite operativo in crescita (da € 8.000 a € 11.000)",
+      "Miglioramento del profilo di rischio da marzo 2025",
+      "Presenza digitale con sito web e social media",
+      "Attività nel settore meccanico industriale"
+    ],
+    "weaknesses": [
+      "Assenza totale di dati finanziari",
+      "Impossibilità di valutare la performance economica",
+      "Mancanza di rating creditizio",
+      "Struttura societaria individuale (maggiore rischio)",
+      "Dipendente unico (rischio operativo elevato)",
+      "Storico di eventi negativi (dic 2024 - feb 2025)"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Risk Score (2024-2025)",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Limite Operativo di Credito",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Limite Operativo (€)",
+          "data": [
+            0,
+            0,
+            0,
+            8000,
+            8000,
+            8000,
+            8000,
+            11000,
+            11000,
+            11000,
+            11000,
+            11000
+          ],
+          "backgroundColor": "#24b47e"
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Dati Non Disponibili",
+      "labels": [
+        "N/D"
+      ],
+      "datasets": [
+        {
+          "label": "Dati Mancanti",
+          "data": [
+            0
+          ],
+          "backgroundColor": "#f5365c"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Non Applicabile",
+      "labels": [
+        "N/D"
+      ],
+      "datasets": [
+        {
+          "label": "Dati Insufficienti",
+          "data": [
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)"
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Valutazione Non Disponibile",
+      "labels": [
+        "Dati",
+        "Finanziari",
+        "Non",
+        "Disponibili"
+      ],
+      "datasets": [
+        {
+          "label": "M.I.R.I.N.",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.2)"
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Risk Score",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Limite Operativo (K€)",
+          "data": [
+            0,
+            0,
+            0,
+            8,
+            8,
+            8,
+            8,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "VERDE",
+        "2": "VERDE",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      },
+      "scoreMap": {
+        "1": "OTTIMO",
+        "2": "BUONO",
+        "3": "MEDIO",
+        "4": "CRITICO",
+        "5": "ALTO RISCHIO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unknown"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unknown"
+      },
+      "color": "red"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unknown"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unknown"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 0,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati mancanti",
+        "type": "unknown"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [
+    {
+      "name": "SANTI BONANNO",
+      "role": "Titolare",
+      "initials": "SB",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "10/02/2003"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "dipendenti",
+        "label": "Dipendenti",
+        "value": "1",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "risk-score",
+        "label": "Risk Score",
+        "value": "VERDE",
+        "trend": {
+          "direction": "up",
+          "value": "Migliorato da marzo 2025",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "limite-operativo",
+        "label": "Limite Operativo",
+        "value": "€ 11.000",
+        "trend": {
+          "direction": "up",
+          "value": "Da € 8.000 a luglio 2025",
+          "label": ""
+        },
+        "colorClass": "positive"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "M.I.R.I.N. MECCANICA IMPIANTI RIPARAZIONI INDUSTRIALI NAVALI DI BONANNO SANTI"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Ditta Individuale"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "10/02/2003"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "284 - Fabbricazione di macchine utensili"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA GIOVANNI VERGA, 7<br>98042 PACE DEL MELA (ME)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@softairmirin.it<br>bnnsnt73s08g209r@impresa.italia.it"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Titolare",
+            "value": "Santi Bonanno"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "1"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "0909030127"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.softairmirin.it"
+          },
+          {
+            "label": "Social",
+            "value": "Facebook"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Richiesta urgente di bilanci e dati finanziari per valutazione completa",
+      "Monitoraggio dell'evoluzione del risk score nei prossimi mesi",
+      "Verifica della sostenibilità operativa con un solo dipendente",
+      "Analisi approfondita delle cause degli eventi negativi del periodo dic 2024 - feb 2025",
+      "Fido consigliato: € 11.000 (basato esclusivamente su risk score VERDE)"
+    ],
+    "outlook": "L'analisi è fortemente limitata dalla mancanza di dati finanziari. Il risk score VERDE e il miglioramento del limite operativo da € 8.000 a € 11.000 sono segnali positivi, ma insufficienti per una valutazione creditizia completa. La struttura di ditta individuale con un solo dipendente presenta rischi operativi elevati. Si raccomanda estrema prudenza nell'erogazione di credito fino all'ottenimento di dati finanziari completi e aggiornati."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON VALUTABILE",
+      "colorClass": "red",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Dato non disponibile",
+        "soglia": "> 0",
+        "sogliaNote": "Per ditte individuali",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore manifatturiero",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "negative"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dati-mancanti",
+        "title": "Dati Finanziari Mancanti",
+        "icon": "ri-alert-line",
+        "colorClass": "red",
+        "text": "L'assenza totale di dati finanziari rende impossibile il calcolo di tutti gli indici del Codice della Crisi. È necessario acquisire i bilanci per procedere con la valutazione."
+      },
+      {
+        "id": "ditta-individuale",
+        "title": "Specificità Ditta Individuale",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per le ditte individuali, alcuni indici potrebbero non essere applicabili o richiedere adattamenti metodologici specifici rispetto alle società di capitali."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione Urgente",
+        "icon": "ri-error-warning-line",
+        "colorClass": "red",
+        "text": "Si raccomanda di richiedere immediatamente: (1) Dichiarazioni dei redditi degli ultimi 3 anni, (2) Situazione patrimoniale aggiornata, (3) Flussi di cassa previsionali per valutazione DSCR."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 284 (Fabbricazione macchine utensili)",
+        "colorClass": "secondary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "limitazioni",
+      "icon": "ri-error-warning-line",
+      "title": "Limitazioni dell'Analisi",
+      "subtitle": "Assenza di dati finanziari - Valutazione incompleta",
+      "formula": "Analisi basata esclusivamente su: Risk Score + Limite Operativo + Dati anagrafici",
+      "values": [
+        {
+          "label": "Risk Score Attuale",
+          "value": "VERDE",
+          "color": "green"
+        },
+        {
+          "label": "Limite Operativo",
+          "value": "€ 11.000",
+          "color": "green"
+        },
+        {
+          "label": "Dipendenti",
+          "value": "1",
+          "color": "yellow"
+        },
+        {
+          "label": "Dati Finanziari",
+          "value": "ASSENTI",
+          "color": "red"
+        }
+      ],
+      "assumptions": [
+        "L'analisi è <strong>fortemente limitata</strong> dalla mancanza di bilanci e dati economico-finanziari",
+        "Il <strong>risk score VERDE</strong> indica un rischio inferiore alla media ma non sostituisce l'analisi finanziaria",
+        "Il <strong>limite operativo di € 11.000</strong> è cresciuto del 37,5% negli ultimi mesi",
+        "La <strong>struttura di ditta individuale</strong> con un solo dipendente presenta rischi operativi elevati"
+      ],
+      "result": {
+        "calculation": "Valutazione basata su indicatori limitati e non finanziari",
+        "value": "RISCHIO ELEVATO",
+        "interpretation": "Senza dati finanziari è impossibile valutare la reale capacità di rimborso, la solidità patrimoniale e la sostenibilità operativa. Il risk score VERDE è un segnale positivo ma insufficiente per una valutazione creditizia completa."
+      }
+    },
+    {
+      "id": "raccomandazioni",
+      "icon": "ri-file-list-3-line",
+      "title": "Documentazione Richiesta",
+      "subtitle": "Documenti necessari per completare la valutazione",
+      "formula": "Documentazione Minima Richiesta per Analisi Completa",
+      "values": [
+        {
+          "label": "Dichiarazioni Redditi",
+          "value": "Ultimi 3 anni",
+          "color": "red"
+        },
+        {
+          "label": "Situazione Patrimoniale",
+          "value": "Aggiornata",
+          "color": "red"
+        },
+        {
+          "label": "Estratti Conto",
+          "value": "Ultimi 12 mesi",
+          "color": "yellow"
+        },
+        {
+          "label": "Visura Camerale",
+          "value": "Aggiornata",
+          "color": "green"
+        }
+      ],
+      "assumptions": [
+        "<strong>Dichiarazioni dei redditi</strong> degli ultimi 3 anni per analisi trend economico",
+        "<strong>Situazione patrimoniale</strong> aggiornata per calcolo indici di bilancio",
+        "<strong>Estratti conto bancari</strong> per valutazione flussi di cassa",
+        "<strong>Budget previsionali</strong> per calcolo DSCR prospettico (Codice Crisi)"
+      ],
+      "result": {
+        "calculation": "Solo con documentazione completa sarà possibile calcolare:",
+        "value": "TUTTI GLI INDICATORI",
+        "interpretation": "IRP Score, DSCR, indici di redditività, liquidità, leverage, indici Codice Crisi e benchmark settoriali. La valutazione attuale è da considerarsi preliminare e incompleta."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "M.I.R.I.N. MECCANICA IMPIANTI RIPARAZIONI INDUSTRIALI NAVALI DI BONANNO SANTI"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Ditta Individuale"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "10/02/2003"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "284 - Fabbricazione di macchine utensili"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA GIOVANNI VERGA, 7<br>98042 PACE DEL MELA (ME)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@softairmirin.it<br>bnnsnt73s08g209r@impresa.italia.it"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Titolare",
+        "value": "Santi Bonanno"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "1"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "0909030127"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.softairmirin.it"
+      },
+      {
+        "label": "Social",
+        "value": "Facebook"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "EBITDA",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "DIPENDENTI",
+      "value": "1",
+      "status": "Dato 2024"
+    },
+    {
+      "label": "RISK SCORE",
+      "value": "VERDE",
+      "status": "Inferiore alla media"
+    },
+    {
+      "label": "LIMITE OPERATIVO",
+      "value": "€ 11.000",
+      "status": "In crescita"
+    }
+  ],
+  "partecipazioni": []
+}
