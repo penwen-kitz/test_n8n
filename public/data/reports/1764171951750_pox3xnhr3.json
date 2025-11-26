@@ -1,0 +1,811 @@
+{
+  "company": {
+    "name": "FORMA MENTIS SRL",
+    "fullName": "FORMA MENTIS SRL",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "03186000307",
+    "foundedDate": "02/07/2025",
+    "ateco": "702009 - Business and other management consultancy activities n.e.c.",
+    "address": {
+      "street": "VIA ISONZO, 11/B",
+      "city": "CODROIPO",
+      "province": "UD",
+      "zip": "33033"
+    },
+    "contacts": {
+      "email": "",
+      "pec": "FORMA.MENTIS@ARUBAPEC.IT",
+      "phone": "",
+      "website": ""
+    },
+    "social": [],
+    "capitaleSociale": null,
+    "employees": {
+      "current": 1,
+      "previous": null,
+      "trend": null
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 75,
+    "maxScore": 100,
+    "category": "B",
+    "categoryLabel": "Rischio basso - Categoria B",
+    "rating": "VERDE CHIARO",
+    "previousRating": null,
+    "description": "Società di recente costituzione (luglio 2025) con profilo di rischio basso. L'assenza di dati finanziari è dovuta alla costituzione recente. Il rating VERDE CHIARO indica una situazione di partenza positiva senza elementi negativi rilevati.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "75,00",
+      "icon": "ri-shield-line",
+      "colorClass": "light-green",
+      "category": {
+        "label": "CATEGORIA B",
+        "class": "b"
+      },
+      "benchmark": "Rischio basso - recente costituzione"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "primo anno",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili - primo anno"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "primo anno",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "primo anno",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "primo anno",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "primo anno",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "primo anno",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/D",
+      "icon": "ri-water-flash-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "primo anno",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "secondary",
+      "badge": {
+        "label": "NON CALCOLABILE",
+        "class": "neutral"
+      },
+      "benchmark": "Dati finanziari non disponibili"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 2.500",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "primo anno",
+        "direction": "neutral",
+        "text": "Prudenziale"
+      },
+      "benchmark": "Importo prudenziale - società neonata"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Società di recente costituzione senza elementi negativi",
+      "Rating VERDE CHIARO positivo",
+      "Amministratore unico con esperienza (46 anni)",
+      "Settore consulenza gestionale in crescita",
+      "Assenza di protesti o procedure negative",
+      "Forma giuridica SRL appropriata per l'attività",
+      "Sede in area economicamente sviluppata (Friuli-Venezia Giulia)"
+    ],
+    "weaknesses": [
+      "Assenza completa di dati finanziari",
+      "Impossibilità di valutare performance economiche",
+      "Mancanza di storico creditizio",
+      "Un solo dipendente (struttura minima)",
+      "Capitale sociale non specificato",
+      "Nessun dato su fatturato o redditività",
+      "Profili di valutazione non disponibili"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico - Dati Non Disponibili",
+      "labels": [
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito - N/D",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#cccccc",
+            "#cccccc",
+            "#cccccc"
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante - N/D",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#cccccc",
+            "#cccccc",
+            "#cccccc"
+          ]
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Non Applicabile",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#cccccc",
+          "backgroundColor": "rgba(204, 204, 204, 0.1)"
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale - N/D",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Forma Mentis",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025",
+        "Dic 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)"
+        }
+      ],
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "neutral"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "neutral"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "neutral"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "neutral"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "neutral"
+      },
+      "color": "secondary"
+    }
+  ],
+  "management": [
+    {
+      "name": "SIMONE BRISOTTO",
+      "role": "Managing director",
+      "initials": "SB",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "02/07/2025"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Primo anno",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Primo anno",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Primo anno",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Primo bilancio",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Da definire",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "dipendenti",
+        "label": "Dipendenti",
+        "value": "1",
+        "trend": {
+          "direction": "neutral",
+          "value": "Struttura minima",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "FORMA MENTIS SRL"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "02/07/2025"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "702009 - Business and other management consultancy activities n.e.c."
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA ISONZO, 11/B<br>33033 CODROIPO (UD)"
+          },
+          {
+            "label": "PEC",
+            "value": "FORMA.MENTIS@ARUBAPEC.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Dipendenti",
+            "value": "1"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Amministratore",
+            "value": "SIMONE BRISOTTO"
+          },
+          {
+            "label": "Data Registrazione",
+            "value": "10/07/2025"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio dell'avvio dell'attività operativa nei primi mesi",
+      "Valutazione delle prime performance economiche al termine del primo esercizio",
+      "Verifica della coerenza tra attività dichiarata e operazioni effettive",
+      "Controllo dell'evoluzione della struttura organizzativa",
+      "Fido consigliato prudenziale: € 2.500 per il primo anno di attività"
+    ],
+    "outlook": "Società di recente costituzione con profilo di rischio attualmente basso dovuto all'assenza di elementi negativi. Il rating VERDE CHIARO riflette una situazione di partenza positiva. Si raccomanda un approccio prudente nell'erogazione di credito, con un limite operativo contenuto (€ 2.500) e monitoraggio ravvicinato dell'evoluzione dell'attività nei primi 12 mesi. La valutazione potrà essere rivista positivamente una volta disponibili i primi dati di bilancio e l'evidenza di un'attività operativa consolidata."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON APPLICABILE",
+      "colorClass": "secondary",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Primo bilancio non disponibile",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore consulenza",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "societa-neonata",
+        "title": "Società di Recente Costituzione",
+        "icon": "ri-time-line",
+        "colorClass": "primary",
+        "text": "Gli indici del Codice della Crisi non sono applicabili a società costituite da meno di 6 mesi senza bilanci depositati. La valutazione sarà possibile dal primo bilancio."
+      },
+      {
+        "id": "monitoraggio",
+        "title": "Raccomandazione di Monitoraggio",
+        "icon": "ri-shield-check-line",
+        "colorClass": "secondary",
+        "text": "Si consiglia di implementare fin da subito un sistema di controllo di gestione per monitorare i KPI richiesti dal Codice della Crisi, in preparazione del primo bilancio."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "societa-neonata",
+      "icon": "ri-information-line",
+      "title": "Società di Recente Costituzione",
+      "subtitle": "Limitazioni nella valutazione per assenza dati finanziari",
+      "formula": "Valutazione basata su: Dati anagrafici + Rating creditizio + Assenza elementi negativi",
+      "values": [
+        {
+          "label": "Data Costituzione",
+          "value": "02/07/2025",
+          "color": "text"
+        },
+        {
+          "label": "Rating Creditizio",
+          "value": "VERDE CHIARO",
+          "color": "green"
+        },
+        {
+          "label": "Protesti/Procedure",
+          "value": "Assenti",
+          "color": "green"
+        },
+        {
+          "label": "Primo Bilancio",
+          "value": "Atteso 2026",
+          "color": "yellow"
+        }
+      ],
+      "assumptions": [
+        "La società è stata costituita il <strong>02/07/2025</strong>, quindi non ha ancora chiuso il primo esercizio",
+        "Il rating <strong>VERDE CHIARO</strong> indica assenza di elementi negativi noti",
+        "Non sono presenti protesti, procedure concorsuali o altri eventi pregiudizievoli",
+        "La valutazione è <strong>prudenziale</strong> in attesa dei primi dati operativi"
+      ],
+      "result": {
+        "calculation": "Score base 75/100 per società neonata senza elementi negativi",
+        "value": "75.00",
+        "interpretation": "Il punteggio di 75/100 riflette una valutazione prudenzialmente positiva per una società di recente costituzione. L'assenza di dati finanziari impedisce una valutazione completa, ma non sono emersi elementi di criticità. Il rating potrà essere rivisto (al rialzo o al ribasso) una volta disponibili i primi dati di bilancio."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "FORMA MENTIS SRL"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "02/07/2025"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "702009 - Business and other management consultancy activities n.e.c."
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA ISONZO, 11/B<br>33033 CODROIPO (UD)"
+      },
+      {
+        "label": "PEC",
+        "value": "FORMA.MENTIS@ARUBAPEC.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Dipendenti",
+        "value": "1"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Amministratore",
+        "value": "SIMONE BRISOTTO"
+      },
+      {
+        "label": "Data Registrazione",
+        "value": "10/07/2025"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Primo anno di attività"
+    },
+    {
+      "label": "EBITDA",
+      "value": "N/D",
+      "trend": "Primo anno di attività"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "N/D",
+      "trend": "Primo anno di attività"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "N/D",
+      "trend": "Primo bilancio atteso 2026"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "N/D",
+      "trend": "Da definire"
+    },
+    {
+      "label": "DIPENDENTI",
+      "value": "1",
+      "status": "Struttura minima"
+    }
+  ],
+  "partecipazioni": []
+}
