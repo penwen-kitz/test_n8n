@@ -1,0 +1,866 @@
+{
+  "company": {
+    "name": "EDILTECH DI MICHAEL SPINA",
+    "fullName": "EDILTECH DI MICHAEL SPINA",
+    "legalForm": "Individual business",
+    "piva": "03787940133",
+    "foundedDate": "03/08/2018",
+    "ateco": "41 - Construction of residential and non-residential buildings",
+    "address": {
+      "street": "VIA PIAVE, 7",
+      "city": "ROVELLASCA",
+      "province": "CO",
+      "zip": "22069"
+    },
+    "contacts": {
+      "email": "",
+      "pec": "EDILTECH.SPINA@PEC.IT",
+      "phone": "",
+      "website": ""
+    },
+    "social": [],
+    "capitaleSociale": null,
+    "employees": {
+      "current": 1,
+      "previous": 4,
+      "trend": -75
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 85,
+    "maxScore": 100,
+    "category": "A",
+    "categoryLabel": "Rischio basso - Categoria A",
+    "rating": null,
+    "previousRating": null,
+    "description": "L'azienda presenta un profilo di rischio basso con score VERDE costante negli ultimi 12 mesi. L'assenza di eventi negativi e la stabilità del fido operativo indicano una situazione creditizia solida per un'impresa individuale nel settore edile.",
+    "colorClass": "green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "85,00",
+      "icon": "ri-shield-line",
+      "colorClass": "green",
+      "category": {
+        "label": "CATEGORIA A",
+        "class": "a"
+      },
+      "benchmark": "Rischio inferiore alla media"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "dei Ricavi",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/D",
+      "icon": "ri-water-flash-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "vs 2023",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "secondary",
+      "badge": {
+        "label": "NON CALCOLABILE",
+        "class": "warning"
+      },
+      "benchmark": "Dati finanziari non disponibili"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 10.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Invariato"
+      },
+      "benchmark": "Limite operativo stabile"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Score di rischio VERDE costante negli ultimi 12 mesi",
+      "Assenza di protesti e procedure concorsuali",
+      "Assenza di eventi pregiudizievoli",
+      "Fido operativo stabile a € 10.000",
+      "Impresa individuale con struttura semplificata",
+      "Settore edile con buone prospettive",
+      "Titolare giovane (29 anni) con esperienza"
+    ],
+    "weaknesses": [
+      "Assenza completa di dati finanziari",
+      "Riduzione significativa dipendenti (-75%)",
+      "Impossibilità di calcolare indicatori economici",
+      "Mancanza di bilanci depositati",
+      "Struttura patrimoniale non valutabile",
+      "Performance economica non misurabile",
+      "Trend di crescita non determinabile"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (€)",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            null,
+            null,
+            null
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f5365c"
+          ]
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)"
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Ediltech",
+          "data": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore Edile",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Risk Score",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Fido Operativo (K€)",
+          "data": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "unknown"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "unknown"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "unknown"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "unknown"
+      },
+      "color": "secondary"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": null,
+      "maxScore": 5,
+      "evaluation": "Non valutabile",
+      "trend": {
+        "label": "dati non disponibili",
+        "type": "unknown"
+      },
+      "color": "secondary"
+    }
+  ],
+  "management": [
+    {
+      "name": "MICHAEL SPINA",
+      "role": "Owner with signatory powers",
+      "initials": "MS",
+      "colorClass": "blue",
+      "badge": "Titolare",
+      "appointmentDate": "03/08/2018"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "secondary"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "secondary"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "secondary"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Dato non disponibile",
+          "label": ""
+        },
+        "colorClass": "secondary"
+      },
+      {
+        "id": "dipendenti",
+        "label": "Dipendenti",
+        "value": "1",
+        "trend": {
+          "direction": "down",
+          "value": "-75%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "EDILTECH DI MICHAEL SPINA"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Individual business"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "03/08/2018"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "41 - Construction of residential and non-residential buildings"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA PIAVE, 7<br>22069 ROVELLASCA (CO)"
+          },
+          {
+            "label": "PEC",
+            "value": "EDILTECH.SPINA@PEC.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Dipendenti",
+            "value": "1 (-75% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Titolare",
+            "value": "Michael Spina (29 anni)"
+          },
+          {
+            "label": "Settore",
+            "value": "Costruzioni edili"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Richiesta di documentazione finanziaria per valutazione completa",
+      "Monitoraggio dell'evoluzione dell'organico aziendale",
+      "Verifica della capacità operativa con un solo dipendente",
+      "Analisi delle prospettive del settore edile locale",
+      "Mantenimento del fido operativo a € 10.000 con monitoraggio attivo"
+    ],
+    "outlook": "L'azienda presenta un profilo di rischio basso basato sui dati disponibili, con score VERDE costante negli ultimi 12 mesi e assenza di eventi negativi. Tuttavia, l'assenza di dati finanziari e la significativa riduzione del personale (-75%) richiedono un monitoraggio attento. Si raccomanda di richiedere documentazione finanziaria aggiornata per una valutazione più completa del merito creditizio."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON APPLICABILE",
+      "colorClass": "secondary",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Dati non disponibili",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "Non applicabile per impresa individuale",
+        "status": "NON APPLICABILE",
+        "statusIcon": "ri-information-line",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore costruzioni",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "impresa-individuale",
+        "title": "Impresa Individuale",
+        "icon": "ri-user-line",
+        "colorClass": "primary",
+        "text": "Per le imprese individuali, gli indici del Codice della Crisi hanno applicabilità limitata in quanto non sono tenute al deposito del bilancio e non hanno capitale sociale formale."
+      },
+      {
+        "id": "dati-mancanti",
+        "title": "Dati Finanziari Non Disponibili",
+        "icon": "ri-file-warning-line",
+        "colorClass": "warning",
+        "text": "L'assenza di dati finanziari rende impossibile il calcolo degli indici di allerta. Si raccomanda di richiedere documentazione contabile per una valutazione completa."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "limitazioni",
+      "icon": "ri-information-line",
+      "title": "Limitazioni dell'Analisi",
+      "subtitle": "Impresa individuale senza dati finanziari disponibili",
+      "formula": "Analisi basata esclusivamente su dati anagrafici e score di rischio",
+      "values": [
+        {
+          "label": "Score di Rischio",
+          "value": "VERDE",
+          "color": "green"
+        },
+        {
+          "label": "Fido Operativo",
+          "value": "€ 10.000",
+          "color": "blue"
+        },
+        {
+          "label": "Dipendenti 2024",
+          "value": "1",
+          "color": "text"
+        },
+        {
+          "label": "Dipendenti 2023",
+          "value": "4",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "L'analisi è limitata dall'<strong>assenza di dati finanziari</strong> tipica delle imprese individuali",
+        "Il <strong>score VERDE</strong> è basato su algoritmi proprietari che considerano eventi negativi e comportamenti di pagamento",
+        "La <strong>riduzione del personale</strong> del 75% potrebbe indicare una contrazione dell'attività",
+        "Il <strong>fido operativo stabile</strong> a € 10.000 suggerisce un profilo di rischio contenuto"
+      ],
+      "result": {
+        "calculation": "Score complessivo basato su: Assenza eventi negativi + Stabilità fido + Settore di attività",
+        "value": "85/100",
+        "interpretation": "Il punteggio di 85/100 indica un rischio basso, ma la valutazione è limitata dall'assenza di informazioni finanziarie. Si raccomanda di richiedere documentazione contabile per un'analisi più approfondita."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "EDILTECH DI MICHAEL SPINA"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Individual business"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "03/08/2018"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "41 - Construction of residential and non-residential buildings"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA PIAVE, 7<br>22069 ROVELLASCA (CO)"
+      },
+      {
+        "label": "PEC",
+        "value": "EDILTECH.SPINA@PEC.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Dipendenti",
+        "value": "1 (-75% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Titolare",
+        "value": "Michael Spina (29 anni)"
+      },
+      {
+        "label": "Settore",
+        "value": "Costruzioni edili"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "EBITDA",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "N/D",
+      "trend": "Dato non disponibile"
+    },
+    {
+      "label": "DIPENDENTI",
+      "value": "1",
+      "status": "Riduzione significativa (-75%)"
+    },
+    {
+      "label": "FIDO OPERATIVO",
+      "value": "€ 10.000",
+      "status": "Stabile negli ultimi 12 mesi"
+    },
+    {
+      "label": "SCORE DI RISCHIO",
+      "value": "VERDE",
+      "status": "Costante - Rischio basso"
+    }
+  ],
+  "partecipazioni": []
+}
