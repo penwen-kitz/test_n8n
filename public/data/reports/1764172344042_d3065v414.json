@@ -1,0 +1,746 @@
+{
+  "company": {
+    "name": "LA MEDITERRANEA IMPIANTI DI VALENTINI E FERRANDINO ANTONIO SNC",
+    "fullName": "LA MEDITERRANEA IMPIANTI DI VALENTINI E FERRANDINO ANTONIO S.N.C.",
+    "legalForm": "Società in Nome Collettivo",
+    "piva": "02727980399",
+    "foundedDate": "07/12/2022",
+    "ateco": "4322 - Plumbing, heat and air-conditioning installation",
+    "address": {
+      "street": "VIA VINCENZO ANTONELLINI, 28",
+      "city": "ALFONSINE",
+      "province": "RA",
+      "zip": "48011"
+    },
+    "contacts": {
+      "email": "",
+      "pec": "LAMEDITERRANEAVF@LEGALMAIL.IT",
+      "phone": "",
+      "website": ""
+    },
+    "social": [],
+    "capitaleSociale": null,
+    "employees": {
+      "current": 0,
+      "previous": null,
+      "trend": null
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Gennaio 2025",
+    "generatedDate": "27/01/2025"
+  },
+  "riskAssessment": {
+    "score": 85,
+    "maxScore": 100,
+    "category": "A",
+    "categoryLabel": "Rischio basso - Categoria A",
+    "rating": null,
+    "previousRating": null,
+    "description": "Azienda di recente costituzione (2022) con profilo di rischio VERDE (inferiore alla media). Il limite operativo di € 12.000 riflette la giovane età aziendale e l'assenza di dati finanziari consolidati.",
+    "colorClass": "green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "VERDE",
+      "icon": "ri-shield-line",
+      "colorClass": "green",
+      "category": {
+        "label": "CATEGORIA A",
+        "class": "a"
+      },
+      "benchmark": "Inferiore alla media"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "N/D",
+      "icon": "ri-funds-box-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Azienda recente",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "N/D",
+      "icon": "ri-percent-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Azienda recente",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/D",
+      "icon": "ri-scales-3-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Azienda recente",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "N/D",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Azienda recente",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "N/D",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Azienda recente",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "N/D",
+      "icon": "ri-line-chart-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Azienda recente",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "N/D",
+      "icon": "ri-water-flash-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 0,
+        "label": "Azienda recente",
+        "direction": "neutral"
+      },
+      "benchmark": "Dati non disponibili"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/D",
+      "icon": "ri-shield-check-line",
+      "colorClass": "secondary",
+      "badge": {
+        "label": "NON CALCOLABILE",
+        "class": "neutral"
+      },
+      "benchmark": "Dati finanziari non disponibili"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 12.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 0,
+        "label": "12 mesi",
+        "direction": "neutral",
+        "text": "Invariato"
+      },
+      "benchmark": "Limite operativo standard"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Profilo di rischio VERDE (inferiore alla media)",
+      "Assenza di eventi negativi (protesti, procedure, pregiudizievoli)",
+      "Settore degli impianti termoidraulici in crescita",
+      "Forma societaria SNC con responsabilità illimitata dei soci",
+      "Presenza di PEC per comunicazioni ufficiali",
+      "Costituzione recente ma regolare (dicembre 2022)"
+    ],
+    "weaknesses": [
+      "Azienda molto giovane (costituita nel 2022)",
+      "Assenza completa di dati finanziari",
+      "Nessun dipendente registrato",
+      "Mancanza di rating creditizio",
+      "Assenza di profili di valutazione",
+      "Limitata presenza digitale (no sito web, no social)"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico - Dati Non Disponibili",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (€)",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito - Non Calcolabile",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Dati Non Disponibili",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#cccccc",
+            "#cccccc",
+            "#cccccc"
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante - Non Calcolabile",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Dati Non Disponibili",
+          "data": [
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#cccccc",
+            "#cccccc",
+            "#cccccc"
+          ]
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Non Applicabile",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "Non Calcolabile",
+          "data": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#cccccc",
+          "backgroundColor": "rgba(204, 204, 204, 0.1)"
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale - Valutazione Non Disponibile",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "La Mediterranea Impianti",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderColor": "#cccccc",
+          "backgroundColor": "rgba(204, 204, 204, 0.2)"
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Risk Score",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "yAxisID": "y"
+        }
+      ],
+      "ratingMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [],
+  "management": [
+    {
+      "name": "ANTONIO VALENTINI",
+      "role": "Socio Accomandatario Attivo",
+      "initials": "AV",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "07/12/2022"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Azienda recente",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Azienda recente",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Azienda recente",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "N/D",
+        "trend": {
+          "direction": "neutral",
+          "value": "Azienda recente",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "LA MEDITERRANEA IMPIANTI DI VALENTINI E FERRANDINO ANTONIO S.N.C."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Società in Nome Collettivo"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "07/12/2022"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "4322 - Plumbing, heat and air-conditioning installation"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA VINCENZO ANTONELLINI, 28<br>48011 ALFONSINE (RA)"
+          },
+          {
+            "label": "PEC",
+            "value": "LAMEDITERRANEAVF@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Dipendenti",
+            "value": "0"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Risk Score",
+            "value": "VERDE (inferiore alla media)"
+          },
+          {
+            "label": "Limite Operativo",
+            "value": "€ 12.000"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio dell'avvio dell'attività operativa",
+      "Richiesta di primi dati finanziari quando disponibili",
+      "Verifica dell'effettivo inizio dell'attività commerciale",
+      "Controllo periodico dell'evoluzione del risk score",
+      "Mantenimento del limite operativo a € 12.000 fino a consolidamento dati"
+    ],
+    "outlook": "L'azienda, costituita nel dicembre 2022, presenta un profilo di rischio VERDE (inferiore alla media) ma manca completamente di dati finanziari per una valutazione approfondita. Il settore degli impianti termoidraulici offre buone prospettive, ma è necessario attendere i primi bilanci per una valutazione creditizia più accurata. Si raccomanda un approccio prudente mantenendo il limite operativo attuale di € 12.000."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "NON APPLICABILE",
+      "colorClass": "secondary",
+      "indiciOk": 0,
+      "indiciAllerta": 0,
+      "indiciMancanti": 7,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "> Capitale Sociale",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore impianti",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dati finanziari non disponibili",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "azienda-recente",
+        "title": "Azienda di Recente Costituzione",
+        "icon": "ri-time-line",
+        "colorClass": "warning",
+        "text": "L'azienda è stata costituita nel dicembre 2022 e non ha ancora depositato bilanci. Gli indici del Codice della Crisi non sono applicabili in assenza di dati finanziari."
+      },
+      {
+        "id": "monitoraggio",
+        "title": "Raccomandazione di Monitoraggio",
+        "icon": "ri-shield-check-line",
+        "colorClass": "primary",
+        "text": "Si raccomanda di richiedere i primi dati finanziari non appena disponibili per procedere con la valutazione degli indici di allerta precoce previsti dal D.Lgs. 14/2019."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dati-mancanti",
+      "icon": "ri-information-line",
+      "title": "Limitazioni dell'Analisi",
+      "subtitle": "Azienda di recente costituzione - Dati finanziari non disponibili",
+      "formula": "Analisi basata esclusivamente su dati anagrafici e risk score",
+      "values": [
+        {
+          "label": "Data Costituzione",
+          "value": "07/12/2022",
+          "color": "text"
+        },
+        {
+          "label": "Risk Score",
+          "value": "VERDE",
+          "color": "green"
+        },
+        {
+          "label": "Limite Operativo",
+          "value": "€ 12.000",
+          "color": "text"
+        },
+        {
+          "label": "Eventi Negativi",
+          "value": "Assenti",
+          "color": "green"
+        }
+      ],
+      "assumptions": [
+        "L'azienda è stata costituita nel <strong>dicembre 2022</strong> e non ha ancora depositato bilanci",
+        "Il <strong>risk score VERDE</strong> indica un profilo di rischio inferiore alla media",
+        "Il <strong>limite operativo di € 12.000</strong> è standard per aziende senza storico finanziario",
+        "L'assenza di <strong>eventi negativi</strong> (protesti, procedure, pregiudizievoli) è un elemento positivo"
+      ],
+      "result": {
+        "calculation": "Valutazione basata su: Risk Score + Dati anagrafici + Assenza eventi negativi",
+        "value": "Profilo Accettabile",
+        "interpretation": "Nonostante l'assenza di dati finanziari, il profilo di rischio VERDE e l'assenza di eventi negativi suggeriscono un approccio prudente ma non eccessivamente restrittivo. Il limite operativo di € 12.000 è appropriato per una valutazione iniziale."
+      }
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "LA MEDITERRANEA IMPIANTI DI VALENTINI E FERRANDINO ANTONIO S.N.C."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Società in Nome Collettivo"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "07/12/2022"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "4322 - Plumbing, heat and air-conditioning installation"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA VINCENZO ANTONELLINI, 28<br>48011 ALFONSINE (RA)"
+      },
+      {
+        "label": "PEC",
+        "value": "LAMEDITERRANEAVF@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Dipendenti",
+        "value": "0"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Risk Score",
+        "value": "VERDE (inferiore alla media)"
+      },
+      {
+        "label": "Limite Operativo",
+        "value": "€ 12.000"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "N/D",
+      "trend": "Azienda recente"
+    },
+    {
+      "label": "EBITDA",
+      "value": "N/D",
+      "trend": "Azienda recente"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "N/D",
+      "trend": "Azienda recente"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "N/D",
+      "trend": "Azienda recente"
+    },
+    {
+      "label": "RISK SCORE",
+      "value": "VERDE",
+      "status": "Inferiore alla media"
+    },
+    {
+      "label": "LIMITE OPERATIVO",
+      "value": "€ 12.000",
+      "status": "Standard per aziende recenti"
+    }
+  ],
+  "partecipazioni": []
+}
