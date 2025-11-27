@@ -1,0 +1,1157 @@
+{
+  "company": {
+    "name": "EUREDIL SRL",
+    "fullName": "EUREDIL S.R.L.",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "03080980927",
+    "foundedDate": "12/01/2007",
+    "ateco": "47523 - Retail sale of other building material, bricks and tiles",
+    "address": {
+      "street": "VIA ARCHIMEDE, 5",
+      "city": "SELARGIUS",
+      "province": "CA",
+      "zip": "09047"
+    },
+    "contacts": {
+      "email": "info@euredil.com",
+      "pec": "AMMINISTRAZIONE@PEC.EUREDILSRL.COM",
+      "phone": "070848015",
+      "website": "www.euredil.com"
+    },
+    "social": [],
+    "capitaleSociale": 10000,
+    "employees": {
+      "current": 7,
+      "previous": 9,
+      "trend": -22
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "27 Novembre 2025",
+    "generatedDate": "27/11/2025"
+  },
+  "riskAssessment": {
+    "score": 64.58,
+    "maxScore": 100,
+    "category": "C",
+    "categoryLabel": "Rischio elevato - Categoria C",
+    "rating": "C1",
+    "previousRating": "B3",
+    "description": "L'IRP Euredil (scala 0-100) evidenzia un deterioramento significativo dell'affidabilità. Il rating C1 (peggiorato da B3) e le perdite operative indicano attualmente un rischio elevato.",
+    "colorClass": "red"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "64,58",
+      "icon": "ri-shield-line",
+      "colorClass": "yellow",
+      "category": {
+        "label": "CATEGORIA C",
+        "class": "c"
+      },
+      "benchmark": "Rischio superiore alla media"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 1.278.263",
+      "icon": "ri-funds-box-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -8.96,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "In decrescita significativa"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "-1,34%",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -126.04,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Critico (benchmark 8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "N/C",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "benchmark": "Non calcolabile per EBITDA negativo"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "83 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "green",
+      "benchmark": "Buono (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ -35.515",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -2.78,
+        "label": "dei Ricavi",
+        "direction": "down",
+        "unit": "%"
+      },
+      "benchmark": "Critico (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "-67,49%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "red",
+      "benchmark": "Critico (perdite significative)"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,34",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "benchmark": "Accettabile (benchmark >2.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "N/C",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "CRITICO",
+        "class": "critical"
+      },
+      "benchmark": "Non calcolabile per EBITDA negativo"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 5.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "red",
+      "trend": {
+        "value": -28.6,
+        "label": "12 mesi",
+        "direction": "down",
+        "text": "Ridotto"
+      },
+      "benchmark": "Ridotto - Monitoraggio intensivo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Giorni di incasso clienti nella media (83 gg vs benchmark 89 gg)",
+      "Liquidità corrente accettabile (1,34)",
+      "Presenza consolidata nel settore edile",
+      "Struttura operativa mantenuta (7 dipendenti)"
+    ],
+    "weaknesses": [
+      "EBITDA negativo (-€ 17.179) con margine -1,34%",
+      "Perdite operative significative (EBIT -€ 51.949)",
+      "ROE fortemente negativo (-67,49%)",
+      "Leverage elevato (12,07)",
+      "Cash flow operativo negativo (-€ 35.515)",
+      "Tutti gli indici di redditività in territorio negativo",
+      "Rating degradato da B3 a C1"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            0,
+            1.4,
+            1.28
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (€)",
+          "data": [
+            0,
+            66000,
+            -17179
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            4.7,
+            -1.34
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "Leverage",
+        "D/E Ratio",
+        "Current Ratio"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            12.07,
+            10.16,
+            1.34
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#f9b115"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            5,
+            3,
+            2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            83,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#24b47e",
+            "#f5365c",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            0
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su Ricavi",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            1.28,
+            1.21,
+            1.15,
+            1.09
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            -0.017,
+            -0.018,
+            -0.019,
+            -0.02
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)"
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "Leverage"
+      ],
+      "datasets": [
+        {
+          "label": "Euredil",
+          "data": [
+            2,
+            3,
+            1,
+            1,
+            2,
+            1
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Commercio al dettaglio)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Dic 2024",
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            7
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "yellow"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "in lieve peggioramento",
+        "type": "negative"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [
+    {
+      "name": "ROSSANA ATZENI",
+      "role": "Director",
+      "initials": "RA",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "22/02/2023"
+    },
+    {
+      "name": "MARTINO PISU",
+      "role": "Director",
+      "initials": "MP",
+      "colorClass": "teal",
+      "appointmentDate": "22/02/2023"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "name": "Nessuna partecipazione rilevata",
+        "percentage": "0%",
+        "note": "La società non detiene partecipazioni significative"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 1.278.263",
+        "trend": {
+          "direction": "down",
+          "value": "-8,96%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ -17.179",
+        "trend": {
+          "direction": "down",
+          "value": "-126,04%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ -70.290",
+        "trend": {
+          "direction": "down",
+          "value": "Perdite significative",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 104.140",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 10.000",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "-67,49%",
+        "trend": {
+          "direction": "down",
+          "value": "Fortemente negativo",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "-4,14%",
+        "trend": {
+          "direction": "down",
+          "value": "Negativo",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "-3,93%",
+        "trend": {
+          "direction": "down",
+          "value": "Negativo",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "12,07",
+        "trend": {
+          "direction": "up",
+          "value": "Molto elevato",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,34",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "EUREDIL S.R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "12/01/2007"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "47523 - Retail sale of other building material, bricks and tiles"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA ARCHIMEDE, 5<br>09047 SELARGIUS (CA)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@euredil.com<br>AMMINISTRAZIONE@PEC.EUREDILSRL.COM"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 10.000"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "7 (-22% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "070848015"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.euredil.com"
+          },
+          {
+            "label": "Social",
+            "value": "Nessun profilo social"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Urgente revisione del modello di business per invertire il trend negativo dell'EBITDA",
+      "Analisi approfondita della struttura dei costi per identificare aree di ottimizzazione",
+      "Valutazione dell'opportunità di ristrutturazione del debito data l'elevata esposizione",
+      "Implementazione di un piano di rilancio commerciale per recuperare marginalità",
+      "Monitoraggio intensivo della liquidità e del capitale circolante",
+      "Fido ridotto a € 5.000 con necessità di garanzie aggiuntive"
+    ],
+    "outlook": "L'azienda attraversa una fase critica caratterizzata da perdite operative significative e deterioramento di tutti gli indicatori di redditività. Il downgrade del rating da B3 a C1 riflette l'aggravarsi della situazione finanziaria. Nonostante la liquidità corrente sia ancora accettabile, la generazione di cassa negativa e l'elevato leverage richiedono interventi immediati. Si raccomanda un approccio molto prudente nell'erogazione di credito, con riduzione del limite operativo e richiesta di garanzie aggiuntive."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ALLERTA",
+      "colorClass": "red",
+      "indiciOk": 4,
+      "indiciAllerta": 1,
+      "indiciMancanti": 2,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 104.140",
+        "detail": "Capitale sociale: € 10.000",
+        "soglia": "> € 10.000",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "N/C",
+        "detail": "EBITDA negativo",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "1,43%",
+        "detail": "€ 18.336 / € 1.278.263",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore commercio",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "9,85%",
+        "detail": "€ 104.140 / € 1.057.678",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "-2,83%",
+        "detail": "€ -35.515 / € 1.256.444",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "141,45%",
+        "detail": "€ 1.167.836 / € 825.687",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Critico",
+        "icon": "ri-alert-line",
+        "colorClass": "red",
+        "text": "Il DSCR non è calcolabile a causa dell'EBITDA negativo. Questa situazione indica una grave difficoltà nella capacità di servire il debito e richiede interventi immediati."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Un indice in allerta non costituisce automaticamente crisi secondo D.Lgs. 14/2019, ma la situazione complessiva richiede attenzione."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione Urgente",
+        "icon": "ri-shield-check-line",
+        "colorClass": "red",
+        "text": "Si consiglia di: (1) implementare piano di risanamento immediato, (2) monitorare intensivamente la liquidità, (3) valutare ristrutturazione del debito."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 47523 (Commercio al dettaglio)",
+        "colorClass": "secondary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Non calcolabile",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ -17.179",
+          "color": "red"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 18.336",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 825.687",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 231.991",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "20% dei debiti a breve è considerato di natura finanziaria: € 825.687 × 0.20 = € 165.137",
+        "100% dei debiti M/L termine è considerato finanziario: € 231.991",
+        "Ammortamento debiti M/L su 5 anni: € 231.991 / 5 = € 46.398",
+        "Quota Capitale Annuale Totale: € 165.137 + € 46.398 = € 211.535"
+      ],
+      "result": {
+        "calculation": "EBITDA negativo rende il calcolo non significativo",
+        "value": "N/C",
+        "interpretation": "Con EBITDA negativo di € -17.179, l'azienda non genera flusso operativo sufficiente per coprire nemmeno gli oneri finanziari, figuriamoci il servizio completo del debito. Questa situazione richiede interventi immediati di ristrutturazione."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico 2024",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2024": "€ 54.946",
+              "voce": "Immateriali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2024": "€ 31.417",
+              "voce": "Materiali",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2024": "€ 0",
+              "voce": "Finanziarie",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2024": "€ 86.363",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "circolante": [
+            {
+              "2024": "€ 292.397",
+              "voce": "Crediti",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2024": "€ 10.658",
+              "voce": "Disponibilità liquide",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleCircolante": {
+            "2024": "€ 1.167.836",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "totaleAttivo": {
+            "2024": "€ 1.256.444",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2024": "€ 10.000",
+              "voce": "Capitale sociale",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2024": "€ 104.140",
+              "voce": "Patrimonio netto",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2024": "€ 104.140",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "debiti": [
+            {
+              "2024": "€ 825.687",
+              "voce": "Debiti a breve termine",
+              "trend": "N/D",
+              "trendColor": "gray"
+            },
+            {
+              "2024": "€ 231.991",
+              "voce": "Debiti a M/L termine",
+              "trend": "N/D",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleDebiti": {
+            "2024": "€ 1.057.678",
+            "trend": "N/D",
+            "trendColor": "gray"
+          },
+          "totalePassivo": {
+            "2024": "€ 1.256.444",
+            "trend": "N/D",
+            "trendColor": "gray"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 1.404.063",
+          "2024": "€ 1.278.263",
+          "voce": "Ricavi delle vendite",
+          "trend": "-8,96%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 65.973",
+          "2024": "€ -17.179",
+          "voce": "EBITDA",
+          "trend": "-126,04%",
+          "trendColor": "red",
+          "highlight": true
+        },
+        {
+          "2023": "€ 29.110",
+          "2024": "€ -51.949",
+          "voce": "Risultato operativo",
+          "trend": "-278,47%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "€ 24.556",
+          "2024": "€ -70.290",
+          "voce": "Utile netto",
+          "trend": "-386,26%",
+          "trendColor": "red",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "EUREDIL S.R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "12/01/2007"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "47523 - Retail sale of other building material, bricks and tiles"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA ARCHIMEDE, 5<br>09047 SELARGIUS (CA)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@euredil.com<br>AMMINISTRAZIONE@PEC.EUREDILSRL.COM"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 10.000"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "7 (-22% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "070848015"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.euredil.com"
+      },
+      {
+        "label": "Social",
+        "value": "Nessun profilo social"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 1.278.263",
+      "trend": "-8,96% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ -17.179",
+      "trend": "-126,04% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ -70.290",
+      "trend": "Perdite significative"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 104.140",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 10.000",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "-67,49%",
+      "status": "Fortemente negativo"
+    },
+    {
+      "label": "ROI",
+      "value": "-4,14%",
+      "status": "Negativo"
+    },
+    {
+      "label": "ROS",
+      "value": "-3,93%",
+      "status": "Negativo"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "12,07",
+      "status": "Molto elevato"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,34",
+      "status": "Accettabile"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "name": "Nessuna partecipazione rilevata",
+      "percentage": "0%",
+      "note": "La società non detiene partecipazioni significative"
+    }
+  ]
+}
