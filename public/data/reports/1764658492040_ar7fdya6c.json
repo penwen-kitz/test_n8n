@@ -1,0 +1,1240 @@
+{
+  "company": {
+    "name": "SOC AGRICOLA ARDESIA DI RENZO ABBONDANDOLO SRLS",
+    "fullName": "SOCIETA AGRICOLA ARDESIA DI RENZO ABBONDANDOLO SOCIETA A RESPONSABILITA LIMITATA SEMPLIFICATA",
+    "legalForm": "Simplified limited liability company",
+    "piva": "02892660644",
+    "foundedDate": "04/05/2016",
+    "ateco": "01483 - Bee-keeping",
+    "address": {
+      "street": "VIA SANTA MARIA, SNC",
+      "city": "FLUMERI",
+      "province": "AV",
+      "zip": "83040"
+    },
+    "contacts": {
+      "email": "info@mieleardesia.it",
+      "pec": "ARDESIAGRICOLASRLS@LEGALMAIL.IT",
+      "phone": "",
+      "website": "www.mieleardesia.it"
+    },
+    "social": [
+      "Instagram"
+    ],
+    "capitaleSociale": 5000,
+    "employees": {
+      "current": 4,
+      "previous": 3,
+      "trend": 33
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "2 Dicembre 2025",
+    "generatedDate": "02/12/2025"
+  },
+  "riskAssessment": {
+    "score": 77.32,
+    "maxScore": 100,
+    "category": "B",
+    "categoryLabel": "Rischio moderato - Categoria B",
+    "rating": "B2",
+    "previousRating": "B2",
+    "description": "L'IRP Ardesia (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating B2 (invariato) e la buona solidità finanziaria indicano attualmente un rischio moderato.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": "77,32",
+      "icon": "ri-shield-line",
+      "colorClass": "blue",
+      "category": {
+        "label": "CATEGORIA B",
+        "class": "b"
+      },
+      "benchmark": "Buona solidità finanziaria"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 139.407",
+      "icon": "ri-funds-box-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 587.65,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Crescita eccezionale"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "6,17%",
+      "icon": "ri-percent-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": -65.33,
+        "label": "vs 2023",
+        "direction": "down"
+      },
+      "benchmark": "Sotto benchmark (8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "2,72x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": 2.72,
+        "label": "vs 2023",
+        "direction": "neutral",
+        "unit": "x"
+      },
+      "benchmark": "Buono (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "98 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 98,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Sopra benchmark (89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 8.099",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "light-green",
+      "trend": {
+        "value": 5.81,
+        "label": "dei Ricavi",
+        "direction": "up",
+        "unit": "%"
+      },
+      "benchmark": "Buono (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "8,28%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 8.28,
+        "label": "vs 2023",
+        "direction": "up",
+        "unit": "pp"
+      },
+      "benchmark": "Accettabile"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "6,15",
+      "icon": "ri-water-flash-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 6.15,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Eccellente (benchmark >2.0)"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "0,30x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "red",
+      "badge": {
+        "label": "CRITICO",
+        "class": "critical"
+      },
+      "benchmark": "Sotto soglia minima (benchmark >1.0)"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 5.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 150,
+        "label": "12 mesi",
+        "direction": "up",
+        "text": "Aumentato"
+      },
+      "benchmark": "Consigliato - Monitoraggio attivo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Ottimo equilibrio finanziario (score 5/5)",
+      "Crescita fatturato eccezionale (+587,65%)",
+      "Ottimi indici di liquidità (6,15)",
+      "Buona posizione finanziaria netta (2,72x EBITDA)",
+      "Incremento dipendenti (+33%)",
+      "Settore agricolo resiliente"
+    ],
+    "weaknesses": [
+      "DSCR critico (0,30x, sotto soglia minima)",
+      "Forte contrazione EBITDA (-72,44%)",
+      "Sostenibilità del debito problematica (score 2/5)",
+      "Sviluppo-Trend negativo (score 1/5)",
+      "Elevato rapporto Debiti/EBITDA (8,23x)",
+      "Marginalità operativa ridotta"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (K€)",
+          "data": [
+            0,
+            20.3,
+            139.4
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (K€)",
+          "data": [
+            0,
+            31.2,
+            8.6
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            153.9,
+            6.17
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            2.72,
+            0.9,
+            0.3
+          ],
+          "backgroundColor": [
+            "#24b47e",
+            "#24b47e",
+            "#f5365c"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            2,
+            1
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            98,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f9b115",
+            "#24b47e",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            0
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            0.3,
+            0.28,
+            0.27,
+            0.25
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Ardesia",
+          "data": [
+            4,
+            5,
+            4,
+            3,
+            5,
+            4
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Agricoltura e allevamento)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025",
+        "Dic 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 5,
+      "maxScore": 5,
+      "evaluation": "Ottima",
+      "trend": {
+        "label": "in miglioramento",
+        "type": "positive"
+      },
+      "color": "green"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 4,
+      "maxScore": 5,
+      "evaluation": "Positiva",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "light-green"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "in peggioramento",
+        "type": "negative"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    }
+  ],
+  "management": [
+    {
+      "name": "RENZO ABBONDANDOLO",
+      "role": "Managing director",
+      "initials": "RA",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "04/05/2016"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": []
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 139.407",
+        "trend": {
+          "direction": "up",
+          "value": "+587,65%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 8.597",
+        "trend": {
+          "direction": "down",
+          "value": "-72,44%",
+          "label": "vs 2023"
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ 4.930",
+        "trend": {
+          "direction": "up",
+          "value": "+246,84%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 79.005",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 5.000",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "8,28%",
+        "trend": {
+          "direction": "up",
+          "value": "Redditività accettabile",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "4,70%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Da migliorare",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "6,63%",
+        "trend": {
+          "direction": "up",
+          "value": "Marginalità buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "1,90",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "52,75%",
+        "trend": {
+          "direction": "up",
+          "value": "Buona",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "0,30x",
+        "trend": {
+          "direction": "down",
+          "value": "Critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "6,15",
+        "trend": {
+          "direction": "up",
+          "value": "Eccellente",
+          "label": ""
+        },
+        "colorClass": "positive"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "SOC AGRICOLA ARDESIA DI RENZO ABBONDANDOLO SRLS"
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Simplified limited liability company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "04/05/2016"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "01483 - Bee-keeping"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA SANTA MARIA, SNC<br>83040 FLUMERI (AV)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@mieleardesia.it<br>ARDESIAGRICOLASRLS@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 5.000"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "4 (+33% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "N/D"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.mieleardesia.it"
+          },
+          {
+            "label": "Social",
+            "value": "Instagram"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Urgente miglioramento del DSCR attraverso riduzione debiti o incremento EBITDA",
+      "Monitoraggio attento della sostenibilità del debito (rapporto Debiti/EBITDA 8,23x)",
+      "Valutazione strategie per recuperare marginalità operativa",
+      "Analisi dell'impatto della crescita del fatturato sulla struttura operativa",
+      "Fido consigliato: € 5.000 (aumentato da € 2.000 negli ultimi 12 mesi)"
+    ],
+    "outlook": "L'azienda presenta un quadro misto con segnali positivi e criticità significative. La crescita eccezionale del fatturato (+587,65%) e l'ottima liquidità sono controbilanciate da un DSCR critico (0,30x) e dalla forte contrazione dell'EBITDA. Il rating B2 invariato riflette questa situazione di equilibrio instabile. Il settore agricolo (apicoltura) offre buone prospettive, ma è necessario un intervento urgente sulla struttura del debito e sul recupero della marginalità operativa per garantire la sostenibilità a medio termine."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "ATTENZIONE",
+      "colorClass": "warning",
+      "indiciOk": 5,
+      "indiciAllerta": 1,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 79.005",
+        "detail": "Capitale sociale: € 5.000",
+        "soglia": "> € 5.000",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "0,30x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "ALLERTA",
+        "statusIcon": "ri-alert-fill",
+        "colorClass": "negative"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "0,16%",
+        "detail": "€ 225 / € 139.407",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore agricoltura",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "111,64%",
+        "detail": "€ 79.005 / € 70.766",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "5,41%",
+        "detail": "€ 8.099 / € 149.771",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "609,16%",
+        "detail": "€ 82.616 / € 13.556",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Critico",
+        "icon": "ri-alert-line",
+        "colorClass": "negative",
+        "text": "Il DSCR di 0,30x è significativamente sotto la soglia minima di 1,0. Questo indica che l'EBITDA attuale non è sufficiente a coprire il servizio del debito, richiedendo interventi urgenti."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-7) fuori soglia contemporaneamente. Un solo indice in allerta non costituisce crisi secondo D.Lgs. 14/2019."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "warning",
+        "text": "Si consiglia di: (1) implementare piano di ristrutturazione del debito, (2) analizzare strategie per incremento EBITDA, (3) verificare disaggregazione debiti tributari/previdenziali."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 01483 (Apicoltura)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 8.597",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 225",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 13.556",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 57.210",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 13.556 × 0.20 = <strong>€ 2.711</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 57.210</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 57.210 / 5 = <strong>€ 11.442</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 2.711 + € 11.442 = <strong style='color: var(--primary);'>€ 14.153</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 8.597 / (€ 225 + € 14.153) = € 8.597 / € 14.378",
+        "value": "0,30x",
+        "interpretation": "Un DSCR di 0,30 indica che l'azienda genera un EBITDA insufficiente a coprire il servizio del debito. È necessario un DSCR di almeno 1,0 per la sostenibilità, mentre un valore ottimale è considerato ≥ 1,3."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 240",
+              "voce": "Immateriali",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 66.074",
+              "voce": "Materiali",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 93",
+              "voce": "Finanziarie",
+              "trend": "N/A",
+              "trendColor": "green"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ 0",
+            "2024": "€ 66.407",
+            "trend": "N/A",
+            "trendColor": "green"
+          },
+          "circolante": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 37.396",
+              "voce": "Crediti",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 33.545",
+              "voce": "Disponibilità liquide",
+              "trend": "N/A",
+              "trendColor": "green"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ 0",
+            "2024": "€ 82.616",
+            "trend": "N/A",
+            "trendColor": "green"
+          },
+          "totaleAttivo": {
+            "2023": "€ 0",
+            "2024": "€ 149.771",
+            "trend": "N/A",
+            "trendColor": "green"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 5.000",
+              "2024": "€ 5.000",
+              "voce": "Capitale sociale",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 74.075",
+              "voce": "Riserve",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "-€ 3.357",
+              "2024": "€ 4.930",
+              "voce": "Utile d'esercizio",
+              "trend": "+246,8%",
+              "trendColor": "green"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ 1.643",
+            "2024": "€ 79.005",
+            "trend": "+4.710%",
+            "trendColor": "green"
+          },
+          "debiti": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 13.556",
+              "voce": "Debiti a breve termine",
+              "trend": "N/A",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 57.210",
+              "voce": "Debiti a M/L termine",
+              "trend": "N/A",
+              "trendColor": "red"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ 0",
+            "2024": "€ 70.766",
+            "trend": "N/A",
+            "trendColor": "red"
+          },
+          "totalePassivo": {
+            "2023": "€ 1.643",
+            "2024": "€ 149.771",
+            "trend": "+9.020%",
+            "trendColor": "green"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 20.275",
+          "2024": "€ 139.407",
+          "voce": "Ricavi delle vendite",
+          "trend": "+587,7%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 31.194",
+          "2024": "€ 8.597",
+          "voce": "EBITDA",
+          "trend": "-72,4%",
+          "trendColor": "red",
+          "highlight": true
+        },
+        {
+          "2023": "€ 9.702",
+          "2024": "€ 7.043",
+          "voce": "Risultato operativo",
+          "trend": "-27,4%",
+          "trendColor": "red"
+        },
+        {
+          "2023": "-€ 3.357",
+          "2024": "€ 4.930",
+          "voce": "Utile netto",
+          "trend": "+246,8%",
+          "trendColor": "green",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "SOC AGRICOLA ARDESIA DI RENZO ABBONDANDOLO SRLS"
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Simplified limited liability company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "04/05/2016"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "01483 - Bee-keeping"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA SANTA MARIA, SNC<br>83040 FLUMERI (AV)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@mieleardesia.it<br>ARDESIAGRICOLASRLS@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 5.000"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "4 (+33% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "N/D"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.mieleardesia.it"
+      },
+      {
+        "label": "Social",
+        "value": "Instagram"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 139.407",
+      "trend": "+587,65% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 8.597",
+      "trend": "-72,44% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 4.930",
+      "trend": "+246,84% vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 79.005",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 5.000",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "8,28%",
+      "status": "Redditività accettabile"
+    },
+    {
+      "label": "ROI",
+      "value": "4,70%",
+      "status": "Da migliorare"
+    },
+    {
+      "label": "ROS",
+      "value": "6,63%",
+      "status": "Marginalità buona"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "1,90",
+      "status": "Accettabile"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "52,75%",
+      "status": "Buona"
+    },
+    {
+      "label": "DSCR",
+      "value": "0,30x",
+      "status": "Critico"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "6,15",
+      "status": "Eccellente"
+    }
+  ],
+  "partecipazioni": []
+}
