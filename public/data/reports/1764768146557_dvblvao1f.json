@@ -1,0 +1,1322 @@
+{
+  "company": {
+    "name": "SELVA MERCURIO SRL",
+    "fullName": "SELVA MERCURIO S.R.L.",
+    "legalForm": "Limited liability company/ limited company",
+    "piva": "01721450136",
+    "foundedDate": "29/12/1987",
+    "ateco": "41 - Construction of residential and non-residential buildings",
+    "address": {
+      "street": "VIA ANDREA ALCIATO, 1",
+      "city": "COMO",
+      "province": "CO",
+      "zip": "22100"
+    },
+    "contacts": {
+      "email": "info@selvamercurio.com",
+      "pec": "SELVAMERCURIO@LEGALMAIL.IT",
+      "phone": "0312635524",
+      "website": "www.selvamercurio.com"
+    },
+    "social": [],
+    "capitaleSociale": 250000,
+    "employees": {
+      "current": 20,
+      "previous": 30,
+      "trend": -33
+    },
+    "locations": 1
+  },
+  "reportInfo": {
+    "date": "3 Dicembre 2025",
+    "generatedDate": "03/12/2025"
+  },
+  "riskAssessment": {
+    "score": 77.26,
+    "maxScore": 100,
+    "category": "B",
+    "categoryLabel": "Rischio moderato - Categoria B",
+    "rating": "B2",
+    "previousRating": "B3",
+    "description": "L'IRP Selva Mercurio (scala 0-100) offre una valutazione olistica dell'affidabilità. Il rating B2 (migliorato da B3) e la crescita significativa del fatturato indicano attualmente un rischio moderato con prospettive positive.",
+    "colorClass": "light-green"
+  },
+  "keyMetrics": [
+    {
+      "id": "risk-index",
+      "title": "INDICE DI RISCHIO",
+      "value": 77.26,
+      "icon": "ri-shield-line",
+      "colorClass": "blue",
+      "category": {
+        "label": "CATEGORIA B",
+        "class": "b"
+      },
+      "benchmark": "Buona solidità finanziaria"
+    },
+    {
+      "id": "revenues",
+      "title": "RICAVI",
+      "value": "€ 18.589.938",
+      "icon": "ri-funds-box-line",
+      "colorClass": "green",
+      "trend": {
+        "value": 59.74,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Crescita significativa"
+    },
+    {
+      "id": "ebitda-margin",
+      "title": "EBITDA MARGIN",
+      "value": "1,91%",
+      "icon": "ri-percent-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 183.19,
+        "label": "vs 2023",
+        "direction": "up"
+      },
+      "benchmark": "Sotto benchmark (8-10%)"
+    },
+    {
+      "id": "pfn-ebitda",
+      "title": "PFN / EBITDA",
+      "value": "4,80x",
+      "icon": "ri-scales-3-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 4.8,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "x"
+      },
+      "benchmark": "Critico (benchmark <3.0)"
+    },
+    {
+      "id": "dso",
+      "title": "GIORNI INCASSO CLIENTI",
+      "value": "137 gg",
+      "icon": "ri-calendar-check-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 137,
+        "label": "vs benchmark",
+        "direction": "up",
+        "unit": "gg"
+      },
+      "benchmark": "Critico (benchmark 89 gg)"
+    },
+    {
+      "id": "cash-flow",
+      "title": "CASH FLOW OPERATIVO",
+      "value": "€ 157.096",
+      "icon": "ri-money-dollar-circle-line",
+      "colorClass": "red",
+      "trend": {
+        "value": 0.85,
+        "label": "dei Ricavi",
+        "direction": "neutral",
+        "unit": "%"
+      },
+      "benchmark": "Insufficiente (benchmark >5%)"
+    },
+    {
+      "id": "roe",
+      "title": "ROE",
+      "value": "4,31%",
+      "icon": "ri-line-chart-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 4.31,
+        "label": "vs benchmark",
+        "direction": "neutral",
+        "unit": "pp"
+      },
+      "benchmark": "Accettabile"
+    },
+    {
+      "id": "liquidity",
+      "title": "LIQUIDITÀ CORRENTE",
+      "value": "1,43",
+      "icon": "ri-water-flash-line",
+      "colorClass": "yellow",
+      "trend": {
+        "value": 1.43,
+        "label": "vs benchmark",
+        "direction": "neutral"
+      },
+      "benchmark": "Nella media"
+    },
+    {
+      "id": "dscr",
+      "title": "DSCR",
+      "value": "2,14x",
+      "icon": "ri-shield-check-line",
+      "colorClass": "green",
+      "badge": {
+        "label": "OTTIMO",
+        "class": "excellent"
+      },
+      "benchmark": "Ottimo margine di copertura"
+    },
+    {
+      "id": "fido",
+      "title": "FIDO CONSIGLIATO",
+      "value": "€ 65.000",
+      "icon": "ri-bank-card-line",
+      "colorClass": "secondary",
+      "trend": {
+        "value": 80.56,
+        "label": "12 mesi",
+        "direction": "up",
+        "text": "Migliorato"
+      },
+      "benchmark": "Consigliato - Monitoraggio attivo"
+    }
+  ],
+  "executiveSummary": {
+    "strengths": [
+      "Crescita significativa del fatturato (+59,74%)",
+      "Forte miglioramento dell'EBITDA (+183,19%)",
+      "Ritorno alla profittabilità operativa (EBIT positivo)",
+      "DSCR ottimo (2,14x) con ampio margine di copertura",
+      "Miglioramento del rating da B3 a B2",
+      "Sviluppo e trend eccellenti (score 5/5)",
+      "Aumento del fido operativo a € 65.000"
+    ],
+    "weaknesses": [
+      "Sostenibilità del debito critica (score 1/5)",
+      "Equilibrio finanziario problematico (score 2/5)",
+      "Equilibrio economico da migliorare (score 2/5)",
+      "PFN/EBITDA elevato (4,80x vs benchmark 3,0x)",
+      "Marginalità EBITDA molto bassa (1,91% vs 8-10%)",
+      "Giorni di incasso clienti elevati (137 vs 89 gg)",
+      "Riduzione del personale (-33%)"
+    ]
+  },
+  "charts": {
+    "economicTrend": {
+      "title": "Trend Economico (2022-2024)",
+      "labels": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "datasets": [
+        {
+          "label": "Ricavi (M€)",
+          "data": [
+            0,
+            11.6,
+            18.6
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA (M€)",
+          "data": [
+            0,
+            0.13,
+            0.35
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "EBITDA %",
+          "data": [
+            0,
+            1.08,
+            1.91
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "yAxisID": "y1"
+        }
+      ]
+    },
+    "debtSustainability": {
+      "title": "Sostenibilità del Debito",
+      "labels": [
+        "PFN/EBITDA",
+        "D/E Ratio",
+        "DSCR"
+      ],
+      "datasets": [
+        {
+          "label": "Valore Attuale",
+          "data": [
+            4.8,
+            5.99,
+            2.14
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#f5365c",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Soglia Critica",
+          "data": [
+            3,
+            3,
+            1.2
+          ],
+          "type": "line",
+          "borderColor": "rgba(0, 0, 0, 0.2)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "workingCapital": {
+      "title": "Capitale Circolante (giorni)",
+      "labels": [
+        "DSO",
+        "DIO",
+        "DPO"
+      ],
+      "datasets": [
+        {
+          "label": "Giorni Effettivi",
+          "data": [
+            137,
+            0,
+            0
+          ],
+          "backgroundColor": [
+            "#f5365c",
+            "#24b47e",
+            "#24b47e"
+          ]
+        },
+        {
+          "label": "Benchmark",
+          "data": [
+            89,
+            0,
+            0
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0.1)"
+        }
+      ]
+    },
+    "stressTest": {
+      "title": "Test di Stress - Impatto su DSCR",
+      "labels": [
+        "Base",
+        "-5%",
+        "-10%",
+        "-15%"
+      ],
+      "datasets": [
+        {
+          "label": "DSCR",
+          "data": [
+            2.14,
+            2.04,
+            1.93,
+            1.82
+          ],
+          "borderColor": "#24b47e",
+          "backgroundColor": "rgba(36, 180, 126, 0.1)",
+          "fill": true
+        },
+        {
+          "label": "Soglia Minima",
+          "data": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "#f9b115",
+          "borderDash": [
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Soglia Ottimale",
+          "data": [
+            1.3,
+            1.3,
+            1.3,
+            1.3
+          ],
+          "borderColor": "#24b47e",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "benchmarkRadar": {
+      "title": "Benchmark Settoriale",
+      "labels": [
+        "Capitalizzazione",
+        "Liquidità",
+        "ROI",
+        "ROS",
+        "Crescita fatturato",
+        "PFN/EBITDA"
+      ],
+      "datasets": [
+        {
+          "label": "Selva Mercurio",
+          "data": [
+            3,
+            3,
+            3,
+            2,
+            5,
+            2
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.2)"
+        },
+        {
+          "label": "Settore (Costruzioni)",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "borderColor": "#f5365c",
+          "backgroundColor": "rgba(245, 54, 92, 0.1)",
+          "borderDash": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "ratingEvolution": {
+      "title": "Evoluzione Rating",
+      "labels": [
+        "Gen 2025",
+        "Feb 2025",
+        "Mar 2025",
+        "Apr 2025",
+        "Mag 2025",
+        "Giu 2025",
+        "Lug 2025",
+        "Ago 2025",
+        "Set 2025",
+        "Ott 2025",
+        "Nov 2025",
+        "Dic 2025"
+      ],
+      "datasets": [
+        {
+          "label": "Rating",
+          "data": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            6
+          ],
+          "borderColor": "#2f3e9e",
+          "backgroundColor": "rgba(47, 62, 158, 0.1)",
+          "yAxisID": "y"
+        },
+        {
+          "label": "Risk Score",
+          "data": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2,
+            2
+          ],
+          "borderColor": "#f9b115",
+          "backgroundColor": "rgba(249, 177, 21, 0.1)",
+          "yAxisID": "y1"
+        }
+      ],
+      "ratingMap": {
+        "1": "A1",
+        "2": "A2",
+        "3": "A3",
+        "4": "B1",
+        "5": "B2",
+        "6": "B3",
+        "7": "C1",
+        "8": "C2",
+        "9": "C3",
+        "10": "D"
+      },
+      "scoreMap": {
+        "1": "VERDE",
+        "2": "V.CHIARO",
+        "3": "GIALLO",
+        "4": "ARANCIO",
+        "5": "ROSSO"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "equilibrio-patrimoniale",
+      "name": "Equilibrio Patrimoniale",
+      "score": 3,
+      "maxScore": 5,
+      "evaluation": "Nella media",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "yellow"
+    },
+    {
+      "id": "equilibrio-finanziario",
+      "name": "Equilibrio Finanziario",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "equilibrio-economico",
+      "name": "Equilibrio Economico",
+      "score": 2,
+      "maxScore": 5,
+      "evaluation": "Aspetti di criticità",
+      "trend": {
+        "label": "in lieve miglioramento",
+        "type": "positive"
+      },
+      "color": "orange"
+    },
+    {
+      "id": "sostenibilita-debito",
+      "name": "Sostenibilità del debito",
+      "score": 1,
+      "maxScore": 5,
+      "evaluation": "Negativa",
+      "trend": {
+        "label": "stabile",
+        "type": "stable"
+      },
+      "color": "red"
+    },
+    {
+      "id": "sviluppo-trend",
+      "name": "Sviluppo - Trend",
+      "score": 5,
+      "maxScore": 5,
+      "evaluation": "Ottima",
+      "trend": {
+        "label": "in forte miglioramento",
+        "type": "strong-positive"
+      },
+      "color": "green"
+    }
+  ],
+  "management": [
+    {
+      "name": "STEFANO FERRARI",
+      "role": "Managing director",
+      "initials": "SF",
+      "colorClass": "blue",
+      "badge": "Legale Rappresentante",
+      "appointmentDate": "27/02/1996"
+    },
+    {
+      "name": "SERGIO GADDI",
+      "role": "Permanent auditor",
+      "initials": "SG",
+      "colorClass": "teal",
+      "appointmentDate": "16/09/2021"
+    },
+    {
+      "name": "PAOLO BIANCHI",
+      "role": "Technical director",
+      "initials": "PB",
+      "colorClass": "yellow",
+      "appointmentDate": "27/12/2007"
+    }
+  ],
+  "shareholdings": {
+    "title": "Partecipazioni",
+    "companies": [
+      {
+        "id": "sicos",
+        "name": "SICOS SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "yellow",
+        "quota": "51%",
+        "type": "Partecipazione di Controllo"
+      },
+      {
+        "id": "sporting",
+        "name": "SPORTING B SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "secondary",
+        "quota": "12%",
+        "type": "Partecipazione Significativa"
+      },
+      {
+        "id": "opera",
+        "name": "CONSORZIO STABILE OPERA SCPA",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "1%",
+        "type": "Partecipazione Minore"
+      },
+      {
+        "id": "prospecta",
+        "name": "PROSPECTA SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "0,86%",
+        "type": "Partecipazione Minore"
+      },
+      {
+        "id": "inerti",
+        "name": "CONSORZIO COMENSE INERTI SRL",
+        "icon": "ri-building-4-line",
+        "colorClass": "primary",
+        "quota": "0,12%",
+        "type": "Partecipazione Minore"
+      }
+    ]
+  },
+  "financialData": {
+    "title": "Dati Economico-Finanziari",
+    "stats": [
+      {
+        "id": "fatturato",
+        "label": "Fatturato 2024",
+        "value": "€ 18.589.938",
+        "trend": {
+          "direction": "up",
+          "value": "+59,74%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "ebitda",
+        "label": "EBITDA",
+        "value": "€ 354.332",
+        "trend": {
+          "direction": "up",
+          "value": "+183,19%",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "utile",
+        "label": "Utile Netto",
+        "value": "€ 77.700",
+        "trend": {
+          "direction": "up",
+          "value": "Positivo",
+          "label": "vs 2023"
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimonio",
+        "label": "Patrimonio Netto",
+        "value": "€ 1.752.035",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bilancio 2024",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "capitale",
+        "label": "Capitale Sociale",
+        "value": "€ 250.000",
+        "trend": {
+          "direction": "neutral",
+          "value": "Invariato",
+          "label": ""
+        },
+        "colorClass": "neutral"
+      },
+      {
+        "id": "roe",
+        "label": "ROE",
+        "value": "4,31%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Accettabile",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "roi",
+        "label": "ROI",
+        "value": "2,15%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Da migliorare",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "ros",
+        "label": "ROS",
+        "value": "1,46%",
+        "trend": {
+          "direction": "neutral",
+          "value": "Marginalità bassa",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "leverage",
+        "label": "Leverage",
+        "value": "7,25",
+        "trend": {
+          "direction": "neutral",
+          "value": "Elevato - critico",
+          "label": ""
+        },
+        "colorClass": "negative"
+      },
+      {
+        "id": "capitalizzazione",
+        "label": "Capitalizzazione",
+        "value": "0,14",
+        "trend": {
+          "direction": "neutral",
+          "value": "Bassa - attenzione",
+          "label": ""
+        },
+        "colorClass": "warning"
+      },
+      {
+        "id": "dscr",
+        "label": "DSCR",
+        "value": "2,14x",
+        "trend": {
+          "direction": "up",
+          "value": "Ottimo",
+          "label": ""
+        },
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "label": "Liquidità",
+        "value": "1,43",
+        "trend": {
+          "direction": "neutral",
+          "value": "Nella media",
+          "label": ""
+        },
+        "colorClass": "warning"
+      }
+    ]
+  },
+  "companyProfile": {
+    "cards": [
+      {
+        "id": "anagrafica",
+        "title": "Dati Anagrafici",
+        "icon": "ri-profile-line",
+        "colorClass": "primary",
+        "items": [
+          {
+            "label": "Ragione Sociale",
+            "value": "SELVA MERCURIO S.R.L."
+          },
+          {
+            "label": "Forma Giuridica",
+            "value": "Limited liability company/ limited company"
+          },
+          {
+            "label": "Data Costituzione",
+            "value": "29/12/1987"
+          },
+          {
+            "label": "Codice ATECO",
+            "value": "41 - Construction of residential and non-residential buildings"
+          },
+          {
+            "label": "Indirizzo",
+            "value": "VIA ANDREA ALCIATO, 1<br>22100 COMO (CO)"
+          },
+          {
+            "label": "Email / PEC",
+            "value": "info@selvamercurio.com<br>SELVAMERCURIO@LEGALMAIL.IT"
+          }
+        ]
+      },
+      {
+        "id": "struttura",
+        "title": "Struttura",
+        "icon": "ri-organization-chart",
+        "colorClass": "secondary",
+        "items": [
+          {
+            "label": "Capitale Sociale",
+            "value": "€ 250.000"
+          },
+          {
+            "label": "Dipendenti",
+            "value": "20 (-33% vs 2023)"
+          },
+          {
+            "label": "Sedi Operative",
+            "value": "1 (Sede unica)"
+          },
+          {
+            "label": "Telefono",
+            "value": "0312635524"
+          },
+          {
+            "label": "Sito Web",
+            "value": "www.selvamercurio.com"
+          },
+          {
+            "label": "Social",
+            "value": "Non presenti"
+          }
+        ]
+      }
+    ]
+  },
+  "outlook": {
+    "raccomandazioni": [
+      "Monitoraggio della sostenibilità del debito e del rapporto PFN/EBITDA",
+      "Miglioramento della marginalità operativa attraverso ottimizzazione dei costi",
+      "Riduzione dei tempi di incasso clienti (attualmente 137 giorni vs benchmark 89)",
+      "Valutazione dell'opportunità di rafforzare la struttura patrimoniale",
+      "Controllo dell'evoluzione del cash flow operativo",
+      "Fido consigliato: € 65.000 (migliorato da € 36.000)"
+    ],
+    "outlook": "L'azienda mostra segnali molto positivi di crescita e miglioramento operativo, con un significativo aumento del fatturato e il ritorno alla profittabilità. Il miglioramento del rating da B3 a B2 riflette questa evoluzione positiva. Tuttavia, permangono criticità strutturali nella sostenibilità del debito e nella marginalità operativa che richiedono attenzione. Il DSCR ottimo (2,14x) fornisce un buon margine di sicurezza per il servizio del debito. Si raccomanda un approccio di monitoraggio attivo, con particolare attenzione all'evoluzione della marginalità e alla gestione del capitale circolante."
+  },
+  "codiceCrisi": {
+    "title": "Indici Codice della Crisi d'Impresa",
+    "status": {
+      "overall": "OK",
+      "colorClass": "positive",
+      "indiciOk": 5,
+      "indiciAllerta": 1,
+      "indiciMancanti": 1,
+      "totale": 7
+    },
+    "indices": [
+      {
+        "id": "patrimonio",
+        "number": 1,
+        "name": "Patrimonio Netto",
+        "description": "Indice generale - Tutte le imprese",
+        "value": "€ 1.752.035",
+        "detail": "Capitale sociale: € 250.000",
+        "soglia": "> € 250.000",
+        "sogliaNote": "E superiore al cap. sociale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "dscr",
+        "number": 2,
+        "name": "DSCR Previsionale 6 Mesi",
+        "description": "Debt Service Coverage Ratio",
+        "value": "2,14x",
+        "detail": "Valore storico",
+        "soglia": "≥ 1.0x",
+        "sogliaNote": "Su base prospettica",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "oneri",
+        "number": 3,
+        "name": "Sostenibilità Oneri Finanziari",
+        "description": "Oneri Finanziari / Fatturato",
+        "value": "0,21%",
+        "detail": "€ 38.523 / € 18.589.938",
+        "soglia": "≤ 3.8%",
+        "sogliaNote": "Settore costruzioni",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "patrimoniale",
+        "number": 4,
+        "name": "Adeguatezza Patrimoniale",
+        "description": "Patrimonio Netto / Debiti Totali",
+        "value": "16,68%",
+        "detail": "€ 1.752.035 / € 10.506.121",
+        "soglia": "≥ 2.3% - 9.4%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "ritorno",
+        "number": 5,
+        "name": "Ritorno Liquido dell'Attivo",
+        "description": "Cash Flow / Totale Attivo",
+        "value": "1,24%",
+        "detail": "€ 157.096 / € 12.697.485",
+        "soglia": "≥ 0.3% - 1.9%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "liquidita",
+        "number": 6,
+        "name": "Indice di Liquidità",
+        "description": "Attività Breve / Passività Breve",
+        "value": "142,26%",
+        "detail": "€ 11.773.729 / € 8.279.886",
+        "soglia": "≥ 69.8% - 108%",
+        "sogliaNote": "Range settoriale",
+        "status": "OK",
+        "statusIcon": "ri-checkbox-circle-fill",
+        "colorClass": "positive"
+      },
+      {
+        "id": "indebitamento",
+        "number": 7,
+        "name": "Indebitamento Prev./Tributario",
+        "description": "Debiti Trib+Prev / Totale Attivo",
+        "value": "N/D",
+        "detail": "Dato non disaggregato",
+        "soglia": "≤ 2.9% - 14.6%",
+        "sogliaNote": "Range settoriale",
+        "status": "MANCANTE",
+        "statusIcon": "ri-error-warning-fill",
+        "colorClass": "warning"
+      }
+    ],
+    "notes": [
+      {
+        "id": "dscr-note",
+        "title": "DSCR Storico vs Previsionale",
+        "icon": "ri-time-line",
+        "colorClass": "positive",
+        "text": "Il DSCR storico di 2,14x è ottimo e indica una solida capacità di copertura del servizio debito. Per il Codice della Crisi è richiesto il valore previsionale su 6 mesi."
+      },
+      {
+        "id": "interpretazione",
+        "title": "Interpretazione Normativa",
+        "icon": "ri-information-line",
+        "colorClass": "primary",
+        "text": "Per presunzione formale di crisi servono TUTTI e 5 gli indici settoriali (3-7) fuori soglia contemporaneamente. L'azienda presenta un quadro complessivamente positivo."
+      },
+      {
+        "id": "raccomandazione",
+        "title": "Raccomandazione",
+        "icon": "ri-shield-check-line",
+        "colorClass": "positive",
+        "text": "Si consiglia di: (1) implementare budget di tesoreria semestrale per DSCR prospettico, (2) verificare disaggregazione debiti tributari/previdenziali per completezza dell'analisi."
+      }
+    ],
+    "references": [
+      {
+        "id": "dlgs",
+        "title": "D.Lgs. 14/2019 - Codice della Crisi d'Impresa e dell'Insolvenza",
+        "description": "Art. 13: Indicatori della crisi - Sistema di allerta precoce",
+        "colorClass": "primary"
+      },
+      {
+        "id": "cndcec",
+        "title": "CNDCEC - Documento 'Crisi d'Impresa: Gli Indici dell'Allerta' (Ottobre 2019)",
+        "description": "Soglie settoriali differenziate per codice ATECO 41 (Costruzioni)",
+        "colorClass": "secondary"
+      },
+      {
+        "id": "cc",
+        "title": "Art. 2086 c.c. - Gestione dell'Impresa",
+        "description": "Obbligo di adeguati assetti organizzativi, amministrativi e contabili",
+        "colorClass": "primary"
+      }
+    ]
+  },
+  "noteTecniche": [
+    {
+      "id": "dscr",
+      "icon": "ri-calculator-line",
+      "title": "Metodologia di Calcolo DSCR",
+      "subtitle": "Debt Service Coverage Ratio - Formula e assunzioni",
+      "formula": "DSCR = EBITDA / (Oneri Finanziari Netti + Quota Capitale Annuale)",
+      "values": [
+        {
+          "label": "EBITDA",
+          "value": "€ 354.332",
+          "color": "green"
+        },
+        {
+          "label": "Oneri Finanziari Netti",
+          "value": "€ 38.523",
+          "color": "yellow"
+        },
+        {
+          "label": "Debiti a Breve Termine",
+          "value": "€ 8.279.886",
+          "color": "text"
+        },
+        {
+          "label": "Debiti M/L Termine",
+          "value": "€ 2.226.235",
+          "color": "text"
+        }
+      ],
+      "assumptions": [
+        "<strong>20%</strong> dei debiti a breve è considerato di natura finanziaria: € 8.279.886 × 0.20 = <strong>€ 1.655.977</strong>",
+        "<strong>100%</strong> dei debiti M/L termine è considerato finanziario: <strong>€ 2.226.235</strong>",
+        "Ammortamento debiti M/L su <strong>5 anni</strong>: € 2.226.235 / 5 = <strong>€ 445.247</strong>",
+        "<span style='border-top: 1px solid var(--border); display: block; padding-top: 0.75rem; margin-top: 0.75rem;'><strong>Quota Capitale Annuale Totale:</strong> € 1.655.977 + € 445.247 = <strong style='color: var(--primary);'>€ 2.101.224</strong></span>"
+      ],
+      "result": {
+        "calculation": "€ 354.332 / (€ 38.523 + € 126.577) = € 354.332 / € 165.100",
+        "value": "2,14x",
+        "interpretation": "Un DSCR di 2,14 indica che l'azienda genera un EBITDA più che sufficiente a coprire il servizio del debito con un ottimo margine di sicurezza del 114%. Questo valore è ben superiore alla soglia minima di 1,0 e anche alla soglia ottimale di 1,3."
+      }
+    },
+    {
+      "id": "bilancio",
+      "icon": "ri-file-text-line",
+      "title": "Bilancio Dettagliato",
+      "subtitle": "Stato Patrimoniale e Conto Economico con trend Y2Y",
+      "statoPatrimoniale": {
+        "attivo": {
+          "immobilizzazioni": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 800.000",
+              "voce": "Immateriali",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 87.178",
+              "voce": "Materiali",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 0",
+              "voce": "Finanziarie",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            }
+          ],
+          "totaleImmobilizzazioni": {
+            "2023": "€ 0",
+            "2024": "€ 887.178",
+            "trend": "N/A",
+            "trendColor": "green"
+          },
+          "circolante": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 6.976.082",
+              "voce": "Crediti",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 401.800",
+              "voce": "Disponibilità liquide",
+              "trend": "N/A",
+              "trendColor": "green"
+            }
+          ],
+          "totaleCircolante": {
+            "2023": "€ 0",
+            "2024": "€ 11.773.729",
+            "trend": "N/A",
+            "trendColor": "green"
+          },
+          "totaleAttivo": {
+            "2023": "€ 0",
+            "2024": "€ 12.697.485",
+            "trend": "N/A",
+            "trendColor": "green"
+          }
+        },
+        "passivo": {
+          "patrimonioNetto": [
+            {
+              "2023": "€ 250.000",
+              "2024": "€ 250.000",
+              "voce": "Capitale sociale",
+              "trend": "0,0%",
+              "trendColor": "gray"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 1.424.335",
+              "voce": "Riserve",
+              "trend": "N/A",
+              "trendColor": "green"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 77.700",
+              "voce": "Utile d'esercizio",
+              "trend": "N/A",
+              "trendColor": "green"
+            }
+          ],
+          "totalePatrimonioNetto": {
+            "2023": "€ 250.000",
+            "2024": "€ 1.752.035",
+            "trend": "600,8%",
+            "trendColor": "green"
+          },
+          "debiti": [
+            {
+              "2023": "€ 0",
+              "2024": "€ 8.279.886",
+              "voce": "Debiti a breve termine",
+              "trend": "N/A",
+              "trendColor": "red"
+            },
+            {
+              "2023": "€ 0",
+              "2024": "€ 2.226.235",
+              "voce": "Debiti a M/L termine",
+              "trend": "N/A",
+              "trendColor": "red"
+            }
+          ],
+          "totaleDebiti": {
+            "2023": "€ 0",
+            "2024": "€ 10.506.121",
+            "trend": "N/A",
+            "trendColor": "red"
+          },
+          "totalePassivo": {
+            "2023": "€ 0",
+            "2024": "€ 12.697.485",
+            "trend": "N/A",
+            "trendColor": "green"
+          }
+        }
+      },
+      "contoEconomico": [
+        {
+          "2023": "€ 11.637.000",
+          "2024": "€ 18.589.938",
+          "voce": "Ricavi delle vendite",
+          "trend": "+59,7%",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 125.126",
+          "2024": "€ 354.332",
+          "voce": "EBITDA",
+          "trend": "+183,2%",
+          "trendColor": "green",
+          "highlight": true
+        },
+        {
+          "2023": "€ -5.640",
+          "2024": "€ 272.777",
+          "voce": "Risultato operativo",
+          "trend": "N/A",
+          "trendColor": "green"
+        },
+        {
+          "2023": "€ 4.500",
+          "2024": "€ 77.700",
+          "voce": "Utile netto",
+          "trend": "+1.626,7%",
+          "trendColor": "green",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "profiloAziendale": {
+    "datiAnagrafici": [
+      {
+        "label": "Ragione Sociale",
+        "value": "SELVA MERCURIO S.R.L."
+      },
+      {
+        "label": "Forma Giuridica",
+        "value": "Limited liability company/ limited company"
+      },
+      {
+        "label": "Data Costituzione",
+        "value": "29/12/1987"
+      },
+      {
+        "label": "Codice ATECO",
+        "value": "41 - Construction of residential and non-residential buildings"
+      },
+      {
+        "label": "Indirizzo",
+        "value": "VIA ANDREA ALCIATO, 1<br>22100 COMO (CO)"
+      },
+      {
+        "label": "Email / PEC",
+        "value": "info@selvamercurio.com<br>SELVAMERCURIO@LEGALMAIL.IT"
+      }
+    ],
+    "struttura": [
+      {
+        "label": "Capitale Sociale",
+        "value": "€ 250.000"
+      },
+      {
+        "label": "Dipendenti",
+        "value": "20 (-33% vs 2023)"
+      },
+      {
+        "label": "Sedi Operative",
+        "value": "1 (Sede unica)"
+      },
+      {
+        "label": "Telefono",
+        "value": "0312635524"
+      },
+      {
+        "label": "Sito Web",
+        "value": "www.selvamercurio.com"
+      },
+      {
+        "label": "Social",
+        "value": "Non presenti"
+      }
+    ]
+  },
+  "datiFinanziari": [
+    {
+      "label": "FATTURATO 2024",
+      "value": "€ 18.589.938",
+      "trend": "+59,74% vs 2023"
+    },
+    {
+      "label": "EBITDA",
+      "value": "€ 354.332",
+      "trend": "+183,19% vs 2023"
+    },
+    {
+      "label": "UTILE NETTO",
+      "value": "€ 77.700",
+      "trend": "Positivo vs 2023"
+    },
+    {
+      "label": "PATRIMONIO NETTO",
+      "value": "€ 1.752.035",
+      "trend": "Bilancio 2024"
+    },
+    {
+      "label": "CAPITALE SOCIALE",
+      "value": "€ 250.000",
+      "trend": "Invariato"
+    },
+    {
+      "label": "ROE",
+      "value": "4,31%",
+      "status": "Accettabile"
+    },
+    {
+      "label": "ROI",
+      "value": "2,15%",
+      "status": "Da migliorare"
+    },
+    {
+      "label": "ROS",
+      "value": "1,46%",
+      "status": "Marginalità bassa"
+    },
+    {
+      "label": "LEVERAGE",
+      "value": "7,25",
+      "status": "Elevato - critico"
+    },
+    {
+      "label": "CAPITALIZZAZIONE",
+      "value": "0,14",
+      "status": "Bassa - attenzione"
+    },
+    {
+      "label": "DSCR",
+      "value": "2,14x",
+      "status": "Ottimo"
+    },
+    {
+      "label": "LIQUIDITÀ",
+      "value": "1,43",
+      "status": "Nella media"
+    }
+  ],
+  "partecipazioni": [
+    {
+      "companyName": "SICOS SRL",
+      "quota": "51%",
+      "tipo": "Partecipazione di Controllo"
+    },
+    {
+      "companyName": "SPORTING B SRL",
+      "quota": "12%",
+      "tipo": "Partecipazione Significativa"
+    },
+    {
+      "companyName": "CONSORZIO STABILE OPERA SCPA",
+      "quota": "1%",
+      "tipo": "Partecipazione Minore"
+    },
+    {
+      "companyName": "PROSPECTA SRL",
+      "quota": "0,86%",
+      "tipo": "Partecipazione Minore"
+    },
+    {
+      "companyName": "CONSORZIO COMENSE INERTI SRL",
+      "quota": "0,12%",
+      "tipo": "Partecipazione Minore"
+    }
+  ]
+}
