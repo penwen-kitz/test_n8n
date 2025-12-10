@@ -1,0 +1,809 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "RATING B3 - OUTLOOK NEGATIVO",
+    "verdict_color": "orange",
+    "key_message": "Azienda tecnologica in fase di crescita con forte espansione (+32,7% fatturato) ma con criticità strutturali: elevato indebitamento obbligazionario, margini operativi contenuti e sostenibilità del debito problematica. Richiede monitoraggio attento.",
+    "numeri_chiave": [
+      "Rating B3 (peggiorato da B2) - Speculative Grade",
+      "Fatturato €56,6M (+32,7% YoY) - forte crescita",
+      "EBITDA margin 4,7% - sotto media settore",
+      "Debiti/EBITDA 54,7x - critico",
+      "PFN €104,7M vs EBITDA €2,7M"
+    ],
+    "risk_level": "MEDIO-ALTO",
+    "focus_trimestre": "Monitorare sostenibilità servizio debito obbligazionario (€138M) e capacità di miglioramento margini operativi. Verificare execution piano di crescita.",
+    "next_review": "Q1 2025 - Verifica andamento margini, gestione liquidità e progressi su sostenibilità debito"
+  },
+  "executive_summary": {
+    "sintesi": "ALPS BLOCKCHAIN SPA presenta un profilo misto con forte crescita del fatturato (+32,7% a €56,6M) ma criticità strutturali significative. L'azienda opera nel settore blockchain/crypto con modello di business in evoluzione. Il rating B3 riflette l'elevato indebitamento obbligazionario (€138M) a fronte di margini operativi contenuti (EBITDA 4,7%). La liquidità corrente è buona (€35,5M) ma la sostenibilità del debito a lungo termine è problematica.",
+    "giudizio_breve": "Crescita forte ma sostenibilità incerta",
+    "colore": "orange",
+    "punti_forza": [
+      "Crescita fatturato eccezionale (+32,7% YoY)",
+      "Liquidità immediata solida (€35,5M)",
+      "Posizionamento in settore ad alto potenziale (blockchain)",
+      "Diversificazione geografica (export 62%)",
+      "Management giovane e dinamico",
+      "Struttura di gruppo internazionale"
+    ],
+    "aree_attenzione": [
+      "Margini operativi molto contenuti (EBITDA 4,7%)",
+      "Elevato indebitamento obbligazionario (€138M)",
+      "Rapporto Debiti/EBITDA critico (54,7x)",
+      "Sostenibilità servizio debito incerta",
+      "Volatilità settore crypto/blockchain",
+      "Dipendenza da mercati esteri"
+    ],
+    "raccomandazioni_principali": [
+      "Priorità assoluta: miglioramento margini operativi",
+      "Ristrutturazione debito obbligazionario",
+      "Diversificazione revenue streams per ridurre volatilità"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi evidenzia una crescita esplosiva del fatturato (+32,7%) che però non si traduce in proporzionale miglioramento della redditività operativa. L'EBITDA cresce solo del 7,4% nonostante il forte incremento dei ricavi, indicando pressione sui margini. Il trend suggerisce un modello di business ancora in fase di ottimizzazione, tipico di aziende tech in rapida espansione.",
+    "risk_factors": "I principali fattori di rischio includono: (1) Execution risk su sostenibilità del modello di business ad alta crescita ma bassi margini; (2) Rischio finanziario elevato per il peso del debito obbligazionario; (3) Volatilità intrinseca del settore blockchain/crypto; (4) Dipendenza da mercati esteri (62% export) con rischio cambio; (5) Concentrazione su settore tecnologico emergente con regolamentazione in evoluzione.",
+    "opportunity_signals": "Il settore blockchain presenta opportunità significative con crescita strutturale attesa. La posizione internazionale dell'azienda (Paraguay, USA, Ecuador) offre diversificazione geografica. La liquidità disponibile (€35,5M) fornisce buffer per investimenti strategici. Il management giovane può essere più agile nell'adattarsi ai cambiamenti del mercato tech.",
+    "management_quality_indicators": "Management relativamente giovane (CEO 28 anni, Vice-CEO 27 anni) con background presumibilmente tech. La struttura di governance include CdA e Collegio Sindacale strutturati. La capacità di attrarre investimenti istituzionali (Azimut) suggerisce credibilità. Tuttavia, l'esperienza in gestione di crisi finanziarie potrebbe essere limitata.",
+    "market_position": "ALPS BLOCKCHAIN opera in un mercato di nicchia ad alto potenziale ma volatile. La diversificazione geografica e la presenza in mercati emergenti (Paraguay) potrebbero offrire vantaggi competitivi. Il settore richiede continui investimenti in R&D e adattamento tecnologico.",
+    "operational_efficiency": "L'efficienza operativa mostra criticità: nonostante la crescita del fatturato, i margini si comprimono. Il rapporto costi/ricavi suggerisce necessità di ottimizzazione. La struttura di gruppo complessa potrebbe generare inefficienze ma anche sinergie se ben gestita."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "debiti_ebitda_critico",
+        "titolo": "Rapporto Debiti/EBITDA Critico",
+        "descrizione": "Debiti totali/EBITDA a 54,7x, molto oltre soglie di sostenibilità",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "debiti_ebitda": "54.7x",
+          "soglia_critica": "5.0x",
+          "scostamento": "+995%"
+        },
+        "implicazioni": "Sostenibilità del debito fortemente compromessa. Capacità di servizio del debito inadeguata rispetto ai flussi operativi.",
+        "raccomandazione": "Ristrutturazione debito urgente o significativo miglioramento EBITDA",
+        "trigger_escalation": "Rapporto > 60x o deterioramento ulteriore margini"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW002",
+        "tipo": "margini_sotto_pressione",
+        "titolo": "Compressione Margini Operativi",
+        "descrizione": "EBITDA margin al 4,7%, sotto media settore tech (8-12%)",
+        "severity": "medium",
+        "colore": "yellow",
+        "metriche": {
+          "ebitda_margin": "4.7%",
+          "benchmark_settore": "8-12%",
+          "gap": "-3.3pp"
+        },
+        "implicazioni": "Modello di business non ancora ottimizzato. Crescita non sostenibile se margini non migliorano.",
+        "raccomandazione": "Focus su ottimizzazione costi e pricing power",
+        "trigger_escalation": "EBITDA margin < 3% per 2 trimestri consecutivi"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "crescita_fatturato_forte",
+        "titolo": "Crescita Fatturato Eccezionale",
+        "descrizione": "Fatturato +32,7% YoY, molto superiore alla media settore",
+        "colore": "green",
+        "implicazioni": "Forte trazione commerciale e capacità di scaling del business model",
+        "sostenibilita": "Media - dipende da miglioramento margini"
+      },
+      {
+        "id": "PP002",
+        "tipo": "liquidita_solida",
+        "titolo": "Posizione di Liquidità Forte",
+        "descrizione": "€35,5M di disponibilità liquide, current ratio 4,97x",
+        "colore": "green",
+        "implicazioni": "Buffer finanziario significativo per gestire volatilità e investimenti",
+        "sostenibilita": "Alta nel breve termine"
+      }
+    ],
+    "overall_risk_trend": "DETERIORAMENTO IN CORSO. Il downgrade da B2 a B3 riflette peggioramento fondamentali. Trend negativo su sostenibilità debito nonostante crescita fatturato. Richiede azioni correttive immediate."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Stabilizzazione",
+      "descrizione": "Scenario che assume stabilizzazione crescita e graduale miglioramento margini",
+      "ipotesi": [
+        "Crescita fatturato +15% annuo (normalizzazione)",
+        "Miglioramento EBITDA margin a 6-7%",
+        "Ristrutturazione parziale debito obbligazionario",
+        "Mantenimento liquidità >€20M",
+        "Stabilizzazione mercato crypto"
+      ],
+      "dscr_proiettato": 0.8,
+      "rating_proiettato": "B3 (stabile)",
+      "commento": "Nel base case l'azienda stabilizza la posizione ma rimane in area speculative grade. DSCR sotto 1.0x richiede comunque ristrutturazione debito."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Crisi Settore",
+      "descrizione": "Scenario avverso con contrazione mercato crypto e pressione competitiva",
+      "ipotesi": [
+        "Calo fatturato -20% (crisi crypto)",
+        "Compressione margini a 2-3%",
+        "Difficoltà refinancing debito",
+        "Utilizzo significativo liquidità",
+        "Pressione su working capital"
+      ],
+      "dscr_proiettato": 0.3,
+      "rating_proiettato": "C1 (distress)",
+      "commento": "In scenario stress severo, l'azienda entrerebbe in area distress con necessità di ristrutturazione urgente o ricapitalizzazione."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Boom Settore",
+      "descrizione": "Scenario favorevole con adozione mainstream blockchain e ottimizzazione operativa",
+      "ipotesi": [
+        "Crescita fatturato +40% (boom settore)",
+        "Miglioramento EBITDA margin a 10%+",
+        "Economie di scala significative",
+        "Possibile IPO o exit strategico",
+        "Regolamentazione favorevole"
+      ],
+      "dscr_proiettato": 1.5,
+      "rating_proiettato": "B1 (upgrade)",
+      "commento": "Nello scenario upside, l'azienda potrebbe raggiungere sostenibilità finanziaria e rating investment grade nel medio termine."
+    },
+    "sensitivity_note": "L'analisi mostra alta sensibilità ai margini operativi: variazioni di 1pp nell'EBITDA margin impattano significativamente la sostenibilità. Il settore crypto aggiunge volatilità strutturale."
+  },
+  "peer_comparison": {
+    "peer_group": "Software e Servizi IT - Aziende Tech Growth (ATECO 62.xx)",
+    "sample_size": 18157,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": 4.32,
+        "mediana": 8.5,
+        "percentile": 25,
+        "commento": "ROS sotto la mediana settoriale. Margini operativi da migliorare per allineamento con peers."
+      },
+      "roe": {
+        "azienda": 1.33,
+        "mediana": 12,
+        "percentile": 15,
+        "commento": "ROE molto basso rispetto al settore. Riflette l'impatto dell'elevato indebitamento sui risultati."
+      },
+      "roi": {
+        "azienda": 1.96,
+        "mediana": 9.8,
+        "percentile": 20,
+        "commento": "ROI inferiore alla media. Efficienza del capitale investito da ottimizzare."
+      },
+      "current_ratio": {
+        "azienda": 4.97,
+        "mediana": 1.8,
+        "percentile": 95,
+        "commento": "Liquidità eccellente, top 5% del settore. Punto di forza significativo."
+      },
+      "dso": {
+        "azienda": 12.8,
+        "mediana": 45,
+        "percentile": 90,
+        "commento": "DSO eccellente, molto inferiore alla media. Gestione crediti molto efficiente."
+      },
+      "leverage": {
+        "azienda": 8.75,
+        "mediana": 2.5,
+        "percentile": 5,
+        "commento": "Leverage molto elevato, nel quartile peggiore. Principale area di criticità."
+      },
+      "pfn_ebitda": {
+        "azienda": 38.93,
+        "mediana": 2.5,
+        "percentile": 1,
+        "commento": "PFN/EBITDA critico, peggiore 1% del campione. Sostenibilità debito compromessa."
+      }
+    },
+    "sintesi_posizionamento": "ALPS BLOCKCHAIN presenta un posizionamento polarizzato: eccellente per liquidità e gestione crediti, critico per indebitamento e redditività. Il profilo è tipico di aziende growth in fase di scaling con necessità di ottimizzazione finanziaria.",
+    "aree_eccellenza": [
+      "Gestione liquidità (Current Ratio top 5%)",
+      "Efficienza incassi (DSO top 10%)",
+      "Crescita fatturato superiore alla media"
+    ],
+    "aree_miglioramento": [
+      "Redditività operativa (ROS, ROE, ROI)",
+      "Struttura finanziaria (Leverage, PFN/EBITDA)",
+      "Sostenibilità del modello di business"
+    ]
+  },
+  "action_items": {
+    "urgente": [
+      {
+        "id": "AI001",
+        "area": "Debt Management",
+        "titolo": "Ristrutturazione Debito Obbligazionario",
+        "azione": "Avviare negoziazioni con obbligazionisti per ristrutturazione/riscadenzamento del debito €138M",
+        "razionale": "Rapporto Debiti/EBITDA 54,7x insostenibile. Servizio debito non coperto da flussi operativi",
+        "impatto_atteso": "Riduzione pressione finanziaria, allungamento scadenze",
+        "beneficio_stimato": "Miglioramento rating, riduzione rischio default",
+        "investimento_richiesto": "Costi advisory €200-500K",
+        "roi_stimato": "Critico per sopravvivenza",
+        "owner_suggerito": "CFO / Advisor Finanziari",
+        "timeline": "Immediato - entro Q1 2025",
+        "kpi_monitoraggio": [
+          "Debiti/EBITDA",
+          "Copertura interessi",
+          "Liquidità disponibile"
+        ]
+      }
+    ],
+    "importante": [
+      {
+        "id": "AI002",
+        "area": "Operations",
+        "titolo": "Piano Miglioramento Margini",
+        "azione": "Implementare piano strutturato per miglioramento EBITDA margin da 4,7% a 8%+ in 18 mesi",
+        "razionale": "Margini attuali insufficienti per sostenibilità finanziaria",
+        "impatto_atteso": "EBITDA margin target 8% (+3,3pp)",
+        "beneficio_stimato": "€1,8M EBITDA aggiuntivo annuo",
+        "investimento_richiesto": "€500K (consulenza, sistemi, ottimizzazioni)",
+        "roi_stimato": "3,6x in 12 mesi",
+        "owner_suggerito": "COO / CEO",
+        "timeline": "Avvio Q1 2025, risultati Q3 2025",
+        "kpi_monitoraggio": [
+          "EBITDA margin mensile",
+          "Cost/Revenue ratio",
+          "Produttività"
+        ]
+      },
+      {
+        "id": "AI003",
+        "area": "Finance",
+        "titolo": "Diversificazione Revenue Streams",
+        "azione": "Sviluppare fonti di ricavo meno volatili e con margini superiori",
+        "razionale": "Ridurre dipendenza da volatilità crypto, migliorare stabilità flussi",
+        "impatto_atteso": "30% ricavi da fonti stabili entro 12 mesi",
+        "beneficio_stimato": "Riduzione volatilità, miglioramento margini",
+        "investimento_richiesto": "€300-500K (sviluppo prodotti/servizi)",
+        "roi_stimato": "2-3x nel medio termine",
+        "owner_suggerito": "CEO / Chief Strategy Officer",
+        "timeline": "Piano Q1 2025, implementazione Q2-Q4 2025",
+        "kpi_monitoraggio": [
+          "Mix ricavi",
+          "Margini per business line",
+          "Ricorrenza ricavi"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Strategic",
+        "titolo": "Partnership Strategiche",
+        "azione": "Sviluppare partnership con player consolidati per stabilizzare business model",
+        "razionale": "Ridurre rischio execution e accelerare crescita sostenibile",
+        "impatto_atteso": "Stabilizzazione ricavi, accesso a nuovi mercati",
+        "beneficio_stimato": "Miglioramento prevedibilità flussi",
+        "investimento_richiesto": "Tempo management + eventuali equity stakes",
+        "owner_suggerito": "CEO / BD Director",
+        "timeline": "Scouting 2025, accordi 2026",
+        "note": "Valutare anche opzioni di exit strategico se opportune"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate per criticità finanziaria. La ristrutturazione del debito è prerequisito per altre iniziative."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B3 - Speculative Grade",
+      "colore": "orange",
+      "commento": "Rating B3 in area speculative grade con outlook negativo. Il rating riflette la forte crescita del business ma anche le significative criticità strutturali legate all'elevato indebitamento e ai margini operativi contenuti. La sostenibilità del debito è problematica.",
+      "outlook": "Negativo",
+      "fattori_supporto": [
+        "Crescita fatturato eccezionale (+32,7%)",
+        "Liquidità immediata solida (€35,5M)",
+        "Posizionamento in settore ad alto potenziale",
+        "Diversificazione geografica"
+      ],
+      "fattori_rischio": [
+        "Elevato indebitamento obbligazionario",
+        "Margini operativi molto contenuti",
+        "Sostenibilità servizio debito critica",
+        "Volatilità settore crypto/blockchain"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Medio (Verde Chiaro)",
+      "colore": "yellow",
+      "commento": "Risk Score VERDE CHIARO indica rischio nella media ma con trend di peggioramento. Il passaggio da VERDE a VERDE CHIARO riflette il deterioramento dei fondamentali finanziari nonostante la crescita del business."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 250.000",
+      "commento": "Il fido operativo di €250.000 è stato ridotto da €500.000 riflettendo il peggioramento del profilo di rischio. Il fido è contenuto rispetto al fatturato (0,4%) per le criticità strutturali.",
+      "utilizzo_suggerito": "Linea di credito per working capital con covenant stringenti. Pricing speculative grade (Euribor + 300-400bp)."
+    },
+    "trend_analysis": "Il rating è peggiorato da B2 a B3 negli ultimi mesi, riflettendo il deterioramento della sostenibilità del debito. Il fido operativo è stato ridotto del 50%. Il trend è negativo e richiede azioni correttive urgenti.",
+    "probability_of_default": {
+      "valore": 8.5,
+      "classe": "Speculative Grade - Medium-High Risk",
+      "commento": "PD stimata 8,5% su orizzonte 12 mesi, significativamente superiore alla media per l'elevato indebitamento e i margini contenuti."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano una situazione polarizzata: eccellente equilibrio finanziario a breve termine ma criticità significative su equilibrio patrimoniale ed economico. Il profilo di sostenibilità del debito è negativo.",
+    "economico": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Score 2/5. Margini operativi contenuti nonostante la forte crescita. ROS 4,3% sotto la media settoriale. La crescita del fatturato non si traduce in proporzionale miglioramento della redditività.",
+      "driver_principali": [
+        "ROS 4,3% - sotto media settore",
+        "ROE 1,3% - molto basso",
+        "Pressione sui margini operativi"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Score 2/5. Struttura patrimoniale squilibrata con elevato indebitamento obbligazionario. Il leverage di 8,75x è molto superiore alla media settoriale. Capitalizzazione inadeguata rispetto al debito.",
+      "driver_principali": [
+        "Leverage 8,75x - molto elevato",
+        "Debito obbligazionario €138M",
+        "Capitalizzazione 11,4% - bassa"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Score 5/5. Liquidità immediata eccellente con €35,5M di disponibilità. Current ratio 4,97x ai vertici del settore. Gestione della liquidità a breve termine molto efficace.",
+      "driver_principali": [
+        "Liquidità €35,5M - eccellente",
+        "Current ratio 4,97x - top settore",
+        "Gestione tesoreria efficace"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Efficienza operativa in linea con il settore ma con margini di miglioramento. DSO eccellente (12,8 giorni) ma necessità di ottimizzazione costi.",
+      "driver_principali": [
+        "DSO 12,8 giorni - eccellente",
+        "Turnover assets adeguato",
+        "Margini di ottimizzazione costi"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Crescita fatturato eccezionale ma sostenibilità incerta. Sviluppo rapido che richiede consolidamento e ottimizzazione.",
+      "driver_principali": [
+        "Crescita fatturato +32,7%",
+        "Espansione internazionale",
+        "Necessità consolidamento"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Sotto Media",
+      "colore": "yellow",
+      "commento": "La redditività è il principale punto di debolezza. Tutti gli indicatori sono sotto la media settoriale, riflettendo un modello di business ancora in fase di ottimizzazione.",
+      "trend_yoy": "In peggioramento relativo",
+      "indicatori": {
+        "ros": {
+          "colore": "yellow",
+          "commento": "ROS 4,3% sotto la soglia ottimale del 15% e anche sotto la media settoriale (8,5%). Necessario miglioramento significativo."
+        },
+        "roe": {
+          "colore": "red",
+          "commento": "ROE 1,3% molto basso, riflette l'impatto dell'elevato indebitamento. Remunerazione del capitale proprio inadeguata."
+        },
+        "roi": {
+          "colore": "red",
+          "commento": "ROI 1,96% sotto la soglia del 5%. Efficienza del capitale investito da migliorare significativamente."
+        },
+        "roa": {
+          "colore": "red",
+          "commento": "ROA 1,39% sotto la soglia del 3%. Redditività degli asset totali insufficiente."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "red",
+          "commento": "Incidenza gestione extra-caratteristica elevata (10,9%), indica dipendenza da componenti non operative."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "La liquidità è il punto di forza principale. Tutti gli indicatori sono ampiamente sopra le soglie di sicurezza, fornendo un buffer significativo per la gestione delle criticità.",
+      "trend_yoy": "Stabile/Miglioramento",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "green",
+          "commento": "Current Ratio 4,97x eccellente, molto sopra la soglia di 1,5. Copertura delle passività correnti amplissima."
+        },
+        "acid_test": {
+          "colore": "green",
+          "commento": "Acid Test 2,80 eccellente, ben sopra la soglia di 1,2. Liquidità immediata molto solida."
+        },
+        "cash_short_term_debt": {
+          "colore": "green",
+          "commento": "Rapporto cassa/debiti a breve eccellente. Le disponibilità liquide coprono ampiamente gli impegni immediati."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo nonostante l'elevato indebitamento a lungo termine."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Margine di struttura secondario positivo, confermando equilibrio strutturale a breve."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Copertura immobilizzazioni adeguata con fonti durevoli."
+        },
+        "copertura_ccn": {
+          "colore": "green",
+          "commento": "Capitale circolante netto ben finanziato."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Gli indicatori di indebitamento sono tutti in area critica. Il leverage elevato rappresenta il principale fattore di rischio per la sostenibilità finanziaria dell'azienda.",
+      "trend_yoy": "Peggioramento",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "red",
+          "commento": "PFN/EBITDA 38,93x molto oltre la soglia critica di 4x. Sostenibilità del debito fortemente compromessa."
+        },
+        "leverage": {
+          "colore": "red",
+          "commento": "Leverage 8,75x molto oltre la soglia di 5x. Dipendenza eccessiva dal capitale di terzi."
+        },
+        "capitalizzazione": {
+          "colore": "red",
+          "commento": "Grado di capitalizzazione 11,4% molto sotto la soglia del 33%. Sottocapitalizzazione evidente."
+        },
+        "debt_ratio": {
+          "colore": "red",
+          "commento": "Debt ratio 7,33 molto elevato, indica forte squilibrio tra debiti e patrimonio netto."
+        },
+        "bank_debt_assets": {
+          "colore": "green",
+          "commento": "Incidenza debito bancario contenuta (1,2%), il debito è principalmente obbligazionario."
+        },
+        "bank_debt_ratio": {
+          "colore": "green",
+          "commento": "Rapporto debito bancario limitato, la criticità è sul debito obbligazionario."
+        },
+        "ebitda_net_leverage": {
+          "colore": "red",
+          "commento": "EBITDA net leverage critico, conferma insostenibilità struttura debitoria."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "red",
+          "commento": "EBITDA gross leverage 52,1x estremamente elevato."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Inadeguato",
+      "colore": "red",
+      "commento": "Gli indici di copertura sono tutti sotto le soglie di sicurezza. La capacità di servire il debito è compromessa dai margini operativi contenuti.",
+      "trend_yoy": "Peggioramento",
+      "indicatori": {
+        "dscr": {
+          "colore": "red",
+          "commento": "DSCR non calcolabile con precisione ma stimato <1.0x. Flussi operativi insufficienti per servizio debito."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "red",
+          "commento": "Copertura interessi 0,25x molto sotto la soglia di 2x. EBITDA insufficiente per coprire oneri finanziari."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "red",
+          "commento": "Copertura EBIT/interessi 0,23x critica. Margini operativi inadeguati."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "red",
+          "commento": "Anche considerando i proventi finanziari, la copertura rimane inadeguata."
+        },
+        "ebit_interessi_netti": {
+          "colore": "red",
+          "commento": "Tutti gli indicatori di copertura confermano la criticità della situazione."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Il ciclo finanziario è molto efficiente con DSO eccellente e gestione ottimale del capitale circolante. Uno dei pochi punti di forza operativi.",
+      "trend_yoy": "Stabile/Miglioramento",
+      "indicatori": {
+        "dso": {
+          "colore": "green",
+          "commento": "DSO 12,8 giorni eccellente, molto sotto la soglia di 60 giorni. Gestione crediti molto efficace."
+        },
+        "dpo": {
+          "colore": "green",
+          "commento": "DPO 27,3 giorni ragionevole, gestione fornitori equilibrata."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO 231 giorni elevato ma coerente con business model (acconti significativi)."
+        },
+        "ciclo_finanziario": {
+          "colore": "green",
+          "commento": "Ciclo finanziario 217 giorni gestibile grazie alla liquidità disponibile."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Forte Crescita",
+      "colore": "green",
+      "commento": "Gli indicatori di sviluppo mostrano crescita eccezionale del fatturato. La sfida è rendere questa crescita sostenibile dal punto di vista della redditività.",
+      "trend_yoy": "Forte accelerazione",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "green",
+          "commento": "Crescita fatturato +32,7% eccezionale, molto superiore alla soglia del 5%."
+        },
+        "variazione_ebit": {
+          "colore": "green",
+          "commento": "EBIT in crescita +8,2% ma inferiore alla crescita del fatturato."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "green",
+          "commento": "Valore aggiunto in crescita +14,4%, buon segnale di creazione di valore."
+        },
+        "variazione_mol": {
+          "colore": "green",
+          "commento": "MOL in crescita +7,4%, ma inferiore alla crescita dei ricavi."
+        },
+        "variazione_totale_attivo": {
+          "colore": "green",
+          "commento": "Attivo in forte crescita +188%, riflette espansione significativa."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "red",
+          "commento": "Debito finanziario in forte crescita, contribuisce alle criticità strutturali."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Buona",
+      "colore": "green",
+      "commento": "L'efficienza operativa è buona con rotazioni adeguate. Il turnover index è in linea con il settore tech.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "green",
+          "commento": "Turnover index 0,32 adeguato per il settore tech/software."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione rimanenze 1,56x coerente con business model."
+        },
+        "current_assets_rotation": {
+          "colore": "green",
+          "commento": "Rotazione attivo circolante efficiente."
+        },
+        "ar_rotation": {
+          "colore": "green",
+          "commento": "Rotazione crediti 28,1x eccellente, riflette DSO molto basso."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Squilibrata",
+      "colore": "red",
+      "commento": "La struttura finanziaria è fortemente squilibrata verso il debito, principalmente obbligazionario. Necessaria ricapitalizzazione o ristrutturazione.",
+      "trend_yoy": "Peggioramento",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "red",
+          "commento": "PFN/PN 5,22 molto elevato, indica forte dipendenza dal debito."
+        },
+        "pfn_pn": {
+          "colore": "red",
+          "commento": "Conferma lo squilibrio strutturale tra debito e capitale proprio."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "red",
+          "commento": "Debito principalmente obbligazionario a lungo termine, struttura rigida."
+        },
+        "debito_netto_fonti": {
+          "colore": "red",
+          "commento": "Incidenza debito netto sulle fonti molto elevata (83,9%)."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "red",
+          "commento": "Debito lordo/PN 6,98x molto elevato, conferma sottocapitalizzazione."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Eccessivo",
+      "colore": "red",
+      "commento": "L'onere finanziario è eccessivo rispetto ai flussi operativi. Il burden index critico riflette l'insostenibilità della struttura debitoria.",
+      "trend_yoy": "Peggioramento",
+      "indicatori": {
+        "rod": {
+          "colore": "red",
+          "commento": "Costo medio del debito 7,55% elevato per il profilo di rischio."
+        },
+        "rod_finanziario": {
+          "colore": "red",
+          "commento": "Costo del debito finanziario molto elevato (514,7%) per presenza obbligazioni."
+        },
+        "burden_index": {
+          "colore": "red",
+          "commento": "Burden index 393,24 critico, oneri finanziari assorbono quasi 4x il reddito operativo."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Struttura Complessa",
+      "colore": "yellow",
+      "commento": "L'attivo presenta una struttura complessa tipica di holding con significative immobilizzazioni finanziarie (€91,4M) rappresentanti partecipazioni e crediti verso controllate. L'attivo circolante è dominato da liquidità (€35,5M) e rimanenze/acconti (€36,4M).",
+      "immobilizzazioni": "Immobilizzazioni totali €92M di cui €91,4M finanziarie (partecipazioni €17,4M e crediti verso controllate €73,6M). Struttura tipica di holding con investimenti in subsidiaries internazionali. Immobilizzazioni materiali contenute (€0,26M).",
+      "attivo_circolante": "Attivo circolante €83,5M dominato da disponibilità liquide (€35,5M) e rimanenze/acconti (€36,4M). I crediti commerciali sono contenuti (€2M) coerentemente con il DSO basso. Struttura liquida solida.",
+      "composizione_attivo": "Composizione 52% immobilizzazioni / 48% circolante tipica di holding. L'elevata liquidità (20% del totale attivo) fornisce buffer ma potrebbe indicare difficoltà di impiego produttivo."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Fortemente Indebitata",
+      "colore": "red",
+      "commento": "La struttura delle fonti è dominata dai debiti (84% del totale) con prevalenza di debito obbligazionario a lungo termine (€138M). Il patrimonio netto rappresenta solo l'11,4% delle fonti, evidenziando sottocapitalizzazione critica.",
+      "patrimonio_netto": "PN €20,1M (11,4% delle fonti) composto da capitale sociale €1,4M, sovrapprezzo €8,2M e riserve €10M. Utile d'esercizio €0,27M positivo ma contenuto. Struttura patrimoniale inadeguata rispetto al debito.",
+      "debiti": "Debiti totali €147,2M di cui €138M a lungo termine (principalmente obbligazioni €105,7M e obbligazioni convertibili €32,4M). Debiti a breve €8,5M gestibili con la liquidità disponibile.",
+      "struttura_fonti": "Struttura PN 11,4% / Debiti 84% fortemente squilibrata. Il debito obbligazionario rappresenta il 79% delle fonti totali, creando rigidità finanziaria significativa."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Crescita con Margini Contenuti",
+      "colore": "yellow",
+      "commento": "Il conto economico mostra forte crescita del fatturato (€56,6M, +32,7%) ma margini operativi contenuti. L'EBITDA di €2,7M (4,7% margin) è insufficiente rispetto all'onere finanziario di €10,6M.",
+      "valore_produzione": "Ricavi €56,6M in forte crescita (+32,7%) trainati dall'espansione internazionale e dal boom del settore blockchain. Crescita organica sostenuta da domanda strutturale.",
+      "costi_produzione": "Costi della produzione €54,2M con incidenza 95,7% sui ricavi. Principale componente: acquisti materie prime €50,6M (89,4% dei ricavi). Struttura di costo da ottimizzare.",
+      "gestione_finanziaria": "Gestione finanziaria negativa per €1,7M con oneri finanziari €10,6M (principalmente su obbligazioni) parzialmente compensati da proventi €9,4M (da controllate).",
+      "risultato_esercizio": "Utile netto €0,27M dopo imposte €0,45M. Margine netto 0,47% molto contenuto. Risultato positivo ma insufficiente per sostenere la crescita e servire il debito."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi evidenzia generazione operativa positiva ma insufficiente per il servizio del debito. La liquidità è mantenuta attraverso finanziamenti esterni.",
+      "operating_cf": "Cash flow operativo stimato €0,5M (dato FFO), molto contenuto rispetto alle dimensioni aziendali. Generazione di cassa operativa da migliorare significativamente.",
+      "investing_cf": "Flussi di investimento significativi per espansione internazionale e acquisizioni. Investimenti in immobilizzazioni finanziarie dominanti.",
+      "financing_cf": "Attività di finanziamento positiva per emissioni obbligazionarie. Dipendenza da finanziamenti esterni per sostenere crescita e liquidità."
+    }
+  },
+  "dscr": {
+    "valore": 0.25,
+    "giudizio_breve": "Critico",
+    "colore": "red",
+    "commento": "Il DSCR stimato di 0,25x è molto sotto la soglia critica di 1,0x, indicando che i flussi operativi coprono solo il 25% del servizio del debito annuale. La situazione è insostenibile e richiede ristrutturazione urgente del debito o significativo miglioramento dei margini operativi.",
+    "componenti": {
+      "ebitda": 2689418,
+      "oneri_finanziari": 10575728,
+      "quota_capitale_annuale": 0,
+      "servizio_debito": 10575728
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è fortemente compromessa. Con EBITDA €2,7M e oneri finanziari €10,6M, l'azienda non genera flussi sufficienti per servire il debito. La struttura obbligazionaria rigida aggrava la situazione. Necessaria ristrutturazione urgente.",
+    "capacita_indebitamento_residua": "Capacità di nuovo indebitamento nulla. L'azienda deve prioritariamente ristrutturare il debito esistente prima di considerare nuovo finanziamento.",
+    "stress_test_result": "In qualsiasi scenario di stress (EBITDA -10%), il DSCR scenderebbe ulteriormente sotto 0,2x, rendendo la situazione insostenibile. Anche miglioramenti significativi dei margini richiederebbero tempo per impattare la sostenibilità."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "HIGH",
+    "elenco": [
+      "Rapporto Debiti/EBITDA critico (54,7x)",
+      "DSCR sotto 1,0x (stimato 0,25x)",
+      "Oneri finanziari > EBITDA",
+      "Downgrade rating (B2 → B3)",
+      "Margini operativi sotto media settore"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "EBITDA margin 4,7% significativamente sotto la media settore tech (8-12%). La crescita del fatturato (+32,7%) non si traduce in proporzionale miglioramento margini (+7,4% EBITDA), indicando pressione sui costi o pricing power limitato.",
+      "anomalie_magazzino": "Rimanenze €36,4M (64% dell'attivo circolante) principalmente composte da acconti €35,8M. Struttura atipica che richiede verifica della natura e recuperabilità degli acconti.",
+      "anomalie_crediti": "Crediti verso controllate €73,6M (42% dell'attivo totale) rappresentano esposizione significativa verso subsidiaries. Necessaria verifica della recuperabilità e dei termini.",
+      "tensione_liquidita": "Nonostante liquidità €35,5M, la tensione deriva dall'incapacità di generare flussi operativi sufficienti per servire il debito (DSCR 0,25x).",
+      "eccessivo_indebitamento": "Debito totale €147M vs PN €20M (leverage 8,75x). Debito obbligazionario €138M vs EBITDA €2,7M (rapporto 51x) chiaramente insostenibile.",
+      "eventi_negativi": "Downgrade rating da B2 a B3 e riduzione fido operativo da €500K a €250K indicano deterioramento percepito del profilo di rischio.",
+      "governance_concerns": "Struttura di gruppo complessa con multiple subsidiaries internazionali. Management giovane potrebbe avere esperienza limitata in gestione crisi finanziarie.",
+      "going_concern": "La continuità aziendale è a rischio se non si interviene rapidamente sulla ristrutturazione del debito e sul miglioramento dei margini operativi."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Criticità Rilevanti",
+      "colore": "red",
+      "commento": "L'azienda presenta criticità significative rispetto agli adeguati assetti. Il rapporto debiti/EBITDA critico e la sostenibilità del debito compromessa richiedono attivazione di procedure di monitoraggio e possibili misure correttive."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 18.7,
+        "soglia": 2.5,
+        "alert": true,
+        "commento": "18,7% molto sopra la soglia del 2,5%. Oneri finanziari assorbono quota eccessiva dei ricavi."
+      },
+      "pn_debiti_totali": {
+        "valore": 13.6,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "13,6% sopra la soglia minima del 5,5% ma comunque basso in valore assoluto."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 497,
+        "soglia": 85,
+        "alert": false,
+        "commento": "497% molto sopra la soglia dell'85%. Liquidità a breve eccellente."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 0.3,
+        "soglia": 1.5,
+        "alert": true,
+        "commento": "0,3% sotto la soglia dell'1,5%. Generazione di cassa insufficiente."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 0.5,
+        "soglia": 7,
+        "alert": false,
+        "commento": "0,5% ben sotto la soglia del 7%. Regolarità fiscale e contributiva."
+      }
+    },
+    "continuita_aziendale": "La continuità aziendale è a rischio se non si interviene rapidamente sulla ristrutturazione del debito. Due indicatori di allerta attivi (oneri finanziari/ricavi e cash flow/attivo) richiedono attenzione immediata.",
+    "raccomandazioni_assetti": [
+      "Attivazione immediata di piano di ristrutturazione debito",
+      "Implementazione di adeguati assetti per monitoraggio crisi",
+      "Valutazione di ricapitalizzazione o altre misure straordinarie"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "ALLERTA ATTIVA - Due indicatori critici attivi richiedono monitoraggio e possibili azioni correttive secondo D.Lgs. 14/2019.",
+    "antiriciclaggio": "Struttura di gruppo internazionale complessa richiede particolare attenzione ai profili AML. Presenza in Paraguay e altri mercati emergenti aumenta il profilo di rischio.",
+    "privacy_note": "Analisi basata su dati pubblici e credit score. Struttura internazionale richiede compliance con normative privacy multiple."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "URGENTE: Avviare negoziazioni per ristrutturazione debito obbligazionario €138M",
+      "Implementare piano di miglioramento margini operativi (target EBITDA margin 8%+)",
+      "Ottimizzare gestione liquidità €35,5M per massimizzare rendimenti",
+      "Verificare recuperabilità crediti verso controllate €73,6M"
+    ],
+    "medio_termine": [
+      "Diversificare revenue streams per ridurre volatilità settore crypto",
+      "Valutare dismissioni non-core per riduzione debito",
+      "Implementare sistema di controllo di gestione avanzato",
+      "Rafforzare team finanziario per gestione complessità strutturale"
+    ],
+    "strategiche": [
+      "Valutare ricapitalizzazione significativa o ingresso partner strategico",
+      "Considerare opzioni di exit parziale o totale se opportune",
+      "Sviluppare business model più sostenibile e ricorrente",
+      "Semplificare struttura di gruppo per ridurre complessità operativa"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "ALPS BLOCKCHAIN presenta un profilo atipico nel settore software/IT: crescita superiore alla media ma margini molto inferiori. La struttura finanziaria è significativamente più rischiosa rispetto ai peers, con indebitamento nel percentile peggiore del settore.",
+    "posizionamento": "Top quartile per crescita fatturato e liquidità. Quartile inferiore per redditività e struttura finanziaria. Posizionamento polarizzato tipico di aziende growth in fase critica.",
+    "benchmark_principali": [
+      "Crescita fatturato +32,7% vs media settore +8-12%",
+      "EBITDA margin 4,7% vs media settore 8-12%",
+      "Leverage 8,75x vs media settore 2,5x",
+      "Current Ratio 4,97x vs media settore 1,8x",
+      "PFN/EBITDA 38,9x vs media settore 2,5x"
+    ],
+    "trend_settore": "Il settore software/IT mostra crescita sostenuta (+8-12% CAGR) con margini stabili. Il subsettore blockchain/crypto presenta maggiore volatilità ma potenziale di crescita superiore. Consolidamento in corso con focus su sostenibilità."
+  },
+  "metadata": {
+    "generated_at": "2025-01-15T14:30:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "ALPS_BLOCKCHAIN.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.87,
+    "analysis_depth": "Comprehensive - Full financial analysis with focus on debt sustainability and growth model",
+    "disclaimers": [
+      "Analisi basata su dati pubblici e credit score di terze parti",
+      "Settore blockchain/crypto presenta volatilità intrinseca elevata",
+      "Struttura di gruppo internazionale complessa richiede analisi approfondita",
+      "Raccomandazioni hanno carattere generale e richiedono validazione specifica"
+    ]
+  }
+}
