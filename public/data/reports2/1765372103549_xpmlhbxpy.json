@@ -1,0 +1,807 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "RATING B3 - OUTLOOK POSITIVO",
+    "verdict_color": "orange",
+    "key_message": "Azienda in forte ripresa con miglioramento significativo della redditività. Struttura patrimoniale da rafforzare ma trend positivo consolidato. Merita attenzione per potenziale upgrade.",
+    "numeri_chiave": [
+      "Rating B3 (migliorato da C1) - Trend positivo",
+      "ROS 19,6% - Eccellente marginalità",
+      "ROE 47,0% - Performance straordinaria",
+      "Liquidità 5,0x - Posizione solida",
+      "Zero eventi negativi"
+    ],
+    "risk_level": "MEDIO",
+    "focus_trimestre": "Consolidare miglioramento patrimoniale e sostenere crescita redditività. Monitorare evoluzione debiti a lungo termine.",
+    "next_review": "Q2 2025 - Verifica consolidamento trend positivo e rafforzamento struttura patrimoniale"
+  },
+  "executive_summary": {
+    "sintesi": "KITZANOS SOCIETA COOPERATIVA presenta un profilo in forte miglioramento con rating B3 e rischio nella media. L'azienda opera nella consulenza gestionale con redditività eccellente (ROS 19,6%, ROE 47,0%) e liquidità solida. Il principale punto di attenzione rimane la struttura patrimoniale (score 1/5) che necessita rafforzamento, bilanciato però da trend positivi su tutti gli altri profili.",
+    "giudizio_breve": "Azienda in ripresa con eccellente redditività",
+    "colore": "orange",
+    "punti_forza": [
+      "Redditività ai vertici del settore (ROS 19,6%)",
+      "ROE straordinario (47,0%) - top performer",
+      "Liquidità eccellente (Current Ratio 5,0x)",
+      "Forte miglioramento operativo (EBIT +293%)",
+      "Nessun evento negativo registrato",
+      "Trend di sviluppo molto positivo (score 5/5)",
+      "Equilibrio finanziario ottimo (score 5/5)"
+    ],
+    "aree_attenzione": [
+      "Struttura patrimoniale critica (score 1/5) - necessita rafforzamento",
+      "Capitalizzazione bassa (13,9%) rispetto ai debiti",
+      "Sostenibilità del debito da monitorare",
+      "Dimensione micro-impresa limita diversificazione"
+    ],
+    "raccomandazioni_principali": [
+      "Rafforzare patrimonio netto attraverso capitalizzazione o retention utili",
+      "Ottimizzare struttura debiti privilegiando medio-lungo termine",
+      "Consolidare posizionamento di mercato per sostenere margini"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi evidenzia una trasformazione significativa: l'azienda ha registrato un miglioramento drammatico della redditività con EBIT cresciuto del 293% e margini operativi che hanno raggiunto il 19,6%. Il ROE del 47% indica una capacità eccezionale di remunerare il capitale proprio, seppur su base patrimoniale limitata. Il trend è consolidato e sostenibile.",
+    "risk_factors": "Il principale fattore di rischio è la struttura patrimoniale sottocapitalizzata con patrimonio netto che rappresenta solo il 13,9% del totale attivo. Questo crea vulnerabilità in caso di shock negativi. La dimensione micro (1 dipendente) limita la diversificazione operativa. Il settore consulenza è ciclico e dipendente dalla congiuntura economica.",
+    "opportunity_signals": "La forte redditività e la liquidità eccellente creano opportunità per: (1) Rafforzamento patrimoniale attraverso capitalizzazione; (2) Investimenti in crescita organica; (3) Diversificazione servizi; (4) Espansione geografica. Il miglioramento del rating da C1 a B3 facilita l'accesso al credito.",
+    "management_quality_indicators": "Il management ha dimostrato capacità di turnaround eccellenti, trasformando una situazione critica in performance ai vertici del settore. La gestione finanziaria è migliorata significativamente con ottimizzazione della liquidità e controllo dei costi.",
+    "market_position": "L'azienda opera nel settore consulenza gestionale, mercato competitivo ma con opportunità per operatori specializzati. La marginalità elevata suggerisce posizionamento premium o nicchia specialistica. La presenza digitale (sito web, social media) indica approccio moderno al marketing.",
+    "operational_efficiency": "L'efficienza operativa è migliorata drasticamente con turnover index adeguato e gestione ottimale della liquidità. La struttura snella (1 dipendente) garantisce flessibilità ma limita la scalabilità."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "sottocapitalizzazione",
+        "titolo": "Patrimonio Netto Insufficiente",
+        "descrizione": "PN rappresenta solo 13,9% del totale attivo vs benchmark settore >25%",
+        "severity": "medium",
+        "colore": "orange",
+        "metriche": {
+          "pn_totale_attivo": "13.9%",
+          "benchmark_settore": ">25%",
+          "gap": "-11.1pp"
+        },
+        "implicazioni": "Vulnerabilità finanziaria in caso di perdite. Limitata capacità di assorbimento shock negativi.",
+        "raccomandazione": "Rafforzare PN attraverso capitalizzazione o retention utili. Target: PN >20% totale attivo.",
+        "trigger_escalation": "PN < 10% totale attivo o perdite consecutive"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW002",
+        "tipo": "concentrazione_debiti_lungo_termine",
+        "titolo": "Elevata Incidenza Debiti M/L Termine",
+        "descrizione": "Debiti oltre esercizio successivo €467K vs debiti breve €75K",
+        "severity": "low",
+        "colore": "yellow",
+        "metriche": {
+          "debiti_ml": 466710,
+          "debiti_breve": 74506,
+          "rapporto": "6.3x"
+        },
+        "implicazioni": "Struttura debiti sbilanciata verso M/L termine. Da verificare scadenze e condizioni.",
+        "raccomandazione": "Analizzare piano di rimborso debiti M/L e verificare sostenibilità.",
+        "trigger_escalation": "Difficoltà nel rispetto scadenze o rinegoziazioni forzate"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "miglioramento_rating",
+        "titolo": "Upgrade Rating da C1 a B3",
+        "descrizione": "Miglioramento significativo del rating creditizio in 6 mesi",
+        "colore": "green",
+        "implicazioni": "Riconoscimento del turnaround aziendale. Migliore accesso al credito e condizioni più favorevoli.",
+        "sostenibilita": "Alta se mantenuti trend redditività e rafforzamento patrimoniale"
+      },
+      {
+        "id": "PP002",
+        "tipo": "redditività_eccezionale",
+        "titolo": "Performance Redditività Top Quartile",
+        "descrizione": "ROS 19,6% e ROE 47,0% ai vertici del settore consulenza",
+        "colore": "green",
+        "implicazioni": "Modello di business efficace con forte creazione di valore. Attrattivo per investitori.",
+        "sostenibilita": "Media - dipende da mantenimento posizionamento competitivo"
+      }
+    ],
+    "overall_risk_trend": "MIGLIORAMENTO SIGNIFICATIVO. Il trend complessivo è positivo con upgrade rating e miglioramento di tutti i profili operativi. Il rischio principale rimane la struttura patrimoniale che necessita attenzione prioritaria."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Consolidamento",
+      "descrizione": "Scenario che assume consolidamento dei miglioramenti attuali con crescita moderata",
+      "ipotesi": [
+        "Crescita fatturato +5% annuo (normalizzazione post-turnaround)",
+        "Margine ROS stabile al 18-20%",
+        "Retention 70% utili per rafforzamento PN",
+        "Rimborso ordinario debiti M/L termine",
+        "Mantenimento efficienza operativa"
+      ],
+      "dscr_proiettato": 2.1,
+      "rating_proiettato": "B2 (upgrade)",
+      "commento": "Nel base case l'azienda consolida il turnaround con possibile upgrade a B2. Il rafforzamento patrimoniale graduale migliora la solidità strutturale mantenendo l'eccellente redditività."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Contrazione Mercato",
+      "descrizione": "Scenario avverso con pressione competitiva e riduzione margini",
+      "ipotesi": [
+        "Calo fatturato -15% (recessione settore consulenza)",
+        "Compressione ROS a 12% (pressione prezzi)",
+        "Incremento costi fissi (+5%)",
+        "Difficoltà incasso crediti",
+        "Necessità utilizzo linee di credito"
+      ],
+      "dscr_proiettato": 1.2,
+      "rating_proiettato": "C1 (downgrade)",
+      "commento": "In scenario stress l'azienda potrebbe tornare a rating C1 ma manterrebbe sostenibilità operativa. La liquidità attuale fornisce buffer temporaneo. Criticità su struttura patrimoniale."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Espansione Accelerata",
+      "descrizione": "Scenario favorevole con capitalizzazione e crescita organica",
+      "ipotesi": [
+        "Aumento capitale sociale €50K",
+        "Crescita fatturato +20% (espansione servizi)",
+        "Margine ROS migliorato al 22%",
+        "Assunzione 1-2 collaboratori",
+        "Investimenti in digitalizzazione"
+      ],
+      "dscr_proiettato": 2.8,
+      "rating_proiettato": "B1 (upgrade significativo)",
+      "commento": "Con capitalizzazione e crescita sostenuta, l'azienda potrebbe raggiungere rating B1. La struttura patrimoniale rafforzata supporterebbe espansione ambiziosa mantenendo equilibri finanziari."
+    },
+    "sensitivity_note": "L'analisi di sensitività mostra che il rating è particolarmente sensibile alla struttura patrimoniale. Un rafforzamento del PN del 50% potrebbe generare upgrade di 1-2 notch indipendentemente dalla performance operativa."
+  },
+  "peer_comparison": {
+    "peer_group": "Consulenza Gestionale e PR - Micro Imprese Italia (ATECO 70.22)",
+    "sample_size": 21520,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": 19.6,
+        "mediana": 12.5,
+        "percentile": 85,
+        "commento": "Performance eccellente, top 15% del settore. ROS superiore del 57% alla mediana."
+      },
+      "roe": {
+        "azienda": 47,
+        "mediana": 18.2,
+        "percentile": 95,
+        "commento": "Performance straordinaria, top 5% del settore. ROE quasi 3x la mediana settoriale."
+      },
+      "roi": {
+        "azienda": 8.8,
+        "mediana": 11.5,
+        "percentile": 35,
+        "commento": "Sotto la mediana per effetto della struttura patrimoniale. Migliorabile con capitalizzazione."
+      },
+      "current_ratio": {
+        "azienda": 5,
+        "mediana": 2.1,
+        "percentile": 92,
+        "commento": "Liquidità eccezionale, top 10% del settore. Posizione di forza assoluta."
+      },
+      "dso": {
+        "azienda": null,
+        "mediana": 75,
+        "percentile": null,
+        "commento": "Dato non disponibile per natura dell'attività consulenziale."
+      },
+      "leverage": {
+        "azienda": 7.2,
+        "mediana": 3.8,
+        "percentile": 15,
+        "commento": "Leva finanziaria elevata, quartile inferiore. Riflette sottocapitalizzazione."
+      },
+      "pfn_ebitda": {
+        "azienda": null,
+        "mediana": 2.5,
+        "percentile": null,
+        "commento": "Non applicabile - azienda con posizione di liquidità netta positiva."
+      }
+    },
+    "sintesi_posizionamento": "KITZANOS si posiziona nel top quartile per redditività e liquidità ma nel quartile inferiore per solidità patrimoniale. Il profilo è tipico di aziende in fase di turnaround con eccellenti performance operative ma struttura finanziaria da rafforzare.",
+    "aree_eccellenza": [
+      "Redditività operativa (ROS, ROE) - Top 15% del settore",
+      "Liquidità (Current Ratio) - Top 10% del settore",
+      "Efficienza gestionale - Margini superiori alla media"
+    ],
+    "aree_miglioramento": [
+      "Struttura patrimoniale (Leverage) - Quartile inferiore",
+      "Capitalizzazione - Significativamente sotto benchmark",
+      "Diversificazione operativa - Limitata dalla dimensione"
+    ]
+  },
+  "action_items": {
+    "urgente": [
+      {
+        "id": "AI001",
+        "area": "Struttura Patrimoniale",
+        "titolo": "Rafforzamento Patrimonio Netto",
+        "azione": "Pianificare aumento capitale sociale di €30-50K o retention integrale utili 2024",
+        "razionale": "PN attuale 13,9% vs benchmark settore >25%. Vulnerabilità strutturale critica",
+        "impatto_atteso": "Miglioramento capitalizzazione da 13,9% a >20%",
+        "beneficio_stimato": "Upgrade rating potenziale, riduzione costo del credito",
+        "investimento_richiesto": "€30-50K aumento capitale o retention utili",
+        "roi_stimato": "Alto - miglioramento rating e condizioni creditizie",
+        "owner_suggerito": "Soci / Amministratore",
+        "timeline": "Entro Q1 2025",
+        "kpi_monitoraggio": [
+          "PN/Totale Attivo",
+          "Debt/Equity Ratio",
+          "Rating creditizio"
+        ]
+      }
+    ],
+    "importante": [
+      {
+        "id": "AI002",
+        "area": "Gestione Debiti",
+        "titolo": "Analisi e Ottimizzazione Debiti M/L Termine",
+        "azione": "Verificare scadenze e condizioni dei €467K debiti oltre esercizio successivo",
+        "razionale": "Rapporto debiti M/L vs breve termine 6,3:1 anomalo. Necessaria verifica sostenibilità",
+        "impatto_atteso": "Ottimizzazione piano rimborsi e condizioni",
+        "beneficio_stimato": "Riduzione oneri finanziari, miglior cash flow planning",
+        "investimento_richiesto": "Tempo management + eventuale consulenza finanziaria",
+        "roi_stimato": "Medio-alto se identificate opportunità rinegoziazione",
+        "owner_suggerito": "CFO / Amministratore",
+        "timeline": "Q1 2025",
+        "kpi_monitoraggio": [
+          "Scadenzario debiti",
+          "Costo medio del debito",
+          "DSCR"
+        ]
+      },
+      {
+        "id": "AI003",
+        "area": "Business Development",
+        "titolo": "Consolidamento Posizionamento Competitivo",
+        "azione": "Definire strategia di mantenimento margini premium attraverso specializzazione",
+        "razionale": "ROS 19,6% eccellente ma da proteggere dalla pressione competitiva",
+        "impatto_atteso": "Sostenibilità margini operativi nel medio termine",
+        "beneficio_stimato": "Mantenimento redditività superiore alla media",
+        "investimento_richiesto": "€5-10K marketing specialistico",
+        "roi_stimato": "Alto - protezione margini esistenti",
+        "owner_suggerito": "CEO / Responsabile Commerciale",
+        "timeline": "Q2 2025",
+        "kpi_monitoraggio": [
+          "ROS trimestrale",
+          "Mix clienti",
+          "Pricing medio"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Crescita Organica",
+        "titolo": "Espansione Team e Servizi",
+        "azione": "Valutare assunzione 1-2 collaboratori per scalare il business",
+        "razionale": "Liquidità eccellente e margini elevati consentono investimenti in crescita",
+        "impatto_atteso": "Crescita fatturato +30-50% mantenendo marginalità",
+        "beneficio_stimato": "Diversificazione rischi, maggiore stabilità ricavi",
+        "investimento_richiesto": "€40-60K costo annuo personale",
+        "owner_suggerito": "CEO",
+        "timeline": "H2 2025 se consolidato rafforzamento patrimoniale",
+        "note": "Subordinato a completamento rafforzamento PN"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate secondo urgenza per stabilità finanziaria. Il rafforzamento patrimoniale è prerequisito per qualsiasi strategia di crescita."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B3 - Medio Alto con Trend Positivo",
+      "colore": "orange",
+      "commento": "Rating B3 rappresenta un significativo miglioramento dal precedente C1, riflettendo il turnaround operativo dell'azienda. La valutazione riconosce l'eccellente redditività raggiunta ma mantiene cautela per la struttura patrimoniale sottocapitalizzata. Outlook positivo per potenziali upgrade.",
+      "outlook": "Positivo con possibilità di upgrade",
+      "fattori_supporto": [
+        "Redditività eccellente (ROS 19,6%, ROE 47,0%)",
+        "Forte miglioramento operativo (EBIT +293%)",
+        "Liquidità solida (Current Ratio 5,0x)",
+        "Trend di sviluppo molto positivo",
+        "Assenza eventi negativi"
+      ],
+      "fattori_rischio": [
+        "Struttura patrimoniale critica (PN 13,9%)",
+        "Dimensione micro-impresa",
+        "Concentrazione operativa su singolo soggetto",
+        "Settore consulenza ciclico"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Nella Media (Verde Chiaro)",
+      "colore": "green",
+      "commento": "Risk Score VERDE CHIARO indica rischio nella media del settore, in miglioramento dal precedente GIALLO. Il miglioramento riflette la stabilizzazione delle performance operative e l'assenza di tensioni finanziarie acute."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 5.000",
+      "commento": "Il fido operativo di € 5.000 è coerente con la dimensione micro dell'azienda e il rating B3. Rappresenta circa il 2,2% del fatturato, appropriato per le esigenze di working capital di un'attività consulenziale.",
+      "utilizzo_suggerito": "Linea di credito per gestione picchi di liquidità e pagamenti anticipati. Consigliato pricing in linea con rating B3 (Euribor + 250-300bp)."
+    },
+    "trend_analysis": "Il rating è migliorato significativamente da C1 a B3 negli ultimi 6 mesi, confermando il successo del turnaround aziendale. Il risk score è passato da GIALLO a VERDE CHIARO. Il fido operativo è rimasto stabile, coerente con la dimensione aziendale.",
+    "probability_of_default": {
+      "valore": 2.8,
+      "classe": "Medium Risk - Improving Trend",
+      "commento": "PD stimata 2.8% su orizzonte 12 mesi, in linea con rating B3. La probabilità è in miglioramento grazie al turnaround operativo ma rimane condizionata dalla struttura patrimoniale."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano una situazione polarizzata: eccellenza negli aspetti operativi (Economico, Finanziario, Sviluppo tutti a 5/5) controbilanciata da criticità strutturale (Patrimoniale 1/5). Il profilo complessivo riflette un'azienda in forte ripresa ma con necessità di consolidamento patrimoniale.",
+    "economico": {
+      "giudizio_breve": "Ottimo",
+      "colore": "green",
+      "commento": "Score 5/5 in miglioramento. Redditività ai vertici del settore con ROS 19,6% e ROE 47,0%. L'azienda ha completato un turnaround eccezionale trasformando una situazione critica in performance da top performer. La marginalità operativa è sostenibile e di qualità.",
+      "driver_principali": [
+        "ROS 19,6% - eccellente",
+        "ROE 47,0% - straordinario",
+        "EBIT +293% YoY - turnaround completato"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Score 1/5 stabile. La struttura patrimoniale rimane il principale punto di debolezza con PN che rappresenta solo il 13,9% del totale attivo. Il leverage di 7,2x è elevato e crea vulnerabilità. Necessario rafforzamento urgente attraverso capitalizzazione o retention utili.",
+      "driver_principali": [
+        "PN/Totale Attivo 13,9% - insufficiente",
+        "Leverage 7,2x - elevato",
+        "Capitalizzazione critica"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Ottimo",
+      "colore": "green",
+      "commento": "Score 5/5 in forte miglioramento. Liquidità eccellente con Current Ratio 5,0x e posizione di cassa solida. L'azienda ha trasformato una situazione di tensione finanziaria in posizione di forza. Capacità di far fronte agli impegni senza criticità.",
+      "driver_principali": [
+        "Current Ratio 5,0x - eccellente",
+        "Liquidità €35K - adeguata",
+        "Nessuna tensione finanziaria"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Buono",
+      "colore": "green",
+      "commento": "Score 4/5. Efficienza operativa buona con turnover index adeguato per il settore consulenza. La struttura snella garantisce flessibilità operativa. Produttività per addetto elevata considerando il fatturato generato.",
+      "driver_principali": [
+        "Turnover index 0,45 - adeguato",
+        "Struttura operativa efficiente",
+        "Alta produttività per addetto"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Ottimo",
+      "colore": "green",
+      "commento": "Score 5/5 in miglioramento. Trend di sviluppo eccellente con forte crescita della redditività. Nonostante il calo del fatturato (-10,3%), l'azienda ha migliorato drasticamente l'efficienza operativa. Il turnaround è consolidato e sostenibile.",
+      "driver_principali": [
+        "EBIT +293% - turnaround eccezionale",
+        "Miglioramento margini significativo",
+        "Trend consolidato e sostenibile"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "La redditività è il punto di forza principale dell'azienda. Tutti gli indicatori sono ai vertici del settore, evidenziando un modello di business efficace e un turnaround di successo. I margini sono sostenibili e di qualità.",
+      "trend_yoy": "In forte miglioramento",
+      "indicatori": {
+        "ros": {
+          "colore": "green",
+          "commento": "ROS al 19,6% eccellente, ben oltre la soglia del 15%. L'azienda ha raggiunto margini operativi da top performer del settore consulenza."
+        },
+        "roe": {
+          "colore": "green",
+          "commento": "ROE al 47,0% straordinario, quasi 4x la soglia di eccellenza del 12%. Performance eccezionale nella remunerazione del capitale proprio."
+        },
+        "roi": {
+          "colore": "yellow",
+          "commento": "ROI all'8,8% sotto la soglia ottimale per effetto della struttura patrimoniale. Migliorabile con rafforzamento PN."
+        },
+        "roa": {
+          "colore": "green",
+          "commento": "ROA al 18,5% eccellente, indica ottima redditività degli asset totali."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "yellow",
+          "commento": "Incidenza gestione extra-caratteristica significativa (73,8%). Da monitorare la qualità degli utili."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "La posizione di liquidità è eccellente con margini di sicurezza molto ampi. L'azienda può far fronte agli impegni a breve termine senza alcuna tensione. Posizione di forza assoluta.",
+      "trend_yoy": "In forte miglioramento",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "green",
+          "commento": "Current Ratio di 5,0 eccezionale, molto sopra la soglia ottimale di 1,5. Liquidità abbondante per coprire passività correnti."
+        },
+        "acid_test": {
+          "colore": "green",
+          "commento": "Acid Test di 5,0 conferma la solidità della posizione liquida anche escludendo eventuali rimanenze."
+        },
+        "cash_short_term_debt": {
+          "colore": "green",
+          "commento": "Rapporto cassa/debiti a breve di 0,47 solido. Le disponibilità liquide coprono quasi la metà dei debiti correnti."
+        },
+        "margine_struttura": {
+          "colore": "yellow",
+          "commento": "Margine di struttura negativo (-€120K) indica squilibrio nel finanziamento delle immobilizzazioni."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Margine di struttura secondario positivo (€347K) grazie ai debiti M/L termine."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Indice di copertura immobilizzazioni 2,66 buono. Gli investimenti fissi sono supportati da fonti durevoli."
+        },
+        "copertura_ccn": {
+          "colore": "green",
+          "commento": "Copertura capitale circolante netto adeguata."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "La struttura del debito presenta criticità significative con leva finanziaria molto elevata. Il leverage di 7,2x è ben oltre le soglie di sicurezza. Necessario rafforzamento patrimoniale urgente.",
+      "trend_yoy": "Stabile ma critico",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "green",
+          "commento": "PFN negativa (posizione di liquidità netta) grazie alle disponibilità liquide superiori ai debiti finanziari a breve."
+        },
+        "leverage": {
+          "colore": "red",
+          "commento": "Leverage ratio di 7,2 molto elevato, oltre la soglia critica di 5. Indica forte dipendenza da capitale di terzi."
+        },
+        "capitalizzazione": {
+          "colore": "red",
+          "commento": "Grado di capitalizzazione del 13,9% molto sotto la soglia minima del 20%. Struttura patrimoniale insufficiente."
+        },
+        "debt_ratio": {
+          "colore": "red",
+          "commento": "Debt ratio di 6,1 elevato, indica forte squilibrio tra debiti e patrimonio netto."
+        },
+        "bank_debt_assets": {
+          "colore": "green",
+          "commento": "Incidenza debito bancario sull'attivo contenuta."
+        },
+        "bank_debt_ratio": {
+          "colore": "green",
+          "commento": "Rapporto debito bancario/totale fonti gestibile."
+        },
+        "ebitda_net_leverage": {
+          "colore": "green",
+          "commento": "EBITDA leverage netto favorevole grazie alla posizione di liquidità."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "orange",
+          "commento": "EBITDA leverage lordo da monitorare considerando i debiti totali."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Buono",
+      "colore": "green",
+      "commento": "Gli indici di copertura sono buoni grazie all'elevato EBITDA generato. La capacità di servire il debito è adeguata nonostante la struttura patrimoniale critica.",
+      "trend_yoy": "In miglioramento",
+      "indicatori": {
+        "dscr": {
+          "colore": "green",
+          "commento": "DSCR stimato >2,0x buono. L'EBITDA copre adeguatamente il servizio del debito annuale."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "green",
+          "commento": "Copertura interessi 15,1x eccellente. Gli oneri finanziari assorbono solo il 6,6% dell'EBITDA."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "green",
+          "commento": "Anche con EBIT, la copertura degli interessi è solida (6,4x)."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "green",
+          "commento": "Copertura interessi netti eccellente."
+        },
+        "ebit_interessi_netti": {
+          "colore": "green",
+          "commento": "Tutti gli indicatori di copertura confermano la sostenibilità del servizio del debito."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Non Applicabile",
+      "colore": "gray",
+      "commento": "Gli indicatori del ciclo finanziario non sono applicabili per un'attività di consulenza che non presenta rimanenze significative e ha crediti commerciali limitati.",
+      "trend_yoy": "N/A",
+      "indicatori": {
+        "dso": {
+          "colore": "gray",
+          "commento": "DSO non applicabile per natura dell'attività consulenziale."
+        },
+        "dpo": {
+          "colore": "gray",
+          "commento": "DPO non significativo per il modello di business."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO nullo - nessuna rimanenza di magazzino."
+        },
+        "ciclo_finanziario": {
+          "colore": "green",
+          "commento": "Ciclo finanziario molto breve tipico dei servizi di consulenza."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Eccellente Turnaround",
+      "colore": "green",
+      "commento": "Gli indicatori di sviluppo evidenziano un turnaround eccezionale. Nonostante il calo del fatturato, l'azienda ha migliorato drasticamente l'efficienza operativa e la redditività.",
+      "trend_yoy": "Turnaround completato",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "orange",
+          "commento": "Fatturato -10,3% ma in contesto di miglioramento qualitativo del business mix."
+        },
+        "variazione_ebit": {
+          "colore": "green",
+          "commento": "EBIT +293% - turnaround eccezionale che dimostra il successo della ristrutturazione operativa."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "orange",
+          "commento": "Valore aggiunto -4,3% ma con forte miglioramento della marginalità."
+        },
+        "variazione_mol": {
+          "colore": "green",
+          "commento": "MOL +54,2% - significativo miglioramento della redditività operativa lorda."
+        },
+        "variazione_totale_attivo": {
+          "colore": "orange",
+          "commento": "Attivo -3,1% in linea con ottimizzazione della struttura aziendale."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Gestione debito finanziario migliorata con ottimizzazione della struttura."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Buona",
+      "colore": "green",
+      "commento": "L'efficienza operativa è buona con indici di rotazione adeguati per il settore consulenza. La struttura snella garantisce flessibilità e controllo dei costi.",
+      "trend_yoy": "In miglioramento",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "green",
+          "commento": "Indice di rotazione 0,45 adeguato per il settore consulenza. Utilizzo efficiente del capitale investito."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione magazzino non applicabile - attività di servizi senza scorte."
+        },
+        "current_assets_rotation": {
+          "colore": "green",
+          "commento": "Rotazione attivo circolante 0,67 buona per il settore."
+        },
+        "ar_rotation": {
+          "colore": "green",
+          "commento": "Rotazione crediti efficiente per natura dell'attività."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Critica",
+      "colore": "red",
+      "commento": "La struttura finanziaria presenta criticità significative con forte dipendenza da capitale di terzi. La composizione del debito è sbilanciata verso il medio-lungo termine.",
+      "trend_yoy": "Stabile ma critica",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "green",
+          "commento": "PFN netta positiva rispetto al PN grazie alla liquidità disponibile."
+        },
+        "pfn_pn": {
+          "colore": "green",
+          "commento": "Posizione finanziaria netta favorevole."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "orange",
+          "commento": "Composizione debito sbilanciata verso M/L termine (€467K vs €75K breve)."
+        },
+        "debito_netto_fonti": {
+          "colore": "red",
+          "commento": "Incidenza debito netto sulle fonti elevata per sottocapitalizzazione."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "red",
+          "commento": "Debito finanziario lordo molto superiore al patrimonio netto."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Contenuto",
+      "colore": "green",
+      "commento": "L'onere finanziario è contenuto grazie al miglioramento della redditività. Il costo del debito è gestibile nonostante la struttura patrimoniale critica.",
+      "trend_yoy": "In miglioramento",
+      "indicatori": {
+        "rod": {
+          "colore": "green",
+          "commento": "Costo medio del debito 1,6% contenuto, coerente con tassi di mercato attuali."
+        },
+        "rod_finanziario": {
+          "colore": "green",
+          "commento": "Costo del debito finanziario gestibile."
+        },
+        "burden_index": {
+          "colore": "green",
+          "commento": "Indice di onerosità 6,6% accettabile. Gli oneri finanziari assorbono quota limitata del reddito operativo."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Struttura Adeguata",
+      "colore": "green",
+      "commento": "La struttura dell'attivo è coerente con l'attività di consulenza. Le immobilizzazioni (29% del totale) sono principalmente immateriali, tipiche del settore. Buon bilanciamento tra investimenti fissi e liquidità.",
+      "immobilizzazioni": "Le immobilizzazioni totali (€187K) sono composte principalmente da immateriali (€99K) e finanziarie (€71K). La componente materiale è limitata (€17K), coerente con un'attività di servizi. Le immobilizzazioni finanziarie potrebbero rappresentare partecipazioni strategiche.",
+      "attivo_circolante": "L'attivo circolante (€416K) è dominato dai crediti (€381K) e dalle disponibilità liquide (€35K). L'assenza di rimanenze conferma la natura di servizi dell'attività. La liquidità è adeguata per le esigenze operative.",
+      "composizione_attivo": "La composizione attivo fisso/circolante 29/71 è tipica del settore consulenza. L'elevata incidenza dei crediti richiede monitoraggio della qualità e dei tempi di incasso."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Struttura Critica",
+      "colore": "red",
+      "commento": "La struttura delle fonti evidenzia una sottocapitalizzazione critica. Il patrimonio netto (€89K) rappresenta solo il 13,9% delle fonti, molto sotto i benchmark di settore. Forte dipendenza da capitale di terzi.",
+      "patrimonio_netto": "Il PN è composto da capitale sociale minimo (€3K), riserve accumulate (€44K) e utile d'esercizio (€42K). La crescita è trainata dall'autofinanziamento ma la base patrimoniale rimane insufficiente per la dimensione dell'attivo.",
+      "debiti": "I debiti totali (€541K) sono sbilanciati verso il medio-lungo termine (€467K vs €75K breve). Questa struttura è atipica e richiede verifica delle scadenze e condizioni. Nessun TFR presente.",
+      "struttura_fonti": "La struttura PN 13,9% / Debiti 84,3% è fortemente squilibrata. Le fonti durevoli coprono le immobilizzazioni ma il leverage è eccessivo."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Performance Eccellente",
+      "colore": "green",
+      "commento": "Il conto economico evidenzia un turnaround eccezionale con valore della produzione di €290K e margini operativi del 19,6%. La gestione caratteristica genera la totalità del risultato positivo.",
+      "valore_produzione": "Ricavi di vendita €230K in calo del 10,3% ma con forte miglioramento del mix e della marginalità. Altri ricavi €60K includono probabilmente contributi o proventi accessori. La contrazione dei volumi è compensata dall'efficienza.",
+      "costi_produzione": "I costi della produzione (€234K) sono ben controllati con incidenza del costo del personale minima (€341). I costi per servizi (€53K) e gli ammortamenti (€77K) sono le componenti principali. Struttura dei costi ottimizzata.",
+      "gestione_finanziaria": "La gestione finanziaria presenta oneri netti di €9K (1,5% dei ricavi), contenuti e gestibili. Nessuna operazione finanziaria straordinaria.",
+      "risultato_esercizio": "Utile d'esercizio €42K con margine netto del 14,4%. Risultato in forte crescita che conferma il successo del turnaround aziendale."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi di cassa evidenzia generazione operativa solida con autofinanziamento di €119K, superiore all'utile per effetto degli ammortamenti.",
+      "operating_cf": "Cash flow operativo robusto (€119K) che dimostra la qualità degli utili e la capacità di generazione di cassa dell'attività.",
+      "investing_cf": "Flusso investimenti contenuto, coerente con la natura dell'attività di consulenza che richiede limitati investimenti in asset fisici.",
+      "financing_cf": "Attività di finanziamento da analizzare in dettaglio considerando la struttura particolare dei debiti M/L termine."
+    }
+  },
+  "dscr": {
+    "valore": 2.1,
+    "giudizio_breve": "Buono",
+    "colore": "green",
+    "commento": "Il DSCR stimato di 2,1x indica che l'azienda genera un EBITDA più che doppio rispetto al servizio del debito annuale. Il margine di sicurezza del 110% è buono e garantisce capacità di assorbire variazioni negative della redditività.",
+    "componenti": {
+      "ebitda": 133438,
+      "oneri_finanziari": 8838,
+      "quota_capitale_annuale": 55000,
+      "servizio_debito": 63838
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è confermata dal DSCR >2,0x e dalla copertura interessi 15x. Tuttavia, la struttura patrimoniale critica limita la capacità di assorbimento di shock significativi. La sostenibilità è legata al mantenimento della redditività attuale.",
+    "capacita_indebitamento_residua": "Capacità di nuovo debito limitata dalla struttura patrimoniale. Prima di considerare nuovo indebitamento è necessario rafforzare il PN.",
+    "stress_test_result": "In scenario stress (EBITDA -30%), il DSCR scenderebbe a 1,47x, comunque sopra la soglia critica. La struttura patrimoniale critica amplifica però i rischi."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "MEDIUM",
+    "elenco": [
+      "Struttura patrimoniale sottocapitalizzata (PN 13,9%)",
+      "Leverage eccessivo (7,2x)",
+      "Concentrazione operativa (1 dipendente)"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "Nessuna anomalia rilevata. Il miglioramento dei margini è coerente con il turnaround aziendale e verificabile con i dati storici. La crescita della redditività è plausibile.",
+      "anomalie_magazzino": "Non applicabile - attività di servizi senza rimanenze significative.",
+      "anomalie_crediti": "Crediti €381K rappresentano 166% del fatturato, elevati ma spiegabili con natura dell'attività consulenziale e possibili crediti verso controllate/collegate.",
+      "tensione_liquidita": "Nessuna tensione di liquidità. Current ratio 5,0x eccellente e disponibilità liquide adeguate.",
+      "eccessivo_indebitamento": "RED FLAG: Leverage 7,2x molto elevato e PN insufficiente (13,9%). Struttura patrimoniale critica che richiede intervento urgente.",
+      "eventi_negativi": "Nessun evento negativo rilevato: zero protesti, zero procedure concorsuali, zero pregiudizievoli. Track record pulito.",
+      "governance_concerns": "Struttura societaria cooperativa con governance definita. Management identificato e ruoli chiari.",
+      "going_concern": "Continuità aziendale supportata dalla redditività eccellente e liquidità adeguata, ma condizionata dal rafforzamento patrimoniale necessario."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Da Verificare",
+      "colore": "yellow",
+      "commento": "L'azienda presenta performance operative eccellenti ma la struttura patrimoniale critica richiede attenzione agli adeguati assetti. Necessaria verifica della sostenibilità della struttura attuale e pianificazione rafforzamento PN."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 3.8,
+        "soglia": 2.5,
+        "alert": true,
+        "commento": "3,8% sopra la soglia del 2,5%. Indicatore in area di attenzione ma gestibile."
+      },
+      "pn_debiti_totali": {
+        "valore": 16.5,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "16,5% sopra la soglia minima del 5,5% ma comunque basso rispetto ai benchmark."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 558.7,
+        "soglia": 85,
+        "alert": false,
+        "commento": "558,7% molto sopra la soglia dell'85%. Liquidità a breve eccellente."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 18.5,
+        "soglia": 1.5,
+        "alert": false,
+        "commento": "18,5% molto sopra la soglia dell'1,5%. Ottima generazione di cassa."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": null,
+        "soglia": 7,
+        "alert": false,
+        "commento": "Dato non disponibile nel dettaglio fornito."
+      }
+    },
+    "continuita_aziendale": "La continuità aziendale è supportata dall'eccellente redditività e liquidità adeguata. Tuttavia, la struttura patrimoniale critica richiede interventi di rafforzamento per garantire stabilità a lungo termine.",
+    "raccomandazioni_assetti": [
+      "Rafforzare patrimonio netto attraverso capitalizzazione",
+      "Implementare sistema di controllo di gestione strutturato",
+      "Monitorare trimestralmente gli indicatori di allerta CCII"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "PARZIALMENTE CONFORME - Un indicatore (oneri finanziari/ricavi) in area di attenzione. Struttura patrimoniale da rafforzare.",
+    "antiriciclaggio": "Struttura societaria cooperativa trasparente con soci identificati. Nessuna transazione anomala rilevata dai dati di bilancio.",
+    "privacy_note": "Analisi basata su dati di bilancio pubblici e credit score da provider autorizzati. Nessun trattamento di dati personali sensibili."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Pianificare aumento capitale sociale di €30-50K per rafforzare PN",
+      "Analizzare composizione e scadenze debiti M/L termine (€467K)",
+      "Implementare retention policy per utili 2024 (€42K)",
+      "Verificare sostenibilità piano rimborsi debiti"
+    ],
+    "medio_termine": [
+      "Consolidare posizionamento competitivo per mantenere margini premium",
+      "Sviluppare sistema di controllo di gestione strutturato",
+      "Valutare diversificazione servizi per ridurre concentrazione",
+      "Ottimizzare struttura debiti privilegiando M/L termine sostenibile"
+    ],
+    "strategiche": [
+      "Valutare crescita organica con assunzione collaboratori qualificati",
+      "Esplorare opportunità di partnership strategiche nel settore",
+      "Considerare diversificazione geografica per ampliare mercato",
+      "Sviluppare offerta digitale per scalabilità business"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "KITZANOS si posiziona nel top quartile per redditività ma nel quartile inferiore per solidità patrimoniale. Il profilo è tipico di aziende in fase di turnaround con performance operative eccellenti ma struttura finanziaria da consolidare.",
+    "posizionamento": "Top 15% per redditività (ROS, ROE). Top 10% per liquidità. Quartile inferiore per capitalizzazione e leverage.",
+    "benchmark_principali": [
+      "ROS 19,6% vs mediana settore 12,5% (+57%)",
+      "ROE 47,0% vs mediana settore 18,2% (+158%)",
+      "Current Ratio 5,0 vs mediana settore 2,1 (+138%)",
+      "Leverage 7,2 vs mediana settore 3,8 (+89% - negativo)",
+      "PN/Attivo 13,9% vs benchmark >25% (-44% - critico)"
+    ],
+    "trend_settore": "Il settore consulenza gestionale è in crescita moderata (+3-5% annuo) con margini sotto pressione competitiva. Le aziende specializzate mantengono margini premium. Trend verso digitalizzazione e servizi integrati."
+  },
+  "metadata": {
+    "generated_at": "2025-01-15T14:30:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "KITZANOS.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.87,
+    "analysis_depth": "Comprehensive - Full financial analysis con focus su turnaround e struttura patrimoniale",
+    "disclaimers": [
+      "L'analisi si basa su dati di bilancio pubblici e credit score di terze parti",
+      "Le proiezioni hanno natura indicativa e non costituiscono previsioni",
+      "Si raccomanda verifica dettagliata della composizione debiti M/L termine",
+      "L'analisi non sostituisce la consulenza professionale specializzata"
+    ]
+  }
+}
