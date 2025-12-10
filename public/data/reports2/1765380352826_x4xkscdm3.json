@@ -1,0 +1,771 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "DISTRESSED - OUTLOOK NEGATIVO",
+    "verdict_color": "red",
+    "key_message": "Azienda in grave difficoltà finanziaria con perdite significative e deterioramento strutturale. Rating B3 riflette alto rischio di default. Necessaria ristrutturazione urgente.",
+    "numeri_chiave": [
+      "Rating B3 - Alto Rischio",
+      "Perdita d'esercizio -€211K su fatturato €74K",
+      "ROS -65,5% - Margini fortemente negativi",
+      "EBITDA negativo -€208K",
+      "Fido operativo limitato €5K"
+    ],
+    "risk_level": "ALTO",
+    "focus_trimestre": "Ristrutturazione urgente del business model, riduzione costi operativi e valutazione continuità aziendale",
+    "next_review": "Q1 2025 - Verifica piano di risanamento e sostenibilità operativa"
+  },
+  "executive_summary": {
+    "sintesi": "T.T. & M. TECHNOLOGY TRANSFER AND MANAGEMENT SRL presenta un profilo finanziario critico con rating B3 e rischio medio-alto. L'azienda opera nel settore lavorazione metalli con margini fortemente negativi (ROS -65,5%) e perdite strutturali. Il fatturato di €74K è insufficiente a coprire i costi operativi di €527K. Nonostante la solidità patrimoniale (PN €1,6M), la performance operativa è insostenibile.",
+    "giudizio_breve": "Azienda in grave crisi operativa",
+    "colore": "red",
+    "punti_forza": [
+      "Patrimonio netto solido (€1,6M) con riserve di rivalutazione",
+      "Liquidità disponibile (€330K) per operazioni a breve",
+      "Assenza debiti bancari significativi",
+      "Immobili di proprietà (€367K) come garanzia patrimoniale"
+    ],
+    "aree_attenzione": [
+      "Perdite operative strutturali (-€209K EBITDA)",
+      "Fatturato insufficiente (€74K) rispetto ai costi fissi",
+      "Margini negativi su tutti gli indicatori di redditività",
+      "Sostenibilità del business model in discussione"
+    ],
+    "raccomandazioni_principali": [
+      "Piano di ristrutturazione urgente con riduzione costi operativi",
+      "Valutazione cessione asset non strategici",
+      "Ricerca nuovi mercati o diversificazione attività"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi evidenzia un deterioramento drammatico della performance operativa. Il fatturato è crollato del -37,16% YoY mentre i costi sono rimasti elevati, generando una forbice insostenibile. L'EBITDA è passato da positivo (+€14K) a fortemente negativo (-€208K), indicando perdita totale di competitività operativa.",
+    "risk_factors": "Rischi critici identificati: (1) Insostenibilità del modello operativo con costi fissi sproporzionati al fatturato; (2) Erosione rapida del patrimonio netto attraverso perdite accumulate; (3) Possibile perdita di competitività nel mercato di riferimento; (4) Rischio going concern se non implementato piano di turnaround.",
+    "opportunity_signals": "Le opportunità sono limitate ma includono: (1) Patrimonio immobiliare (€367K) disponibile per ristrutturazione finanziaria; (2) Liquidità residua per investimenti mirati; (3) Possibile riposizionamento in nicchie più redditizie del settore metalmeccanico; (4) Potenziale partnership o cessione a operatori più strutturati.",
+    "management_quality_indicators": "La gestione mostra criticità evidenti nell'adattamento ai cambiamenti di mercato. La mancata riduzione dei costi a fronte del calo di fatturato indica rigidità operativa. Necessaria valutazione delle competenze manageriali per il turnaround.",
+    "market_position": "La posizione competitiva appare compromessa nel settore lavorazione metalli. Il crollo del fatturato suggerisce perdita di clienti chiave o obsolescenza dell'offerta. Il mercato di riferimento richiede probabilmente maggiore specializzazione o economie di scala.",
+    "operational_efficiency": "L'efficienza operativa è gravemente compromessa con tutti gli indici in territorio negativo. Il turnover degli asset è insufficiente e la struttura dei costi appare sovradimensionata rispetto alla capacità di generare ricavi."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "perdite_strutturali",
+        "titolo": "Perdite Operative Strutturali",
+        "descrizione": "EBITDA negativo -€208K indica perdite operative prima di oneri finanziari",
+        "severity": "critical",
+        "colore": "red",
+        "metriche": {
+          "ebitda": -208471,
+          "margine_ebitda": "-284%",
+          "trend_yoy": "Peggioramento da +€14K a -€208K"
+        },
+        "implicazioni": "Impossibilità di coprire costi operativi con ricavi. Erosione patrimonio netto in corso.",
+        "raccomandazione": "Piano di ristrutturazione immediato con riduzione costi del 60-70%",
+        "trigger_escalation": "Continuazione perdite per oltre 2 trimestri"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW002",
+        "tipo": "erosione_patrimonio",
+        "titolo": "Erosione Patrimonio Netto",
+        "descrizione": "Perdita d'esercizio -€211K erode il 13% del patrimonio netto",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "perdita_esercizio": -211241,
+          "patrimonio_netto": 1638468,
+          "erosione_pct": "12.9%"
+        },
+        "implicazioni": "Continuando a questo ritmo, il PN si azzererebbe in 7-8 anni",
+        "raccomandazione": "Bloccare emorragia con cessazione attività non redditizie",
+        "trigger_escalation": "PN sotto €1M o perdite >€300K annue"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "solidita_patrimoniale",
+        "titolo": "Patrimonio Netto Solido",
+        "descrizione": "PN di €1,6M con riserve di rivalutazione fornisce buffer finanziario",
+        "colore": "green",
+        "implicazioni": "Tempo disponibile per ristrutturazione senza rischio immediato di insolvenza",
+        "sostenibilita": "Media - dipende dalla velocità di implementazione turnaround"
+      }
+    ],
+    "overall_risk_trend": "DETERIORAMENTO ACCELERATO. Tutti gli indicatori operativi in peggioramento critico. Senza interventi immediati, rischio concreto di cessazione attività entro 12-18 mesi."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Ristrutturazione Graduale",
+      "descrizione": "Scenario che assume implementazione piano di ristrutturazione con riduzione costi",
+      "ipotesi": [
+        "Riduzione costi operativi del 50% (€264K)",
+        "Stabilizzazione fatturato a €100K",
+        "Cessione asset non strategici per €200K",
+        "Mantenimento attività core redditizie"
+      ],
+      "dscr_proiettato": null,
+      "rating_proiettato": "B2 (miglioramento condizionato)",
+      "commento": "Nel base case l'azienda potrebbe tornare in pareggio operativo ma richiede disciplina rigorosa nell'esecuzione del piano di ristrutturazione."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Continuazione Trend",
+      "descrizione": "Scenario di continuazione dell'attuale trend negativo senza interventi",
+      "ipotesi": [
+        "Ulteriore calo fatturato -20%",
+        "Costi fissi invariati",
+        "Perdite annue €250-300K",
+        "Erosione progressiva patrimonio netto"
+      ],
+      "dscr_proiettato": null,
+      "rating_proiettato": "C1 (downgrade significativo)",
+      "commento": "Scenario stress porta a esaurimento patrimonio in 5-6 anni e possibile cessazione attività. Rating scenderebbe a livelli di pre-default."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Turnaround Efficace",
+      "descrizione": "Scenario ottimistico con successo completo della ristrutturazione",
+      "ipotesi": [
+        "Nuovo business model con fatturato €200K",
+        "Margini operativi positivi 15%",
+        "Riduzione costi a €170K",
+        "Ritorno alla redditività strutturale"
+      ],
+      "dscr_proiettato": null,
+      "rating_proiettato": "B1 (upgrade significativo)",
+      "commento": "Scenario upside richiede cambio radicale di strategia e execution perfetta. Probabilità stimata <20% senza supporto esterno."
+    },
+    "sensitivity_note": "L'azienda è estremamente sensibile alle variazioni di fatturato data l'alta incidenza dei costi fissi. Una riduzione ulteriore del 10% dei ricavi comporterebbe perdite aggiuntive di €50-70K."
+  },
+  "peer_comparison": {
+    "peer_group": "Lavorazione Metalli - Micro Imprese Lombardia (ATECO 25.xx)",
+    "sample_size": 21233,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": -65.5,
+        "mediana": 5.2,
+        "percentile": 1,
+        "commento": "Performance drammaticamente sotto la mediana. Peggiore 1% del settore."
+      },
+      "roe": {
+        "azienda": -12.9,
+        "mediana": 8.5,
+        "percentile": 5,
+        "commento": "ROE negativo vs mediana positiva. Distruzione di valore per gli azionisti."
+      },
+      "roi": {
+        "azienda": -11.4,
+        "mediana": 6.8,
+        "percentile": 3,
+        "commento": "Rendimento capitale investito fortemente negativo. Bottom 3% del campione."
+      },
+      "current_ratio": {
+        "azienda": 9.13,
+        "mediana": 1.45,
+        "percentile": 98,
+        "commento": "Liquidità eccellente ma non compensa le perdite operative. Unico indicatore positivo."
+      },
+      "dso": {
+        "azienda": 4,
+        "mediana": 65,
+        "percentile": 95,
+        "commento": "Incassi molto rapidi, probabilmente per basso volume d'affari."
+      },
+      "leverage": {
+        "azienda": 1.12,
+        "mediana": 2.8,
+        "percentile": 85,
+        "commento": "Indebitamento contenuto grazie al patrimonio netto elevato."
+      },
+      "pfn_ebitda": {
+        "azienda": null,
+        "mediana": 3.2,
+        "percentile": null,
+        "commento": "Non calcolabile per EBITDA negativo. Situazione anomala nel settore."
+      }
+    },
+    "sintesi_posizionamento": "T.T. & M. si colloca nel percentile inferiore per tutti gli indicatori di redditività (bottom 5%) mentre mantiene posizioni eccellenti solo per liquidità e struttura patrimoniale. Il gap con la mediana settoriale è drammatico.",
+    "aree_eccellenza": [
+      "Liquidità corrente - Top 2% del settore",
+      "Struttura patrimoniale solida",
+      "Basso indebitamento finanziario"
+    ],
+    "aree_miglioramento": [
+      "Redditività operativa - Bottom 1% del settore",
+      "Efficienza operativa - Critica",
+      "Sostenibilità del business model"
+    ]
+  },
+  "action_items": {
+    "urgente": [
+      {
+        "id": "AI001",
+        "area": "Business Restructuring",
+        "titolo": "Piano di Ristrutturazione Immediato",
+        "azione": "Implementare piano di riduzione costi operativi del 60-70% con focus su costi fissi",
+        "razionale": "Perdite operative di €208K insostenibili. Necessaria riduzione drastica per raggiungere break-even",
+        "impatto_atteso": "Riduzione perdite da €208K a €50-80K",
+        "beneficio_stimato": "Allungamento runway finanziario da 7 a 15+ anni",
+        "investimento_richiesto": "€30-50K per consulenza ristrutturazione",
+        "roi_stimato": "3-5x in termini di perdite evitate",
+        "owner_suggerito": "CEO / Consulente Turnaround",
+        "timeline": "Implementazione immediata - Q1 2025",
+        "kpi_monitoraggio": [
+          "EBITDA mensile",
+          "Costi operativi",
+          "Burn rate"
+        ]
+      }
+    ],
+    "importante": [
+      {
+        "id": "AI002",
+        "area": "Asset Management",
+        "titolo": "Valutazione Cessione Asset Non Strategici",
+        "azione": "Perizia e potenziale cessione immobili (€367K) per generare liquidità e ridurre costi fissi",
+        "razionale": "Asset immobiliari potrebbero generare liquidità per ristrutturazione o ridurre costi di mantenimento",
+        "impatto_atteso": "Liquidità aggiuntiva €200-300K o riduzione costi €20-30K/anno",
+        "beneficio_stimato": "Estensione runway o riduzione break-even point",
+        "investimento_richiesto": "€5-10K per perizie",
+        "owner_suggerito": "CFO / Advisor Immobiliare",
+        "timeline": "Valutazione Q1 2025, decisione Q2 2025",
+        "kpi_monitoraggio": [
+          "Valore realizzo",
+          "Costi evitati",
+          "Liquidità disponibile"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Business Development",
+        "titolo": "Ricerca Partner Strategico o Acquirente",
+        "azione": "Scouting per partnership industriale o cessione a operatore più strutturato del settore",
+        "razionale": "Dimensioni e competenze attuali insufficienti per competere autonomamente",
+        "impatto_atteso": "Integrazione in realtà più grande con sinergie operative",
+        "beneficio_stimato": "Valorizzazione asset e competenze, continuità occupazionale",
+        "owner_suggerito": "CEO / M&A Advisor",
+        "timeline": "Processo 6-12 mesi",
+        "note": "Alternativa alla ristrutturazione autonoma"
+      }
+    ],
+    "nota_metodologica": "Le action items riflettono la criticità della situazione. Priorità assoluta al contenimento perdite operative prima di qualsiasi iniziativa di sviluppo."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B3 - Alto Rischio",
+      "colore": "red",
+      "commento": "Rating B3 riflette l'alto rischio creditizio derivante dalle perdite operative strutturali e dal deterioramento della performance. Nonostante la solidità patrimoniale, la sostenibilità operativa è compromessa. PD stimata 8-12% annua.",
+      "outlook": "Negativo",
+      "fattori_supporto": [
+        "Patrimonio netto solido (€1,6M)",
+        "Liquidità disponibile (€330K)",
+        "Assenza debiti bancari significativi"
+      ],
+      "fattori_rischio": [
+        "Perdite operative strutturali (EBITDA -€208K)",
+        "Crollo fatturato (-37% YoY)",
+        "Margini fortemente negativi su tutti gli indicatori",
+        "Sostenibilità business model in discussione"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Medio-Alto (Verde Chiaro)",
+      "colore": "yellow",
+      "commento": "Risk Score VERDE CHIARO indica rischio nella media del portafoglio, mitigato dalla solidità patrimoniale nonostante le criticità operative. Il patrimonio netto fornisce buffer temporaneo ma non risolve i problemi strutturali."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 5.000",
+      "commento": "Fido operativo molto limitato (€5K) riflette le criticità operative e l'alto rischio. Importo simbolico per operazioni correnti. Sconsigliato incremento fino a miglioramento performance operative.",
+      "utilizzo_suggerito": "Solo per operazioni correnti di importo limitato. Monitoraggio stretto dell'utilizzo."
+    },
+    "trend_analysis": "Il rating è peggiorato da B2 a B3 nell'ultimo periodo riflettendo il deterioramento dei fondamentali. Il trend è negativo e potrebbe continuare senza interventi correttivi.",
+    "probability_of_default": {
+      "valore": 10.5,
+      "classe": "High Risk - Speculative Grade",
+      "commento": "PD stimata 10.5% su orizzonte 12 mesi, significativamente superiore alla media. Riflette le criticità operative e l'incertezza sulla continuità aziendale."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano una situazione paradossale: eccellente solidità patrimoniale e finanziaria (5/5) ma performance economica drammaticamente negativa (1/5). Questa dicotomia riflette un'azienda con asset solidi ma modello operativo fallimentare.",
+    "economico": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Score 1/5. Performance economica nel percentile peggiore del settore con tutti gli indicatori di redditività fortemente negativi. ROS -65,5% indica perdita di oltre metà del fatturato in costi operativi. Situazione insostenibile.",
+      "driver_principali": [
+        "ROS -65,5% - drammaticamente negativo",
+        "ROE -12,9% - distruzione valore azionisti",
+        "EBITDA negativo -€208K"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Score 5/5. Struttura patrimoniale molto solida con PN di €1,6M e capitalizzazione 89,6%. Le riserve di rivalutazione (€1,5M) forniscono buffer significativo. Posizione nel top 5% del settore.",
+      "driver_principali": [
+        "Capitalizzazione 89,6% - eccellente",
+        "PN €1,6M con riserve solide",
+        "Copertura immobilizzazioni ottimale"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Score 5/5. Liquidità eccezionale con current ratio 9,13x e acid test 8,5x. Disponibilità liquide €330K senza debiti bancari significativi. Posizione finanziaria nel top 2% del settore.",
+      "driver_principali": [
+        "Current ratio 9,13x - eccezionale",
+        "Liquidità €330K disponibile",
+        "Assenza tensioni finanziarie"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Gli indici di produttività sono distorti dal basso fatturato. Turnover molto basso (0,17) indica sottoutilizzo degli asset. Efficienza compromessa dalla struttura dei costi.",
+      "driver_principali": [
+        "Turnover index 0,17 - molto basso",
+        "Sottoutilizzo asset evidenti",
+        "Struttura costi inadeguata"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "In Contrazione",
+      "colore": "yellow",
+      "commento": "Score 3/5. Forte crescita del fatturato (+137% vs anno precedente) ma da base molto bassa. Il trend generale è di contrazione considerando la perdita di competitività. Sviluppo instabile.",
+      "driver_principali": [
+        "Variazione fatturato +137% (da base bassa)",
+        "Perdita competitività strutturale",
+        "Trend di lungo periodo negativo"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Tutti gli indicatori di redditività sono fortemente negativi, collocando l'azienda nel percentile peggiore del settore. La perdita operativa è strutturale e insostenibile nel medio termine.",
+      "trend_yoy": "Forte deterioramento",
+      "indicatori": {
+        "ros": {
+          "colore": "red",
+          "commento": "ROS -65,5% drammaticamente negativo. L'azienda perde 65 centesimi per ogni euro di fatturato."
+        },
+        "roe": {
+          "colore": "red",
+          "commento": "ROE -12,9% indica distruzione di valore per gli azionisti. Il patrimonio netto si riduce del 13% annuo."
+        },
+        "roi": {
+          "colore": "red",
+          "commento": "ROI -11,4% mostra rendimento negativo del capitale investito. Gli asset non generano valore."
+        },
+        "roa": {
+          "colore": "red",
+          "commento": "ROA -11,5% conferma l'inefficienza complessiva nell'utilizzo degli asset aziendali."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "yellow",
+          "commento": "Gestione extra-operativa marginale. Le perdite derivano principalmente dall'attività caratteristica."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "La liquidità è l'unico punto di forza dell'azienda con indici eccezionali. Current ratio oltre 9x garantisce copertura abbondante degli impegni a breve, fornendo tempo per la ristrutturazione.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "green",
+          "commento": "Current Ratio 9,13x eccezionale, nel top 2% del settore. Liquidità abbondante per operazioni correnti."
+        },
+        "acid_test": {
+          "colore": "green",
+          "commento": "Acid Test 8,5x conferma solidità liquida anche escludendo rimanenze. Posizione di forza assoluta."
+        },
+        "cash_short_term_debt": {
+          "colore": "green",
+          "commento": "Rapporto cassa/debiti brevi oltre 3.900x. Liquidità sovrabbondante rispetto agli impegni."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo con immobilizzazioni coperte da fonti durevoli."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Margine di struttura secondario ampiamente positivo."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Copertura immobilizzazioni 4,45x ottimale. Equilibrio fonti-impieghi rispettato."
+        },
+        "copertura_ccn": {
+          "colore": "green",
+          "commento": "Capitale circolante netto ben coperto da fonti appropriate."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Conservativo",
+      "colore": "green",
+      "commento": "La struttura dell'indebitamento è molto conservativa con leverage contenuto. L'assenza di debiti bancari significativi elimina pressioni finanziarie immediate.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "gray",
+          "commento": "Non calcolabile per EBITDA negativo. Situazione anomala che richiede normalizzazione operativa."
+        },
+        "leverage": {
+          "colore": "green",
+          "commento": "Leverage 1,12x molto contenuto. Bassa dipendenza da capitale di terzi."
+        },
+        "capitalizzazione": {
+          "colore": "green",
+          "commento": "Capitalizzazione 89,6% eccellente. Tra le migliori del settore."
+        },
+        "debt_ratio": {
+          "colore": "green",
+          "commento": "Debt ratio 11,6% molto basso. Indebitamento minimo."
+        },
+        "bank_debt_assets": {
+          "colore": "green",
+          "commento": "Debito bancario praticamente assente. Nessuna dipendenza dal sistema creditizio."
+        },
+        "bank_debt_ratio": {
+          "colore": "green",
+          "commento": "Rapporto debito bancario nullo. Struttura equity-driven."
+        },
+        "ebitda_net_leverage": {
+          "colore": "gray",
+          "commento": "Non significativo con EBITDA negativo."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "green",
+          "commento": "Leverage lordo -0,15x indica posizione netta di liquidità."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Non Applicabile",
+      "colore": "gray",
+      "commento": "Gli indici di copertura non sono significativi con EBITDA negativo. L'azienda non genera flussi operativi sufficienti per coprire oneri finanziari, che comunque sono minimi.",
+      "trend_yoy": "Non applicabile",
+      "indicatori": {
+        "dscr": {
+          "colore": "gray",
+          "commento": "DSCR non calcolabile con EBITDA negativo. Nessuna capacità di servizio del debito da flussi operativi."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "red",
+          "commento": "Copertura interessi negativa (-204x). EBITDA insufficiente per coprire oneri finanziari."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "red",
+          "commento": "Anche EBIT negativo non copre gli oneri finanziari."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "red",
+          "commento": "Copertura interessi netti negativa per EBITDA insufficiente."
+        },
+        "ebit_interessi_netti": {
+          "colore": "red",
+          "commento": "EBIT negativo non garantisce copertura sostenibile."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Distorto",
+      "colore": "yellow",
+      "commento": "Il ciclo finanziario è distorto dal basso volume d'affari. DSO molto basso per incassi rapidi ma DPO elevato indica dilazione pagamenti fornitori. Ciclo complessivamente favorevole ma non significativo.",
+      "trend_yoy": "Non significativo",
+      "indicatori": {
+        "dso": {
+          "colore": "green",
+          "commento": "DSO 4 giorni eccellente ma riflette basso volume crediti (€3.750). Incassi molto rapidi."
+        },
+        "dpo": {
+          "colore": "yellow",
+          "commento": "DPO 361 giorni molto elevato. Possibile dilazione pagamenti per difficoltà di cassa."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO 123 giorni nella norma per attività manifatturiera."
+        },
+        "ciclo_finanziario": {
+          "colore": "green",
+          "commento": "Ciclo finanziario negativo (-234 giorni) favorevole ma distorto da DPO elevato."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Instabile",
+      "colore": "yellow",
+      "commento": "Gli indicatori di sviluppo mostrano forte volatilità. Crescita fatturato significativa ma da base molto bassa. Il deterioramento dell'EBIT evidenzia perdita di efficienza operativa.",
+      "trend_yoy": "Volatile",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "green",
+          "commento": "Variazione fatturato +137% significativa ma da base molto bassa (€31K precedente)."
+        },
+        "variazione_ebit": {
+          "colore": "red",
+          "commento": "EBIT peggiorato del -19,6% nonostante crescita fatturato. Perdita di efficienza operativa."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "red",
+          "commento": "Valore aggiunto in forte calo (-1601%) indica distruzione di valore."
+        },
+        "variazione_mol": {
+          "colore": "red",
+          "commento": "MOL peggiorato del -1601%. Marginalità operativa compromessa."
+        },
+        "variazione_totale_attivo": {
+          "colore": "red",
+          "commento": "Attivo in calo del -23,4%. Contrazione dimensionale in corso."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario stabile (-0,9%). Nessun incremento del rischio finanziario."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Molto Bassa",
+      "colore": "red",
+      "commento": "L'efficienza operativa è gravemente compromessa con turnover molto basso. Gli asset sono sottoutilizzati e non generano fatturato adeguato. Necessaria ristrutturazione operativa.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "red",
+          "commento": "Turnover 0,17 molto basso. Ogni euro di attivo genera solo 17 centesimi di fatturato."
+        },
+        "inventory_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione magazzino 2,96x bassa per settore manifatturiero. Possibile obsolescenza scorte."
+        },
+        "current_assets_rotation": {
+          "colore": "red",
+          "commento": "Rotazione attivo circolante 0,22x molto bassa. Sottoutilizzo risorse liquide."
+        },
+        "ar_rotation": {
+          "colore": "green",
+          "commento": "Rotazione crediti 84,9x elevata per basso ammontare crediti."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Solida",
+      "colore": "green",
+      "commento": "La struttura finanziaria è molto solida con predominanza del patrimonio netto. Composizione delle fonti ottimale per stabilità ma non compensa le criticità operative.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "green",
+          "commento": "PFN/PN -18,2% indica posizione netta di liquidità. Situazione finanziaria solida."
+        },
+        "pfn_pn": {
+          "colore": "green",
+          "commento": "Rapporto PFN favorevole con eccesso di liquidità rispetto ai debiti."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario minimo (0,27% del totale). Struttura molto conservativa."
+        },
+        "debito_netto_fonti": {
+          "colore": "green",
+          "commento": "Debito netto negativo (-22,3%) per eccesso liquidità."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "green",
+          "commento": "Debito finanziario lordo solo 1,9% del PN. Indebitamento trascurabile."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Contenuto",
+      "colore": "green",
+      "commento": "L'onere finanziario è molto contenuto grazie al basso indebitamento. Gli interessi passivi sono marginali rispetto alle perdite operative.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "rod": {
+          "colore": "green",
+          "commento": "Costo medio del debito 0,54% molto contenuto."
+        },
+        "rod_finanziario": {
+          "colore": "yellow",
+          "commento": "Costo debito finanziario 12,14% elevato ma su importi trascurabili."
+        },
+        "burden_index": {
+          "colore": "green",
+          "commento": "Indice di onerosità -0,49% indica che gli oneri finanziari sono marginali."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Liquido",
+      "colore": "green",
+      "commento": "L'attivo è caratterizzato da elevata liquidità (80% attivo circolante) con disponibilità immediate di €330K. Le immobilizzazioni materiali (€368K) sono principalmente immobili. Struttura molto liquida ma sottoutilizzata.",
+      "immobilizzazioni": "Immobilizzazioni totali €368K (20% dell'attivo) composte quasi interamente da immobili (€367K). Nessuna immobilizzazione immateriale o finanziaria significativa. Asset tangibili di qualità.",
+      "attivo_circolante": "Attivo circolante €1,46M (80% del totale) con liquidità immediate €330K, titoli €998K e rimanenze €108K. Crediti commerciali minimi (€3.750). Struttura molto liquida.",
+      "composizione_attivo": "Composizione 20/80 immobilizzato/circolante anomala per settore manifatturiero. Indica sottoinvestimento in asset produttivi o eccesso di liquidità non impiegata."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Solido",
+      "colore": "green",
+      "commento": "Il passivo è dominato dal patrimonio netto (89,6%) con debiti contenuti. Struttura molto conservativa che fornisce stabilità finanziaria nonostante le perdite operative.",
+      "patrimonio_netto": "PN €1,64M con capitale sociale €10K e riserve €1,84M (principalmente rivalutazione €1,52M). La perdita d'esercizio -€211K erode il 13% del PN ma la base rimane solida.",
+      "debiti": "Debiti totali €191K (10,4% del passivo) principalmente verso fornitori €149K. Debiti finanziari trascurabili €84K. Nessun debito bancario significativo.",
+      "struttura_fonti": "Struttura 89,6% PN / 10,4% debiti estremamente conservativa. Autonomia finanziaria massima ma potrebbe indicare sottoutilizzo della leva finanziaria."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Il conto economico evidenzia una situazione drammatica con ricavi €74K insufficienti a coprire costi €527K. La perdita operativa -€209K è strutturale e insostenibile.",
+      "valore_produzione": "Valore produzione €318K composto da ricavi vendite €74K e altri ricavi €245K. La componente 'altri ricavi' (77%) è anomala e potrebbe includere elementi non ricorrenti.",
+      "costi_produzione": "Costi produzione €527K con incidenza 165% sui ricavi. Struttura costi inadeguata con oneri diversi €484K (92% del totale). Necessaria analisi dettagliata.",
+      "gestione_finanziaria": "Gestione finanziaria negativa -€2.529 per svalutazioni titoli. Oneri finanziari contenuti €1.020.",
+      "risultato_esercizio": "Perdita €211K pari al -287% dei ricavi. Risultato insostenibile che erode rapidamente il patrimonio netto."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi evidenzia generazione operativa fortemente negativa con assorbimento di cassa per perdite strutturali.",
+      "operating_cf": "Cash flow operativo negativo per circa -€211K (perdita d'esercizio). Nessuna generazione di cassa dall'attività caratteristica.",
+      "investing_cf": "Flusso investimenti marginale con ammortamenti €241K. Nessun investimento significativo in corso.",
+      "financing_cf": "Attività di finanziamento neutra. Nessun ricorso a nuovo debito o conferimenti."
+    }
+  },
+  "dscr": {
+    "valore": null,
+    "giudizio_breve": "Non Calcolabile",
+    "colore": "gray",
+    "commento": "Il DSCR non è calcolabile con EBITDA negativo (-€208K). L'azienda non genera flussi operativi positivi per servire il debito. La situazione richiede normalizzazione operativa prima di valutare sostenibilità del debito.",
+    "componenti": {
+      "ebitda": -208471,
+      "oneri_finanziari": 1020,
+      "quota_capitale_annuale": null,
+      "servizio_debito": null
+    },
+    "sostenibilita_debito": "La sostenibilità del debito non è valutabile con flussi operativi negativi. Nonostante il basso indebitamento (€84K), l'assenza di generazione di cassa operativa impedisce qualsiasi servizio del debito da attività caratteristica.",
+    "capacita_indebitamento_residua": "Capacità di indebitamento teoricamente elevata per patrimonio netto solido, ma praticamente nulla per assenza di flussi operativi positivi. Nessun istituto concederebbe credito senza garanzie patrimoniali.",
+    "stress_test_result": "In qualsiasi scenario stress, l'azienda non può servire debito aggiuntivo. La priorità è il ritorno a EBITDA positivo prima di considerare nuovo indebitamento."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "CRITICAL",
+    "elenco": [
+      "Perdite operative strutturali (EBITDA -€208K)",
+      "Margini fortemente negativi (ROS -65,5%)",
+      "Crollo competitività (fatturato insufficiente)",
+      "Sostenibilità business model compromessa"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "ROS -65,5% indica perdita di 65 centesimi per ogni euro di fatturato. Margini nel percentile peggiore del settore. Situazione strutturale non congiunturale.",
+      "anomalie_magazzino": "Rimanenze €108K con rotazione bassa (2,96x) potrebbero indicare obsolescenza o difficoltà di vendita. DIO elevato a 123 giorni.",
+      "anomalie_crediti": "Crediti commerciali minimi €3.750 coerenti con basso fatturato. DSO 4 giorni indica incassi rapidi, probabilmente per necessità di liquidità.",
+      "tensione_liquidita": "Paradossalmente nessuna tensione di liquidità immediata (€330K disponibili) ma burn rate elevato per perdite operative.",
+      "eccessivo_indebitamento": "Indebitamento contenuto ma irrilevante data l'assenza di capacità di rimborso da flussi operativi.",
+      "eventi_negativi": "Dati non disponibili ma le perdite strutturali costituiscono di per sé evento negativo significativo.",
+      "governance_concerns": "Necessaria valutazione competenze manageriali per gestione turnaround. Attuale gestione non ha impedito il deterioramento.",
+      "going_concern": "Serio dubbio sulla continuità aziendale. Con perdite attuali, il patrimonio si esaurirebbe in 7-8 anni senza interventi."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Non Conforme",
+      "colore": "red",
+      "commento": "L'azienda presenta criticità significative rispetto agli adeguati assetti organizzativi. Le perdite strutturali e l'insostenibilità del modello operativo violano i principi di continuità aziendale previsti dal Codice della Crisi."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 1.39,
+        "soglia": 2.5,
+        "alert": false,
+        "commento": "1,39% sotto soglia ma irrilevante data la perdita operativa strutturale."
+      },
+      "pn_debiti_totali": {
+        "valore": 858.7,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "858,7% molto sopra soglia per patrimonio netto elevato."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 918.9,
+        "soglia": 85,
+        "alert": false,
+        "commento": "918,9% eccellente per liquidità abbondante."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": -11.5,
+        "soglia": 1.5,
+        "alert": true,
+        "commento": "-11,5% molto sotto soglia per cash flow negativo. Indicatore critico."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 0.01,
+        "soglia": 7,
+        "alert": false,
+        "commento": "0,01% molto sotto soglia. Nessun problema con fisco/INPS."
+      }
+    },
+    "continuita_aziendale": "Esistono dubbi significativi sulla continuità aziendale. Le perdite operative strutturali e l'insostenibilità del modello di business richiedono piano di risanamento immediato per evitare procedure concorsuali.",
+    "raccomandazioni_assetti": [
+      "Implementazione piano di risanamento ex art. 67 CCII",
+      "Valutazione composizione negoziata della crisi",
+      "Ristrutturazione operativa urgente",
+      "Monitoraggio mensile indicatori di allerta"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "ALERT - Cash flow negativo indica criticità strutturale. Necessario piano di risanamento.",
+    "antiriciclaggio": "Nessuna anomalia rilevata dai dati disponibili. Flussi coerenti con attività dichiarata.",
+    "privacy_note": "Analisi basata su dati pubblici di bilancio e credit score. Nessun dato personale sensibile trattato."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Piano di ristrutturazione immediato con riduzione costi operativi 60-70%",
+      "Analisi dettagliata composizione 'altri ricavi' €245K per verificare ricorrenza",
+      "Valutazione cessione asset non strategici per generare liquidità",
+      "Implementazione controllo di gestione con budget mensili"
+    ],
+    "medio_termine": [
+      "Ridefinizione completa del business model e posizionamento competitivo",
+      "Ricerca partner strategico o potenziale acquirente",
+      "Diversificazione attività verso segmenti più redditizi",
+      "Investimento in competenze manageriali per turnaround"
+    ],
+    "strategiche": [
+      "Valutazione composizione negoziata della crisi se ristrutturazione fallisce",
+      "Cessione ramo d'azienda a operatori più strutturati",
+      "Liquidazione volontaria con realizzo asset se turnaround impossibile",
+      "Trasformazione in holding immobiliare se attività operativa non recuperabile"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "T.T. & M. si colloca nel percentile inferiore del settore per tutti gli indicatori operativi ed economici. Solo la liquidità e la struttura patrimoniale sono eccellenti, ma non compensano le criticità operative strutturali.",
+    "posizionamento": "Bottom 1-5% per redditività. Top 2% per liquidità. La dicotomia evidenzia un'azienda con asset solidi ma business model fallimentare.",
+    "benchmark_principali": [
+      "ROS -65,5% vs mediana settore +5,2% (-70,7pp)",
+      "ROE -12,9% vs mediana settore +8,5% (-21,4pp)",
+      "Current Ratio 9,13 vs mediana settore 1,45 (+530%)",
+      "Fatturato €74K vs media micro imprese €150-200K (-50%)"
+    ],
+    "trend_settore": "Il settore lavorazione metalli è in ripresa post-COVID con margini medi in miglioramento. La performance di T.T. & M. è completamente disconnessa dal trend settoriale positivo."
+  },
+  "metadata": {
+    "generated_at": "2025-01-15T14:30:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "T.T.&M.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.92,
+    "analysis_depth": "Comprehensive - Full financial analysis with turnaround focus",
+    "disclaimers": [
+      "L'analisi si basa su dati di bilancio pubblici e credit score di terze parti",
+      "Le raccomandazioni hanno carattere generale e richiedono approfondimento specifico",
+      "La situazione critica richiede consulenza specialistica per turnaround",
+      "Valutazioni soggette a rapida evoluzione data l'instabilità operativa"
+    ]
+  }
+}
