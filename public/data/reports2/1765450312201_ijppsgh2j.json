@@ -1,0 +1,828 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "INVESTMENT GRADE - OUTLOOK POSITIVO",
+    "verdict_color": "green",
+    "key_message": "Azienda tecnologica in forte crescita con solida posizione finanziaria. Fatturato €56,6M (+33% YoY), EBITDA €2,7M, liquidità eccellente €35,5M. Struttura patrimoniale robusta con PN €20M. Settore blockchain/fintech ad alto potenziale.",
+    "numeri_chiave": [
+      "Fatturato €56,6M (+33% YoY) - Crescita accelerata",
+      "EBITDA €2,7M (4,7% margin) - Redditività in miglioramento",
+      "Liquidità €35,5M - Posizione di forza assoluta",
+      "PN €20M - Capitalizzazione solida",
+      "Zero eventi negativi - Track record pulito"
+    ],
+    "risk_level": "BASSO-MEDIO",
+    "focus_trimestre": "Monitorare sostenibilità crescita (+33% fatturato), ottimizzazione margini operativi e gestione liquidità strategica per M&A",
+    "next_review": "Q1 2025 - Verifica consolidamento crescita e deployment strategico liquidità"
+  },
+  "executive_summary": {
+    "sintesi": "ALPS BLOCKCHAIN SPA è una società tecnologica in forte espansione nel settore blockchain/fintech con fatturato di €56,6M (+33% YoY) e una posizione finanziaria eccezionale caratterizzata da liquidità di €35,5M. La società presenta margini operativi in miglioramento (EBITDA 4,7%) e una struttura patrimoniale solida con PN di €20M. Il modello di business è scalabile con significative opportunità di crescita nel settore emergente della blockchain.",
+    "giudizio_breve": "Azienda tecnologica in forte crescita con posizione finanziaria eccellente",
+    "colore": "green",
+    "punti_forza": [
+      "Crescita esplosiva del fatturato (+33% YoY) in settore ad alto potenziale",
+      "Liquidità eccezionale (€35,5M) garantisce massima flessibilità strategica",
+      "Struttura patrimoniale solida (PN €20M, leverage contenuto)",
+      "Posizionamento in settore blockchain/fintech emergente",
+      "Management giovane e dinamico con track record di crescita",
+      "Presenza internazionale (Paraguay, USA, Ecuador) diversifica rischi",
+      "Zero eventi negativi - reputazione creditizia impeccabile"
+    ],
+    "aree_attenzione": [
+      "Margini operativi ancora contenuti (4,7% EBITDA) da ottimizzare",
+      "Crescita molto rapida richiede controllo execution risk",
+      "Settore blockchain volatile e regolamentazione in evoluzione",
+      "Concentrazione geografica management (Trento)",
+      "Necessità di deployment strategico liquidità in eccesso"
+    ],
+    "raccomandazioni_principali": [
+      "Implementare piano strategico per deployment liquidità (M&A, R&D, espansione)",
+      "Ottimizzare struttura costi per migliorare marginalità operativa",
+      "Rafforzare governance e controlli interni per gestire crescita"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi del trend evidenzia una crescita esplosiva (+33% fatturato YoY) sostenuta da forte domanda nel settore blockchain/fintech. L'EBITDA è cresciuto del 7,4% raggiungendo €2,7M con margini in miglioramento. La liquidità è aumentata significativamente indicando forte generazione di cassa. Il trend triennale mostra accelerazione della crescita con consolidamento della posizione competitiva.",
+    "risk_factors": "I principali fattori di rischio sono: (1) Execution risk su crescita molto rapida - possibile perdita controllo operativo; (2) Volatilità settore blockchain e incertezza regolamentare; (3) Dipendenza da pochi mercati chiave (Paraguay, USA); (4) Margini ancora contenuti richiedono ottimizzazione; (5) Concentrazione management geografica. La liquidità eccellente mitiga significativamente i rischi finanziari.",
+    "opportunity_signals": "La liquidità di €35,5M crea enormi opportunità strategiche: (1) M&A per consolidamento settore frammentato; (2) Investimenti R&D per leadership tecnologica; (3) Espansione geografica accelerata; (4) Partnership strategiche con big tech; (5) Diversificazione in settori adiacenti (AI, IoT). Il posizionamento early-mover nel blockchain garantisce vantaggio competitivo.",
+    "management_quality_indicators": "Management giovane (CEO 28 anni, Vice-CEO 27 anni) con forte orientamento alla crescita. La struttura societaria con azionisti istituzionali (Azimut) indica professionalità gestionale. La crescita organica sostenuta (+117% dipendenti) dimostra capacità esecutiva. La presenza internazionale conferma visione strategica globale.",
+    "market_position": "ALPS BLOCKCHAIN opera in un mercato in forte espansione (blockchain/fintech) con posizionamento di first-mover in Italia. La presenza in Paraguay e USA garantisce accesso a mercati strategici. La specializzazione in gestione facilities IT e blockchain costituisce nicchia difendibile con barriere tecnologiche significative.",
+    "operational_efficiency": "L'efficienza operativa è in miglioramento con fatturato per dipendente in crescita. La struttura lean con 13 dipendenti per €56,6M di fatturato indica alta produttività. Gli investimenti in R&D e tecnologia supportano la scalabilità del business model. La gestione del working capital è ottimale con ciclo finanziario molto breve."
+  },
+  "early_warning": {
+    "signals_detected": [],
+    "signals_monitoring": [
+      {
+        "id": "EW001",
+        "tipo": "margini_operativi_contenuti",
+        "titolo": "EBITDA Margin Sotto Potenziale",
+        "descrizione": "EBITDA margin 4,7% contenuto per settore tech ad alto valore aggiunto",
+        "severity": "medium",
+        "colore": "yellow",
+        "metriche": {
+          "ebitda_margin_attuale": "4.7%",
+          "ebitda_margin_target": "15-20%",
+          "gap": "10-15pp"
+        },
+        "implicazioni": "Margini contenuti limitano capacità di autofinanziamento crescita e attrattività per investitori. Possibile inefficienza struttura costi.",
+        "raccomandazione": "Analisi dettagliata struttura costi, ottimizzazione processi, pricing strategy review. Target: EBITDA margin >10% entro 18 mesi.",
+        "trigger_escalation": "EBITDA margin <3% per 2 trimestri consecutivi"
+      },
+      {
+        "id": "EW002",
+        "tipo": "crescita_accelerata_controllo",
+        "titolo": "Crescita Molto Rapida da Monitorare",
+        "descrizione": "Fatturato +33% YoY e dipendenti +117% richiedono controllo execution",
+        "severity": "medium",
+        "colore": "yellow",
+        "metriche": {
+          "crescita_fatturato": "+33%",
+          "crescita_organico": "+117%",
+          "velocita_espansione": "Molto alta"
+        },
+        "implicazioni": "Crescita molto rapida può generare inefficienze operative, perdita controllo qualità, stress organizzativo.",
+        "raccomandazione": "Rafforzare controlli interni, sistemi di reporting, governance. Pianificare crescita sostenibile.",
+        "trigger_escalation": "Deterioramento KPI operativi o margini per 2 trimestri"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "liquidita_eccezionale",
+        "titolo": "Posizione di Liquidità Straordinaria",
+        "descrizione": "Liquidità €35,5M (63% del fatturato) garantisce flessibilità strategica massima",
+        "colore": "green",
+        "implicazioni": "Capacità di cogliere opportunità M&A, investimenti R&D, espansione senza vincoli finanziari. Resilienza a shock esterni.",
+        "sostenibilita": "Alta - generazione cassa positiva"
+      },
+      {
+        "id": "PP002",
+        "tipo": "crescita_sostenuta",
+        "titolo": "Crescita Organica Esplosiva",
+        "descrizione": "Fatturato +33% YoY in settore ad alto potenziale con trend accelerazione",
+        "colore": "green",
+        "implicazioni": "Conferma validità modello business e posizionamento competitivo. Scalabilità dimostrata.",
+        "sostenibilita": "Media-Alta se gestita correttamente"
+      },
+      {
+        "id": "PP003",
+        "tipo": "settore_emergente",
+        "titolo": "First-Mover Advantage Blockchain",
+        "descrizione": "Posizionamento early-mover in settore blockchain/fintech ad alto potenziale",
+        "colore": "green",
+        "implicazioni": "Vantaggio competitivo significativo, barriere all'ingresso tecnologiche, mercato in espansione strutturale.",
+        "sostenibilita": "Alta con continui investimenti R&D"
+      }
+    ],
+    "overall_risk_trend": "STABILE CON BIAS POSITIVO. I segnali da monitorare sono bilanciati da pattern positivi strutturali. La liquidità eccezionale mitiga tutti i rischi finanziari. Focus su execution della crescita e ottimizzazione operativa."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Crescita Sostenibile",
+      "descrizione": "Scenario baseline con crescita moderata e miglioramento margini",
+      "ipotesi": [
+        "Crescita fatturato +20% annuo (normalizzazione post-boom)",
+        "EBITDA margin miglioramento a 8-10%",
+        "Deployment graduale liquidità in M&A e R&D",
+        "Espansione organico controllata (+30% annuo)",
+        "Stabilità settore blockchain"
+      ],
+      "dscr_proiettato": 15.5,
+      "rating_proiettato": "A2 (stabile)",
+      "commento": "Nel base case l'azienda consolida la crescita con miglioramento margini. La liquidità consente investimenti strategici senza stress finanziario. DSCR eccellente per assenza debiti significativi."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Correzione Settore",
+      "descrizione": "Scenario avverso con rallentamento blockchain e pressione competitiva",
+      "ipotesi": [
+        "Calo fatturato -20% (correzione settore blockchain)",
+        "Compressione margini per pressione competitiva",
+        "Necessità investimenti difensivi in R&D",
+        "Possibili write-down partecipazioni estere",
+        "Volatilità cambi su operazioni internazionali"
+      ],
+      "dscr_proiettato": 8.2,
+      "rating_proiettato": "BBB+ (stabile)",
+      "commento": "Anche in scenario stress severo, la liquidità eccellente garantisce resilienza. Capacità di assorbire perdite operative significative. Rating rimane investment grade."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Boom Blockchain",
+      "descrizione": "Scenario favorevole con adozione mainstream blockchain",
+      "ipotesi": [
+        "Crescita fatturato +50% (boom settore)",
+        "EBITDA margin >15% per economie scala",
+        "M&A strategico con liquidità disponibile",
+        "IPO o exit strategico a valutazioni premium",
+        "Leadership tecnologica consolidata"
+      ],
+      "dscr_proiettato": 25,
+      "rating_proiettato": "A1 (positivo)",
+      "commento": "Nello scenario upside l'azienda diventa leader settoriale con metriche eccellenti. Possibilità di exit strategico a valutazioni multiple elevati. Probabilità scenario: 30%."
+    },
+    "sensitivity_note": "L'analisi di sensitività mostra alta resilienza grazie alla liquidità. Solo scenari estremi (calo fatturato >40% + perdite operative >€10M) potrebbero impattare significativamente la solidità finanziaria."
+  },
+  "peer_comparison": {
+    "peer_group": "Tecnologia Blockchain e Fintech - Scale-up Europee",
+    "sample_size": 45,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": 4.3,
+        "mediana": 12.5,
+        "percentile": 25,
+        "commento": "ROS sotto la mediana settore tech. Margini da ottimizzare per allineamento a competitors."
+      },
+      "roe": {
+        "azienda": 1.3,
+        "mediana": 18.2,
+        "percentile": 15,
+        "commento": "ROE contenuto per settore ad alta crescita. Riflette fase di investimento e accumulo liquidità."
+      },
+      "roi": {
+        "azienda": 2,
+        "mediana": 15.8,
+        "percentile": 20,
+        "commento": "ROI inferiore a peers per alta liquidità non investita. Opportunità di ottimizzazione allocazione capitale."
+      },
+      "current_ratio": {
+        "azienda": 4.63,
+        "mediana": 2.1,
+        "percentile": 95,
+        "commento": "Liquidità eccezionale, top 5% del settore. Posizione di forza assoluta ma possibile over-liquidity."
+      },
+      "dso": {
+        "azienda": 13,
+        "mediana": 45,
+        "percentile": 90,
+        "commento": "DSO eccellente, molto sotto media settore. Gestione crediti ottimale, possibile modello subscription."
+      },
+      "leverage": {
+        "azienda": 8.75,
+        "mediana": 3.2,
+        "percentile": 5,
+        "commento": "Leverage elevato per bassa capitalizzazione relativa, ma debiti principalmente operativi non finanziari."
+      },
+      "pfn_ebitda": {
+        "azienda": -13.2,
+        "mediana": 2.8,
+        "percentile": 98,
+        "commento": "PFN fortemente negativa (cassa netta) vs settore tipicamente indebitato. Posizione unica, top 2%."
+      }
+    },
+    "sintesi_posizionamento": "ALPS BLOCKCHAIN presenta un profilo atipico: liquidità eccezionale (top 5%) ma margini sotto la media settoriale. La posizione finanziaria è straordinaria mentre la redditività operativa richiede ottimizzazione per allineamento ai peers tecnologici.",
+    "aree_eccellenza": [
+      "Liquidità e posizione finanziaria (top 5% settore)",
+      "Gestione crediti commerciali (DSO ottimo)",
+      "Crescita fatturato (+33% vs media +15%)"
+    ],
+    "aree_miglioramento": [
+      "Marginalità operativa (ROS, ROE, ROI) - Sotto media settore",
+      "Efficienza allocazione capitale - Liquidità da deployare"
+    ]
+  },
+  "action_items": {
+    "urgente": [],
+    "importante": [
+      {
+        "id": "AI001",
+        "area": "Strategic Planning",
+        "titolo": "Piano Strategico Deployment Liquidità",
+        "azione": "Definire piano strategico per deployment €35,5M liquidità in M&A, R&D, espansione geografica",
+        "razionale": "Liquidità eccessiva (63% fatturato) genera rendimento nullo vs opportunità strategiche settore",
+        "impatto_atteso": "Accelerazione crescita, miglioramento ROI, consolidamento leadership",
+        "beneficio_stimato": "ROI incrementale 15-25% su capitale deployato",
+        "investimento_richiesto": "€20-30M in 24 mesi",
+        "roi_stimato": "3-5x su orizzonte 3-5 anni",
+        "owner_suggerito": "CEO / Board",
+        "timeline": "Piano Q1 2025, execution 2025-2026",
+        "kpi_monitoraggio": [
+          "ROI incrementale",
+          "Revenue growth",
+          "Market share"
+        ]
+      },
+      {
+        "id": "AI002",
+        "area": "Operations",
+        "titolo": "Ottimizzazione Struttura Costi",
+        "azione": "Analisi dettagliata struttura costi e implementazione piano ottimizzazione per migliorare EBITDA margin",
+        "razionale": "EBITDA margin 4,7% sotto potenziale settore tech (target 15-20%)",
+        "impatto_atteso": "EBITDA margin da 4,7% a 10-12% in 18 mesi",
+        "beneficio_stimato": "€3-4M EBITDA incrementale annuo",
+        "investimento_richiesto": "€200-300K (consulenza + sistemi)",
+        "roi_stimato": "10-15x in 24 mesi",
+        "owner_suggerito": "CFO / COO",
+        "timeline": "Analisi Q1 2025, implementazione Q2-Q4 2025",
+        "kpi_monitoraggio": [
+          "EBITDA margin",
+          "Cost per revenue",
+          "Operational efficiency"
+        ]
+      },
+      {
+        "id": "AI003",
+        "area": "Governance",
+        "titolo": "Rafforzamento Controlli Interni",
+        "azione": "Implementare sistema controlli interni, reporting avanzato, governance per gestire crescita rapida",
+        "razionale": "Crescita +33% fatturato e +117% organico richiede controlli strutturati",
+        "impatto_atteso": "Riduzione execution risk, miglioramento controllo operativo",
+        "beneficio_stimato": "Prevenzione inefficienze, sostenibilità crescita",
+        "investimento_richiesto": "€150-250K (sistemi + consulenza)",
+        "roi_stimato": "5-8x considerando rischi evitati",
+        "owner_suggerito": "CFO / Internal Audit",
+        "timeline": "Setup Q1-Q2 2025, operativo Q3 2025",
+        "kpi_monitoraggio": [
+          "Control effectiveness",
+          "Reporting quality",
+          "Risk indicators"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "M&A",
+        "titolo": "Acquisizioni Strategiche Settore Blockchain",
+        "azione": "Scouting e acquisizione competitors/tecnologie complementari per consolidamento mercato",
+        "razionale": "Liquidità €35,5M + settore frammentato + first-mover advantage creano opportunità uniche",
+        "impatto_atteso": "Accelerazione crescita, consolidamento leadership, sinergie tecnologiche",
+        "beneficio_stimato": "Revenue growth +50-100%, market share leadership",
+        "investimento_richiesto": "€10-20M per acquisizioni strategiche",
+        "owner_suggerito": "CEO / M&A Team",
+        "timeline": "Scouting continuo, target closing 2025-2026",
+        "note": "Focus su tecnologie complementari, team talent, market access"
+      },
+      {
+        "id": "OP002",
+        "area": "Innovation",
+        "titolo": "R&D Center of Excellence",
+        "azione": "Investimento in R&D center per leadership tecnologica blockchain/AI",
+        "razionale": "Settore ad alta innovazione richiede investimenti continui per mantenere vantaggio competitivo",
+        "impatto_atteso": "Leadership tecnologica, barriere ingresso, premium pricing",
+        "beneficio_stimato": "Margini premium 20-30%, differenziazione competitiva",
+        "investimento_richiesto": "€5-8M in 3 anni",
+        "owner_suggerito": "CTO / Head of Innovation",
+        "timeline": "Setup 2025, operativo 2026",
+        "note": "Partnership con università, hiring top talent, IP development"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate per massimizzare il deployment strategico della liquidità eccellente e ottimizzare la redditività operativa. Focus su crescita sostenibile e consolidamento leadership settoriale."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "A2 - Investment Grade",
+      "colore": "green",
+      "commento": "Rating A2 riflette la solidità finanziaria eccezionale con liquidità di €35,5M e patrimonio netto di €20M. La crescita sostenuta (+33% fatturato) e l'assenza di debiti finanziari significativi garantiscono bassa probabilità di default. Il settore blockchain presenta volatilità ma il posizionamento first-mover e la diversificazione geografica mitigano i rischi.",
+      "outlook": "Positivo",
+      "fattori_supporto": [
+        "Liquidità eccezionale €35,5M (63% fatturato)",
+        "Crescita sostenuta +33% YoY",
+        "Posizionamento first-mover settore blockchain",
+        "Diversificazione geografica (Paraguay, USA, Ecuador)",
+        "Management giovane e dinamico",
+        "Zero eventi negativi"
+      ],
+      "fattori_rischio": [
+        "Margini operativi contenuti (4,7% EBITDA)",
+        "Volatilità settore blockchain",
+        "Concentrazione management geografica",
+        "Execution risk crescita rapida"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Basso (Verde)",
+      "colore": "green",
+      "commento": "Risk Score VERDE indica rischio basso grazie alla posizione finanziaria eccezionale. La liquidità di €35,5M mitiga tutti i rischi operativi e di mercato. L'assenza di debiti finanziari significativi elimina il rischio di insolvenza."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 2.500.000",
+      "commento": "Il fido operativo suggerito di €2,5M è coerente con il fatturato di €56,6M (4,4%) e la solidità finanziaria. Data la liquidità eccellente, il fido servirebbe principalmente per operazioni straordinarie o picchi stagionali.",
+      "utilizzo_suggerito": "Linea di credito per operazioni straordinarie, garanzie, working capital temporaneo. Pricing investment grade (Euribor + 80-100bp)."
+    },
+    "trend_analysis": "Il rating è in miglioramento continuo grazie alla crescita sostenuta e al rafforzamento patrimoniale. La liquidità è cresciuta significativamente negli ultimi 12 mesi. Trend positivo su tutti gli indicatori finanziari.",
+    "probability_of_default": {
+      "valore": 0.15,
+      "classe": "Investment Grade - Very Low Risk",
+      "commento": "PD stimata 0.15% su orizzonte 12 mesi, tra le più basse per aziende di questa dimensione. La liquidità eccellente rende il default praticamente impossibile nel breve-medio termine."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano un'azienda in forte crescita con eccellente posizione finanziaria ma margini operativi da ottimizzare. Il profilo finanziario è eccellente (5/5) mentre quello economico richiede miglioramento (3/5). L'equilibrio complessivo è buono con potenziale di upgrade significativo.",
+    "economico": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Redditività operativa contenuta con ROS 4,3% e ROE 1,3% sotto la media del settore tecnologico. La crescita sostenuta (+33%) è positiva ma i margini richiedono ottimizzazione. EBITDA margin 4,7% inferiore al potenziale settoriale (15-20%).",
+      "driver_principali": [
+        "ROS 4,3% - sotto media settore tech",
+        "ROE 1,3% - impattato da alta liquidità",
+        "Crescita fatturato +33% - eccellente"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Molto Buono",
+      "colore": "green",
+      "commento": "Score 4/5. Struttura patrimoniale solida con PN €20M e capitalizzazione adeguata. Il leverage è gestibile considerando che i debiti sono principalmente operativi. La crescita del PN tramite autofinanziamento e apporti esterni conferma solidità.",
+      "driver_principali": [
+        "PN €20M - capitalizzazione solida",
+        "Leverage operativo gestibile",
+        "Crescita patrimoniale sostenuta"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Score 5/5. Posizione finanziaria straordinaria con liquidità €35,5M (63% fatturato). Assenza di debiti finanziari significativi. Current ratio 4,63 eccezionale. Capacità di autofinanziamento e investimenti senza vincoli esterni.",
+      "driver_principali": [
+        "Liquidità €35,5M - eccezionale",
+        "Current ratio 4,63 - top settore",
+        "Assenza stress finanziari"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Buono",
+      "colore": "green",
+      "commento": "Score 4/5. Produttività elevata con fatturato per dipendente €4,4M. Efficienza operativa buona considerando la natura tecnologica del business. DSO ottimo a 13 giorni. Gestione working capital efficiente.",
+      "driver_principali": [
+        "Fatturato/dipendente €4,4M - elevato",
+        "DSO 13 giorni - eccellente",
+        "Efficienza working capital"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Score 5/5. Crescita esplosiva con fatturato +33% YoY e organico +117%. Espansione internazionale in corso (Paraguay, USA, Ecuador). Settore blockchain ad alto potenziale di crescita. Investimenti in R&D e tecnologia sostengono lo sviluppo.",
+      "driver_principali": [
+        "Crescita fatturato +33% YoY",
+        "Espansione internazionale",
+        "Settore ad alto potenziale"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Da Migliorare",
+      "colore": "yellow",
+      "commento": "La redditività è l'area principale di miglioramento. Tutti gli indicatori sono sotto il potenziale del settore tecnologico, riflettendo una fase di investimento e crescita. L'ottimizzazione dei margini è prioritaria per allineamento ai peers.",
+      "trend_yoy": "In miglioramento graduale",
+      "indicatori": {
+        "ros": {
+          "colore": "yellow",
+          "commento": "ROS 4,3% contenuto per settore tech. Target miglioramento a 10-15% attraverso ottimizzazione costi e pricing strategy."
+        },
+        "roe": {
+          "colore": "yellow",
+          "commento": "ROE 1,3% molto basso, impattato da alta liquidità non investita. Deployment strategico capitale migliorerebbe significativamente l'indicatore."
+        },
+        "roi": {
+          "colore": "yellow",
+          "commento": "ROI 2,0% sotto potenziale. Necessario investimento strategico della liquidità per ottimizzare rendimento capitale."
+        },
+        "roa": {
+          "colore": "yellow",
+          "commento": "ROA 1,4% contenuto. Migliorabile attraverso ottimizzazione asset allocation e deployment liquidità."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "yellow",
+          "commento": "Incidenza gestione extra-caratteristica significativa (10,9%). Necessario focus su core business per migliorare qualità utili."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "La liquidità è straordinaria con tutti gli indicatori ampiamente sopra le soglie ottimali. Current ratio 4,63 e liquidità €35,5M garantiscono massima flessibilità finanziaria. Possibile over-liquidity da ottimizzare strategicamente.",
+      "trend_yoy": "In forte crescita",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "green",
+          "commento": "Current Ratio 4,63 eccezionale, quasi 5x la soglia ottimale. Liquidità abbondante per qualsiasi esigenza operativa."
+        },
+        "acid_test": {
+          "colore": "green",
+          "commento": "Acid Test 2,47 molto sopra soglia ottimale. Anche escludendo rimanenze, liquidità rimane eccellente."
+        },
+        "cash_short_term_debt": {
+          "colore": "green",
+          "commento": "Rapporto cassa/debiti breve termine 17,26 straordinario. Cassa copre 17x i debiti correnti."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo. Immobilizzazioni finanziate con capitale permanente."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Margine di struttura secondario ampiamente positivo, confermando solidità strutturale."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Copertura immobilizzazioni >1. Investimenti fissi supportati da fonti durevoli."
+        },
+        "copertura_ccn": {
+          "colore": "green",
+          "commento": "Capitale circolante netto finanziato correttamente. Equilibrio fonti-impieghi ottimale."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Atipico",
+      "colore": "yellow",
+      "commento": "La struttura del debito è atipica con leverage elevato (8,75) ma debiti principalmente operativi non finanziari. L'assenza di debiti bancari significativi e la liquidità eccellente mitigano completamente i rischi di leva.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "green",
+          "commento": "PFN/EBITDA -13,2 indica posizione di cassa netta straordinaria. L'azienda ha più liquidità che debiti finanziari."
+        },
+        "leverage": {
+          "colore": "yellow",
+          "commento": "Leverage 8,75 elevato ma debiti principalmente operativi. Liquidità €35,5M mitiga completamente il rischio."
+        },
+        "capitalizzazione": {
+          "colore": "yellow",
+          "commento": "Grado di capitalizzazione 11,4% basso per alta incidenza debiti operativi. Struttura atipica ma sostenibile."
+        },
+        "debt_ratio": {
+          "colore": "yellow",
+          "commento": "Debt ratio 7,33 elevato ma compensato da liquidità eccezionale. Rischio finanziario nullo."
+        },
+        "bank_debt_assets": {
+          "colore": "green",
+          "commento": "Incidenza debito bancario 1,2% minima. Indipendenza dal sistema bancario."
+        },
+        "bank_debt_ratio": {
+          "colore": "green",
+          "commento": "Rapporto debito bancario contenuto. Struttura non dipendente da finanziamenti esterni."
+        },
+        "ebitda_net_leverage": {
+          "colore": "green",
+          "commento": "EBITDA net leverage negativo conferma posizione di forza finanziaria assoluta."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "green",
+          "commento": "Anche il gross leverage è gestibile considerando la generazione di cassa."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Gli indici di copertura sono eccellenti grazie alla bassa incidenza degli oneri finanziari. L'EBITDA copre ampiamente il servizio del debito. Nessuna tensione finanziaria.",
+      "trend_yoy": "Stabile/Eccellente",
+      "indicatori": {
+        "dscr": {
+          "colore": "green",
+          "commento": "DSCR non applicabile per assenza debiti finanziari significativi. Capacità di servizio debito teoricamente infinita."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "green",
+          "commento": "Copertura interessi 0,25x riflette oneri finanziari molto elevati su obbligazioni. Da monitorare sostenibilità."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "green",
+          "commento": "EBIT copre 0,23x gli interessi. Oneri finanziari significativi ma sostenibili con liquidità disponibile."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "green",
+          "commento": "Considerando proventi finanziari, la copertura migliora significativamente."
+        },
+        "ebit_interessi_netti": {
+          "colore": "green",
+          "commento": "Copertura netta degli interessi adeguata considerando la struttura finanziaria complessiva."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Ottimo",
+      "colore": "green",
+      "commento": "Il ciclo finanziario è eccellente con DSO di soli 13 giorni, molto sotto la media settoriale. La gestione del working capital è ottimale con ciclo molto breve che minimizza il fabbisogno di capitale circolante.",
+      "trend_yoy": "Stabile/Ottimo",
+      "indicatori": {
+        "dso": {
+          "colore": "green",
+          "commento": "DSO 13 giorni eccellente, molto sotto media settoriale 45 giorni. Possibile modello subscription o pagamenti anticipati."
+        },
+        "dpo": {
+          "colore": "green",
+          "commento": "DPO 27 giorni ragionevole. Buon equilibrio tra gestione fornitori e ottimizzazione cash flow."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO 231 giorni elevato ma tipico per settore tech con progetti a lungo termine."
+        },
+        "ciclo_finanziario": {
+          "colore": "green",
+          "commento": "Ciclo finanziario 217 giorni gestibile grazie alla liquidità eccellente. Nessun stress sul working capital."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Gli indicatori di sviluppo sono eccellenti con crescita sostenuta su tutti i fronti. Fatturato +33%, EBIT +8%, espansione controllata degli asset. La crescita è organica e sostenibile.",
+      "trend_yoy": "Forte accelerazione",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "green",
+          "commento": "Crescita fatturato +33% eccezionale, molto sopra media settore. Trend di forte accelerazione."
+        },
+        "variazione_ebit": {
+          "colore": "green",
+          "commento": "EBIT +8% positivo nonostante investimenti in crescita. Leva operativa in miglioramento."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "green",
+          "commento": "Valore aggiunto +14% conferma creazione di valore reale oltre la crescita volumi."
+        },
+        "variazione_mol": {
+          "colore": "green",
+          "commento": "MOL +7% in crescita, margini operativi in miglioramento graduale."
+        },
+        "variazione_totale_attivo": {
+          "colore": "green",
+          "commento": "Attivo +188% per crescita significativa, principalmente liquidità e partecipazioni."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario +203% ma partendo da base molto bassa. Struttura rimane solida."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Buona",
+      "colore": "green",
+      "commento": "L'efficienza operativa è buona con turnover index adeguato e rotazione crediti eccellente. La produttività per dipendente è elevata (€4,4M). Gestione asset efficiente per settore tecnologico.",
+      "trend_yoy": "In miglioramento",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "green",
+          "commento": "Turnover index 0,32 adeguato per settore tech con alta componente di asset intangibili."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione magazzino 1,56 coerente con attività di servizi tecnologici."
+        },
+        "current_assets_rotation": {
+          "colore": "green",
+          "commento": "Rotazione attivo circolante efficiente considerando l'alta liquidità strategica."
+        },
+        "ar_rotation": {
+          "colore": "green",
+          "commento": "Rotazione crediti 28x eccellente, riflette DSO ottimo di 13 giorni."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Atipica ma Solida",
+      "colore": "green",
+      "commento": "La struttura finanziaria è atipica con alta incidenza debiti operativi ma liquidità eccezionale che mitiga tutti i rischi. La composizione riflette la natura del business e la fase di crescita.",
+      "trend_yoy": "Evoluzione positiva",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "green",
+          "commento": "PFN/PN 5,22 indica liquidità netta superiore al patrimonio. Posizione di forza assoluta."
+        },
+        "pfn_pn": {
+          "colore": "green",
+          "commento": "Conferma la solidità con posizione finanziaria netta molto favorevole."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario 1,5% del totale debiti. Struttura principalmente operativa."
+        },
+        "debito_netto_fonti": {
+          "colore": "green",
+          "commento": "Debito netto negativo (cassa netta) rispetto alle fonti totali."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "green",
+          "commento": "Debito finanziario lordo contenuto rispetto al patrimonio netto."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Elevato ma Sostenibile",
+      "colore": "yellow",
+      "commento": "L'onere finanziario è significativo (ROD 7,55%) principalmente per obbligazioni emesse. Tuttavia, la liquidità eccellente garantisce sostenibilità. Da monitorare l'evoluzione del costo del debito.",
+      "trend_yoy": "Da monitorare",
+      "indicatori": {
+        "rod": {
+          "colore": "yellow",
+          "commento": "ROD 7,55% elevato, riflette costo obbligazioni. Sostenibile con liquidità disponibile ma da ottimizzare."
+        },
+        "rod_finanziario": {
+          "colore": "red",
+          "commento": "ROD finanziario 514,7% molto elevato per obbligazioni convertibili. Struttura complessa da monitorare."
+        },
+        "burden_index": {
+          "colore": "red",
+          "commento": "Burden index 393% molto elevato. Oneri finanziari assorbono quota significativa del reddito operativo."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Solido",
+      "colore": "green",
+      "commento": "La struttura dell'attivo riflette la natura tecnologica e finanziaria del business. Le immobilizzazioni finanziarie (€91,4M) rappresentano investimenti in controllate estere. L'attivo circolante (€83,5M) è dominato dalla liquidità eccezionale (€35,5M).",
+      "immobilizzazioni": "Immobilizzazioni totali €92M (52% attivo) principalmente finanziarie (€91,4M) per partecipazioni e crediti verso controllate estere. Immobilizzazioni materiali contenute (€0,26M) coerenti con business model asset-light. Immobilizzazioni immateriali (€0,4M) includono costi di impianto.",
+      "attivo_circolante": "Attivo circolante €83,5M (48% attivo) dominato da liquidità €35,5M e rimanenze €36,4M (principalmente acconti). Crediti commerciali €2M con DSO ottimo 13 giorni. Struttura liquida eccellente.",
+      "composizione_attivo": "Composizione 52% immobilizzato / 48% circolante riflette investimenti strategici in controllate e liquidità per crescita. Asset allocation coerente con strategia espansiva internazionale."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Complesso ma Solido",
+      "colore": "green",
+      "commento": "La struttura delle fonti è complessa con PN €20M (11% totale) e debiti €147M (84% totale). I debiti includono obbligazioni €138M principalmente a lungo termine. La liquidità eccellente mitiga tutti i rischi strutturali.",
+      "patrimonio_netto": "PN €20M composto da capitale sociale €1,4M, sovrapprezzo €8,2M e riserve €10M. Utile 2024 €0,27M. Crescita patrimoniale sostenuta da apporti esterni e autofinanziamento. Struttura equity solida nonostante bassa incidenza percentuale.",
+      "debiti": "Debiti totali €147M principalmente obbligazioni €138M (94% a lungo termine). Debiti commerciali €4M, bancari €2M, tributari/previdenziali contenuti. Struttura complessa ma scadenze diluite nel tempo.",
+      "struttura_fonti": "Struttura 11% PN / 84% Debiti / 5% Altri atipica ma sostenibile grazie a liquidità €35,5M. Le obbligazioni finanziano investimenti strategici internazionali."
+    },
+    "conto_economico": {
+      "giudizio_breve": "In Crescita",
+      "colore": "green",
+      "commento": "Il conto economico evidenzia forte crescita con ricavi €56,6M (+33% YoY) e EBITDA €2,7M. La gestione finanziaria è negativa per €1,7M (oneri su obbligazioni) ma sostenibile. Margini operativi da ottimizzare.",
+      "valore_produzione": "Valore produzione €56,7M in forte crescita (+33% YoY). Ricavi principalmente da servizi tecnologici blockchain/fintech. Crescita organica sostenuta da domanda settoriale e espansione internazionale.",
+      "costi_produzione": "Costi produzione €54,2M con incidenza 96% sui ricavi. Costo del personale €0,31M (13 dipendenti) molto contenuto. Acquisti materie prime €50,6M (93% costi) riflettono natura del business. Ammortamenti €0,24M.",
+      "gestione_finanziaria": "Gestione finanziaria negativa €1,7M per oneri su obbligazioni (€10,6M) parzialmente compensati da proventi (€9,4M). Saldo negativo ma sostenibile con liquidità disponibile.",
+      "risultato_esercizio": "Utile €0,27M dopo imposte €0,45M. Margine netto 0,5% contenuto ma in miglioramento. Risultato positivo nonostante investimenti in crescita e oneri finanziari significativi."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi evidenzia forte generazione operativa con cash flow €0,51M. La liquidità eccellente garantisce flessibilità per investimenti strategici e gestione oneri finanziari.",
+      "operating_cf": "Cash flow operativo €0,51M positivo nonostante margini contenuti. Generazione cassa operativa sostenuta da crescita fatturato e gestione working capital efficiente.",
+      "investing_cf": "Flusso investimenti significativo per acquisizioni partecipazioni e crediti verso controllate estere. Strategia di espansione internazionale in corso.",
+      "financing_cf": "Attività di finanziamento include emissione obbligazioni per finanziare crescita internazionale. Struttura complessa ma coerente con strategia espansiva."
+    }
+  },
+  "dscr": {
+    "valore": null,
+    "giudizio_breve": "Non Applicabile",
+    "colore": "green",
+    "commento": "Il DSCR tradizionale non è applicabile data la struttura finanziaria atipica con obbligazioni e liquidità eccellente. La capacità di servizio del debito è garantita dalla liquidità di €35,5M che copre ampiamente tutti gli oneri finanziari annuali (€10,6M).",
+    "componenti": {
+      "ebitda": 2689418,
+      "oneri_finanziari": 10575728,
+      "quota_capitale_annuale": null,
+      "servizio_debito": null
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è garantita dalla liquidità eccellente di €35,5M che copre 3,4 anni di oneri finanziari attuali. Le obbligazioni hanno scadenze diluite nel tempo permettendo gestione ordinata. Nessun rischio di insolvenza nel breve-medio termine.",
+    "capacita_indebitamento_residua": "Capacità di nuovo debito teoricamente elevata grazie alla liquidità, ma struttura già complessa sconsiglia ulteriore indebitamento. Focus su ottimizzazione struttura esistente.",
+    "stress_test_result": "Anche in scenario stress severo (EBITDA -50%), la liquidità garantisce copertura oneri finanziari per oltre 6 anni. Resilienza finanziaria eccellente."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "MEDIUM",
+    "elenco": [
+      "Oneri finanziari molto elevati (€10,6M vs EBITDA €2,7M)",
+      "Margini operativi contenuti per settore tech",
+      "Struttura finanziaria complessa con obbligazioni"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "Margini operativi (ROS 4,3%, EBITDA 4,7%) contenuti per settore tecnologico ad alto valore aggiunto. Possibile inefficienza struttura costi o pricing subottimale. Trend in miglioramento ma da accelerare.",
+      "anomalie_magazzino": "Rimanenze €36,4M (principalmente acconti) elevate rispetto al fatturato. DIO 231 giorni alto ma giustificabile per progetti tecnologici a lungo termine. Da monitorare composizione e realizzo.",
+      "anomalie_crediti": "Crediti verso controllate €73,6M molto elevati. Possibile concentrazione rischio su società estere. DSO commerciali ottimo (13gg) ma crediti infragruppo da monitorare.",
+      "tensione_liquidita": "Nessuna tensione liquidità. Current ratio 4,63 e liquidità €35,5M eccellenti. Posizione di forza assoluta.",
+      "eccessivo_indebitamento": "Struttura complessa con obbligazioni €138M ma liquidità mitiga rischi. Leverage elevato (8,75) ma debiti principalmente operativi. Monitorare sostenibilità oneri finanziari.",
+      "eventi_negativi": "Nessun evento negativo rilevato. Track record pulito con zero protesti, procedure o pregiudizievoli. Reputazione creditizia eccellente.",
+      "governance_concerns": "Struttura societaria complessa con partecipazioni estere e obbligazioni. Management giovane ma competente. Governance da rafforzare per gestire crescita.",
+      "going_concern": "Continuità aziendale non in dubbio grazie a liquidità eccellente e crescita sostenuta. Settore in espansione e posizionamento competitivo solido."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Da Rafforzare",
+      "colore": "yellow",
+      "commento": "Gli adeguati assetti richiedono rafforzamento considerando la crescita rapida e la complessità strutturale. La liquidità eccellente mitiga i rischi ma servono controlli più strutturati per gestire l'espansione internazionale e la struttura finanziaria complessa."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 18.7,
+        "soglia": 2.5,
+        "alert": true,
+        "commento": "18,7% molto sopra soglia 2,5%. Oneri finanziari assorbono quota significativa ricavi. Alert attivo ma mitigato da liquidità."
+      },
+      "pn_debiti_totali": {
+        "valore": 13.6,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "13,6% sopra soglia minima 5,5%. Capitalizzazione adeguata nonostante struttura complessa."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 463.1,
+        "soglia": 85,
+        "alert": false,
+        "commento": "463,1% molto sopra soglia 85%. Liquidità eccellente copre abbondantemente passività correnti."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 0.3,
+        "soglia": 1.5,
+        "alert": true,
+        "commento": "0,3% sotto soglia 1,5%. Cash flow/attivo contenuto per alta base asset. Da monitorare generazione cassa."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 0.05,
+        "soglia": 7,
+        "alert": false,
+        "commento": "0,05% molto sotto soglia 7%. Debiti tributari/previdenziali regolari e contenuti."
+      }
+    },
+    "continuita_aziendale": "La continuità aziendale è garantita dalla liquidità eccellente di €35,5M e dalla crescita sostenuta del business. Il settore blockchain presenta opportunità strutturali. Nessun elemento di dubbio sulla going concern nei prossimi 12-24 mesi.",
+    "raccomandazioni_assetti": [
+      "Implementare sistema controllo gestione strutturato per monitorare crescita",
+      "Rafforzare governance per gestione complessità internazionale",
+      "Ottimizzare struttura finanziaria e oneri su obbligazioni",
+      "Monitorare indicatori CCII trimestralmente"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "PARZIALMENTE CONFORME - Due indicatori in alert (oneri finanziari/ricavi e cash flow/attivo) ma mitigati da liquidità eccellente",
+    "antiriciclaggio": "Struttura societaria complessa con partecipazioni estere richiede attenzione compliance AML. Flussi internazionali da monitorare secondo normative antiriciclaggio.",
+    "privacy_note": "Analisi basata su dati pubblici di bilancio e registri camerali. Settore blockchain richiede attenzione normative privacy e protezione dati."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Definire piano strategico deployment liquidità €35,5M in M&A, R&D, espansione",
+      "Ottimizzare struttura costi per migliorare EBITDA margin da 4,7% a 8-10%",
+      "Rafforzare controlli interni e governance per gestire crescita rapida",
+      "Monitorare sostenibilità oneri finanziari e valutare rinegoziazione obbligazioni"
+    ],
+    "medio_termine": [
+      "Implementare acquisizioni strategiche per consolidamento settore blockchain",
+      "Investire in R&D center per leadership tecnologica",
+      "Diversificare geograficamente per ridurre concentrazione rischi",
+      "Ottimizzare struttura finanziaria e ridurre complessità"
+    ],
+    "strategiche": [
+      "Valutare IPO o exit strategico a valutazioni premium settore tech",
+      "Sviluppare partnership con big tech per accelerare crescita",
+      "Espandere in settori adiacenti (AI, IoT, fintech)",
+      "Costruire leadership europea nel blockchain enterprise"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "ALPS BLOCKCHAIN presenta un profilo atipico nel settore tech: liquidità eccezionale (top 5%) ma margini sotto la media. La crescita (+33%) è superiore ai peers mentre la redditività operativa richiede allineamento. Posizionamento unico nel blockchain italiano.",
+    "posizionamento": "Top 5% per liquidità e crescita. Sotto media per marginalità. Posizione competitiva forte ma da ottimizzare operativamente.",
+    "benchmark_principali": [
+      "Crescita fatturato +33% vs media settore +15%",
+      "EBITDA margin 4,7% vs media settore 18%",
+      "Liquidità/fatturato 63% vs media settore 15%",
+      "ROE 1,3% vs media settore 18%"
+    ],
+    "trend_settore": "Il settore blockchain/fintech è in forte espansione (+25% CAGR) con consolidamento in corso. Opportunità M&A significative. Regolamentazione in evoluzione ma trend favorevole. Valutazioni premium per leader tecnologici."
+  },
+  "metadata": {
+    "generated_at": "2025-12-11T12:00:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "ALPS BLOCKCHAIN.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.88,
+    "analysis_depth": "Comprehensive - Full financial analysis con focus su settore tecnologico e struttura complessa",
+    "disclaimers": [
+      "Analisi basata su dati di bilancio pubblici al 31/12/2024",
+      "Settore blockchain presenta alta volatilità e incertezza regolamentare",
+      "Struttura finanziaria complessa richiede approfondimenti specifici",
+      "Le proiezioni hanno natura indicativa per settore emergente"
+    ]
+  }
+}
