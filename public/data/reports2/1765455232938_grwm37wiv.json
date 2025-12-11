@@ -1,0 +1,842 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "HIGH RISK - OUTLOOK NEGATIVO",
+    "verdict_color": "red",
+    "key_message": "Azienda in forte difficoltà operativa con perdite significative e tensioni finanziarie. Rating B3 riflette rischio elevato. Necessaria ristrutturazione urgente del business model.",
+    "numeri_chiave": [
+      "Rating B3 - Alto rischio creditizio",
+      "Perdita d'esercizio -48K su fatturato 320K",
+      "ROS negativo -15,8% - margini operativi critici",
+      "EBITDA positivo solo 5K - generazione cassa minima",
+      "Current Ratio 0,73 - tensioni liquidità"
+    ],
+    "risk_level": "ALTO",
+    "focus_trimestre": "Urgente: ristrutturazione costi operativi, revisione pricing, ottimizzazione cash flow. Monitorare sostenibilità finanziaria.",
+    "next_review": "Q1 2025 - Verifica implementazione piano di turnaround e miglioramento margini operativi"
+  },
+  "executive_summary": {
+    "sintesi": "BFLOWS SRL presenta un profilo finanziario critico con rating B3 e rischio medio-alto. L'azienda opera nel settore software/consulenza IT con gravi difficoltà operative: perdita d'esercizio di 48K su fatturato 320K, ROS negativo al -15,8% e EBITDA marginale (5K). Nonostante la crescita del fatturato (+105%), i costi sono cresciuti più che proporzionalmente generando perdite. La struttura patrimoniale mostra tensioni con current ratio sotto 1 e debiti finanziari significativi.",
+    "giudizio_breve": "Azienda in crisi operativa con rischio elevato",
+    "colore": "red",
+    "punti_forza": [
+      "Forte crescita fatturato (+105% YoY) - segnale di trazione commerciale",
+      "Settore IT in crescita strutturale con buone prospettive",
+      "Management esperto con track record nel settore",
+      "Assenza eventi negativi (protesti, procedure)",
+      "Patrimonio netto positivo (1,4M) - base patrimoniale residua"
+    ],
+    "aree_attenzione": [
+      "Perdite operative significative (EBIT -51K, RN -48K)",
+      "Margini operativi fortemente negativi (ROS -15,8%)",
+      "Tensioni di liquidità (Current Ratio 0,73)",
+      "Crescita costi superiore a crescita ricavi",
+      "Debiti finanziari elevati vs generazione cassa"
+    ],
+    "raccomandazioni_principali": [
+      "Piano di ristrutturazione costi urgente - target break-even in 6 mesi",
+      "Revisione pricing e mix clienti per migliorare marginalità",
+      "Ottimizzazione cash flow e gestione working capital",
+      "Valutare iniezione capitale o conversione debiti in equity"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi evidenzia una situazione paradossale: forte crescita del fatturato (+105%) accompagnata da deterioramento della redditività. I costi sono cresciuti più che proporzionalmente, suggerendo perdita di controllo operativo o investimenti non ancora produttivi. Il trend EBITDA è migliorato rispetto al 2023 (-99K vs +5K) ma rimane insufficiente. La crescita sembra essere 'growth at any cost' senza focus sulla profittabilità.",
+    "risk_factors": "Principali fattori di rischio: (1) Insostenibilità del modello operativo attuale con margini strutturalmente negativi; (2) Tensioni di liquidità con current ratio <1 e debiti finanziari significativi; (3) Dipendenza da finanziamenti esterni per continuità operativa; (4) Rischio di ulteriore deterioramento se non implementato piano di turnaround; (5) Settore IT competitivo con pressione sui prezzi.",
+    "opportunity_signals": "Opportunità identificate: (1) Forte crescita fatturato dimostra capacità commerciale e domanda per i servizi; (2) Settore IT in espansione con digitalizzazione accelerata; (3) Base clienti in crescita da monetizzare meglio; (4) Possibilità di efficientamento costi attraverso automazione; (5) Potenziale per servizi a maggior valore aggiunto. La sfida è convertire la crescita in profittabilità.",
+    "management_quality_indicators": "Il management ha dimostrato capacità di crescita commerciale ma difficoltà nel controllo dei costi. La struttura societaria con diversi soci operativi suggerisce competenze tecniche solide. Tuttavia, la gestione finanziaria appare carente con perdite persistenti. Necessaria maggiore disciplina operativa e focus su KPI di redditività oltre che di crescita.",
+    "market_position": "BFLOWS opera nel segmento software/consulenza IT, mercato in crescita ma altamente competitivo. La crescita del fatturato suggerisce buon posizionamento commerciale e capacità di acquisire clienti. Tuttavia, la pressione sui margini indica difficoltà nel differenziarsi o nel praticare prezzi premium. La sfida è evolvere verso servizi a maggior valore aggiunto.",
+    "operational_efficiency": "L'efficienza operativa è critica: i costi crescono più dei ricavi, indicando perdita di controllo. Il costo del personale (162K) rappresenta il 51% del fatturato, elevato per il settore. I costi per servizi (158K) sono anch'essi significativi. Necessaria revisione completa della struttura dei costi e ottimizzazione dei processi operativi."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "perdite_operative_persistenti",
+        "titolo": "Perdite Operative Strutturali",
+        "descrizione": "EBIT negativo -51K e ROS -15,8% indicano perdite operative strutturali",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "ebit": -50635,
+          "ros": -15.8,
+          "trend": "miglioramento vs 2023 ma ancora negativo"
+        },
+        "implicazioni": "Modello di business non sostenibile. Rischio di erosione patrimonio netto se persistono perdite.",
+        "raccomandazione": "Piano di ristrutturazione costi immediato. Target break-even entro 6 mesi.",
+        "trigger_escalation": "EBIT negativo per 2 trimestri consecutivi aggiuntivi"
+      },
+      {
+        "id": "EW002",
+        "tipo": "tensioni_liquidita",
+        "titolo": "Current Ratio Sotto Soglia Critica",
+        "descrizione": "Current Ratio 0,73 indica difficoltà nel coprire debiti a breve con attivo circolante",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "current_ratio": 0.73,
+          "soglia_critica": 1,
+          "gap": -0.27
+        },
+        "implicazioni": "Possibili difficoltà nel far fronte agli impegni a breve termine. Rischio tensioni con fornitori.",
+        "raccomandazione": "Ottimizzazione cash flow, accelerazione incassi, negoziazione dilazioni pagamenti.",
+        "trigger_escalation": "Current Ratio < 0.6 o ritardi pagamenti fornitori"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW003",
+        "tipo": "crescita_costi_vs_ricavi",
+        "titolo": "Crescita Costi Superiore a Ricavi",
+        "descrizione": "Nonostante crescita fatturato +105%, i costi sono cresciuti più che proporzionalmente",
+        "severity": "medium",
+        "colore": "yellow",
+        "metriche": {
+          "crescita_fatturato": "+105%",
+          "crescita_costi_stimata": ">105%",
+          "delta_marginalita": "negativo"
+        },
+        "implicazioni": "Perdita di controllo sui costi durante fase di crescita. Rischio di ulteriore deterioramento margini.",
+        "raccomandazione": "Implementare controllo di gestione rigoroso con budget mensili e KPI di efficienza.",
+        "trigger_escalation": "Ulteriore peggioramento margini per 2 mesi consecutivi"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "forte_crescita_fatturato",
+        "titolo": "Crescita Fatturato Eccezionale",
+        "descrizione": "Fatturato +105% YoY dimostra forte trazione commerciale",
+        "colore": "green",
+        "implicazioni": "Capacità di acquisire clienti e crescere nel mercato. Base per futura profittabilità se ottimizzati i costi.",
+        "sostenibilita": "Media - dipende dalla capacità di convertire crescita in margini"
+      },
+      {
+        "id": "PP002",
+        "tipo": "miglioramento_ebitda",
+        "titolo": "EBITDA in Recupero",
+        "descrizione": "EBITDA migliorato da -99K (2023) a +5K (2024)",
+        "colore": "yellow",
+        "implicazioni": "Segnale di possibile inversione di tendenza operativa. Ancora insufficiente ma in direzione corretta.",
+        "sostenibilita": "Bassa - necessario ulteriore miglioramento significativo"
+      }
+    ],
+    "overall_risk_trend": "DETERIORAMENTO CON SEGNALI MISTI. Situazione critica con perdite operative e tensioni finanziarie, ma crescita fatturato e lieve miglioramento EBITDA offrono spiragli. Necessario intervento urgente per evitare ulteriore peggioramento."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Stabilizzazione",
+      "descrizione": "Scenario che assume implementazione parziale piano di ristrutturazione",
+      "ipotesi": [
+        "Crescita fatturato moderata +20% (rallentamento vs +105%)",
+        "Riduzione costi operativi -15% attraverso efficientamento",
+        "Raggiungimento break-even operativo entro 12 mesi",
+        "Mantenimento attuale base clienti",
+        "Nessuna iniezione di capitale aggiuntivo"
+      ],
+      "dscr_proiettato": 0.85,
+      "rating_proiettato": "B3 (stabile)",
+      "commento": "Nel base case l'azienda raggiunge il break-even ma il DSCR rimane sotto 1, indicando difficoltà nel servizio del debito. Rating confermato B3 con outlook stabile se dimostrata capacità di execution del piano."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Ulteriore Deterioramento",
+      "descrizione": "Scenario avverso con fallimento del turnaround e perdita clienti",
+      "ipotesi": [
+        "Calo fatturato -20% per perdita clienti chiave",
+        "Impossibilità di ridurre costi fissi nel breve",
+        "Perdite operative in aumento",
+        "Tensioni finanziarie acute",
+        "Necessità di ristrutturazione debiti"
+      ],
+      "dscr_proiettato": 0.3,
+      "rating_proiettato": "C2 (downgrade significativo)",
+      "commento": "Scenario stress porta a insostenibilità finanziaria con DSCR critico. Rating scenderebbe a C2 con alto rischio di default. Probabilità scenario: 30% se non implementato piano di turnaround."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Turnaround Riuscito",
+      "descrizione": "Scenario favorevole con successo della ristrutturazione e ritorno alla profittabilità",
+      "ipotesi": [
+        "Crescita fatturato sostenibile +30% con focus su marginalità",
+        "Riduzione costi -25% attraverso efficientamento e automazione",
+        "ROS positivo 8-10% entro 18 mesi",
+        "Miglioramento working capital management",
+        "Possibile iniezione capitale per crescita"
+      ],
+      "dscr_proiettato": 1.4,
+      "rating_proiettato": "B2 (upgrade potenziale)",
+      "commento": "Scenario upside porta a sostenibilità finanziaria con DSCR >1.4x. Rating potrebbe migliorare a B2. Richiede execution eccellente del piano di turnaround. Probabilità: 25%."
+    },
+    "sensitivity_note": "L'analisi mostra alta sensibilità ai margini operativi: variazioni di +/-5pp nel ROS impattano significativamente la sostenibilità. Il punto di pareggio è critico per la sopravvivenza aziendale."
+  },
+  "peer_comparison": {
+    "peer_group": "Software e Consulenza IT - PMI Italia (ATECO 62.01)",
+    "sample_size": 18157,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": -15.8,
+        "mediana": 8.5,
+        "percentile": 5,
+        "commento": "Performance drammaticamente sotto la mediana. Bottom 5% del settore per redditività operativa."
+      },
+      "roe": {
+        "azienda": -3.5,
+        "mediana": 12,
+        "percentile": 15,
+        "commento": "ROE negativo vs mediana positiva. Distruzione di valore per gli azionisti."
+      },
+      "roi": {
+        "azienda": -3.2,
+        "mediana": 9.5,
+        "percentile": 12,
+        "commento": "Rendimento del capitale investito negativo. Inefficienza nell'utilizzo degli asset."
+      },
+      "current_ratio": {
+        "azienda": 0.73,
+        "mediana": 1.45,
+        "percentile": 20,
+        "commento": "Liquidità significativamente sotto la media. Tensioni finanziarie evidenti."
+      },
+      "dso": {
+        "azienda": 343,
+        "mediana": 90,
+        "percentile": 5,
+        "commento": "DSO drammaticamente elevato (343gg vs 90gg). Grave problema di incasso crediti."
+      },
+      "leverage": {
+        "azienda": 1.6,
+        "mediana": 2.2,
+        "percentile": 65,
+        "commento": "Leverage contenuto rispetto al settore. Unico indicatore in linea con benchmark."
+      },
+      "pfn_ebitda": {
+        "azienda": 39.2,
+        "mediana": 3.5,
+        "percentile": 5,
+        "commento": "Rapporto PFN/EBITDA critico. Debito finanziario eccessivo rispetto alla generazione di cassa."
+      }
+    },
+    "sintesi_posizionamento": "BFLOWS si colloca nel quartile inferiore (Q1) per la maggior parte degli indicatori chiave. La performance è drammaticamente sotto la media settoriale, con particolare criticità su redditività, liquidità e gestione crediti. Solo il leverage è in linea con i benchmark.",
+    "aree_eccellenza": [
+      "Nessuna area di eccellenza identificata rispetto ai peer"
+    ],
+    "aree_miglioramento": [
+      "Redditività operativa (ROS) - Bottom 5% del settore",
+      "Gestione crediti commerciali (DSO) - Critica vs benchmark",
+      "Liquidità (Current Ratio) - Tensioni evidenti",
+      "Efficienza operativa generale"
+    ]
+  },
+  "action_items": {
+    "urgente": [
+      {
+        "id": "AI001",
+        "area": "Operations",
+        "titolo": "Piano di Ristrutturazione Costi Immediato",
+        "azione": "Implementare piano di riduzione costi operativi del 20-25% attraverso revisione organico, rinegoziazione contratti fornitori, ottimizzazione spese generali",
+        "razionale": "Perdite operative di 51K insostenibili. Necessario raggiungere break-even in 6 mesi",
+        "impatto_atteso": "Riduzione costi da 459K a 350-370K annui",
+        "beneficio_stimato": "Passaggio da perdita a break-even/utile marginale",
+        "investimento_richiesto": "€10-15K per consulenza ristrutturazione",
+        "roi_stimato": "10-15x considerando eliminazione perdite",
+        "owner_suggerito": "CEO / CFO",
+        "timeline": "Implementazione immediata, risultati entro Q2 2025",
+        "kpi_monitoraggio": [
+          "EBITDA mensile",
+          "Costi operativi",
+          "Break-even point"
+        ]
+      },
+      {
+        "id": "AI002",
+        "area": "Finance",
+        "titolo": "Gestione Crediti Commerciali Critica",
+        "azione": "Intervento urgente su DSO (343gg): sollecito intensivo crediti scaduti, eventuale cessione pro-soluto, policy incasso anticipato",
+        "razionale": "DSO di 343gg vs 90gg benchmark assorbe liquidità critica (305K crediti vs 53K cassa)",
+        "impatto_atteso": "Riduzione DSO da 343 a 120-150 giorni",
+        "beneficio_stimato": "Liberazione liquidità €150-200K",
+        "investimento_richiesto": "€5-10K per azioni legali/recupero crediti",
+        "roi_stimato": "15-20x",
+        "owner_suggerito": "CFO / Credit Manager",
+        "timeline": "Azioni immediate, risultati in 60-90 giorni",
+        "kpi_monitoraggio": [
+          "DSO settimanale",
+          "Incassi mensili",
+          "Aging crediti"
+        ]
+      }
+    ],
+    "importante": [
+      {
+        "id": "AI003",
+        "area": "Commercial",
+        "titolo": "Revisione Pricing e Mix Clienti",
+        "azione": "Analisi profittabilità per cliente, revisione prezzi servizi, focus su clienti/progetti ad alta marginalità",
+        "razionale": "Crescita fatturato +105% ma margini negativi suggerisce pricing inadeguato o mix clienti sbagliato",
+        "impatto_atteso": "Miglioramento margini operativi di 10-15pp",
+        "beneficio_stimato": "Incremento EBITDA €30-50K annui",
+        "investimento_richiesto": "€15-20K per analisi e consulenza commerciale",
+        "roi_stimato": "2-3x",
+        "owner_suggerito": "CEO / Direttore Commerciale",
+        "timeline": "Analisi Q1 2025, implementazione Q2 2025",
+        "kpi_monitoraggio": [
+          "Margine per cliente",
+          "ROS per progetto",
+          "Customer profitability"
+        ]
+      },
+      {
+        "id": "AI004",
+        "area": "Finance",
+        "titolo": "Ristrutturazione Debiti Finanziari",
+        "azione": "Negoziazione con banche per riscadenzamento debiti, eventuale conversione parte debiti in equity, moratoria interessi",
+        "razionale": "Debiti finanziari 253K vs EBITDA 5K rendono servizio debito insostenibile",
+        "impatto_atteso": "Riduzione oneri finanziari e pressione cash flow",
+        "beneficio_stimato": "Risparmio €5-8K annui oneri finanziari",
+        "investimento_richiesto": "€5-10K per consulenza finanziaria",
+        "roi_stimato": "1-2x",
+        "owner_suggerito": "CFO",
+        "timeline": "Negoziazioni Q1 2025",
+        "kpi_monitoraggio": [
+          "Oneri finanziari",
+          "DSCR",
+          "Cash flow operativo"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Crescita",
+        "titolo": "Iniezione Capitale per Turnaround",
+        "azione": "Valutare aumento di capitale da soci esistenti o nuovi investitori per finanziare piano di turnaround",
+        "razionale": "Patrimonio netto 1,4M ancora positivo ma tensioni finanziarie richiedono supporto per ristrutturazione",
+        "impatto_atteso": "Rafforzamento patrimoniale e liquidità per implementare piano",
+        "beneficio_stimato": "Sostenibilità finanziaria durante fase di turnaround",
+        "investimento_richiesto": "€200-300K capitale fresco",
+        "owner_suggerito": "Soci / CEO",
+        "timeline": "Valutazione Q1 2025",
+        "note": "Alternativa: conversione debiti in equity con banche"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate per urgenza data la situazione critica. Focus su sopravvivenza nel breve termine e sostenibilità nel medio termine. ROI stimati assumono successo del turnaround."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B3 - Alto Rischio",
+      "colore": "orange",
+      "commento": "Rating B3 riflette l'alto rischio creditizio derivante dalle perdite operative persistenti, tensioni di liquidità e difficoltà nella generazione di cassa. Il rating è supportato dal patrimonio netto ancora positivo e dall'assenza di eventi negativi, ma la tendenza è negativa senza un piano di turnaround efficace.",
+      "outlook": "Negativo",
+      "fattori_supporto": [
+        "Patrimonio netto positivo (1,4M)",
+        "Forte crescita fatturato (+105%)",
+        "Assenza eventi negativi",
+        "Settore IT in crescita"
+      ],
+      "fattori_rischio": [
+        "Perdite operative strutturali (EBIT -51K)",
+        "Tensioni di liquidità (Current Ratio 0,73)",
+        "DSO critico (343 giorni)",
+        "EBITDA marginale vs debiti finanziari"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Medio-Alto (Verde Chiaro)",
+      "colore": "green-light",
+      "commento": "Risk Score VERDE CHIARO indica rischio nella media del settore, ma la situazione specifica dell'azienda suggerisce rischio effettivo superiore. Il miglioramento recente (da GIALLO a VERDE CHIARO) riflette il nuovo bilancio 2024 con crescita fatturato, ma non cattura pienamente le criticità operative."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 5.000",
+      "commento": "Il fido operativo di € 5.000 è estremamente contenuto e riflette l'alto rischio creditizio. Rappresenta solo l'1,6% del fatturato, indicando forte limitazione dell'accesso al credito. Il fido è stato attivato solo di recente (novembre 2024) probabilmente in seguito al deposito del nuovo bilancio.",
+      "utilizzo_suggerito": "Utilizzo solo per operazioni di brevissimo termine con garanzie aggiuntive. Monitoraggio continuo dell'andamento aziendale."
+    },
+    "trend_analysis": "Il rating è migliorato da C1 a B3 nel novembre 2024 in seguito al deposito del bilancio 2024, che ha mostrato crescita del fatturato. Tuttavia, le perdite operative persistenti mantengono il profilo di rischio elevato. Il trend futuro dipenderà criticamente dalla capacità di implementare un piano di turnaround efficace.",
+    "probability_of_default": {
+      "valore": 8.5,
+      "classe": "High Risk",
+      "commento": "PD stimata 8.5% su orizzonte 12 mesi, significativamente superiore alla media. La probabilità riflette le difficoltà operative e finanziarie attuali."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano una situazione di forte criticità con punteggi bassi in quasi tutte le dimensioni. Solo il profilo di sviluppo (5/5) è positivo grazie alla crescita del fatturato. Gli equilibri economico e finanziario sono critici e richiedono intervento urgente.",
+    "economico": {
+      "giudizio_breve": "Negativo",
+      "colore": "red",
+      "commento": "Score 1/5. Situazione economica critica con perdite operative significative. ROS negativo al -15,8% indica incapacità di generare margini positivi. La crescita del fatturato non si traduce in redditività, suggerendo problemi strutturali nel modello di business.",
+      "driver_principali": [
+        "ROS -15,8% - fortemente negativo",
+        "EBIT -51K - perdite operative",
+        "Costi cresciuti più dei ricavi"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Score 2/5. Struttura patrimoniale sotto pressione. Nonostante il patrimonio netto sia ancora positivo (1,4M), le perdite continue lo stanno erodendo. Il grado di capitalizzazione (63%) è ancora accettabile ma in deterioramento.",
+      "driver_principali": [
+        "PN positivo ma in erosione",
+        "Perdite che riducono le riserve",
+        "Capitalizzazione ancora accettabile"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Score 2/5. Situazione finanziaria tesa con current ratio sotto 1 (0,73) e debiti finanziari significativi (253K) a fronte di EBITDA marginale (5K). La capacità di servire il debito è compromessa.",
+      "driver_principali": [
+        "Current Ratio 0,73 - sotto soglia critica",
+        "Debiti finanziari vs EBITDA insostenibili",
+        "Tensioni di liquidità evidenti"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Molto Critico",
+      "colore": "red",
+      "commento": "Score 1/5. Efficienza operativa molto bassa. DSO di 343 giorni è drammaticamente elevato, indicando gravi problemi nella gestione del ciclo commerciale. L'utilizzo degli asset è inefficiente.",
+      "driver_principali": [
+        "DSO 343gg - critico vs benchmark 90gg",
+        "Rotazione asset inefficiente",
+        "Gestione working capital problematica"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Ottimo",
+      "colore": "green",
+      "commento": "Score 5/5. Unico profilo positivo grazie alla crescita eccezionale del fatturato (+105%). Dimostra capacità commerciale e trazione nel mercato. Tuttavia, la crescita non è accompagnata da profittabilità.",
+      "driver_principali": [
+        "Crescita fatturato +105%",
+        "Espansione base clienti",
+        "Trazione commerciale forte"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "La redditività è il principale punto di debolezza con tutti gli indicatori negativi. L'azienda distrugge valore invece di crearlo. La situazione richiede intervento urgente per invertire la tendenza e raggiungere almeno il break-even operativo.",
+      "trend_yoy": "In miglioramento ma ancora negativo",
+      "indicatori": {
+        "ros": {
+          "colore": "red",
+          "commento": "ROS -15,8% drammaticamente negativo. L'azienda perde 16 centesimi per ogni euro di fatturato. Situazione insostenibile che richiede ristrutturazione urgente."
+        },
+        "roe": {
+          "colore": "red",
+          "commento": "ROE -3,5% indica distruzione di valore per gli azionisti. Il patrimonio netto si sta erodendo a causa delle perdite continue."
+        },
+        "roi": {
+          "colore": "red",
+          "commento": "ROI -3,2% mostra inefficienza nell'utilizzo del capitale investito. Gli asset non generano rendimenti positivi."
+        },
+        "roa": {
+          "colore": "red",
+          "commento": "ROA -2,3% conferma la scarsa redditività complessiva degli asset aziendali. Necessaria revisione del modello operativo."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "green",
+          "commento": "La gestione extra-caratteristica ha impatto limitato. Le perdite derivano principalmente dall'attività operativa tipica."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Critica",
+      "colore": "red",
+      "commento": "La posizione di liquidità presenta tensioni significative con current ratio sotto la soglia critica di 1. L'azienda potrebbe avere difficoltà nel far fronte agli impegni a breve termine senza interventi correttivi.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "red",
+          "commento": "Current Ratio 0,73 sotto la soglia critica di 1. L'attivo circolante non copre le passività correnti, indicando tensioni di liquidità."
+        },
+        "acid_test": {
+          "colore": "red",
+          "commento": "Acid Test 0,73 (uguale al current ratio per assenza rimanenze) conferma le difficoltà di liquidità."
+        },
+        "cash_short_term_debt": {
+          "colore": "red",
+          "commento": "Rapporto cassa/debiti a breve molto basso. Le disponibilità liquide (53K) coprono solo una frazione degli impegni correnti."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo: le immobilizzazioni sono finanziate con capitale permanente. Equilibrio fonti-impieghi rispettato."
+        },
+        "margine_struttura_ii": {
+          "colore": "red",
+          "commento": "Margine di struttura secondario negativo (-196K) indica squilibrio nella copertura degli investimenti fissi."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "yellow",
+          "commento": "Indice di copertura immobilizzazioni 0,89 sotto l'unità. Gli investimenti fissi non sono completamente coperti da fonti durevoli."
+        },
+        "copertura_ccn": {
+          "colore": "red",
+          "commento": "Copertura del capitale circolante netto problematica con indice negativo (-0,40)."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Moderato",
+      "colore": "yellow",
+      "commento": "Il leverage è contenuto rispetto al settore, ma diventa problematico considerando la bassa generazione di EBITDA. Il rapporto PFN/EBITDA è critico, indicando difficoltà nel servizio del debito.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "red",
+          "commento": "PFN/EBITDA 39,2x drammaticamente elevato. Con EBITDA di soli 5K, servirebbero 39 anni per ripagare il debito netto. Situazione insostenibile."
+        },
+        "leverage": {
+          "colore": "yellow",
+          "commento": "Leverage 1,6x contenuto rispetto al settore (mediana 2,2x). Unico indicatore in linea con i benchmark."
+        },
+        "capitalizzazione": {
+          "colore": "green",
+          "commento": "Grado di capitalizzazione 63% superiore alla media settoriale. L'azienda mantiene una base equity solida."
+        },
+        "debt_ratio": {
+          "colore": "yellow",
+          "commento": "Debt ratio 0,38 contenuto. I debiti totali rappresentano il 38% dell'attivo."
+        },
+        "bank_debt_assets": {
+          "colore": "yellow",
+          "commento": "Incidenza debito bancario sull'attivo 12%, moderata ma significativa data la bassa generazione di cassa."
+        },
+        "bank_debt_ratio": {
+          "colore": "yellow",
+          "commento": "Rapporto debito bancario/patrimonio netto 18%, contenuto ma problematico per la sostenibilità."
+        },
+        "ebitda_net_leverage": {
+          "colore": "red",
+          "commento": "EBITDA net leverage critico per la bassa generazione di cassa operativa."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "red",
+          "commento": "Anche il leverage lordo è problematico rispetto alla capacità di generazione EBITDA."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Gli indici di copertura sono tutti critici. L'EBITDA marginale (5K) non è sufficiente a coprire adeguatamente gli oneri finanziari (11K), creando un deficit nella capacità di servizio del debito.",
+      "trend_yoy": "In miglioramento ma ancora critico",
+      "indicatori": {
+        "dscr": {
+          "colore": "red",
+          "commento": "DSCR non calcolabile con precisione per EBITDA marginale, ma stimato <0,5x. Capacità di servizio del debito gravemente compromessa."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "red",
+          "commento": "Copertura interessi 0,46x. L'EBITDA copre meno della metà degli oneri finanziari. Situazione insostenibile."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "red",
+          "commento": "EBIT negativo (-51K) vs oneri finanziari positivi (11K) rende il rapporto fortemente negativo (-4,5x)."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "red",
+          "commento": "Anche considerando i proventi finanziari marginali, la copertura rimane critica."
+        },
+        "ebit_interessi_netti": {
+          "colore": "red",
+          "commento": "EBIT negativo rende impossibile una copertura adeguata degli oneri finanziari netti."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Il ciclo finanziario presenta la criticità più grave: DSO di 343 giorni è drammaticamente elevato e assorbe liquidità vitale. Questa è l'area che richiede intervento più urgente.",
+      "trend_yoy": "Dato non disponibile per confronto",
+      "indicatori": {
+        "dso": {
+          "colore": "red",
+          "commento": "DSO 343 giorni vs benchmark settore 90 giorni. Situazione drammatica che assorbe liquidità critica. Priorità assoluta per il turnaround."
+        },
+        "dpo": {
+          "colore": "green",
+          "commento": "DPO 369 giorni molto elevato, ma positivo per il cash flow. L'azienda dilaziona i pagamenti ai fornitori."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO 0 giorni per assenza rimanenze, tipico del settore servizi. Nessun capitale immobilizzato in scorte."
+        },
+        "ciclo_finanziario": {
+          "colore": "green",
+          "commento": "Ciclo finanziario negativo (-26 giorni) grazie al DPO elevato. Paradossalmente positivo nonostante il DSO critico."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Forte Crescita",
+      "colore": "green",
+      "commento": "L'azienda mostra una crescita eccezionale del fatturato e miglioramento di tutti gli indicatori di sviluppo. Questo è l'unico aspetto positivo che offre speranza per il futuro, ma deve essere accompagnato da miglioramento della redditività.",
+      "trend_yoy": "Forte accelerazione",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "green",
+          "commento": "Crescita fatturato +105% eccezionale, molto superiore alla media settoriale. Dimostra forte trazione commerciale."
+        },
+        "variazione_ebit": {
+          "colore": "green",
+          "commento": "EBIT in miglioramento significativo (da -110K a -51K), pur rimanendo negativo. Trend positivo da consolidare."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "green",
+          "commento": "Valore aggiunto in forte crescita (+481%), indicando creazione di valore operativo."
+        },
+        "variazione_mol": {
+          "colore": "green",
+          "commento": "MOL (EBITDA) migliorato da -99K a +5K, inversione di tendenza significativa."
+        },
+        "variazione_totale_attivo": {
+          "colore": "green",
+          "commento": "Attivo in crescita +12% coerente con l'espansione del business."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "yellow",
+          "commento": "Debito finanziario in crescita per sostenere l'espansione. Da monitorare la sostenibilità."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Molto Bassa",
+      "colore": "red",
+      "commento": "L'efficienza operativa è molto bassa, principalmente a causa del DSO critico che compromette la rotazione dei crediti. L'utilizzo degli asset è inefficiente e richiede ottimizzazione.",
+      "trend_yoy": "Dato limitato per confronto",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "red",
+          "commento": "Indice di rotazione 0,15 molto basso. Ogni euro di attivo genera solo 15 centesimi di fatturato."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione magazzino non applicabile per assenza rimanenze. Tipico del settore servizi."
+        },
+        "current_assets_rotation": {
+          "colore": "red",
+          "commento": "Rotazione attivo circolante bassa per via dei crediti commerciali elevati."
+        },
+        "ar_rotation": {
+          "colore": "red",
+          "commento": "Rotazione crediti 1,05x drammaticamente bassa. I crediti ruotano solo una volta all'anno invece delle 4-5 volte normali."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Accettabile",
+      "colore": "yellow",
+      "commento": "La struttura finanziaria mantiene un equilibrio accettabile con buona capitalizzazione, ma la sostenibilità è compromessa dalla bassa generazione di cassa. La composizione del debito è gestibile.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "yellow",
+          "commento": "Rapporto PFN/PN 15% contenuto. Il debito netto rappresenta il 15% del patrimonio netto."
+        },
+        "pfn_pn": {
+          "colore": "yellow",
+          "commento": "Conferma la struttura finanziaria ancora equilibrata dal punto di vista patrimoniale."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "yellow",
+          "commento": "Debito finanziario composto da debiti bancari (253K) e verso soci (5K). Struttura semplice."
+        },
+        "debito_netto_fonti": {
+          "colore": "yellow",
+          "commento": "Incidenza debito netto sulle fonti totali 13%, contenuta."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "yellow",
+          "commento": "Debito finanziario lordo rappresenta il 19% del patrimonio netto, rapporto gestibile."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Elevato",
+      "colore": "red",
+      "commento": "L'onere finanziario è elevato rispetto alla capacità di generazione di reddito. Con EBITDA marginale, anche oneri finanziari contenuti diventano un peso significativo.",
+      "trend_yoy": "Dato non disponibile",
+      "indicatori": {
+        "rod": {
+          "colore": "yellow",
+          "commento": "Costo medio del debito 4,4% in linea con i tassi di mercato per PMI."
+        },
+        "rod_finanziario": {
+          "colore": "yellow",
+          "commento": "Costo del debito finanziario 4,5%, coerente con il profilo di rischio."
+        },
+        "burden_index": {
+          "colore": "red",
+          "commento": "Indice di onerosità 217% critico: gli oneri finanziari superano di oltre 2x il reddito operativo. Insostenibile."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Squilibrato",
+      "colore": "yellow",
+      "commento": "La struttura dell'attivo è dominata dalle immobilizzazioni immateriali (1,5M su 2,2M totale), probabilmente software e sviluppi interni. L'attivo circolante è limitato con crediti commerciali elevati e liquidità scarsa.",
+      "immobilizzazioni": "Le immobilizzazioni (1,5M) rappresentano il 68% del totale attivo, composte principalmente da immateriali (1,48M) probabilmente software, licenze e sviluppi. Le immobilizzazioni materiali sono marginali (4K). Struttura tipica di azienda IT ma con concentrazione elevata.",
+      "attivo_circolante": "L'attivo circolante (697K) è composto principalmente da crediti commerciali (305K) e crediti tributari (147K). Le disponibilità liquide sono scarse (53K). La struttura riflette le difficoltà di incasso e la dipendenza da crediti verso clienti.",
+      "composizione_attivo": "La composizione 68% immobilizzato / 32% circolante è atipica per il settore servizi. L'elevata incidenza delle immobilizzazioni immateriali richiede verifica della loro effettiva recuperabilità."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Sotto Pressione",
+      "colore": "yellow",
+      "commento": "La struttura delle fonti mostra ancora una buona capitalizzazione (63%) ma il patrimonio netto è sotto pressione per le perdite. I debiti sono principalmente commerciali e tributari, con debiti finanziari significativi.",
+      "patrimonio_netto": "Il PN (1,37M) è composto principalmente da sovrapprezzo azioni (1,39M) e capitale sociale (14K), con perdita d'esercizio (48K) che erode le riserve. La struttura riflette probabili aumenti di capitale passati per sostenere l'attività.",
+      "debiti": "I debiti totali (524K) sono composti da debiti verso banche (253K), fornitori (163K), tributari (46K) e previdenziali (10K). La struttura è tipica ma i debiti finanziari sono elevati rispetto alla generazione di cassa.",
+      "struttura_fonti": "La struttura PN 63% / Debiti 37% è ancora solida ma in deterioramento. Le perdite continue minacciano l'equilibrio patrimoniale nel medio termine."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Il conto economico evidenzia gravi difficoltà operative con perdite significative nonostante la crescita del fatturato. I costi sono cresciuti più dei ricavi, indicando perdita di controllo operativo.",
+      "valore_produzione": "Valore della produzione 409K in forte crescita (+105%) composto da ricavi vendite (320K) e altri ricavi/contributi (89K). La crescita è significativa ma non sufficiente a coprire i costi.",
+      "costi_produzione": "I costi della produzione (459K) superano i ricavi, generando perdita operativa. Principali voci: costi del personale (163K), servizi (158K), ammortamenti (56K). Struttura dei costi non sostenibile.",
+      "gestione_finanziaria": "La gestione finanziaria è negativa (-11K) con oneri finanziari (11K) superiori ai proventi marginali. L'impatto è contenuto ma significativo data la situazione operativa.",
+      "risultato_esercizio": "Perdita d'esercizio 48K dopo imposte anticipate (14K). Il risultato è migliorato rispetto al 2023 ma rimane negativo e insostenibile."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi di cassa evidenzia difficoltà nella generazione operativa, con EBITDA marginale insufficiente a coprire investimenti e servizio del debito.",
+      "operating_cf": "Cash flow operativo stimato positivo ma marginale (circa 8K considerando EBITDA 5K + variazioni working capital). Generazione di cassa operativa insufficiente.",
+      "investing_cf": "Flusso investimenti significativo per ammortamenti elevati (56K), probabilmente relativi a sviluppi software capitalizzati.",
+      "financing_cf": "Attività di finanziamento necessaria per sostenere l'operatività, con incremento debiti finanziari per coprire il deficit di cassa."
+    }
+  },
+  "dscr": {
+    "valore": 0.46,
+    "giudizio_breve": "Critico",
+    "colore": "red",
+    "commento": "Il DSCR di 0,46x è drammaticamente sotto la soglia minima di 1,0x, indicando che l'EBITDA copre meno della metà del servizio del debito annuale. La situazione è insostenibile e richiede intervento urgente per evitare difficoltà nel rimborso dei finanziamenti.",
+    "componenti": {
+      "ebitda": 5206,
+      "oneri_finanziari": 11304,
+      "quota_capitale_annuale": null,
+      "servizio_debito": 11304
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è gravemente compromessa. Con EBITDA di soli 5K e oneri finanziari di 11K, l'azienda non genera flussi sufficienti per il servizio del debito. La situazione richiede ristrutturazione immediata del debito o significativo miglioramento della redditività operativa.",
+    "capacita_indebitamento_residua": "Capacità di nuovo debito: NULLA. L'azienda non può sostenere ulteriore indebitamento senza prima ripristinare la redditività operativa e migliorare la generazione di EBITDA.",
+    "stress_test_result": "In qualsiasi scenario di stress (EBITDA -20%), il DSCR scenderebbe sotto 0,4x, rendendo il servizio del debito completamente insostenibile. L'azienda è già in una situazione di stress finanziario."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "HIGH",
+    "elenco": [
+      "Perdite operative persistenti con ROS -15,8%",
+      "Current Ratio sotto 1 (0,73) - tensioni liquidità",
+      "DSO critico 343 giorni vs benchmark 90 giorni",
+      "DSCR 0,46x - servizio debito insostenibile",
+      "EBITDA marginale vs debiti finanziari elevati"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "ROS negativo al -15,8% indica perdite strutturali su ogni euro di fatturato. Nonostante la crescita del fatturato (+105%), i costi sono cresciuti più che proporzionalmente, suggerendo perdita di controllo operativo o pricing inadeguato.",
+      "anomalie_magazzino": "Nessuna anomalia rilevata. Magazzino assente, coerente con attività di servizi IT.",
+      "anomalie_crediti": "DSO di 343 giorni è drammaticamente elevato vs benchmark settore (90 giorni). Crediti commerciali 305K rappresentano quasi il 100% del fatturato annuo, indicando gravi difficoltà di incasso o clienti in difficoltà.",
+      "tensione_liquidita": "Current ratio 0,73 sotto la soglia critica di 1,0. Disponibilità liquide scarse (53K) vs debiti correnti (351K). L'azienda potrebbe avere difficoltà nel far fronte agli impegni a breve termine.",
+      "eccessivo_indebitamento": "Debiti finanziari (253K) eccessivi rispetto alla generazione EBITDA (5K). Il rapporto PFN/EBITDA di 39x è insostenibile. Servizio del debito compromesso.",
+      "eventi_negativi": "Nessun evento negativo formale rilevato (protesti, procedure, pregiudizievoli). Elemento positivo che evita ulteriore deterioramento del rating.",
+      "governance_concerns": "Struttura societaria complessa con molti soci. Da verificare allineamento strategico e capacità decisionale rapida per il turnaround necessario.",
+      "going_concern": "La continuità aziendale è a rischio senza un piano di turnaround efficace. Le perdite persistenti e le tensioni finanziarie richiedono intervento urgente per evitare crisi di liquidità."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Non Conforme",
+      "colore": "red",
+      "commento": "L'azienda presenta criticità rispetto ai requisiti degli adeguati assetti organizzativi previsti dal Codice della Crisi. Le perdite persistenti e le tensioni finanziarie suggeriscono inadeguatezza degli assetti per il tempestivo rilevamento della crisi."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 3.53,
+        "soglia": 2.5,
+        "alert": true,
+        "commento": "3,53% sopra la soglia del 2,5%. Incidenza degli oneri finanziari sui ricavi elevata."
+      },
+      "pn_debiti_totali": {
+        "valore": 260.8,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "260,8% molto sopra la soglia del 5,5%. Capitalizzazione ancora adeguata nonostante le perdite."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 73.45,
+        "soglia": 85,
+        "alert": true,
+        "commento": "73,45% sotto la soglia dell'85%. Tensioni di liquidità evidenti."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 0.35,
+        "soglia": 1.5,
+        "alert": true,
+        "commento": "0,35% molto sotto la soglia dell'1,5%. Generazione di cassa insufficiente."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 2.59,
+        "soglia": 7,
+        "alert": false,
+        "commento": "2,59% sotto la soglia del 7%. Situazione regolare con enti previdenziali e tributari."
+      }
+    },
+    "continuita_aziendale": "La continuità aziendale è a rischio senza interventi correttivi immediati. Le perdite persistenti, le tensioni di liquidità e l'incapacità di servire adeguatamente il debito richiedono un piano di risanamento urgente.",
+    "raccomandazioni_assetti": [
+      "Implementare sistema di controllo di gestione con reporting mensile",
+      "Definire piano di risanamento con target specifici e timeline",
+      "Attivare monitoraggio continuo degli indicatori di allerta",
+      "Valutare composizione con creditori per ristrutturazione debiti"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "ALLERTA ATTIVA - Tre indicatori su cinque in area critica. Necessario piano di risanamento.",
+    "antiriciclaggio": "Struttura societaria complessa con numerosi soci da monitorare. Flussi finanziari coerenti con attività dichiarata.",
+    "privacy_note": "Analisi basata su dati di bilancio pubblici e credit score. Trattamento dati conforme GDPR."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Piano di ristrutturazione costi immediato - riduzione 20-25% per raggiungere break-even",
+      "Intervento urgente su DSO: da 343 a 120 giorni attraverso solleciti intensivi e cessione crediti",
+      "Negoziazione con banche per moratoria/ristrutturazione debiti finanziari",
+      "Revisione pricing servizi per migliorare marginalità del 10-15%"
+    ],
+    "medio_termine": [
+      "Implementazione controllo di gestione strutturato con budget mensili",
+      "Ottimizzazione mix clienti focalizzandosi su progetti ad alta marginalità",
+      "Valutazione iniezione capitale fresco (200-300K) per sostenere turnaround",
+      "Sviluppo servizi a maggior valore aggiunto per migliorare pricing power"
+    ],
+    "strategiche": [
+      "Revisione completa del business model per sostenibilità a lungo termine",
+      "Valutazione partnership strategiche o cessione rami d'azienda non core",
+      "Investimenti in automazione per ridurre costi operativi strutturali",
+      "Diversificazione geografica per ridurre dipendenza da mercato locale"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "BFLOWS si posiziona nel quartile inferiore (Q1) per la maggior parte degli indicatori critici. La performance è drammaticamente sotto la media settoriale, con particolare gravità su redditività, liquidità e gestione crediti. Solo la crescita del fatturato è superiore ai benchmark.",
+    "posizionamento": "Bottom 5-15% per redditività e liquidità. Bottom 5% per gestione crediti (DSO). Top quartile solo per crescita fatturato.",
+    "benchmark_principali": [
+      "ROS -15,8% vs mediana settore +8,5% (-24,3pp gap)",
+      "Current Ratio 0,73 vs mediana settore 1,45 (-50%)",
+      "DSO 343gg vs mediana settore 90gg (+281%)",
+      "Crescita fatturato +105% vs mediana settore +15% (outperformance)",
+      "ROE -3,5% vs mediana settore +12% (-15,5pp gap)"
+    ],
+    "trend_settore": "Il settore IT/software è in crescita (+8-12% annuo) con margini medi ROS 8-15%. La digitalizzazione accelerata offre opportunità, ma la competizione è intensa. BFLOWS ha capacità commerciale ma deve urgentemente risolvere i problemi di redditività."
+  },
+  "metadata": {
+    "generated_at": "2025-01-15T14:30:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "BFLOWS.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.91,
+    "analysis_depth": "Comprehensive - Full financial analysis with crisis assessment and turnaround recommendations",
+    "disclaimers": [
+      "L'analisi evidenzia una situazione di crisi aziendale che richiede intervento urgente",
+      "Le raccomandazioni hanno carattere di urgenza per la sopravvivenza aziendale",
+      "Si raccomanda consulenza specialistica per piano di turnaround",
+      "L'analisi non sostituisce la valutazione di continuità aziendale del revisore"
+    ]
+  }
+}
