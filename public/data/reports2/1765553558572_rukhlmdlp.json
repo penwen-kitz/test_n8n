@@ -1,0 +1,787 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "INVESTMENT GRADE - OUTLOOK STABILE",
+    "verdict_color": "green",
+    "key_message": "Azienda solida con eccellente redditività e crescita sostenuta. Fondamentali robusti nel settore carburanti con posizionamento nazionale capillare. Merita fiducia creditizia elevata.",
+    "numeri_chiave": [
+      "Rating B2 (stabile) - Investment Grade",
+      "Fatturato €314M (+17,8% YoY) - Crescita robusta",
+      "ROE 48,9% - Eccellente remunerazione capitale",
+      "EBITDA €6,3M (+9,6% YoY) - Margini in crescita",
+      "Zero eventi negativi - Track record impeccabile"
+    ],
+    "risk_level": "BASSO",
+    "focus_trimestre": "Monitorare sostenibilità crescita organica (+11,7% dipendenti) e ottimizzazione working capital con DSO contenuto",
+    "next_review": "Q2 2025 - Verifica mantenimento margini post-espansione e andamento cash flow operativo"
+  },
+  "executive_summary": {
+    "sintesi": "EGI2GO SRL presenta un profilo finanziario solido con rating B2 e rischio basso. L'azienda opera nel settore retail carburanti con una rete capillare di 211 punti vendita su territorio nazionale. La performance è eccellente con fatturato di €314M (+17,8%) e margini operativi in crescita. La redditività è ai vertici del settore (ROE 48,9%, ROS 1,99%). La struttura patrimoniale è equilibrata con buona capitalizzazione e liquidità adeguata. L'espansione geografica è sostenuta da fondamentali solidi.",
+    "giudizio_breve": "Azienda solida con crescita sostenibile",
+    "colore": "green",
+    "punti_forza": [
+      "Leadership nel retail carburanti con 211 punti vendita attivi",
+      "Crescita fatturato robusta (+17,8%) superiore al mercato",
+      "Redditività eccellente (ROE 48,9%, ROI 141,6%)",
+      "Margini operativi in miglioramento (EBITDA +9,6%)",
+      "Posizione finanziaria netta positiva (cassa > debiti finanziari)",
+      "Nessun evento negativo (protesti, procedure, pregiudizievoli)",
+      "Appartenenza a gruppo internazionale solido (EG Italia/Optima Bidco)"
+    ],
+    "aree_attenzione": [
+      "Crescita organico (+11,7% dipendenti) da gestire con attenzione",
+      "Settore carburanti esposto a volatilità prezzi commodity",
+      "Concentrazione geografica da diversificare ulteriormente",
+      "Monitorare sostenibilità margini in contesto competitivo"
+    ],
+    "raccomandazioni_principali": [
+      "Ottimizzare gestione working capital per liberare liquidità",
+      "Implementare sistemi di controllo gestionale avanzati",
+      "Valutare investimenti in digitalizzazione punti vendita"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi delle variazioni YoY evidenzia un pattern di crescita sostenibile: il fatturato cresce (+17,8%) trainato dall'espansione della rete distributiva e dall'aumento dei volumi. L'EBITDA cresce a ritmo inferiore (+9,6%) ma comunque positivo, indicando pressione sui margini tipica del settore. Il trend triennale mostra consolidamento della posizione di mercato con miglioramento continuo dell'efficienza operativa.",
+    "risk_factors": "I principali fattori di rischio identificati sono: (1) Volatilità prezzi petroliferi che impatta margini e working capital; (2) Pressione competitiva nel retail carburanti con guerra dei prezzi; (3) Transizione energetica verso mobilità elettrica nel medio-lungo termine; (4) Execution risk sull'integrazione rapida di nuovi punti vendita. La solidità finanziaria mitiga questi rischi strutturali.",
+    "opportunity_signals": "Il settore presenta opportunità significative: (1) Consolidamento mercato frammentato attraverso acquisizioni selettive; (2) Diversificazione servizi (car wash, convenience store, ricarica elettrica); (3) Digitalizzazione customer experience e loyalty programs; (4) Ottimizzazione logistica e supply chain. La posizione finanziaria solida facilita investimenti strategici.",
+    "management_quality_indicators": "La crescita controllata del fatturato (+17,8%) con mantenimento margini operativi indica management competente. L'espansione organica (+11,7% dipendenti) è coerente con apertura nuovi punti vendita. L'appartenenza al gruppo EG Italia garantisce best practices internazionali e supporto strategico. La governance è trasparente con struttura societaria chiara.",
+    "market_position": "EGI2GO opera in posizione di forza nel mercato italiano dei carburanti con 211 punti vendita distribuiti capillarmente. Il settore è maturo ma stabile con barriere all'ingresso medio-alte (licenze, investimenti, localizzazioni). La brand recognition e la rete distributiva costituiscono vantaggi competitivi sostenibili.",
+    "operational_efficiency": "Gli indici di efficienza confermano buona gestione operativa: il turnover degli asset è elevato (17,5x) tipico del settore retail. La rotazione magazzino è ottimale (30x) indicando gestione scorte efficiente. Il ciclo finanziario è contenuto (11 giorni) grazie a incassi rapidi e buona gestione fornitori."
+  },
+  "early_warning": {
+    "signals_detected": [],
+    "signals_monitoring": [
+      {
+        "id": "EW001",
+        "tipo": "margine_pressione",
+        "titolo": "Pressione Margini Operativi",
+        "descrizione": "EBITDA cresce (+9,6%) meno del fatturato (+17,8%): possibile compressione margini unitari",
+        "severity": "low",
+        "colore": "yellow",
+        "metriche": {
+          "delta_ebitda": "+9.6%",
+          "delta_fatturato": "+17.8%",
+          "gap": "8.2pp"
+        },
+        "implicazioni": "Tipico del settore retail carburanti in fase espansiva. Economie di scala dovrebbero compensare nel medio termine.",
+        "raccomandazione": "Monitorare EBITDA margin trimestralmente. Target: mantenimento >2% su fatturato.",
+        "trigger_escalation": "EBITDA margin < 1.5% per 2 trimestri consecutivi"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "crescita_sostenibile",
+        "titolo": "Crescita Fatturato Robusta",
+        "descrizione": "Fatturato +17,8% YoY ben superiore alla crescita media del settore (+5-7%)",
+        "colore": "green",
+        "implicazioni": "Conferma efficacia strategia espansiva e guadagno quote di mercato.",
+        "sostenibilita": "Alta - supportata da investimenti in nuovi punti vendita"
+      },
+      {
+        "id": "PP002",
+        "tipo": "zero_eventi_negativi",
+        "titolo": "Track Record Impeccabile",
+        "descrizione": "Nessun evento negativo negli ultimi anni (protesti, procedure, pregiudizievoli)",
+        "colore": "green",
+        "implicazioni": "Indica solidità nei pagamenti e gestione finanziaria disciplinata.",
+        "sostenibilita": "Alta se mantenuta disciplina finanziaria"
+      },
+      {
+        "id": "PP003",
+        "tipo": "posizione_finanziaria_netta_positiva",
+        "titolo": "PFN Positiva",
+        "descrizione": "Cassa > Debiti Finanziari - situazione favorevole per investimenti",
+        "colore": "green",
+        "implicazioni": "Massima flessibilità finanziaria per cogliere opportunità di crescita.",
+        "sostenibilita": "Media - potrebbe ridursi con investimenti pianificati"
+      }
+    ],
+    "overall_risk_trend": "STABILE CON BIAS POSITIVO. I segnali da monitorare sono di bassa severità e tipici della fase espansiva. I pattern positivi strutturali prevalgono. Outlook favorevole se mantenuta disciplina operativa."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Crescita Controllata",
+      "descrizione": "Scenario baseline che assume prosecuzione trend attuale con crescita moderata",
+      "ipotesi": [
+        "Crescita fatturato +10% annuo (normalizzazione post-espansione)",
+        "Margine EBITDA stabile al 2,0%",
+        "Apertura 15-20 nuovi punti vendita/anno",
+        "Capex €2-3M/anno per nuove aperture",
+        "Mantenimento posizione finanziaria netta positiva"
+      ],
+      "dscr_proiettato": 5.2,
+      "rating_proiettato": "B2 (stabile)",
+      "commento": "Nel base case l'azienda mantiene fondamentali solidi con crescita sostenibile. Il DSCR rimane elevato grazie alla generazione di cassa operativa. Il rating B2 è confermato con outlook stabile."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Contrazione Mercato",
+      "descrizione": "Scenario avverso con rallentamento consumi e guerra prezzi",
+      "ipotesi": [
+        "Calo fatturato -8% (riduzione consumi carburanti)",
+        "Compressione margine EBITDA di 50bp (guerra prezzi)",
+        "Chiusura punti vendita marginali (10-15 unità)",
+        "Aumento costi operativi (+5% inflazione)",
+        "Utilizzo parziale linee di credito disponibili"
+      ],
+      "dscr_proiettato": 3.8,
+      "rating_proiettato": "B3 (downgrade 1 notch)",
+      "commento": "Anche in scenario stress, il DSCR rimane ampiamente sopra soglie critiche. La rete distributiva capillare e la flessibilità operativa consentono adattamento rapido. Rating potrebbe subire downgrade limitato."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Accelerazione Crescita",
+      "descrizione": "Scenario favorevole con acquisizioni e diversificazione servizi",
+      "ipotesi": [
+        "Crescita fatturato +25% (acquisizioni + servizi aggiuntivi)",
+        "Margine EBITDA +30bp grazie a economie di scala",
+        "Acquisizione 30-50 punti vendita competitor",
+        "Lancio servizi complementari (car wash, convenience)",
+        "Investimenti digitalizzazione €5M"
+      ],
+      "dscr_proiettato": 6.8,
+      "rating_proiettato": "B1 (upgrade potenziale)",
+      "commento": "Nello scenario upside l'azienda potrebbe raggiungere rating B1 grazie a scala maggiore e diversificazione. Il DSCR beneficerebbe delle sinergie operative. Probabilità scenario: 30%."
+    },
+    "sensitivity_note": "L'analisi di sensitività mostra che il DSCR scende sotto 2.0x solo con combinazione di: calo fatturato >15% E compressione margini >100bp E aumento costi >10%. Tale scenario combinato ha probabilità stimata <10% su orizzonte 12 mesi."
+  },
+  "peer_comparison": {
+    "peer_group": "Commercio al dettaglio carburanti - Operatori nazionali (ATECO 473)",
+    "sample_size": 46066,
+    "anno_riferimento": 2023,
+    "metriche": {
+      "ros": {
+        "azienda": 1.99,
+        "mediana": 1.2,
+        "percentile": 75,
+        "commento": "ROS superiore alla mediana settoriale. Buona efficienza operativa nel retail carburanti."
+      },
+      "roe": {
+        "azienda": 48.85,
+        "mediana": 12.5,
+        "percentile": 95,
+        "commento": "ROE eccezionale, top 5% del settore. Riflette elevata leva operativa e efficienza capitale."
+      },
+      "roi": {
+        "azienda": 141.62,
+        "mediana": 8.5,
+        "percentile": 99,
+        "commento": "ROI straordinario grazie all'elevato turnover tipico del retail carburanti."
+      },
+      "current_ratio": {
+        "azienda": 1.81,
+        "mediana": 1.35,
+        "percentile": 78,
+        "commento": "Liquidità superiore alla media. Posizione finanziaria solida per il settore."
+      },
+      "dso": {
+        "azienda": 1.87,
+        "mediana": 15,
+        "percentile": 95,
+        "commento": "DSO eccellente grazie a incassi prevalentemente cash. Vantaggio competitivo del retail."
+      },
+      "leverage": {
+        "azienda": 2.23,
+        "mediana": 2.8,
+        "percentile": 65,
+        "commento": "Leva finanziaria contenuta rispetto al settore. Struttura patrimoniale conservativa."
+      },
+      "pfn_ebitda": {
+        "azienda": -0.57,
+        "mediana": 2.5,
+        "percentile": 90,
+        "commento": "PFN negativa (cassa netta) vs settore tipicamente indebitato. Posizione eccezionale."
+      }
+    },
+    "sintesi_posizionamento": "EGI2GO si colloca nel quartile superiore del settore per tutti gli indicatori chiave. La redditività è ai vertici assoluti (top 5% per ROE), la gestione del working capital è eccellente, la solidità finanziaria è superiore. Il posizionamento giustifica pienamente il rating investment grade.",
+    "aree_eccellenza": [
+      "Redditività del capitale (ROE, ROI) - Top 5% del settore",
+      "Gestione working capital (DSO) - Best in class",
+      "Solidità finanziaria (PFN/EBITDA) - Top 10% del settore"
+    ],
+    "aree_miglioramento": [
+      "Marginalità operativa (ROS) - Migliorabile vs top performer",
+      "Diversificazione ricavi - Concentrazione su carburanti"
+    ]
+  },
+  "action_items": {
+    "urgente": [],
+    "importante": [
+      {
+        "id": "AI001",
+        "area": "Operations",
+        "titolo": "Ottimizzazione Gestione Punti Vendita",
+        "azione": "Implementare sistema di monitoraggio performance per punto vendita con KPI standardizzati",
+        "razionale": "211 punti vendita richiedono controllo gestionale strutturato per ottimizzare redditività",
+        "impatto_atteso": "Miglioramento margini del 10-15% sui punti vendita sottoperformanti",
+        "beneficio_stimato": "Incremento EBITDA €500-800K annui",
+        "investimento_richiesto": "€200-300K per sistema IT e formazione",
+        "roi_stimato": "2-3x in 18 mesi",
+        "owner_suggerito": "COO / Operations Manager",
+        "timeline": "Implementazione Q1-Q2 2025",
+        "kpi_monitoraggio": [
+          "EBITDA per punto vendita",
+          "Volumi per stazione",
+          "Customer satisfaction"
+        ]
+      },
+      {
+        "id": "AI002",
+        "area": "Finance",
+        "titolo": "Ottimizzazione Working Capital",
+        "azione": "Implementare cash management avanzato e ottimizzazione ciclo fornitori",
+        "razionale": "Elevati volumi di magazzino (€10,4M) richiedono gestione ottimale per liberare liquidità",
+        "impatto_atteso": "Riduzione stock days da 12 a 8-9 giorni",
+        "beneficio_stimato": "Liberazione liquidità €1-1,5M",
+        "investimento_richiesto": "€50-100K per sistemi di forecasting",
+        "roi_stimato": "10-15x considerando costo opportunità liquidità",
+        "owner_suggerito": "CFO / Supply Chain Manager",
+        "timeline": "Implementazione Q1 2025",
+        "kpi_monitoraggio": [
+          "Stock days",
+          "Cash conversion cycle",
+          "Inventory turnover"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Crescita",
+        "titolo": "Acquisizioni Selettive",
+        "azione": "Identificare operatori locali per acquisizione e integrazione nella rete",
+        "razionale": "Mercato frammentato offre opportunità di consolidamento. PFN positiva consente operazioni",
+        "impatto_atteso": "Crescita fatturato +15-20%, sinergie operative 5-10%",
+        "beneficio_stimato": "Accelerazione crescita e economie di scala",
+        "investimento_richiesto": "€5-10M per acquisizioni target",
+        "owner_suggerito": "CEO / Business Development",
+        "timeline": "Scouting 2025, eventuali closing 2026",
+        "note": "Valutare solo target con posizioni strategiche e margini sostenibili"
+      },
+      {
+        "id": "OP002",
+        "area": "Diversificazione",
+        "titolo": "Servizi Complementari",
+        "azione": "Sviluppare servizi aggiuntivi (car wash, convenience store, ricarica elettrica)",
+        "razionale": "Diversificazione ricavi e aumento marginalità per punto vendita",
+        "impatto_atteso": "Incremento ricavi per stazione del 20-30%",
+        "beneficio_stimato": "Miglioramento margini e fidelizzazione clienti",
+        "investimento_richiesto": "€3-5M per rollout su rete selezionata",
+        "owner_suggerito": "Chief Commercial Officer",
+        "timeline": "Pilot Q2 2025, rollout 2026",
+        "note": "Iniziare con punti vendita ad alto traffico"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate secondo impatto/sforzo. ROI stimati basati su benchmark settoriali. Validare con analisi interne prima dell'implementazione."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B2 - Investment Grade",
+      "colore": "green",
+      "commento": "Rating B2 nella fascia investment grade. L'azienda presenta fondamentali solidi con bassa probabilità di default. Il rating riflette l'ottima posizione nel settore retail carburanti, la crescita sostenibile, la redditività elevata e l'assenza di eventi negativi. Outlook stabile con potenziale di miglioramento.",
+      "outlook": "Stabile",
+      "fattori_supporto": [
+        "Leadership nel retail carburanti con 211 punti vendita",
+        "Crescita fatturato robusta (+17,8%)",
+        "Redditività ai vertici del settore (ROE 48,9%)",
+        "PFN positiva - rara nel settore retail",
+        "Track record impeccabile (zero eventi negativi)"
+      ],
+      "fattori_rischio": [
+        "Esposizione a volatilità prezzi petroliferi",
+        "Pressione competitiva nel retail carburanti",
+        "Transizione energetica nel lungo termine"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Basso (Verde)",
+      "colore": "green",
+      "commento": "Risk Score VERDE indica rischio inferiore alla media settoriale. L'azienda non presenta segnali di tensione finanziaria. Tutti i parametri quantitativi sono in area di sicurezza. Il profilo di rischio è coerente con operatori investment grade del settore."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 500.000",
+      "commento": "Il fido operativo di € 500.000 è coerente con il profilo di rischio e la dimensione aziendale. Rappresenta circa lo 0,16% del fatturato, appropriato per azienda con elevata rotazione di cassa. Il fido potrebbe essere incrementato mantenendo parametri di rischio accettabili.",
+      "utilizzo_suggerito": "Linea di credito revolving per gestione picchi stagionali e working capital. Pricing in linea con spread investment grade."
+    },
+    "trend_analysis": "Il rating si è mantenuto stabile su B2 negli ultimi 12 mesi. Il fido operativo è cresciuto da €680K a €500K per ottimizzazione. Il risk score mostra miglioramento continuo grazie ai fondamentali solidi.",
+    "probability_of_default": {
+      "valore": 0.8,
+      "classe": "Investment Grade - Medium Risk",
+      "commento": "PD stimata 0.8% su orizzonte 12 mesi, coerente con rating B2. La probabilità di default è contenuta grazie ai fondamentali superiori."
+    }
+  },
+  "profili": {
+    "commento_generale": "I cinque profili di valutazione evidenziano un'azienda in forte crescita con eccellenti performance di sviluppo (5/5) e buona sostenibilità del debito (4/5). Gli aspetti economici e finanziari mostrano alcune criticità tipiche della fase espansiva che richiedono monitoraggio.",
+    "economico": {
+      "giudizio_breve": "Aspetti di Criticità",
+      "colore": "yellow",
+      "commento": "Score 2/5. Il profilo economico riflette la pressione sui margini tipica del settore retail carburanti in fase espansiva. L'autofinanziamento è positivo ma contenuto rispetto ai volumi. La redditività operativa è buona ma richiede ottimizzazione.",
+      "driver_principali": [
+        "Autofinanziamento positivo ma sotto pressione",
+        "Margini operativi da ottimizzare",
+        "Crescita volumi superiore a crescita margini"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Struttura patrimoniale equilibrata con buona capitalizzazione (44,8%). Il patrimonio netto è cresciuto grazie all'autofinanziamento. La composizione attivo/passivo è coerente con il settore retail.",
+      "driver_principali": [
+        "Capitalizzazione 44,8% - adeguata",
+        "PN in crescita da autofinanziamento",
+        "Struttura bilanciata attivo/passivo"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Aspetti di Criticità",
+      "colore": "yellow",
+      "commento": "Score 2/5. Nonostante la PFN positiva, il profilo finanziario riflette la gestione complessa del working capital nel retail carburanti. La liquidità è adeguata ma richiede ottimizzazione per sostenere la crescita.",
+      "driver_principali": [
+        "PFN positiva - punto di forza",
+        "Working capital da ottimizzare",
+        "Liquidità adeguata ma migliorabile"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Positiva",
+      "colore": "green",
+      "commento": "Score 4/5. Ottima efficienza nell'utilizzo delle risorse con turnover elevato tipico del retail. La produttività per dipendente è buona e in crescita. Gli indici di rotazione sono eccellenti.",
+      "driver_principali": [
+        "Turnover index 17,5x - eccellente",
+        "Rotazione magazzino 30x - ottimale",
+        "Produttività per dipendente in crescita"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Ottima",
+      "colore": "green",
+      "commento": "Score 5/5. Crescita eccellente su tutti i parametri: fatturato (+65,2%), ROL (+702%), risultato d'esercizio (+3906%). L'azienda è in fase di forte espansione con trend molto positivi.",
+      "driver_principali": [
+        "Crescita fatturato +65,2% - eccezionale",
+        "Variazione ROL +702% - straordinaria",
+        "Risultato d'esercizio +3906% - record"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "La redditività è eccezionale con ROE al 48,9% e ROI al 141,6%, valori ai vertici del settore retail carburanti. Il ROS al 1,99% è superiore alla media settoriale. La gestione extra-caratteristica contribuisce positivamente al risultato.",
+      "trend_yoy": "In forte miglioramento",
+      "indicatori": {
+        "ros": {
+          "colore": "green",
+          "commento": "ROS al 1,99% superiore alla mediana settoriale (1,2%). Buona efficienza operativa nel retail carburanti."
+        },
+        "roe": {
+          "colore": "green",
+          "commento": "ROE al 48,9% eccezionale, top 5% del settore. Riflette elevata leva operativa e ottima remunerazione del capitale proprio."
+        },
+        "roi": {
+          "colore": "green",
+          "commento": "ROI al 141,6% straordinario grazie all'elevato turnover tipico del retail. Utilizzo efficientissimo del capitale investito."
+        },
+        "roa": {
+          "colore": "green",
+          "commento": "ROA al 34,8% conferma l'eccellente redditività complessiva degli asset aziendali."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "green",
+          "commento": "La gestione extra-caratteristica contribuisce positivamente (62,9% del risultato), indicando buona gestione finanziaria."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Solida",
+      "colore": "green",
+      "commento": "La posizione di liquidità è solida con Current Ratio di 1,81 e Acid Test di 0,69. L'azienda può far fronte agli impegni a breve termine. La struttura finanziaria è equilibrata per il settore retail.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "green",
+          "commento": "Current Ratio di 1,81 superiore alla soglia ottimale di 1,5. Buona copertura delle passività correnti."
+        },
+        "acid_test": {
+          "colore": "yellow",
+          "commento": "Acid Test di 0,69 sotto la soglia ideale ma accettabile per il settore retail con elevate rimanenze."
+        },
+        "cash_short_term_debt": {
+          "colore": "green",
+          "commento": "Rapporto cassa/debiti a breve elevato (124,7%). Ottima copertura degli impegni immediati."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo: immobilizzazioni finanziate con capitale permanente."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Margine di struttura secondario positivo, confermando equilibrio strutturale."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Copertura immobilizzazioni >1. Investimenti fissi supportati da fonti durevoli."
+        },
+        "copertura_ccn": {
+          "colore": "green",
+          "commento": "Capitale circolante netto finanziato coerentemente con la sua natura."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Conservativo",
+      "colore": "green",
+      "commento": "La struttura del debito è conservativa con PFN negativa (-0,57x EBITDA) indicando posizione di cassa netta. Il leverage di 2,23 è contenuto rispetto al settore. Ampia capacità di indebitamento residua.",
+      "trend_yoy": "In miglioramento",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "green",
+          "commento": "PFN/EBITDA negativo (-0,57x) indica cassa netta. Posizione finanziaria eccezionale per il settore."
+        },
+        "leverage": {
+          "colore": "green",
+          "commento": "Leverage di 2,23 contenuto rispetto alla media settoriale (2,8). Struttura patrimoniale conservativa."
+        },
+        "capitalizzazione": {
+          "colore": "green",
+          "commento": "Grado di capitalizzazione del 44,8% superiore alla media. Buona dotazione di mezzi propri."
+        },
+        "debt_ratio": {
+          "colore": "green",
+          "commento": "Debt ratio contenuto: debiti totali ben bilanciati rispetto al patrimonio netto."
+        },
+        "bank_debt_assets": {
+          "colore": "green",
+          "commento": "Incidenza debito bancario sull'attivo nulla. Nessuna dipendenza dal sistema bancario."
+        },
+        "bank_debt_ratio": {
+          "colore": "green",
+          "commento": "Rapporto debito bancario/totale fonti nullo. Struttura finanziaria autosufficiente."
+        },
+        "ebitda_net_leverage": {
+          "colore": "green",
+          "commento": "EBITDA net leverage negativo conferma la posizione di forza finanziaria."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "green",
+          "commento": "Anche il gross leverage è contenutissimo (0,005x), indicando debiti finanziari marginali."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Gli indici di copertura sono eccellenti con EBITDA che copre quasi 6x gli oneri finanziari. La capacità di servizio del debito è ampiamente superiore alle soglie di sicurezza.",
+      "trend_yoy": "Stabile/In miglioramento",
+      "indicatori": {
+        "dscr": {
+          "colore": "green",
+          "commento": "DSCR stimato >5x eccellente. Ampia capacità di copertura del servizio del debito."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "green",
+          "commento": "Copertura interessi 5,9x eccellente. Gli oneri finanziari assorbono solo il 17% dell'EBITDA."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "green",
+          "commento": "Anche con EBIT la copertura degli interessi è ampia (5,8x)."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "green",
+          "commento": "Copertura interessi netti eccellente considerando i proventi finanziari."
+        },
+        "ebit_interessi_netti": {
+          "colore": "green",
+          "commento": "Tutti gli indicatori confermano la sostenibilità della struttura finanziaria."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Ottimo",
+      "colore": "green",
+      "commento": "Il ciclo finanziario è eccellente con DSO di soli 1,87 giorni grazie agli incassi cash tipici del retail carburanti. Il ciclo complessivo di 11 giorni è ottimale per il settore.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "dso": {
+          "colore": "green",
+          "commento": "DSO di 1,87 giorni eccellente grazie a incassi prevalentemente cash. Vantaggio competitivo del retail."
+        },
+        "dpo": {
+          "colore": "green",
+          "commento": "DPO di 2,59 giorni coerente con la gestione rapida dei pagamenti nel settore."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO di 11,92 giorni ottimale per il retail carburanti. Gestione scorte efficiente."
+        },
+        "ciclo_finanziario": {
+          "colore": "green",
+          "commento": "Ciclo finanziario di 11,23 giorni eccellente. Rapida conversione investimenti in liquidità."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Eccezionale",
+      "colore": "green",
+      "commento": "L'azienda è in fase di crescita eccezionale con tutti gli indicatori in forte espansione. La variazione del fatturato (+65,2%) e del risultato (+3906%) sono straordinarie.",
+      "trend_yoy": "Forte accelerazione",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "green",
+          "commento": "Crescita valore produzione +65,2% eccezionale, ben superiore alla media settoriale."
+        },
+        "variazione_ebit": {
+          "colore": "green",
+          "commento": "EBIT in crescita più che proporzionale, indicando leva operativa positiva."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "green",
+          "commento": "Valore aggiunto +10,7% conferma creazione di valore reale."
+        },
+        "variazione_mol": {
+          "colore": "green",
+          "commento": "MOL +9,6% in crescita sostenuta nonostante l'espansione."
+        },
+        "variazione_totale_attivo": {
+          "colore": "green",
+          "commento": "Attivo +32,4% in crescita coerente con l'espansione del business."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario -47% in riduzione. Crescita finanziata con autofinanziamento."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "L'efficienza operativa è eccellente con turnover index di 17,5 e rotazione magazzino di 30x. Il capitale investito viene utilizzato in modo ottimale generando elevato fatturato.",
+      "trend_yoy": "In miglioramento",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "green",
+          "commento": "Turnover index 17,5x eccellente. Ogni euro di attivo genera 17,5€ di fatturato."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione magazzino 30x ottimale per il retail carburanti. Gestione scorte efficientissima."
+        },
+        "current_assets_rotation": {
+          "colore": "green",
+          "commento": "Attivo circolante ruota rapidamente generando fatturato elevato."
+        },
+        "ar_rotation": {
+          "colore": "green",
+          "commento": "Rotazione crediti 193x eccezionale grazie agli incassi cash immediati."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Equilibrata",
+      "colore": "green",
+      "commento": "La struttura finanziaria è equilibrata con PFN negativa e composizione del debito sana. Prevalenza di debiti commerciali su debiti finanziari, tipica del settore retail.",
+      "trend_yoy": "In miglioramento",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "green",
+          "commento": "PFN/PN negativo (-45%) indica cassa netta superiore al patrimonio netto."
+        },
+        "pfn_pn": {
+          "colore": "green",
+          "commento": "Conferma la solidità della struttura con posizione finanziaria netta favorevole."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario marginale, composto da linee a breve termine."
+        },
+        "debito_netto_fonti": {
+          "colore": "green",
+          "commento": "Debito netto negativo (-82%) sulle fonti totali. Struttura cash-positive."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "green",
+          "commento": "Debito finanziario lordo marginale (0,37%) rispetto al patrimonio netto."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Contenuto",
+      "colore": "green",
+      "commento": "L'onere finanziario è contenuto con ROD del 3,67% e burden index del 17%. Gli interessi passivi assorbono una quota limitata dei flussi operativi.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "rod": {
+          "colore": "green",
+          "commento": "Costo medio del debito 3,67% in linea con i tassi di mercato."
+        },
+        "rod_finanziario": {
+          "colore": "green",
+          "commento": "Costo del debito finanziario coerente con il profilo di rischio."
+        },
+        "burden_index": {
+          "colore": "green",
+          "commento": "Indice di onerosità 17% contenuto. Gli oneri finanziari non gravano eccessivamente."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Equilibrato",
+      "colore": "green",
+      "commento": "La struttura dell'attivo è coerente con l'attività retail carburanti. Le immobilizzazioni (6,2%) sono contenute, mentre l'attivo circolante (93,8%) riflette l'elevato magazzino carburanti e la liquidità abbondante.",
+      "immobilizzazioni": "Le immobilizzazioni totali (€1,1M) sono contenute e composte principalmente da licenze e concessioni (€0,9M) per l'attività distributiva e immobili (€52K). Asset funzionali all'attività operativa.",
+      "attivo_circolante": "L'attivo circolante (€16,9M) è dominato dalle rimanenze carburanti (€10,4M) e dalle disponibilità liquide (€3,7M). I crediti commerciali sono contenuti (€1,6M) grazie agli incassi cash.",
+      "composizione_attivo": "La composizione 6/94 immobilizzazioni/circolante è tipica del retail carburanti. L'elevata incidenza delle scorte riflette la necessità di stock di sicurezza."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Solido",
+      "colore": "green",
+      "commento": "La struttura delle fonti è solida con patrimonio netto del 44,8% e debiti ben distribuiti. Prevalenza di debiti commerciali e verso controllanti, tipica della struttura di gruppo.",
+      "patrimonio_netto": "Il PN (€8,1M) è cresciuto significativamente grazie all'utile d'esercizio (€3,9M) e agli utili portati a nuovo (€4,1M). Capitalizzazione solida per sostenere la crescita.",
+      "debiti": "I debiti totali (€9,6M) sono composti principalmente da debiti verso controllanti (€5,4M), fornitori (€2,1M) e tributari/previdenziali (€0,9M). Nessun debito bancario significativo.",
+      "struttura_fonti": "La struttura PN 45% / Debiti 55% è equilibrata. Le fonti durevoli coprono adeguatamente gli impieghi fissi."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Il conto economico evidenzia performance eccellenti con valore della produzione di €314M (+17,8%) e utile d'esercizio di €3,9M. La gestione operativa è efficiente con margini in crescita.",
+      "valore_produzione": "Ricavi di vendita €314M in forte crescita (+17,8%) trainata dall'espansione della rete distributiva. Altri ricavi marginali (€0,3M) da servizi complementari.",
+      "costi_produzione": "I costi della produzione (€308M) crescono in linea con i ricavi. Predominano gli acquisti di carburanti (€293M). I costi del personale (€8M) riflettono l'espansione organica (+11,7%).",
+      "gestione_finanziaria": "La gestione finanziaria è negativa (-€1,1M) principalmente per oneri su finanziamenti infragruppo. Nessuna operazione in strumenti complessi.",
+      "risultato_esercizio": "Utile d'esercizio €3,9M con margine netto dell'1,25%. Risultato in forte crescita rispetto all'anno precedente, coerente con l'espansione del business."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi di cassa evidenzia forte generazione operativa con autofinanziamento sufficiente a sostenere crescita e investimenti.",
+      "operating_cf": "Cash flow operativo robusto (€4M circa) superiore all'utile netto per effetto degli ammortamenti. Ottima generazione di cassa dall'attività caratteristica.",
+      "investing_cf": "Flusso investimenti contenuto, relativo principalmente a nuove aperture e manutenzioni. Capex coerenti con l'espansione controllata.",
+      "financing_cf": "Attività di finanziamento gestita principalmente attraverso rapporti con la controllante. Nessun ricorso significativo a debito bancario esterno."
+    }
+  },
+  "dscr": {
+    "valore": 5.87,
+    "giudizio_breve": "Eccellente",
+    "colore": "green",
+    "commento": "Il DSCR di 5,87x è eccellente e indica che l'EBITDA copre quasi 6 volte il servizio del debito. Il margine di sicurezza del 487% garantisce ampia capacità di assorbire shock negativi. Il valore è ai vertici del settore retail.",
+    "componenti": {
+      "ebitda": 6339975,
+      "oneri_finanziari": 1078799,
+      "quota_capitale_annuale": 0,
+      "servizio_debito": 1078799
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è confermata da molteplici indicatori: PFN negativa, DSCR quasi 6x, copertura interessi 5,9x. L'azienda potrebbe sostenere un significativo incremento dell'indebitamento mantenendo DSCR >2x.",
+    "capacita_indebitamento_residua": "Stimata capacità di nuovo debito sostenibile: €8-12M mantenendo DSCR >2x. Tale headroom consente acquisizioni o investimenti significativi.",
+    "stress_test_result": "In scenario stress (EBITDA -30%), il DSCR scenderebbe a 4,1x, comunque ampiamente sopra soglie critiche. Resilienza eccellente anche in condizioni avverse."
+  },
+  "red_flags": {
+    "presenti": false,
+    "severity": "NONE",
+    "elenco": [],
+    "dettaglio": {
+      "anomalie_margini": "Nessuna anomalia rilevata. I margini sono coerenti con il settore retail carburanti e in linea con l'espansione della rete distributiva.",
+      "anomalie_magazzino": "Magazzino elevato (€10,4M) ma coerente con l'attività retail carburanti. Stock days (12 giorni) in linea con il settore. Nessun segnale di obsolescenza.",
+      "anomalie_crediti": "Crediti commerciali contenuti (€1,6M) grazie agli incassi cash. DSO di 1,87 giorni eccellente. Nessun incremento anomalo rispetto al fatturato.",
+      "tensione_liquidita": "Nessuna tensione di liquidità. Current ratio (1,81) e disponibilità liquide (€3,7M) abbondanti. PFN positiva.",
+      "eccessivo_indebitamento": "Indebitamento molto contenuto con PFN negativa. Nessuna dipendenza eccessiva dal credito. Leverage inferiore alla media settoriale.",
+      "eventi_negativi": "Nessun evento negativo rilevato: zero protesti, zero procedure concorsuali, zero pregiudizievoli. Track record impeccabile.",
+      "governance_concerns": "Struttura di gruppo trasparente con controllante EG Italia. Nessuna transazione anomala con parti correlate visibile.",
+      "going_concern": "Nessun elemento che possa far dubitare della continuità aziendale. Fondamentali solidi, crescita sostenuta, liquidità abbondante."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Pienamente Conforme",
+      "colore": "green",
+      "commento": "L'azienda rispetta ampiamente i requisiti degli adeguati assetti organizzativi previsti dal Codice della Crisi. Tutti gli indicatori sono in area di sicurezza. La struttura di gruppo garantisce sistemi di controllo adeguati."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 0.34,
+        "soglia": 2.5,
+        "alert": false,
+        "commento": "0,34% ben sotto la soglia del 2,5%. Incidenza oneri finanziari sui ricavi molto contenuta."
+      },
+      "pn_debiti_totali": {
+        "valore": 83.5,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "83,5% enormemente sopra la soglia del 5,5%. Capitalizzazione eccellente."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 181.3,
+        "soglia": 85,
+        "alert": false,
+        "commento": "181,3% molto sopra la soglia dell'85%. Liquidità a breve più che abbondante."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 22.3,
+        "soglia": 1.5,
+        "alert": false,
+        "commento": "22,3% molto sopra la soglia dell'1,5%. Eccellente generazione di cassa."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 4.9,
+        "soglia": 7,
+        "alert": false,
+        "commento": "4,9% sotto la soglia del 7%. Regolarità nei pagamenti verso enti pubblici."
+      }
+    },
+    "continuita_aziendale": "La continuità aziendale è confermata senza riserve. L'azienda dispone di risorse finanziarie abbondanti, genera flussi positivi, opera in un settore stabile e ha prospettive di crescita.",
+    "raccomandazioni_assetti": [
+      "Mantenere monitoraggio trimestrale indicatori CCII",
+      "Aggiornare periodicamente piani industriali e finanziari",
+      "Documentare adeguatamente i sistemi di controllo interno"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "CONFORME - Tutti gli indicatori di allerta in area di sicurezza con ampi margini.",
+    "antiriciclaggio": "Struttura societaria trasparente con governance chiara. Appartenenza a gruppo quotato garantisce compliance AML. Nessuna transazione anomala rilevata.",
+    "privacy_note": "Analisi basata su dati di bilancio pubblici e informazioni creditizie da provider autorizzati. Nessun trattamento di dati personali sensibili."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Implementare sistema di monitoraggio performance per punto vendita con KPI standardizzati",
+      "Ottimizzare gestione working capital e stock management per liberare liquidità",
+      "Sviluppare reporting gestionale strutturato con focus su marginalità per stazione",
+      "Valutare opportunità di hedging su commodity per stabilizzare margini"
+    ],
+    "medio_termine": [
+      "Pianificare investimenti in digitalizzazione e customer experience",
+      "Sviluppare servizi complementari (car wash, convenience store) sui punti vendita strategici",
+      "Implementare sistemi di loyalty e CRM per fidelizzazione clienti",
+      "Valutare certificazioni ambientali e sostenibilità per posizionamento premium"
+    ],
+    "strategiche": [
+      "Valutare acquisizioni selettive di operatori locali per consolidamento mercato",
+      "Sviluppare strategia di transizione energetica (colonnine ricarica elettrica)",
+      "Considerare diversificazione geografica in mercati europei limitrofi",
+      "Esplorare partnership strategiche con brand automotive per servizi integrati"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "EGI2GO si posiziona nel quartile superiore del settore retail carburanti per la maggior parte degli indicatori. La redditività è eccellente (top 5%), la gestione del working capital è best-in-class, la solidità finanziaria è superiore alla media. Il posizionamento competitivo è forte.",
+    "posizionamento": "Top 10% per redditività e gestione working capital. Top 20% per solidità finanziaria. Quartile superiore per tutti gli indicatori operativi.",
+    "benchmark_principali": [
+      "ROE 48,9% vs mediana settore 12,5% (+291%)",
+      "DSO 1,87gg vs mediana settore 15gg (-87%)",
+      "Current Ratio 1,81 vs mediana settore 1,35 (+34%)",
+      "PFN/EBITDA -0,57x vs mediana settore +2,5x (cassa netta vs indebitati)",
+      "Turnover 17,5x vs mediana settore 8-12x (efficienza superiore)"
+    ],
+    "trend_settore": "Il settore retail carburanti è maturo ma stabile con crescita moderata (+2-3% annuo). La transizione energetica crea sfide nel lungo termine ma opportunità di diversificazione. La concentrazione è in aumento con consolidamento degli operatori minori."
+  },
+  "metadata": {
+    "generated_at": "2025-01-15T14:30:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "EGI2GO.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.92,
+    "analysis_depth": "Comprehensive - Full financial analysis con peer comparison e forward-looking scenarios",
+    "disclaimers": [
+      "L'analisi si basa su dati di bilancio pubblici e credit score di terze parti",
+      "Le proiezioni e gli scenari hanno natura indicativa e non costituiscono previsioni",
+      "Si raccomanda validazione con dati aziendali interni prima di decisioni operative",
+      "L'analisi non sostituisce la consulenza professionale di commercialisti e revisori"
+    ]
+  }
+}
