@@ -1,0 +1,782 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "RATING B1 - OUTLOOK STABILE",
+    "verdict_color": "green",
+    "key_message": "Azienda in forte crescita con buona redditività operativa e struttura patrimoniale equilibrata. Settore audiovisivo in espansione post-pandemia. Merita fiducia creditizia con monitoraggio su crescita sostenibile.",
+    "numeri_chiave": [
+      "Rating B1 (stabile) - Investment Grade",
+      "Fatturato €1.61M (+74% YoY) - crescita accelerata",
+      "ROS 8.1% - redditività solida",
+      "Current Ratio 1.40 - liquidità adeguata",
+      "Zero eventi negativi - track record pulito"
+    ],
+    "risk_level": "INFERIORE ALLA MEDIA",
+    "focus_trimestre": "Monitorare sostenibilità crescita (+74% fatturato) e gestione working capital con DSO a 115 giorni",
+    "next_review": "Q2 2025 - Verifica consolidamento crescita e ottimizzazione ciclo finanziario"
+  },
+  "executive_summary": {
+    "sintesi": "TERRA DE PUNT SRL presenta un profilo finanziario in miglioramento con rating B1 e rischio inferiore alla media. L'azienda opera nel settore della produzione audiovisiva con crescita esplosiva del fatturato (+74% a €1.61M) e buona redditività operativa (ROS 8.1%). La struttura patrimoniale è equilibrata con capitalizzazione del 32%. Il ciclo finanziario presenta aree di ottimizzazione con DSO elevato a 115 giorni.",
+    "giudizio_breve": "Azienda in forte crescita con fondamentali solidi",
+    "colore": "green",
+    "punti_forza": [
+      "Crescita esplosiva del fatturato (+74% YoY) in settore in ripresa",
+      "Redditività operativa solida (ROS 8.1%, EBITDA 10.9%)",
+      "ROE eccellente (23.5%) - ottima remunerazione capitale",
+      "Struttura patrimoniale equilibrata (32% equity ratio)",
+      "Nessun evento negativo (protesti, procedure, pregiudizievoli)",
+      "Settore audiovisivo con prospettive positive post-pandemia",
+      "Management giovane e dinamico con track record di crescita"
+    ],
+    "aree_attenzione": [
+      "Crescita molto rapida (+74%) da consolidare e rendere sostenibile",
+      "DSO elevato (115 giorni) impatta working capital",
+      "Dipendenza da contributi pubblici (€249K su €1.61M fatturato)",
+      "Settore ciclico sensibile a congiuntura economica",
+      "Dimensione ancora contenuta (small enterprise)"
+    ],
+    "raccomandazioni_principali": [
+      "Implementare controllo di gestione strutturato per monitorare crescita",
+      "Ottimizzare gestione crediti per ridurre DSO sotto 90 giorni",
+      "Diversificare fonti di ricavo riducendo dipendenza da contributi"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi delle variazioni YoY evidenzia un'accelerazione significativa: il fatturato cresce del 74% trainato dalla ripresa del settore audiovisivo post-pandemia. L'EBITDA cresce del 22% con margini che si stabilizzano intorno al 11%. Il trend triennale mostra miglioramento continuo di tutti gli indicatori di redditività, suggerendo un business model che sta raggiungendo la maturità operativa.",
+    "risk_factors": "I principali fattori di rischio identificati sono: (1) Execution risk sulla sostenibilità della crescita accelerata - possibile difficoltà nel mantenere ritmi così elevati; (2) Dipendenza da contributi pubblici (15% dei ricavi) - vulnerabilità a cambi normativi; (3) Settore audiovisivo ciclico e competitivo; (4) DSO elevato espone a rischio credito commerciale. La dimensione contenuta limita la diversificazione.",
+    "opportunity_signals": "Il settore audiovisivo beneficia di trend strutturali positivi: crescita streaming, incentivi fiscali, digitalizzazione eventi. L'azienda è ben posizionata per cogliere opportunità di: (1) Espansione geografica oltre la Sardegna; (2) Diversificazione servizi (post-produzione, distribuzione); (3) Partnership con broadcaster nazionali; (4) Sviluppo contenuti proprietari. La crescita organica (+44% dipendenti) crea base per scalabilità.",
+    "management_quality_indicators": "Il management guidato da Salvatore Cubeddu (50 anni) mostra capacità imprenditoriali con crescita sostenuta negli ultimi anni. La politica di reinvestimento utili (€109K utile 2024) indica focus sulla crescita. Le partecipazioni in APCADEMY (49%) e BENEMEDA (33%) suggeriscono strategia di diversificazione controllata. L'assenza di operazioni straordinarie denota crescita organica genuina.",
+    "market_position": "TERRA DE PUNT opera in un mercato di nicchia (produzione audiovisiva) con barriere all'ingresso medio-basse ma elevata specializzazione richiesta. Il posizionamento in Sardegna offre vantaggi di costo ma limita l'accesso ai mercati principali. La specializzazione in contenuti televisivi e cinematografici costituisce differenziazione rispetto a operatori generalisti.",
+    "operational_efficiency": "L'efficienza operativa è in miglioramento: il fatturato per dipendente è cresciuto significativamente. La rotazione del capitale è adeguata (1.09x) per il settore. Il ciclo di conversione del cash è penalizzato dal DSO elevato ma la natura progettuale dell'attività giustifica parzialmente i tempi di incasso. La struttura dei costi mostra buon controllo con leva operativa positiva."
+  },
+  "early_warning": {
+    "signals_detected": [],
+    "signals_monitoring": [
+      {
+        "id": "EW001",
+        "tipo": "crescita_insostenibile",
+        "titolo": "Crescita Fatturato Molto Accelerata",
+        "descrizione": "Crescita fatturato +74% YoY potrebbe essere difficile da sostenere nel medio termine",
+        "severity": "medium",
+        "colore": "yellow",
+        "metriche": {
+          "crescita_fatturato": "+74%",
+          "crescita_dipendenti": "+44%",
+          "gap_crescita": "30pp"
+        },
+        "implicazioni": "Rischio di sovraestensione operativa o difficoltà nel mantenere qualità servizi con crescita così rapida.",
+        "raccomandazione": "Monitorare margini operativi e customer satisfaction. Pianificare crescita più graduale.",
+        "trigger_escalation": "Crescita >50% per 2 anni consecutivi con deterioramento margini"
+      },
+      {
+        "id": "EW002",
+        "tipo": "dso_elevato",
+        "titolo": "Ciclo Incassi Lungo",
+        "descrizione": "DSO a 115 giorni molto elevato per il settore, impatta liquidità",
+        "severity": "medium",
+        "colore": "yellow",
+        "metriche": {
+          "dso_attuale": 115,
+          "benchmark_settore": 75,
+          "scostamento": "+53%"
+        },
+        "implicazioni": "Assorbimento significativo di working capital. Rischio di tensioni di liquidità in caso di ritardi pagamenti.",
+        "raccomandazione": "Implementare policy di credit management e anticipo fatture. Target DSO <90 giorni.",
+        "trigger_escalation": "DSO >130 giorni o peggioramento >20% YoY"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "crescita_redditività",
+        "titolo": "Miglioramento Continuo Margini",
+        "descrizione": "ROS in crescita costante negli ultimi anni con raggiungimento 8.1%",
+        "colore": "green",
+        "implicazioni": "Conferma efficienza operativa crescente e potere di prezzo nel mercato di riferimento.",
+        "sostenibilita": "Alta se mantenuto focus su progetti ad alto valore aggiunto"
+      },
+      {
+        "id": "PP002",
+        "tipo": "zero_eventi_negativi",
+        "titolo": "Track Record Impeccabile",
+        "descrizione": "Nessun evento negativo rilevato negli ultimi anni",
+        "colore": "green",
+        "implicazioni": "Indica affidabilità nei pagamenti e gestione prudente. Elemento positivo per rating.",
+        "sostenibilita": "Alta se mantenuta disciplina finanziaria"
+      }
+    ],
+    "overall_risk_trend": "STABILE CON MONITORAGGIO. I segnali da monitorare sono di media severità e bilanciati da trend positivi. La crescita accelerata richiede attenzione ma i fondamentali rimangono solidi."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Normalizzazione Crescita",
+      "descrizione": "Scenario baseline con normalizzazione dei tassi di crescita dopo il boom 2024",
+      "ipotesi": [
+        "Crescita fatturato +15% annuo (normalizzazione post-boom)",
+        "Margine EBITDA stabile al 11%",
+        "DSO ridotto gradualmente a 90 giorni",
+        "Mantenimento contributi pubblici attuali",
+        "Crescita organico +10% annuo"
+      ],
+      "dscr_proiettato": 1.45,
+      "rating_proiettato": "B1 (stabile)",
+      "commento": "Nel base case l'azienda consolida la crescita con DSCR >1.4x. Il rating B1 è confermato con outlook stabile. La normalizzazione della crescita permette migliore controllo operativo."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Contrazione Settore",
+      "descrizione": "Scenario avverso con rallentamento mercato audiovisivo e riduzione contributi",
+      "ipotesi": [
+        "Calo fatturato -20% (crisi settore entertainment)",
+        "Riduzione contributi pubblici del 50%",
+        "DSO in peggioramento a 140 giorni",
+        "Costi fissi invariati nel breve",
+        "Necessità di ricorso a linee di credito"
+      ],
+      "dscr_proiettato": 0.85,
+      "rating_proiettato": "B3 (downgrade 2 notch)",
+      "commento": "In scenario stress severo il DSCR scende sotto 1.0x creando tensioni. Il rating subirebbe downgrade significativo. L'azienda dovrebbe attivare misure di contenimento costi."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Espansione Nazionale",
+      "descrizione": "Scenario favorevole con espansione geografica e diversificazione servizi",
+      "ipotesi": [
+        "Crescita fatturato +25% (espansione nazionale)",
+        "Margine EBITDA +2pp grazie a economie di scala",
+        "DSO ottimizzato a 75 giorni",
+        "Nuovi contratti pluriennali con broadcaster",
+        "Investimenti in tecnologia e contenuti proprietari"
+      ],
+      "dscr_proiettato": 1.85,
+      "rating_proiettato": "A3 (upgrade potenziale)",
+      "commento": "Nello scenario upside l'azienda potrebbe raggiungere rating A3 con DSCR >1.8x. L'espansione nazionale aprirebbe nuove opportunità di crescita sostenibile."
+    },
+    "sensitivity_note": "L'analisi di sensitività mostra particolare sensibilità ai contributi pubblici (15% ricavi) e ai tempi di incasso. Una riduzione >30% dei contributi o DSO >150 giorni impatterebbero significativamente la liquidità."
+  },
+  "peer_comparison": {
+    "peer_group": "Produzione Cinematografica e Televisiva - PMI Italia (ATECO 59.11)",
+    "sample_size": 2771,
+    "anno_riferimento": 2023,
+    "metriche": {
+      "ros": {
+        "azienda": 8.1,
+        "mediana": 5.2,
+        "percentile": 75,
+        "commento": "ROS superiore alla mediana settoriale. Buona efficienza operativa nel segmento audiovisivo."
+      },
+      "roe": {
+        "azienda": 23.5,
+        "mediana": 12.8,
+        "percentile": 85,
+        "commento": "ROE eccellente, quasi doppio rispetto alla mediana. Ottima remunerazione del capitale proprio."
+      },
+      "roi": {
+        "azienda": 14.1,
+        "mediana": 8.9,
+        "percentile": 82,
+        "commento": "ROI significativamente sopra la media. Efficiente utilizzo del capitale investito."
+      },
+      "current_ratio": {
+        "azienda": 1.4,
+        "mediana": 1.25,
+        "percentile": 65,
+        "commento": "Liquidità leggermente sopra la media settoriale. Posizione equilibrata."
+      },
+      "dso": {
+        "azienda": 115,
+        "mediana": 75,
+        "percentile": 25,
+        "commento": "DSO nel quartile peggiore del settore. Principale area di miglioramento."
+      },
+      "leverage": {
+        "azienda": 3.17,
+        "mediana": 2.8,
+        "percentile": 35,
+        "commento": "Leverage leggermente superiore alla media ma in linea con settore capital intensive."
+      },
+      "pfn_ebitda": {
+        "azienda": 0.99,
+        "mediana": 1.8,
+        "percentile": 75,
+        "commento": "PFN/EBITDA migliore della media settoriale. Indebitamento sostenibile."
+      }
+    },
+    "sintesi_posizionamento": "TERRA DE PUNT si posiziona nel quartile superiore per redditività (ROS, ROE, ROI) confermando efficienza operativa superiore alla media. La liquidità è adeguata mentre l'indebitamento è sotto controllo. L'unica criticità è il DSO elevato, comune nel settore ma migliorabile.",
+    "aree_eccellenza": [
+      "Redditività del capitale (ROE 23.5% vs 12.8% mediana)",
+      "Efficienza operativa (ROS 8.1% vs 5.2% mediana)",
+      "Sostenibilità debito (PFN/EBITDA migliore della media)"
+    ],
+    "aree_miglioramento": [
+      "Gestione crediti commerciali (DSO 115gg vs 75gg mediana)",
+      "Ottimizzazione working capital"
+    ]
+  },
+  "action_items": {
+    "urgente": [],
+    "importante": [
+      {
+        "id": "AI001",
+        "area": "Working Capital",
+        "titolo": "Ottimizzazione Ciclo Crediti",
+        "azione": "Implementare sistema di gestione crediti con policy di affidamento, sollecito automatizzato e valutazione anticipo fatture",
+        "razionale": "DSO a 115gg vs benchmark 75gg genera assorbimento cash significativo",
+        "impatto_atteso": "Riduzione DSO da 115 a 90 giorni in 12 mesi",
+        "beneficio_stimato": "Liberazione liquidità €180-200K",
+        "investimento_richiesto": "€10-15K per software + consulenza",
+        "roi_stimato": "12-15x in 12 mesi",
+        "owner_suggerito": "CFO / Amministrazione",
+        "timeline": "Implementazione Q1 2025",
+        "kpi_monitoraggio": [
+          "DSO mensile",
+          "% incassi entro 90gg",
+          "Aging crediti"
+        ]
+      },
+      {
+        "id": "AI002",
+        "area": "Controllo Gestione",
+        "titolo": "Implementazione Sistema Budget e Controllo",
+        "azione": "Strutturare sistema di budget annuale con reporting mensile e KPI operativi per monitorare crescita sostenibile",
+        "razionale": "Crescita +74% richiede controllo strutturato per evitare sovraestensione",
+        "impatto_atteso": "Migliore visibilità su performance e controllo costi",
+        "beneficio_stimato": "Ottimizzazione margini 1-2pp, riduzione rischi operativi",
+        "investimento_richiesto": "€15-20K (software + consulenza setup)",
+        "roi_stimato": "8-10x considerando ottimizzazioni",
+        "owner_suggerito": "Management / CFO",
+        "timeline": "Setup Q1 2025, operativo da Q2",
+        "kpi_monitoraggio": [
+          "Scostamenti budget",
+          "Margini per progetto",
+          "Cash flow mensile"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Crescita",
+        "titolo": "Espansione Geografica Nazionale",
+        "azione": "Valutare apertura sede operativa in Nord Italia per accesso a mercati principali (Milano, Roma)",
+        "razionale": "Settore audiovisivo concentrato in poli urbani principali. Opportunità di crescita significativa.",
+        "impatto_atteso": "Crescita fatturato +30-50% in 2-3 anni",
+        "beneficio_stimato": "Accesso a clienti premium, diversificazione geografica",
+        "investimento_richiesto": "€100-150K (sede + personale + marketing)",
+        "owner_suggerito": "CEO / Sviluppo Business",
+        "timeline": "Studio fattibilità 2025, eventuale apertura 2026",
+        "note": "Valutare partnership locali per ridurre investimento iniziale"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate per impatto su liquidità e sostenibilità crescita. ROI stimati basati su benchmark settoriali e best practice."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B1 - Investment Grade",
+      "colore": "green",
+      "commento": "Rating B1 nella fascia investment grade riflette fondamentali in miglioramento con crescita sostenuta e redditività solida. L'azienda presenta bassa probabilità di default con trend positivo. Il rating è supportato dalla crescita del settore audiovisivo e dall'assenza di eventi negativi.",
+      "outlook": "Stabile",
+      "fattori_supporto": [
+        "Crescita fatturato sostenuta (+74% YoY)",
+        "Redditività operativa solida (ROS 8.1%)",
+        "ROE eccellente (23.5%)",
+        "Assenza eventi negativi",
+        "Settore in ripresa post-pandemia"
+      ],
+      "fattori_rischio": [
+        "DSO elevato (115 giorni)",
+        "Dipendenza da contributi pubblici",
+        "Dimensione contenuta (small enterprise)",
+        "Settore ciclico e competitivo"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Inferiore alla Media (Verde)",
+      "colore": "green",
+      "commento": "Risk Score VERDE indica rischio inferiore alla media del settore. L'azienda non presenta segnali critici di tensione finanziaria. I parametri quantitativi sono in area di sicurezza con trend di miglioramento."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 37.000",
+      "commento": "Il fido operativo di € 37.000 è coerente con la dimensione aziendale e il profilo di rischio. Rappresenta circa il 2.3% del fatturato, appropriato per il rating B1. Possibile incremento graduale seguendo la crescita del business.",
+      "utilizzo_suggerito": "Linea di credito per working capital e gestione stagionalità. Pricing coerente con rating B1 (Euribor + 200-250bp)."
+    },
+    "trend_analysis": "Il rating è stabile su B1 con trend di miglioramento negli ultimi 12 mesi. Il fido operativo è cresciuto del 22% seguendo l'espansione del business. Il risk score mostra miglioramento continuo.",
+    "probability_of_default": {
+      "valore": 1.2,
+      "classe": "Investment Grade - Moderate Risk",
+      "commento": "PD stimata 1.2% su orizzonte 12 mesi, coerente con rating B1. Probabilità contenuta grazie ai fondamentali in miglioramento."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili di valutazione mostrano un'azienda ben posizionata rispetto al settore con performance superiori alla media in 4 profili su 5. Particolarmente forte l'equilibrio economico e patrimoniale. Il profilo di sostenibilità del debito è nella media ma in miglioramento.",
+    "economico": {
+      "giudizio_breve": "Positiva",
+      "colore": "green",
+      "commento": "Score 4/5. Redditività superiore alla media settoriale con ROS 8.1% e ROE 23.5%. L'efficienza operativa è in miglioramento costante. La crescita del fatturato (+74%) è sostenuta da margini solidi.",
+      "driver_principali": [
+        "ROS 8.1% - superiore alla media",
+        "ROE 23.5% - eccellente",
+        "Crescita fatturato +74%"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Positiva",
+      "colore": "green",
+      "commento": "Score 4/5. Struttura patrimoniale equilibrata con capitalizzazione del 32%. Il patrimonio netto è cresciuto grazie all'accumulo di utili. Buon equilibrio tra mezzi propri e di terzi.",
+      "driver_principali": [
+        "Capitalizzazione 32% - equilibrata",
+        "PN in crescita organica",
+        "Autocopertura immobilizzazioni 3.09x"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Positiva",
+      "colore": "green",
+      "commento": "Score 4/5. Posizione finanziaria in miglioramento con liquidità corrente 1.40x. La gestione finanziaria è prudente con oneri contenuti. PFN/EBITDA sotto controllo a 0.99x.",
+      "driver_principali": [
+        "Current Ratio 1.40x - adeguato",
+        "PFN/EBITDA 0.99x - sostenibile",
+        "Oneri finanziari contenuti"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Nella media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Efficienza operativa in linea con il settore. Il DSO elevato (115 giorni) impatta la rotazione del capitale. Margini di miglioramento nella gestione del working capital.",
+      "driver_principali": [
+        "Turnover index 1.09x - adeguato",
+        "DSO 115 giorni - da ottimizzare",
+        "Rotazione magazzino elevata"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Positiva",
+      "colore": "green",
+      "commento": "Score 4/5. Forte crescita del fatturato (+74%) e dell'utile (+116%). L'azienda è in fase espansiva con trend positivo su tutti gli indicatori di sviluppo. Crescita organica sostenibile.",
+      "driver_principali": [
+        "Crescita fatturato +74%",
+        "Crescita utile +116%",
+        "Trend positivo consolidato"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Buona",
+      "colore": "green",
+      "commento": "La redditività è superiore alla media settoriale con ROS 8.1% e ROE eccellente al 23.5%. I margini operativi sono solidi e in miglioramento. La gestione extra-caratteristica ha impatto positivo significativo.",
+      "trend_yoy": "In forte miglioramento",
+      "indicatori": {
+        "ros": {
+          "colore": "green",
+          "commento": "ROS 8.1% superiore alla soglia del 5% e alla media settoriale. Buona efficienza operativa."
+        },
+        "roe": {
+          "colore": "green",
+          "commento": "ROE 23.5% eccellente, ben oltre la soglia del 12%. Ottima remunerazione del capitale proprio."
+        },
+        "roi": {
+          "colore": "green",
+          "commento": "ROI 14.1% superiore alla soglia del 10%. Efficiente utilizzo del capitale investito."
+        },
+        "roa": {
+          "colore": "green",
+          "commento": "ROA 8.9% superiore alla soglia dell'8%. Buona redditività degli asset totali."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "yellow",
+          "commento": "Incidenza gestione extra-caratteristica significativa (84% del risultato) per contributi pubblici. Da monitorare sostenibilità."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Adeguata",
+      "colore": "green",
+      "commento": "La posizione di liquidità è adeguata con current ratio 1.40x e acid test 1.39x. L'azienda può far fronte agli impegni a breve termine. La struttura finanziaria è equilibrata.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "yellow",
+          "commento": "Current Ratio 1.40x sotto la soglia ottimale di 1.5 ma sopra il minimo di 1.0. Liquidità sufficiente."
+        },
+        "acid_test": {
+          "colore": "green",
+          "commento": "Acid Test 1.39x superiore alla soglia di 1.2. Buona liquidità immediata."
+        },
+        "cash_short_term_debt": {
+          "colore": "yellow",
+          "commento": "Rapporto cassa/debiti a breve contenuto. Dipendenza da incassi commerciali per liquidità."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo (1.17x). Immobilizzazioni coperte da fonti durevoli."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Margine di struttura secondario positivo. Equilibrio strutturale confermato."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Copertura immobilizzazioni 1.59x adeguata. Investimenti fissi ben supportati."
+        },
+        "copertura_ccn": {
+          "colore": "yellow",
+          "commento": "Copertura CCN da migliorare. Working capital assorbito principalmente da crediti."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Sotto Controllo",
+      "colore": "green",
+      "commento": "Il livello di indebitamento è sotto controllo con PFN/EBITDA a 0.99x e leverage a 3.17x. La struttura del debito è sostenibile con prevalenza di debiti commerciali su finanziari.",
+      "trend_yoy": "In miglioramento",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "green",
+          "commento": "PFN/EBITDA 0.99x sotto la soglia di 2x. Indebitamento molto sostenibile."
+        },
+        "leverage": {
+          "colore": "green",
+          "commento": "Leverage 3.17x sotto la soglia di 5x. Dipendenza da terzi contenuta."
+        },
+        "capitalizzazione": {
+          "colore": "yellow",
+          "commento": "Capitalizzazione 32% sotto la soglia ottimale del 33% ma vicina. Struttura equilibrata."
+        },
+        "debt_ratio": {
+          "colore": "yellow",
+          "commento": "Debt ratio 1.91x sopra la soglia di 1.5x ma sotto il limite critico. Monitorare evoluzione."
+        },
+        "bank_debt_assets": {
+          "colore": "green",
+          "commento": "Incidenza debito bancario su attivo contenuta (17%). Bassa dipendenza dal sistema bancario."
+        },
+        "bank_debt_ratio": {
+          "colore": "green",
+          "commento": "Rapporto debito bancario equilibrato. Struttura finanziaria diversificata."
+        },
+        "ebitda_net_leverage": {
+          "colore": "green",
+          "commento": "EBITDA net leverage sotto controllo. Capacità di servizio del debito adeguata."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "green",
+          "commento": "EBITDA gross leverage 1.48x molto contenuto. Ampio margine di sicurezza."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "Gli indici di copertura sono eccellenti con EBITDA che copre oltre 49x gli interessi. La capacità di servizio del debito è molto elevata senza criticità.",
+      "trend_yoy": "Stabile/In miglioramento",
+      "indicatori": {
+        "dscr": {
+          "colore": "green",
+          "commento": "DSCR stimato >1.5x eccellente. Ampia capacità di copertura del servizio del debito."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "green",
+          "commento": "Copertura interessi 49x eccezionale. Oneri finanziari marginali rispetto alla generazione operativa."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "green",
+          "commento": "Anche con EBIT la copertura interessi è amplissima (37x)."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "green",
+          "commento": "Copertura interessi netti confermata a livelli eccellenti."
+        },
+        "ebit_interessi_netti": {
+          "colore": "green",
+          "commento": "Tutti gli indicatori di copertura confermano sostenibilità finanziaria."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Da Ottimizzare",
+      "colore": "yellow",
+      "commento": "Il ciclo finanziario presenta criticità con DSO molto elevato a 115 giorni. Il DPO elevato (149 giorni) compensa parzialmente ma la gestione crediti richiede interventi strutturali.",
+      "trend_yoy": "Stabile (DSO elevato persistente)",
+      "indicatori": {
+        "dso": {
+          "colore": "red",
+          "commento": "DSO 115 giorni molto sopra la soglia di 90 giorni. Principale criticità del working capital."
+        },
+        "dpo": {
+          "colore": "green",
+          "commento": "DPO 149 giorni elevato, aiuta il ciclo finanziario. Buona gestione pagamenti fornitori."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO 2 giorni molto contenuto. Attività di servizi con scorte minime."
+        },
+        "ciclo_finanziario": {
+          "colore": "green",
+          "commento": "Ciclo finanziario negativo (-32 giorni) grazie al DPO elevato. Situazione favorevole nonostante DSO alto."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "L'azienda è in fase di forte sviluppo con crescita del fatturato +74% e dell'utile +116%. Tutti gli indicatori di sviluppo sono positivi con trend accelerato.",
+      "trend_yoy": "Forte accelerazione",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "green",
+          "commento": "Crescita valore produzione +44% eccellente, ben sopra la soglia del 5%."
+        },
+        "variazione_ebit": {
+          "colore": "green",
+          "commento": "EBIT in crescita +13% positiva, superiore alla soglia del 5%."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "green",
+          "commento": "Valore aggiunto +6% in crescita, conferma creazione di valore."
+        },
+        "variazione_mol": {
+          "colore": "green",
+          "commento": "MOL +22% in forte crescita, superiore alla soglia del 5%."
+        },
+        "variazione_totale_attivo": {
+          "colore": "green",
+          "commento": "Attivo +71% in forte crescita, coerente con espansione business."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "yellow",
+          "commento": "Debito finanziario -3% in lieve riduzione. Crescita autofinanziata positivamente."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Adeguata",
+      "colore": "green",
+      "commento": "L'efficienza operativa è adeguata con turnover index 1.09x. La rotazione magazzino è elevata per la natura dell'attività. La rotazione crediti è penalizzata dal DSO elevato.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "green",
+          "commento": "Turnover index 1.09x adeguato. Utilizzo efficiente del capitale investito."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione magazzino 161x eccellente. Scorte minime tipiche del settore servizi."
+        },
+        "current_assets_rotation": {
+          "colore": "green",
+          "commento": "Rotazione attivo circolante adeguata per il settore."
+        },
+        "ar_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione crediti 3.14x penalizzata dal DSO elevato. Area di miglioramento principale."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Equilibrata",
+      "colore": "green",
+      "commento": "La struttura finanziaria è equilibrata con composizione del debito sana. Prevalenza di debiti commerciali su finanziari. PFN/PN sotto controllo.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "green",
+          "commento": "PFN netta/PN 37% sotto controllo. Indebitamento sostenibile."
+        },
+        "pfn_pn": {
+          "colore": "green",
+          "commento": "Rapporto PFN/PN equilibrato. Struttura finanziaria sana."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Composizione debito equilibrata tra breve e medio-lungo termine."
+        },
+        "debito_netto_fonti": {
+          "colore": "green",
+          "commento": "Incidenza debito netto sulle fonti contenuta."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "green",
+          "commento": "Debito finanziario lordo/PN 56% sotto controllo."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Contenuto",
+      "colore": "green",
+      "commento": "L'onere finanziario è molto contenuto con ROD 1.37% e burden index 2.04%. Gli interessi assorbono una quota marginale dei flussi operativi.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "rod": {
+          "colore": "green",
+          "commento": "ROD 1.37% contenuto, coerente con tassi di mercato attuali."
+        },
+        "rod_finanziario": {
+          "colore": "green",
+          "commento": "ROD finanziario 1.39% in linea con il costo medio del debito."
+        },
+        "burden_index": {
+          "colore": "green",
+          "commento": "Burden index 2.04% molto contenuto. Oneri finanziari marginali."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "In Crescita",
+      "colore": "green",
+      "commento": "L'attivo è cresciuto del 71% a €1.47M riflettendo l'espansione del business. Buon equilibrio tra immobilizzazioni (27%) e attivo circolante (73%). Composizione coerente con attività di servizi.",
+      "immobilizzazioni": "Immobilizzazioni totali €395K (27% del totale) composte principalmente da immobilizzazioni materiali (€305K) per attrezzature tecniche e sede. Le immobilizzazioni immateriali (€77K) includono software e licenze. Investimenti funzionali all'attività.",
+      "attivo_circolante": "Attivo circolante €1.07M (73%) dominato da crediti commerciali €512K e crediti verso altri €445K. Disponibilità liquide contenute (€87K). Rimanenze minime (€10K) tipiche del settore servizi.",
+      "composizione_attivo": "Composizione 27/73 immobilizzazioni/circolante tipica del settore audiovisivo. L'elevata incidenza dei crediti (65% dell'attivo circolante) riflette il DSO elevato."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Equilibrato",
+      "colore": "green",
+      "commento": "La struttura delle fonti è equilibrata con patrimonio netto €464K (32%) e debiti €886K (60%). Il TFR €43K è contenuto. Composizione sana con prevalenza debiti commerciali.",
+      "patrimonio_netto": "PN €464K cresciuto grazie all'utile 2024 (€109K). Capitale sociale €100K, riserve €247K accumulate negli anni. Politica di autofinanziamento con utili reinvestiti. Solidità patrimoniale in crescita.",
+      "debiti": "Debiti totali €886K composti da: debiti verso fornitori €463K (52%), debiti bancari €250K (28%), debiti tributari/previdenziali €75K (8%). Struttura sana con prevalenza debiti commerciali operativi.",
+      "struttura_fonti": "Mix PN 32% / Debiti 60% / TFR 3% / Fondi 2% equilibrato. Capitalizzazione adeguata per il settore. Fonti durevoli coprono immobilizzazioni."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Eccellente Performance",
+      "colore": "green",
+      "commento": "Conto economico in forte crescita con ricavi €1.61M (+74%) e utile €109K (+116%). Margini operativi solidi con EBITDA 10.9% e ROS 8.1%. Gestione finanziaria equilibrata.",
+      "valore_produzione": "Valore produzione €1.88M di cui ricavi vendite €1.61M (+74%) e altri ricavi €268K (principalmente contributi €249K). Crescita trainata da ripresa settore e nuovi progetti.",
+      "costi_produzione": "Costi produzione €1.75M cresciuti del 44% meno che proporzionalmente ai ricavi. Costi servizi €1.08M (62%), personale €292K (17%), ammortamenti €44K (3%). Leva operativa positiva.",
+      "gestione_finanziaria": "Gestione finanziaria con saldo negativo €4K (oneri €4K vs proventi nulli). Oneri contenuti all'1.2% dei ricavi. Nessuna operazione finanziaria straordinaria.",
+      "risultato_esercizio": "Utile €109K con margine netto 6.8%. Imposte €18K (aliquota effettiva 14%). Risultato in forte crescita (+116%) per effetto leva operativa."
+    },
+    "cash_flow_analysis": {
+      "commento": "Il cash flow operativo è positivo e robusto grazie alla buona redditività. L'assorbimento di working capital per la crescita è compensato dalla generazione operativa.",
+      "operating_cf": "Cash flow operativo stimato €150K positivo, superiore all'utile per effetto ammortamenti. Generazione di cassa operativa solida nonostante crescita crediti.",
+      "investing_cf": "Flusso investimenti contenuto, principalmente per rinnovo attrezzature tecniche. Nessun grande progetto capex in corso.",
+      "financing_cf": "Attività di finanziamento equilibrata con utilizzo linee di credito per supportare crescita working capital. Nessuna distribuzione dividendi."
+    }
+  },
+  "dscr": {
+    "valore": 1.52,
+    "giudizio_breve": "Buono",
+    "colore": "green",
+    "commento": "Il DSCR stimato di 1.52x indica buona capacità di copertura del servizio del debito. L'EBITDA di €175K copre adeguatamente oneri finanziari e quote capitale. Margine di sicurezza del 52% per assorbire variazioni negative.",
+    "componenti": {
+      "ebitda": 174871,
+      "oneri_finanziari": 3560,
+      "quota_capitale_annuale": 55000,
+      "servizio_debito": 58560
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è confermata dal DSCR >1.5x e dalla copertura interessi >40x. L'azienda potrebbe sostenere un moderato incremento dell'indebitamento mantenendo parametri di sicurezza. La crescita del business supporta capacità di rimborso.",
+    "capacita_indebitamento_residua": "Capacità di nuovo debito sostenibile stimata €200-300K mantenendo DSCR >1.3x. Headroom per investimenti o acquisizioni senza stress finanziario.",
+    "stress_test_result": "In scenario stress (EBITDA -30%), il DSCR scenderebbe a 1.06x, rimanendo sopra la soglia critica. Resilienza adeguata a shock negativi moderati."
+  },
+  "red_flags": {
+    "presenti": false,
+    "severity": "NONE",
+    "elenco": [],
+    "dettaglio": {
+      "anomalie_margini": "Nessuna anomalia rilevata. I margini sono in miglioramento coerente con la crescita e le economie di scala. Trend plausibile e verificabile.",
+      "anomalie_magazzino": "Rimanenze contenute (€10K) e stabili. Coerenti con attività di servizi. Nessun segnale di sovrastima o obsolescenza.",
+      "anomalie_crediti": "DSO elevato ma stabile nel tempo. Crescita crediti coerente con crescita fatturato. Nessun segnale di revenue recognition aggressivo.",
+      "tensione_liquidita": "Liquidità adeguata con current ratio 1.40x. Disponibilità liquide €87K sufficienti per operatività corrente. Nessuna tensione immediata.",
+      "eccessivo_indebitamento": "Indebitamento sotto controllo con PFN/EBITDA 0.99x. Leverage 3.17x nella norma per il settore. Nessun segnale di sovra-indebitamento.",
+      "eventi_negativi": "Nessun evento negativo rilevato: zero protesti, zero procedure, zero pregiudizievoli. Track record pulito.",
+      "governance_concerns": "Struttura societaria semplice e trasparente. Management stabile. Nessuna transazione anomala visibile.",
+      "going_concern": "Nessun elemento che faccia dubitare della continuità aziendale. Crescita sostenuta, margini positivi, liquidità adeguata."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Conforme",
+      "colore": "green",
+      "commento": "L'azienda rispetta i requisiti degli adeguati assetti organizzativi previsti dal Codice della Crisi. Gli indicatori di allerta sono sotto controllo con solo un parametro da monitorare."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 0.002,
+        "soglia": 0.025,
+        "alert": false,
+        "commento": "0.2% molto sotto la soglia del 2.5%. Oneri finanziari marginali sui ricavi."
+      },
+      "pn_debiti_totali": {
+        "valore": 52.4,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "52.4% molto sopra la soglia del 5.5%. Capitalizzazione più che adeguata."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 149.2,
+        "soglia": 85,
+        "alert": false,
+        "commento": "149.2% sopra la soglia dell'85%. Liquidità a breve adeguata."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 10.5,
+        "soglia": 1.5,
+        "alert": false,
+        "commento": "10.5% molto sopra la soglia dell'1.5%. Buona generazione di cassa."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 5.1,
+        "soglia": 7,
+        "alert": false,
+        "commento": "5.1% sotto la soglia del 7%. Debiti tributari/previdenziali sotto controllo."
+      }
+    },
+    "continuita_aziendale": "Non si rilevano elementi che possano far dubitare della continuità aziendale. L'azienda è in crescita con margini positivi e liquidità adeguata. Prospettive favorevoli nel settore audiovisivo.",
+    "raccomandazioni_assetti": [
+      "Mantenere monitoraggio trimestrale indicatori CCII",
+      "Documentare adeguati assetti per eventuali verifiche",
+      "Aggiornare test di continuità aziendale periodicamente"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "CONFORME - Tutti gli indicatori di allerta sotto le soglie critiche.",
+    "antiriciclaggio": "Struttura societaria trasparente. Nessuna transazione anomala rilevata. Flussi coerenti con attività operativa.",
+    "privacy_note": "Analisi basata su dati pubblici di bilancio e credit score da provider autorizzati."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Implementare sistema di gestione crediti per ridurre DSO da 115 a 90 giorni",
+      "Strutturare controllo di gestione con budget e reporting mensile",
+      "Valutare anticipo fatture per migliorare liquidità operativa",
+      "Monitorare sostenibilità crescita e margini operativi"
+    ],
+    "medio_termine": [
+      "Diversificare fonti di ricavo riducendo dipendenza da contributi pubblici",
+      "Investire in tecnologie per migliorare efficienza produttiva",
+      "Sviluppare partnership strategiche per espansione geografica",
+      "Implementare sistema ERP per gestione integrata"
+    ],
+    "strategiche": [
+      "Valutare espansione in mercati nazionali (Milano, Roma)",
+      "Sviluppare contenuti proprietari per maggior valore aggiunto",
+      "Considerare acquisizioni di piccoli competitor locali",
+      "Esplorare nuovi segmenti (streaming, digital content)"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "TERRA DE PUNT si posiziona nel quartile superiore del settore produzione audiovisiva per redditività e crescita. La performance è superiore alla media con margini solidi e sviluppo sostenuto. L'unica area sotto la media è la gestione del working capital.",
+    "posizionamento": "Quartile superiore per ROS, ROE, crescita. Media per liquidità e leverage. Quartile inferiore per DSO.",
+    "benchmark_principali": [
+      "ROS 8.1% vs mediana settore 5.2% (+56%)",
+      "ROE 23.5% vs mediana settore 12.8% (+84%)",
+      "Crescita fatturato +74% vs media settore +12%",
+      "DSO 115gg vs mediana settore 75gg (+53% - area miglioramento)"
+    ],
+    "trend_settore": "Il settore audiovisivo è in ripresa post-pandemia con crescita media +8-12% annua. Digitalizzazione e streaming creano nuove opportunità. Competizione in aumento ma domanda strutturale solida."
+  },
+  "metadata": {
+    "generated_at": "2025-12-15T16:00:00Z",
+    "model_version": "claude-sonnet-3.5",
+    "data_source": "TERRA_DE_PUNT.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.91,
+    "analysis_depth": "Comprehensive - Full financial analysis with sector comparison and scenarios",
+    "disclaimers": [
+      "Analisi basata su dati di bilancio pubblici e credit score di terze parti",
+      "Proiezioni e scenari hanno natura indicativa",
+      "Si raccomanda validazione con dati aziendali interni",
+      "L'analisi non sostituisce consulenza professionale specializzata"
+    ]
+  }
+}
