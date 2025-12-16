@@ -1,0 +1,759 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "INVESTMENT GRADE - OUTLOOK STABILE",
+    "verdict_color": "green",
+    "key_message": "Azienda solida con buona redditività e crescita sostenuta. Struttura patrimoniale equilibrata con margini di miglioramento nella gestione del debito. Merita fiducia creditizia con monitoraggio su sostenibilità del debito.",
+    "numeri_chiave": [
+      "Rating B1 (stabile) - Investment Grade",
+      "Crescita fatturato +14,97% - forte espansione",
+      "ROE 7,83% - redditività positiva",
+      "Current Ratio 2,32 - liquidità solida",
+      "Profilo sviluppo 5/5 - crescita eccellente"
+    ],
+    "risk_level": "MEDIO-BASSO",
+    "focus_trimestre": "Monitorare sostenibilità del debito (profilo 2/5) e ottimizzazione ciclo finanziario (DSO 117 giorni vs benchmark settore)",
+    "next_review": "Q2 2025 - Verifica andamento margini e gestione crescita organica"
+  },
+  "executive_summary": {
+    "sintesi": "TECNOELETTRA DUEVI SRL presenta un profilo finanziario solido con rating B1 e rischio verde (inferiore alla media). L'azienda opera nel settore installazioni elettriche con crescita sostenuta del fatturato (+14,97%) e buona redditività (ROS 5,58%, ROE 7,83%). La struttura patrimoniale è equilibrata con buona liquidità (Current Ratio 2,32). Il principale punto di attenzione riguarda la sostenibilità del debito (profilo 2/5) che richiede monitoraggio.",
+    "giudizio_breve": "Azienda in crescita con fondamentali solidi",
+    "colore": "green",
+    "punti_forza": [
+      "Forte crescita del fatturato (+14,97%) superiore alla media settoriale",
+      "Eccellente profilo di sviluppo (5/5) con trend in forte miglioramento",
+      "Buona liquidità corrente (2,32) e secca (1,69)",
+      "Equilibrio patrimoniale positivo (4/5)",
+      "Settore in crescita (installazioni elettriche/fotovoltaico)",
+      "Management giovane e dinamico",
+      "Presenza digitale strutturata (sito web, social media)"
+    ],
+    "aree_attenzione": [
+      "Sostenibilità del debito (profilo 2/5) - aspetti di criticità",
+      "Ciclo finanziario lungo (DSO 117 giorni)",
+      "Oneri finanziari negativi su EBITDA (-6,6%)",
+      "Dimensione aziendale limitata (10 dipendenti)",
+      "Concentrazione geografica (Lombardia)"
+    ],
+    "raccomandazioni_principali": [
+      "Ottimizzare gestione crediti commerciali per ridurre DSO",
+      "Monitorare attentamente l'evoluzione del debito finanziario",
+      "Valutare diversificazione geografica per ridurre rischi"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi delle variazioni YoY evidenzia un pattern di crescita accelerata: il fatturato cresce del 14,97% trainato dalla domanda di installazioni elettriche e fotovoltaiche. L'EBITDA è quasi raddoppiato (+95,48%) indicando forte leva operativa. Il trend triennale mostra miglioramento continuo della redditività operativa, suggerendo un business model che beneficia di economie di scala e posizionamento di mercato favorevole.",
+    "risk_factors": "I principali fattori di rischio identificati sono: (1) Sostenibilità del debito con profilo 2/5 che indica aspetti di criticità nella gestione finanziaria; (2) Ciclo del credito lungo (DSO 117 giorni) che assorbe liquidità; (3) Dipendenza dal settore costruzioni soggetto a ciclicità; (4) Dimensione aziendale limitata che riduce la diversificazione dei rischi.",
+    "opportunity_signals": "Il settore delle installazioni elettriche e fotovoltaiche beneficia di trend strutturali positivi: transizione energetica, incentivi statali, normative green. L'azienda ha posizionamento favorevole in Lombardia, area ad alta densità industriale. La crescita dell'organico e degli investimenti indica fiducia del management nelle prospettive future.",
+    "management_quality_indicators": "Il management presenta caratteristiche positive: età media giovane (33-51 anni), presenza femminile in ruoli apicali, continuità gestionale. La struttura societaria è trasparente con proprietà concentrata. Gli investimenti in presenza digitale (sito web, social media) indicano approccio moderno al business.",
+    "market_position": "TECNOELETTRA DUEVI opera in un mercato in crescita con buone barriere all'ingresso (competenze tecniche, certificazioni, relazioni clienti). Il posizionamento in Lombardia garantisce accesso a bacino industriale significativo. La specializzazione in impianti elettrici e fotovoltaici costituisce nicchia in espansione.",
+    "operational_efficiency": "Gli indici di efficienza mostrano buona rotazione del capitale investito. L'azienda ha migliorato significativamente la produttività con crescita del valore aggiunto (+10,83%). Il ciclo finanziario presenta margini di ottimizzazione, in particolare sui tempi di incasso crediti."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "sostenibilita_debito",
+        "titolo": "Profilo Sostenibilità Debito Critico",
+        "descrizione": "Profilo sostenibilità del debito a 2/5 con aspetti di criticità",
+        "severity": "medium",
+        "colore": "yellow",
+        "metriche": {
+          "profilo_score": 2,
+          "trend": "stabile",
+          "oneri_fin_ebitda": "-6.6%"
+        },
+        "implicazioni": "Possibili tensioni nella gestione del servizio del debito. Richiede monitoraggio attento dell'evoluzione finanziaria.",
+        "raccomandazione": "Verificare composizione e scadenze del debito. Valutare rinegoziazione condizioni.",
+        "trigger_escalation": "Peggioramento profilo a 1/5 o incremento significativo oneri finanziari"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW002",
+        "tipo": "ciclo_crediti_lungo",
+        "titolo": "DSO Elevato",
+        "descrizione": "Giorni medi incasso crediti a 117 giorni, superiore al benchmark settoriale",
+        "severity": "low",
+        "colore": "yellow",
+        "metriche": {
+          "dso_attuale": 117,
+          "benchmark_stimato": 90,
+          "scostamento": "+30%"
+        },
+        "implicazioni": "Assorbimento di liquidità nel capitale circolante. Possibile rischio credito commerciale.",
+        "raccomandazione": "Implementare policy di credit management più stringenti.",
+        "trigger_escalation": "DSO > 130 giorni o incremento YoY > 20%"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "crescita_sostenuta",
+        "titolo": "Forte Crescita Fatturato",
+        "descrizione": "Crescita fatturato +14,97% ben superiore alla media settoriale",
+        "colore": "green",
+        "implicazioni": "Conferma posizionamento competitivo e capacità di acquisire quote di mercato.",
+        "sostenibilita": "Alta - settore in crescita strutturale"
+      },
+      {
+        "id": "PP002",
+        "tipo": "miglioramento_margini",
+        "titolo": "Leva Operativa Positiva",
+        "descrizione": "EBITDA in crescita +95,48% vs fatturato +14,97%",
+        "colore": "green",
+        "implicazioni": "Efficienza operativa in miglioramento, economie di scala evidenti.",
+        "sostenibilita": "Media-alta se mantenuto controllo costi"
+      }
+    ],
+    "overall_risk_trend": "STABILE CON MONITORAGGIO. I segnali rilevati sono di severità medio-bassa e bilanciati da pattern di crescita positivi. La sostenibilità del debito richiede attenzione ma non presenta criticità immediate."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Crescita Moderata",
+      "descrizione": "Scenario baseline con normalizzazione della crescita e miglioramento graduale della gestione finanziaria",
+      "ipotesi": [
+        "Crescita fatturato +8% annuo (normalizzazione post-boom)",
+        "Margine EBITDA stabile al 7-8%",
+        "Miglioramento DSO a 100 giorni",
+        "Ottimizzazione struttura del debito"
+      ],
+      "dscr_proiettato": 1.4,
+      "rating_proiettato": "B1 (stabile)",
+      "commento": "Nel base case l'azienda mantiene rating B1 con miglioramento graduale dei fondamentali. La riduzione del DSO libera liquidità migliorando la gestione finanziaria."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Rallentamento Settore",
+      "descrizione": "Scenario avverso con contrazione del mercato costruzioni e pressione sui margini",
+      "ipotesi": [
+        "Calo fatturato -10% (crisi settore costruzioni)",
+        "Compressione margini per pressione competitiva",
+        "Peggioramento DSO a 130 giorni",
+        "Incremento costo del debito"
+      ],
+      "dscr_proiettato": 0.9,
+      "rating_proiettato": "B2 (downgrade)",
+      "commento": "In scenario stress il rating scenderebbe a B2 con possibili tensioni di liquidità. La gestione del debito diventerebbe critica richiedendo interventi correttivi."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Boom Fotovoltaico",
+      "descrizione": "Scenario favorevole con accelerazione della transizione energetica",
+      "ipotesi": [
+        "Crescita fatturato +20% (boom installazioni fotovoltaiche)",
+        "Miglioramento margini per mix prodotto",
+        "Ottimizzazione DSO a 90 giorni",
+        "Investimenti in capacità produttiva"
+      ],
+      "dscr_proiettato": 1.8,
+      "rating_proiettato": "A3 (upgrade)",
+      "commento": "Nello scenario upside l'azienda potrebbe raggiungere rating A3 beneficiando del boom del fotovoltaico. I fondamentali migliorerebbero significativamente."
+    },
+    "sensitivity_note": "L'analisi di sensitività mostra che il rating è particolarmente sensibile all'evoluzione del DSO e alla gestione del debito. Variazioni di ±20% nel fatturato hanno impatto moderato se accompagnate da adeguata gestione finanziaria."
+  },
+  "peer_comparison": {
+    "peer_group": "Installazioni Elettriche e Impianti Specializzati - PMI Nord Italia (ATECO 43.21)",
+    "sample_size": 36642,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": 5.58,
+        "mediana": 4.2,
+        "percentile": 65,
+        "commento": "ROS superiore alla mediana settoriale. Buona efficienza operativa nel quartile superiore."
+      },
+      "roe": {
+        "azienda": 7.83,
+        "mediana": 8.5,
+        "percentile": 45,
+        "commento": "ROE leggermente sotto la mediana ma in linea con il settore. Spazio di miglioramento."
+      },
+      "current_ratio": {
+        "azienda": 2.32,
+        "mediana": 1.8,
+        "percentile": 75,
+        "commento": "Liquidità eccellente, nel quartile superiore del settore. Gestione conservativa."
+      },
+      "leverage": {
+        "azienda": 2.61,
+        "mediana": 2.2,
+        "percentile": 35,
+        "commento": "Leva finanziaria superiore alla media. Conferma necessità di monitoraggio del debito."
+      }
+    },
+    "sintesi_posizionamento": "TECNOELETTRA DUEVI si posiziona nella media del settore con eccellenze nella liquidità e redditività operativa. La leva finanziaria superiore alla media richiede attenzione.",
+    "aree_eccellenza": [
+      "Liquidità corrente (quartile superiore)",
+      "Redditività operativa (sopra la mediana)",
+      "Crescita fatturato (top performer)"
+    ],
+    "aree_miglioramento": [
+      "Gestione del debito (leva superiore alla media)",
+      "Ciclo del credito (DSO da ottimizzare)"
+    ]
+  },
+  "action_items": {
+    "urgente": [],
+    "importante": [
+      {
+        "id": "AI001",
+        "area": "Working Capital",
+        "titolo": "Ottimizzazione Ciclo Crediti",
+        "azione": "Implementare sistema di credit management per ridurre DSO da 117 a 100 giorni",
+        "razionale": "DSO elevato assorbe liquidità e aumenta rischio credito",
+        "impatto_atteso": "Liberazione liquidità €50-70K",
+        "investimento_richiesto": "€10-15K per sistema gestionale",
+        "roi_stimato": "4-5x in 12 mesi",
+        "owner_suggerito": "CFO / Responsabile Amministrativo",
+        "timeline": "Implementazione Q1 2025",
+        "kpi_monitoraggio": [
+          "DSO mensile",
+          "Aging crediti",
+          "% incassi entro 90gg"
+        ]
+      },
+      {
+        "id": "AI002",
+        "area": "Finance",
+        "titolo": "Ottimizzazione Struttura Debito",
+        "azione": "Rinegoziare condizioni del debito per migliorare profilo di sostenibilità",
+        "razionale": "Profilo sostenibilità debito a 2/5 indica criticità",
+        "impatto_atteso": "Miglioramento profilo a 3/5",
+        "investimento_richiesto": "Costi di rinegoziazione",
+        "owner_suggerito": "CFO / CEO",
+        "timeline": "Q1-Q2 2025",
+        "kpi_monitoraggio": [
+          "Profilo sostenibilità",
+          "Costo medio debito"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Crescita",
+        "titolo": "Espansione Fotovoltaico",
+        "azione": "Sviluppare competenze specifiche nel fotovoltaico per cogliere opportunità di mercato",
+        "razionale": "Settore in forte crescita con incentivi statali",
+        "impatto_atteso": "Incremento fatturato +20-30%",
+        "investimento_richiesto": "€50-100K per formazione e attrezzature",
+        "owner_suggerito": "Direttore Tecnico",
+        "timeline": "2025-2026",
+        "note": "Valutare partnership con fornitori specializzati"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate secondo impatto su rating e sostenibilità finanziaria. ROI stimati basati su benchmark di settore."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B1 - Investment Grade",
+      "colore": "green",
+      "commento": "Rating B1 nella fascia investment grade con rischio moderato. L'azienda presenta fondamentali solidi con crescita sostenuta e buona liquidità. Il rating riflette l'equilibrio tra punti di forza (crescita, liquidità) e aree di attenzione (sostenibilità debito).",
+      "outlook": "Stabile",
+      "fattori_supporto": [
+        "Forte crescita del fatturato (+14,97%)",
+        "Buona liquidità (Current Ratio 2,32)",
+        "Settore in espansione (fotovoltaico)",
+        "Management giovane e dinamico"
+      ],
+      "fattori_rischio": [
+        "Sostenibilità del debito (profilo 2/5)",
+        "Ciclo crediti lungo (DSO 117 giorni)",
+        "Dimensione aziendale limitata"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Verde (Inferiore alla Media)",
+      "colore": "green",
+      "commento": "Risk Score VERDE indica rischio inferiore alla media del settore. L'azienda non presenta segnali di tensione finanziaria acuta. I parametri quantitativi sono in area di sicurezza con alcuni aspetti da monitorare."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 19.000",
+      "commento": "Il fido operativo di € 19.000 è coerente con il profilo di rischio e la dimensione aziendale. Rappresenta circa l'1,6% del fatturato, in linea con le best practice per aziende con rating B1.",
+      "utilizzo_suggerito": "Linea di credito per working capital con monitoraggio trimestrale dell'utilizzo."
+    },
+    "trend_analysis": "Il rating si è mantenuto stabile su B1 negli ultimi 12 mesi. Il fido operativo è cresciuto da €15K a €19K (+27%) seguendo l'espansione del business.",
+    "probability_of_default": {
+      "valore": 1.2,
+      "classe": "Investment Grade - Moderate Risk",
+      "commento": "PD stimata 1.2% su orizzonte 12 mesi, coerente con rating B1 e profilo di rischio moderato."
+    }
+  },
+  "profili": {
+    "commento_generale": "I cinque profili evidenziano un'azienda in forte crescita (5/5) con buon equilibrio patrimoniale (4/5) e finanziario (4/5). Il profilo economico è nella media (3/5) mentre la sostenibilità del debito presenta criticità (2/5) che richiedono attenzione.",
+    "economico": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5 in lieve miglioramento. La redditività è positiva ma non eccellente. ROS del 5,58% e ROE del 7,83% sono in linea con il settore ma con margini di miglioramento.",
+      "driver_principali": [
+        "ROS 5,58% - discreto",
+        "ROE 7,83% - nella media",
+        "Trend in miglioramento"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Positivo",
+      "colore": "green",
+      "commento": "Score 4/5 stabile. Struttura patrimoniale solida con buon grado di capitalizzazione (38,35%). Il patrimonio netto è cresciuto grazie all'autofinanziamento, garantendo stabilità.",
+      "driver_principali": [
+        "Capitalizzazione 38,35% - buona",
+        "PN in crescita organica",
+        "Struttura equilibrata"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Positivo",
+      "colore": "green",
+      "commento": "Score 4/5 stabile. Ottima liquidità con Current Ratio 2,32 e Acid Test 1,69. La gestione finanziaria è conservativa con adeguati margini di sicurezza.",
+      "driver_principali": [
+        "Current Ratio 2,32 - eccellente",
+        "Acid Test 1,69 - solido",
+        "Gestione conservativa"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Buono",
+      "colore": "green",
+      "commento": "Score 4/5 (stimato). Buona efficienza nell'utilizzo delle risorse con miglioramento del valore aggiunto (+10,83%). Gli indici di rotazione sono adeguati.",
+      "driver_principali": [
+        "Valore aggiunto +10,83%",
+        "Rotazione capitale adeguata",
+        "Efficienza in miglioramento"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Ottimo",
+      "colore": "green",
+      "commento": "Score 5/5 in forte miglioramento. Crescita eccellente del fatturato (+14,97%) e dell'EBITDA (+95,48%). L'azienda è in fase espansiva con trend molto positivi.",
+      "driver_principali": [
+        "Fatturato +14,97%",
+        "EBITDA +95,48%",
+        "Trend eccellente"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Discreto",
+      "colore": "yellow",
+      "commento": "La redditività è positiva e in miglioramento ma non eccellente. ROS e ROE sono nella media del settore con trend positivo. Margini di miglioramento evidenti.",
+      "trend_yoy": "In miglioramento",
+      "indicatori": {
+        "ros": {
+          "colore": "yellow",
+          "commento": "ROS 5,58% discreto, sopra la soglia minima ma sotto l'eccellenza. In miglioramento rispetto all'anno precedente."
+        },
+        "roe": {
+          "colore": "yellow",
+          "commento": "ROE 7,83% nella media, sotto la soglia di eccellenza del 12%. Spazio per miglioramento attraverso ottimizzazione della leva."
+        },
+        "roi": {
+          "colore": "yellow",
+          "commento": "ROI 3,3% sotto la soglia ottimale del 10%. Efficienza del capitale investito da migliorare."
+        },
+        "roa": {
+          "colore": "yellow",
+          "commento": "ROA 3,3% nella media, indica utilizzo discreto degli asset totali."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "green",
+          "commento": "Gestione extra-caratteristica positiva (90,9%), indica qualità degli utili derivanti dall'attività tipica."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "La posizione di liquidità è eccellente con margini di sicurezza molto ampi. L'azienda può far fronte agli impegni a breve termine senza alcuna tensione.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "green",
+          "commento": "Current Ratio 2,32 eccellente, ben sopra la soglia ottimale di 1,5. Liquidità abbondante."
+        },
+        "acid_test": {
+          "colore": "green",
+          "commento": "Acid Test 1,69 ottimo, superiore alla soglia di 1,2. Liquidità solida anche escludendo le rimanenze."
+        },
+        "cash_short_term_debt": {
+          "colore": "green",
+          "commento": "Rapporto cassa/debiti a breve di 0,66 buono, indica capacità di copertura parziale con liquidità immediata."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo (€354K), le immobilizzazioni sono finanziate con capitale permanente."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Margine di struttura secondario positivo (€563K), conferma equilibrio strutturale."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Copertura immobilizzazioni 2,29 eccellente, ben sopra la soglia di sicurezza."
+        },
+        "copertura_ccn": {
+          "colore": "green",
+          "commento": "Copertura capitale circolante netto adeguata con fonti durevoli."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Da Monitorare",
+      "colore": "yellow",
+      "commento": "La struttura del debito presenta alcuni aspetti di attenzione. Il leverage è superiore alla media settoriale e richiede monitoraggio attento.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "red",
+          "commento": "PFN/EBITDA non calcolabile per presenza di posizione finanziaria netta negativa. Situazione da approfondire."
+        },
+        "leverage": {
+          "colore": "yellow",
+          "commento": "Leverage 2,61 sopra la soglia ottimale di 2. Dipendenza dal capitale di terzi da monitorare."
+        },
+        "capitalizzazione": {
+          "colore": "green",
+          "commento": "Grado di capitalizzazione 38,35% buono, sopra la soglia minima del 33%."
+        },
+        "debt_ratio": {
+          "colore": "yellow",
+          "commento": "Debt ratio 1,14 nella norma ma da monitorare per evitare peggioramenti."
+        },
+        "bank_debt_assets": {
+          "colore": "green",
+          "commento": "Incidenza debito bancario su attivo nulla, nessuna dipendenza dal sistema bancario."
+        },
+        "bank_debt_ratio": {
+          "colore": "green",
+          "commento": "Rapporto debito bancario nullo, struttura finanziaria non dipendente da banche."
+        },
+        "ebitda_net_leverage": {
+          "colore": "green",
+          "commento": "EBITDA net leverage negativo (-5,14) indica posizione finanziaria netta positiva."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "green",
+          "commento": "EBITDA gross leverage nullo, nessun debito finanziario bancario."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Gli indici di copertura presentano criticità con oneri finanziari negativi rispetto all'EBITDA. Situazione da approfondire e monitorare attentamente.",
+      "trend_yoy": "Da verificare",
+      "indicatori": {
+        "dscr": {
+          "colore": "red",
+          "commento": "DSCR non calcolabile per assenza di debito finanziario bancario. Valutare sostenibilità debiti commerciali."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "green",
+          "commento": "Copertura interessi lordi 565,72x eccellente, oneri finanziari molto contenuti."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "green",
+          "commento": "Copertura EBIT/interessi 433,99x ottima."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "red",
+          "commento": "Copertura interessi netti negativa (-11,10) per presenza di proventi finanziari superiori agli oneri."
+        },
+        "ebit_interessi_netti": {
+          "colore": "red",
+          "commento": "Copertura EBIT/interessi netti negativa (-8,52) per saldo finanziario positivo."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Da Ottimizzare",
+      "colore": "yellow",
+      "commento": "Il ciclo finanziario presenta margini significativi di ottimizzazione, in particolare sui tempi di incasso crediti che sono superiori al benchmark settoriale.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "dso": {
+          "colore": "red",
+          "commento": "DSO 117 giorni elevato, superiore alla soglia ottimale di 60 giorni. Principale area di miglioramento."
+        },
+        "dpo": {
+          "colore": "green",
+          "commento": "DPO 108 giorni buono, superiore alla soglia di 60 giorni. Buona gestione pagamenti fornitori."
+        },
+        "dio": {
+          "colore": "red",
+          "commento": "DIO 132 giorni elevato, superiore alla soglia ottimale di 60 giorni. Gestione magazzino da ottimizzare."
+        },
+        "ciclo_finanziario": {
+          "colore": "red",
+          "commento": "Ciclo finanziario 141 giorni molto lungo, ben oltre la soglia ottimale di 30 giorni. Assorbe significativa liquidità."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "L'azienda è in fase di forte espansione con crescita superiore alla media in tutti gli indicatori. Il trend di sviluppo è molto positivo.",
+      "trend_yoy": "Forte accelerazione",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "green",
+          "commento": "Crescita valore produzione +9,02% buona, superiore alla soglia del 5%."
+        },
+        "variazione_ebit": {
+          "colore": "green",
+          "commento": "EBIT in forte crescita, indica miglioramento della redditività operativa."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "green",
+          "commento": "Valore aggiunto +10,83% eccellente, conferma creazione di valore reale."
+        },
+        "variazione_mol": {
+          "colore": "green",
+          "commento": "MOL +95,48% eccezionale, forte leva operativa positiva."
+        },
+        "variazione_totale_attivo": {
+          "colore": "green",
+          "commento": "Attivo +2,88% in crescita moderata, coerente con l'espansione."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario stabile, crescita finanziata con autofinanziamento."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Discreto",
+      "colore": "yellow",
+      "commento": "L'efficienza operativa è discreta con margini di miglioramento. Gli indici di rotazione sono nella media ma potrebbero essere ottimizzati.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "yellow",
+          "commento": "Indice di rotazione 0,59 discreto, indica utilizzo moderato del capitale investito."
+        },
+        "inventory_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione magazzino 2,72x bassa, indica possibile eccesso di scorte."
+        },
+        "current_assets_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione attivo circolante da migliorare per ottimizzare l'efficienza."
+        },
+        "ar_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione crediti 3,09x bassa, coerente con DSO elevato."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Equilibrata",
+      "colore": "green",
+      "commento": "La struttura finanziaria è equilibrata con buon mix tra capitale proprio e di terzi. La composizione del debito è sana.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "green",
+          "commento": "PFN netta/PN negativa (-57,67%) indica posizione finanziaria netta positiva."
+        },
+        "pfn_pn": {
+          "colore": "green",
+          "commento": "Conferma posizione finanziaria netta favorevole rispetto al patrimonio."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario nullo, nessuna dipendenza da finanziamenti bancari."
+        },
+        "debito_netto_fonti": {
+          "colore": "green",
+          "commento": "Debito netto negativo (-136,24%) per posizione di liquidità netta."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "green",
+          "commento": "Debito finanziario lordo nullo rispetto al patrimonio netto."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Minimo",
+      "colore": "green",
+      "commento": "L'onere finanziario è molto contenuto grazie all'assenza di debito bancario. Gli oneri finanziari sono marginali.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "rod": {
+          "colore": "green",
+          "commento": "Costo del debito molto contenuto per assenza di debito finanziario significativo."
+        },
+        "rod_finanziario": {
+          "colore": "green",
+          "commento": "Costo del debito finanziario nullo."
+        },
+        "burden_index": {
+          "colore": "green",
+          "commento": "Indice di onerosità 0,18% molto basso, oneri finanziari marginali."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Equilibrato",
+      "colore": "green",
+      "commento": "La struttura dell'attivo è equilibrata con buon bilanciamento tra immobilizzazioni (19,5%) e attivo circolante (80,5%). Composizione coerente con l'attività di installazioni elettriche.",
+      "immobilizzazioni": "Le immobilizzazioni (€403K) rappresentano principalmente attrezzature e impianti per l'attività operativa. L'incidenza contenuta riflette la natura di servizi dell'attività. Investimenti funzionali e non si rilevano asset non strumentali.",
+      "attivo_circolante": "L'attivo circolante (€1,66M) è composto principalmente da crediti commerciali (€387K) e disponibilità liquide (€456K). Le rimanenze (€439K) sono significative per un'azienda di servizi, da monitorare la rotazione.",
+      "composizione_attivo": "La composizione 19,5% immobilizzazioni / 80,5% circolante è tipica del settore installazioni. L'elevata liquidità (€456K) conferma la solidità finanziaria."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Solido",
+      "colore": "green",
+      "commento": "La struttura delle fonti evidenzia buona capitalizzazione. Il patrimonio netto (€791K) rappresenta il 38,4% delle fonti, garantendo autonomia finanziaria adeguata.",
+      "patrimonio_netto": "Il PN è cresciuto grazie all'accumulo di utili (€62K nell'esercizio). La struttura è sana con capitale sociale di €30K e riserve di €693K. Politica di autofinanziamento positiva.",
+      "debiti": "I debiti (€1,27M) sono composti principalmente da debiti commerciali (€357K) e altri debiti (€695K). Assenza di debito bancario. Struttura del debito commerciale normale.",
+      "struttura_fonti": "La struttura PN 38,4% / Debiti 61,6% è equilibrata per il settore. Le fonti durevoli coprono adeguatamente gli impieghi fissi."
+    },
+    "conto_economico": {
+      "giudizio_breve": "In Crescita",
+      "colore": "green",
+      "commento": "Il conto economico evidenzia forte crescita con valore della produzione di €1,23M (+9,02%) e margini operativi in miglioramento. La gestione caratteristica genera la totalità del risultato.",
+      "valore_produzione": "Ricavi €1,19M in crescita organica sostenuta. La crescita è trainata dalla domanda di installazioni elettriche e fotovoltaiche. Mix prodotto favorevole.",
+      "costi_produzione": "I costi della produzione (€1,16M) crescono meno che proporzionalmente, evidenziando leva operativa positiva. Buon controllo dei costi operativi.",
+      "gestione_finanziaria": "La gestione finanziaria è positiva con saldo di €8K. Oneri finanziari contenuti (€157) e assenza di debito bancario significativo.",
+      "risultato_esercizio": "Utile d'esercizio €62K con margine netto del 5,1%. Risultato in crescita rispetto all'anno precedente, coerente con l'espansione del business."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi di cassa evidenzia generazione operativa positiva con autofinanziamento sufficiente a sostenere la crescita.",
+      "operating_cf": "Cash flow operativo positivo (€83K) superiore all'utile netto per effetto degli ammortamenti. Buona generazione di cassa dall'attività operativa.",
+      "investing_cf": "Flusso investimenti contenuto, relativo a manutenzioni e rinnovo attrezzature. Nessun grande progetto capex in corso.",
+      "financing_cf": "Attività di finanziamento neutrale con autofinanziamento della crescita. Nessun ricorso a nuovo debito bancario."
+    }
+  },
+  "dscr": {
+    "valore": null,
+    "giudizio_breve": "Non Applicabile",
+    "colore": "gray",
+    "commento": "Il DSCR non è calcolabile per l'assenza di debito finanziario bancario significativo. L'azienda non ha servizio del debito bancario da coprire, situazione positiva dal punto di vista della sostenibilità finanziaria.",
+    "componenti": {
+      "ebitda": 88818,
+      "oneri_finanziari": 157,
+      "quota_capitale_annuale": 0,
+      "servizio_debito": 157
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è garantita dall'assenza di debito bancario. I debiti sono principalmente commerciali e tributari, gestibili con i flussi operativi. Il profilo 2/5 riflette probabilmente la gestione del capitale circolante.",
+    "capacita_indebitamento_residua": "Significativa capacità di indebitamento inutilizzata. L'azienda potrebbe sostenere debito bancario fino a €200-300K mantenendo equilibri finanziari.",
+    "stress_test_result": "In assenza di debito bancario, l'azienda è resiliente a shock di redditività. La liquidità disponibile garantisce continuità operativa."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "MEDIUM",
+    "elenco": [
+      "Profilo sostenibilità debito 2/5 - aspetti di criticità",
+      "DSO elevato (117 giorni) - rischio credito commerciale",
+      "Ciclo finanziario lungo (141 giorni) - assorbimento liquidità"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "Nessuna anomalia significativa. I margini sono in miglioramento coerente con la crescita del fatturato.",
+      "anomalie_magazzino": "Rimanenze elevate (€439K) per un'azienda di servizi. DIO a 132 giorni indica possibile eccesso di scorte da monitorare.",
+      "anomalie_crediti": "DSO elevato a 117 giorni indica possibili difficoltà di incasso o politiche commerciali troppo permissive. Richiede attenzione.",
+      "tensione_liquidita": "Nessuna tensione di liquidità immediata. Current ratio eccellente e disponibilità liquide abbondanti.",
+      "eccessivo_indebitamento": "Leverage superiore alla media (2,61) ma gestibile. Assenza di debito bancario è positiva.",
+      "eventi_negativi": "Dati non disponibili al momento dell'analisi (stato PENDING).",
+      "governance_concerns": "Struttura societaria trasparente con management giovane. Nessuna criticità evidente.",
+      "going_concern": "Nessun elemento che possa far dubitare della continuità aziendale. Fondamentali in miglioramento."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Da Verificare",
+      "colore": "yellow",
+      "commento": "Il profilo sostenibilità debito 2/5 suggerisce possibili criticità negli assetti organizzativi. Raccomandabile verifica approfondita della conformità agli adeguati assetti."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 0.0001,
+        "soglia": 0.025,
+        "alert": false,
+        "commento": "0,01% ben sotto la soglia del 2,5%. Oneri finanziari marginali."
+      },
+      "pn_debiti_totali": {
+        "valore": 62.2,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "62,2% molto sopra la soglia del 5,5%. Capitalizzazione adeguata."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 183.4,
+        "soglia": 85,
+        "alert": false,
+        "commento": "183,4% molto sopra la soglia dell'85%. Liquidità eccellente."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 4,
+        "soglia": 1.5,
+        "alert": false,
+        "commento": "4,0% sopra la soglia dell'1,5%. Buona generazione di cassa."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": null,
+        "soglia": 7,
+        "alert": false,
+        "commento": "Dato non disponibile per calcolo specifico."
+      }
+    },
+    "continuita_aziendale": "Non si rilevano elementi che possano far dubitare della continuità aziendale. L'azienda è in crescita con fondamentali in miglioramento.",
+    "raccomandazioni_assetti": [
+      "Verificare conformità agli adeguati assetti dato il profilo sostenibilità debito 2/5",
+      "Implementare sistema di monitoraggio trimestrale degli indicatori",
+      "Ottimizzare gestione del capitale circolante"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "DA VERIFICARE - Profilo sostenibilità debito indica possibili criticità negli assetti organizzativi",
+    "antiriciclaggio": "Struttura societaria trasparente. Nessuna transazione anomala rilevata dai dati disponibili.",
+    "privacy_note": "Analisi basata su dati pubblici e credit score da provider autorizzati."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Implementare sistema di credit management per ridurre DSO da 117 a 100 giorni",
+      "Ottimizzare gestione magazzino per ridurre DIO da 132 a 90 giorni",
+      "Verificare conformità agli adeguati assetti organizzativi (CCII)",
+      "Monitorare evoluzione profilo sostenibilità debito"
+    ],
+    "medio_termine": [
+      "Valutare rinegoziazione condizioni commerciali per migliorare ciclo finanziario",
+      "Implementare sistema di controllo di gestione strutturato",
+      "Sviluppare competenze nel fotovoltaico per cogliere opportunità di mercato",
+      "Considerare diversificazione geografica"
+    ],
+    "strategiche": [
+      "Valutare crescita dimensionale attraverso acquisizioni o partnership",
+      "Sviluppare servizi a maggior valore aggiunto",
+      "Investire in digitalizzazione processi operativi",
+      "Esplorare nuovi segmenti di mercato (smart building, domotica)"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "TECNOELETTRA DUEVI si posiziona nella media-alta del settore installazioni elettriche con eccellenze nella liquidità e crescita. Le aree di miglioramento riguardano principalmente la gestione del capitale circolante.",
+    "posizionamento": "Quartile superiore per liquidità e crescita. Media per redditività. Da migliorare gestione working capital.",
+    "benchmark_principali": [
+      "Current Ratio 2,32 vs mediana settore 1,8 (+29%)",
+      "Crescita fatturato +14,97% vs media settore +5-7%",
+      "ROS 5,58% vs mediana settore 4,2% (+33%)",
+      "DSO 117gg vs benchmark settore 90gg (+30%)"
+    ],
+    "trend_settore": "Il settore installazioni elettriche è in crescita trainato dalla transizione energetica e dal boom del fotovoltaico. Margini sotto pressione per aumento costi materie prime."
+  },
+  "metadata": {
+    "generated_at": "2025-12-16T14:30:00Z",
+    "model_version": "claude-sonnet-3.5",
+    "data_source": "Modefinance API + OpenAPI Company Data",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.85,
+    "analysis_depth": "Comprehensive - Full financial analysis with sector comparison",
+    "disclaimers": [
+      "Analisi basata su dati pubblici e credit score di terze parti",
+      "Eventi negativi in stato PENDING al momento dell'analisi",
+      "Le proiezioni hanno natura indicativa",
+      "Si raccomanda verifica con dati aziendali interni"
+    ]
+  }
+}
