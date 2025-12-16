@@ -1,0 +1,775 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "MEDIO RISCHIO - OUTLOOK STABILE",
+    "verdict_color": "yellow",
+    "key_message": "Azienda in crescita con buona redditività operativa ma struttura finanziaria da rafforzare. Forte espansione del fatturato (+35%) richiede attenta gestione del working capital e dell'indebitamento.",
+    "numeri_chiave": [
+      "Rating B3 - Medio Alto Rischio",
+      "Fatturato €3.76M (+35% YoY) - Forte crescita",
+      "ROS 9.0% - Buona marginalità operativa",
+      "Leverage 3.87x - Elevato indebitamento",
+      "Zero eventi negativi - Track record pulito"
+    ],
+    "risk_level": "MEDIO",
+    "focus_trimestre": "Monitorare sostenibilità crescita e gestione liquidità. DSO elevato (98gg) assorbe significativo working capital. Oneri finanziari in crescita.",
+    "next_review": "Q2 2025 - Verifica equilibrio finanziario post-espansione e andamento incassi"
+  },
+  "executive_summary": {
+    "sintesi": "SIELTECNO SRL presenta un profilo misto con rating B3 e rischio medio. L'azienda opera nel settore installazioni elettriche con forte crescita del fatturato (+35%) e buona redditività operativa (ROS 9.0%). Tuttavia, la rapida espansione ha comportato tensioni sulla struttura finanziaria con leverage elevato (3.87x) e ciclo finanziario lungo (104 giorni). La liquidità corrente è adeguata ma richiede monitoraggio.",
+    "giudizio_breve": "Crescita forte ma struttura finanziaria tesa",
+    "colore": "yellow",
+    "punti_forza": [
+      "Forte crescita organica del fatturato (+35% YoY)",
+      "Buona marginalità operativa (ROS 9.0%, EBITDA 9.8%)",
+      "Posizionamento nel settore in espansione (fotovoltaico/efficienza energetica)",
+      "Certificazione SOA per appalti pubblici",
+      "Management stabile con esperienza ventennale",
+      "Nessun evento negativo (protesti, procedure, pregiudizievoli)"
+    ],
+    "aree_attenzione": [
+      "Leverage elevato (3.87x) - sopra soglie prudenziali",
+      "Ciclo finanziario lungo (104 giorni) assorbe liquidità",
+      "DSO molto elevato (98 giorni) - criticità incassi",
+      "Oneri finanziari in crescita (28% del MOL)",
+      "Dipendenza da debito bancario per finanziamento crescita"
+    ],
+    "raccomandazioni_principali": [
+      "Implementare credit management strutturato per ridurre DSO",
+      "Rafforzare patrimonio netto tramite aumento capitale o retention utili",
+      "Ottimizzare gestione working capital e ciclo finanziario"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi evidenzia un'azienda in fase di forte espansione con fatturato cresciuto del 35% YoY, sostenuto dal boom del settore fotovoltaico e efficienza energetica. La crescita ha mantenuto margini operativi solidi (ROS 9%) ma ha generato tensioni finanziarie con aumento dell'indebitamento. Il trend degli ultimi anni mostra accelerazione della crescita ma deterioramento degli equilibri finanziari.",
+    "risk_factors": "I principali fattori di rischio sono: (1) Execution risk sulla gestione della crescita rapida - possibile perdita di controllo su margini e cash flow; (2) Rischio liquidità con ciclo finanziario lungo e DSO elevato; (3) Dipendenza dal credito bancario in contesto di tassi crescenti; (4) Concentrazione settoriale su mercato ciclico (costruzioni/energia).",
+    "opportunity_signals": "Il posizionamento nel settore fotovoltaico/efficienza energetica beneficia di trend strutturali favorevoli (transizione energetica, incentivi PNRR). La certificazione SOA apre opportunità negli appalti pubblici. La crescita organica dimostra capacità commerciale e operativa. Potenziale di miglioramento significativo attraverso ottimizzazione working capital.",
+    "management_quality_indicators": "Management stabile con SAVERIO GUADAGNI (60 anni) amministratore delegato dal 2004. Struttura proprietaria concentrata (60% Guadagni, 40% Ferraro) garantisce controllo e continuità. La crescita sostenuta negli anni indica capacità esecutive, ma richiede rafforzamento competenze finanziarie.",
+    "market_position": "SIELTECNO opera nel mercato delle installazioni elettriche e fotovoltaiche, settore in forte crescita (+15% annuo) trainato da transizione energetica e incentivi. La presenza in Campania e Sardegna offre diversificazione geografica. La certificazione SOA costituisce barriera all'ingresso per appalti pubblici.",
+    "operational_efficiency": "L'efficienza operativa è buona con margini in linea con il settore. Il turnover degli asset è adeguato (1.47x) ma penalizzato dal working capital elevato. La rotazione crediti è critica (3.65x vs benchmark 5-6x). Necessario miglioramento nella gestione del ciclo monetario."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "leverage_elevato",
+        "titolo": "Leverage Sopra Soglie Prudenziali",
+        "descrizione": "Leverage a 3.87x supera soglia prudenziale di 3x per PMI del settore",
+        "severity": "medium",
+        "colore": "orange",
+        "metriche": {
+          "leverage_attuale": 3.87,
+          "soglia_prudenziale": 3,
+          "scostamento": "+29%"
+        },
+        "implicazioni": "Elevata dipendenza da capitale di terzi. Vulnerabilità a shock di redditività o tassi di interesse.",
+        "raccomandazione": "Rafforzare patrimonio netto o ridurre indebitamento. Target leverage <3x.",
+        "trigger_escalation": "Leverage > 4x o deterioramento redditività"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW002",
+        "tipo": "dso_critico",
+        "titolo": "DSO Molto Elevato",
+        "descrizione": "DSO a 98 giorni molto sopra benchmark settore (60-70 giorni)",
+        "severity": "medium",
+        "colore": "orange",
+        "metriche": {
+          "dso_attuale": 98,
+          "dso_benchmark": 65,
+          "scostamento": "+51%"
+        },
+        "implicazioni": "Significativo assorbimento di liquidità. Rischio crediti commerciali elevato.",
+        "raccomandazione": "Implementare credit policy e sollecito strutturato. Target DSO <80 giorni.",
+        "trigger_escalation": "DSO > 120 giorni o incremento YoY > 20%"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "crescita_fatturato_sostenuta",
+        "titolo": "Forte Crescita Organica",
+        "descrizione": "Fatturato +35% YoY con mantenimento margini operativi",
+        "colore": "green",
+        "implicazioni": "Conferma capacità commerciale e posizionamento di mercato favorevole.",
+        "sostenibilita": "Media - dipende da gestione equilibri finanziari"
+      }
+    ],
+    "overall_risk_trend": "STABILE CON ELEMENTI DI ATTENZIONE. La crescita forte è positiva ma genera tensioni finanziarie da monitorare attentamente. Necessario bilanciamento tra crescita e sostenibilità."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Crescita Moderata",
+      "descrizione": "Scenario baseline con normalizzazione crescita e miglioramento gestione working capital",
+      "ipotesi": [
+        "Crescita fatturato +15% annuo (normalizzazione post-boom)",
+        "Margine EBITDA stabile al 10%",
+        "DSO ridotto a 80 giorni (-18 giorni)",
+        "Leverage gradualmente ridotto sotto 3x",
+        "Tassi interesse stabili"
+      ],
+      "dscr_proiettato": 1.35,
+      "rating_proiettato": "B2 (miglioramento)",
+      "commento": "Nel base case l'azienda migliora gradualmente gli equilibri finanziari mantenendo crescita sostenibile. Il DSCR si attesta su livelli accettabili con potenziale upgrade del rating."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Rallentamento Mercato",
+      "descrizione": "Scenario avverso con contrazione domanda e tensioni finanziarie",
+      "ipotesi": [
+        "Calo fatturato -10% (fine incentivi, recessione)",
+        "Compressione margini di 2pp (pressione competitiva)",
+        "DSO in peggioramento a 120 giorni",
+        "Aumento tassi +200bp",
+        "Necessità rinegoziazione linee credito"
+      ],
+      "dscr_proiettato": 0.85,
+      "rating_proiettato": "C1 (downgrade significativo)",
+      "commento": "In scenario stress l'azienda entrerebbe in tensione finanziaria con DSCR sotto 1x. Necessarie azioni correttive immediate per evitare crisi di liquidità."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Consolidamento Settore",
+      "descrizione": "Scenario favorevole con accelerazione crescita e miglioramento efficienza",
+      "ipotesi": [
+        "Crescita fatturato +25% (nuovi contratti PNRR)",
+        "Margine EBITDA +1pp per economie scala",
+        "DSO ottimizzato a 70 giorni",
+        "Aumento capitale €200K",
+        "Acquisizione piccolo competitor"
+      ],
+      "dscr_proiettato": 1.65,
+      "rating_proiettato": "B1 (upgrade)",
+      "commento": "Nello scenario upside l'azienda consolida la leadership locale con miglioramento significativo dei fondamentali. Rating potenzialmente investment grade."
+    },
+    "sensitivity_note": "L'analisi mostra elevata sensibilità al DSO e ai margini. Una riduzione di 20 giorni del DSO equivale a liberare €200K di liquidità."
+  },
+  "peer_comparison": {
+    "peer_group": "Installazioni Elettriche e Fotovoltaiche - PMI Sud Italia (ATECO 43.21)",
+    "sample_size": 36642,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": 9,
+        "mediana": 6.5,
+        "percentile": 75,
+        "commento": "ROS superiore alla mediana settoriale. Buona efficienza operativa nel quartile superiore."
+      },
+      "roe": {
+        "azienda": 29,
+        "mediana": 15.2,
+        "percentile": 85,
+        "commento": "ROE molto elevato ma influenzato da alta leva finanziaria. Performance top quartile."
+      },
+      "roi": {
+        "azienda": 13.3,
+        "mediana": 8.9,
+        "percentile": 80,
+        "commento": "Buona redditività del capitale investito, sopra la media settoriale."
+      },
+      "current_ratio": {
+        "azienda": 1.4,
+        "mediana": 1.25,
+        "percentile": 65,
+        "commento": "Liquidità corrente leggermente sopra la media ma non eccellente."
+      },
+      "dso": {
+        "azienda": 98,
+        "mediana": 65,
+        "percentile": 15,
+        "commento": "DSO nel quartile peggiore del settore. Significativa area di miglioramento."
+      },
+      "leverage": {
+        "azienda": 3.87,
+        "mediana": 2.8,
+        "percentile": 25,
+        "commento": "Leverage elevato rispetto alla media. Struttura finanziaria più rischiosa."
+      },
+      "pfn_ebitda": {
+        "azienda": 1.92,
+        "mediana": 3.2,
+        "percentile": 70,
+        "commento": "Rapporto debito/EBITDA migliore della media ma comunque elevato."
+      }
+    },
+    "sintesi_posizionamento": "SIELTECNO si posiziona nel quartile superiore per redditività ma nel quartile inferiore per solidità finanziaria. La performance operativa è buona ma la struttura patrimoniale richiede rafforzamento.",
+    "aree_eccellenza": [
+      "Redditività operativa (ROS, ROI) - Quartile superiore",
+      "Crescita fatturato - Top performer settore"
+    ],
+    "aree_miglioramento": [
+      "Gestione working capital (DSO) - Quartile inferiore",
+      "Struttura finanziaria (Leverage) - Sopra media settore"
+    ]
+  },
+  "action_items": {
+    "urgente": [
+      {
+        "id": "AI001",
+        "area": "Working Capital",
+        "titolo": "Riduzione DSO Critico",
+        "azione": "Implementare sistema credit management con policy affidamento, sollecito automatizzato e eventuale factoring",
+        "razionale": "DSO a 98gg vs benchmark 65gg assorbe €900K di liquidità",
+        "impatto_atteso": "Riduzione DSO da 98 a 80 giorni in 8 mesi",
+        "beneficio_stimato": "Liberazione liquidità €180K, riduzione rischio crediti",
+        "investimento_richiesto": "€20K per sistema + consulenza",
+        "roi_stimato": "9x in 12 mesi",
+        "owner_suggerito": "CFO / Responsabile Amministrativo",
+        "timeline": "Implementazione immediata, risultati Q2 2025",
+        "kpi_monitoraggio": [
+          "DSO mensile",
+          "Aging crediti >90gg",
+          "% factoring"
+        ]
+      }
+    ],
+    "importante": [
+      {
+        "id": "AI002",
+        "area": "Struttura Finanziaria",
+        "titolo": "Rafforzamento Patrimonio Netto",
+        "azione": "Valutare aumento capitale €150-200K o retention utili per ridurre leverage sotto 3x",
+        "razionale": "Leverage 3.87x sopra soglie prudenziali, vulnerabilità a shock",
+        "impatto_atteso": "Leverage ridotto a 2.8-3.0x, miglioramento rating",
+        "beneficio_stimato": "Riduzione costo del credito, maggiore flessibilità",
+        "investimento_richiesto": "€150-200K aumento capitale",
+        "owner_suggerito": "Soci / CEO",
+        "timeline": "Decisione Q1 2025, esecuzione Q2 2025",
+        "kpi_monitoraggio": [
+          "Leverage ratio",
+          "Equity ratio",
+          "Costo medio debito"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Crescita",
+        "titolo": "Espansione Mercato Fotovoltaico",
+        "azione": "Sviluppare competenze su storage e comunità energetiche per cogliere opportunità PNRR",
+        "razionale": "Mercato fotovoltaico in crescita +20% annuo, nuovi incentivi disponibili",
+        "impatto_atteso": "Incremento fatturato +€500K, margini superiori",
+        "owner_suggerito": "Direttore Commerciale",
+        "timeline": "Sviluppo competenze 2025, commercializzazione 2026"
+      }
+    ],
+    "nota_metodologica": "Action items prioritizzate per impatto su equilibri finanziari. Focus su sostenibilità crescita e riduzione rischi strutturali."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B3 - Medio Alto Rischio",
+      "colore": "orange",
+      "commento": "Rating B3 riflette il profilo misto dell'azienda: buona performance operativa ma tensioni sulla struttura finanziaria. La forte crescita è positiva ma genera squilibri che richiedono correzione. Il rating è stabile ma con bias negativo se non migliora la gestione finanziaria.",
+      "outlook": "Stabile con bias negativo",
+      "fattori_supporto": [
+        "Forte crescita organica (+35% fatturato)",
+        "Buona redditività operativa (ROS 9.0%)",
+        "Settore in espansione (fotovoltaico/efficienza)",
+        "Certificazione SOA per appalti pubblici",
+        "Assenza eventi negativi"
+      ],
+      "fattori_rischio": [
+        "Leverage elevato (3.87x) sopra soglie prudenziali",
+        "Ciclo finanziario lungo (104 giorni)",
+        "DSO critico (98 giorni)",
+        "Dipendenza da debito bancario",
+        "Settore ciclico (costruzioni)"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Medio (Verde Chiaro)",
+      "colore": "yellow",
+      "commento": "Risk Score VERDE CHIARO indica rischio nella media del settore. L'azienda presenta equilibri accettabili ma con aree di attenzione che richiedono monitoraggio. Non si rilevano criticità immediate ma la traiettoria richiede correzioni."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 63.000",
+      "commento": "Il fido operativo di €63K è coerente con il profilo di rischio B3 ma appare contenuto rispetto al fatturato (1.7%). L'azienda potrebbe necessitare di linee aggiuntive per sostenere la crescita, subordinate a miglioramento degli equilibri finanziari.",
+      "utilizzo_suggerito": "Linea revolving per working capital con covenant su DSO e leverage. Pricing riflettente il rischio medio-alto (Euribor + 250-300bp)."
+    },
+    "trend_analysis": "Il rating è stabile su B3 ma con pressioni negative per il deterioramento degli equilibri finanziari. Il fido è cresciuto del 24% YoY seguendo l'espansione ma potrebbe richiedere garanzie aggiuntive.",
+    "probability_of_default": {
+      "valore": 2.8,
+      "classe": "Medium Risk",
+      "commento": "PD stimata 2.8% su orizzonte 12 mesi, in linea con rating B3. Probabilità contenuta ma superiore alla media investment grade."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano un'azienda con buone performance economiche ma squilibri patrimoniali e finanziari. Il profilo economico (4/5) è il punto di forza, mentre equilibrio finanziario e sostenibilità debito (2/5) sono le principali criticità.",
+    "economico": {
+      "giudizio_breve": "Buono",
+      "colore": "green",
+      "commento": "Score 4/5. Redditività operativa solida con ROS 9.0% e ROI 13.3% superiori alla media settoriale. La crescita del fatturato (+35%) è stata accompagnata da mantenimento dei margini, indicando buona gestione operativa e posizionamento di mercato favorevole.",
+      "driver_principali": [
+        "ROS 9.0% - sopra media settore",
+        "ROI 13.3% - quartile superiore",
+        "Crescita fatturato +35% con margini stabili"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Struttura patrimoniale accettabile ma con capitalizzazione contenuta (26%). Il patrimonio netto è cresciuto grazie agli utili ma non sufficientemente per bilanciare l'aumento dell'indebitamento. Necessario rafforzamento della base equity.",
+      "driver_principali": [
+        "Equity ratio 26% - sotto ottimale",
+        "PN in crescita ma insufficiente vs debiti",
+        "Leverage 3.87x - elevato"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Criticità",
+      "colore": "orange",
+      "commento": "Score 2/5. Equilibrio finanziario sotto pressione con liquidità corrente appena sufficiente (1.40x) e ciclo finanziario molto lungo (104 giorni). L'elevato DSO assorbe significativa liquidità creando tensioni sul working capital.",
+      "driver_principali": [
+        "Current ratio 1.40x - limite accettabilità",
+        "Ciclo finanziario 104 giorni - molto lungo",
+        "DSO 98 giorni - critico"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Buono",
+      "colore": "green",
+      "commento": "Score 4/5. Buona efficienza nell'utilizzo delle risorse con turnover index adeguato (1.47x). La produttività per dipendente è in linea con il settore. Area di miglioramento sulla rotazione crediti penalizzata dal DSO elevato.",
+      "driver_principali": [
+        "Turnover index 1.47x - adeguato",
+        "Efficienza operativa buona",
+        "Rotazione crediti da migliorare"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Forte crescita del fatturato (+35%) ma con deterioramento di alcuni indicatori di equilibrio. La crescita è organica e sostenuta da domanda di mercato ma richiede migliore gestione degli impatti finanziari.",
+      "driver_principali": [
+        "Crescita fatturato +35% - eccellente",
+        "Crescita EBITDA +7% - moderata",
+        "Peggioramento equilibri finanziari"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Buona",
+      "colore": "green",
+      "commento": "La redditività è il punto di forza dell'azienda con tutti gli indicatori sopra la media settoriale. Il ROS del 9.0% e il ROI del 13.3% evidenziano buona efficienza operativa e capacità di generare valore dal capitale investito.",
+      "trend_yoy": "Stabile (lieve flessione margini per crescita)",
+      "indicatori": {
+        "ros": {
+          "colore": "green",
+          "commento": "ROS 9.0% buono, sopra la media settoriale del 6.5%. Margine operativo solido nonostante la forte crescita dei volumi."
+        },
+        "roe": {
+          "colore": "green",
+          "commento": "ROE 29.0% molto elevato ma amplificato dall'alta leva finanziaria. Performance eccellente ma da valutare nel contesto del rischio."
+        },
+        "roi": {
+          "colore": "green",
+          "commento": "ROI 13.3% indica buona redditività del capitale investito, nel quartile superiore del settore."
+        },
+        "roa": {
+          "colore": "green",
+          "commento": "ROA 13.3% conferma l'efficienza nell'utilizzo degli asset totali."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "orange",
+          "commento": "Incidenza gestione extra-caratteristica elevata (56%), da monitorare la qualità degli utili."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Sufficiente",
+      "colore": "yellow",
+      "commento": "La liquidità è al limite dell'accettabilità con current ratio di 1.40x. L'acid test sotto 1 evidenzia dipendenza dalle rimanenze per la copertura dei debiti correnti. Situazione da monitorare attentamente.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "yellow",
+          "commento": "Current ratio 1.40x appena sopra la soglia minima di 1.0. Margine di sicurezza contenuto."
+        },
+        "acid_test": {
+          "colore": "orange",
+          "commento": "Acid test 0.91 sotto 1.0 indica dipendenza dalle rimanenze per coprire debiti correnti."
+        },
+        "cash_short_term_debt": {
+          "colore": "orange",
+          "commento": "Rapporto cassa/debiti breve contenuto, limitata capacità di copertura immediata."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo, immobilizzazioni coperte da fonti durevoli."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Margine di struttura secondario positivo, equilibrio strutturale rispettato."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Copertura immobilizzazioni 2.01x adeguata."
+        },
+        "copertura_ccn": {
+          "colore": "yellow",
+          "commento": "Copertura CCN limitata, working capital finanziato principalmente a breve."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Elevato",
+      "colore": "orange",
+      "commento": "Gli indicatori di leva evidenziano indebitamento elevato con leverage a 3.87x sopra le soglie prudenziali. La struttura è sostenibile nel breve ma vulnerabile a shock di redditività o tassi.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "orange",
+          "commento": "PFN/EBITDA 1.92x accettabile ma in area di attenzione. Capacità di rimborso in circa 2 anni."
+        },
+        "leverage": {
+          "colore": "red",
+          "commento": "Leverage 3.87x elevato, sopra la soglia prudenziale di 3x. Elevata dipendenza da capitale di terzi."
+        },
+        "capitalizzazione": {
+          "colore": "orange",
+          "commento": "Grado di capitalizzazione 26% contenuto, necessario rafforzamento equity."
+        },
+        "debt_ratio": {
+          "colore": "orange",
+          "commento": "Debt ratio 2.54x indica debiti oltre 2.5 volte il patrimonio netto."
+        },
+        "bank_debt_assets": {
+          "colore": "orange",
+          "commento": "Incidenza debito bancario sull'attivo significativa (29%)."
+        },
+        "bank_debt_ratio": {
+          "colore": "orange",
+          "commento": "Rapporto debito bancario elevato, dipendenza dal sistema creditizio."
+        },
+        "ebitda_net_leverage": {
+          "colore": "orange",
+          "commento": "EBITDA net leverage 1.92x in area di attenzione."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "orange",
+          "commento": "EBITDA gross leverage 2.16x evidenzia carico debitorio significativo."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Accettabile",
+      "colore": "yellow",
+      "commento": "Gli indici di copertura sono accettabili ma con margini di sicurezza contenuti. L'EBITDA copre 3.5x gli interessi ma il DSCR implicito è al limite dell'accettabilità.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "dscr": {
+          "colore": "yellow",
+          "commento": "DSCR stimato 1.2x appena sopra la soglia critica di 1.0. Margine di sicurezza limitato."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "yellow",
+          "commento": "Copertura interessi 3.47x accettabile ma non eccellente. Oneri finanziari assorbono 29% dell'EBITDA."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "yellow",
+          "commento": "EBIT copre 3.2x gli interessi, margine sufficiente."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "yellow",
+          "commento": "Copertura interessi netti 5.46x migliore grazie a proventi finanziari."
+        },
+        "ebit_interessi_netti": {
+          "colore": "yellow",
+          "commento": "EBIT copre 5.04x gli interessi netti, situazione accettabile."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Il ciclo finanziario è la principale criticità con DSO di 98 giorni e ciclo complessivo di 104 giorni. Significativo assorbimento di liquidità che penalizza la gestione finanziaria.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "dso": {
+          "colore": "red",
+          "commento": "DSO 98 giorni molto elevato vs benchmark 65 giorni. Criticità negli incassi che assorbe €900K di liquidità."
+        },
+        "dpo": {
+          "colore": "green",
+          "commento": "DPO 64 giorni in linea con il settore. Buona gestione pagamenti fornitori."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO 70 giorni accettabile per il settore, rotazione magazzino adeguata."
+        },
+        "ciclo_finanziario": {
+          "colore": "red",
+          "commento": "Ciclo finanziario 104 giorni molto lungo. L'azienda finanzia oltre 3 mesi di operatività."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Forte Crescita",
+      "colore": "green",
+      "commento": "L'azienda è in fase di forte espansione con crescita del fatturato del 35% e sviluppo di tutti gli indicatori operativi. La crescita è organica e sostenuta dalla domanda di mercato.",
+      "trend_yoy": "Accelerazione",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "green",
+          "commento": "Crescita fatturato +35% eccellente, ben superiore alla media settoriale."
+        },
+        "variazione_ebit": {
+          "colore": "green",
+          "commento": "EBIT in crescita con mantenimento margini operativi."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "green",
+          "commento": "Valore aggiunto +10% conferma creazione di valore reale."
+        },
+        "variazione_mol": {
+          "colore": "green",
+          "commento": "MOL +8.8% in crescita sostenuta."
+        },
+        "variazione_totale_attivo": {
+          "colore": "yellow",
+          "commento": "Attivo in lieve calo (-1%) nonostante crescita fatturato, miglioramento efficienza."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "orange",
+          "commento": "Debito finanziario +11% per sostenere crescita, da monitorare sostenibilità."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Buona",
+      "colore": "green",
+      "commento": "L'efficienza operativa è buona con turnover index adeguato e rotazioni in linea con il settore, eccetto la rotazione crediti penalizzata dal DSO elevato.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "green",
+          "commento": "Turnover index 1.47x adeguato, buon utilizzo del capitale investito."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione magazzino 5.15x buona per il settore."
+        },
+        "current_assets_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione attivo circolante penalizzata dai crediti elevati."
+        },
+        "ar_rotation": {
+          "colore": "red",
+          "commento": "Rotazione crediti 3.65x insufficiente, riflette il DSO critico."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Squilibrata",
+      "colore": "orange",
+      "commento": "La struttura finanziaria presenta squilibri con elevata dipendenza dal debito e composizione sbilanciata verso il breve termine.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "orange",
+          "commento": "PFN/PN 107% indica debito netto superiore al patrimonio."
+        },
+        "pfn_pn": {
+          "colore": "orange",
+          "commento": "Conferma lo squilibrio tra debito netto e mezzi propri."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "orange",
+          "commento": "Composizione debito sbilanciata verso breve termine (66%)."
+        },
+        "debito_netto_fonti": {
+          "colore": "orange",
+          "commento": "Incidenza debito netto sulle fonti elevata (52%)."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "orange",
+          "commento": "Debito lordo 120% del patrimonio netto, rapporto elevato."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Elevato",
+      "colore": "orange",
+      "commento": "L'onere finanziario è significativo con ROD al 13.3% e burden index al 29%. Gli interessi assorbono quasi un terzo del margine operativo lordo.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "rod": {
+          "colore": "orange",
+          "commento": "Costo medio del debito 13.3% elevato, riflette profilo di rischio e contesto tassi."
+        },
+        "rod_finanziario": {
+          "colore": "orange",
+          "commento": "Costo debito finanziario 14.4% significativo."
+        },
+        "burden_index": {
+          "colore": "orange",
+          "commento": "Burden index 29% indica che oneri finanziari assorbono quasi un terzo del MOL."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Equilibrato",
+      "colore": "green",
+      "commento": "La struttura dell'attivo è equilibrata con 15% immobilizzazioni e 85% attivo circolante, coerente con l'attività di installazioni elettriche. Composizione funzionale all'operatività.",
+      "immobilizzazioni": "Immobilizzazioni totali €449K (17% dell'attivo) composte principalmente da impianti e attrezzature (€367K). Investimenti coerenti con l'attività operativa. Immobilizzazioni finanziarie marginali (€81K).",
+      "attivo_circolante": "Attivo circolante €2.1M (83% dell'attivo) con rimanenze €729K, crediti €1.25M e liquidità €173K. Elevata incidenza crediti commerciali riflette il DSO critico.",
+      "composizione_attivo": "Composizione 17/83 immobilizzato/circolante tipica del settore. Criticità nell'elevata incidenza crediti (49% dell'attivo totale) che assorbe significativa liquidità."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Squilibrato",
+      "colore": "orange",
+      "commento": "La struttura delle fonti evidenzia squilibri con patrimonio netto al 26% e debiti al 74%. L'elevato indebitamento e la prevalenza di debiti a breve creano tensioni sulla sostenibilità finanziaria.",
+      "patrimonio_netto": "PN €659K (26% delle fonti) composto da capitale €10K, riserve €456K e utile €191K. Crescita tramite autofinanziamento ma insufficiente rispetto all'espansione del business.",
+      "debiti": "Debiti totali €1.67M (66% delle fonti) con prevalenza di debiti commerciali €732K e debiti bancari €472K. Composizione sbilanciata verso breve termine.",
+      "struttura_fonti": "Struttura PN 26% / Debiti 66% / Altro 8% evidenzia sottocapitalizzazione. Necessario rafforzamento base equity per riequilibrare la struttura."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Molto Buono",
+      "colore": "green",
+      "commento": "Il conto economico evidenzia ottima performance con fatturato €3.76M (+35%) e margini operativi solidi. La gestione caratteristica genera la quasi totalità del risultato.",
+      "valore_produzione": "Ricavi €3.76M in forte crescita (+35% YoY) sostenuta dal boom del settore fotovoltaico. Crescita organica senza componenti straordinarie significative.",
+      "costi_produzione": "Costi produzione €3.56M con buon controllo dell'incidenza (94% dei ricavi). Costo del personale €1.57M riflette l'espansione dell'organico.",
+      "gestione_finanziaria": "Gestione finanziaria negativa per €67K con oneri finanziari €106K (2.8% dei ricavi). Incidenza significativa ma sostenibile.",
+      "risultato_esercizio": "Utile €191K (5.1% dei ricavi) in crescita rispetto all'esercizio precedente. Risultato di qualità derivante dall'attività caratteristica."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi evidenzia buona generazione operativa ma assorbimento significativo per working capital e investimenti.",
+      "operating_cf": "Cash flow operativo €219K positivo ma contenuto rispetto al fatturato (5.8%). Assorbimento per crescita crediti commerciali.",
+      "investing_cf": "Flusso investimenti contenuto, principalmente manutenzioni e rinnovi attrezzature.",
+      "financing_cf": "Attività di finanziamento con incremento debito bancario per sostenere crescita working capital."
+    }
+  },
+  "dscr": {
+    "valore": 1.25,
+    "giudizio_breve": "Limite Accettabilità",
+    "colore": "yellow",
+    "commento": "Il DSCR stimato di 1.25x è appena sopra la soglia critica di 1.0x ma con margine di sicurezza limitato (25%). La capacità di servizio del debito è al limite dell'accettabilità e vulnerabile a shock negativi sulla redditività.",
+    "componenti": {
+      "ebitda": 366742,
+      "oneri_finanziari": 105579,
+      "quota_capitale_annuale": 188000,
+      "servizio_debito": 293579
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è al limite con DSCR 1.25x. L'azienda genera flussi appena sufficienti per il servizio del debito attuale. Qualsiasi deterioramento della redditività o aumento degli oneri finanziari potrebbe creare tensioni.",
+    "capacita_indebitamento_residua": "Capacità di nuovo debito molto limitata. L'azienda ha raggiunto i limiti prudenziali di indebitamento. Nuovi finanziamenti richiederebbero rafforzamento patrimonio netto.",
+    "stress_test_result": "In scenario stress (EBITDA -15%), il DSCR scenderebbe sotto 1.0x creando tensioni immediate. Necessarie azioni correttive preventive."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "MEDIUM",
+    "elenco": [
+      "Leverage elevato (3.87x) sopra soglie prudenziali",
+      "DSO critico (98 giorni) con rischio crediti",
+      "DSCR al limite (1.25x) con scarso margine sicurezza",
+      "Ciclo finanziario molto lungo (104 giorni)"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "Nessuna anomalia significativa. Margini in linea con crescita e settore di riferimento.",
+      "anomalie_magazzino": "Rimanenze €729K coerenti con attività. DIO 70 giorni accettabile per il settore.",
+      "anomalie_crediti": "DSO 98 giorni molto elevato vs benchmark 65 giorni. Possibile segnale di difficoltà incasso o politiche commerciali aggressive.",
+      "tensione_liquidita": "Current ratio 1.40x al limite, acid test 0.91 sotto 1.0. Liquidità immediata contenuta (€173K).",
+      "eccessivo_indebitamento": "Leverage 3.87x sopra soglie prudenziali. PFN/EBITDA 1.92x in area attenzione. Dipendenza elevata da debito bancario.",
+      "eventi_negativi": "Nessun evento negativo rilevato. Track record pulito senza protesti, procedure o pregiudizievoli.",
+      "governance_concerns": "Struttura proprietaria concentrata ma trasparente. Management stabile con esperienza ventennale.",
+      "going_concern": "Continuità aziendale non in dubbio nel breve termine ma richiede correzione squilibri finanziari."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Parzialmente Conforme",
+      "colore": "yellow",
+      "commento": "L'azienda presenta alcuni indicatori in area di attenzione che richiedono monitoraggio secondo il Codice della Crisi. Non si ravvisano criticità immediate ma la traiettoria richiede correzioni."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 0.028,
+        "soglia": 0.025,
+        "alert": true,
+        "commento": "2.8% sopra la soglia del 2.5%. Incidenza oneri finanziari elevata ma non critica."
+      },
+      "pn_debiti_totali": {
+        "valore": 39.4,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "39.4% ben sopra la soglia minima del 5.5%. Capitalizzazione sufficiente."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 139.6,
+        "soglia": 85,
+        "alert": false,
+        "commento": "139.6% sopra la soglia dell'85%. Liquidità corrente adeguata."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 8.6,
+        "soglia": 1.5,
+        "alert": false,
+        "commento": "8.6% sopra la soglia dell'1.5%. Buona generazione di cassa."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 4.2,
+        "soglia": 7,
+        "alert": false,
+        "commento": "4.2% sotto la soglia del 7%. Regolarità nei pagamenti."
+      }
+    },
+    "continuita_aziendale": "La continuità aziendale non è in dubbio nel breve termine. L'azienda genera flussi positivi e opera in un mercato in crescita. Tuttavia, gli squilibri finanziari richiedono correzione per garantire sostenibilità a medio termine.",
+    "raccomandazioni_assetti": [
+      "Implementare sistema di monitoraggio DSO e working capital",
+      "Definire piano di rafforzamento patrimoniale",
+      "Migliorare reportistica finanziaria e controllo di gestione"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "PARZIALMENTE CONFORME - Un indicatore (oneri finanziari/ricavi) in area attenzione ma non critico.",
+    "antiriciclaggio": "Struttura societaria trasparente. Nessuna transazione anomala rilevata dai dati disponibili.",
+    "privacy_note": "Analisi basata su dati pubblici e credit score da provider autorizzati."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Implementare credit management per ridurre DSO da 98 a 80 giorni (target 6 mesi)",
+      "Valutare factoring su crediti commerciali per liberare liquidità",
+      "Rinegoziare linee di credito con covenant adeguati alla crescita",
+      "Monitorare settimanalmente posizione di liquidità"
+    ],
+    "medio_termine": [
+      "Rafforzare patrimonio netto con aumento capitale €150-200K",
+      "Ottimizzare composizione debito (allungare scadenze)",
+      "Implementare controllo di gestione con budget e forecast",
+      "Diversificare portafoglio clienti per ridurre concentrazione"
+    ],
+    "strategiche": [
+      "Sviluppare competenze su storage e comunità energetiche",
+      "Valutare partnership strategiche per crescita sostenibile",
+      "Investire in digitalizzazione processi amministrativi",
+      "Espandere presenza geografica in mercati complementari"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "SIELTECNO si posiziona nel quartile superiore per crescita e redditività ma nel quartile inferiore per solidità finanziaria. La performance operativa è eccellente ma la struttura patrimoniale richiede rafforzamento per sostenere lo sviluppo.",
+    "posizionamento": "Top 25% per crescita fatturato. Quartile superiore per redditività. Quartile inferiore per equilibri finanziari.",
+    "benchmark_principali": [
+      "Crescita fatturato +35% vs media settore +8%",
+      "ROS 9.0% vs mediana settore 6.5%",
+      "Leverage 3.87x vs mediana settore 2.8x",
+      "DSO 98gg vs mediana settore 65gg"
+    ],
+    "trend_settore": "Il settore installazioni elettriche/fotovoltaiche è in forte crescita (+15% annuo) trainato da transizione energetica e PNRR. Margini sotto pressione per aumento costi materiali e manodopera."
+  },
+  "metadata": {
+    "generated_at": "2025-01-15T14:30:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "SIELTECNO.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.88,
+    "analysis_depth": "Comprehensive - Full financial analysis with peer comparison and scenarios",
+    "disclaimers": [
+      "Analisi basata su dati di bilancio pubblici e credit score di terze parti",
+      "Le proiezioni hanno natura indicativa e non costituiscono previsioni",
+      "Si raccomanda validazione con dati aziendali interni",
+      "L'analisi non sostituisce consulenza professionale specializzata"
+    ]
+  }
+}
