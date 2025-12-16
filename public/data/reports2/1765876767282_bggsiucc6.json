@@ -1,0 +1,834 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "HIGH RISK - OUTLOOK NEGATIVO",
+    "verdict_color": "red",
+    "key_message": "Azienda giovane (costituita 2023) in forte difficoltà finanziaria. Perdita d'esercizio significativa, autofinanziamento negativo, liquidità critica. Rating C1 riflette alto rischio di default.",
+    "numeri_chiave": [
+      "Rating C1 - Alto Rischio",
+      "Perdita €2.350 su fatturato €249K",
+      "Autofinanziamento negativo -€1.527",
+      "Current Ratio 1,00 - liquidità al limite",
+      "Debiti/EBITDA 36,3x - insostenibile"
+    ],
+    "risk_level": "ALTO",
+    "focus_trimestre": "Urgente ristrutturazione finanziaria e operativa. Necessario piano di rilancio con supporto soci per evitare crisi di liquidità",
+    "next_review": "Q1 2025 - Verifica immediata sostenibilità e implementazione piano di turnaround"
+  },
+  "executive_summary": {
+    "sintesi": "VICTORIA LANGUAGES AND CULTURES SRL presenta un profilo ad alto rischio con rating C1 e significative criticità operative e finanziarie. L'azienda, costituita nel 2023 nel settore dell'istruzione, ha chiuso il primo esercizio completo con perdita di €2.350 su ricavi di €249K. L'autofinanziamento negativo (-€1.527) e la liquidità al limite (Current Ratio 1,00) evidenziano tensioni strutturali che richiedono interventi immediati.",
+    "giudizio_breve": "Alto rischio - Criticità strutturali",
+    "colore": "red",
+    "punti_forza": [
+      "Settore dell'istruzione con potenziale di crescita",
+      "Presenza digitale strutturata (sito web, social media)",
+      "Assenza di eventi negativi (protesti, procedure)",
+      "Liquidità ancora presente (€560K)",
+      "Management femminile con esperienza"
+    ],
+    "aree_attenzione": [
+      "Perdita d'esercizio significativa (-€2.350)",
+      "Margini operativi insufficienti (ROS 3,2%)",
+      "Autofinanziamento negativo compromette sostenibilità",
+      "Rapporto debiti/EBITDA critico (36,3x)",
+      "Liquidità al limite della sostenibilità",
+      "Modello di business da rivedere"
+    ],
+    "raccomandazioni_principali": [
+      "Piano di ristrutturazione operativa immediato",
+      "Revisione pricing e mix servizi per migliorare margini",
+      "Controllo rigoroso dei costi operativi",
+      "Valutare ricapitalizzazione da parte dei soci"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'azienda è in fase di start-up avendo iniziato l'attività nel 2023. Il primo bilancio completo evidenzia difficoltà nell'raggiungere la sostenibilità operativa. I ricavi di €249K sono insufficienti a coprire i costi operativi, generando una perdita che erode il capitale sociale. Il trend del risk score (da Verde Chiaro a Giallo) riflette il deterioramento della situazione finanziaria man mano che emergevano i dati di bilancio.",
+    "risk_factors": "I principali fattori di rischio sono: (1) Modello di business non ancora sostenibile con margini insufficienti; (2) Liquidità in rapido consumo senza generazione di cassa positiva; (3) Dipendenza critica dai soci per eventuali ricapitalizzazioni; (4) Mercato dell'istruzione privata competitivo con barriere all'ingresso basse; (5) Dimensione micro che limita economie di scala e potere contrattuale.",
+    "opportunity_signals": "Nonostante le criticità, esistono segnali di opportunità: (1) Settore istruzione in crescita post-COVID con domanda di formazione linguistica; (2) Presenza digitale ben strutturata che può supportare modelli di business scalabili; (3) Management con competenze specifiche nel settore; (4) Possibilità di pivot verso servizi online ad alta marginalità; (5) Potenziale di partnership con enti formativi o aziende per corsi corporate.",
+    "management_quality_indicators": "Il management è composto da due socie paritarie con esperienza nel settore. La governance semplificata può favorire decisioni rapide necessarie in fase di turnaround. Tuttavia, la perdita del primo esercizio solleva interrogativi sulla capacità di execution del business plan iniziale. La presenza di entrambe le socie nel CdA garantisce commitment ma potrebbe limitare l'apporto di competenze esterne.",
+    "market_position": "L'azienda opera nel segmento dell'istruzione linguistica, mercato frammentato con numerosi operatori locali. La posizione competitiva è ancora da definire data la giovane età. La presenza online (sito, social) indica un approccio moderno ma i risultati economici suggeriscono difficoltà nel monetizzare efficacemente la proposta di valore.",
+    "operational_efficiency": "L'efficienza operativa è compromessa da costi fissi elevati rispetto ai ricavi. L'incidenza dei costi per servizi (73% dei ricavi) suggerisce un modello operativo da ottimizzare. Il costo del personale (11% dei ricavi) è contenuto ma potrebbe riflettere sottodimensionamento dell'organico. Necessaria revisione completa della struttura dei costi."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "perdita_esercizio",
+        "titolo": "Perdita Significativa Primo Esercizio",
+        "descrizione": "Perdita di €2.350 su fatturato €249K (-0,9% margin)",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "perdita": -2350,
+          "fatturato": 249146,
+          "margin_netto": "-0.94%"
+        },
+        "implicazioni": "Erosione del capitale sociale. Sostenibilità compromessa se il trend continua.",
+        "raccomandazione": "Piano di turnaround immediato con focus su margini e controllo costi.",
+        "trigger_escalation": "Perdita cumulata > 50% capitale sociale"
+      },
+      {
+        "id": "EW002",
+        "tipo": "autofinanziamento_negativo",
+        "titolo": "Cash Flow Operativo Negativo",
+        "descrizione": "Autofinanziamento negativo -€1.527",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "cash_flow": -1527,
+          "ebitda": 9063
+        },
+        "implicazioni": "L'azienda consuma liquidità invece di generarla. Insostenibile nel medio termine.",
+        "raccomandazione": "Revisione immediata del working capital e dei tempi di incasso/pagamento.",
+        "trigger_escalation": "Cash flow negativo per 2 trimestri consecutivi"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW003",
+        "tipo": "liquidita_critica",
+        "titolo": "Liquidità al Limite",
+        "descrizione": "Current Ratio 1,00 - liquidità appena sufficiente",
+        "severity": "medium",
+        "colore": "yellow",
+        "metriche": {
+          "current_ratio": 1.005,
+          "liquidita": 560190,
+          "debiti_breve": 326381
+        },
+        "implicazioni": "Margine di sicurezza minimo per far fronte agli impegni correnti.",
+        "raccomandazione": "Monitoraggio settimanale della posizione di cassa.",
+        "trigger_escalation": "Current Ratio < 0,9"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "assenza_eventi_negativi",
+        "titolo": "Nessun Evento Negativo",
+        "descrizione": "Assenza di protesti, procedure concorsuali o pregiudizievoli",
+        "colore": "green",
+        "implicazioni": "Regolarità nei pagamenti nonostante le difficoltà operative.",
+        "sostenibilita": "Media - dipende dal miglioramento della generazione di cassa"
+      }
+    ],
+    "overall_risk_trend": "DETERIORAMENTO RAPIDO. I segnali di early warning sono prevalentemente negativi con criticità strutturali che richiedono interventi immediati. Senza azioni correttive, il rischio di crisi di liquidità è elevato nei prossimi 6-12 mesi."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Stabilizzazione",
+      "descrizione": "Scenario che assume implementazione parziale di misure correttive",
+      "ipotesi": [
+        "Crescita fatturato +20% (€300K) tramite nuovi servizi",
+        "Riduzione costi operativi del 10%",
+        "Miglioramento margine EBITDA al 8%",
+        "Controllo working capital",
+        "Nessuna ricapitalizzazione"
+      ],
+      "dscr_proiettato": null,
+      "rating_proiettato": "C1 (watch negativo)",
+      "commento": "Nel base case l'azienda raggiunge il pareggio operativo ma rimane fragile. La liquidità si stabilizza ma senza margini di sicurezza. Rating invariato con outlook negativo per la persistente fragilità strutturale."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Crisi di Liquidità",
+      "descrizione": "Scenario avverso senza interventi correttivi efficaci",
+      "ipotesi": [
+        "Stagnazione fatturato (€250K)",
+        "Costi fissi invariati",
+        "Perdita operativa persistente",
+        "Consumo liquidità €50K/trimestre",
+        "Nessun supporto soci"
+      ],
+      "dscr_proiettato": null,
+      "rating_proiettato": "C3 (default risk)",
+      "commento": "Nello scenario stress l'azienda esaurisce la liquidità in 8-10 trimestri. Rating downgrade a C3 con alto rischio di cessazione attività. Scenario probabile senza interventi immediati."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Turnaround Riuscito",
+      "descrizione": "Scenario ottimistico con ristrutturazione efficace e crescita",
+      "ipotesi": [
+        "Crescita fatturato +50% (€375K) via servizi premium",
+        "Margine EBITDA al 15% tramite efficientamento",
+        "Ricapitalizzazione €20K dai soci",
+        "Sviluppo canali digitali scalabili",
+        "Partnership strategiche"
+      ],
+      "dscr_proiettato": null,
+      "rating_proiettato": "B3 (miglioramento)",
+      "commento": "Nell'upside case l'azienda raggiunge sostenibilità e inizia a generare utili. Rating upgrade a B3 con outlook positivo. Scenario possibile ma richiede execution perfetta del piano di turnaround."
+    },
+    "sensitivity_note": "La sostenibilità dell'azienda è estremamente sensibile alle variazioni di fatturato e margini. Una riduzione del 10% dei ricavi o un aumento del 5% dei costi fissi comprometterebbe ulteriormente la posizione finanziaria."
+  },
+  "peer_comparison": {
+    "peer_group": "Istruzione e Formazione Linguistica - PMI Italia (ATECO 85.69.09)",
+    "sample_size": 7188,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": 3.24,
+        "mediana": 8.5,
+        "percentile": 25,
+        "commento": "ROS significativamente sotto la mediana settoriale. Margini operativi insufficienti per la sostenibilità."
+      },
+      "roe": {
+        "azienda": -30.72,
+        "mediana": 12,
+        "percentile": 5,
+        "commento": "ROE fortemente negativo vs mediana positiva. Distruzione di valore per gli azionisti."
+      },
+      "roi": {
+        "azienda": 1.23,
+        "mediana": 9.8,
+        "percentile": 15,
+        "commento": "ROI molto basso, indica scarsa efficienza nell'utilizzo del capitale investito."
+      },
+      "current_ratio": {
+        "azienda": 1.005,
+        "mediana": 1.35,
+        "percentile": 20,
+        "commento": "Liquidità al limite vs settore che mantiene margini di sicurezza più ampi."
+      },
+      "dso": {
+        "azienda": null,
+        "mediana": 45,
+        "percentile": null,
+        "commento": "DSO non calcolabile per natura del business (servizi formativi con pagamenti anticipati)."
+      },
+      "leverage": {
+        "azienda": 87.48,
+        "mediana": 2.1,
+        "percentile": 5,
+        "commento": "Leverage estremo dovuto al patrimonio netto ridotto. Struttura finanziaria molto rischiosa."
+      },
+      "pfn_ebitda": {
+        "azienda": 36.26,
+        "mediana": 2.1,
+        "percentile": 5,
+        "commento": "Rapporto debiti/EBITDA insostenibile, oltre 17x la mediana settoriale."
+      }
+    },
+    "sintesi_posizionamento": "VICTORIA LANGUAGES si colloca nel quartile inferiore (Q1) per tutti gli indicatori chiave. La performance è significativamente sotto gli standard settoriali, evidenziando criticità strutturali che richiedono interventi immediati per evitare l'uscita dal mercato.",
+    "aree_eccellenza": [
+      "Nessuna area di eccellenza identificata rispetto ai peer"
+    ],
+    "aree_miglioramento": [
+      "Marginalità operativa (ROS) - Critica vs settore",
+      "Efficienza del capitale (ROE, ROI) - Molto sotto standard",
+      "Struttura finanziaria (Leverage) - Insostenibile",
+      "Liquidità (Current Ratio) - Al limite della sicurezza"
+    ]
+  },
+  "action_items": {
+    "urgente": [
+      {
+        "id": "AI001",
+        "area": "Liquidità",
+        "titolo": "Monitoraggio Cash Flow Settimanale",
+        "azione": "Implementare controllo settimanale della posizione di cassa con proiezioni a 13 settimane",
+        "razionale": "Current Ratio 1,00 e cash flow negativo richiedono monitoraggio continuo",
+        "impatto_atteso": "Prevenzione crisi di liquidità, early warning su tensioni",
+        "beneficio_stimato": "Evitare default tecnico, mantenere operatività",
+        "investimento_richiesto": "Tempo management, nessun costo aggiuntivo",
+        "roi_stimato": "Infinito (prevenzione perdite)",
+        "owner_suggerito": "Amministratore Delegato",
+        "timeline": "Implementazione immediata",
+        "kpi_monitoraggio": [
+          "Saldo cassa settimanale",
+          "Proiezione 13 settimane",
+          "Scostamenti budget"
+        ]
+      },
+      {
+        "id": "AI002",
+        "area": "Costi",
+        "titolo": "Revisione Immediata Costi Operativi",
+        "azione": "Analisi dettagliata di tutti i costi operativi con identificazione di riduzioni immediate del 15-20%",
+        "razionale": "Costi per servizi al 73% del fatturato insostenibili",
+        "impatto_atteso": "Riduzione break-even point, miglioramento margini",
+        "beneficio_stimato": "Risparmio €30-40K annui",
+        "investimento_richiesto": "Tempo management per analisi",
+        "roi_stimato": "Immediato",
+        "owner_suggerito": "Management",
+        "timeline": "Completamento entro 30 giorni",
+        "kpi_monitoraggio": [
+          "% costi su fatturato",
+          "Margine EBITDA",
+          "Break-even point"
+        ]
+      }
+    ],
+    "importante": [
+      {
+        "id": "AI003",
+        "area": "Ricavi",
+        "titolo": "Revisione Pricing e Mix Servizi",
+        "azione": "Analizzare marginalità per servizio e rivedere listino prezzi con focus su servizi ad alta marginalità",
+        "razionale": "ROS 3,2% insufficiente per sostenibilità",
+        "impatto_atteso": "Incremento margini del 5-8pp",
+        "beneficio_stimato": "€12-20K di margine aggiuntivo annuo",
+        "investimento_richiesto": "Analisi di mercato €3-5K",
+        "roi_stimato": "4-7x",
+        "owner_suggerito": "Management commerciale",
+        "timeline": "Implementazione entro 60 giorni",
+        "kpi_monitoraggio": [
+          "Prezzo medio servizio",
+          "Mix marginalità",
+          "ROS mensile"
+        ]
+      },
+      {
+        "id": "AI004",
+        "area": "Strategia",
+        "titolo": "Piano di Turnaround Strutturato",
+        "azione": "Sviluppare piano di ristrutturazione a 12 mesi con milestone trimestrali e KPI di controllo",
+        "razionale": "Necessario approccio sistematico per uscire dalla crisi",
+        "impatto_atteso": "Roadmap chiara per il rilancio",
+        "beneficio_stimato": "Raggiungimento break-even in 6-9 mesi",
+        "investimento_richiesto": "Consulenza esterna €5-10K",
+        "roi_stimato": "3-5x se eseguito correttamente",
+        "owner_suggerito": "CdA",
+        "timeline": "Definizione entro 45 giorni",
+        "kpi_monitoraggio": [
+          "Milestone raggiunte",
+          "Scostamenti budget",
+          "Cash flow mensile"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Digitale",
+        "titolo": "Sviluppo Servizi Online Scalabili",
+        "azione": "Sviluppare piattaforma di formazione online per ridurre costi fissi e aumentare scalabilità",
+        "razionale": "Presenza digitale esistente può essere monetizzata con margini superiori",
+        "impatto_atteso": "Nuova linea di business ad alta marginalità",
+        "beneficio_stimato": "€50-100K fatturato aggiuntivo con margini >50%",
+        "investimento_richiesto": "€10-15K per piattaforma",
+        "owner_suggerito": "Management",
+        "timeline": "Sviluppo 3-6 mesi",
+        "note": "Opportunità di medio termine, subordinata alla stabilizzazione"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate per urgenza data la situazione critica. Focus immediato su liquidità e costi, poi su ricavi e strategia. ROI stimati sono indicativi e dipendono dall'execution."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "C1 - Alto Rischio",
+      "colore": "red",
+      "commento": "Rating C1 riflette l'alto rischio di credito dovuto alle significative difficoltà operative e finanziarie. La perdita d'esercizio, l'autofinanziamento negativo e la liquidità critica indicano una situazione di stress che richiede monitoraggio continuo. Il rating potrebbe peggiorare ulteriormente senza interventi correttivi immediati.",
+      "outlook": "Negativo",
+      "fattori_supporto": [
+        "Assenza di eventi negativi (protesti, procedure)",
+        "Liquidità ancora presente (€560K)",
+        "Settore con potenziale di crescita",
+        "Management con commitment proprietario"
+      ],
+      "fattori_rischio": [
+        "Perdita d'esercizio significativa",
+        "Autofinanziamento negativo",
+        "Margini operativi insufficienti",
+        "Liquidità al limite della sostenibilità",
+        "Modello di business non ancora provato"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Superiore alla Media (Giallo)",
+      "colore": "yellow",
+      "commento": "Risk Score GIALLO indica rischio superiore alla media, coerente con le difficoltà operative evidenziate dal bilancio. Il peggioramento da Verde Chiaro a Giallo riflette l'emergere delle criticità finanziarie. Senza miglioramenti, il risk score potrebbe deteriorare ulteriormente verso Rosso."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 5.000",
+      "commento": "Il fido operativo di €5.000 è molto contenuto e riflette l'alto rischio percepito. L'importo è simbolico e inadeguato per le esigenze operative dell'azienda. Difficile ottenere incrementi senza miglioramento dei fondamentali.",
+      "utilizzo_suggerito": "Solo per piccole esigenze di cassa temporanee. Sconsigliato affidamento significativo data la situazione finanziaria."
+    },
+    "trend_analysis": "Il trend del rating è negativo con passaggio da ND (non disponibile) a C1 con l'emergere dei dati di bilancio. Il risk score è peggiorato da Verde Chiaro (recente costituzione) a Giallo (superiore alla media). Il fido operativo è rimasto stabile al minimo.",
+    "probability_of_default": {
+      "valore": 8.5,
+      "classe": "High Risk",
+      "commento": "PD stimata 8.5% su orizzonte 12 mesi, significativamente superiore alla media. La probabilità riflette le criticità strutturali e la fragilità finanziaria."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano criticità diffuse con punteggi bassi in tutte le dimensioni valutabili. Particolarmente critici l'equilibrio economico (1/5) e la sostenibilità del debito (1/5). Il profilo di sviluppo non è valutabile per mancanza di serie storica.",
+    "economico": {
+      "giudizio_breve": "Negativo",
+      "colore": "red",
+      "commento": "Score 1/5. Profilo economico negativo caratterizzato da perdita d'esercizio e autofinanziamento negativo. L'azienda non riesce a generare valore dalle proprie operazioni. ROS positivo ma insufficiente, ROE fortemente negativo.",
+      "driver_principali": [
+        "Perdita d'esercizio €2.350",
+        "Autofinanziamento negativo",
+        "ROE -30,7% - distruttivo"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Score 2/5. Struttura patrimoniale compromessa dall'erosione del capitale sociale. Il patrimonio netto ridotto (€7.649) offre scarsa protezione ai creditori. Leverage estremo evidenzia dipendenza eccessiva da capitale di terzi.",
+      "driver_principali": [
+        "PN eroso dalle perdite",
+        "Leverage 87,5x - estremo",
+        "Capitalizzazione insufficiente"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Score 2/5. Equilibrio finanziario precario con liquidità al limite. Current Ratio appena sopra 1,0 non offre margini di sicurezza. La generazione di cassa negativa compromette la sostenibilità futura.",
+      "driver_principali": [
+        "Current Ratio 1,00 - al limite",
+        "Cash flow negativo",
+        "Liquidità in consumo"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Non Valutabile",
+      "colore": "gray",
+      "commento": "Score non disponibile per mancanza di dati sufficienti. L'azienda è in fase di start-up e non ha ancora sviluppato metriche di produttività significative.",
+      "driver_principali": [
+        "Dati insufficienti",
+        "Fase di start-up",
+        "Metriche non mature"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Non Valutabile",
+      "colore": "gray",
+      "commento": "Score non disponibile per assenza di serie storica. L'azienda è al primo bilancio completo, impossibile valutare trend di sviluppo.",
+      "driver_principali": [
+        "Primo bilancio completo",
+        "Assenza serie storica",
+        "Trend non determinabile"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Insufficiente",
+      "colore": "red",
+      "commento": "La redditività è gravemente compromessa con perdita netta significativa. Il ROS positivo (3,2%) è ingannevole perché non considera oneri finanziari e imposte. ROE e ROA negativi indicano distruzione di valore per azionisti e inefficienza nell'uso degli asset.",
+      "trend_yoy": "Non disponibile (primo bilancio)",
+      "indicatori": {
+        "ros": {
+          "colore": "red",
+          "commento": "ROS 3,2% molto sotto la soglia di sostenibilità del 15%. Margini operativi insufficienti per coprire oneri finanziari e fiscali."
+        },
+        "roe": {
+          "colore": "red",
+          "commento": "ROE -30,7% fortemente negativo. Gli azionisti subiscono distruzione di valore significativa. Insostenibile nel medio termine."
+        },
+        "roi": {
+          "colore": "red",
+          "commento": "ROI 1,2% molto basso, sotto la soglia minima del 5%. Capitale investito genera rendimenti insufficienti."
+        },
+        "roa": {
+          "colore": "red",
+          "commento": "ROA -0,2% negativo indica che gli asset non generano valore ma lo distruggono."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "red",
+          "commento": "Incidenza gestione extra-caratteristica -28,5% molto negativa. Oneri finanziari e fiscali aggravano la perdita operativa."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Critica",
+      "colore": "red",
+      "commento": "La liquidità è al limite della sostenibilità con Current Ratio appena sopra 1,0. Non esistono margini di sicurezza per far fronte a imprevisti o ritardi negli incassi. La situazione richiede monitoraggio continuo.",
+      "trend_yoy": "Non disponibile (primo bilancio)",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "red",
+          "commento": "Current Ratio 1,005 appena sopra la soglia critica di 1,0. Liquidità al limite, nessun margine di sicurezza."
+        },
+        "acid_test": {
+          "colore": "red",
+          "commento": "Acid Test 1,005 identico al Current Ratio (no rimanenze). Conferma la criticità della posizione liquida."
+        },
+        "cash_short_term_debt": {
+          "colore": "yellow",
+          "commento": "Rapporto cassa/debiti breve 1,72 ancora positivo grazie alle disponibilità liquide, ma in rapido consumo."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo (€1.220) indica che le immobilizzazioni sono coperte da fonti durevoli."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Margine di struttura secondario positivo (€3.460) conferma equilibrio strutturale."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Indice copertura immobilizzazioni 1,54 positivo. Gli investimenti fissi sono adeguatamente finanziati."
+        },
+        "copertura_ccn": {
+          "colore": "red",
+          "commento": "Copertura CCN 0,014 molto bassa. Il capitale circolante è finanziato principalmente con debiti a breve."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Estremo",
+      "colore": "red",
+      "commento": "Il leverage è a livelli estremi e insostenibili. Il patrimonio netto ridotto amplifica l'effetto leva. La struttura finanziaria è molto rischiosa e richiede ricapitalizzazione urgente.",
+      "trend_yoy": "Non disponibile (primo bilancio)",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "red",
+          "commento": "PFN/EBITDA 36,3x estremamente elevato. I debiti sono 36 volte l'EBITDA, rapporto insostenibile."
+        },
+        "leverage": {
+          "colore": "red",
+          "commento": "Leverage 87,5x estremo. Ogni euro di patrimonio netto supporta 87 euro di attivo - struttura molto rischiosa."
+        },
+        "capitalizzazione": {
+          "colore": "red",
+          "commento": "Grado di capitalizzazione 1,1% molto basso. Il patrimonio netto rappresenta solo l'1% delle fonti totali."
+        },
+        "debt_ratio": {
+          "colore": "red",
+          "commento": "Debt ratio 43,0 indica che i debiti sono 43 volte il patrimonio netto. Squilibrio estremo."
+        },
+        "bank_debt_assets": {
+          "colore": "gray",
+          "commento": "Debito bancario non significativo. I debiti sono principalmente commerciali e tributari."
+        },
+        "bank_debt_ratio": {
+          "colore": "gray",
+          "commento": "Rapporto debito bancario contenuto. L'azienda non dipende dal sistema bancario."
+        },
+        "ebitda_net_leverage": {
+          "colore": "red",
+          "commento": "EBITDA leverage netto estremo conferma l'insostenibilità della struttura debitoria."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "red",
+          "commento": "Anche il leverage lordo è a livelli critici, ben oltre qualsiasi soglia di sostenibilità."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Inadeguata",
+      "colore": "red",
+      "commento": "Gli indici di copertura sono inadeguati. Nonostante l'EBITDA positivo, la copertura degli oneri finanziari è limitata e il cash flow negativo compromette la capacità di servizio del debito.",
+      "trend_yoy": "Non disponibile (primo bilancio)",
+      "indicatori": {
+        "dscr": {
+          "colore": "red",
+          "commento": "DSCR non calcolabile per assenza di debito finanziario significativo. Il cash flow negativo indica comunque incapacità di servire debiti."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "yellow",
+          "commento": "Copertura interessi 8,4x ancora accettabile ma con EBITDA basso in valore assoluto."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "yellow",
+          "commento": "Copertura EBIT/interessi 7,6x sufficiente ma fragile dato il basso EBIT."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "yellow",
+          "commento": "Copertura interessi netti simile a quella lorda per assenza di proventi finanziari significativi."
+        },
+        "ebit_interessi_netti": {
+          "colore": "yellow",
+          "commento": "Copertura EBIT netto degli interessi ancora positiva ma con margini ridotti."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Non Applicabile",
+      "colore": "gray",
+      "commento": "Il ciclo finanziario non è significativo per il tipo di business (servizi formativi). L'azienda opera principalmente con pagamenti anticipati e ha scorte nulle.",
+      "trend_yoy": "Non disponibile",
+      "indicatori": {
+        "dso": {
+          "colore": "gray",
+          "commento": "DSO non applicabile. I servizi formativi sono tipicamente pagati in anticipo."
+        },
+        "dpo": {
+          "colore": "gray",
+          "commento": "DPO non significativo per il modello di business."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO zero - nessuna giacenza di magazzino, coerente con attività di servizi."
+        },
+        "ciclo_finanziario": {
+          "colore": "gray",
+          "commento": "Ciclo finanziario non rilevante per il business model dell'azienda."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Non Valutabile",
+      "colore": "gray",
+      "commento": "Gli indicatori di sviluppo non sono valutabili per assenza di serie storica. L'azienda è al primo bilancio completo.",
+      "trend_yoy": "Non disponibile (primo bilancio)",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "gray",
+          "commento": "Variazione non calcolabile - primo bilancio completo."
+        },
+        "variazione_ebit": {
+          "colore": "gray",
+          "commento": "Variazione EBIT non disponibile per assenza di confronto."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "gray",
+          "commento": "Trend valore aggiunto non determinabile."
+        },
+        "variazione_mol": {
+          "colore": "gray",
+          "commento": "Variazione MOL non calcolabile."
+        },
+        "variazione_totale_attivo": {
+          "colore": "gray",
+          "commento": "Crescita attivo non valutabile - primo esercizio."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "gray",
+          "commento": "Variazione debito non significativa per assenza di indebitamento bancario."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Bassa",
+      "colore": "red",
+      "commento": "L'efficienza operativa è bassa con indici di rotazione insufficienti. Il capitale investito non genera fatturato adeguato, indicando sottoutilizzo degli asset o modello di business inefficiente.",
+      "trend_yoy": "Non disponibile (primo bilancio)",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "red",
+          "commento": "Indice di rotazione 0,38 molto basso. Ogni euro di attivo genera solo 38 centesimi di fatturato."
+        },
+        "inventory_rotation": {
+          "colore": "gray",
+          "commento": "Rotazione magazzino non applicabile - nessuna giacenza."
+        },
+        "current_assets_rotation": {
+          "colore": "red",
+          "commento": "Rotazione attivo circolante 0,38 bassa. L'attivo corrente è sottoutilizzato."
+        },
+        "ar_rotation": {
+          "colore": "gray",
+          "commento": "Rotazione crediti non significativa per il modello di business."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Squilibrata",
+      "colore": "red",
+      "commento": "La struttura finanziaria è gravemente squilibrata con patrimonio netto insufficiente rispetto ai debiti. La composizione delle fonti è rischiosa e richiede riequilibrio urgente.",
+      "trend_yoy": "Non disponibile (primo bilancio)",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "red",
+          "commento": "PFN netta/PN non significativo per assenza di debito finanziario, ma PN comunque insufficiente."
+        },
+        "pfn_pn": {
+          "colore": "red",
+          "commento": "Struttura finanziaria squilibrata nonostante basso debito bancario."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario minimo - aspetto positivo della struttura."
+        },
+        "debito_netto_fonti": {
+          "colore": "red",
+          "commento": "Incidenza debito totale sulle fonti eccessiva per il patrimonio netto ridotto."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "green",
+          "commento": "Debito finanziario lordo contenuto rispetto al PN."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Elevato",
+      "colore": "red",
+      "commento": "L'onere finanziario è elevato rispetto alla dimensione dell'EBITDA. Il burden index indica che gli oneri finanziari assorbono una quota significativa del margine operativo.",
+      "trend_yoy": "Non disponibile (primo bilancio)",
+      "indicatori": {
+        "rod": {
+          "colore": "red",
+          "commento": "Costo del debito 0,33% apparentemente basso ma su base ridotta."
+        },
+        "rod_finanziario": {
+          "colore": "gray",
+          "commento": "Costo debito finanziario non significativo per importi contenuti."
+        },
+        "burden_index": {
+          "colore": "red",
+          "commento": "Burden index 11,9% elevato. Gli oneri finanziari assorbono quasi il 12% dell'EBITDA."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Semplice",
+      "colore": "yellow",
+      "commento": "La struttura dell'attivo è semplice e coerente con un'azienda di servizi in fase di start-up. Le immobilizzazioni sono contenute (€6.429), l'attivo circolante è dominato dalle disponibilità liquide (€560K). Struttura patrimoniale tipica di una società di servizi giovane.",
+      "immobilizzazioni": "Immobilizzazioni totali €6.429 (1% dell'attivo) composte da immateriali €1.461 e materiali €4.968. Investimenti contenuti coerenti con attività di formazione. Nessuna immobilizzazione finanziaria significativa.",
+      "attivo_circolante": "Attivo circolante €631.511 (94% dell'attivo) dominato da disponibilità liquide €560.190. Crediti contenuti €71.321, nessuna rimanenza. Struttura liquida ma in rapido consumo per perdite operative.",
+      "composizione_attivo": "Composizione 1% immobilizzazioni, 94% circolante, 5% ratei/risconti. Struttura molto liquida ma fragile per l'erosione in corso delle disponibilità."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Squilibrato",
+      "colore": "red",
+      "commento": "La struttura del passivo evidenzia grave squilibrio con patrimonio netto ridotto (1,1% del totale) e prevalenza di debiti. La capitalizzazione è insufficiente per sostenere l'attività operativa.",
+      "patrimonio_netto": "PN €7.649 (1,1% del passivo) composto da capitale sociale €10.000 e perdita d'esercizio -€2.350. Riserve negative -€1. Struttura patrimoniale erosa dalle perdite, richiede ricapitalizzazione urgente.",
+      "debiti": "Debiti totali €328.621 (49% del passivo) principalmente a breve termine €326.381. Composizione: debiti commerciali, tributari, previdenziali. Debito finanziario bancario minimo. Scadenze concentrate nel breve termine.",
+      "struttura_fonti": "Struttura fonti: PN 1,1%, Debiti 49%, Ratei/Risconti 50%. Lo squilibrio è evidente con ratei/risconti che rappresentano la metà del passivo (probabilmente ricavi anticipati da clienti)."
+    },
+    "conto_economico": {
+      "giudizio_breve": "In Perdita",
+      "colore": "red",
+      "commento": "Il conto economico evidenzia difficoltà operative con ricavi insufficienti a coprire i costi. La perdita d'esercizio compromette la sostenibilità e richiede interventi immediati sul modello di business.",
+      "valore_produzione": "Valore produzione €254.614 composto da ricavi vendite €249.146 e altri ricavi €5.468. Fatturato contenuto per un'azienda con 4 dipendenti. Necessario incremento significativo per raggiungere sostenibilità.",
+      "costi_produzione": "Costi produzione €246.374 con incidenza 97% sui ricavi. Composizione: servizi €182.658 (73%), personale €27.091 (11%), altri costi €36.625. Struttura costi da ottimizzare urgentemente.",
+      "gestione_finanziaria": "Gestione finanziaria negativa -€1.205 per oneri finanziari €1.081 e perdite su cambi €124. Impatto contenuto ma negativo sul risultato già compromesso dalla gestione operativa.",
+      "risultato_esercizio": "Perdita €2.350 dopo imposte €9.385. Il risultato ante imposte era positivo €7.035, ma le imposte (principalmente IRAP) hanno generato la perdita finale. Situazione fiscale da ottimizzare."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi evidenzia generazione operativa negativa che compromette la sostenibilità. L'autofinanziamento negativo indica consumo di liquidità che deve essere arrestato urgentemente.",
+      "operating_cf": "Cash flow operativo negativo -€1.527. L'azienda consuma liquidità invece di generarla. EBITDA positivo €9.063 ma assorbito da variazioni di capitale circolante e oneri fiscali.",
+      "investing_cf": "Flusso investimenti contenuto, relativo agli acquisti di immobilizzazioni materiali e immateriali per l'avvio dell'attività.",
+      "financing_cf": "Attività di finanziamento limitata al capitale sociale iniziale. Nessun ricorso significativo a debito bancario o apporti aggiuntivi dei soci."
+    }
+  },
+  "dscr": {
+    "valore": null,
+    "giudizio_breve": "Non Calcolabile",
+    "colore": "gray",
+    "commento": "Il DSCR non è calcolabile per l'assenza di debito finanziario significativo. Tuttavia, l'autofinanziamento negativo indica che l'azienda non sarebbe in grado di sostenere un servizio del debito anche minimo. La capacità di indebitamento è nulla nelle condizioni attuali.",
+    "componenti": {
+      "ebitda": 9063,
+      "oneri_finanziari": 1081,
+      "quota_capitale_annuale": null,
+      "servizio_debito": null
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è compromessa dall'autofinanziamento negativo. L'azienda non può sostenere nuovo indebitamento senza prima raggiungere la sostenibilità operativa. Qualsiasi debito aggiuntivo aggraverebbe la situazione finanziaria.",
+    "capacita_indebitamento_residua": "Capacità di indebitamento nulla. L'azienda deve prima raggiungere cash flow positivo e stabilizzare la situazione operativa prima di poter accedere a finanziamenti significativi.",
+    "stress_test_result": "In qualsiasi scenario di stress, l'azienda non sarebbe in grado di servire debiti aggiuntivi. La priorità è il raggiungimento del break-even operativo."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "HIGH",
+    "elenco": [
+      "Perdita d'esercizio significativa",
+      "Autofinanziamento negativo",
+      "Liquidità critica (Current Ratio 1,00)",
+      "Patrimonio netto eroso",
+      "Leverage estremo",
+      "Margini operativi insufficienti"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "ROS 3,2% insufficiente per sostenibilità. Margine netto negativo -0,9%. I margini sono inadeguati a coprire oneri finanziari e fiscali, generando perdite che erodono il capitale.",
+      "anomalie_magazzino": "Nessuna anomalia - magazzino nullo coerente con attività di servizi.",
+      "anomalie_crediti": "Crediti €71K contenuti e coerenti con fatturato. Nessuna anomalia rilevata nella gestione crediti.",
+      "tensione_liquidita": "Tensione critica con Current Ratio 1,00. Liquidità al limite della sostenibilità. Cash flow negativo aggrava la situazione consumando le riserve liquide.",
+      "eccessivo_indebitamento": "Leverage 87,5x estremo per patrimonio netto ridotto. Struttura finanziaria insostenibile che richiede ricapitalizzazione urgente.",
+      "eventi_negativi": "Nessun evento negativo rilevato - aspetto positivo che indica regolarità nei pagamenti nonostante le difficoltà.",
+      "governance_concerns": "Governance semplificata con due socie paritarie. Nessuna criticità evidente ma potrebbe beneficiare di competenze esterne.",
+      "going_concern": "Continuità aziendale a rischio senza interventi correttivi immediati. Liquidità in consumo e perdite operative compromettono la sostenibilità futura."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Non Conforme",
+      "colore": "red",
+      "commento": "L'azienda presenta criticità rispetto agli adeguati assetti organizzativi previsti dal Codice della Crisi. La perdita d'esercizio e l'autofinanziamento negativo indicano inadeguatezza degli assetti per il mantenimento dell'equilibrio economico, finanziario e patrimoniale."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 0.43,
+        "soglia": 2.5,
+        "alert": false,
+        "commento": "0,43% sotto la soglia del 2,5%. Indicatore positivo per il contenuto indebitamento finanziario."
+      },
+      "pn_debiti_totali": {
+        "valore": 2.33,
+        "soglia": 5.5,
+        "alert": true,
+        "commento": "2,33% sotto la soglia critica del 5,5%. Patrimonio netto insufficiente rispetto ai debiti totali - ALERT ATTIVO."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 100.5,
+        "soglia": 85,
+        "alert": false,
+        "commento": "100,5% sopra la soglia dell'85%. Liquidità a breve appena sufficiente ma senza margini."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": -0.23,
+        "soglia": 1.5,
+        "alert": true,
+        "commento": "-0,23% negativo vs soglia +1,5%. Cash flow negativo rispetto all'attivo - ALERT ATTIVO."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": null,
+        "soglia": 7,
+        "alert": false,
+        "commento": "Dato non disponibile nel dettaglio fornito."
+      }
+    },
+    "continuita_aziendale": "La continuità aziendale è a rischio senza interventi correttivi immediati. Due indicatori di allerta sono attivi (PN/Debiti e Cash Flow/Attivo) e la situazione operativa è compromessa. Necessario piano di risanamento urgente.",
+    "raccomandazioni_assetti": [
+      "Implementare sistema di controllo di gestione con reporting mensile",
+      "Definire piano di risanamento con milestone trimestrali",
+      "Valutare ricapitalizzazione per riportare PN sopra soglie CCII",
+      "Monitorare settimanalmente la posizione di liquidità"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "NON CONFORME - Due indicatori di allerta attivi (PN/Debiti totali e Cash Flow/Attivo). Situazione critica che richiede interventi immediati.",
+    "antiriciclaggio": "Struttura societaria semplice e trasparente. Nessuna transazione anomala rilevata dai dati disponibili.",
+    "privacy_note": "Analisi basata su dati di bilancio pubblici e informazioni creditizie da fonti autorizzate. Rispetto normativa privacy vigente."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Implementare controllo settimanale della liquidità con proiezioni a 13 settimane",
+      "Ridurre immediatamente i costi operativi del 15-20% (target €30-40K risparmio annuo)",
+      "Rivedere pricing e mix servizi per migliorare marginalità",
+      "Valutare ricapitalizzazione urgente da parte dei soci (€20-30K)"
+    ],
+    "medio_termine": [
+      "Sviluppare piano di turnaround strutturato con milestone trimestrali",
+      "Implementare sistema di controllo di gestione con KPI operativi",
+      "Diversificare l'offerta verso servizi ad alta marginalità",
+      "Ottimizzare la struttura organizzativa e i processi operativi"
+    ],
+    "strategiche": [
+      "Valutare pivot verso modelli di business digitali scalabili",
+      "Sviluppare partnership strategiche con enti formativi o aziende",
+      "Considerare specializzazione in nicchie ad alto valore aggiunto",
+      "Esplorare opportunità di finanziamento agevolato per start-up innovative"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "VICTORIA LANGUAGES si posiziona nel quartile inferiore del settore istruzione per tutti gli indicatori economico-finanziari. La performance è significativamente sotto gli standard settoriali, evidenziando la necessità di un profondo ripensamento del modello di business.",
+    "posizionamento": "Quartile inferiore (Q1) per redditività, efficienza e solidità patrimoniale. Performance molto sotto la media settoriale.",
+    "benchmark_principali": [
+      "ROS 3,2% vs mediana settore 8,5% (-62%)",
+      "ROE -30,7% vs mediana settore +12,0% (fortemente negativo)",
+      "Current Ratio 1,00 vs mediana settore 1,35 (-26%)",
+      "Leverage 87,5x vs mediana settore 2,1x (+4.000%)"
+    ],
+    "trend_settore": "Il settore istruzione mostra resilienza post-COVID con crescita della domanda di formazione linguistica e digitale. Tuttavia, la competizione è intensa e richiede differenziazione e efficienza operativa per il successo."
+  },
+  "metadata": {
+    "generated_at": "2025-01-15T14:30:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "VICTORIA LANGUAGES.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.88,
+    "analysis_depth": "Comprehensive - Full financial analysis con focus su criticità start-up",
+    "disclaimers": [
+      "Analisi basata su primo bilancio completo - serie storica limitata",
+      "Le proiezioni hanno natura indicativa data la fase di start-up",
+      "Raccomandazioni urgenti data la situazione critica",
+      "Necessaria validazione con dati operativi interni aggiornati"
+    ]
+  }
+}
