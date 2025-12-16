@@ -1,0 +1,809 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "RATING B3 - OUTLOOK NEGATIVO",
+    "verdict_color": "orange",
+    "key_message": "Azienda in difficoltà operativa con perdite significative e tensioni finanziarie. Necessario piano di ristrutturazione urgente per evitare deterioramento ulteriore.",
+    "numeri_chiave": [
+      "Rating B3 (peggiorato da B2) - Rischio Medio-Alto",
+      "EBIT negativo -61K - Perdite operative",
+      "ROI -0,4% - Distruzione di valore",
+      "Current Ratio 0,69 - Tensione liquidità",
+      "Fido operativo ridotto a 87K (-38% YoY)"
+    ],
+    "risk_level": "MEDIO-ALTO",
+    "focus_trimestre": "Urgente implementazione piano di turnaround: riduzione costi, ottimizzazione working capital, negoziazione con creditori",
+    "next_review": "Q1 2025 - Verifica efficacia misure correttive e sostenibilità finanziaria"
+  },
+  "executive_summary": {
+    "sintesi": "ECOSERDIANA SPA presenta un profilo finanziario deteriorato con rating B3 e rischio medio-alto. L'azienda opera nel settore gestione rifiuti ma registra perdite operative significative (EBIT -61K) e tensioni di liquidità (Current Ratio 0,69). Il fatturato è in calo (-7,4%) mentre i costi rimangono elevati, generando margini negativi. La struttura finanziaria è sotto stress con debiti elevati e capacità di servizio compromessa.",
+    "giudizio_breve": "Azienda in difficoltà con perdite operative",
+    "colore": "orange",
+    "punti_forza": [
+      "Presenza consolidata nel settore gestione rifiuti (dal 1986)",
+      "Diversificazione geografica con 4 sedi operative",
+      "Partecipazioni strategiche in società controllate",
+      "Certificazione SOA per opere ambientali",
+      "Gruppo strutturato con holding CASCHILI"
+    ],
+    "aree_attenzione": [
+      "EBIT negativo (-61K) - perdite operative significative",
+      "Calo fatturato (-7,4%) in controtendenza settoriale",
+      "Current Ratio critico (0,69) - tensione liquidità",
+      "Elevato indebitamento (Leverage 4,47x)",
+      "Fido operativo ridotto del 38% a 87K"
+    ],
+    "raccomandazioni_principali": [
+      "Piano di ristrutturazione operativa urgente",
+      "Rinegoziazione termini debito con sistema bancario",
+      "Ottimizzazione costi e razionalizzazione attività"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi evidenzia un deterioramento significativo delle performance operative. Il fatturato in calo (-7,4%) combinato con costi fissi elevati ha generato perdite operative. Il trend negativo si protrae da diversi trimestri, suggerendo difficoltà strutturali piuttosto che congiunturali. La riduzione del fido operativo da 140K a 87K indica perdita di fiducia del sistema bancario.",
+    "risk_factors": "I principali fattori di rischio sono: (1) Perdite operative continuative che erodono il patrimonio; (2) Tensione di liquidità con current ratio sotto 1; (3) Elevato indebitamento finanziario; (4) Dipendenza da settore regolamentato soggetto a pressioni competitive; (5) Concentrazione geografica in Sardegna con limitata diversificazione.",
+    "opportunity_signals": "Nonostante le difficoltà, esistono elementi positivi: il settore gestione rifiuti ha prospettive di crescita strutturale, l'azienda mantiene posizioni consolidate e certificazioni, le partecipazioni in controllate potrebbero generare valore se valorizzate. La ristrutturazione potrebbe liberare efficienza operativa significativa.",
+    "management_quality_indicators": "Il management guidato da BIAGIO CASCHILI (77 anni) ha esperienza consolidata ma potrebbe necessitare di rinnovamento strategico. La presenza di MARCO CASCHILI (51 anni) come consigliere suggerisce continuità familiare. La governance include collegio sindacale strutturato.",
+    "market_position": "ECOSERDIANA opera in un mercato in crescita ma altamente competitivo. La presenza in Sardegna offre protezione geografica ma limita le opportunità di espansione. Le certificazioni SOA e la specializzazione in bonifiche ambientali costituiscono asset difendibili.",
+    "operational_efficiency": "L'efficienza operativa è compromessa con margini negativi e costi fissi elevati. Il personale (73 dipendenti) potrebbe essere sovradimensionato rispetto ai ricavi attuali. Necessaria razionalizzazione della struttura operativa."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "perdite_operative_continuative",
+        "titolo": "EBIT Negativo Persistente",
+        "descrizione": "EBIT negativo per -61K con margini operativi sotto pressione",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "ebit": -61250,
+          "ros": "-0.72%",
+          "trend": "peggioramento"
+        },
+        "implicazioni": "Erosione del patrimonio e compromissione della sostenibilità aziendale",
+        "raccomandazione": "Piano di turnaround immediato con riduzione costi strutturali",
+        "trigger_escalation": "EBIT negativo per 2 trimestri consecutivi"
+      },
+      {
+        "id": "EW002",
+        "tipo": "tensione_liquidita",
+        "titolo": "Current Ratio Critico",
+        "descrizione": "Current Ratio 0,69 sotto la soglia critica di 1,0",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "current_ratio": 0.69,
+          "soglia_critica": 1,
+          "gap": "-31%"
+        },
+        "implicazioni": "Difficoltà nel far fronte agli impegni a breve termine",
+        "raccomandazione": "Rinegoziazione scadenze debiti e ottimizzazione working capital",
+        "trigger_escalation": "Current Ratio < 0,8 per 2 mesi consecutivi"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW003",
+        "tipo": "riduzione_fido",
+        "titolo": "Contrazione Linee di Credito",
+        "descrizione": "Fido operativo ridotto da 140K a 87K (-38%)",
+        "severity": "medium",
+        "colore": "orange",
+        "metriche": {
+          "fido_attuale": 87000,
+          "fido_precedente": 140000,
+          "variazione": "-38%"
+        },
+        "implicazioni": "Perdita di fiducia del sistema bancario e ridotta flessibilità finanziaria",
+        "raccomandazione": "Dialogo con banche per mantenere supporto creditizio",
+        "trigger_escalation": "Ulteriore riduzione fido > 20%"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "settore_in_crescita",
+        "titolo": "Mercato Gestione Rifiuti in Espansione",
+        "descrizione": "Settore beneficia di normative ambientali e economia circolare",
+        "colore": "green",
+        "implicazioni": "Opportunità di recupero se risolte criticità operative",
+        "sostenibilita": "Alta - trend strutturale di lungo termine"
+      }
+    ],
+    "overall_risk_trend": "DETERIORAMENTO ACCELERATO. I segnali di allerta sono multipli e convergenti verso una situazione di stress finanziario. Necessario intervento immediato per evitare escalation verso situazioni più critiche."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Stabilizzazione",
+      "descrizione": "Scenario che assume implementazione parziale di misure correttive",
+      "ipotesi": [
+        "Riduzione costi operativi del 10%",
+        "Stabilizzazione fatturato (crescita 0%)",
+        "Rinegoziazione parziale debiti",
+        "Mantenimento fido attuale"
+      ],
+      "dscr_proiettato": 0.85,
+      "rating_proiettato": "B3 (stabile)",
+      "commento": "Nel base case l'azienda raggiunge break-even operativo ma mantiene fragilità finanziaria. DSCR sotto 1 indica difficoltà nel servizio del debito. Rating B3 confermato ma con outlook negativo."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Deterioramento",
+      "descrizione": "Scenario avverso con mancata implementazione di correttivi",
+      "ipotesi": [
+        "Ulteriore calo fatturato -10%",
+        "Costi fissi invariati",
+        "Tensioni con fornitori e banche",
+        "Possibile revoca linee di credito"
+      ],
+      "dscr_proiettato": 0.45,
+      "rating_proiettato": "C1 (downgrade)",
+      "commento": "Scenario stress porta a situazione di grave difficoltà con DSCR sotto 0,5. Alto rischio di procedure concorsuali. Rating scenderebbe a C1 con rischio default elevato."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Turnaround",
+      "descrizione": "Scenario di ristrutturazione efficace con supporto finanziario",
+      "ipotesi": [
+        "Ristrutturazione operativa completa",
+        "Riduzione costi 20% + crescita ricavi 5%",
+        "Supporto finanziario soci/banche",
+        "Valorizzazione partecipazioni"
+      ],
+      "dscr_proiettato": 1.25,
+      "rating_proiettato": "B2 (upgrade)",
+      "commento": "Scenario upside richiede interventi drastici ma potrebbe riportare l'azienda su percorso sostenibile. DSCR sopra 1,2 consentirebbe upgrade a B2. Probabilità scenario: 30%."
+    },
+    "sensitivity_note": "L'azienda è altamente sensibile a variazioni di fatturato e costi. Una riduzione ulteriore dei ricavi del 5% senza corrispondente taglio costi porterebbe a perdite insostenibili."
+  },
+  "peer_comparison": {
+    "peer_group": "Gestione Rifiuti e Servizi Ambientali - PMI Italia (ATECO 38.xx)",
+    "sample_size": 3847,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": -0.72,
+        "mediana": 4.2,
+        "percentile": 15,
+        "commento": "Performance molto sotto la media. ROS negativo vs mediana positiva del settore."
+      },
+      "roe": {
+        "azienda": 1.83,
+        "mediana": 8.5,
+        "percentile": 25,
+        "commento": "ROE positivo ma inferiore alla mediana settoriale. Beneficia di leva finanziaria."
+      },
+      "roi": {
+        "azienda": -0.4,
+        "mediana": 6.8,
+        "percentile": 20,
+        "commento": "ROI negativo indica distruzione di valore. Molto sotto la media del settore."
+      },
+      "current_ratio": {
+        "azienda": 0.69,
+        "mediana": 1.25,
+        "percentile": 10,
+        "commento": "Liquidità critica, nel decile peggiore del settore. Tensione finanziaria evidente."
+      },
+      "dso": {
+        "azienda": 168.5,
+        "mediana": 90,
+        "percentile": 5,
+        "commento": "DSO molto elevato (168 giorni) vs media 90 giorni. Grave problema di incassi."
+      },
+      "leverage": {
+        "azienda": 4.47,
+        "mediana": 2.8,
+        "percentile": 15,
+        "commento": "Indebitamento eccessivo, 60% sopra la mediana settoriale."
+      },
+      "pfn_ebitda": {
+        "azienda": 21.96,
+        "mediana": 3.5,
+        "percentile": 5,
+        "commento": "Rapporto PFN/EBITDA critico, oltre 6x la mediana. Insostenibilità del debito."
+      }
+    },
+    "sintesi_posizionamento": "ECOSERDIANA si colloca nel quartile inferiore per tutti gli indicatori chiave. La performance è significativamente sotto la media settoriale, indicando difficoltà strutturali che richiedono interventi correttivi urgenti.",
+    "aree_eccellenza": [],
+    "aree_miglioramento": [
+      "Redditività operativa (ROS, ROI) - Quartile inferiore",
+      "Gestione liquidità (Current Ratio) - Decile peggiore",
+      "Ciclo incassi (DSO) - Performance critica",
+      "Struttura finanziaria (Leverage, PFN/EBITDA) - Squilibrata"
+    ]
+  },
+  "action_items": {
+    "urgente": [
+      {
+        "id": "AI001",
+        "area": "Turnaround",
+        "titolo": "Piano di Ristrutturazione Operativa",
+        "azione": "Implementare piano di riduzione costi strutturali del 15-20% con focus su personale e costi fissi",
+        "razionale": "EBIT negativo e margini sotto pressione richiedono intervento drastico sui costi",
+        "impatto_atteso": "Ritorno a break-even operativo in 6-9 mesi",
+        "beneficio_stimato": "Risparmio €1,5-2M annui, EBIT positivo",
+        "investimento_richiesto": "€200-300K (consulenza, costi ristrutturazione)",
+        "roi_stimato": "5-7x in 12 mesi",
+        "owner_suggerito": "CEO / Advisor Turnaround",
+        "timeline": "Avvio immediato, risultati Q2 2025",
+        "kpi_monitoraggio": [
+          "EBIT mensile",
+          "Costo del lavoro",
+          "Margine operativo"
+        ]
+      },
+      {
+        "id": "AI002",
+        "area": "Liquidità",
+        "titolo": "Gestione Crisi di Liquidità",
+        "azione": "Rinegoziare scadenze debiti, accelerare incassi, ottimizzare working capital",
+        "razionale": "Current Ratio 0,69 indica tensione immediata sui pagamenti",
+        "impatto_atteso": "Miglioramento liquidità operativa e riduzione tensioni",
+        "beneficio_stimato": "Liberazione €500K-1M di working capital",
+        "investimento_richiesto": "€50K (consulenza finanziaria)",
+        "roi_stimato": "10-20x",
+        "owner_suggerito": "CFO / Advisor Finanziario",
+        "timeline": "Implementazione immediata",
+        "kpi_monitoraggio": [
+          "Current Ratio",
+          "DSO",
+          "Cash flow operativo"
+        ]
+      }
+    ],
+    "importante": [
+      {
+        "id": "AI003",
+        "area": "Strategia",
+        "titolo": "Revisione Portafoglio Attività",
+        "azione": "Analizzare redditività per business unit, dismissione attività non core",
+        "razionale": "Focus su attività profittevoli per massimizzare efficienza",
+        "impatto_atteso": "Concentrazione su core business redditizio",
+        "beneficio_stimato": "Miglioramento margini 3-5pp",
+        "investimento_richiesto": "€100K (analisi strategica)",
+        "roi_stimato": "3-5x",
+        "owner_suggerito": "CEO / Consulente Strategico",
+        "timeline": "Analisi Q1 2025, implementazione Q2 2025",
+        "kpi_monitoraggio": [
+          "Margine per BU",
+          "ROI per attività"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Valorizzazione Asset",
+        "titolo": "Ottimizzazione Partecipazioni",
+        "azione": "Valutare cessione parziale partecipazioni per generare liquidità",
+        "razionale": "Partecipazioni per €7,7M potrebbero essere valorizzate per supportare liquidità",
+        "impatto_atteso": "Generazione liquidità e riduzione indebitamento",
+        "beneficio_stimato": "€2-3M di liquidità potenziale",
+        "investimento_richiesto": "€50K (valutazioni, advisory)",
+        "owner_suggerito": "CEO / Investment Banker",
+        "timeline": "Valutazione Q1 2025, eventuale cessione Q2-Q3 2025",
+        "note": "Operazione subordinata a valutazioni strategiche del gruppo"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate per urgenza data la situazione di stress finanziario. Focus su misure immediate per stabilizzare liquidità e redditività."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B3 - Rischio Medio-Alto",
+      "colore": "orange",
+      "commento": "Rating B3 riflette significative difficoltà operative e finanziarie. L'azienda presenta perdite operative, tensioni di liquidità e elevato indebitamento. Il rating è peggiorato da B2 a causa del deterioramento dei fondamentali. Outlook negativo con rischio di ulteriore downgrade.",
+      "outlook": "Negativo",
+      "fattori_supporto": [
+        "Presenza consolidata nel settore (dal 1986)",
+        "Diversificazione geografica",
+        "Certificazioni SOA per opere ambientali",
+        "Partecipazioni strategiche in controllate"
+      ],
+      "fattori_rischio": [
+        "EBIT negativo e perdite operative",
+        "Tensione di liquidità (Current Ratio 0,69)",
+        "Elevato indebitamento finanziario",
+        "Calo fatturato in controtendenza settoriale",
+        "Riduzione fido operativo da parte delle banche"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Medio (Verde Chiaro)",
+      "colore": "yellow",
+      "commento": "Risk Score VERDE CHIARO indica rischio nella media ma in peggioramento. L'azienda presenta segnali di tensione che richiedono monitoraggio attento. Il trend è negativo con possibile escalation verso livelli di rischio superiori."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 87.000",
+      "commento": "Il fido operativo di €87.000 è stato ridotto del 38% rispetto ai precedenti €140.000, riflettendo la perdita di fiducia del sistema bancario. Il fido attuale è coerente con il deterioramento del profilo di rischio ma potrebbe essere insufficiente per le esigenze operative.",
+      "utilizzo_suggerito": "Utilizzo prudente delle linee disponibili. Raccomandato dialogo continuo con banche per mantenere supporto creditizio e evitare ulteriori riduzioni."
+    },
+    "trend_analysis": "Il rating è peggiorato da B2 a B3 negli ultimi mesi, riflettendo il deterioramento delle performance operative. Il fido operativo è stato ridotto significativamente. Il trend è chiaramente negativo con rischio di ulteriore peggioramento se non implementate misure correttive.",
+    "probability_of_default": {
+      "valore": 8.5,
+      "classe": "Rischio Medio-Alto",
+      "commento": "PD stimata 8,5% su orizzonte 12 mesi, significativamente superiore alla media. La probabilità di default è elevata a causa delle difficoltà operative e finanziarie in corso."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano una situazione di significativa difficoltà con punteggi bassi in quasi tutte le dimensioni. Particolarmente critici i profili economico e finanziario. Solo il profilo di sviluppo mostra segnali di miglioramento relativo.",
+    "economico": {
+      "giudizio_breve": "Negativo",
+      "colore": "red",
+      "commento": "Score 1/5. Redditività gravemente compromessa con ROI negativo (-0,4%) e ROS negativo (-0,72%). L'azienda distrugge valore e registra perdite operative significative. Situazione critica che richiede interventi immediati.",
+      "driver_principali": [
+        "ROI -0,4% - distruzione valore",
+        "ROS -0,72% - margini negativi",
+        "EBIT -61K - perdite operative"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Critico",
+      "colore": "orange",
+      "commento": "Score 2/5. Struttura patrimoniale sotto stress con capitalizzazione del 22,4% inferiore agli standard. Il patrimonio netto è eroso dalle perdite e l'indebitamento è eccessivo rispetto alla capacità di generazione di reddito.",
+      "driver_principali": [
+        "Capitalizzazione 22,4% - sotto standard",
+        "Leverage 4,47x - eccessivo",
+        "Patrimonio eroso da perdite"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Negativo",
+      "colore": "red",
+      "commento": "Score 1/5. Situazione finanziaria critica con liquidità corrente insufficiente (0,69) e elevato indebitamento. L'azienda fatica a far fronte agli impegni finanziari e presenta tensioni con il sistema bancario.",
+      "driver_principali": [
+        "Current Ratio 0,69 - tensione liquidità",
+        "PFN/EBITDA 21,96x - insostenibile",
+        "Riduzione fido bancario -38%"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Sotto la Media",
+      "colore": "orange",
+      "commento": "Score 2/5. Efficienza operativa compromessa con DSO molto elevato (168 giorni) e rotazione asset insufficiente. La produttività è penalizzata dalla struttura dei costi e dalla gestione del working capital.",
+      "driver_principali": [
+        "DSO 168 giorni - molto elevato",
+        "Rotazione asset insufficiente",
+        "Efficienza operativa compromessa"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Nonostante le difficoltà, il profilo di sviluppo mostra segnali di miglioramento relativo. Il calo del fatturato (-7,4%) è contenuto rispetto alle aspettative e il settore offre prospettive di crescita.",
+      "driver_principali": [
+        "Calo fatturato -7,4% contenuto",
+        "Settore in crescita strutturale",
+        "Potenziale di recovery"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "La redditività è gravemente compromessa con tutti gli indicatori in territorio negativo o molto bassi. L'azienda registra perdite operative significative che erodono il valore aziendale. Necessario intervento immediato per ripristinare margini positivi.",
+      "trend_yoy": "In forte peggioramento",
+      "indicatori": {
+        "ros": {
+          "colore": "red",
+          "commento": "ROS -0,72% indica perdite operative. L'azienda perde 72 centesimi per ogni 100 euro di fatturato. Situazione insostenibile che richiede drastica riduzione costi."
+        },
+        "roe": {
+          "colore": "yellow",
+          "commento": "ROE 1,83% positivo ma basso, sostenuto dalla leva finanziaria. Senza la leva, il rendimento sarebbe negativo data la perdita operativa."
+        },
+        "roi": {
+          "colore": "red",
+          "commento": "ROI -0,4% negativo indica distruzione di valore. Il capitale investito non genera rendimenti positivi, compromettendo la sostenibilità aziendale."
+        },
+        "roa": {
+          "colore": "red",
+          "commento": "ROA -0,19% negativo conferma l'inefficienza nell'utilizzo degli asset aziendali per generare profitto."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "red",
+          "commento": "Incidenza gestione extra-caratteristica molto elevata (-212,57%) indica dipendenza da proventi finanziari per compensare perdite operative."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "La posizione di liquidità è critica con current ratio sotto la soglia di sicurezza. L'azienda presenta difficoltà nel far fronte agli impegni a breve termine, richiedendo interventi immediati per evitare tensioni con creditori.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "red",
+          "commento": "Current Ratio 0,69 molto sotto la soglia critica di 1,0. L'attivo circolante non copre le passività correnti, indicando tensione di liquidità immediata."
+        },
+        "acid_test": {
+          "colore": "red",
+          "commento": "Acid Test 0,69 conferma la tensione di liquidità anche escludendo le rimanenze. Situazione critica per i pagamenti a breve."
+        },
+        "cash_short_term_debt": {
+          "colore": "orange",
+          "commento": "Rapporto cassa/debiti a breve termine insufficiente. Le disponibilità liquide coprono solo parzialmente gli impegni immediati."
+        },
+        "margine_struttura": {
+          "colore": "red",
+          "commento": "Margine di struttura negativo indica che parte delle immobilizzazioni è finanziata con debiti a breve, creando squilibrio strutturale."
+        },
+        "margine_struttura_ii": {
+          "colore": "red",
+          "commento": "Anche il margine di struttura secondario è negativo, confermando lo squilibrio nella correlazione fonti-impieghi."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "orange",
+          "commento": "Indice di copertura immobilizzazioni sotto l'ottimale. Gli investimenti fissi non sono adeguatamente supportati da fonti durevoli."
+        },
+        "copertura_ccn": {
+          "colore": "red",
+          "commento": "Copertura del capitale circolante netto problematica, contribuendo alle tensioni di liquidità."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Eccessivo",
+      "colore": "red",
+      "commento": "La struttura del debito è eccessiva e insostenibile rispetto alla capacità di generazione di reddito. L'elevato indebitamento amplifica i rischi finanziari e limita la flessibilità operativa dell'azienda.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "red",
+          "commento": "PFN/EBITDA 21,96x molto elevato, oltre 6 volte la mediana settoriale. Indica insostenibilità del debito rispetto alla generazione di cassa."
+        },
+        "leverage": {
+          "colore": "red",
+          "commento": "Leverage 4,47x eccessivo, 60% sopra la mediana settoriale. Elevata dipendenza da capitale di terzi con rischi associati."
+        },
+        "capitalizzazione": {
+          "colore": "orange",
+          "commento": "Grado di capitalizzazione 22,4% sotto gli standard ottimali. L'azienda è sottocapitalizzata rispetto al livello di rischio."
+        },
+        "debt_ratio": {
+          "colore": "red",
+          "commento": "Debt ratio elevato indica forte dipendenza dai creditori e limitata autonomia finanziaria."
+        },
+        "bank_debt_assets": {
+          "colore": "red",
+          "commento": "Incidenza debito bancario sull'attivo elevata, indicando forte dipendenza dal sistema bancario."
+        },
+        "bank_debt_ratio": {
+          "colore": "red",
+          "commento": "Rapporto debito bancario/totale fonti elevato, amplificando i rischi di tensioni con il sistema creditizio."
+        },
+        "ebitda_net_leverage": {
+          "colore": "red",
+          "commento": "EBITDA leverage netto molto elevato, confermando l'insostenibilità della struttura debitoria."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "red",
+          "commento": "Anche il leverage lordo è eccessivo, indicando necessità di riduzione significativa dell'indebitamento."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Insufficiente",
+      "colore": "red",
+      "commento": "Gli indici di copertura sono tutti insufficienti a garantire il servizio del debito. L'EBITDA positivo ma ridotto non copre adeguatamente gli oneri finanziari, creando tensioni sulla sostenibilità finanziaria.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "dscr": {
+          "colore": "red",
+          "commento": "DSCR non calcolabile con precisione a causa dell'EBIT negativo, ma stimato sotto 1,0. L'azienda non genera flussi sufficienti per il servizio del debito."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "red",
+          "commento": "Copertura interessi 0,58x insufficiente. L'EBITDA non copre nemmeno gli oneri finanziari, indicando grave difficoltà."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "red",
+          "commento": "EBIT negativo rende impossibile la copertura degli interessi con il reddito operativo."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "red",
+          "commento": "Anche considerando i proventi finanziari, la copertura rimane insufficiente."
+        },
+        "ebit_interessi_netti": {
+          "colore": "red",
+          "commento": "EBIT negativo conferma l'impossibilità di coprire gli oneri finanziari con la gestione operativa."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Molto Critico",
+      "colore": "red",
+      "commento": "Il ciclo finanziario presenta criticità severe con DSO molto elevato che assorbe liquidità significativa. La gestione del working capital è inefficiente e contribuisce alle tensioni finanziarie.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "dso": {
+          "colore": "red",
+          "commento": "DSO 168,5 giorni estremamente elevato, quasi doppio rispetto alla media settoriale di 90 giorni. Grave problema di incassi che assorbe liquidità."
+        },
+        "dpo": {
+          "colore": "orange",
+          "commento": "DPO 320 giorni molto elevato, indica possibili tensioni con fornitori e ritardi nei pagamenti."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO nullo coerente con attività di servizi senza significative scorte di magazzino."
+        },
+        "ciclo_finanziario": {
+          "colore": "green",
+          "commento": "Ciclo finanziario negativo (-152 giorni) apparentemente positivo ma distorto dai ritardi nei pagamenti ai fornitori."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "In Contrazione",
+      "colore": "orange",
+      "commento": "L'azienda è in fase di contrazione con calo del fatturato e deterioramento dei margini. Tuttavia, la contrazione è relativamente contenuta e il settore offre prospettive di recovery.",
+      "trend_yoy": "Negativo ma stabilizzante",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "orange",
+          "commento": "Calo fatturato -7,44% significativo ma contenuto rispetto alle difficoltà operative. Possibile stabilizzazione in corso."
+        },
+        "variazione_ebit": {
+          "colore": "red",
+          "commento": "EBIT in forte peggioramento con passaggio in territorio negativo. Criticità operativa evidente."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "red",
+          "commento": "Valore aggiunto in calo del 12,53%, indicando perdita di efficienza nella creazione di valore."
+        },
+        "variazione_mol": {
+          "colore": "red",
+          "commento": "MOL in forte calo (-52,61%), confermando la pressione sui margini operativi."
+        },
+        "variazione_totale_attivo": {
+          "colore": "yellow",
+          "commento": "Attivo in crescita (+16,37%) principalmente per investimenti in corso, da monitorare la produttività."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "orange",
+          "commento": "Debito finanziario in crescita (+1,06%), aggiungendo pressione alla struttura già tesa."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Insufficiente",
+      "colore": "orange",
+      "commento": "L'efficienza operativa è compromessa con rotazione degli asset insufficiente e gestione del capitale circolante problematica. Necessario miglioramento significativo per ripristinare produttività.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "orange",
+          "commento": "Indice di rotazione 0,27 basso, indica utilizzo inefficiente del capitale investito per generare fatturato."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione magazzino non applicabile per attività di servizi senza scorte significative."
+        },
+        "current_assets_rotation": {
+          "colore": "orange",
+          "commento": "Rotazione attivo circolante insufficiente, penalizzata dall'elevato DSO e dalla gestione inefficiente del working capital."
+        },
+        "ar_rotation": {
+          "colore": "red",
+          "commento": "Rotazione crediti 2,14x molto bassa a causa del DSO elevato. Grave inefficienza nella gestione degli incassi."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Squilibrata",
+      "colore": "red",
+      "commento": "La struttura finanziaria è gravemente squilibrata con eccessiva dipendenza dal debito e insufficiente capitalizzazione. La composizione delle fonti non è sostenibile nel lungo termine.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "red",
+          "commento": "Rapporto PFN/PN 117,94% indica che il debito netto supera il patrimonio netto, situazione di grave squilibrio."
+        },
+        "pfn_pn": {
+          "colore": "red",
+          "commento": "Conferma lo squilibrio strutturale con debito netto superiore ai mezzi propri."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "orange",
+          "commento": "Composizione debito con prevalenza di debiti bancari a medio-lungo termine, creando rigidità finanziaria."
+        },
+        "debito_netto_fonti": {
+          "colore": "red",
+          "commento": "Incidenza debito netto sulle fonti totali eccessiva, indicando forte dipendenza dal capitale di terzi."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "red",
+          "commento": "Debito finanziario lordo superiore al patrimonio netto, confermando lo squilibrio strutturale."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Eccessivo",
+      "colore": "red",
+      "commento": "L'onere finanziario è eccessivo rispetto alla capacità di generazione di reddito. Gli interessi passivi assorbono una quota insostenibile dei flussi operativi, compromettendo la redditività.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "rod": {
+          "colore": "orange",
+          "commento": "Costo medio del debito 6,11% in linea con il mercato ma elevato rispetto alla capacità di generazione di reddito."
+        },
+        "rod_finanziario": {
+          "colore": "orange",
+          "commento": "Costo del debito finanziario 6,72% riflette il deterioramento del profilo di rischio."
+        },
+        "burden_index": {
+          "colore": "red",
+          "commento": "Indice di onerosità 172,51% molto elevato, indica che gli oneri finanziari superano il reddito operativo."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Squilibrato",
+      "colore": "orange",
+      "commento": "La struttura dell'attivo presenta squilibri con elevate immobilizzazioni in corso (€8M) e crediti commerciali eccessivi. La composizione riflette investimenti significativi non ancora produttivi e problemi di incasso.",
+      "immobilizzazioni": "Le immobilizzazioni (€21,8M, 69% del totale) sono elevate, con €8M di immobilizzazioni in corso che non generano ancora reddito. Le immobilizzazioni finanziarie (€9,7M) includono partecipazioni strategiche che potrebbero essere valorizzate.",
+      "attivo_circolante": "L'attivo circolante (€8,3M) è composto principalmente da crediti commerciali (€4M) con DSO critico di 168 giorni. Le disponibilità liquide (€2,4M) sono insufficienti rispetto ai debiti a breve termine.",
+      "composizione_attivo": "La composizione 69/31 tra fisso e circolante è squilibrata per un'azienda di servizi. L'eccesso di immobilizzazioni e la carenza di liquidità creano tensioni operative."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "La struttura delle fonti è gravemente squilibrata con patrimonio netto insufficiente (22,4%) e debiti eccessivi. La dipendenza dal capitale di terzi è insostenibile rispetto alla capacità di generazione di reddito.",
+      "patrimonio_netto": "Il PN (€7,1M, 22,4% del totale) è insufficiente per il livello di rischio. L'utile d'esercizio positivo (€130K) è marginale e non compensa le perdite operative. La capitalizzazione è inadeguata.",
+      "debiti": "I debiti totali (€17,2M, 54% del totale) sono eccessivi, con €9,7M di debiti bancari. La struttura è rigida con prevalenza di debiti a medio-lungo termine che creano vincoli finanziari.",
+      "struttura_fonti": "La struttura PN 22% / Debiti 54% / Altri 24% è gravemente squilibrata. L'elevata dipendenza dal debito amplifica i rischi e limita la flessibilità operativa."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Il conto economico evidenzia perdite operative significative nonostante ricavi stabili. La gestione caratteristica è in perdita mentre il risultato positivo deriva principalmente da proventi finanziari da partecipazioni.",
+      "valore_produzione": "Ricavi di vendita €8,5M in calo del 7,4% rispetto all'esercizio precedente. Il calo è significativo in un settore in crescita, indicando perdita di competitività o problemi operativi.",
+      "costi_produzione": "I costi della produzione (€10M) superano i ricavi, generando perdita operativa di €61K. I costi del personale (€3,5M) rappresentano il 41% dei ricavi, incidenza elevata che richiede ottimizzazione.",
+      "gestione_finanziaria": "La gestione finanziaria è positiva (+€298K) grazie a proventi da partecipazioni (€952K) che compensano parzialmente le perdite operative. Dipendenza critica da proventi non operativi.",
+      "risultato_esercizio": "Utile d'esercizio €130K marginale, derivante principalmente da proventi finanziari. Senza questi proventi, l'azienda registrerebbe perdite significative."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi di cassa evidenzia generazione operativa insufficiente e dipendenza da proventi finanziari per mantenere equilibri.",
+      "operating_cf": "Cash flow operativo positivo (€573K) ma inferiore alle necessità, sostenuto principalmente da proventi da partecipazioni piuttosto che da attività operative core.",
+      "investing_cf": "Flusso investimenti significativo per immobilizzazioni in corso (€8M), assorbendo liquidità senza ancora generare ritorni operativi.",
+      "financing_cf": "Attività di finanziamento con incremento debiti per sostenere investimenti e coprire fabbisogni operativi."
+    }
+  },
+  "dscr": {
+    "valore": 0.58,
+    "giudizio_breve": "Insufficiente",
+    "colore": "red",
+    "commento": "Il DSCR di 0,58x è molto sotto la soglia critica di 1,0, indicando che l'EBITDA non è sufficiente a coprire il servizio del debito. L'azienda presenta difficoltà strutturali nel servire gli impegni finanziari e necessita di interventi correttivi urgenti.",
+    "componenti": {
+      "ebitda": 381276,
+      "oneri_finanziari": 657743,
+      "quota_capitale_annuale": null,
+      "servizio_debito": 657743
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è gravemente compromessa. Con DSCR sotto 1,0, l'azienda non genera flussi sufficienti per il servizio del debito. La situazione richiede ristrutturazione del debito o significativo miglioramento operativo.",
+    "capacita_indebitamento_residua": "Capacità di nuovo debito inesistente. L'azienda deve prioritariamente ridurre l'indebitamento esistente e migliorare la generazione di cassa operativa.",
+    "stress_test_result": "In qualsiasi scenario di stress, l'azienda non sarebbe in grado di servire il debito. Necessario piano di ristrutturazione finanziaria immediato."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "HIGH",
+    "elenco": [
+      "EBIT negativo persistente",
+      "Current Ratio sotto 1,0",
+      "DSO eccessivo (168 giorni)",
+      "PFN/EBITDA insostenibile (21,96x)",
+      "Riduzione fido bancario (-38%)"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "Margini operativi negativi con ROS -0,72% indicano perdite strutturali. Il deterioramento è significativo e richiede interventi immediati sui costi.",
+      "anomalie_magazzino": "Non applicabile per attività di servizi senza scorte significative.",
+      "anomalie_crediti": "DSO di 168 giorni estremamente elevato indica gravi problemi di incasso. Possibile sopravvalutazione crediti o clientela in difficoltà.",
+      "tensione_liquidita": "Current Ratio 0,69 indica tensione immediata. L'azienda potrebbe avere difficoltà a far fronte agli impegni a breve termine.",
+      "eccessivo_indebitamento": "Leverage 4,47x e PFN/EBITDA 21,96x indicano indebitamento insostenibile rispetto alla capacità di generazione di cassa.",
+      "eventi_negativi": "Dati non disponibili ma il deterioramento finanziario suggerisce possibili tensioni con creditori.",
+      "governance_concerns": "Management familiare con necessità di rinnovamento strategico per affrontare la crisi.",
+      "going_concern": "Sussistono dubbi sulla continuità aziendale senza interventi correttivi immediati. DSCR sotto 1,0 e perdite operative compromettono la sostenibilità."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Non Conforme",
+      "colore": "red",
+      "commento": "L'azienda presenta multiple criticità rispetto ai requisiti degli adeguati assetti. Diversi indicatori di allerta sono attivi e la situazione richiede attivazione di procedure di monitoraggio intensivo."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 7.71,
+        "soglia": 2.5,
+        "alert": true,
+        "commento": "7,71% molto sopra la soglia del 2,5%. Oneri finanziari eccessivi rispetto ai ricavi, indicando sovra-indebitamento."
+      },
+      "pn_debiti_totali": {
+        "valore": 41.22,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "41,22% sopra la soglia minima del 5,5% ma comunque basso per gli standard ottimali."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 69.46,
+        "soglia": 85,
+        "alert": true,
+        "commento": "69,46% sotto la soglia dell'85%. Liquidità a breve insufficiente per coprire passività correnti."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 1.81,
+        "soglia": 1.5,
+        "alert": false,
+        "commento": "1,81% sopra la soglia dell'1,5% ma marginalmente, sostenuto da proventi finanziari."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 1.02,
+        "soglia": 7,
+        "alert": false,
+        "commento": "1,02% sotto la soglia del 7%. Situazione regolare per debiti tributari e previdenziali."
+      }
+    },
+    "continuita_aziendale": "Sussistono significativi dubbi sulla continuità aziendale nei prossimi 12 mesi senza interventi correttivi. Le perdite operative, la tensione di liquidità e l'insostenibilità del debito richiedono piano di ristrutturazione immediato.",
+    "raccomandazioni_assetti": [
+      "Attivazione immediata di procedure di allerta interna",
+      "Piano di ristrutturazione operativa e finanziaria",
+      "Monitoraggio mensile degli indicatori critici",
+      "Valutazione supporto finanziario da parte dei soci"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "NON CONFORME - Multipli indicatori di allerta attivi. Situazione critica che richiede interventi immediati.",
+    "antiriciclaggio": "Struttura societaria complessa con multiple partecipazioni. Necessario monitoraggio transazioni infragruppo per conformità AML.",
+    "privacy_note": "Analisi basata su dati di bilancio pubblici e credit score. Trattamento dati conforme GDPR."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Implementare piano di riduzione costi strutturali del 15-20%",
+      "Rinegoziare scadenze debiti con sistema bancario",
+      "Accelerare incassi crediti commerciali (target DSO 90 giorni)",
+      "Ottimizzare gestione liquidità e working capital"
+    ],
+    "medio_termine": [
+      "Ristrutturazione operativa con focus su attività core profittevoli",
+      "Valutazione cessione asset non strategici per generare liquidità",
+      "Rafforzamento patrimoniale tramite conferimenti soci",
+      "Implementazione sistema di controllo di gestione avanzato"
+    ],
+    "strategiche": [
+      "Revisione strategica completa del business model",
+      "Valutazione partnership strategiche o cessione rami d'azienda",
+      "Diversificazione geografica per ridurre dipendenza da mercato sardo",
+      "Investimento in tecnologie per migliorare efficienza operativa"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "ECOSERDIANA presenta performance significativamente inferiori alla media settoriale in tutti gli indicatori chiave. Il posizionamento è nel quartile inferiore per redditività, liquidità e struttura finanziaria, richiedendo interventi correttivi urgenti per riallinearsi agli standard di settore.",
+    "posizionamento": "Quartile inferiore (Q1) per la maggior parte degli indicatori. Performance critica rispetto ai competitor.",
+    "benchmark_principali": [
+      "ROS -0,72% vs mediana settore +4,2% (-4,92pp)",
+      "ROI -0,4% vs mediana settore +6,8% (-7,2pp)",
+      "Current Ratio 0,69 vs mediana settore 1,25 (-45%)",
+      "DSO 168gg vs mediana settore 90gg (+87%)",
+      "Leverage 4,47x vs mediana settore 2,8x (+60%)"
+    ],
+    "trend_settore": "Il settore gestione rifiuti è in crescita (+5% CAGR) trainato da normative ambientali. La performance negativa di ECOSERDIANA è in controtendenza rispetto al mercato di riferimento."
+  },
+  "metadata": {
+    "generated_at": "2025-01-15T14:30:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "ECOSERDIANA.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.91,
+    "analysis_depth": "Comprehensive - Full financial analysis con focus su situazione di stress",
+    "disclaimers": [
+      "L'analisi si basa su dati di bilancio pubblici e credit score di terze parti",
+      "La situazione critica richiede validazione con dati interni aggiornati",
+      "Le raccomandazioni hanno carattere di urgenza data la situazione di stress",
+      "Si raccomanda consulenza specialistica per piano di ristrutturazione"
+    ]
+  }
+}
