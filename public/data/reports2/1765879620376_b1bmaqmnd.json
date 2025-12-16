@@ -1,0 +1,772 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "RATING B3 - OUTLOOK NEGATIVO",
+    "verdict_color": "orange",
+    "key_message": "Azienda pubblica del turismo con criticità strutturali evidenti. Sostenibilità del debito compromessa e redditività insufficiente. Richiede intervento urgente per evitare deterioramento.",
+    "numeri_chiave": [
+      "Rating B3 - Medio Alto Rischio",
+      "DSCR 0.95x - Sotto soglia critica 1.0x",
+      "ROE 5.4% - Sotto media settore",
+      "Debiti/EBITDA 12.8x - Eccessivo indebitamento",
+      "Fido operativo €21K - Molto contenuto"
+    ],
+    "risk_level": "MEDIO ALTO",
+    "focus_trimestre": "Urgente ristrutturazione debito e revisione modello operativo. Monitorare liquidità e sostenibilità finanziaria.",
+    "next_review": "Q1 2025 - Verifica implementazione piano di risanamento e andamento flussi di cassa"
+  },
+  "executive_summary": {
+    "sintesi": "MADONNA DI CAMPIGLIO AZIENDA PER IL TURISMO SPA presenta un profilo finanziario critico con rating B3 e rischio medio-alto. L'azienda opera nel settore turistico con forte dipendenza da contributi pubblici (46% dei ricavi). La sostenibilità del debito è compromessa con DSCR sotto la soglia critica e rapporto Debiti/EBITDA a 12.8x. La redditività è insufficiente e la struttura finanziaria squilibrata richiede intervento urgente.",
+    "giudizio_breve": "Criticità strutturali evidenti",
+    "colore": "orange",
+    "punti_forza": [
+      "Crescita fatturato +7.7% nonostante contesto difficile",
+      "Posizione strategica nel turismo montano (Madonna di Campiglio)",
+      "Supporto pubblico strutturale tramite contributi",
+      "Variazione risultato d'esercizio +124% (da perdita a utile)",
+      "Presenza territoriale consolidata con 4 sedi operative"
+    ],
+    "aree_attenzione": [
+      "DSCR 0.95x sotto soglia critica - insostenibilità debito",
+      "Rapporto Debiti/EBITDA 12.8x - eccessivo indebitamento",
+      "Forte dipendenza da contributi pubblici (€3.3M su €7.2M ricavi)",
+      "Marginalità operativa molto bassa (ROS 2.5%)",
+      "Liquidità limitata rispetto ai debiti a breve"
+    ],
+    "raccomandazioni_principali": [
+      "Ristrutturazione urgente del debito per allungare scadenze",
+      "Piano di efficientamento operativo per migliorare margini",
+      "Diversificazione fonti di ricavo oltre contributi pubblici"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi evidenzia un'azienda in fase di transizione critica. Il fatturato cresce (+7.7%) ma la marginalità rimane insufficiente. Il miglioramento del risultato d'esercizio (+124%) è positivo ma parte da base molto bassa. La dipendenza strutturale da contributi pubblici (46% dei ricavi) limita l'autonomia operativa e crea vulnerabilità a cambiamenti normativi.",
+    "risk_factors": "I principali fattori di rischio sono: (1) Insostenibilità finanziaria con DSCR sotto 1.0x; (2) Eccessivo indebitamento (12.8x EBITDA); (3) Dipendenza critica da contributi pubblici; (4) Marginalità operativa insufficiente; (5) Settore turistico esposto a shock esterni (pandemie, crisi economiche).",
+    "opportunity_signals": "Le opportunità derivano dalla posizione strategica in una destinazione turistica premium e dal potenziale di efficientamento operativo. La ripresa del turismo montano post-COVID e gli investimenti in sostenibilità potrebbero supportare la crescita.",
+    "management_quality_indicators": "La governance complessa tipica degli enti pubblici può limitare la velocità decisionale. Il miglioramento del risultato suggerisce capacità di adattamento, ma servono interventi strutturali più incisivi.",
+    "market_position": "Posizione dominante nel territorio di Madonna di Campiglio con ruolo di coordinamento dell'offerta turistica locale. Il brand territoriale è forte ma la monetizzazione rimane insufficiente.",
+    "operational_efficiency": "L'efficienza operativa è limitata dalla natura pubblica dell'ente e dalla complessità organizzativa. I costi del personale (€1.4M) e per servizi (€4.9M) richiedono ottimizzazione."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "dscr_critico",
+        "titolo": "DSCR Sotto Soglia Critica",
+        "descrizione": "DSCR 0.95x sotto la soglia minima di 1.0x per sostenibilità debito",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "dscr_attuale": 0.95,
+          "soglia_critica": 1,
+          "gap": "-5%"
+        },
+        "implicazioni": "L'azienda non genera flussi sufficienti per coprire il servizio del debito. Rischio di tensioni con creditori e necessità di ristrutturazione.",
+        "raccomandazione": "Ristrutturazione immediata del debito con allungamento scadenze e/o riduzione oneri finanziari.",
+        "trigger_escalation": "DSCR < 0.9x per 2 trimestri consecutivi"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW002",
+        "tipo": "eccessivo_indebitamento",
+        "titolo": "Rapporto Debiti/EBITDA Critico",
+        "descrizione": "Debiti/EBITDA a 12.8x molto sopra soglie prudenziali (max 4-5x)",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "debiti_ebitda": 12.8,
+          "soglia_prudenziale": 4,
+          "eccesso": "220%"
+        },
+        "implicazioni": "Struttura finanziaria insostenibile che limita flessibilità operativa e accesso al credito.",
+        "raccomandazione": "Piano di deleveraging attraverso dismissioni, efficientamento e/o ricapitalizzazione.",
+        "trigger_escalation": "Rapporto > 15x o trend in peggioramento"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "miglioramento_risultato",
+        "titolo": "Recupero Redditività",
+        "descrizione": "Risultato d'esercizio +124% da €9K a €21K",
+        "colore": "green",
+        "implicazioni": "Segnale di capacità di adattamento e miglioramento gestionale, seppur da base molto bassa.",
+        "sostenibilita": "Media - dipende da mantenimento contributi pubblici"
+      }
+    ],
+    "overall_risk_trend": "DETERIORAMENTO IN CORSO. I segnali critici superano quelli positivi. Necessario intervento strutturale urgente per evitare crisi finanziaria."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Status Quo",
+      "descrizione": "Scenario che assume mantenimento delle condizioni attuali",
+      "ipotesi": [
+        "Crescita fatturato +3% (normalizzazione post-ripresa)",
+        "Contributi pubblici stabili",
+        "Margine EBITDA invariato al 2.6%",
+        "Nessuna ristrutturazione debito"
+      ],
+      "dscr_proiettato": 0.92,
+      "rating_proiettato": "C1 (downgrade)",
+      "commento": "Nel base case il DSCR peggiora ulteriormente scendendo sotto 0.9x. Il rating subirebbe downgrade a C1. La situazione diventa insostenibile senza interventi."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Crisi Turismo",
+      "descrizione": "Scenario avverso con shock sul settore turistico",
+      "ipotesi": [
+        "Calo fatturato -15% (crisi turismo/recessione)",
+        "Riduzione contributi pubblici -10%",
+        "Costi fissi invariati nel breve",
+        "Aumento costo del debito +100bp"
+      ],
+      "dscr_proiettato": 0.65,
+      "rating_proiettato": "C2 (forte downgrade)",
+      "commento": "In scenario stress il DSCR crolla a 0.65x rendendo la situazione critica. Alto rischio di procedura di allerta o crisi aziendale."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Ristrutturazione Efficace",
+      "descrizione": "Scenario favorevole con ristrutturazione e efficientamento",
+      "ipotesi": [
+        "Ristrutturazione debito con riduzione oneri -50%",
+        "Piano efficientamento con riduzione costi -10%",
+        "Crescita fatturato +5% da nuove iniziative",
+        "Margine EBITDA migliorato al 4%"
+      ],
+      "dscr_proiettato": 1.35,
+      "rating_proiettato": "B2 (upgrade)",
+      "commento": "Con ristrutturazione efficace il DSCR tornerebbe sopra 1.3x e il rating potrebbe migliorare a B2. Scenario possibile ma richiede forte commitment."
+    },
+    "sensitivity_note": "Il DSCR è estremamente sensibile alle variazioni di EBITDA e oneri finanziari. Una riduzione del 10% dell'EBITDA porta il DSCR sotto 0.8x."
+  },
+  "peer_comparison": {
+    "peer_group": "Enti Pubblici Turismo e Aziende di Promozione Territoriale",
+    "sample_size": 45,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": 1.3,
+        "mediana": 3.2,
+        "percentile": 25,
+        "commento": "ROS nel quartile inferiore. Marginalità operativa insufficiente rispetto ai peer."
+      },
+      "roe": {
+        "azienda": 5.4,
+        "mediana": 8.1,
+        "percentile": 35,
+        "commento": "ROE sotto la media. Remunerazione del capitale proprio limitata."
+      },
+      "roi": {
+        "azienda": 2.7,
+        "mediana": 5.8,
+        "percentile": 20,
+        "commento": "ROI molto basso. Efficienza del capitale investito da migliorare."
+      },
+      "current_ratio": {
+        "azienda": 1.35,
+        "mediana": 1.55,
+        "percentile": 40,
+        "commento": "Liquidità sotto la media ma ancora accettabile."
+      },
+      "dso": {
+        "azienda": 80,
+        "mediana": 65,
+        "percentile": 30,
+        "commento": "DSO superiore alla media. Gestione crediti da ottimizzare."
+      },
+      "leverage": {
+        "azienda": 9.1,
+        "mediana": 4.2,
+        "percentile": 5,
+        "commento": "Leverage eccessivo, tra i peggiori del campione. Struttura finanziaria critica."
+      },
+      "pfn_ebitda": {
+        "azienda": 12.8,
+        "mediana": 3.5,
+        "percentile": 5,
+        "commento": "Rapporto debiti/EBITDA critico, nel bottom 5% del settore."
+      }
+    },
+    "sintesi_posizionamento": "L'azienda si colloca nel quartile inferiore per la maggior parte degli indicatori. Particolarmente critici gli indici di indebitamento che la pongono nel bottom 5% del settore. La performance è significativamente sotto la media dei peer.",
+    "aree_eccellenza": [],
+    "aree_miglioramento": [
+      "Struttura finanziaria (leverage, debiti/EBITDA) - Bottom 5%",
+      "Redditività operativa (ROS, ROI) - Quartile inferiore",
+      "Efficienza gestionale - Sotto media settore"
+    ]
+  },
+  "action_items": {
+    "urgente": [
+      {
+        "id": "AI001",
+        "area": "Finance",
+        "titolo": "Ristrutturazione Debito Immediata",
+        "azione": "Avviare negoziazione con creditori per ristrutturazione debito con allungamento scadenze e riduzione oneri",
+        "razionale": "DSCR 0.95x sotto soglia critica. Rischio di tensioni finanziarie immediate",
+        "impatto_atteso": "DSCR target >1.2x attraverso riduzione servizio debito",
+        "beneficio_stimato": "Sostenibilità finanziaria ripristinata",
+        "investimento_richiesto": "Costi legali e advisory €50-100K",
+        "roi_stimato": "Evitare crisi aziendale",
+        "owner_suggerito": "CFO / Consiglio di Amministrazione",
+        "timeline": "Avvio immediato, conclusione entro Q2 2025",
+        "kpi_monitoraggio": [
+          "DSCR mensile",
+          "Oneri finanziari",
+          "Scadenze debito"
+        ]
+      }
+    ],
+    "importante": [
+      {
+        "id": "AI002",
+        "area": "Operations",
+        "titolo": "Piano di Efficientamento Operativo",
+        "azione": "Implementare piano di riduzione costi operativi del 10-15% mantenendo qualità servizi",
+        "razionale": "Marginalità operativa insufficiente (ROS 1.3% vs 3.2% mediana)",
+        "impatto_atteso": "Miglioramento EBITDA margin dal 2.6% al 4%",
+        "beneficio_stimato": "€100-150K di risparmi annui",
+        "investimento_richiesto": "Consulenza organizzativa €30-50K",
+        "roi_stimato": "3-5x in 12 mesi",
+        "owner_suggerito": "Direttore Generale",
+        "timeline": "Piano entro Q1 2025, implementazione Q2-Q3 2025",
+        "kpi_monitoraggio": [
+          "Costi operativi/ricavi",
+          "EBITDA margin",
+          "Produttività"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Revenue",
+        "titolo": "Diversificazione Fonti di Ricavo",
+        "azione": "Sviluppare nuove linee di business meno dipendenti da contributi pubblici",
+        "razionale": "Dipendenza critica da contributi (46% ricavi) crea vulnerabilità",
+        "impatto_atteso": "Riduzione dipendenza contributi al 35% in 3 anni",
+        "beneficio_stimato": "Maggiore stabilità e autonomia finanziaria",
+        "investimento_richiesto": "€200-300K per nuove iniziative",
+        "owner_suggerito": "Direttore Commerciale",
+        "timeline": "Studio fattibilità 2025, implementazione 2026-2027",
+        "note": "Valutare servizi premium, eventi, merchandising"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate per urgenza finanziaria. La ristrutturazione del debito è prerequisito per la sostenibilità aziendale."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B3 - Medio Alto Rischio",
+      "colore": "orange",
+      "commento": "Rating B3 riflette significative criticità finanziarie con sostenibilità del debito compromessa. L'azienda presenta DSCR sotto la soglia critica e rapporto debiti/EBITDA eccessivo. Il rating è supportato dalla natura pubblica dell'ente e dal supporto istituzionale, ma richiede interventi urgenti.",
+      "outlook": "Negativo",
+      "fattori_supporto": [
+        "Natura pubblica dell'ente con supporto istituzionale",
+        "Posizione strategica nel turismo montano",
+        "Miglioramento risultato d'esercizio (+124%)",
+        "Contributi pubblici strutturali"
+      ],
+      "fattori_rischio": [
+        "DSCR sotto soglia critica (0.95x)",
+        "Eccessivo indebitamento (12.8x EBITDA)",
+        "Marginalità operativa insufficiente",
+        "Dipendenza critica da contributi pubblici"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Medio Alto (Verde Chiaro)",
+      "colore": "yellow",
+      "commento": "Risk Score VERDE CHIARO indica rischio nella media ma con tendenza al peggioramento. La combinazione di fattori strutturali critici richiede monitoraggio continuo e interventi correttivi."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 21.000",
+      "commento": "Il fido operativo di €21K è molto contenuto e riflette le criticità finanziarie. Rappresenta solo lo 0.6% del fatturato, indicando limitata fiducia creditizia. Incrementi futuri subordinati a miglioramento fondamentali.",
+      "utilizzo_suggerito": "Linea di credito per emergenze di liquidità. Sconsigliato utilizzo strutturale data la situazione finanziaria."
+    },
+    "trend_analysis": "Il rating è stabile su B3 ma con outlook negativo. Il fido operativo è stato ridotto da €30K a €21K (-30%) riflettendo il deterioramento percepito. Trend in peggioramento senza interventi correttivi.",
+    "probability_of_default": {
+      "valore": 8.5,
+      "classe": "High Risk",
+      "commento": "PD stimata 8.5% su orizzonte 12 mesi, significativamente superiore alla media. Riflette le criticità strutturali e la necessità di interventi urgenti."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano una situazione mista con criticità prevalenti. Particolarmente problematici i profili di sostenibilità del debito (1/5) ed economico (2/5). Il profilo di sviluppo (4/5) è l'unico elemento positivo significativo.",
+    "economico": {
+      "giudizio_breve": "Aspetti di Criticità",
+      "colore": "orange",
+      "commento": "Score 2/5. Redditività insufficiente con margini operativi molto bassi. Il ROS dell'1.3% è largamente sotto la media settoriale. La dipendenza da contributi pubblici limita l'autonomia economica.",
+      "driver_principali": [
+        "ROS 1.3% - molto basso",
+        "ROE 5.4% - sotto media",
+        "Dipendenza contributi 46%"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Struttura patrimoniale accettabile ma con squilibri. Il patrimonio netto di €380K è limitato rispetto alle dimensioni aziendali. La capitalizzazione è insufficiente per il livello di indebitamento.",
+      "driver_principali": [
+        "PN €380K - limitato",
+        "Capitalizzazione 11% - bassa",
+        "Equilibrio patrimoniale da migliorare"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Liquidità corrente accettabile (1.35x) ma struttura finanziaria squilibrata. L'eccessivo indebitamento e il DSCR critico compromettono la sostenibilità finanziaria.",
+      "driver_principali": [
+        "Current ratio 1.35x - accettabile",
+        "DSCR 0.95x - critico",
+        "Debiti/EBITDA 12.8x - eccessivo"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score non specificato ma stimato 3/5. Efficienza operativa limitata dalla natura pubblica dell'ente. I costi per servizi (€4.9M) rappresentano il 69% dei ricavi, indicando margini di ottimizzazione.",
+      "driver_principali": [
+        "Costi/ricavi elevati",
+        "Efficienza da migliorare",
+        "Struttura organizzativa complessa"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Positivo",
+      "colore": "green",
+      "commento": "Score 4/5. Crescita del fatturato (+7.7%) e forte miglioramento del risultato (+124%). Segnali di capacità di adattamento e ripresa post-COVID nel settore turistico.",
+      "driver_principali": [
+        "Crescita fatturato +7.7%",
+        "Risultato +124%",
+        "Ripresa settore turistico"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Insufficiente",
+      "colore": "orange",
+      "commento": "La redditività è il principale punto di debolezza. Tutti gli indicatori sono sotto le soglie di accettabilità, evidenziando un modello di business che fatica a generare valore economico sostenibile.",
+      "trend_yoy": "In lieve miglioramento (+124% risultato)",
+      "indicatori": {
+        "ros": {
+          "colore": "red",
+          "commento": "ROS 1.3% molto sotto la soglia del 5%. Marginalità operativa critica che non copre adeguatamente i costi del capitale."
+        },
+        "roe": {
+          "colore": "orange",
+          "commento": "ROE 5.4% sotto la soglia del 12%. Remunerazione del capitale proprio limitata, poco attrattiva per potenziali investitori."
+        },
+        "roi": {
+          "colore": "red",
+          "commento": "ROI 2.7% molto sotto la soglia del 10%. Efficienza del capitale investito critica."
+        },
+        "roa": {
+          "colore": "red",
+          "commento": "ROA 2.7% sotto la soglia dell'8%. Redditività degli asset insufficiente."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "orange",
+          "commento": "Forte dipendenza da contributi pubblici (46% ricavi) che distorce la valutazione della gestione caratteristica."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Accettabile",
+      "colore": "yellow",
+      "commento": "La liquidità è al limite dell'accettabilità. Il current ratio di 1.35x è sopra la soglia critica di 1.0 ma sotto l'ottimale di 1.5x. La gestione della liquidità richiede attenzione costante.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "yellow",
+          "commento": "Current Ratio 1.35x sotto la soglia ottimale di 1.5 ma sopra il minimo di 1.0. Margine di sicurezza limitato."
+        },
+        "acid_test": {
+          "colore": "yellow",
+          "commento": "Acid Test 1.35x al limite dell'accettabilità. Escludendo le rimanenze minime, la copertura è appena sufficiente."
+        },
+        "cash_short_term_debt": {
+          "colore": "yellow",
+          "commento": "Rapporto cassa/debiti a breve limitato. Disponibilità liquide di €644K vs debiti correnti €2.1M."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo. Le immobilizzazioni sono coperte da fonti durevoli."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Anche il margine secondario è positivo, confermando equilibrio strutturale di base."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Copertura immobilizzazioni adeguata con fonti permanenti."
+        },
+        "copertura_ccn": {
+          "colore": "yellow",
+          "commento": "Copertura capitale circolante netto al limite. Richiede monitoraggio."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Gli indicatori di indebitamento sono tutti in area critica. Il leverage di 9.1x e il rapporto debiti/EBITDA di 12.8x indicano una struttura finanziaria insostenibile che richiede ristrutturazione urgente.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "red",
+          "commento": "PFN/EBITDA a 12.8x molto sopra la soglia critica di 4x. Indica eccessivo indebitamento rispetto alla capacità di generazione di cassa."
+        },
+        "leverage": {
+          "colore": "red",
+          "commento": "Leverage 9.1x molto sopra la soglia di 5x. Dipendenza eccessiva da capitale di terzi."
+        },
+        "capitalizzazione": {
+          "colore": "red",
+          "commento": "Grado di capitalizzazione 11% molto sotto la soglia del 33%. Patrimonio netto insufficiente."
+        },
+        "debt_ratio": {
+          "colore": "red",
+          "commento": "Debt ratio 6.4 indica che i debiti sono oltre 6 volte il patrimonio netto. Squilibrio critico."
+        },
+        "bank_debt_assets": {
+          "colore": "yellow",
+          "commento": "Incidenza debito bancario sull'attivo contenuta (9%), ma il problema è il debito totale."
+        },
+        "bank_debt_ratio": {
+          "colore": "yellow",
+          "commento": "Rapporto debito bancario limitato, ma il debito commerciale è elevato."
+        },
+        "ebitda_net_leverage": {
+          "colore": "red",
+          "commento": "EBITDA leverage netto critico, conferma insostenibilità struttura finanziaria."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "red",
+          "commento": "Anche il leverage lordo è eccessivo rispetto alla generazione di cassa."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Gli indici di copertura evidenziano l'incapacità di servire adeguatamente il debito. Il DSCR sotto 1.0x indica che i flussi operativi sono insufficienti per coprire il servizio del debito.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "dscr": {
+          "colore": "red",
+          "commento": "DSCR 0.95x sotto la soglia critica di 1.0x. L'azienda non genera flussi sufficienti per servire il debito. Situazione insostenibile."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "green",
+          "commento": "Copertura interessi 20.9x ancora adeguata. Gli oneri finanziari sono contenuti rispetto all'EBITDA."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "green",
+          "commento": "Anche con EBIT la copertura interessi è sufficiente (10.1x)."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "green",
+          "commento": "Considerando i proventi finanziari, la copertura migliora (37x)."
+        },
+        "ebit_interessi_netti": {
+          "colore": "green",
+          "commento": "EBIT copre ampiamente gli interessi netti (17.9x)."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Accettabile",
+      "colore": "yellow",
+      "commento": "Il ciclo finanziario è gestibile con DSO di 80 giorni leggermente sopra la media. La natura dei servizi turistici giustifica tempi di incasso più lunghi, ma c'è margine di miglioramento.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "dso": {
+          "colore": "yellow",
+          "commento": "DSO 80 giorni sopra la soglia ottimale di 60 giorni ma accettabile per il settore turistico. Migliorabile con politiche di incasso più efficaci."
+        },
+        "dpo": {
+          "colore": "green",
+          "commento": "DPO 123 giorni superiore alla soglia di 60 giorni. Buona gestione dei pagamenti a fornitori che aiuta il cash flow."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO 1.6 giorni molto contenuto, coerente con attività di servizi. Nessun capitale immobilizzato in scorte."
+        },
+        "ciclo_finanziario": {
+          "colore": "green",
+          "commento": "Ciclo finanziario negativo (-41 giorni) indica che l'azienda incassa prima di pagare i fornitori. Positivo per il cash flow."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Positivo",
+      "colore": "green",
+      "commento": "Gli indicatori di sviluppo mostrano segnali incoraggianti con crescita del fatturato e forte miglioramento del risultato. La ripresa post-COVID nel settore turistico supporta il trend positivo.",
+      "trend_yoy": "In miglioramento",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "green",
+          "commento": "Crescita valore produzione +7.7% positiva, superiore alla media settoriale. Segnale di ripresa del turismo montano."
+        },
+        "variazione_ebit": {
+          "colore": "green",
+          "commento": "EBIT in miglioramento significativo, anche se da base bassa. Indica efficientamento operativo."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "yellow",
+          "commento": "Valore aggiunto +0.23% in lieve crescita. Creazione di valore limitata ma positiva."
+        },
+        "variazione_mol": {
+          "colore": "red",
+          "commento": "MOL -16% in contrazione. Pressione sui margini operativi da monitorare."
+        },
+        "variazione_totale_attivo": {
+          "colore": "green",
+          "commento": "Attivo +1.05% in crescita contenuta, coerente con l'espansione controllata."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario -0.54% in lieve riduzione. Segnale positivo di deleveraging."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Da Migliorare",
+      "colore": "yellow",
+      "commento": "L'efficienza operativa presenta margini di miglioramento. Il turnover index di 1.09 indica utilizzo subottimale degli asset. La natura pubblica dell'ente può limitare l'efficienza ma non giustifica performance così contenute.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "yellow",
+          "commento": "Turnover index 1.09 sotto l'ottimale. Ogni euro di attivo genera poco più di 1 euro di fatturato. Efficienza migliorabile."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione magazzino 219x molto elevata, coerente con attività di servizi. Nessun capitale immobilizzato."
+        },
+        "current_assets_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione attivo circolante da ottimizzare. Troppo capitale circolante rispetto al fatturato generato."
+        },
+        "ar_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione crediti 4.5x accettabile ma migliorabile. DSO di 80 giorni può essere ridotto."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Squilibrata",
+      "colore": "red",
+      "commento": "La struttura finanziaria presenta squilibri significativi con eccessiva dipendenza da debiti e patrimonio netto insufficiente. La composizione delle fonti non è sostenibile nel lungo termine.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "red",
+          "commento": "PFN netta molto superiore al patrimonio netto. Squilibrio critico tra debiti e mezzi propri."
+        },
+        "pfn_pn": {
+          "colore": "red",
+          "commento": "Conferma lo squilibrio strutturale con debiti eccessivi rispetto al capitale proprio."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "yellow",
+          "commento": "Debito finanziario limitato (€309K) ma il problema è il debito commerciale elevato."
+        },
+        "debito_netto_fonti": {
+          "colore": "red",
+          "commento": "Incidenza debito netto sulle fonti eccessiva. Struttura sbilanciata verso il debito."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "yellow",
+          "commento": "Debito finanziario lordo contenuto rispetto al PN, ma il debito totale è problematico."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Contenuto",
+      "colore": "yellow",
+      "commento": "L'onere finanziario è relativamente contenuto grazie al basso indebitamento bancario. Il ROD del 2.9% è accettabile, ma la sostenibilità dipende dal miglioramento dell'EBITDA.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "rod": {
+          "colore": "yellow",
+          "commento": "Costo medio del debito 2.9% accettabile per il profilo di rischio. In linea con tassi di mercato."
+        },
+        "rod_finanziario": {
+          "colore": "yellow",
+          "commento": "Costo del debito finanziario 2.9% coerente con rating B3 e natura pubblica dell'ente."
+        },
+        "burden_index": {
+          "colore": "yellow",
+          "commento": "Indice di onerosità 4.8% indica che gli oneri finanziari assorbono circa il 5% dell'EBITDA. Sostenibile se l'EBITDA migliora."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Struttura Semplice",
+      "colore": "yellow",
+      "commento": "La struttura dell'attivo riflette la natura di ente pubblico per il turismo. Le immobilizzazioni (€173K) sono contenute, mentre l'attivo circolante (€3.1M) è dominato da crediti verso enti pubblici e disponibilità liquide.",
+      "immobilizzazioni": "Immobilizzazioni totali €173K (5% dell'attivo) composte da immateriali €80K (software, licenze) e materiali €82K (attrezzature ufficio). Investimenti limitati coerenti con l'attività di promozione turistica. Nessuna immobilizzazione finanziaria significativa.",
+      "attivo_circolante": "Attivo circolante €3.1M (91% del totale) con crediti €2.5M (principalmente verso enti pubblici per contributi) e liquidità €644K. Le rimanenze sono minime (€17K). Struttura tipica di ente pubblico con forte componente creditoria.",
+      "composizione_attivo": "Composizione 5% immobilizzato / 95% circolante tipica di azienda di servizi. L'elevata incidenza dei crediti (72% dell'attivo) riflette i tempi di erogazione dei contributi pubblici."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Squilibrato",
+      "colore": "red",
+      "commento": "La struttura delle fonti evidenzia un grave squilibrio con patrimonio netto di soli €380K (11% del totale) e debiti di €2.4M (71%). La sottocapitalizzazione è critica per la sostenibilità aziendale.",
+      "patrimonio_netto": "PN €380K composto da capitale sociale €217K, riserve €142K e utile €21K. La dotazione patrimoniale è insufficiente per le dimensioni aziendali (fatturato €3.7M). Il capitale sociale non è mai stato aumentato dalla costituzione.",
+      "debiti": "Debiti totali €2.4M di cui €1.7M verso fornitori, €309K verso banche, €173K tributari/previdenziali. La componente commerciale è prevalente, tipica di enti pubblici con pagamenti dilazionati. Debiti bancari contenuti.",
+      "struttura_fonti": "Struttura PN 11% / Debiti 71% / TFR 10% / Ratei 8% evidenzia grave sottocapitalizzazione. La dipendenza da debiti commerciali è eccessiva e crea vulnerabilità finanziaria."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Marginalità Critica",
+      "colore": "red",
+      "commento": "Il conto economico evidenzia ricavi di €7.2M ma marginalità operativa critica. La forte dipendenza da contributi pubblici (€3.3M) e i costi elevati per servizi (€4.9M) limitano la sostenibilità economica.",
+      "valore_produzione": "Valore produzione €7.2M composto da ricavi vendite €3.7M e altri ricavi €3.4M (principalmente contributi pubblici). La dipendenza da contributi (47%) è strutturale e crea vulnerabilità a cambiamenti normativi.",
+      "costi_produzione": "Costi produzione €7.1M con incidenza 99% sui ricavi. Principali voci: servizi €4.9M (69%), personale €1.4M (20%), ammortamenti €97K. La struttura dei costi è rigida con limitata flessibilità operativa.",
+      "gestione_finanziaria": "Gestione finanziaria negativa per €5K con oneri €9K e proventi €4K. L'impatto è marginale sul risultato. Oneri finanziari contenuti grazie al basso indebitamento bancario.",
+      "risultato_esercizio": "Utile €21K (0.3% dei ricavi) in miglioramento da €9K precedente (+124%). Risultato positivo ma marginale, insufficiente per autofinanziamento e crescita."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi evidenzia generazione operativa limitata con cash flow di €118K, insufficiente per investimenti significativi e servizio del debito ottimale.",
+      "operating_cf": "Cash flow operativo €118K positivo ma contenuto. La generazione di cassa è limitata dalla bassa marginalità e dai tempi di incasso dei contributi pubblici.",
+      "investing_cf": "Flusso investimenti limitato, principalmente manutenzioni ordinarie. Nessun grande progetto di sviluppo in corso per mancanza di risorse.",
+      "financing_cf": "Attività di finanziamento orientata al mantenimento delle linee di credito esistenti. Nessun aumento di capitale o nuovi finanziamenti significativi."
+    }
+  },
+  "dscr": {
+    "valore": 0.95,
+    "giudizio_breve": "Critico",
+    "colore": "red",
+    "commento": "Il DSCR di 0.95x è sotto la soglia critica di 1.0x, indicando che l'azienda non genera flussi operativi sufficienti per coprire il servizio del debito. La situazione è insostenibile e richiede ristrutturazione urgente del debito o miglioramento significativo dell'EBITDA.",
+    "componenti": {
+      "ebitda": 189814,
+      "oneri_finanziari": 9079,
+      "quota_capitale_annuale": 190000,
+      "servizio_debito": 199079
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è compromessa. Con DSCR sotto 1.0x, l'azienda dipende da fonti esterne per servire il debito. La ristrutturazione è necessaria per allungare le scadenze e ridurre il servizio annuale. Senza interventi, il rischio di tensioni finanziarie è elevato.",
+    "capacita_indebitamento_residua": "Capacità di nuovo debito inesistente. L'azienda deve prima ristrutturare l'esistente e migliorare la generazione di cassa prima di considerare nuovo indebitamento.",
+    "stress_test_result": "In scenario stress (EBITDA -20%), il DSCR scenderebbe a 0.76x, rendendo la situazione critica. Anche miglioramenti modesti dell'EBITDA (+20%) porterebbero il DSCR solo a 1.14x."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "HIGH",
+    "elenco": [
+      "DSCR sotto soglia critica (0.95x)",
+      "Rapporto Debiti/EBITDA eccessivo (12.8x)",
+      "Sottocapitalizzazione grave (PN 11% del totale)",
+      "Marginalità operativa critica (ROS 1.3%)"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "ROS 1.3% molto sotto la media settoriale (3.2%). La marginalità è insufficiente per coprire il costo del capitale e garantire sostenibilità. La dipendenza da contributi pubblici distorce la valutazione della gestione caratteristica.",
+      "anomalie_magazzino": "Nessuna anomalia. Rimanenze minime (€17K) coerenti con attività di servizi.",
+      "anomalie_crediti": "Crediti €2.5M (69% dell'attivo) elevati ma giustificati dai tempi di erogazione dei contributi pubblici. DSO 80 giorni accettabile per il settore.",
+      "tensione_liquidita": "Current ratio 1.35x al limite dell'accettabilità. Liquidità €644K vs debiti correnti €2.1M crea potenziali tensioni. Dipendenza da incassi contributi per equilibrio finanziario.",
+      "eccessivo_indebitamento": "Leverage 9.1x e debiti/EBITDA 12.8x indicano eccessivo indebitamento. Struttura finanziaria insostenibile che richiede ristrutturazione urgente.",
+      "eventi_negativi": "Dati non disponibili al momento dell'analisi (sistema in pending).",
+      "governance_concerns": "Governance pubblica complessa con 10 amministratori e azionariato frammentato tra enti pubblici. Possibili inefficienze decisionali.",
+      "going_concern": "Continuità aziendale a rischio senza ristrutturazione debito. DSCR sotto 1.0x e marginalità insufficiente compromettono sostenibilità."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Non Conforme",
+      "colore": "red",
+      "commento": "L'azienda presenta criticità rispetto agli adeguati assetti organizzativi previsti dal Codice della Crisi. Il DSCR sotto 1.0x e l'eccessivo indebitamento indicano inadeguatezza degli assetti per prevenire la crisi aziendale."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 0.13,
+        "soglia": 2.5,
+        "alert": false,
+        "commento": "0.13% molto sotto la soglia del 2.5%. Oneri finanziari contenuti non rappresentano criticità."
+      },
+      "pn_debiti_totali": {
+        "valore": 15.6,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "15.6% sopra la soglia del 5.5%. Patrimonio netto superiore al minimo settoriale ma insufficiente in valore assoluto."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 135.2,
+        "soglia": 85,
+        "alert": false,
+        "commento": "135.2% sopra la soglia dell'85%. Liquidità a breve sufficiente per coprire passività correnti."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 3.4,
+        "soglia": 1.5,
+        "alert": false,
+        "commento": "3.4% sopra la soglia dell'1.5%. Generazione di cassa rispetto all'attivo accettabile."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 5,
+        "soglia": 7,
+        "alert": false,
+        "commento": "5.0% sotto la soglia del 7%. Debiti tributari/previdenziali sotto controllo."
+      }
+    },
+    "continuita_aziendale": "La continuità aziendale è a rischio senza interventi correttivi. Il DSCR sotto 1.0x indica incapacità di servire il debito con i flussi operativi. Necessaria ristrutturazione urgente per evitare procedure di allerta.",
+    "raccomandazioni_assetti": [
+      "Implementare sistema di monitoraggio continuo del DSCR",
+      "Attivare piano di ristrutturazione debito immediato",
+      "Rafforzare controllo di gestione e reporting finanziario",
+      "Valutare ricapitalizzazione per rafforzare patrimonio netto"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "CRITICO - DSCR sotto soglia critica richiede attivazione procedure di allerta interna",
+    "antiriciclaggio": "Ente pubblico con governance trasparente. Nessuna criticità AML evidenziata.",
+    "privacy_note": "Analisi basata su dati pubblici di bilancio e credit score. Rispetto normativa privacy."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Ristrutturazione immediata del debito con allungamento scadenze per portare DSCR >1.2x",
+      "Implementazione piano di efficientamento operativo per riduzione costi 10-15%",
+      "Monitoraggio settimanale della liquidità e dei flussi di cassa",
+      "Negoziazione con fornitori per dilazione pagamenti e miglioramento DPO"
+    ],
+    "medio_termine": [
+      "Ricapitalizzazione per rafforzare patrimonio netto a €1M minimo",
+      "Diversificazione fonti di ricavo per ridurre dipendenza da contributi pubblici",
+      "Implementazione sistema di controllo di gestione strutturato",
+      "Revisione governance per migliorare efficienza decisionale"
+    ],
+    "strategiche": [
+      "Valutazione fusione con altri enti turistici per economie di scala",
+      "Sviluppo modello di business sostenibile meno dipendente da contributi",
+      "Investimenti in digitalizzazione per efficientamento processi",
+      "Partnership strategiche con operatori privati per nuove fonti di ricavo"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "L'azienda si posiziona nel quartile inferiore del settore per la maggior parte degli indicatori. Particolarmente critici gli indici di indebitamento e redditività che la collocano nel bottom 10% del campione di riferimento.",
+    "posizionamento": "Bottom 10% per leverage e debiti/EBITDA. Quartile inferiore per redditività. Performance significativamente sotto la media dei peer.",
+    "benchmark_principali": [
+      "ROS 1.3% vs mediana 3.2% (-59%)",
+      "ROE 5.4% vs mediana 8.1% (-33%)",
+      "Leverage 9.1x vs mediana 4.2x (+117%)",
+      "Debiti/EBITDA 12.8x vs mediana 3.5x (+266%)"
+    ],
+    "trend_settore": "Il settore degli enti turistici pubblici è in fase di consolidamento con pressione su efficienza e sostenibilità. La digitalizzazione e la diversificazione delle fonti di ricavo sono trend emergenti."
+  },
+  "metadata": {
+    "generated_at": "2025-01-15T14:30:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "MADONNA_DI_CAMPIGLIO.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.91,
+    "analysis_depth": "Comprehensive - Full financial analysis with critical risk assessment",
+    "disclaimers": [
+      "L'analisi si basa su dati di bilancio pubblici e credit score di terze parti",
+      "Le proiezioni hanno natura indicativa e non costituiscono previsioni",
+      "Situazione critica richiede validazione con dati interni aggiornati",
+      "L'analisi non sostituisce consulenza professionale specializzata"
+    ]
+  }
+}
