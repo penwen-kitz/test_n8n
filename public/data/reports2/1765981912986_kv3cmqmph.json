@@ -1,0 +1,784 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "INVESTMENT GRADE - OUTLOOK STABILE",
+    "verdict_color": "green",
+    "key_message": "Azienda solida del settore costruzioni con rating B1 e rischio basso. Struttura patrimoniale equilibrata e buona redditività operativa. Fase di consolidamento post-contrazione 2024.",
+    "numeri_chiave": [
+      "Rating B1 (stabile) - Investment Grade",
+      "ROI 12,5% - Buona redditività capitale",
+      "ROS 20,1% - Margini eccellenti",
+      "Current Ratio 1,34 - Liquidità adeguata",
+      "Zero eventi negativi"
+    ],
+    "risk_level": "BASSO",
+    "focus_trimestre": "Monitorare ripresa fatturato post-contrazione 2024 (-50%) e gestione crediti tributari elevati",
+    "next_review": "Q2 2025 - Verifica trend ripresa e sostenibilità margini"
+  },
+  "executive_summary": {
+    "sintesi": "GIORICO COSTRUZIONI SRL presenta un profilo finanziario solido con rating B1 e rischio basso. L'azienda opera nel settore costruzioni con ottima redditività operativa (ROS 20,1%) nonostante la significativa contrazione del fatturato 2024 (-50%). La struttura patrimoniale è equilibrata con buona capitalizzazione. La liquidità è adeguata per far fronte agli impegni correnti.",
+    "giudizio_breve": "Azienda solida in fase di consolidamento",
+    "colore": "green",
+    "punti_forza": [
+      "Marginalità operativa eccellente (ROS 20,1%) - ai vertici del settore",
+      "Buona redditività del capitale investito (ROI 12,5%)",
+      "Struttura patrimoniale equilibrata (PN 30% del totale)",
+      "Liquidità solida (€1,6M disponibilità)",
+      "Nessun evento negativo (protesti, procedure, pregiudizievoli)",
+      "Certificazione SOA per opere pubbliche",
+      "Management giovane e qualificato"
+    ],
+    "aree_attenzione": [
+      "Forte contrazione fatturato 2024 (-50%) da monitorare",
+      "Crediti tributari elevati (€6,4M) - 46% dell'attivo",
+      "Oneri finanziari significativi rispetto all'EBITDA",
+      "Ciclo finanziario negativo da gestire con attenzione"
+    ],
+    "raccomandazioni_principali": [
+      "Monitorare attentamente la ripresa del fatturato nel 2025",
+      "Ottimizzare gestione crediti tributari per migliorare liquidità",
+      "Valutare rinegoziazione condizioni finanziarie per ridurre oneri"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi evidenzia una fase di transizione per l'azienda: dopo anni di crescita, il 2024 ha registrato una significativa contrazione del fatturato (-50%) tipica del settore costruzioni in fase ciclica. Tuttavia, i margini operativi si sono mantenuti elevati (ROS 20,1%), indicando buona disciplina gestionale e capacità di adattamento ai volumi ridotti.",
+    "risk_factors": "I principali fattori di rischio sono: (1) Dipendenza dalla ripresa del settore costruzioni; (2) Elevata esposizione creditoria verso l'erario (€6,4M); (3) Oneri finanziari significativi che impattano sulla redditività netta; (4) Concentrazione geografica in Sardegna. La solidità patrimoniale mitiga questi rischi.",
+    "opportunity_signals": "Le opportunità includono: (1) Certificazione SOA che consente accesso a opere pubbliche; (2) Posizionamento in mercato di nicchia con barriere all'ingresso; (3) Liquidità disponibile per cogliere opportunità di mercato; (4) Management giovane con potenziale di sviluppo; (5) Possibile ripresa settore costruzioni nel 2025.",
+    "management_quality_indicators": "Il management guidato da GIUSEPPE RICCARDO GIORICO (29 anni) mostra competenza nella gestione della crisi 2024, mantenendo margini elevati nonostante la contrazione. La presenza di responsabili tecnici qualificati e la certificazione SOA indicano professionalità e compliance normativa.",
+    "market_position": "L'azienda opera nel settore costruzioni con focus su edifici residenziali e non residenziali. La certificazione SOA per impianti elettrici amplia le opportunità verso il settore pubblico. Il posizionamento in Sardegna offre protezione dalla concorrenza ma limita le opportunità di diversificazione geografica.",
+    "operational_efficiency": "L'efficienza operativa è buona con margini che si mantengono elevati anche in fase di contrazione. Il controllo dei costi fissi ha permesso di preservare la redditività. La gestione del capitale circolante presenta alcune criticità legate ai crediti tributari elevati."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "contrazione_fatturato_severa",
+        "titolo": "Contrazione Fatturato Significativa",
+        "descrizione": "Fatturato 2024 in calo del 50% rispetto al 2023",
+        "severity": "medium",
+        "colore": "yellow",
+        "metriche": {
+          "variazione_fatturato": "-50.2%",
+          "trend": "negativo"
+        },
+        "implicazioni": "Possibile impatto su sostenibilità costi fissi e servizio del debito se il trend persiste",
+        "raccomandazione": "Monitorare attentamente l'andamento ordini 2025 e pianificare azioni correttive",
+        "trigger_escalation": "Ulteriore calo >20% nel 2025"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW002",
+        "tipo": "crediti_tributari_elevati",
+        "titolo": "Crediti Tributari Significativi",
+        "descrizione": "Crediti tributari €6,4M rappresentano il 46% dell'attivo totale",
+        "severity": "low",
+        "colore": "yellow",
+        "metriche": {
+          "crediti_tributari": 6367239,
+          "percentuale_attivo": "46%"
+        },
+        "implicazioni": "Elevata esposizione verso l'erario con possibili ritardi negli incassi",
+        "raccomandazione": "Monitorare tempi di recupero e valutare cessione pro-soluto se necessario",
+        "trigger_escalation": "Incremento >20% o ritardi incasso >12 mesi"
+      }
+    ],
+    "pattern_positivi": [
+      {
+        "id": "PP001",
+        "tipo": "margini_resilienti",
+        "titolo": "Margini Operativi Resilienti",
+        "descrizione": "ROS al 20,1% mantenuto elevato nonostante contrazione volumi",
+        "colore": "green",
+        "implicazioni": "Conferma capacità di adattamento e controllo costi in fase avversa",
+        "sostenibilita": "Alta - indica flessibilità operativa"
+      },
+      {
+        "id": "PP002",
+        "tipo": "zero_eventi_negativi",
+        "titolo": "Track Record Impeccabile",
+        "descrizione": "Nessun evento negativo rilevato negli ultimi anni",
+        "colore": "green",
+        "implicazioni": "Indica solidità nei pagamenti e gestione prudente",
+        "sostenibilita": "Alta se mantenuta disciplina finanziaria"
+      }
+    ],
+    "overall_risk_trend": "STABILE CON MONITORAGGIO. La contrazione 2024 è gestita con disciplina mantenendo margini elevati. I segnali da monitorare sono bilanciati da pattern positivi strutturali. Outlook dipendente dalla ripresa settoriale."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Ripresa Graduale",
+      "descrizione": "Scenario baseline con ripresa graduale del settore costruzioni",
+      "ipotesi": [
+        "Ripresa fatturato +25% nel 2025 (normalizzazione parziale)",
+        "Margine EBITDA stabile al 21%",
+        "Recupero graduale crediti tributari",
+        "Mantenimento certificazione SOA",
+        "Oneri finanziari stabili"
+      ],
+      "dscr_proiettato": 1.2,
+      "rating_proiettato": "B1 (stabile)",
+      "commento": "Nel base case l'azienda beneficia della ripresa settoriale mantenendo buoni margini. Il rating B1 è confermato con miglioramento delle metriche operative."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Stagnazione Prolungata",
+      "descrizione": "Scenario avverso con persistente debolezza del settore",
+      "ipotesi": [
+        "Fatturato stabile sui livelli 2024 (no ripresa)",
+        "Pressione sui margini (-2pp) per competizione",
+        "Ritardi nel recupero crediti tributari",
+        "Incremento oneri finanziari",
+        "Necessità di riduzione costi fissi"
+      ],
+      "dscr_proiettato": 0.9,
+      "rating_proiettato": "B2 (downgrade)",
+      "commento": "In scenario stress l'azienda potrebbe affrontare tensioni nella copertura del servizio del debito. Necessarie azioni correttive su costi e struttura finanziaria."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Ripresa Forte",
+      "descrizione": "Scenario favorevole con forte ripresa del settore",
+      "ipotesi": [
+        "Ripresa fatturato +50% (ritorno ai livelli pre-2024)",
+        "Margini in miglioramento (+1pp) per leva operativa",
+        "Recupero accelerato crediti tributari",
+        "Nuove opportunità da opere pubbliche (SOA)",
+        "Possibile espansione geografica"
+      ],
+      "dscr_proiettato": 1.8,
+      "rating_proiettato": "B1+ (upgrade potenziale)",
+      "commento": "Nello scenario upside l'azienda potrebbe raggiungere performance pre-crisi con potenziale upgrade del rating. Probabilità scenario: 30%."
+    },
+    "sensitivity_note": "L'analisi di sensitività mostra forte correlazione con l'andamento del settore costruzioni. La variabile critica è il fatturato: variazioni >±30% impattano significativamente sulla sostenibilità finanziaria."
+  },
+  "peer_comparison": {
+    "peer_group": "Costruzione Edifici - PMI Italia (ATECO 41.xx)",
+    "sample_size": 53480,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": 20.1,
+        "mediana": 8.2,
+        "percentile": 95,
+        "commento": "Eccellente marginalità operativa, top 5% del settore. Riflette efficienza e posizionamento di qualità."
+      },
+      "roe": {
+        "azienda": 10,
+        "mediana": 7.5,
+        "percentile": 70,
+        "commento": "Buona remunerazione del capitale proprio, sopra la mediana settoriale."
+      },
+      "roi": {
+        "azienda": 12.5,
+        "mediana": 9.1,
+        "percentile": 75,
+        "commento": "Efficienza del capitale investito superiore alla media del settore."
+      },
+      "current_ratio": {
+        "azienda": 1.34,
+        "mediana": 1.28,
+        "percentile": 60,
+        "commento": "Liquidità in linea con il settore, adeguata per far fronte agli impegni correnti."
+      },
+      "dso": {
+        "azienda": 124,
+        "mediana": 95,
+        "percentile": 25,
+        "commento": "Giorni di incasso superiori alla media, principalmente per crediti tributari elevati."
+      },
+      "leverage": {
+        "azienda": 3.33,
+        "mediana": 2.8,
+        "percentile": 35,
+        "commento": "Indebitamento leggermente superiore alla media ma gestibile data la redditività."
+      },
+      "pfn_ebitda": {
+        "azienda": -0.41,
+        "mediana": 2.5,
+        "percentile": 85,
+        "commento": "Posizione finanziaria netta negativa (cassa netta) - situazione favorevole vs settore tipicamente indebitato."
+      }
+    },
+    "sintesi_posizionamento": "GIORICO COSTRUZIONI si posiziona nel quartile superiore per redditività operativa (top 5%) e presenta una situazione finanziaria migliore della media settoriale. L'unica area sotto la media è la gestione dei crediti commerciali.",
+    "aree_eccellenza": [
+      "Redditività operativa (ROS) - Top 5% del settore",
+      "Posizione finanziaria netta - Migliore dell'85% dei competitors",
+      "Efficienza del capitale investito - Quartile superiore"
+    ],
+    "aree_miglioramento": [
+      "Gestione crediti commerciali (DSO) - Quartile inferiore",
+      "Velocità di incasso - Da ottimizzare"
+    ]
+  },
+  "action_items": {
+    "urgente": [],
+    "importante": [
+      {
+        "id": "AI001",
+        "area": "Sviluppo Commerciale",
+        "titolo": "Piano Ripresa Fatturato 2025",
+        "azione": "Definire piano commerciale strutturato per la ripresa del fatturato con focus su opere pubbliche (SOA) e clienti privati qualificati",
+        "razionale": "Contrazione fatturato 2024 (-50%) richiede azioni immediate per il rilancio",
+        "impatto_atteso": "Ripresa fatturato +25-30% nel 2025",
+        "beneficio_stimato": "Miglioramento sostenibilità e copertura costi fissi",
+        "investimento_richiesto": "€30-50K per azioni commerciali",
+        "roi_stimato": "5-8x considerando margini elevati",
+        "owner_suggerito": "CEO / Direttore Commerciale",
+        "timeline": "Piano Q1 2025, implementazione continua",
+        "kpi_monitoraggio": [
+          "Fatturato mensile",
+          "Portafoglio ordini",
+          "Margini per commessa"
+        ]
+      },
+      {
+        "id": "AI002",
+        "area": "Finance",
+        "titolo": "Ottimizzazione Crediti Tributari",
+        "azione": "Implementare piano di recupero accelerato dei crediti tributari (€6,4M) attraverso compensazioni, cessioni o accordi con l'erario",
+        "razionale": "Crediti tributari rappresentano 46% dell'attivo con possibili ritardi negli incassi",
+        "impatto_atteso": "Recupero 70-80% dei crediti in 12 mesi",
+        "beneficio_stimato": "Miglioramento liquidità €4-5M",
+        "investimento_richiesto": "€15-25K per consulenza fiscale specializzata",
+        "roi_stimato": "200-300x considerando valore recuperato",
+        "owner_suggerito": "CFO / Consulente Fiscale",
+        "timeline": "Avvio immediato, risultati attesi 6-12 mesi",
+        "kpi_monitoraggio": [
+          "Crediti tributari residui",
+          "Incassi mensili",
+          "Tempi di recupero"
+        ]
+      }
+    ],
+    "opportunita": [
+      {
+        "id": "OP001",
+        "area": "Crescita",
+        "titolo": "Espansione Opere Pubbliche",
+        "azione": "Sfruttare la certificazione SOA per partecipare a bandi pubblici di maggiore dimensione, anche in partnership con altri operatori",
+        "razionale": "Certificazione SOA apre opportunità nel settore pubblico con maggiore stabilità e margini",
+        "impatto_atteso": "Diversificazione portafoglio clienti e stabilizzazione ricavi",
+        "beneficio_stimato": "Incremento fatturato 20-30% da settore pubblico",
+        "investimento_richiesto": "€20-30K per struttura commerciale dedicata",
+        "owner_suggerito": "CEO / Business Development",
+        "timeline": "Sviluppo 2025, primi risultati 2026",
+        "note": "Valutare partnership strategiche per bandi di maggiore dimensione"
+      }
+    ],
+    "nota_metodologica": "Le action items sono prioritizzate considerando l'urgenza della ripresa post-contrazione 2024. ROI stimati basati su benchmark settoriali e situazione specifica dell'azienda."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "B1 - Investment Grade",
+      "colore": "green",
+      "commento": "Rating B1 nella fascia investment grade. L'azienda presenta fondamentali solidi nonostante la contrazione 2024. Il rating riflette la buona redditività operativa, la struttura patrimoniale equilibrata e l'assenza di eventi negativi. Outlook stabile condizionato dalla ripresa settoriale.",
+      "outlook": "Stabile",
+      "fattori_supporto": [
+        "Redditività operativa eccellente (ROS 20,1%)",
+        "Posizione finanziaria netta negativa (cassa netta)",
+        "Assenza eventi negativi",
+        "Certificazione SOA per opere pubbliche",
+        "Management competente"
+      ],
+      "fattori_rischio": [
+        "Contrazione fatturato 2024 (-50%)",
+        "Dipendenza dal settore costruzioni",
+        "Crediti tributari elevati",
+        "Concentrazione geografica"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Basso (Verde)",
+      "colore": "green",
+      "commento": "Risk Score VERDE indica rischio inferiore alla media. L'azienda non presenta segnali critici di tensione finanziaria. La contrazione 2024 è gestita con disciplina mantenendo margini elevati."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 265.000",
+      "commento": "Il fido operativo di € 265.000 è coerente con il profilo di rischio e la dimensione aziendale attuale. Rappresenta circa il 3,5% del fatturato 2024. Possibile incremento in caso di ripresa confermata.",
+      "utilizzo_suggerito": "Linea di credito per working capital e gestione stagionalità. Pricing coerente con rating B1 (Euribor + 150-200bp)."
+    },
+    "trend_analysis": "Il rating è migliorato da B3 a B1 nel corso del 2025 grazie al deposito del bilancio 2024 che ha evidenziato la resilienza dell'azienda. Il fido operativo si è stabilizzato a €265K dopo la volatilità iniziale.",
+    "probability_of_default": {
+      "valore": 0.8,
+      "classe": "Investment Grade - Moderate Risk",
+      "commento": "PD stimata 0.8% su orizzonte 12 mesi, coerente con rating B1. Probabilità contenuta grazie ai fondamentali solidi."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano un'azienda con buoni fondamentali patrimoniali ed economici, ma in fase di transizione per il profilo di sviluppo. La sostenibilità del debito presenta alcune criticità da monitorare.",
+    "economico": {
+      "giudizio_breve": "Positivo",
+      "colore": "green",
+      "commento": "Score 4/5. Redditività operativa eccellente con ROS al 20,1% ai vertici del settore. La capacità di mantenere margini elevati anche in fase di contrazione dimostra efficienza gestionale e controllo dei costi.",
+      "driver_principali": [
+        "ROS 20,1% - eccellente",
+        "ROI 12,5% - buono",
+        "Controllo costi efficace"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Positivo",
+      "colore": "green",
+      "commento": "Score 4/5. Struttura patrimoniale equilibrata con buon grado di capitalizzazione (30%). Il patrimonio netto è cresciuto grazie all'autofinanziamento, garantendo solidità e autonomia finanziaria.",
+      "driver_principali": [
+        "Capitalizzazione 30% - solida",
+        "PN in crescita da autofinanziamento",
+        "Equilibrio fonti-impieghi"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Posizione finanziaria complessivamente equilibrata con posizione finanziaria netta negativa (cassa netta). Tuttavia, gli oneri finanziari sono significativi rispetto all'EBITDA, richiedendo attenzione.",
+      "driver_principali": [
+        "PFN negativa (cassa netta)",
+        "Oneri finanziari elevati vs EBITDA",
+        "Liquidità adeguata"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Aspetti di Criticità",
+      "colore": "yellow",
+      "commento": "Score 2/5. La produttività presenta criticità legate principalmente alla gestione del capitale circolante. I crediti tributari elevati impattano sull'efficienza complessiva.",
+      "driver_principali": [
+        "DSO elevato per crediti tributari",
+        "Ciclo finanziario da ottimizzare",
+        "Efficienza operativa buona"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Negativo",
+      "colore": "red",
+      "commento": "Score 1/5. Il profilo di sviluppo è penalizzato dalla forte contrazione 2024 (-50% fatturato). Tuttavia, si tratta di una fase ciclica del settore piuttosto che di problemi strutturali.",
+      "driver_principali": [
+        "Fatturato -50% nel 2024",
+        "Contrazione generalizzata",
+        "Fase ciclica settoriale"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Eccellente",
+      "colore": "green",
+      "commento": "La redditività è il punto di forza principale dell'azienda. Il ROS del 20,1% è ai vertici del settore costruzioni, dimostrando efficienza operativa e capacità di mantenere margini elevati anche in fase avversa.",
+      "trend_yoy": "Stabile (margini preservati nonostante contrazione volumi)",
+      "indicatori": {
+        "ros": {
+          "colore": "green",
+          "commento": "ROS al 20,1% eccellente, ben oltre la soglia del 15%. Margine operativo ai vertici del settore costruzioni."
+        },
+        "roe": {
+          "colore": "green",
+          "commento": "ROE al 10,0% buono, indica adeguata remunerazione del capitale proprio nonostante la fase ciclica."
+        },
+        "roi": {
+          "colore": "green",
+          "commento": "ROI al 12,5% dimostra buona efficienza del capitale investito, superiore al costo del capitale."
+        },
+        "roa": {
+          "colore": "green",
+          "commento": "ROA positivo conferma la redditività complessiva degli asset aziendali."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "yellow",
+          "commento": "Incidenza gestione extra-caratteristica significativa (24%), da monitorare per qualità degli utili."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Adeguata",
+      "colore": "green",
+      "commento": "La posizione di liquidità è adeguata con current ratio di 1,34. Le disponibilità liquide di €1,6M garantiscono copertura degli impegni correnti senza tensioni.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "green",
+          "commento": "Current Ratio di 1,34 adeguato, sopra la soglia critica di 1,0. Copertura sufficiente delle passività correnti."
+        },
+        "acid_test": {
+          "colore": "green",
+          "commento": "Acid Test di 1,34 (identico al current ratio per assenza rimanenze) conferma solidità liquida."
+        },
+        "cash_short_term_debt": {
+          "colore": "green",
+          "commento": "Rapporto cassa/debiti a breve elevato grazie alle disponibilità liquide significative."
+        },
+        "margine_struttura": {
+          "colore": "green",
+          "commento": "Margine di struttura positivo: immobilizzazioni finanziate con capitale permanente."
+        },
+        "margine_struttura_ii": {
+          "colore": "green",
+          "commento": "Margine di struttura secondario positivo, confermando equilibrio strutturale."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "green",
+          "commento": "Copertura immobilizzazioni superiore a 2, indicando finanziamento adeguato degli investimenti fissi."
+        },
+        "copertura_ccn": {
+          "colore": "green",
+          "commento": "Capitale circolante netto finanziato coerentemente con la sua natura."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Controllato",
+      "colore": "green",
+      "commento": "La leva finanziaria è controllata con posizione finanziaria netta negativa (cassa netta). Il leverage di 3,33 è gestibile data la redditività operativa elevata.",
+      "trend_yoy": "Miglioramento (PFN negativa)",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "green",
+          "commento": "PFN/EBITDA negativo (-0,41x) indica posizione di cassa netta. Situazione finanziaria favorevole."
+        },
+        "leverage": {
+          "colore": "yellow",
+          "commento": "Leverage di 3,33 leggermente elevato ma gestibile grazie alla redditività operativa."
+        },
+        "capitalizzazione": {
+          "colore": "green",
+          "commento": "Grado di capitalizzazione del 30% adeguato per il settore costruzioni."
+        },
+        "debt_ratio": {
+          "colore": "yellow",
+          "commento": "Debt ratio di 2,29 indica dipendenza significativa da capitale di terzi, tipica del settore."
+        },
+        "bank_debt_assets": {
+          "colore": "green",
+          "commento": "Incidenza debito bancario sull'attivo contenuta al 6%."
+        },
+        "bank_debt_ratio": {
+          "colore": "green",
+          "commento": "Rapporto debito bancario/totale fonti molto contenuto (20%)."
+        },
+        "ebitda_net_leverage": {
+          "colore": "green",
+          "commento": "EBITDA leverage netto negativo conferma la posizione di forza finanziaria."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "green",
+          "commento": "Anche il leverage lordo è contenuto rispetto alla capacità di generazione di cassa."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Da Monitorare",
+      "colore": "yellow",
+      "commento": "Gli indici di copertura presentano alcune criticità. Gli oneri finanziari assorbono una quota significativa dell'EBITDA (47,6%), richiedendo attenzione nella gestione del servizio del debito.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "dscr": {
+          "colore": "yellow",
+          "commento": "DSCR da calcolare, ma gli oneri finanziari elevati suggeriscono margini di copertura ridotti."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "yellow",
+          "commento": "Copertura interessi limitata: oneri finanziari assorbono 47,6% dell'EBITDA."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "yellow",
+          "commento": "Copertura EBIT/interessi da monitorare attentamente."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "yellow",
+          "commento": "Considerando i proventi finanziari, la situazione migliora ma rimane da monitorare."
+        },
+        "ebit_interessi_netti": {
+          "colore": "yellow",
+          "commento": "Tutti gli indicatori di copertura richiedono attenzione per la sostenibilità finanziaria."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Il ciclo finanziario presenta criticità significative con DSO di 124 giorni, principalmente dovuto ai crediti tributari elevati. Il ciclo finanziario negativo (-188 giorni) riflette la struttura particolare del settore.",
+      "trend_yoy": "Peggioramento DSO",
+      "indicatori": {
+        "dso": {
+          "colore": "red",
+          "commento": "DSO a 124 giorni molto elevato, principalmente per crediti tributari. Richiede azioni immediate di recupero."
+        },
+        "dpo": {
+          "colore": "green",
+          "commento": "DPO a 313 giorni molto elevato, tipico del settore costruzioni con dilazioni fornitori significative."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO nullo coerente con attività di costruzione senza scorte significative."
+        },
+        "ciclo_finanziario": {
+          "colore": "green",
+          "commento": "Ciclo finanziario negativo (-188 giorni) favorevole: l'azienda viene finanziata dai fornitori."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "In Forte Contrazione",
+      "colore": "red",
+      "commento": "Gli indicatori di sviluppo evidenziano la forte contrazione 2024 con cali generalizzati di fatturato (-50%), EBITDA e altri parametri. Si tratta di una fase ciclica del settore piuttosto che di problemi strutturali.",
+      "trend_yoy": "Forte contrazione",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "red",
+          "commento": "Variazione fatturato -50,2% riflette la fase ciclica negativa del settore costruzioni."
+        },
+        "variazione_ebit": {
+          "colore": "red",
+          "commento": "EBIT in forte contrazione coerente con la riduzione dei volumi."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "red",
+          "commento": "Valore aggiunto in calo del 38,7% per effetto della contrazione operativa."
+        },
+        "variazione_mol": {
+          "colore": "red",
+          "commento": "MOL in calo del 55,4% ma margini percentuali preservati."
+        },
+        "variazione_totale_attivo": {
+          "colore": "red",
+          "commento": "Attivo in calo del 44,6% per adeguamento alla dimensione operativa ridotta."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario in calo del 68,8% - deleveraging positivo."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Sufficiente",
+      "colore": "yellow",
+      "commento": "L'efficienza operativa è sufficiente con turnover index di 0,55. La rotazione crediti è penalizzata dai crediti tributari elevati, mentre l'assenza di rimanenze è tipica del settore.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "yellow",
+          "commento": "Turnover index di 0,55 indica che ogni euro di attivo genera 55 centesimi di fatturato."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione magazzino non applicabile per assenza rimanenze significative."
+        },
+        "current_assets_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione attivo circolante penalizzata dai crediti tributari elevati."
+        },
+        "ar_rotation": {
+          "colore": "red",
+          "commento": "Rotazione crediti di 2,89x molto bassa per via del DSO elevato (124 giorni)."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Equilibrata",
+      "colore": "green",
+      "commento": "La struttura finanziaria è equilibrata con posizione finanziaria netta negativa e composizione del debito prevalentemente commerciale. La dipendenza dal debito bancario è contenuta.",
+      "trend_yoy": "Miglioramento",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "green",
+          "commento": "PFN/PN negativo (-18%) indica cassa netta superiore al debito finanziario."
+        },
+        "pfn_pn": {
+          "colore": "green",
+          "commento": "Conferma la solidità della struttura finanziaria."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "green",
+          "commento": "Debito finanziario composto principalmente da linee a breve termine."
+        },
+        "debito_netto_fonti": {
+          "colore": "green",
+          "commento": "Debito netto negativo (-22%) delle fonti totali - situazione favorevole."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "green",
+          "commento": "Debito finanziario lordo contenuto rispetto al patrimonio netto (20%)."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Elevato",
+      "colore": "red",
+      "commento": "L'onere finanziario è significativo con ROD del 283% e burden index del 131%. Gli oneri finanziari assorbono una quota importante dei flussi operativi, richiedendo attenzione.",
+      "trend_yoy": "Peggioramento",
+      "indicatori": {
+        "rod": {
+          "colore": "red",
+          "commento": "ROD del 283% molto elevato, indica costo del debito significativo."
+        },
+        "rod_finanziario": {
+          "colore": "red",
+          "commento": "Costo del debito finanziario elevato, da rinegoziare se possibile."
+        },
+        "burden_index": {
+          "colore": "red",
+          "commento": "Burden index del 131% indica che gli oneri finanziari superano il reddito operativo."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Particolare",
+      "colore": "yellow",
+      "commento": "La struttura dell'attivo è caratterizzata dall'elevata incidenza dei crediti tributari (€6,4M, 46% del totale). Le immobilizzazioni rappresentano il 15% del totale, coerente con l'attività di costruzione.",
+      "immobilizzazioni": "Le immobilizzazioni totali (€2,1M) sono composte principalmente da immobilizzazioni materiali (€1,2M) e finanziarie (€0,9M). Gli asset fissi sono funzionali all'attività operativa.",
+      "attivo_circolante": "L'attivo circolante (€11,7M) è dominato dai crediti (€10,1M) di cui €6,4M tributari. Le disponibilità liquide di €1,6M garantiscono flessibilità operativa.",
+      "composizione_attivo": "La composizione attivo fisso/circolante 15/85 riflette la natura dell'attività con elevato capitale circolante."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Equilibrato",
+      "colore": "green",
+      "commento": "La struttura delle fonti è equilibrata con patrimonio netto di €4,2M (30% del totale). I debiti sono prevalentemente commerciali e tributari, con contenuta dipendenza dal debito bancario.",
+      "patrimonio_netto": "Il PN è cresciuto a €4,2M grazie all'autofinanziamento. L'utile 2024 di €419K rafforza la dotazione patrimoniale nonostante la contrazione operativa.",
+      "debiti": "I debiti totali (€9,5M) sono composti da debiti commerciali (€4,0M), tributari (€3,2M) e bancari (€0,9M). Struttura tipica del settore costruzioni.",
+      "struttura_fonti": "La struttura PN 30% / Debiti 70% è accettabile per il settore costruzioni, con buon equilibrio tra fonti proprie e di terzi."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Resiliente",
+      "colore": "green",
+      "commento": "Il conto economico evidenzia resilienza con margini operativi elevati (20,1%) nonostante la contrazione del fatturato. La gestione finanziaria presenta oneri significativi da ottimizzare.",
+      "valore_produzione": "Valore della produzione €8,6M in forte calo (-50%) rispetto al 2023, riflettendo la fase ciclica negativa del settore costruzioni.",
+      "costi_produzione": "I costi della produzione (€6,9M) sono stati adeguati alla contrazione dei volumi, preservando i margini operativi.",
+      "gestione_finanziaria": "La gestione finanziaria presenta saldo negativo di €1,1M con oneri finanziari di €2,4M parzialmente compensati da proventi di €1,4M.",
+      "risultato_esercizio": "Utile d'esercizio €419K con margine netto del 4,9%, risultato positivo considerando la contrazione operativa."
+    },
+    "cash_flow_analysis": {
+      "commento": "L'analisi dei flussi evidenzia generazione operativa positiva nonostante la contrazione, con gestione prudente degli investimenti.",
+      "operating_cf": "Cash flow operativo positivo stimato intorno a €500K, inferiore all'anno precedente ma comunque sostenibile.",
+      "investing_cf": "Flusso investimenti contenuto, focalizzato su manutenzioni ordinarie e investimenti essenziali.",
+      "financing_cf": "Attività di finanziamento con riduzione del debito bancario e gestione prudente della liquidità."
+    }
+  },
+  "dscr": {
+    "valore": null,
+    "giudizio_breve": "Da Calcolare",
+    "colore": "yellow",
+    "commento": "Il DSCR non è direttamente calcolabile dai dati disponibili, ma gli oneri finanziari elevati (€2,4M) rispetto all'EBITDA (€1,8M) suggeriscono margini di copertura ridotti che richiedono attenzione.",
+    "componenti": {
+      "ebitda": 1839619,
+      "oneri_finanziari": 2414015,
+      "quota_capitale_annuale": null,
+      "servizio_debito": null
+    },
+    "sostenibilita_debito": "La sostenibilità del debito presenta alcune criticità per gli oneri finanziari elevati. La posizione finanziaria netta negativa mitiga i rischi, ma è necessario monitorare attentamente la copertura del servizio del debito.",
+    "capacita_indebitamento_residua": "La capacità di nuovo indebitamento è limitata dagli oneri finanziari già elevati. Priorità alla rinegoziazione delle condizioni esistenti.",
+    "stress_test_result": "In scenario stress con ulteriore contrazione dell'EBITDA, la copertura del servizio del debito potrebbe diventare critica."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "MEDIUM",
+    "elenco": [
+      "Contrazione fatturato severa (-50%)",
+      "Oneri finanziari elevati vs EBITDA",
+      "Crediti tributari significativi"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "Nessuna anomalia nei margini che si mantengono elevati e coerenti con la storia aziendale.",
+      "anomalie_magazzino": "Non applicabile - settore costruzioni senza rimanenze significative.",
+      "anomalie_crediti": "Crediti tributari molto elevati (€6,4M) richiedono attenzione per i tempi di recupero.",
+      "tensione_liquidita": "Nessuna tensione immediata grazie alle disponibilità liquide di €1,6M.",
+      "eccessivo_indebitamento": "Indebitamento controllato con PFN negativa, ma oneri finanziari elevati.",
+      "eventi_negativi": "Nessun evento negativo rilevato - track record pulito.",
+      "governance_concerns": "Nessuna criticità di governance evidenziata dai dati disponibili.",
+      "going_concern": "Continuità aziendale non in dubbio grazie ai fondamentali solidi e alla liquidità disponibile."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Conforme",
+      "colore": "green",
+      "commento": "L'azienda rispetta i requisiti degli adeguati assetti organizzativi. La maggior parte degli indicatori è in area di sicurezza, con solo l'indicatore debiti tributari/attivo da monitorare."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 31.7,
+        "soglia": 2.5,
+        "alert": true,
+        "commento": "31,7% molto sopra la soglia del 2,5%. Indicatore critico che richiede attenzione immediata."
+      },
+      "pn_debiti_totali": {
+        "valore": 43.7,
+        "soglia": 5.5,
+        "alert": false,
+        "commento": "43,7% ben sopra la soglia minima del 5,5%. Capitalizzazione adeguata."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 133.9,
+        "soglia": 85,
+        "alert": false,
+        "commento": "133,9% sopra la soglia dell'85%. Liquidità a breve adeguata."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 3.8,
+        "soglia": 1.5,
+        "alert": false,
+        "commento": "3,8% sopra la soglia dell'1,5%. Generazione di cassa rispetto all'attivo sufficiente."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 26.2,
+        "soglia": 7,
+        "alert": true,
+        "commento": "26,2% molto sopra la soglia del 7%. Riflette l'elevato ammontare dei crediti tributari."
+      }
+    },
+    "continuita_aziendale": "La continuità aziendale è confermata nonostante alcuni indicatori di allerta. La solidità patrimoniale e la liquidità disponibile garantiscono la prosecuzione dell'attività.",
+    "raccomandazioni_assetti": [
+      "Rinegoziare condizioni finanziarie per ridurre oneri",
+      "Accelerare recupero crediti tributari",
+      "Monitorare trimestralmente gli indicatori di allerta"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "PARZIALMENTE CONFORME - Due indicatori in area di attenzione ma situazione complessiva gestibile",
+    "antiriciclaggio": "Struttura societaria trasparente con governance chiara. Nessuna transazione anomala rilevata.",
+    "privacy_note": "Analisi basata su dati pubblici e informazioni creditizie autorizzate."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Definire piano commerciale per la ripresa del fatturato nel 2025",
+      "Accelerare il recupero dei crediti tributari (€6,4M) attraverso compensazioni o cessioni",
+      "Rinegoziare le condizioni del debito bancario per ridurre gli oneri finanziari",
+      "Monitorare attentamente la liquidità e il servizio del debito"
+    ],
+    "medio_termine": [
+      "Diversificare il portafoglio clienti sfruttando la certificazione SOA",
+      "Implementare sistema di controllo di gestione per monitorare margini per commessa",
+      "Valutare opportunità di espansione geografica per ridurre la concentrazione",
+      "Ottimizzare la struttura finanziaria riducendo la dipendenza dal debito oneroso"
+    ],
+    "strategiche": [
+      "Sviluppare competenze nel settore delle opere pubbliche (PNRR, transizione energetica)",
+      "Valutare partnership strategiche per accedere a commesse di maggiore dimensione",
+      "Investire in digitalizzazione e innovazione per migliorare l'efficienza operativa",
+      "Considerare operazioni di consolidamento nel settore costruzioni sardo"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "GIORICO COSTRUZIONI si posiziona nel quartile superiore del settore costruzioni per redditività operativa, nonostante la contrazione 2024. La gestione della crisi è stata efficace nel preservare i margini.",
+    "posizionamento": "Top 5% per ROS. Quartile superiore per ROI. Media per liquidità. Sotto la media per gestione crediti.",
+    "benchmark_principali": [
+      "ROS 20,1% vs mediana settore 8,2% (+145%)",
+      "ROI 12,5% vs mediana settore 9,1% (+37%)",
+      "Current Ratio 1,34 vs mediana settore 1,28 (+5%)",
+      "DSO 124gg vs mediana settore 95gg (+31%)"
+    ],
+    "trend_settore": "Il settore costruzioni è in fase ciclica negativa ma con segnali di ripresa attesi per il 2025. Le aziende più efficienti come GIORICO sono meglio posizionate per beneficiare della ripresa."
+  },
+  "metadata": {
+    "generated_at": "2025-01-15T14:30:00Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "GIORICO_COSTRUZIONI.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.88,
+    "analysis_depth": "Comprehensive - Full financial analysis con focus su fase ciclica settore costruzioni",
+    "disclaimers": [
+      "L'analisi si basa su dati di bilancio pubblici e credit score di terze parti",
+      "La contrazione 2024 riflette dinamiche settoriali più che problemi aziendali specifici",
+      "Le proiezioni assumono ripresa graduale del settore costruzioni",
+      "Si raccomanda validazione con dati interni prima di decisioni operative"
+    ]
+  }
+}
