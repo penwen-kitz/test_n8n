@@ -1,0 +1,742 @@
+{
+  "version": "2.0",
+  "schema_description": "Schema esteso per analisi finanziaria LLM-powered con insights predittivi e actionable recommendations",
+  "executive_onepager": {
+    "verdict": "SPECULATIVE GRADE - OUTLOOK NEGATIVO",
+    "verdict_color": "red",
+    "key_message": "Azienda in forte difficoltà finanziaria con rating C1 e rischio giallo. Patrimonio netto ridotto, elevato indebitamento verso soci, liquidità critica. Richiede intervento immediato.",
+    "numeri_chiave": [
+      "Rating C1 - Alto rischio",
+      "PN solo €772K su €11.5M attivo",
+      "Debiti verso soci €5.8M",
+      "Current Ratio 0.43 - Liquidità critica",
+      "Fido operativo ridotto a €60K"
+    ],
+    "risk_level": "ALTO",
+    "focus_trimestre": "Urgente ricapitalizzazione e ristrutturazione debiti. Liquidità insufficiente per operatività normale. Monitoraggio continuità aziendale.",
+    "next_review": "Q1 2025 - Verifica piano di risanamento e sostenibilità finanziaria"
+  },
+  "executive_summary": {
+    "sintesi": "ABBREVIA SPA presenta un profilo finanziario critico con rating C1 e rischio giallo. L'azienda opera nei servizi di vigilanza e investigazione con fatturato di €9.8M ma soffre di gravi squilibri patrimoniali e finanziari. Il patrimonio netto è ridotto a €772K (6.7% del totale attivo) mentre i debiti verso soci ammontano a €5.8M. La liquidità è critica con current ratio di 0.43.",
+    "giudizio_breve": "Azienda in grave difficoltà finanziaria",
+    "colore": "red",
+    "punti_forza": [
+      "Fatturato significativo €9.8M (+8.4% YoY)",
+      "Presenza geografica diversificata",
+      "Settore dei servizi di vigilanza in crescita",
+      "Assenza eventi negativi formali",
+      "Management con esperienza settoriale"
+    ],
+    "aree_attenzione": [
+      "Patrimonio netto critico (6.7% del totale attivo)",
+      "Elevato indebitamento verso soci (€5.8M)",
+      "Liquidità insufficiente (Current Ratio 0.43)",
+      "Squilibrio strutturale fonti-impieghi",
+      "Rating in peggioramento (da B2 a C1)"
+    ],
+    "raccomandazioni_principali": [
+      "Ricapitalizzazione urgente minimo €2M",
+      "Ristrutturazione debiti verso soci",
+      "Piano di risanamento ex art. 67 CCII"
+    ]
+  },
+  "narrative_insights": {
+    "trend_analysis": "L'analisi evidenzia un deterioramento significativo della situazione finanziaria. Il rating è peggiorato da B2 a C1 nel corso del 2025, mentre il fido operativo è stato ridotto da €235K a €60K. Nonostante la crescita del fatturato (+8.4%), i margini operativi sono sotto pressione e la struttura patrimoniale è compromessa.",
+    "risk_factors": "I principali fattori di rischio sono: (1) Sottocapitalizzazione critica con PN/Attivo al 6.7%; (2) Dipendenza finanziaria dai soci con €5.8M di debiti; (3) Liquidità insufficiente per far fronte agli impegni correnti; (4) Squilibrio strutturale con immobilizzazioni non coperte da fonti durevoli.",
+    "opportunity_signals": "Il settore dei servizi di vigilanza mantiene prospettive positive. L'azienda ha una presenza geografica consolidata e competenze specialistiche. La crescita del fatturato indica capacità commerciale. Con adeguata ricapitalizzazione, potrebbe recuperare equilibri finanziari.",
+    "management_quality_indicators": "Il management ha mantenuto la crescita operativa nonostante le difficoltà finanziarie. La presenza di soci finanziatori indica supporto azionario, ma la situazione richiede interventi strutturali urgenti.",
+    "market_position": "ABBREVIA opera nel settore dei servizi di vigilanza e investigazione con presenza in diverse regioni italiane. Il mercato è competitivo ma in crescita, trainato da esigenze di sicurezza crescenti.",
+    "operational_efficiency": "L'efficienza operativa è compromessa dalla struttura finanziaria. I costi del personale (€1.7M) sono significativi ma coerenti con il settore labour-intensive. Necessario ottimizzare la struttura dei costi."
+  },
+  "early_warning": {
+    "signals_detected": [
+      {
+        "id": "EW001",
+        "tipo": "patrimonio_netto_critico",
+        "titolo": "Patrimonio Netto Insufficiente",
+        "descrizione": "PN €772K rappresenta solo il 6.7% del totale attivo",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "pn_attivo": "6.7%",
+          "soglia_critica": "20%"
+        },
+        "implicazioni": "Rischio di perdita del capitale sociale e necessità di ricapitalizzazione urgente",
+        "raccomandazione": "Ricapitalizzazione immediata minimo €2M",
+        "trigger_escalation": "PN < 10% attivo"
+      }
+    ],
+    "signals_monitoring": [
+      {
+        "id": "EW002",
+        "tipo": "liquidita_critica",
+        "titolo": "Current Ratio Sotto Soglia Critica",
+        "descrizione": "Current Ratio 0.43 indica impossibilità di coprire debiti correnti",
+        "severity": "high",
+        "colore": "red",
+        "metriche": {
+          "current_ratio": 0.43,
+          "soglia_minima": 1
+        },
+        "implicazioni": "Rischio di insolvenza a breve termine",
+        "raccomandazione": "Iniezione liquidità immediata o conversione debiti",
+        "trigger_escalation": "Current Ratio < 0.5"
+      }
+    ],
+    "pattern_positivi": [],
+    "overall_risk_trend": "DETERIORAMENTO ACCELERATO. Tutti gli indicatori finanziari mostrano peggioramento significativo. Situazione critica che richiede interventi immediati."
+  },
+  "scenario_analysis": {
+    "base_case": {
+      "nome": "Base Case - Ricapitalizzazione",
+      "descrizione": "Scenario con ricapitalizzazione €2M e ristrutturazione debiti",
+      "ipotesi": [
+        "Ricapitalizzazione €2M",
+        "Conversione 50% debiti soci in equity",
+        "Fatturato stabile",
+        "Riduzione costi operativi 5%"
+      ],
+      "dscr_proiettato": 1.2,
+      "rating_proiettato": "B3",
+      "commento": "Con ricapitalizzazione adeguata, l'azienda potrebbe stabilizzare la situazione e migliorare il rating a B3."
+    },
+    "stress_case": {
+      "nome": "Stress Case - Status Quo",
+      "descrizione": "Scenario senza interventi di ricapitalizzazione",
+      "ipotesi": [
+        "Nessuna ricapitalizzazione",
+        "Calo fatturato -10%",
+        "Pressione sui margini",
+        "Ulteriore deterioramento liquidità"
+      ],
+      "dscr_proiettato": 0.8,
+      "rating_proiettato": "C2",
+      "commento": "Senza interventi, alto rischio di insolvenza e possibile downgrade a C2 o peggio."
+    },
+    "upside_case": {
+      "nome": "Upside Case - Ristrutturazione Completa",
+      "descrizione": "Scenario con ristrutturazione completa e nuovo piano industriale",
+      "ipotesi": [
+        "Ricapitalizzazione €3M",
+        "Ristrutturazione completa debiti",
+        "Piano efficientamento",
+        "Crescita fatturato +5%"
+      ],
+      "dscr_proiettato": 1.5,
+      "rating_proiettato": "B2",
+      "commento": "Con ristrutturazione completa, possibile recupero a rating B2 in 18-24 mesi."
+    },
+    "sensitivity_note": "La sostenibilità dipende criticamente dalla ricapitalizzazione. Senza interventi entro 6 mesi, alto rischio di crisi irreversibile."
+  },
+  "peer_comparison": {
+    "peer_group": "Servizi di vigilanza e investigazione - PMI Italia",
+    "sample_size": 692,
+    "anno_riferimento": 2024,
+    "metriche": {
+      "ros": {
+        "azienda": 9.16,
+        "mediana": 8.5,
+        "percentile": 55,
+        "commento": "ROS in linea con la mediana settoriale nonostante le difficoltà"
+      },
+      "roe": {
+        "azienda": 73.19,
+        "mediana": 15,
+        "percentile": 95,
+        "commento": "ROE artificialmente elevato per effetto leva estrema su PN ridotto"
+      },
+      "roi": {
+        "azienda": 10.38,
+        "mediana": 12,
+        "percentile": 45,
+        "commento": "ROI leggermente sotto la mediana"
+      },
+      "current_ratio": {
+        "azienda": 0.43,
+        "mediana": 1.2,
+        "percentile": 5,
+        "commento": "Current ratio nel bottom 5% - situazione critica"
+      },
+      "dso": {
+        "azienda": 110,
+        "mediana": 90,
+        "percentile": 30,
+        "commento": "DSO superiore alla media, area di miglioramento"
+      },
+      "leverage": {
+        "azienda": 14.96,
+        "mediana": 3.5,
+        "percentile": 5,
+        "commento": "Leverage estremo, tra i peggiori del settore"
+      },
+      "pfn_ebitda": {
+        "azienda": 3.74,
+        "mediana": 2.5,
+        "percentile": 25,
+        "commento": "Indebitamento superiore alla media settoriale"
+      }
+    },
+    "sintesi_posizionamento": "ABBREVIA si colloca nel quartile inferiore per tutti gli indicatori di solidità finanziaria. Solo la redditività operativa è in linea con il settore, ma è insufficiente a compensare gli squilibri strutturali.",
+    "aree_eccellenza": [],
+    "aree_miglioramento": [
+      "Struttura patrimoniale - Critica",
+      "Liquidità - Critica",
+      "Indebitamento - Eccessivo"
+    ]
+  },
+  "action_items": {
+    "urgente": [
+      {
+        "id": "AI001",
+        "area": "Capitale",
+        "titolo": "Ricapitalizzazione Immediata",
+        "azione": "Procedere con aumento di capitale di almeno €2M per ripristinare equilibri patrimoniali",
+        "razionale": "PN insufficiente (6.7% attivo) compromette continuità aziendale",
+        "impatto_atteso": "Ripristino equilibri patrimoniali minimi",
+        "beneficio_stimato": "Stabilizzazione rating, accesso al credito",
+        "investimento_richiesto": "€2M minimo",
+        "owner_suggerito": "CDA / Azionisti",
+        "timeline": "Entro 60 giorni",
+        "kpi_monitoraggio": [
+          "PN/Attivo",
+          "Current Ratio",
+          "Rating"
+        ]
+      }
+    ],
+    "importante": [
+      {
+        "id": "AI002",
+        "area": "Debiti",
+        "titolo": "Ristrutturazione Debiti Soci",
+        "azione": "Negoziare conversione parziale debiti soci (€5.8M) in capitale o subordinazione",
+        "razionale": "Debiti soci creano pressione finanziaria insostenibile",
+        "impatto_atteso": "Riduzione leverage, miglioramento liquidità",
+        "beneficio_stimato": "Stabilizzazione struttura finanziaria",
+        "investimento_richiesto": "Negoziazione",
+        "owner_suggerito": "CFO / Azionisti",
+        "timeline": "90 giorni",
+        "kpi_monitoraggio": [
+          "Debiti/PN",
+          "Leverage"
+        ]
+      }
+    ],
+    "opportunita": [],
+    "nota_metodologica": "Le action items sono prioritizzate per urgenza. La situazione richiede interventi immediati per evitare crisi irreversibile."
+  },
+  "credit_score": {
+    "rating": {
+      "giudizio_breve": "C1 - Alto Rischio",
+      "colore": "red",
+      "commento": "Rating C1 indica alto rischio di credito con probabilità di default significativa. Il peggioramento da B2 riflette il deterioramento degli equilibri finanziari e patrimoniali.",
+      "outlook": "Negativo",
+      "fattori_supporto": [
+        "Fatturato in crescita (+8.4%)",
+        "Presenza geografica consolidata",
+        "Assenza eventi negativi formali"
+      ],
+      "fattori_rischio": [
+        "Patrimonio netto critico",
+        "Liquidità insufficiente",
+        "Elevato indebitamento verso soci",
+        "Squilibri strutturali"
+      ]
+    },
+    "risk_score": {
+      "giudizio_breve": "Rischio Superiore alla Media (Giallo)",
+      "colore": "yellow",
+      "commento": "Risk Score GIALLO indica rischio superiore alla media con necessità di monitoraggio attento. La situazione finanziaria compromessa richiede attenzione particolare."
+    },
+    "fido_operativo": {
+      "giudizio_breve": "€ 60.000",
+      "commento": "Il fido operativo è stato ridotto significativamente da €235K a €60K riflettendo il deterioramento del profilo di rischio. Ulteriori riduzioni sono probabili senza miglioramenti.",
+      "utilizzo_suggerito": "Solo per operazioni essenziali con garanzie aggiuntive"
+    },
+    "trend_analysis": "Il trend è fortemente negativo con peggioramento del rating da B2 a C1 e riduzione del fido operativo del 74%. Tutti gli indicatori mostrano deterioramento.",
+    "probability_of_default": {
+      "valore": 8.5,
+      "classe": "Alto Rischio",
+      "commento": "PD stimata 8.5% su orizzonte 12 mesi, significativamente superiore alla media. Richiede monitoraggio intensivo."
+    }
+  },
+  "profili": {
+    "commento_generale": "I profili evidenziano una situazione critica con punteggi molto bassi per equilibrio patrimoniale e finanziario (1/5). Solo l'equilibrio economico mantiene un punteggio accettabile (4/5).",
+    "economico": {
+      "giudizio_breve": "Buono",
+      "colore": "green",
+      "commento": "Score 4/5. La redditività operativa si mantiene su livelli accettabili con ROS del 9.16% in linea con il settore. L'azienda mantiene capacità di generare margini nonostante le difficoltà.",
+      "driver_principali": [
+        "ROS 9.16% - in linea settore",
+        "Fatturato in crescita +8.4%",
+        "EBITDA margin 21%"
+      ]
+    },
+    "patrimoniale": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Score 1/5. Situazione patrimoniale gravemente compromessa con PN ridotto al 6.7% dell'attivo. Capitalizzazione insufficiente per sostenere l'operatività.",
+      "driver_principali": [
+        "PN/Attivo 6.7% - critico",
+        "Leverage 14.96x - eccessivo",
+        "Sottocapitalizzazione grave"
+      ]
+    },
+    "finanziario": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Score 1/5. Equilibrio finanziario gravemente compromesso con current ratio di 0.43. Liquidità insufficiente per far fronte agli impegni correnti.",
+      "driver_principali": [
+        "Current Ratio 0.43 - critico",
+        "Liquidità insufficiente",
+        "Squilibrio fonti-impieghi"
+      ]
+    },
+    "produttivita": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Produttività in linea con il settore nonostante le difficoltà. L'efficienza operativa non è compromessa dalle problematiche finanziarie.",
+      "driver_principali": [
+        "Turnover index 0.84",
+        "Efficienza operativa mantenuta",
+        "Controllo costi adeguato"
+      ]
+    },
+    "sviluppo": {
+      "giudizio_breve": "Nella Media",
+      "colore": "yellow",
+      "commento": "Score 3/5. Crescita del fatturato positiva (+8.4%) ma compromessa dalle difficoltà finanziarie. Lo sviluppo futuro dipende dalla risoluzione degli squilibri.",
+      "driver_principali": [
+        "Crescita fatturato +8.4%",
+        "Sviluppo limitato da vincoli finanziari",
+        "Potenziale di crescita condizionato"
+      ]
+    }
+  },
+  "kpi": {
+    "profitability": {
+      "giudizio_breve": "Accettabile",
+      "colore": "yellow",
+      "commento": "La redditività operativa si mantiene su livelli accettabili nonostante le difficoltà strutturali. Il ROS è in linea con il settore.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "ros": {
+          "colore": "yellow",
+          "commento": "ROS 9.16% in linea con benchmark settoriali. Margine operativo mantenuto nonostante pressioni."
+        },
+        "roe": {
+          "colore": "red",
+          "commento": "ROE 73.19% artificialmente elevato per effetto leva estrema su PN ridotto. Indicatore distorto."
+        },
+        "roi": {
+          "colore": "yellow",
+          "commento": "ROI 10.38% leggermente sotto la media settoriale ma accettabile."
+        },
+        "roa": {
+          "colore": "yellow",
+          "commento": "ROA 7.74% indica redditività degli asset in linea con attese."
+        },
+        "incidenza_gestione_extra": {
+          "colore": "red",
+          "commento": "Incidenza gestione extra-caratteristica elevata (63%) indica dipendenza da componenti non operative."
+        }
+      }
+    },
+    "liquidity": {
+      "giudizio_breve": "Critica",
+      "colore": "red",
+      "commento": "La liquidità è in situazione critica con current ratio di 0.43. L'azienda non può far fronte agli impegni correnti con le attività liquide disponibili.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "current_ratio": {
+          "colore": "red",
+          "commento": "Current Ratio 0.43 critico. Attivo circolante insufficiente a coprire passività correnti."
+        },
+        "acid_test": {
+          "colore": "red",
+          "commento": "Acid Test 0.43 conferma criticità liquidità anche escludendo rimanenze."
+        },
+        "cash_short_term_debt": {
+          "colore": "red",
+          "commento": "Rapporto cassa/debiti a breve molto basso. Liquidità immediata insufficiente."
+        },
+        "margine_struttura": {
+          "colore": "red",
+          "commento": "Margine di struttura negativo: immobilizzazioni non coperte da fonti durevoli."
+        },
+        "margine_struttura_ii": {
+          "colore": "red",
+          "commento": "Anche margine struttura secondario negativo, confermando squilibrio."
+        },
+        "copertura_immobilizzazioni": {
+          "colore": "red",
+          "commento": "Copertura immobilizzazioni 0.33 insufficiente. PN non copre nemmeno le immobilizzazioni."
+        },
+        "copertura_ccn": {
+          "colore": "red",
+          "commento": "Copertura CCN negativa indica squilibrio nella gestione working capital."
+        }
+      }
+    },
+    "leverage": {
+      "giudizio_breve": "Eccessivo",
+      "colore": "red",
+      "commento": "Il leverage è eccessivo con rapporto di 14.96x. L'indebitamento è insostenibile rispetto al patrimonio netto disponibile.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "pfn_ebitda": {
+          "colore": "red",
+          "commento": "PFN/EBITDA 3.74x superiore alle soglie di sostenibilità. Indebitamento eccessivo."
+        },
+        "leverage": {
+          "colore": "red",
+          "commento": "Leverage 14.96x estremo. Dipendenza eccessiva da capitale di terzi."
+        },
+        "capitalizzazione": {
+          "colore": "red",
+          "commento": "Grado di capitalizzazione 6.7% critico. PN insufficiente."
+        },
+        "debt_ratio": {
+          "colore": "red",
+          "commento": "Debt ratio 13.62 indica dipendenza eccessiva da debiti."
+        },
+        "bank_debt_assets": {
+          "colore": "red",
+          "commento": "Incidenza debito bancario sull'attivo elevata (22.3%)."
+        },
+        "bank_debt_ratio": {
+          "colore": "red",
+          "commento": "Rapporto debito bancario eccessivo rispetto alle fonti."
+        },
+        "ebitda_net_leverage": {
+          "colore": "red",
+          "commento": "EBITDA leverage netto 3.74x sopra soglie di sostenibilità."
+        },
+        "ebitda_gross_leverage": {
+          "colore": "red",
+          "commento": "EBITDA leverage lordo 4.02x conferma indebitamento eccessivo."
+        }
+      }
+    },
+    "coverage": {
+      "giudizio_breve": "Insufficiente",
+      "colore": "red",
+      "commento": "Gli indici di copertura sono insufficienti considerando la struttura del debito e gli oneri finanziari elevati.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "dscr": {
+          "colore": "red",
+          "commento": "DSCR stimato sotto 1.0x indica difficoltà nel servire il debito."
+        },
+        "ebitda_interessi_lordi": {
+          "colore": "yellow",
+          "commento": "Copertura interessi 8.39x accettabile ma in contesto di stress finanziario."
+        },
+        "ebit_interessi_lordi": {
+          "colore": "yellow",
+          "commento": "EBIT copre 3.58x gli interessi, margine ridotto."
+        },
+        "ebitda_interessi_netti": {
+          "colore": "yellow",
+          "commento": "Copertura interessi netti leggermente migliore."
+        },
+        "ebit_interessi_netti": {
+          "colore": "yellow",
+          "commento": "EBIT/interessi netti mantiene copertura minima."
+        }
+      }
+    },
+    "cycle": {
+      "giudizio_breve": "Da Migliorare",
+      "colore": "yellow",
+      "commento": "Il ciclo finanziario presenta margini di miglioramento, in particolare sui tempi di incasso crediti.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "dso": {
+          "colore": "yellow",
+          "commento": "DSO stimato 110 giorni superiore alla media settoriale. Area di miglioramento."
+        },
+        "dpo": {
+          "colore": "green",
+          "commento": "DPO 50 giorni in linea con settore servizi."
+        },
+        "dio": {
+          "colore": "green",
+          "commento": "DIO nullo coerente con attività di servizi senza scorte."
+        },
+        "ciclo_finanziario": {
+          "colore": "yellow",
+          "commento": "Ciclo finanziario da ottimizzare attraverso riduzione DSO."
+        }
+      }
+    },
+    "development": {
+      "giudizio_breve": "Positivo ma Condizionato",
+      "colore": "yellow",
+      "commento": "Lo sviluppo mostra segnali positivi con crescita del fatturato, ma è condizionato dalle difficoltà finanziarie.",
+      "trend_yoy": "Crescita condizionata",
+      "indicatori": {
+        "variazione_valore_produzione": {
+          "colore": "green",
+          "commento": "Crescita fatturato +8.39% positiva nonostante difficoltà."
+        },
+        "variazione_ebit": {
+          "colore": "yellow",
+          "commento": "Variazione EBIT da monitorare in contesto di stress."
+        },
+        "variazione_valore_aggiunto": {
+          "colore": "green",
+          "commento": "Valore aggiunto in crescita +22.32%."
+        },
+        "variazione_mol": {
+          "colore": "green",
+          "commento": "MOL in crescita +25.97%."
+        },
+        "variazione_totale_attivo": {
+          "colore": "red",
+          "commento": "Attivo in forte crescita +154.85% indica possibili squilibri."
+        },
+        "variazione_debito_finanziario": {
+          "colore": "red",
+          "commento": "Debito finanziario in forte crescita +54.20%."
+        }
+      }
+    },
+    "efficiency": {
+      "giudizio_breve": "Accettabile",
+      "colore": "yellow",
+      "commento": "L'efficienza operativa si mantiene su livelli accettabili nonostante le difficoltà strutturali.",
+      "trend_yoy": "Stabile",
+      "indicatori": {
+        "turnover_index": {
+          "colore": "yellow",
+          "commento": "Turnover index 0.84 accettabile per il settore servizi."
+        },
+        "inventory_rotation": {
+          "colore": "green",
+          "commento": "Rotazione magazzino non applicabile per servizi."
+        },
+        "current_assets_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione attivo circolante da migliorare."
+        },
+        "ar_rotation": {
+          "colore": "yellow",
+          "commento": "Rotazione crediti lenta, coerente con DSO elevato."
+        }
+      }
+    },
+    "structure": {
+      "giudizio_breve": "Squilibrata",
+      "colore": "red",
+      "commento": "La struttura finanziaria è gravemente squilibrata con eccessiva dipendenza da debiti e PN insufficiente.",
+      "trend_yoy": "In peggioramento",
+      "indicatori": {
+        "pfn_netta_pn": {
+          "colore": "red",
+          "commento": "PFN/PN 10.15 indica indebitamento 10 volte il patrimonio."
+        },
+        "pfn_pn": {
+          "colore": "red",
+          "commento": "Conferma squilibrio tra debiti e patrimonio netto."
+        },
+        "composizione_debito_finanziario": {
+          "colore": "red",
+          "commento": "Composizione debito sbilanciata verso breve termine."
+        },
+        "debito_netto_fonti": {
+          "colore": "red",
+          "commento": "Incidenza debito netto eccessiva (91%)."
+        },
+        "debito_finanziario_lordo_pn": {
+          "colore": "red",
+          "commento": "Debito lordo 10.89 volte il PN - insostenibile."
+        }
+      }
+    },
+    "financial_burden": {
+      "giudizio_breve": "Elevato",
+      "colore": "red",
+      "commento": "L'onere finanziario è elevato e grava significativamente sui risultati operativi.",
+      "trend_yoy": "In aumento",
+      "indicatori": {
+        "rod": {
+          "colore": "red",
+          "commento": "Costo medio del debito 2.97% accettabile ma su base elevata."
+        },
+        "rod_finanziario": {
+          "colore": "red",
+          "commento": "Costo debito finanziario 9.68% elevato."
+        },
+        "burden_index": {
+          "colore": "red",
+          "commento": "Burden index 11.92% indica onere finanziario significativo."
+        }
+      }
+    }
+  },
+  "bilancio": {
+    "stato_patrimoniale_attivo": {
+      "giudizio_breve": "Squilibrato",
+      "colore": "red",
+      "commento": "L'attivo è dominato da immobilizzazioni immateriali (€7.6M) che rappresentano il 66% del totale. Questa concentrazione crea rischi di valutazione e liquidabilità.",
+      "immobilizzazioni": "Le immobilizzazioni (€7.8M, 67% del totale) sono composte principalmente da immateriali (€7.6M) che includono probabilmente avviamento e software. Le immobilizzazioni materiali sono contenute (€63K).",
+      "attivo_circolante": "L'attivo circolante (€3.5M) è composto da crediti (€2.9M) e liquidità limitata (€572K). La struttura è sbilanciata verso crediti commerciali.",
+      "composizione_attivo": "La composizione 67/33 tra fisso e circolante è atipica per i servizi, con eccessiva concentrazione su immateriali di dubbia liquidabilità."
+    },
+    "stato_patrimoniale_passivo": {
+      "giudizio_breve": "Critico",
+      "colore": "red",
+      "commento": "Il passivo evidenzia squilibri gravi con PN ridotto (€772K, 6.7%) e debiti elevati (€10.5M). I debiti verso soci (€5.8M) rappresentano il 55% del totale debiti.",
+      "patrimonio_netto": "Il PN di €772K è insufficiente per un'azienda con €11.5M di attivo. Include capitale sociale €200K e utile €565K che migliora parzialmente la situazione.",
+      "debiti": "I debiti totali (€10.5M) sono dominati da debiti verso soci (€5.8M) e debiti bancari (€2.6M). La struttura è insostenibile.",
+      "struttura_fonti": "La struttura PN 6.7% / Debiti 91% è gravemente squilibrata e incompatibile con la continuità aziendale."
+    },
+    "conto_economico": {
+      "giudizio_breve": "Redditizio ma Insufficiente",
+      "colore": "yellow",
+      "commento": "Il conto economico mostra redditività operativa (ROS 9.16%) ma è insufficiente a compensare gli squilibri strutturali.",
+      "valore_produzione": "Ricavi €9.8M in crescita +8.39% indicano capacità commerciale mantenuta nonostante le difficoltà.",
+      "costi_produzione": "Costi €9.1M con incidenza del personale (€1.7M) coerente per settore labour-intensive. Ammortamenti elevati (€1.2M) per immobilizzazioni immateriali.",
+      "gestione_finanziaria": "Oneri finanziari €249K (2.5% ricavi) significativi ma gestibili. Riflettono l'elevato indebitamento.",
+      "risultato_esercizio": "Utile €565K positivo ma insufficiente per ricapitalizzazione necessaria."
+    },
+    "cash_flow_analysis": {
+      "commento": "Il cash flow operativo è positivo ma insufficiente a sostenere la struttura finanziaria squilibrata.",
+      "operating_cf": "Cash flow operativo stimato €1.8M positivo grazie ad ammortamenti elevati.",
+      "investing_cf": "Investimenti contenuti, principalmente in immobilizzazioni immateriali.",
+      "financing_cf": "Flusso finanziario negativo per servizio del debito elevato."
+    }
+  },
+  "dscr": {
+    "valore": 0.84,
+    "giudizio_breve": "Insufficiente",
+    "colore": "red",
+    "commento": "Il DSCR stimato di 0.84x è sotto la soglia critica di 1.0x, indicando che l'EBITDA non copre completamente il servizio del debito annuale. Situazione insostenibile.",
+    "componenti": {
+      "ebitda": 2093217,
+      "oneri_finanziari": 249561,
+      "quota_capitale_annuale": 2240000,
+      "servizio_debito": 2489561
+    },
+    "sostenibilita_debito": "La sostenibilità del debito è compromessa con DSCR <1.0x. L'azienda non genera flussi sufficienti per servire il debito attuale.",
+    "capacita_indebitamento_residua": "Nessuna capacità di nuovo indebitamento. Necessaria riduzione del debito esistente.",
+    "stress_test_result": "In qualsiasi scenario di stress, il DSCR peggiorerebbe ulteriormente rendendo insostenibile la situazione."
+  },
+  "red_flags": {
+    "presenti": true,
+    "severity": "HIGH",
+    "elenco": [
+      "Patrimonio netto critico (6.7% attivo)",
+      "Current ratio 0.43 - liquidità insufficiente",
+      "Leverage 14.96x - eccessivo",
+      "DSCR <1.0x - servizio debito non sostenibile",
+      "Debiti verso soci €5.8M - dipendenza finanziaria"
+    ],
+    "dettaglio": {
+      "anomalie_margini": "Nessuna anomalia significativa nei margini operativi che si mantengono in linea con il settore.",
+      "anomalie_magazzino": "Non applicabile per attività di servizi.",
+      "anomalie_crediti": "Crediti elevati ma coerenti con attività. DSO da monitorare.",
+      "tensione_liquidita": "Tensione critica con current ratio 0.43. Liquidità insufficiente per operatività normale.",
+      "eccessivo_indebitamento": "Indebitamento eccessivo con leverage 14.96x e debiti verso soci €5.8M.",
+      "eventi_negativi": "Nessun evento negativo formale ma situazione finanziaria critica.",
+      "governance_concerns": "Elevata dipendenza finanziaria dai soci può creare conflitti di interesse.",
+      "going_concern": "Continuità aziendale a rischio senza interventi immediati di ricapitalizzazione."
+    }
+  },
+  "ccii_compliance": {
+    "adeguati_assetti": {
+      "giudizio_breve": "Non Conforme",
+      "colore": "red",
+      "commento": "L'azienda non rispetta i requisiti degli adeguati assetti per la grave sottocapitalizzazione e gli squilibri finanziari. Necessario piano di risanamento."
+    },
+    "indicatori_allerta": {
+      "oneri_finanziari_ricavi": {
+        "valore": 2.56,
+        "soglia": 8,
+        "alert": false,
+        "commento": "Sotto soglia ma in contesto di stress finanziario."
+      },
+      "pn_debiti_totali": {
+        "valore": 7.34,
+        "soglia": 10,
+        "alert": true,
+        "commento": "Sotto soglia critica. PN insufficiente rispetto ai debiti."
+      },
+      "attivo_breve_passivo_breve": {
+        "valore": 40.58,
+        "soglia": 60,
+        "alert": true,
+        "commento": "Sotto soglia. Liquidità insufficiente."
+      },
+      "cash_flow_totale_attivo": {
+        "valore": 15.28,
+        "soglia": 6,
+        "alert": false,
+        "commento": "Sopra soglia ma in contesto critico."
+      },
+      "indebitamento_previdenziale_tributario": {
+        "valore": 3.84,
+        "soglia": 25,
+        "alert": false,
+        "commento": "Sotto soglia di allerta."
+      }
+    },
+    "continuita_aziendale": "La continuità aziendale è a rischio per gli squilibri patrimoniali e finanziari. Necessari interventi immediati.",
+    "raccomandazioni_assetti": [
+      "Piano di risanamento ex art. 67 CCII",
+      "Ricapitalizzazione immediata",
+      "Ristrutturazione debiti"
+    ]
+  },
+  "regulatory_compliance": {
+    "ccii_status": "NON CONFORME - Indicatori di allerta attivi. Necessario piano di risanamento.",
+    "antiriciclaggio": "Struttura societaria da verificare per elevati debiti verso soci.",
+    "privacy_note": "Analisi basata su dati pubblici e credit score autorizzati."
+  },
+  "raccomandazioni": {
+    "breve_termine": [
+      "Ricapitalizzazione urgente minimo €2M",
+      "Negoziazione moratoria debiti bancari",
+      "Piano liquidità emergenza",
+      "Attivazione procedura allerta CCII"
+    ],
+    "medio_termine": [
+      "Ristrutturazione completa debiti verso soci",
+      "Piano di risanamento strutturale",
+      "Ottimizzazione struttura costi",
+      "Miglioramento ciclo incassi"
+    ],
+    "strategiche": [
+      "Valutazione cessione rami azienda",
+      "Ricerca partner industriale",
+      "Ristrutturazione modello business",
+      "Exit strategy per soci"
+    ]
+  },
+  "confronto_settoriale": {
+    "commento_generale": "ABBREVIA si posiziona nel quartile inferiore del settore per tutti gli indicatori di solidità finanziaria. Solo la redditività operativa è in linea con i benchmark.",
+    "posizionamento": "Bottom 10% per indicatori patrimoniali e finanziari. Mediana per redditività operativa.",
+    "benchmark_principali": [
+      "PN/Attivo 6.7% vs mediana 25% (-73%)",
+      "Current Ratio 0.43 vs mediana 1.2 (-64%)",
+      "Leverage 14.96x vs mediana 3.5x (+327%)",
+      "ROS 9.16% vs mediana 8.5% (+8%)"
+    ],
+    "trend_settore": "Il settore vigilanza è in crescita ma richiede solidità finanziaria per competere. La situazione di ABBREVIA è incompatibile con gli standard settoriali."
+  },
+  "metadata": {
+    "generated_at": "2025-12-29T10:15:22Z",
+    "model_version": "claude-sonnet-4-20250514",
+    "data_source": "ABBREVIA.json via Modefinance API + elaborazione LLM",
+    "bilancio_anno": 2024,
+    "confidence_score": 0.92,
+    "analysis_depth": "Comprehensive - Situazione critica con focus su risanamento",
+    "disclaimers": [
+      "Analisi basata su dati pubblici e credit score",
+      "Situazione critica richiede verifica immediata",
+      "Raccomandazioni hanno carattere di urgenza",
+      "Consultare professionisti per piano risanamento"
+    ]
+  }
+}
